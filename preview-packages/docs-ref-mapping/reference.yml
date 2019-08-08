@@ -93,6 +93,45 @@
         - azure-arm-storage
         - azure-arm-storageimportexport
         - azure-asm-storage
+    - name: Core
+      uid: azure.nodejs.sdk.landingpage.services.core
+      items:
+      - name: Client
+        uid: azure.nodejs.sdk.landingPage.services.core.Client
+        landingPageType: Service
+        children:
+        - '@azure/core-amqp'
+        - '@azure/core-arm'
+        - '@azure/abort-controller'
+        - '@azure/core-http'
+        - '@azure/core-paging'
+        - '@azure/core-asynciterator-polyfill'
+        - '@azure/amqp-common'
+    - name: EventHubs
+      uid: azure.nodejs.sdk.landingpage.services.eventHubs
+      items:
+      - name: Client
+        uid: azure.nodejs.sdk.landingPage.services.eventHubs.Client
+        landingPageType: Service
+        children:
+        - '@azure/eventhubs'
+    - name: KeyVault
+      uid: azure.nodejs.sdk.landingpage.services.keyVault
+      items:
+      - name: Client
+        uid: azure.nodejs.sdk.landingPage.services.keyVault.Client
+        landingPageType: Service
+        children:
+        - '@azure/keyvault-keys'
+        - '@azure/keyvault-secrets'
+    - name: Identity
+      uid: azure.nodejs.sdk.landingpage.services.identity
+      items:
+      - name: Client
+        uid: azure.nodejs.sdk.landingPage.services.identity.Client
+        landingPageType: Service
+        children:
+        - '@azure/identity'        
     - name: Other
       uid: azure.nodejs.sdk.landingpage.services.other
       href: ~/docs-ref-services/other.md
