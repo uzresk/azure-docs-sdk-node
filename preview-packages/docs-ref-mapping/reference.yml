@@ -114,7 +114,7 @@
         uid: azure.nodejs.sdk.landingPage.services.eventHubs.Client
         landingPageType: Service
         children:
-        - '@azure/eventhubs'
+        - '@azure/event-hubs'
     - name: KeyVault
       uid: azure.nodejs.sdk.landingpage.services.keyVault
       items:
