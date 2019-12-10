@@ -2,8 +2,6 @@
 items:
   - uid: '@azure/core-amqp.ConnectionConfig'
     name: ConnectionConfig
-    langs:
-      - typeScript
     fullName: ConnectionConfig
     children:
       - '@azure/core-amqp.ConnectionConfig.connectionString'
@@ -17,6 +15,8 @@ items:
       - '@azure/core-amqp.ConnectionConfig.webSocket'
       - '@azure/core-amqp.ConnectionConfig.webSocketConstructorOptions'
       - '@azure/core-amqp.ConnectionConfig.webSocketEndpointPath'
+    langs:
+      - typeScript
     type: module
     summary: Describes the ConnectionConfig module
     package: '@azure/core-amqp'

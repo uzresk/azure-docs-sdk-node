@@ -121,7 +121,14 @@ items:
     type: method
     langs:
       - typeScript
-    summary: ''
+    summary: |-
+      Event emitter
+      The defined events on documents including:
+      1. close
+      2. data
+      3. end
+      4. readable
+      5. error
     syntax:
       content: 'function addListener(event: "data", listener: (chunk: any) => void)'
       parameters:
@@ -144,7 +151,14 @@ items:
     type: method
     langs:
       - typeScript
-    summary: ''
+    summary: |-
+      Event emitter
+      The defined events on documents including:
+      1. close
+      2. data
+      3. end
+      4. readable
+      5. error
     syntax:
       content: 'function addListener(event: "end", listener: () => void)'
       parameters:
@@ -167,7 +181,14 @@ items:
     type: method
     langs:
       - typeScript
-    summary: ''
+    summary: |-
+      Event emitter
+      The defined events on documents including:
+      1. close
+      2. data
+      3. end
+      4. readable
+      5. error
     syntax:
       content: 'function addListener(event: "error", listener: (err: Error) => void)'
       parameters:
@@ -190,7 +211,14 @@ items:
     type: method
     langs:
       - typeScript
-    summary: ''
+    summary: |-
+      Event emitter
+      The defined events on documents including:
+      1. close
+      2. data
+      3. end
+      4. readable
+      5. error
     syntax:
       content: 'function addListener(event: "readable", listener: () => void)'
       parameters:
@@ -213,7 +241,14 @@ items:
     type: method
     langs:
       - typeScript
-    summary: ''
+    summary: |-
+      Event emitter
+      The defined events on documents including:
+      1. close
+      2. data
+      3. end
+      4. readable
+      5. error
     syntax:
       content: >-
         function addListener(event: string | symbol, listener: (args: any[]) =>

@@ -2,8 +2,6 @@
 items:
   - uid: '@azure/keyvault-certificates.CertificatePolicy'
     name: CertificatePolicy
-    langs:
-      - typeScript
     fullName: CertificatePolicy
     children:
       - '@azure/keyvault-certificates.CertificatePolicy.certificateTransparency'
@@ -24,6 +22,8 @@ items:
       - '@azure/keyvault-certificates.CertificatePolicy.subjectAlternativeNames'
       - '@azure/keyvault-certificates.CertificatePolicy.updatedOn'
       - '@azure/keyvault-certificates.CertificatePolicy.validityInMonths'
+    langs:
+      - typeScript
     type: module
     summary: |-
       The CertificatePolicy module exports values that

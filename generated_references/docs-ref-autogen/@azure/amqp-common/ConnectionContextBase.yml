@@ -2,8 +2,6 @@
 items:
   - uid: '@azure/amqp-common.ConnectionContextBase'
     name: ConnectionContextBase
-    langs:
-      - typeScript
     fullName: ConnectionContextBase
     children:
       - '@azure/amqp-common.ConnectionContextBase.cbsSession'
@@ -16,6 +14,8 @@ items:
       - '@azure/amqp-common.ConnectionContextBase.negotiateClaimLock'
       - '@azure/amqp-common.ConnectionContextBase.tokenProvider'
       - '@azure/amqp-common.ConnectionContextBase.wasConnectionCloseCalled'
+    langs:
+      - typeScript
     type: module
     summary: ''
     package: '@azure/amqp-common'
