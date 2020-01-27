@@ -10,7 +10,6 @@ items:
       - '@azure/storage-file.RetriableReadableStream.addListener_4'
       - '@azure/storage-file.RetriableReadableStream.addListener_3'
       - '@azure/storage-file.RetriableReadableStream.addListener_5'
-      - '@azure/storage-file.RetriableReadableStream.defaultMaxListeners'
       - '@azure/storage-file.RetriableReadableStream.destroy'
       - '@azure/storage-file.RetriableReadableStream.destroyed'
       - '@azure/storage-file.RetriableReadableStream.emit'
@@ -23,7 +22,6 @@ items:
       - '@azure/storage-file.RetriableReadableStream.from'
       - '@azure/storage-file.RetriableReadableStream.getMaxListeners'
       - '@azure/storage-file.RetriableReadableStream.isPaused'
-      - '@azure/storage-file.RetriableReadableStream.listenerCount'
       - '@azure/storage-file.RetriableReadableStream.listenerCount'
       - '@azure/storage-file.RetriableReadableStream.listeners'
       - '@azure/storage-file.RetriableReadableStream.off'
@@ -230,21 +228,6 @@ items:
       return:
         type:
           - this
-        description: ''
-    package: '@azure/storage-file'
-  - uid: '@azure/storage-file.RetriableReadableStream.defaultMaxListeners'
-    name: defaultMaxListeners
-    fullName: defaultMaxListeners
-    children: []
-    langs:
-      - typeScript
-    type: property
-    summary: ''
-    syntax:
-      content: 'static defaultMaxListeners: number'
-      return:
-        type:
-          - number
         description: ''
     package: '@azure/storage-file'
   - uid: '@azure/storage-file.RetriableReadableStream.destroy'
@@ -475,33 +458,6 @@ items:
           - boolean
         description: ''
     package: '@azure/storage-file'
-  - uid: '@azure/storage-file.RetriableReadableStream.listenerCount'
-    name: 'listenerCount(EventEmitter, string | symbol)'
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: ''
-    syntax:
-      content: >-
-        static function listenerCount(emitter: EventEmitter, event: string |
-        symbol)
-      parameters:
-        - id: emitter
-          type:
-            - EventEmitter
-          description: ''
-        - id: event
-          type:
-            - string | symbol
-          description: ''
-      return:
-        type:
-          - number
-        description: ''
-    package: '@azure/storage-file'
-    deprecated:
-      content: since v4.0.0
   - uid: '@azure/storage-file.RetriableReadableStream.listenerCount'
     name: listenerCount(string | symbol)
     children: []
