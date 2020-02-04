@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.Metric'
+    name: Metric
+    fullName: Metric<T>
+    children:
+      - '@opentelemetry/types.Metric.clear'
+      - '@opentelemetry/types.Metric.getDefaultHandle'
+      - '@opentelemetry/types.Metric.getHandle'
+      - '@opentelemetry/types.Metric.removeHandle'
+      - '@opentelemetry/types.Metric.setCallback'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Metric represents a base class for different types of metric
+      pre aggregations.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Metric.clear'
+    name: clear()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Clears all timeseries from the Metric.
+    syntax:
+      content: function clear()
+      parameters: []
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Metric.getDefaultHandle'
+    name: getDefaultHandle()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a Handle for a metric with all labels not set.
+    syntax:
+      content: function getDefaultHandle()
+      parameters: []
+      return:
+        type:
+          - T
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Metric.getHandle'
+    name: 'getHandle(string[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns a Handle associated with specified label values.
+      It is recommended to keep a reference to the Handle instead of always
+      calling this method for every operations.
+    syntax:
+      content: 'function getHandle(labelValues: string[])'
+      parameters:
+        - id: labelValues
+          type:
+            - 'string[]'
+          description: |
+            the list of label values.
+      return:
+        type:
+          - T
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Metric.removeHandle'
+    name: 'removeHandle(string[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Removes the Handle from the metric, if it is present.'
+    syntax:
+      content: 'function removeHandle(labelValues: string[])'
+      parameters:
+        - id: labelValues
+          type:
+            - 'string[]'
+          description: |
+            the list of label values.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Metric.setCallback'
+    name: setCallback(() => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: what should the callback signature be?
+    syntax:
+      content: 'function setCallback(fn: () => void)'
+      parameters:
+        - id: fn
+          type:
+            - () => void
+          description: ''
+    package: '@opentelemetry/types'

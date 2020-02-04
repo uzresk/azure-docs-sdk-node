@@ -1,0 +1,278 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.net.ListenOptions
+    name: ListenOptions
+    fullName: ListenOptions
+    children:
+      - tslib.net.ListenOptions.backlog
+      - tslib.net.ListenOptions.exclusive
+      - tslib.net.ListenOptions.host
+      - tslib.net.ListenOptions.ipv6Only
+      - tslib.net.ListenOptions.path
+      - tslib.net.ListenOptions.port
+      - tslib.net.ListenOptions.readableAll
+      - tslib.net.ListenOptions.writableAll
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.net.ListenOptions.backlog
+    name: backlog
+    fullName: backlog
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'backlog?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.net.ListenOptions.exclusive
+    name: exclusive
+    fullName: exclusive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'exclusive?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.net.ListenOptions.host
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'host?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.net.ListenOptions.ipv6Only
+    name: ipv6Only
+    fullName: ipv6Only
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'ipv6Only?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.net.ListenOptions.path
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'path?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.net.ListenOptions.port
+    name: port
+    fullName: port
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'port?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.net.ListenOptions.readableAll
+    name: readableAll
+    fullName: readableAll
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'readableAll?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.net.ListenOptions.writableAll
+    name: writableAll
+    fullName: writableAll
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'writableAll?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.net.AddressInfo | string | null
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: tslib.net.Socket
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.net.Socket
+  - uid: tslib.net.ListenOptions
+    name: ListenOptions
+    spec.typeScript:
+      - name: ListenOptions
+        fullName: ListenOptions
+        uid: tslib.net.ListenOptions
+  - uid: tslib.stream.internal.Duplex
+    name: Duplex
+    spec.typeScript:
+      - name: Duplex
+        fullName: Duplex
+        uid: tslib.stream.internal.Duplex
+  - uid: tslib.net.SocketConstructorOpts
+    name: SocketConstructorOpts
+    spec.typeScript:
+      - name: SocketConstructorOpts
+        fullName: SocketConstructorOpts
+        uid: tslib.net.SocketConstructorOpts
+  - uid: tslib.net.AddressInfo | string
+    name: AddressInfo | string
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: tslib.net.SocketConnectOpts
+    name: SocketConnectOpts
+    spec.typeScript:
+      - name: SocketConnectOpts
+        fullName: SocketConnectOpts
+        uid: tslib.net.SocketConnectOpts
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.stream.internal.ReadableOptions
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: tslib.stream.internal.ReadableOptions
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.net.OnReadOpts
+    name: OnReadOpts
+    spec.typeScript:
+      - name: OnReadOpts
+        fullName: OnReadOpts
+        uid: tslib.net.OnReadOpts
+  - uid: tslib.net.IpcSocketConnectOpts
+    name: IpcSocketConnectOpts
+    spec.typeScript:
+      - name: IpcSocketConnectOpts
+        fullName: IpcSocketConnectOpts
+        uid: tslib.net.IpcSocketConnectOpts
+  - uid: tslib.net.ConnectOpts
+    name: ConnectOpts
+    spec.typeScript:
+      - name: ConnectOpts
+        fullName: ConnectOpts
+        uid: tslib.net.ConnectOpts
+  - uid: tslib.net.TcpSocketConnectOpts
+    name: TcpSocketConnectOpts
+    spec.typeScript:
+      - name: TcpSocketConnectOpts
+        fullName: TcpSocketConnectOpts
+        uid: tslib.net.TcpSocketConnectOpts
+  - uid: tslib.net.LookupFunction
+    name: LookupFunction
+    spec.typeScript:
+      - name: LookupFunction
+        fullName: LookupFunction
+        uid: tslib.net.LookupFunction
+  - uid: tslib.net.NetConnectOpts
+    name: NetConnectOpts
+    spec.typeScript:
+      - name: NetConnectOpts
+        fullName: NetConnectOpts
+        uid: tslib.net.NetConnectOpts
+  - uid: tslib.net.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.net.Server

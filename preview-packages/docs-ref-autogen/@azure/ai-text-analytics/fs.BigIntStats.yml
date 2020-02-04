@@ -1,0 +1,521 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.fs.BigIntStats'
+    name: BigIntStats
+    fullName: BigIntStats
+    children:
+      - '@azure/abort-controller.fs.BigIntStats.atime'
+      - '@azure/abort-controller.fs.BigIntStats.atimeMs'
+      - '@azure/abort-controller.fs.BigIntStats.atimeNs'
+      - '@azure/abort-controller.fs.BigIntStats.birthtime'
+      - '@azure/abort-controller.fs.BigIntStats.birthtimeMs'
+      - '@azure/abort-controller.fs.BigIntStats.birthtimeNs'
+      - '@azure/abort-controller.fs.BigIntStats.blksize'
+      - '@azure/abort-controller.fs.BigIntStats.blocks'
+      - '@azure/abort-controller.fs.BigIntStats.ctime'
+      - '@azure/abort-controller.fs.BigIntStats.ctimeMs'
+      - '@azure/abort-controller.fs.BigIntStats.ctimeNs'
+      - '@azure/abort-controller.fs.BigIntStats.dev'
+      - '@azure/abort-controller.fs.BigIntStats.gid'
+      - '@azure/abort-controller.fs.BigIntStats.ino'
+      - '@azure/abort-controller.fs.BigIntStats.isBlockDevice'
+      - '@azure/abort-controller.fs.BigIntStats.isCharacterDevice'
+      - '@azure/abort-controller.fs.BigIntStats.isDirectory'
+      - '@azure/abort-controller.fs.BigIntStats.isFIFO'
+      - '@azure/abort-controller.fs.BigIntStats.isFile'
+      - '@azure/abort-controller.fs.BigIntStats.isSocket'
+      - '@azure/abort-controller.fs.BigIntStats.isSymbolicLink'
+      - '@azure/abort-controller.fs.BigIntStats.mode'
+      - '@azure/abort-controller.fs.BigIntStats.mtime'
+      - '@azure/abort-controller.fs.BigIntStats.mtimeMs'
+      - '@azure/abort-controller.fs.BigIntStats.mtimeNs'
+      - '@azure/abort-controller.fs.BigIntStats.nlink'
+      - '@azure/abort-controller.fs.BigIntStats.rdev'
+      - '@azure/abort-controller.fs.BigIntStats.size'
+      - '@azure/abort-controller.fs.BigIntStats.uid'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.fs.StatsBase<BigInt>'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.atime'
+    name: atime
+    fullName: atime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'atime: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.atimeMs'
+    name: atimeMs
+    fullName: atimeMs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'atimeMs: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.atimeNs'
+    name: atimeNs
+    fullName: atimeNs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'atimeNs: BigInt'
+      return:
+        type:
+          - BigInt
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.birthtime'
+    name: birthtime
+    fullName: birthtime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'birthtime: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.birthtimeMs'
+    name: birthtimeMs
+    fullName: birthtimeMs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'birthtimeMs: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.birthtimeNs'
+    name: birthtimeNs
+    fullName: birthtimeNs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'birthtimeNs: BigInt'
+      return:
+        type:
+          - BigInt
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.blksize'
+    name: blksize
+    fullName: blksize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'blksize: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.blocks'
+    name: blocks
+    fullName: blocks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'blocks: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.ctime'
+    name: ctime
+    fullName: ctime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ctime: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.ctimeMs'
+    name: ctimeMs
+    fullName: ctimeMs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ctimeMs: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.ctimeNs'
+    name: ctimeNs
+    fullName: ctimeNs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ctimeNs: BigInt'
+      return:
+        type:
+          - BigInt
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.dev'
+    name: dev
+    fullName: dev
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'dev: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.gid'
+    name: gid
+    fullName: gid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'gid: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.ino'
+    name: ino
+    fullName: ino
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ino: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.isBlockDevice'
+    name: isBlockDevice()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isBlockDevice()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.isCharacterDevice'
+    name: isCharacterDevice()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isCharacterDevice()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.isDirectory'
+    name: isDirectory()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDirectory()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.isFIFO'
+    name: isFIFO()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isFIFO()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.isFile'
+    name: isFile()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isFile()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.isSocket'
+    name: isSocket()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isSocket()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.isSymbolicLink'
+    name: isSymbolicLink()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isSymbolicLink()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.mode'
+    name: mode
+    fullName: mode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mode: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.mtime'
+    name: mtime
+    fullName: mtime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mtime: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.mtimeMs'
+    name: mtimeMs
+    fullName: mtimeMs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mtimeMs: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.mtimeNs'
+    name: mtimeNs
+    fullName: mtimeNs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mtimeNs: BigInt'
+      return:
+        type:
+          - BigInt
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.nlink'
+    name: nlink
+    fullName: nlink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'nlink: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.rdev'
+    name: rdev
+    fullName: rdev
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'rdev: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.BigIntStats.uid'
+    name: uid
+    fullName: uid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'uid: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.fs.StatsBase<BigInt>'
+    name: StatsBase<BigInt>
+    spec.typeScript:
+      - name: StatsBase
+        fullName: StatsBase
+        uid: '@azure/abort-controller.fs.StatsBase'
+      - name: <BigInt>
+        fullName: <BigInt>
+  - uid: '@azure/abort-controller.fs.PathLike'
+    name: PathLike
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/abort-controller.fs.PathLike'
+  - uid: '@azure/abort-controller.fs.BigIntOptions'
+    name: BigIntOptions
+    spec.typeScript:
+      - name: BigIntOptions
+        fullName: BigIntOptions
+        uid: '@azure/abort-controller.fs.BigIntOptions'
+  - uid: '@azure/abort-controller.fs.BigIntStats'
+    name: BigIntStats
+    spec.typeScript:
+      - name: BigIntStats
+        fullName: BigIntStats
+        uid: '@azure/abort-controller.fs.BigIntStats'
+  - uid: '@azure/abort-controller.fs.StatOptions'
+    name: StatOptions
+    spec.typeScript:
+      - name: StatOptions
+        fullName: StatOptions
+        uid: '@azure/abort-controller.fs.StatOptions'
+  - uid: '@azure/abort-controller.fs.Stats | @azure/abort-controller.fs.BigIntStats'
+    name: BigIntStats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: '@azure/abort-controller.fs.Stats'
+      - name: ' | '
+        fullName: ' | '
+      - name: BigIntStats
+        fullName: BigIntStats
+        uid: '@azure/abort-controller.fs.BigIntStats'

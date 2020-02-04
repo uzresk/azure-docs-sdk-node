@@ -1,0 +1,88 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.repl.REPLWriter'
+    name: REPLWriter
+    fullName: REPLWriter
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type REPLWriter = (this: REPLServer, obj: any) => string'
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.readline.Interface'
+    name: Interface
+    spec.typeScript:
+      - name: Interface
+        fullName: Interface
+        uid: '@azure/ms-rest-azure-env.readline.Interface'
+  - uid: >-
+      @azure/ms-rest-azure-env.readline.Completer |
+      @azure/ms-rest-azure-env.readline.AsyncCompleter
+    name: AsyncCompleter
+    spec.typeScript:
+      - name: Completer
+        fullName: Completer
+        uid: '@azure/ms-rest-azure-env.readline.Completer'
+      - name: ' | '
+        fullName: ' | '
+      - name: AsyncCompleter
+        fullName: AsyncCompleter
+        uid: '@azure/ms-rest-azure-env.readline.AsyncCompleter'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLEval'
+    name: REPLEval
+    spec.typeScript:
+      - name: REPLEval
+        fullName: REPLEval
+        uid: '@azure/ms-rest-azure-env.repl.REPLEval'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLWriter'
+    name: REPLWriter
+    spec.typeScript:
+      - name: REPLWriter
+        fullName: REPLWriter
+        uid: '@azure/ms-rest-azure-env.repl.REPLWriter'
+  - uid: >-
+      @azure/ms-rest-azure-env.repl.REPLCommandAction |
+      @azure/ms-rest-azure-env.repl.REPLCommand
+    name: REPLCommand
+    spec.typeScript:
+      - name: REPLCommandAction
+        fullName: REPLCommandAction
+        uid: '@azure/ms-rest-azure-env.repl.REPLCommandAction'
+      - name: ' | '
+        fullName: ' | '
+      - name: REPLCommand
+        fullName: REPLCommand
+        uid: '@azure/ms-rest-azure-env.repl.REPLCommand'
+  - uid: '@azure/ms-rest-azure-env.readline.CursorPos'
+    name: CursorPos
+    spec.typeScript:
+      - name: CursorPos
+        fullName: CursorPos
+        uid: '@azure/ms-rest-azure-env.readline.CursorPos'
+  - uid: '@azure/ms-rest-azure-env.readline.Key'
+    name: Key
+    spec.typeScript:
+      - name: Key
+        fullName: Key
+        uid: '@azure/ms-rest-azure-env.readline.Key'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLCommandAction'
+    name: REPLCommandAction
+    spec.typeScript:
+      - name: REPLCommandAction
+        fullName: REPLCommandAction
+        uid: '@azure/ms-rest-azure-env.repl.REPLCommandAction'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'

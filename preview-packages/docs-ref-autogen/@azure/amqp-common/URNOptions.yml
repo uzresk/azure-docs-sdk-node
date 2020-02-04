@@ -1,0 +1,156 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.URNOptions'
+    name: URNOptions
+    fullName: URNOptions
+    children:
+      - '@azure/ms-rest-azure-env.URNOptions.absolutePath'
+      - '@azure/ms-rest-azure-env.URNOptions.domainHost'
+      - '@azure/ms-rest-azure-env.URNOptions.iri'
+      - '@azure/ms-rest-azure-env.URNOptions.nid'
+      - '@azure/ms-rest-azure-env.URNOptions.reference'
+      - '@azure/ms-rest-azure-env.URNOptions.scheme'
+      - '@azure/ms-rest-azure-env.URNOptions.tolerant'
+      - '@azure/ms-rest-azure-env.URNOptions.unicodeSupport'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@azure/ms-rest-azure-env.URIOptions'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNOptions.absolutePath'
+    name: absolutePath
+    fullName: absolutePath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'absolutePath?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNOptions.domainHost'
+    name: domainHost
+    fullName: domainHost
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'domainHost?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNOptions.iri'
+    name: iri
+    fullName: iri
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'iri?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNOptions.nid'
+    name: nid
+    fullName: nid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'nid?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNOptions.reference'
+    name: reference
+    fullName: reference
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'reference?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNOptions.scheme'
+    name: scheme
+    fullName: scheme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'scheme?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNOptions.tolerant'
+    name: tolerant
+    fullName: tolerant
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'tolerant?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNOptions.unicodeSupport'
+    name: unicodeSupport
+    fullName: unicodeSupport
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'unicodeSupport?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.URIOptions'
+    name: URIOptions
+    spec.typeScript:
+      - name: URIOptions
+        fullName: URIOptions
+        uid: '@azure/ms-rest-azure-env.URIOptions'

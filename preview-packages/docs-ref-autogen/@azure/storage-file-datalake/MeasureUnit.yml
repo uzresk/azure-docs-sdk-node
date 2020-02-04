@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.MeasureUnit'
+    name: MeasureUnit
+    fullName: MeasureUnit
+    children:
+      - '@azure/abort-controller.MeasureUnit.BYTE'
+      - '@azure/abort-controller.MeasureUnit.KBYTE'
+      - '@azure/abort-controller.MeasureUnit.MS'
+      - '@azure/abort-controller.MeasureUnit.NS'
+      - '@azure/abort-controller.MeasureUnit.SEC'
+      - '@azure/abort-controller.MeasureUnit.UNIT'
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      Describes the unit used for the Measure. Should follows the format
+      described
+
+      by http://unitsofmeasure.org/ucum.html.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MeasureUnit.BYTE'
+    name: BYTE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MeasureUnit.KBYTE'
+    name: KBYTE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MeasureUnit.MS'
+    name: MS
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MeasureUnit.NS'
+    name: NS
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MeasureUnit.SEC'
+    name: SEC
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MeasureUnit.UNIT'
+    name: UNIT
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'

@@ -1,0 +1,503 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.http.ClientRequestArgs
+    name: ClientRequestArgs
+    fullName: ClientRequestArgs
+    children:
+      - tslib.http.ClientRequestArgs.agent
+      - tslib.http.ClientRequestArgs.auth
+      - tslib.http.ClientRequestArgs.createConnection
+      - tslib.http.ClientRequestArgs.defaultPort
+      - tslib.http.ClientRequestArgs.family
+      - tslib.http.ClientRequestArgs.headers
+      - tslib.http.ClientRequestArgs.host
+      - tslib.http.ClientRequestArgs.hostname
+      - tslib.http.ClientRequestArgs.localAddress
+      - tslib.http.ClientRequestArgs.maxHeaderSize
+      - tslib.http.ClientRequestArgs.method
+      - tslib.http.ClientRequestArgs.path
+      - tslib.http.ClientRequestArgs.port
+      - tslib.http.ClientRequestArgs.protocol
+      - tslib.http.ClientRequestArgs.setHost
+      - tslib.http.ClientRequestArgs.socketPath
+      - tslib.http.ClientRequestArgs.timeout
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.agent
+    name: agent
+    fullName: agent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'agent?: Agent | boolean'
+      return:
+        type:
+          - tslib.http.Agent | boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.auth
+    name: auth
+    fullName: auth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'auth?: string | null'
+      return:
+        type:
+          - string | null
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.createConnection
+    name: createConnection
+    fullName: createConnection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        createConnection?: undefined | (options: ClientRequestArgs, oncreate:
+        (err: Error, socket: Socket) => void) => Socket
+      return:
+        type:
+          - >-
+            undefined | (options: ClientRequestArgs, oncreate: (err: Error,
+            socket: Socket) => void) => Socket
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.defaultPort
+    name: defaultPort
+    fullName: defaultPort
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'defaultPort?: number | string'
+      return:
+        type:
+          - number | string
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.family
+    name: family
+    fullName: family
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'family?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.headers
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'headers?: OutgoingHttpHeaders'
+      return:
+        type:
+          - tslib.http.OutgoingHttpHeaders
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.host
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'host?: string | null'
+      return:
+        type:
+          - string | null
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.hostname
+    name: hostname
+    fullName: hostname
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'hostname?: string | null'
+      return:
+        type:
+          - string | null
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.localAddress
+    name: localAddress
+    fullName: localAddress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'localAddress?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.maxHeaderSize
+    name: maxHeaderSize
+    fullName: maxHeaderSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxHeaderSize?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.method
+    name: method
+    fullName: method
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'method?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.path
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'path?: string | null'
+      return:
+        type:
+          - string | null
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.port
+    name: port
+    fullName: port
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'port?: number | string | null'
+      return:
+        type:
+          - number | string | null
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.protocol
+    name: protocol
+    fullName: protocol
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'protocol?: string | null'
+      return:
+        type:
+          - string | null
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.setHost
+    name: setHost
+    fullName: setHost
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'setHost?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.socketPath
+    name: socketPath
+    fullName: socketPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'socketPath?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http.ClientRequestArgs.timeout
+    name: timeout
+    fullName: timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'timeout?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.http.AgentOptions
+    name: AgentOptions
+    spec.typeScript:
+      - name: AgentOptions
+        fullName: AgentOptions
+        uid: tslib.http.AgentOptions
+  - uid: tslib.http.OutgoingMessage
+    name: OutgoingMessage
+    spec.typeScript:
+      - name: OutgoingMessage
+        fullName: OutgoingMessage
+        uid: tslib.http.OutgoingMessage
+  - uid: string | tslib.url.URL | tslib.http.ClientRequestArgs
+    name: ClientRequestArgs
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+      - name: ' | '
+        fullName: ' | '
+      - name: ClientRequestArgs
+        fullName: ClientRequestArgs
+        uid: tslib.http.ClientRequestArgs
+  - uid: tslib.net.Socket
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.net.Socket
+  - uid: tslib.http.OutgoingHttpHeaders | Array<Object>
+    name: OutgoingHttpHeaders | Array<Object>
+    spec.typeScript:
+      - name: OutgoingHttpHeaders
+        fullName: OutgoingHttpHeaders
+        uid: tslib.http.OutgoingHttpHeaders
+      - name: ' | Array<Object>'
+        fullName: ' | Array<Object>'
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.http.OutgoingHttpHeaders
+    name: OutgoingHttpHeaders
+    spec.typeScript:
+      - name: OutgoingHttpHeaders
+        fullName: OutgoingHttpHeaders
+        uid: tslib.http.OutgoingHttpHeaders
+  - uid: tslib.http.IncomingHttpHeaders
+    name: IncomingHttpHeaders
+    spec.typeScript:
+      - name: IncomingHttpHeaders
+        fullName: IncomingHttpHeaders
+        uid: tslib.http.IncomingHttpHeaders
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.stream.internal.ReadableOptions
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: tslib.stream.internal.ReadableOptions
+  - uid: tslib.stream.internal.Writable
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: tslib.stream.internal.Writable
+  - uid: tslib.http.HttpBase
+    name: HttpBase
+    spec.typeScript:
+      - name: HttpBase
+        fullName: HttpBase
+        uid: tslib.http.HttpBase
+  - uid: tslib.http.RequestListener
+    name: RequestListener
+    spec.typeScript:
+      - name: RequestListener
+        fullName: RequestListener
+        uid: tslib.http.RequestListener
+  - uid: tslib.http.ServerOptions
+    name: ServerOptions
+    spec.typeScript:
+      - name: ServerOptions
+        fullName: ServerOptions
+        uid: tslib.http.ServerOptions
+  - uid: tslib.net.AddressInfo | string | null
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: tslib.net.ListenOptions
+    name: ListenOptions
+    spec.typeScript:
+      - name: ListenOptions
+        fullName: ListenOptions
+        uid: tslib.net.ListenOptions
+  - uid: tslib.http.IncomingMessage
+    name: IncomingMessage
+    spec.typeScript:
+      - name: IncomingMessage
+        fullName: IncomingMessage
+        uid: tslib.http.IncomingMessage
+  - uid: tslib.http.Agent | boolean
+    name: Agent | boolean
+    spec.typeScript:
+      - name: Agent
+        fullName: Agent
+        uid: tslib.http.Agent
+      - name: ' | boolean'
+        fullName: ' | boolean'
+  - uid: tslib.http.ClientRequestArgs
+    name: ClientRequestArgs
+    spec.typeScript:
+      - name: ClientRequestArgs
+        fullName: ClientRequestArgs
+        uid: tslib.http.ClientRequestArgs
+  - uid: undefined | tslib.http.IncomingMessage
+    name: IncomingMessage
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: IncomingMessage
+        fullName: IncomingMessage
+        uid: tslib.http.IncomingMessage
+  - uid: undefined | tslib.http.ServerResponse
+    name: ServerResponse
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: ServerResponse
+        fullName: ServerResponse
+        uid: tslib.http.ServerResponse
+  - uid: tslib.http.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.http.Server
+  - uid: tslib.http.RequestOptions | string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: RequestOptions
+        fullName: RequestOptions
+        uid: tslib.http.RequestOptions
+      - name: ' | string | '
+        fullName: ' | string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.http.ClientRequest
+    name: ClientRequest
+    spec.typeScript:
+      - name: ClientRequest
+        fullName: ClientRequest
+        uid: tslib.http.ClientRequest
+  - uid: string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.http.RequestOptions
+    name: RequestOptions
+    spec.typeScript:
+      - name: RequestOptions
+        fullName: RequestOptions
+        uid: tslib.http.RequestOptions

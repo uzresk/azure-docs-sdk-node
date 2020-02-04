@@ -1,0 +1,434 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.Console'
+    name: Console
+    fullName: Console
+    children:
+      - '@azure/ms-rest-azure-env.Console.assert'
+      - '@azure/ms-rest-azure-env.Console.clear'
+      - '@azure/ms-rest-azure-env.Console.Console'
+      - '@azure/ms-rest-azure-env.Console.count'
+      - '@azure/ms-rest-azure-env.Console.countReset'
+      - '@azure/ms-rest-azure-env.Console.debug'
+      - '@azure/ms-rest-azure-env.Console.dir'
+      - '@azure/ms-rest-azure-env.Console.error'
+      - '@azure/ms-rest-azure-env.Console.group'
+      - '@azure/ms-rest-azure-env.Console.groupCollapsed'
+      - '@azure/ms-rest-azure-env.Console.groupEnd'
+      - '@azure/ms-rest-azure-env.Console.info'
+      - '@azure/ms-rest-azure-env.Console.log'
+      - '@azure/ms-rest-azure-env.Console.markTimeline'
+      - '@azure/ms-rest-azure-env.Console.profile'
+      - '@azure/ms-rest-azure-env.Console.profileEnd'
+      - '@azure/ms-rest-azure-env.Console.time'
+      - '@azure/ms-rest-azure-env.Console.timeEnd'
+      - '@azure/ms-rest-azure-env.Console.timeline'
+      - '@azure/ms-rest-azure-env.Console.timelineEnd'
+      - '@azure/ms-rest-azure-env.Console.timeStamp'
+      - '@azure/ms-rest-azure-env.Console.trace'
+      - '@azure/ms-rest-azure-env.Console.warn'
+    langs:
+      - typeScript
+    type: interface
+    summary: inspector module types
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.assert'
+    name: 'assert(any, undefined | string, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function assert(value: any, message?: undefined | string,
+        optionalParams: any[])
+      parameters:
+        - id: value
+          type:
+            - any
+          description: ''
+        - id: message
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.clear'
+    name: clear()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clear()
+      parameters: []
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.Console'
+    name: Console
+    fullName: Console
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Console: ConsoleConstructor'
+      return:
+        type:
+          - ConsoleConstructor
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.count'
+    name: count(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function count(label?: undefined | string)'
+      parameters:
+        - id: label
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.countReset'
+    name: countReset(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function countReset(label?: undefined | string)'
+      parameters:
+        - id: label
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.debug'
+    name: 'debug(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function debug(message?: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.dir'
+    name: 'dir(any, NodeJS.InspectOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function dir(obj: any, options?: NodeJS.InspectOptions)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.InspectOptions'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.error'
+    name: 'error(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function error(message?: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.group'
+    name: 'group(any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function group(label: any[])'
+      parameters:
+        - id: label
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.groupCollapsed'
+    name: groupCollapsed()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function groupCollapsed()
+      parameters: []
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.groupEnd'
+    name: groupEnd()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function groupEnd()
+      parameters: []
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.info'
+    name: 'info(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function info(message?: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.log'
+    name: 'log(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function log(message?: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.markTimeline'
+    name: markTimeline(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function markTimeline(label?: undefined | string)'
+      parameters:
+        - id: label
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+    deprecated:
+      content: Use console.timeStamp() instead.
+  - uid: '@azure/ms-rest-azure-env.Console.profile'
+    name: profile(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function profile(label?: undefined | string)'
+      parameters:
+        - id: label
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.profileEnd'
+    name: profileEnd(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function profileEnd(label?: undefined | string)'
+      parameters:
+        - id: label
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.time'
+    name: time(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function time(label: string)'
+      parameters:
+        - id: label
+          type:
+            - string
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.timeEnd'
+    name: timeEnd(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function timeEnd(label: string)'
+      parameters:
+        - id: label
+          type:
+            - string
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.timeline'
+    name: timeline(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function timeline(label?: undefined | string)'
+      parameters:
+        - id: label
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+    deprecated:
+      content: Use console.time() instead.
+  - uid: '@azure/ms-rest-azure-env.Console.timelineEnd'
+    name: timelineEnd(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function timelineEnd(label?: undefined | string)'
+      parameters:
+        - id: label
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+    deprecated:
+      content: Use console.timeEnd() instead.
+  - uid: '@azure/ms-rest-azure-env.Console.timeStamp'
+    name: timeStamp(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function timeStamp(label?: undefined | string)'
+      parameters:
+        - id: label
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.trace'
+    name: 'trace(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function trace(message?: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Console.warn'
+    name: 'warn(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function warn(message?: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.NodeJS.InspectOptions'
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: '@azure/ms-rest-azure-env.NodeJS.InspectOptions'

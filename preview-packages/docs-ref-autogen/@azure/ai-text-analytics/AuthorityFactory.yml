@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.AuthorityFactory'
+    name: AuthorityFactory
+    fullName: AuthorityFactory
+    children:
+      - '@azure/abort-controller.AuthorityFactory.CreateInstance'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AuthorityFactory.CreateInstance'
+    name: 'CreateInstance(string, boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Create an authority object of the correct type based on the url
+
+      Performs basic authority validation - checks to see if the authority is of
+      a valid type (eg aad, b2c)
+    syntax:
+      content: >-
+        static function CreateInstance(authorityUrl: string, validateAuthority:
+        boolean)
+      parameters:
+        - id: authorityUrl
+          type:
+            - string
+          description: ''
+        - id: validateAuthority
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - Authority
+        description: ''
+    package: '@azure/abort-controller'

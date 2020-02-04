@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.Logger'
+    name: Logger
+    fullName: Logger
+    children:
+      - '@opentelemetry/types.Logger.debug'
+      - '@opentelemetry/types.Logger.error'
+      - '@opentelemetry/types.Logger.info'
+      - '@opentelemetry/types.Logger.warn'
+    langs:
+      - typeScript
+    type: interface
+    summary: Defines a logger interface.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Logger.debug'
+    name: debug
+    fullName: debug
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'debug: LogFunction'
+      return:
+        type:
+          - '@opentelemetry/types.LogFunction'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Logger.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'error: LogFunction'
+      return:
+        type:
+          - '@opentelemetry/types.LogFunction'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Logger.info'
+    name: info
+    fullName: info
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'info: LogFunction'
+      return:
+        type:
+          - '@opentelemetry/types.LogFunction'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Logger.warn'
+    name: warn
+    fullName: warn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'warn: LogFunction'
+      return:
+        type:
+          - '@opentelemetry/types.LogFunction'
+        description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.LogFunction'
+    name: LogFunction
+    spec.typeScript:
+      - name: LogFunction
+        fullName: LogFunction
+        uid: '@opentelemetry/types.LogFunction'

@@ -1,0 +1,313 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.IdentityClient'
+    name: IdentityClient
+    fullName: IdentityClient
+    children:
+      - '@azure/abort-controller.IdentityClient.authorityHost'
+      - '@azure/abort-controller.IdentityClient.createWebResource'
+      - '@azure/abort-controller.IdentityClient.getDefaultOptions'
+      - '@azure/abort-controller.IdentityClient.constructor'
+      - '@azure/abort-controller.IdentityClient.refreshAccessToken'
+      - '@azure/abort-controller.IdentityClient.sendOperationRequest'
+      - '@azure/abort-controller.IdentityClient.sendRequest'
+      - '@azure/abort-controller.IdentityClient.sendTokenRequest'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.ServiceClient'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.IdentityClient.authorityHost'
+    name: authorityHost
+    fullName: authorityHost
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public authorityHost: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.IdentityClient.createWebResource'
+    name: createWebResource(RequestPrepareOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createWebResource(requestOptions: RequestPrepareOptions)'
+      parameters:
+        - id: requestOptions
+          type:
+            - '@azure/abort-controller.RequestPrepareOptions'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.WebResource'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.IdentityClient.getDefaultOptions'
+    name: getDefaultOptions()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function getDefaultOptions()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.TokenCredentialOptions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.IdentityClient.constructor'
+    name: IdentityClient(TokenCredentialOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new IdentityClient(options?: TokenCredentialOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.TokenCredentialOptions'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.IdentityClient.refreshAccessToken'
+    name: >-
+      refreshAccessToken(string, string, string, string | undefined, string |
+      undefined, (responseBody: any) => number, GetTokenOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function refreshAccessToken(tenantId: string, clientId: string, scopes:
+        string, refreshToken: string | undefined, clientSecret: string |
+        undefined, expiresOnParser?: (responseBody: any) => number, options?:
+        GetTokenOptions)
+      parameters:
+        - id: tenantId
+          type:
+            - string
+          description: ''
+        - id: clientId
+          type:
+            - string
+          description: ''
+        - id: scopes
+          type:
+            - string
+          description: ''
+        - id: refreshToken
+          type:
+            - string | undefined
+          description: ''
+        - id: clientSecret
+          type:
+            - string | undefined
+          description: ''
+        - id: expiresOnParser
+          type:
+            - '(responseBody: any) => number'
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.GetTokenOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.TokenResponse | null>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.IdentityClient.sendOperationRequest'
+    name: >-
+      sendOperationRequest(OperationArguments, OperationSpec,
+      ServiceCallback<any>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Send an HTTP request that is populated using the provided OperationSpec.
+    syntax:
+      content: >-
+        function sendOperationRequest(operationArguments: OperationArguments,
+        operationSpec: OperationSpec, callback?: ServiceCallback<any>)
+      parameters:
+        - id: operationArguments
+          type:
+            - '@azure/abort-controller.OperationArguments'
+          description: >-
+            The arguments that the HTTP request's templated values will be
+            populated from.
+        - id: operationSpec
+          type:
+            - '@azure/abort-controller.OperationSpec'
+          description: The OperationSpec to use to populate the httpRequest.
+        - id: callback
+          type:
+            - '@azure/abort-controller.ServiceCallback<any>'
+          description: |
+            The callback to call when the response is received.
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.RestResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.IdentityClient.sendRequest'
+    name: sendRequest(RequestPrepareOptions | WebResource)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Send the provided httpRequest.
+    syntax:
+      content: 'function sendRequest(options: RequestPrepareOptions | WebResource)'
+      parameters:
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.RequestPrepareOptions |
+              @azure/abort-controller.WebResource
+          description: ''
+      return:
+        type:
+          - Promise<@azure/abort-controller.HttpOperationResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.IdentityClient.sendTokenRequest'
+    name: 'sendTokenRequest(WebResource, (responseBody: any) => number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function sendTokenRequest(webResource: WebResource, expiresOnParser?:
+        (responseBody: any) => number)
+      parameters:
+        - id: webResource
+          type:
+            - '@azure/abort-controller.WebResource'
+          description: ''
+        - id: expiresOnParser
+          type:
+            - '(responseBody: any) => number'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.TokenResponse | null>
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.ServiceClient'
+    name: ServiceClient
+    spec.typeScript:
+      - name: ServiceClient
+        fullName: ServiceClient
+        uid: '@azure/abort-controller.ServiceClient'
+  - uid: '@azure/abort-controller.TokenCredentialOptions'
+    name: TokenCredentialOptions
+    spec.typeScript:
+      - name: TokenCredentialOptions
+        fullName: TokenCredentialOptions
+        uid: '@azure/abort-controller.TokenCredentialOptions'
+  - uid: '@azure/abort-controller.RequestPrepareOptions'
+    name: RequestPrepareOptions
+    spec.typeScript:
+      - name: RequestPrepareOptions
+        fullName: RequestPrepareOptions
+        uid: '@azure/abort-controller.RequestPrepareOptions'
+  - uid: '@azure/abort-controller.WebResource'
+    name: WebResource
+    spec.typeScript:
+      - name: WebResource
+        fullName: WebResource
+        uid: '@azure/abort-controller.WebResource'
+  - uid: '@azure/abort-controller.GetTokenOptions'
+    name: GetTokenOptions
+    spec.typeScript:
+      - name: GetTokenOptions
+        fullName: GetTokenOptions
+        uid: '@azure/abort-controller.GetTokenOptions'
+  - uid: Promise<@azure/abort-controller.TokenResponse | null>
+    name: TokenResponse | null>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: TokenResponse
+        fullName: TokenResponse
+        uid: '@azure/abort-controller.TokenResponse'
+      - name: ' | null>'
+        fullName: ' | null>'
+  - uid: '@azure/abort-controller.OperationArguments'
+    name: OperationArguments
+    spec.typeScript:
+      - name: OperationArguments
+        fullName: OperationArguments
+        uid: '@azure/abort-controller.OperationArguments'
+  - uid: '@azure/abort-controller.OperationSpec'
+    name: OperationSpec
+    spec.typeScript:
+      - name: OperationSpec
+        fullName: OperationSpec
+        uid: '@azure/abort-controller.OperationSpec'
+  - uid: '@azure/abort-controller.ServiceCallback<any>'
+    name: ServiceCallback<any>
+    spec.typeScript:
+      - name: ServiceCallback
+        fullName: ServiceCallback
+        uid: '@azure/abort-controller.ServiceCallback'
+      - name: <any>
+        fullName: <any>
+  - uid: Promise<@azure/abort-controller.RestResponse>
+    name: RestResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: RestResponse
+        fullName: RestResponse
+        uid: '@azure/abort-controller.RestResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.RequestPrepareOptions |
+      @azure/abort-controller.WebResource
+    name: WebResource
+    spec.typeScript:
+      - name: RequestPrepareOptions
+        fullName: RequestPrepareOptions
+        uid: '@azure/abort-controller.RequestPrepareOptions'
+      - name: ' | '
+        fullName: ' | '
+      - name: WebResource
+        fullName: WebResource
+        uid: '@azure/abort-controller.WebResource'
+  - uid: Promise<@azure/abort-controller.HttpOperationResponse>
+    name: HttpOperationResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: HttpOperationResponse
+        fullName: HttpOperationResponse
+        uid: '@azure/abort-controller.HttpOperationResponse'
+      - name: '>'
+        fullName: '>'

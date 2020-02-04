@@ -1,0 +1,165 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.stream.internal.FinishedOptions'
+    name: FinishedOptions
+    fullName: FinishedOptions
+    children:
+      - '@azure/ms-rest-azure-env.stream.internal.FinishedOptions.error'
+      - '@azure/ms-rest-azure-env.stream.internal.FinishedOptions.readable'
+      - '@azure/ms-rest-azure-env.stream.internal.FinishedOptions.writable'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.FinishedOptions.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'error?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.FinishedOptions.readable'
+    name: readable
+    fullName: readable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'readable?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.FinishedOptions.writable'
+    name: writable
+    fullName: writable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'writable?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.DuplexOptions'
+    name: DuplexOptions
+    spec.typeScript:
+      - name: DuplexOptions
+        fullName: DuplexOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.DuplexOptions'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ErrnoException.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.NodeJS.ErrnoException.Error'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Transform'
+    name: Transform
+    spec.typeScript:
+      - name: Transform
+        fullName: Transform
+        uid: '@azure/ms-rest-azure-env.stream.internal.Transform'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.TransformOptions'
+    name: TransformOptions
+    spec.typeScript:
+      - name: TransformOptions
+        fullName: TransformOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.TransformOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Stream'
+    name: Stream
+    spec.typeScript:
+      - name: Stream
+        fullName: Stream
+        uid: '@azure/ms-rest-azure-env.stream.internal.Stream'
+  - uid: '@azure/ms-rest-azure-env.stream.internal'
+    name: internal
+    spec.typeScript:
+      - name: internal
+        fullName: internal
+        uid: '@azure/ms-rest-azure-env.stream.internal'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex'
+    name: Duplex
+    spec.typeScript:
+      - name: Duplex
+        fullName: Duplex
+        uid: '@azure/ms-rest-azure-env.stream.internal.Duplex'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.WritableOptions'
+    name: WritableOptions
+    spec.typeScript:
+      - name: WritableOptions
+        fullName: WritableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.WritableOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.TransformCallback'
+    name: TransformCallback
+    spec.typeScript:
+      - name: TransformCallback
+        fullName: TransformCallback
+        uid: '@azure/ms-rest-azure-env.stream.internal.TransformCallback'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.FinishedOptions'
+    name: FinishedOptions
+    spec.typeScript:
+      - name: FinishedOptions
+        fullName: FinishedOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.FinishedOptions'

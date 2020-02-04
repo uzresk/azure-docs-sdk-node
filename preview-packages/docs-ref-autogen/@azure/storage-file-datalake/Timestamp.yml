@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Timestamp'
+    name: Timestamp
+    fullName: Timestamp
+    children:
+      - '@azure/abort-controller.Timestamp.nanos'
+      - '@azure/abort-controller.Timestamp.seconds'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Timestamp.nanos'
+    name: nanos
+    fullName: nanos
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Non-negative fractions of a second at nanosecond resolution. Negative
+      second values with fractions must still have non-negative nanos values
+      that count forward in time. Must be from 0 to 999,999,999
+      inclusive.
+    syntax:
+      content: 'nanos: number | null'
+      return:
+        type:
+          - number | null
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Timestamp.seconds'
+    name: seconds
+    fullName: seconds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Represents seconds of UTC time since Unix epoch
+      1970-01-01T00:00:00Z. Must be from 0001-01-01T00:00:00Z to
+      9999-12-31T23:59:59Z inclusive.
+    syntax:
+      content: 'seconds: number | null'
+      return:
+        type:
+          - number | null
+        description: ''
+    package: '@azure/abort-controller'

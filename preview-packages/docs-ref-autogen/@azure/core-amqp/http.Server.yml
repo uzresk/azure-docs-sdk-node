@@ -1,0 +1,1689 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.http.Server
+    name: Server
+    fullName: Server
+    children:
+      - tslib.http.Server.addListener_1
+      - tslib.http.Server.addListener_2
+      - tslib.http.Server.addListener_3
+      - tslib.http.Server.addListener_4
+      - tslib.http.Server.addListener
+      - tslib.http.Server.address
+      - tslib.http.Server.close
+      - tslib.http.Server.connections
+      - tslib.http.Server.emit_1
+      - tslib.http.Server.emit_2
+      - tslib.http.Server.emit_3
+      - tslib.http.Server.emit_4
+      - tslib.http.Server.emit
+      - tslib.http.Server.eventNames
+      - tslib.http.Server.getConnections
+      - tslib.http.Server.getMaxListeners
+      - tslib.http.Server.headersTimeout
+      - tslib.http.Server.keepAliveTimeout
+      - tslib.http.Server.listen_8
+      - tslib.http.Server.listen_7
+      - tslib.http.Server.listen_6
+      - tslib.http.Server.listen_5
+      - tslib.http.Server.listen_4
+      - tslib.http.Server.listen_3
+      - tslib.http.Server.listen_2
+      - tslib.http.Server.listen_1
+      - tslib.http.Server.listen
+      - tslib.http.Server.listenerCount
+      - tslib.http.Server.listeners
+      - tslib.http.Server.listening
+      - tslib.http.Server.maxConnections
+      - tslib.http.Server.maxHeadersCount
+      - tslib.http.Server.off
+      - tslib.http.Server.on_1
+      - tslib.http.Server.on_2
+      - tslib.http.Server.on_3
+      - tslib.http.Server.on_4
+      - tslib.http.Server.on
+      - tslib.http.Server.once_1
+      - tslib.http.Server.once_2
+      - tslib.http.Server.once_3
+      - tslib.http.Server.once_4
+      - tslib.http.Server.once
+      - tslib.http.Server.prependListener_1
+      - tslib.http.Server.prependListener_2
+      - tslib.http.Server.prependListener_3
+      - tslib.http.Server.prependListener_4
+      - tslib.http.Server.prependListener
+      - tslib.http.Server.prependOnceListener_1
+      - tslib.http.Server.prependOnceListener_2
+      - tslib.http.Server.prependOnceListener_3
+      - tslib.http.Server.prependOnceListener_4
+      - tslib.http.Server.prependOnceListener
+      - tslib.http.Server.rawListeners
+      - tslib.http.Server.ref
+      - tslib.http.Server.removeAllListeners
+      - tslib.http.Server.removeListener
+      - tslib.http.Server.constructor
+      - tslib.http.Server.constructor_1
+      - tslib.http.Server.setMaxListeners
+      - tslib.http.Server.setTimeout_1
+      - tslib.http.Server.setTimeout
+      - tslib.http.Server.timeout
+      - tslib.http.Server.unref
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: tslib.http.HttpBase
+    package: tslib
+  - uid: tslib.http.Server.addListener_1
+    name: 'addListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.addListener_2
+    name: 'addListener("connection", (socket: Socket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "connection", listener: (socket: Socket) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"connection"'
+          description: ''
+        - id: listener
+          type:
+            - '(socket: Socket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.addListener_3
+    name: 'addListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.addListener_4
+    name: 'addListener("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.addListener
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      events.EventEmitter
+        1. close
+        2. connection
+        3. error
+        4. listening
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.address
+    name: address()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function address()
+      parameters: []
+      return:
+        type:
+          - tslib.net.AddressInfo | string | null
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.close
+    name: 'close(undefined | (err?: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function close(callback?: undefined | (err?: Error) => void)'
+      parameters:
+        - id: callback
+          type:
+            - 'undefined | (err?: Error) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.connections
+    name: connections
+    fullName: connections
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'connections: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.emit_1
+    name: emit("close")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "close")'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.emit_2
+    name: 'emit("connection", Socket)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "connection", socket: Socket)'
+      parameters:
+        - id: event
+          type:
+            - '"connection"'
+          description: ''
+        - id: socket
+          type:
+            - tslib.net.Socket
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.emit_3
+    name: 'emit("error", Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "error", err: Error)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: err
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.emit_4
+    name: emit("listening")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "listening")'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.emit
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.eventNames
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.getConnections
+    name: 'getConnections((error: Error | null, count: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getConnections(cb: (error: Error | null, count: number) =>
+        void)
+      parameters:
+        - id: cb
+          type:
+            - '(error: Error | null, count: number) => void'
+          description: ''
+    package: tslib
+  - uid: tslib.http.Server.getMaxListeners
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.headersTimeout
+    name: headersTimeout
+    fullName: headersTimeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Limit the amount of time the parser will wait to receive the complete HTTP
+      headers.
+    syntax:
+      content: 'headersTimeout: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.keepAliveTimeout
+    name: keepAliveTimeout
+    fullName: keepAliveTimeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'keepAliveTimeout: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.listen_8
+    name: 'listen(any, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listen(handle: any, listeningListener?: undefined | () => void)'
+      parameters:
+        - id: handle
+          type:
+            - any
+          description: ''
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.listen_7
+    name: 'listen(any, undefined | number, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(handle: any, backlog?: undefined | number,
+        listeningListener?: undefined | () => void)
+      parameters:
+        - id: handle
+          type:
+            - any
+          description: ''
+        - id: backlog
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.listen_6
+    name: 'listen(ListenOptions, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(options: ListenOptions, listeningListener?: undefined |
+        () => void)
+      parameters:
+        - id: options
+          type:
+            - tslib.net.ListenOptions
+          description: ''
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.listen_5
+    name: 'listen(string, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(path: string, listeningListener?: undefined | () =>
+        void)
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.listen_4
+    name: 'listen(string, undefined | number, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(path: string, backlog?: undefined | number,
+        listeningListener?: undefined | () => void)
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+        - id: backlog
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.listen_3
+    name: 'listen(undefined | number, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(port?: undefined | number, listeningListener?: undefined
+        | () => void)
+      parameters:
+        - id: port
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.listen_2
+    name: 'listen(undefined | number, undefined | number, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(port?: undefined | number, backlog?: undefined | number,
+        listeningListener?: undefined | () => void)
+      parameters:
+        - id: port
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: backlog
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.listen_1
+    name: 'listen(undefined | number, undefined | string, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(port?: undefined | number, hostname?: undefined |
+        string, listeningListener?: undefined | () => void)
+      parameters:
+        - id: port
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: hostname
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.listen
+    name: >-
+      listen(undefined | number, undefined | string, undefined | number,
+      undefined | () => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(port?: undefined | number, hostname?: undefined |
+        string, backlog?: undefined | number, listeningListener?: undefined | ()
+        => void)
+      parameters:
+        - id: port
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: hostname
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: backlog
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.listenerCount
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.listeners
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.listening
+    name: listening
+    fullName: listening
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'listening: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.maxConnections
+    name: maxConnections
+    fullName: maxConnections
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'maxConnections: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.maxHeadersCount
+    name: maxHeadersCount
+    fullName: maxHeadersCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Limits maximum incoming headers count. If set to 0, no limit will be
+      applied.
+    syntax:
+      content: 'maxHeadersCount: number | null'
+      return:
+        type:
+          - number | null
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.off
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.on_1
+    name: 'on("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.on_2
+    name: 'on("connection", (socket: Socket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "connection", listener: (socket: Socket) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"connection"'
+          description: ''
+        - id: listener
+          type:
+            - '(socket: Socket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.on_3
+    name: 'on("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.on_4
+    name: 'on("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.on
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.once_1
+    name: 'once("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.once_2
+    name: 'once("connection", (socket: Socket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "connection", listener: (socket: Socket) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"connection"'
+          description: ''
+        - id: listener
+          type:
+            - '(socket: Socket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.once_3
+    name: 'once("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.once_4
+    name: 'once("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.once
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.prependListener_1
+    name: 'prependListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.prependListener_2
+    name: 'prependListener("connection", (socket: Socket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "connection", listener: (socket: Socket)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"connection"'
+          description: ''
+        - id: listener
+          type:
+            - '(socket: Socket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.prependListener_3
+    name: 'prependListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.prependListener_4
+    name: 'prependListener("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.prependListener
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.prependOnceListener_1
+    name: 'prependOnceListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.prependOnceListener_2
+    name: 'prependOnceListener("connection", (socket: Socket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "connection", listener: (socket:
+        Socket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"connection"'
+          description: ''
+        - id: listener
+          type:
+            - '(socket: Socket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.prependOnceListener_3
+    name: 'prependOnceListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "error", listener: (err: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.prependOnceListener_4
+    name: 'prependOnceListener("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.prependOnceListener
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.rawListeners
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.ref
+    name: ref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ref()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.removeAllListeners
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.removeListener
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.constructor
+    name: Server(RequestListener)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Server(requestListener?: RequestListener)'
+      parameters:
+        - id: requestListener
+          type:
+            - tslib.http.RequestListener
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.http.Server.constructor_1
+    name: 'Server(ServerOptions, RequestListener)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Server(options: ServerOptions, requestListener?: RequestListener)'
+      parameters:
+        - id: options
+          type:
+            - tslib.http.ServerOptions
+          description: ''
+        - id: requestListener
+          type:
+            - tslib.http.RequestListener
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.http.Server.setMaxListeners
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.setTimeout_1
+    name: setTimeout(() => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setTimeout(callback: () => void)'
+      parameters:
+        - id: callback
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.setTimeout
+    name: 'setTimeout(undefined | number, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setTimeout(msecs?: undefined | number, callback?: undefined |
+        () => void)
+      parameters:
+        - id: msecs
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: callback
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.timeout
+    name: timeout
+    fullName: timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'timeout: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.http.Server.unref
+    name: unref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unref()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.http.AgentOptions
+    name: AgentOptions
+    spec.typeScript:
+      - name: AgentOptions
+        fullName: AgentOptions
+        uid: tslib.http.AgentOptions
+  - uid: tslib.http.OutgoingMessage
+    name: OutgoingMessage
+    spec.typeScript:
+      - name: OutgoingMessage
+        fullName: OutgoingMessage
+        uid: tslib.http.OutgoingMessage
+  - uid: string | tslib.url.URL | tslib.http.ClientRequestArgs
+    name: ClientRequestArgs
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+      - name: ' | '
+        fullName: ' | '
+      - name: ClientRequestArgs
+        fullName: ClientRequestArgs
+        uid: tslib.http.ClientRequestArgs
+  - uid: tslib.net.Socket
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.net.Socket
+  - uid: tslib.http.OutgoingHttpHeaders | Array<Object>
+    name: OutgoingHttpHeaders | Array<Object>
+    spec.typeScript:
+      - name: OutgoingHttpHeaders
+        fullName: OutgoingHttpHeaders
+        uid: tslib.http.OutgoingHttpHeaders
+      - name: ' | Array<Object>'
+        fullName: ' | Array<Object>'
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.http.OutgoingHttpHeaders
+    name: OutgoingHttpHeaders
+    spec.typeScript:
+      - name: OutgoingHttpHeaders
+        fullName: OutgoingHttpHeaders
+        uid: tslib.http.OutgoingHttpHeaders
+  - uid: tslib.http.IncomingHttpHeaders
+    name: IncomingHttpHeaders
+    spec.typeScript:
+      - name: IncomingHttpHeaders
+        fullName: IncomingHttpHeaders
+        uid: tslib.http.IncomingHttpHeaders
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.stream.internal.ReadableOptions
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: tslib.stream.internal.ReadableOptions
+  - uid: tslib.stream.internal.Writable
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: tslib.stream.internal.Writable
+  - uid: tslib.http.HttpBase
+    name: HttpBase
+    spec.typeScript:
+      - name: HttpBase
+        fullName: HttpBase
+        uid: tslib.http.HttpBase
+  - uid: tslib.http.RequestListener
+    name: RequestListener
+    spec.typeScript:
+      - name: RequestListener
+        fullName: RequestListener
+        uid: tslib.http.RequestListener
+  - uid: tslib.http.ServerOptions
+    name: ServerOptions
+    spec.typeScript:
+      - name: ServerOptions
+        fullName: ServerOptions
+        uid: tslib.http.ServerOptions
+  - uid: tslib.net.AddressInfo | string | null
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: tslib.net.ListenOptions
+    name: ListenOptions
+    spec.typeScript:
+      - name: ListenOptions
+        fullName: ListenOptions
+        uid: tslib.net.ListenOptions
+  - uid: tslib.http.IncomingMessage
+    name: IncomingMessage
+    spec.typeScript:
+      - name: IncomingMessage
+        fullName: IncomingMessage
+        uid: tslib.http.IncomingMessage
+  - uid: tslib.http.Agent | boolean
+    name: Agent | boolean
+    spec.typeScript:
+      - name: Agent
+        fullName: Agent
+        uid: tslib.http.Agent
+      - name: ' | boolean'
+        fullName: ' | boolean'
+  - uid: tslib.http.ClientRequestArgs
+    name: ClientRequestArgs
+    spec.typeScript:
+      - name: ClientRequestArgs
+        fullName: ClientRequestArgs
+        uid: tslib.http.ClientRequestArgs
+  - uid: undefined | tslib.http.IncomingMessage
+    name: IncomingMessage
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: IncomingMessage
+        fullName: IncomingMessage
+        uid: tslib.http.IncomingMessage
+  - uid: undefined | tslib.http.ServerResponse
+    name: ServerResponse
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: ServerResponse
+        fullName: ServerResponse
+        uid: tslib.http.ServerResponse
+  - uid: tslib.http.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.http.Server
+  - uid: tslib.http.RequestOptions | string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: RequestOptions
+        fullName: RequestOptions
+        uid: tslib.http.RequestOptions
+      - name: ' | string | '
+        fullName: ' | string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.http.ClientRequest
+    name: ClientRequest
+    spec.typeScript:
+      - name: ClientRequest
+        fullName: ClientRequest
+        uid: tslib.http.ClientRequest
+  - uid: string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.http.RequestOptions
+    name: RequestOptions
+    spec.typeScript:
+      - name: RequestOptions
+        fullName: RequestOptions
+        uid: tslib.http.RequestOptions

@@ -1,16 +1,16 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.DataLakeSASPermissions'
+  - uid: '@azure/abort-controller.DataLakeSASPermissions'
     name: DataLakeSASPermissions
     fullName: DataLakeSASPermissions
     children:
-      - '@azure/storage-file-datalake.DataLakeSASPermissions.add'
-      - '@azure/storage-file-datalake.DataLakeSASPermissions.create'
-      - '@azure/storage-file-datalake.DataLakeSASPermissions.delete'
-      - '@azure/storage-file-datalake.DataLakeSASPermissions.parse'
-      - '@azure/storage-file-datalake.DataLakeSASPermissions.read'
-      - '@azure/storage-file-datalake.DataLakeSASPermissions.toString'
-      - '@azure/storage-file-datalake.DataLakeSASPermissions.write'
+      - '@azure/abort-controller.DataLakeSASPermissions.add'
+      - '@azure/abort-controller.DataLakeSASPermissions.create'
+      - '@azure/abort-controller.DataLakeSASPermissions.delete'
+      - '@azure/abort-controller.DataLakeSASPermissions.parse'
+      - '@azure/abort-controller.DataLakeSASPermissions.read'
+      - '@azure/abort-controller.DataLakeSASPermissions.toString'
+      - '@azure/abort-controller.DataLakeSASPermissions.write'
     langs:
       - typeScript
     type: class
@@ -31,8 +31,8 @@ items:
 
       the order of the permissions is particular and this class guarantees
       correctness.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeSASPermissions.add'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeSASPermissions.add'
     name: add
     fullName: add
     children: []
@@ -46,8 +46,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeSASPermissions.create'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeSASPermissions.create'
     name: create
     fullName: create
     children: []
@@ -61,8 +61,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeSASPermissions.delete'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeSASPermissions.delete'
     name: delete
     fullName: delete
     children: []
@@ -76,8 +76,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeSASPermissions.parse'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeSASPermissions.parse'
     name: parse(string)
     children: []
     type: method
@@ -98,10 +98,10 @@ items:
           description: ''
       return:
         type:
-          - '@azure/storage-file-datalake.DataLakeSASPermissions'
+          - '@azure/abort-controller.DataLakeSASPermissions'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeSASPermissions.read'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeSASPermissions.read'
     name: read
     fullName: read
     children: []
@@ -115,8 +115,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeSASPermissions.toString'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeSASPermissions.toString'
     name: toString()
     children: []
     type: method
@@ -134,8 +134,8 @@ items:
         type:
           - string
         description: A string which represents the DataLakeSASPermissions
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeSASPermissions.write'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeSASPermissions.write'
     name: write
     fullName: write
     children: []
@@ -149,11 +149,11 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.DataLakeSASPermissions'
+  - uid: '@azure/abort-controller.DataLakeSASPermissions'
     name: DataLakeSASPermissions
     spec.typeScript:
       - name: DataLakeSASPermissions
         fullName: DataLakeSASPermissions
-        uid: '@azure/storage-file-datalake.DataLakeSASPermissions'
+        uid: '@azure/abort-controller.DataLakeSASPermissions'

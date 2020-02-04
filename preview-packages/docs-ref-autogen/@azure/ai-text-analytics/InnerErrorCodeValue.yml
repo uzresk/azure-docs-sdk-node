@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.InnerErrorCodeValue'
+  - uid: '@azure/abort-controller.InnerErrorCodeValue'
     name: InnerErrorCodeValue
     fullName: InnerErrorCodeValue
     children: []
@@ -23,4 +23,4 @@ items:
         "invalidRequestBodyFormat" | "emptyRequest" | "missingInputRecords" |
         "invalidDocument" | "modelVersionIncorrect" | "invalidDocumentBatch" |
         "unsupportedLanguageCode" | "invalidCountryHint"
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'

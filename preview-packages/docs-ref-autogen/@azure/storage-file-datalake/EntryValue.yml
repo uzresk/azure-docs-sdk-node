@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.EntryValue'
+    name: EntryValue
+    fullName: EntryValue
+    children:
+      - '@azure/abort-controller.EntryValue.ttl'
+      - '@azure/abort-controller.EntryValue.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      <xref:EntryValue> contains properties associated with a {@link
+      DistributedContext}.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EntryValue.ttl'
+    name: ttl
+    fullName: ttl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      ttl is an integer that represents number of hops an entry can
+      propagate.
+    optional: true
+    syntax:
+      content: 'ttl?: EntryTtl'
+      return:
+        type:
+          - '@azure/abort-controller.EntryTtl'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EntryValue.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '`String` value of the `EntryValue`.'
+    syntax:
+      content: 'value: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.EntryTtl'
+    name: EntryTtl
+    spec.typeScript:
+      - name: EntryTtl
+        fullName: EntryTtl
+        uid: '@azure/abort-controller.EntryTtl'

@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.PollOperationState'
+    name: PollOperationState
+    fullName: PollOperationState<TResult>
+    children:
+      - '@azure/abort-controller.PollOperationState.error'
+      - '@azure/abort-controller.PollOperationState.isCancelled'
+      - '@azure/abort-controller.PollOperationState.isCompleted'
+      - '@azure/abort-controller.PollOperationState.isStarted'
+      - '@azure/abort-controller.PollOperationState.result'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PollOperationState.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'error?: Error'
+      return:
+        type:
+          - '@azure/abort-controller.AbortError.Error'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PollOperationState.isCancelled'
+    name: isCancelled
+    fullName: isCancelled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isCancelled?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PollOperationState.isCompleted'
+    name: isCompleted
+    fullName: isCompleted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isCompleted?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PollOperationState.isStarted'
+    name: isStarted
+    fullName: isStarted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isStarted?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PollOperationState.result'
+    name: result
+    fullName: result
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'result?: TResult'
+      return:
+        type:
+          - TResult
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.AbortError.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/abort-controller.AbortError.Error'

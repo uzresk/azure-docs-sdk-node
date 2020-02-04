@@ -1,25 +1,25 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.SystemErrorConditionMapper'
+  - uid: '@azure/ms-rest-azure-env.SystemErrorConditionMapper'
     name: SystemErrorConditionMapper
     fullName: SystemErrorConditionMapper
     children:
-      - '@azure/amqp-common.SystemErrorConditionMapper.EBUSY'
-      - '@azure/amqp-common.SystemErrorConditionMapper.ECONNREFUSED'
-      - '@azure/amqp-common.SystemErrorConditionMapper.ECONNRESET'
-      - '@azure/amqp-common.SystemErrorConditionMapper.EHOSTDOWN'
-      - '@azure/amqp-common.SystemErrorConditionMapper.ENETDOWN'
-      - '@azure/amqp-common.SystemErrorConditionMapper.ENETRESET'
-      - '@azure/amqp-common.SystemErrorConditionMapper.ENETUNREACH'
-      - '@azure/amqp-common.SystemErrorConditionMapper.ENONET'
-      - '@azure/amqp-common.SystemErrorConditionMapper.ENOTFOUND'
-      - '@azure/amqp-common.SystemErrorConditionMapper.ETIMEDOUT'
+      - '@azure/ms-rest-azure-env.SystemErrorConditionMapper.EBUSY'
+      - '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ECONNREFUSED'
+      - '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ECONNRESET'
+      - '@azure/ms-rest-azure-env.SystemErrorConditionMapper.EHOSTDOWN'
+      - '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ENETDOWN'
+      - '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ENETRESET'
+      - '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ENETUNREACH'
+      - '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ENONET'
+      - '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ENOTFOUND'
+      - '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ETIMEDOUT'
     langs:
       - typeScript
     type: enum
     summary: Maps some SytemErrors to amqp error conditions
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SystemErrorConditionMapper.EBUSY'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SystemErrorConditionMapper.EBUSY'
     name: EBUSY
     children: []
     langs:
@@ -27,8 +27,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SystemErrorConditionMapper.ECONNREFUSED'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ECONNREFUSED'
     name: ECONNREFUSED
     children: []
     langs:
@@ -36,8 +36,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SystemErrorConditionMapper.ECONNRESET'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ECONNRESET'
     name: ECONNRESET
     children: []
     langs:
@@ -45,8 +45,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SystemErrorConditionMapper.EHOSTDOWN'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SystemErrorConditionMapper.EHOSTDOWN'
     name: EHOSTDOWN
     children: []
     langs:
@@ -54,8 +54,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SystemErrorConditionMapper.ENETDOWN'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ENETDOWN'
     name: ENETDOWN
     children: []
     langs:
@@ -63,8 +63,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SystemErrorConditionMapper.ENETRESET'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ENETRESET'
     name: ENETRESET
     children: []
     langs:
@@ -72,8 +72,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SystemErrorConditionMapper.ENETUNREACH'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ENETUNREACH'
     name: ENETUNREACH
     children: []
     langs:
@@ -81,8 +81,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SystemErrorConditionMapper.ENONET'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ENONET'
     name: ENONET
     children: []
     langs:
@@ -90,8 +90,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SystemErrorConditionMapper.ENOTFOUND'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ENOTFOUND'
     name: ENOTFOUND
     children: []
     langs:
@@ -99,8 +99,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SystemErrorConditionMapper.ETIMEDOUT'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SystemErrorConditionMapper.ETIMEDOUT'
     name: ETIMEDOUT
     children: []
     langs:
@@ -108,4 +108,4 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'

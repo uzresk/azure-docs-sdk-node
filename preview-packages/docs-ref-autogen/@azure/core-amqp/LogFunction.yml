@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.LogFunction
+    name: LogFunction
+    fullName: LogFunction
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type LogFunction = (message: string, args: unknown[]) => void'
+    package: tslib

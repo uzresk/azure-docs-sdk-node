@@ -1,0 +1,121 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.events.EventEmitter'
+    name: EventEmitter
+    langs:
+      - typeScript
+    fullName: EventEmitter
+    children:
+      - '@azure/abort-controller.events.EventEmitter.EventEmitter'
+      - '@azure/abort-controller.events.EventEmitter.on'
+      - '@azure/abort-controller.events.EventEmitter.once_1'
+      - '@azure/abort-controller.events.EventEmitter.once'
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.events.EventEmitter.on'
+    name: 'on(EventEmitter, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(emitter: EventEmitter, event: string)'
+      parameters:
+        - id: emitter
+          type:
+            - '@azure/abort-controller.events.EventEmitter.EventEmitter'
+          description: ''
+        - id: event
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - AsyncIterableIterator<any>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.events.EventEmitter.once_1'
+    name: 'once(DOMEventTarget, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(emitter: DOMEventTarget, event: string)'
+      parameters:
+        - id: emitter
+          type:
+            - '@azure/abort-controller.events.DOMEventTarget'
+          description: ''
+        - id: event
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'Promise<any[]>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.events.EventEmitter.once'
+    name: 'once(NodeEventTarget, string | symbol)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(emitter: NodeEventTarget, event: string | symbol)'
+      parameters:
+        - id: emitter
+          type:
+            - '@azure/abort-controller.events.NodeEventTarget'
+          description: ''
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Promise<any[]>'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.NodeJS.EventEmitter'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.events.NodeEventTarget'
+    name: NodeEventTarget
+    spec.typeScript:
+      - name: NodeEventTarget
+        fullName: NodeEventTarget
+        uid: '@azure/abort-controller.events.NodeEventTarget'
+  - uid: '@azure/abort-controller.events.DOMEventTarget'
+    name: DOMEventTarget
+    spec.typeScript:
+      - name: DOMEventTarget
+        fullName: DOMEventTarget
+        uid: '@azure/abort-controller.events.DOMEventTarget'
+  - uid: '@azure/abort-controller.events.EventEmitter.on'
+    name: 'on'
+  - uid: '@azure/abort-controller.events.EventEmitter.once_1'
+    name: once_1
+  - uid: '@azure/abort-controller.events.EventEmitter.once'
+    name: once

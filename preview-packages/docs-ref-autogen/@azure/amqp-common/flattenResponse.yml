@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.flattenResponse'
+    name: 'flattenResponse(HttpOperationResponse, OperationResponse | undefined)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function flattenResponse(_response: HttpOperationResponse, responseSpec:
+        OperationResponse | undefined)
+      parameters:
+        - id: _response
+          type:
+            - '@azure/ms-rest-azure-env.HttpOperationResponse'
+          description: ''
+        - id: responseSpec
+          type:
+            - '@azure/ms-rest-azure-env.OperationResponse | undefined'
+          description: ''
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.RestResponse'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.HttpOperationResponse'
+    name: HttpOperationResponse
+    spec.typeScript:
+      - name: HttpOperationResponse
+        fullName: HttpOperationResponse
+        uid: '@azure/ms-rest-azure-env.HttpOperationResponse'
+  - uid: '@azure/ms-rest-azure-env.OperationResponse | undefined'
+    name: OperationResponse | undefined
+    spec.typeScript:
+      - name: OperationResponse
+        fullName: OperationResponse
+        uid: '@azure/ms-rest-azure-env.OperationResponse'
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: '@azure/ms-rest-azure-env.RestResponse'
+    name: RestResponse
+    spec.typeScript:
+      - name: RestResponse
+        fullName: RestResponse
+        uid: '@azure/ms-rest-azure-env.RestResponse'

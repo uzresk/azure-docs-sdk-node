@@ -1,0 +1,770 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream'
+    name: ReadableStream
+    fullName: ReadableStream
+    children:
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.addListener'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.emit'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.eventNames'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.getMaxListeners'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.isPaused'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.listenerCount'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.listeners'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.off'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.on'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.once'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.pause'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.pipe'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.prependListener'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.prependOnceListener'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.rawListeners'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.read'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.readable'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.removeAllListeners'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.removeListener'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.resume'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.setEncoding'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.setMaxListeners'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.unpipe'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.unshift_1'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.unshift'
+      - '@azure/ms-rest-azure-env.NodeJS.ReadableStream.wrap'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: EventEmitter
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.addListener'
+    name: 'addListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: string | symbol, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.isPaused'
+    name: isPaused()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isPaused()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.on'
+    name: 'on(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.once'
+    name: 'once(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.pause'
+    name: pause()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function pause()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.pipe'
+    name: 'pipe(T, undefined | Object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pipe<T>(destination: T, options?: undefined | Object)'
+      parameters:
+        - id: destination
+          type:
+            - T
+          description: ''
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.prependListener'
+    name: 'prependListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.prependOnceListener'
+    name: 'prependOnceListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string | symbol, listener: (args:
+        any[]) => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.read'
+    name: read(undefined | number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function read(size?: undefined | number)'
+      parameters:
+        - id: size
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - string | Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.readable'
+    name: readable
+    fullName: readable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readable: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.removeListener'
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.resume'
+    name: resume()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resume()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.setEncoding'
+    name: setEncoding(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setEncoding(encoding: string)'
+      parameters:
+        - id: encoding
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.unpipe'
+    name: unpipe(T)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unpipe<T>(destination?: T)'
+      parameters:
+        - id: destination
+          type:
+            - T
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.unshift_1'
+    name: unshift(Buffer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unshift(chunk: Buffer)'
+      parameters:
+        - id: chunk
+          type:
+            - Buffer
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.unshift'
+    name: unshift(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unshift(chunk: string)'
+      parameters:
+        - id: chunk
+          type:
+            - string
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream.wrap'
+    name: wrap(ReadableStream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function wrap(oldStream: ReadableStream)'
+      parameters:
+        - id: oldStream
+          type:
+            - ReadableStream
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Module.Module'
+    name: Module
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: '@azure/ms-rest-azure-env.NodeJS.Module.Module'
+  - uid: '@azure/ms-rest-azure-env.NodeRequireFunction'
+    name: NodeRequireFunction
+    spec.typeScript:
+      - name: NodeRequireFunction
+        fullName: NodeRequireFunction
+        uid: '@azure/ms-rest-azure-env.NodeRequireFunction'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Events'
+    name: Events
+    spec.typeScript:
+      - name: Events
+        fullName: Events
+        uid: '@azure/ms-rest-azure-env.NodeJS.Events'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+  - uid: '@azure/ms-rest-azure-env.NodeModule'
+    name: NodeModule
+    spec.typeScript:
+      - name: NodeModule
+        fullName: NodeModule
+        uid: '@azure/ms-rest-azure-env.NodeModule'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Platform'
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: '@azure/ms-rest-azure-env.NodeJS.Platform'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.BeforeExitListener'
+    name: BeforeExitListener
+    spec.typeScript:
+      - name: BeforeExitListener
+        fullName: BeforeExitListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.BeforeExitListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.DisconnectListener'
+    name: DisconnectListener
+    spec.typeScript:
+      - name: DisconnectListener
+        fullName: DisconnectListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.DisconnectListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ExitListener'
+    name: ExitListener
+    spec.typeScript:
+      - name: ExitListener
+        fullName: ExitListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.ExitListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.RejectionHandledListener'
+    name: RejectionHandledListener
+    spec.typeScript:
+      - name: RejectionHandledListener
+        fullName: RejectionHandledListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.RejectionHandledListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.UncaughtExceptionListener'
+    name: UncaughtExceptionListener
+    spec.typeScript:
+      - name: UncaughtExceptionListener
+        fullName: UncaughtExceptionListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.UncaughtExceptionListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.UnhandledRejectionListener'
+    name: UnhandledRejectionListener
+    spec.typeScript:
+      - name: UnhandledRejectionListener
+        fullName: UnhandledRejectionListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.UnhandledRejectionListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WarningListener'
+    name: WarningListener
+    spec.typeScript:
+      - name: WarningListener
+        fullName: WarningListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.WarningListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.MessageListener'
+    name: MessageListener
+    spec.typeScript:
+      - name: MessageListener
+        fullName: MessageListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.MessageListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Signals'
+    name: Signals
+    spec.typeScript:
+      - name: Signals
+        fullName: Signals
+        uid: '@azure/ms-rest-azure-env.NodeJS.Signals'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.SignalsListener'
+    name: SignalsListener
+    spec.typeScript:
+      - name: SignalsListener
+        fullName: SignalsListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.SignalsListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.NewListenerListener'
+    name: NewListenerListener
+    spec.typeScript:
+      - name: NewListenerListener
+        fullName: NewListenerListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.NewListenerListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.RemoveListenerListener'
+    name: RemoveListenerListener
+    spec.typeScript:
+      - name: RemoveListenerListener
+        fullName: RemoveListenerListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.RemoveListenerListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CpuUsage'
+    name: CpuUsage
+    spec.typeScript:
+      - name: CpuUsage
+        fullName: CpuUsage
+        uid: '@azure/ms-rest-azure-env.NodeJS.CpuUsage'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.BeforeExitListener[]'
+    name: 'BeforeExitListener[]'
+    spec.typeScript:
+      - name: BeforeExitListener
+        fullName: BeforeExitListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.BeforeExitListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.DisconnectListener[]'
+    name: 'DisconnectListener[]'
+    spec.typeScript:
+      - name: DisconnectListener
+        fullName: DisconnectListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.DisconnectListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ExitListener[]'
+    name: 'ExitListener[]'
+    spec.typeScript:
+      - name: ExitListener
+        fullName: ExitListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.ExitListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.RejectionHandledListener[]'
+    name: 'RejectionHandledListener[]'
+    spec.typeScript:
+      - name: RejectionHandledListener
+        fullName: RejectionHandledListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.RejectionHandledListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.UncaughtExceptionListener[]'
+    name: 'UncaughtExceptionListener[]'
+    spec.typeScript:
+      - name: UncaughtExceptionListener
+        fullName: UncaughtExceptionListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.UncaughtExceptionListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.UnhandledRejectionListener[]'
+    name: 'UnhandledRejectionListener[]'
+    spec.typeScript:
+      - name: UnhandledRejectionListener
+        fullName: UnhandledRejectionListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.UnhandledRejectionListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WarningListener[]'
+    name: 'WarningListener[]'
+    spec.typeScript:
+      - name: WarningListener
+        fullName: WarningListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.WarningListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.MessageListener[]'
+    name: 'MessageListener[]'
+    spec.typeScript:
+      - name: MessageListener
+        fullName: MessageListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.MessageListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.SignalsListener[]'
+    name: 'SignalsListener[]'
+    spec.typeScript:
+      - name: SignalsListener
+        fullName: SignalsListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.SignalsListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.NewListenerListener[]'
+    name: 'NewListenerListener[]'
+    spec.typeScript:
+      - name: NewListenerListener
+        fullName: NewListenerListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.NewListenerListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.RemoveListenerListener[]'
+    name: 'RemoveListenerListener[]'
+    spec.typeScript:
+      - name: RemoveListenerListener
+        fullName: RemoveListenerListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.RemoveListenerListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.Error'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'

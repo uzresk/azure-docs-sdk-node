@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.randomNumberFromInterval'
+  - uid: tslib.randomNumberFromInterval
     name: 'randomNumberFromInterval(number, number)'
     children: []
     type: function
@@ -23,4 +23,4 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/core-amqp'
+    package: tslib

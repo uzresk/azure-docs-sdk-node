@@ -1,0 +1,264 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CpuUsage'
+    name: CpuUsage
+    fullName: CpuUsage
+    children:
+      - '@azure/ms-rest-azure-env.NodeJS.CpuUsage.system'
+      - '@azure/ms-rest-azure-env.NodeJS.CpuUsage.user'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CpuUsage.system'
+    name: system
+    fullName: system
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'system: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CpuUsage.user'
+    name: user
+    fullName: user
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'user: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Module.Module'
+    name: Module
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: '@azure/ms-rest-azure-env.NodeJS.Module.Module'
+  - uid: '@azure/ms-rest-azure-env.NodeRequireFunction'
+    name: NodeRequireFunction
+    spec.typeScript:
+      - name: NodeRequireFunction
+        fullName: NodeRequireFunction
+        uid: '@azure/ms-rest-azure-env.NodeRequireFunction'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Events'
+    name: Events
+    spec.typeScript:
+      - name: Events
+        fullName: Events
+        uid: '@azure/ms-rest-azure-env.NodeJS.Events'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+  - uid: '@azure/ms-rest-azure-env.NodeModule'
+    name: NodeModule
+    spec.typeScript:
+      - name: NodeModule
+        fullName: NodeModule
+        uid: '@azure/ms-rest-azure-env.NodeModule'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Platform'
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: '@azure/ms-rest-azure-env.NodeJS.Platform'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.BeforeExitListener'
+    name: BeforeExitListener
+    spec.typeScript:
+      - name: BeforeExitListener
+        fullName: BeforeExitListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.BeforeExitListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.DisconnectListener'
+    name: DisconnectListener
+    spec.typeScript:
+      - name: DisconnectListener
+        fullName: DisconnectListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.DisconnectListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ExitListener'
+    name: ExitListener
+    spec.typeScript:
+      - name: ExitListener
+        fullName: ExitListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.ExitListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.RejectionHandledListener'
+    name: RejectionHandledListener
+    spec.typeScript:
+      - name: RejectionHandledListener
+        fullName: RejectionHandledListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.RejectionHandledListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.UncaughtExceptionListener'
+    name: UncaughtExceptionListener
+    spec.typeScript:
+      - name: UncaughtExceptionListener
+        fullName: UncaughtExceptionListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.UncaughtExceptionListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.UnhandledRejectionListener'
+    name: UnhandledRejectionListener
+    spec.typeScript:
+      - name: UnhandledRejectionListener
+        fullName: UnhandledRejectionListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.UnhandledRejectionListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WarningListener'
+    name: WarningListener
+    spec.typeScript:
+      - name: WarningListener
+        fullName: WarningListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.WarningListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.MessageListener'
+    name: MessageListener
+    spec.typeScript:
+      - name: MessageListener
+        fullName: MessageListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.MessageListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Signals'
+    name: Signals
+    spec.typeScript:
+      - name: Signals
+        fullName: Signals
+        uid: '@azure/ms-rest-azure-env.NodeJS.Signals'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.SignalsListener'
+    name: SignalsListener
+    spec.typeScript:
+      - name: SignalsListener
+        fullName: SignalsListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.SignalsListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.NewListenerListener'
+    name: NewListenerListener
+    spec.typeScript:
+      - name: NewListenerListener
+        fullName: NewListenerListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.NewListenerListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.RemoveListenerListener'
+    name: RemoveListenerListener
+    spec.typeScript:
+      - name: RemoveListenerListener
+        fullName: RemoveListenerListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.RemoveListenerListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CpuUsage'
+    name: CpuUsage
+    spec.typeScript:
+      - name: CpuUsage
+        fullName: CpuUsage
+        uid: '@azure/ms-rest-azure-env.NodeJS.CpuUsage'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.BeforeExitListener[]'
+    name: 'BeforeExitListener[]'
+    spec.typeScript:
+      - name: BeforeExitListener
+        fullName: BeforeExitListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.BeforeExitListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.DisconnectListener[]'
+    name: 'DisconnectListener[]'
+    spec.typeScript:
+      - name: DisconnectListener
+        fullName: DisconnectListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.DisconnectListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ExitListener[]'
+    name: 'ExitListener[]'
+    spec.typeScript:
+      - name: ExitListener
+        fullName: ExitListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.ExitListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.RejectionHandledListener[]'
+    name: 'RejectionHandledListener[]'
+    spec.typeScript:
+      - name: RejectionHandledListener
+        fullName: RejectionHandledListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.RejectionHandledListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.UncaughtExceptionListener[]'
+    name: 'UncaughtExceptionListener[]'
+    spec.typeScript:
+      - name: UncaughtExceptionListener
+        fullName: UncaughtExceptionListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.UncaughtExceptionListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.UnhandledRejectionListener[]'
+    name: 'UnhandledRejectionListener[]'
+    spec.typeScript:
+      - name: UnhandledRejectionListener
+        fullName: UnhandledRejectionListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.UnhandledRejectionListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WarningListener[]'
+    name: 'WarningListener[]'
+    spec.typeScript:
+      - name: WarningListener
+        fullName: WarningListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.WarningListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.MessageListener[]'
+    name: 'MessageListener[]'
+    spec.typeScript:
+      - name: MessageListener
+        fullName: MessageListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.MessageListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.SignalsListener[]'
+    name: 'SignalsListener[]'
+    spec.typeScript:
+      - name: SignalsListener
+        fullName: SignalsListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.SignalsListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.NewListenerListener[]'
+    name: 'NewListenerListener[]'
+    spec.typeScript:
+      - name: NewListenerListener
+        fullName: NewListenerListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.NewListenerListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.RemoveListenerListener[]'
+    name: 'RemoveListenerListener[]'
+    spec.typeScript:
+      - name: RemoveListenerListener
+        fullName: RemoveListenerListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.RemoveListenerListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.Error'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'

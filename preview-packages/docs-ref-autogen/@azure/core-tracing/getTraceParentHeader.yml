@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-tracing.getTraceParentHeader'
+  - uid: '@opentelemetry/types.getTraceParentHeader'
     name: getTraceParentHeader(SpanContext)
     children: []
     type: function
@@ -12,10 +12,17 @@ items:
       parameters:
         - id: spanContext
           type:
-            - SpanContext
+            - '@opentelemetry/types.SpanContext'
           description: Contains context for a specific span.
       return:
         type:
           - string | undefined
         description: The `spanContext` represented as a `traceparent` value.
-    package: '@azure/core-tracing'
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.SpanContext'
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@opentelemetry/types.SpanContext'

@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.translate'
+  - uid: '@azure/ms-rest-azure-env.translate'
     name: translate(AmqpError | Error)
     children: []
     type: function
@@ -18,13 +18,13 @@ items:
           description: The amqp error that was received.
       return:
         type:
-          - '@azure/amqp-common.MessagingError'
+          - '@azure/ms-rest-azure-env.MessagingError'
         description: MessagingError object.
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'
 references:
-  - uid: '@azure/amqp-common.MessagingError'
+  - uid: '@azure/ms-rest-azure-env.MessagingError'
     name: MessagingError
     spec.typeScript:
       - name: MessagingError
         fullName: MessagingError
-        uid: '@azure/amqp-common.MessagingError'
+        uid: '@azure/ms-rest-azure-env.MessagingError'

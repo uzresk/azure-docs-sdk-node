@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.makeTextAnalysisResult'
+    name: 'makeTextAnalysisResult(string, TextDocumentStatistics)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function makeTextAnalysisResult(id: string, statistics?:
+        TextDocumentStatistics)
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: statistics
+          type:
+            - '@azure/abort-controller.TextDocumentStatistics'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.TextAnalyticsResult'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.TextDocumentStatistics'
+    name: TextDocumentStatistics
+    spec.typeScript:
+      - name: TextDocumentStatistics
+        fullName: TextDocumentStatistics
+        uid: '@azure/abort-controller.TextDocumentStatistics'
+  - uid: '@azure/abort-controller.TextAnalyticsResult'
+    name: TextAnalyticsResult
+    spec.typeScript:
+      - name: TextAnalyticsResult
+        fullName: TextAnalyticsResult
+        uid: '@azure/abort-controller.TextAnalyticsResult'

@@ -1,0 +1,1629 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.readline.Interface'
+    name: Interface
+    fullName: Interface
+    children:
+      - '@azure/abort-controller.readline.Interface.addListener_1'
+      - '@azure/abort-controller.readline.Interface.addListener_2'
+      - '@azure/abort-controller.readline.Interface.addListener_3'
+      - '@azure/abort-controller.readline.Interface.addListener_4'
+      - '@azure/abort-controller.readline.Interface.addListener_5'
+      - '@azure/abort-controller.readline.Interface.addListener_6'
+      - '@azure/abort-controller.readline.Interface.addListener_7'
+      - '@azure/abort-controller.readline.Interface.addListener'
+      - '@azure/abort-controller.readline.Interface.close'
+      - '@azure/abort-controller.readline.Interface.cursor'
+      - '@azure/abort-controller.readline.Interface.defaultMaxListeners'
+      - '@azure/abort-controller.readline.Interface.emit_1'
+      - '@azure/abort-controller.readline.Interface.emit_2'
+      - '@azure/abort-controller.readline.Interface.emit_3'
+      - '@azure/abort-controller.readline.Interface.emit_4'
+      - '@azure/abort-controller.readline.Interface.emit_5'
+      - '@azure/abort-controller.readline.Interface.emit_6'
+      - '@azure/abort-controller.readline.Interface.emit_7'
+      - '@azure/abort-controller.readline.Interface.emit'
+      - '@azure/abort-controller.readline.Interface.eventNames'
+      - '@azure/abort-controller.readline.Interface.getCursorPos'
+      - '@azure/abort-controller.readline.Interface.getMaxListeners'
+      - '@azure/abort-controller.readline.Interface.line'
+      - '@azure/abort-controller.readline.Interface.listenerCount'
+      - '@azure/abort-controller.readline.Interface.listenerCount'
+      - '@azure/abort-controller.readline.Interface.listeners'
+      - '@azure/abort-controller.readline.Interface.off'
+      - '@azure/abort-controller.readline.Interface.on_1'
+      - '@azure/abort-controller.readline.Interface.on_2'
+      - '@azure/abort-controller.readline.Interface.on_3'
+      - '@azure/abort-controller.readline.Interface.on_4'
+      - '@azure/abort-controller.readline.Interface.on_5'
+      - '@azure/abort-controller.readline.Interface.on_6'
+      - '@azure/abort-controller.readline.Interface.on_7'
+      - '@azure/abort-controller.readline.Interface.on'
+      - '@azure/abort-controller.readline.Interface.once_1'
+      - '@azure/abort-controller.readline.Interface.once_2'
+      - '@azure/abort-controller.readline.Interface.once_3'
+      - '@azure/abort-controller.readline.Interface.once_4'
+      - '@azure/abort-controller.readline.Interface.once_5'
+      - '@azure/abort-controller.readline.Interface.once_6'
+      - '@azure/abort-controller.readline.Interface.once_7'
+      - '@azure/abort-controller.readline.Interface.once'
+      - '@azure/abort-controller.readline.Interface.pause'
+      - '@azure/abort-controller.readline.Interface.prependListener_1'
+      - '@azure/abort-controller.readline.Interface.prependListener_2'
+      - '@azure/abort-controller.readline.Interface.prependListener_3'
+      - '@azure/abort-controller.readline.Interface.prependListener_4'
+      - '@azure/abort-controller.readline.Interface.prependListener_5'
+      - '@azure/abort-controller.readline.Interface.prependListener_6'
+      - '@azure/abort-controller.readline.Interface.prependListener_7'
+      - '@azure/abort-controller.readline.Interface.prependListener'
+      - '@azure/abort-controller.readline.Interface.prependOnceListener_1'
+      - '@azure/abort-controller.readline.Interface.prependOnceListener_2'
+      - '@azure/abort-controller.readline.Interface.prependOnceListener_3'
+      - '@azure/abort-controller.readline.Interface.prependOnceListener_4'
+      - '@azure/abort-controller.readline.Interface.prependOnceListener_5'
+      - '@azure/abort-controller.readline.Interface.prependOnceListener_6'
+      - '@azure/abort-controller.readline.Interface.prependOnceListener_7'
+      - '@azure/abort-controller.readline.Interface.prependOnceListener'
+      - '@azure/abort-controller.readline.Interface.prompt'
+      - '@azure/abort-controller.readline.Interface.question'
+      - '@azure/abort-controller.readline.Interface.rawListeners'
+      - '@azure/abort-controller.readline.Interface.removeAllListeners'
+      - '@azure/abort-controller.readline.Interface.removeListener'
+      - '@azure/abort-controller.readline.Interface.resume'
+      - '@azure/abort-controller.readline.Interface.setMaxListeners'
+      - '@azure/abort-controller.readline.Interface.setPrompt'
+      - '@azure/abort-controller.readline.Interface.terminal'
+      - '@azure/abort-controller.readline.Interface.write'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.addListener_1'
+    name: 'addListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.addListener_2'
+    name: 'addListener("line", (input: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "line", listener: (input: string) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"line"'
+          description: ''
+        - id: listener
+          type:
+            - '(input: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.addListener_3'
+    name: 'addListener("pause", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "pause", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pause"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.addListener_4'
+    name: 'addListener("resume", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "resume", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"resume"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.addListener_5'
+    name: 'addListener("SIGCONT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "SIGCONT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGCONT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.addListener_6'
+    name: 'addListener("SIGINT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "SIGINT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGINT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.addListener_7'
+    name: 'addListener("SIGTSTP", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "SIGTSTP", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGTSTP"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.addListener'
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      events.EventEmitter
+      1. close
+      2. line
+      3. pause
+      4. resume
+      5. SIGCONT
+      6. SIGINT
+      7. SIGTSTP
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.close'
+    name: close()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function close()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.cursor'
+    name: cursor
+    fullName: cursor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The current cursor position in the input line
+    syntax:
+      content: 'cursor: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.defaultMaxListeners'
+    name: defaultMaxListeners
+    fullName: defaultMaxListeners
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultMaxListeners: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.emit_1'
+    name: emit("close")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "close")'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.emit_2'
+    name: 'emit("line", string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "line", input: string)'
+      parameters:
+        - id: event
+          type:
+            - '"line"'
+          description: ''
+        - id: input
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.emit_3'
+    name: emit("pause")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "pause")'
+      parameters:
+        - id: event
+          type:
+            - '"pause"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.emit_4'
+    name: emit("resume")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "resume")'
+      parameters:
+        - id: event
+          type:
+            - '"resume"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.emit_5'
+    name: emit("SIGCONT")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "SIGCONT")'
+      parameters:
+        - id: event
+          type:
+            - '"SIGCONT"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.emit_6'
+    name: emit("SIGINT")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "SIGINT")'
+      parameters:
+        - id: event
+          type:
+            - '"SIGINT"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.emit_7'
+    name: emit("SIGTSTP")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "SIGTSTP")'
+      parameters:
+        - id: event
+          type:
+            - '"SIGTSTP"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.getCursorPos'
+    name: getCursorPos()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns the real position of the cursor in relation to the input
+      prompt + string.  Long input (wrapping) strings, as well as multiple
+      line prompts are included in the calculations.
+    syntax:
+      content: function getCursorPos()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.readline.CursorPos'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.line'
+    name: line
+    fullName: line
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The current input data
+    syntax:
+      content: 'line: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.listenerCount'
+    name: 'listenerCount(EventEmitter, string | symbol)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function listenerCount(emitter: EventEmitter, event: string |
+        symbol)
+      parameters:
+        - id: emitter
+          type:
+            - '@azure/abort-controller.events.EventEmitter.EventEmitter'
+          description: ''
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+    deprecated:
+      content: since v4.0.0
+  - uid: '@azure/abort-controller.readline.Interface.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.on_1'
+    name: 'on("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.on_2'
+    name: 'on("line", (input: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "line", listener: (input: string) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"line"'
+          description: ''
+        - id: listener
+          type:
+            - '(input: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.on_3'
+    name: 'on("pause", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "pause", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pause"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.on_4'
+    name: 'on("resume", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "resume", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"resume"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.on_5'
+    name: 'on("SIGCONT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "SIGCONT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGCONT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.on_6'
+    name: 'on("SIGINT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "SIGINT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGINT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.on_7'
+    name: 'on("SIGTSTP", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "SIGTSTP", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGTSTP"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.on'
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.once_1'
+    name: 'once("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.once_2'
+    name: 'once("line", (input: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "line", listener: (input: string) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"line"'
+          description: ''
+        - id: listener
+          type:
+            - '(input: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.once_3'
+    name: 'once("pause", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "pause", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pause"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.once_4'
+    name: 'once("resume", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "resume", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"resume"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.once_5'
+    name: 'once("SIGCONT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "SIGCONT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGCONT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.once_6'
+    name: 'once("SIGINT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "SIGINT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGINT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.once_7'
+    name: 'once("SIGTSTP", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "SIGTSTP", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGTSTP"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.once'
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.pause'
+    name: pause()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function pause()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependListener_1'
+    name: 'prependListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependListener_2'
+    name: 'prependListener("line", (input: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "line", listener: (input: string) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"line"'
+          description: ''
+        - id: listener
+          type:
+            - '(input: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependListener_3'
+    name: 'prependListener("pause", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "pause", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pause"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependListener_4'
+    name: 'prependListener("resume", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "resume", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"resume"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependListener_5'
+    name: 'prependListener("SIGCONT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "SIGCONT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGCONT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependListener_6'
+    name: 'prependListener("SIGINT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "SIGINT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGINT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependListener_7'
+    name: 'prependListener("SIGTSTP", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "SIGTSTP", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGTSTP"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependListener'
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependOnceListener_1'
+    name: 'prependOnceListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependOnceListener_2'
+    name: 'prependOnceListener("line", (input: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "line", listener: (input: string) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"line"'
+          description: ''
+        - id: listener
+          type:
+            - '(input: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependOnceListener_3'
+    name: 'prependOnceListener("pause", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "pause", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pause"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependOnceListener_4'
+    name: 'prependOnceListener("resume", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "resume", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"resume"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependOnceListener_5'
+    name: 'prependOnceListener("SIGCONT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "SIGCONT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGCONT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependOnceListener_6'
+    name: 'prependOnceListener("SIGINT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "SIGINT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGINT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependOnceListener_7'
+    name: 'prependOnceListener("SIGTSTP", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "SIGTSTP", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGTSTP"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prependOnceListener'
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.prompt'
+    name: prompt(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prompt(preserveCursor?: boolean)'
+      parameters:
+        - id: preserveCursor
+          type:
+            - boolean
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.question'
+    name: 'question(string, (answer: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function question(query: string, callback: (answer: string) => void)'
+      parameters:
+        - id: query
+          type:
+            - string
+          description: ''
+        - id: callback
+          type:
+            - '(answer: string) => void'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.removeListener'
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.resume'
+    name: resume()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resume()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.setPrompt'
+    name: setPrompt(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setPrompt(prompt: string)'
+      parameters:
+        - id: prompt
+          type:
+            - string
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.terminal'
+    name: terminal
+    fullName: terminal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'terminal: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.Interface.write'
+    name: 'write(string | Buffer, Key)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function write(data: string | Buffer, key?: Key)'
+      parameters:
+        - id: data
+          type:
+            - string | Buffer
+          description: ''
+        - id: key
+          type:
+            - '@azure/abort-controller.readline.Key'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.readline.CursorPos'
+    name: CursorPos
+    spec.typeScript:
+      - name: CursorPos
+        fullName: CursorPos
+        uid: '@azure/abort-controller.readline.CursorPos'
+  - uid: '@azure/abort-controller.readline.Key'
+    name: Key
+    spec.typeScript:
+      - name: Key
+        fullName: Key
+        uid: '@azure/abort-controller.readline.Key'
+  - uid: >-
+      @azure/abort-controller.readline.Completer |
+      @azure/abort-controller.readline.AsyncCompleter
+    name: AsyncCompleter
+    spec.typeScript:
+      - name: Completer
+        fullName: Completer
+        uid: '@azure/abort-controller.readline.Completer'
+      - name: ' | '
+        fullName: ' | '
+      - name: AsyncCompleter
+        fullName: AsyncCompleter
+        uid: '@azure/abort-controller.readline.AsyncCompleter'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.readline.Direction'
+    name: Direction
+    spec.typeScript:
+      - name: Direction
+        fullName: Direction
+        uid: '@azure/abort-controller.readline.Direction'
+  - uid: '@azure/abort-controller.readline.Interface'
+    name: Interface
+    spec.typeScript:
+      - name: Interface
+        fullName: Interface
+        uid: '@azure/abort-controller.readline.Interface'
+  - uid: '@azure/abort-controller.readline.ReadLineOptions'
+    name: ReadLineOptions
+    spec.typeScript:
+      - name: ReadLineOptions
+        fullName: ReadLineOptions
+        uid: '@azure/abort-controller.readline.ReadLineOptions'

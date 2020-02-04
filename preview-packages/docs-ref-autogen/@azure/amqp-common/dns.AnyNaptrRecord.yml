@@ -1,0 +1,125 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.dns.AnyNaptrRecord'
+    name: AnyNaptrRecord
+    fullName: AnyNaptrRecord
+    children:
+      - '@azure/ms-rest-azure-env.dns.AnyNaptrRecord.flags'
+      - '@azure/ms-rest-azure-env.dns.AnyNaptrRecord.order'
+      - '@azure/ms-rest-azure-env.dns.AnyNaptrRecord.preference'
+      - '@azure/ms-rest-azure-env.dns.AnyNaptrRecord.regexp'
+      - '@azure/ms-rest-azure-env.dns.AnyNaptrRecord.replacement'
+      - '@azure/ms-rest-azure-env.dns.AnyNaptrRecord.service'
+      - '@azure/ms-rest-azure-env.dns.AnyNaptrRecord.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: NaptrRecord
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dns.AnyNaptrRecord.flags'
+    name: flags
+    fullName: flags
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'flags: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dns.AnyNaptrRecord.order'
+    name: order
+    fullName: order
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'order: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dns.AnyNaptrRecord.preference'
+    name: preference
+    fullName: preference
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'preference: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dns.AnyNaptrRecord.regexp'
+    name: regexp
+    fullName: regexp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'regexp: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dns.AnyNaptrRecord.replacement'
+    name: replacement
+    fullName: replacement
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'replacement: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dns.AnyNaptrRecord.service'
+    name: service
+    fullName: service
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'service: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dns.AnyNaptrRecord.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: "NAPTR"'
+      return:
+        type:
+          - '"NAPTR"'
+        description: ''
+    package: '@azure/ms-rest-azure-env'

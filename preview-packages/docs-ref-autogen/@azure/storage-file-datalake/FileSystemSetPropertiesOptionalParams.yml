@@ -1,38 +1,34 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams'
+  - uid: '@azure/abort-controller.FileSystemSetPropertiesOptionalParams'
     name: FileSystemSetPropertiesOptionalParams
     fullName: FileSystemSetPropertiesOptionalParams
     children:
       - >-
-        @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.abortSignal
+        @azure/abort-controller.FileSystemSetPropertiesOptionalParams.abortSignal
       - >-
-        @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.customHeaders
+        @azure/abort-controller.FileSystemSetPropertiesOptionalParams.customHeaders
       - >-
-        @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.modifiedAccessConditions
+        @azure/abort-controller.FileSystemSetPropertiesOptionalParams.modifiedAccessConditions
       - >-
-        @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.onDownloadProgress
+        @azure/abort-controller.FileSystemSetPropertiesOptionalParams.onDownloadProgress
       - >-
-        @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.onUploadProgress
+        @azure/abort-controller.FileSystemSetPropertiesOptionalParams.onUploadProgress
+      - '@azure/abort-controller.FileSystemSetPropertiesOptionalParams.properties'
+      - '@azure/abort-controller.FileSystemSetPropertiesOptionalParams.requestId'
       - >-
-        @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.properties
+        @azure/abort-controller.FileSystemSetPropertiesOptionalParams.spanOptions
+      - '@azure/abort-controller.FileSystemSetPropertiesOptionalParams.timeout'
       - >-
-        @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.requestId
-      - >-
-        @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.spanOptions
-      - >-
-        @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.timeout
-      - >-
-        @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.timeoutParameter
+        @azure/abort-controller.FileSystemSetPropertiesOptionalParams.timeoutParameter
     langs:
       - typeScript
     type: interface
     summary: Optional Parameters.
     extends:
-      name: RequestOptionsBase
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.abortSignal
+      name: '@azure/abort-controller.RequestOptionsBase'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSetPropertiesOptionalParams.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -45,11 +41,11 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - AbortSignalLike
+          - '@azure/abort-controller.AbortSignalLike'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
   - uid: >-
-      @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.customHeaders
+      @azure/abort-controller.FileSystemSetPropertiesOptionalParams.customHeaders
     name: customHeaders
     fullName: customHeaders
     children: []
@@ -66,9 +62,9 @@ items:
         type:
           - 'undefined | [key: string]: string'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
   - uid: >-
-      @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.modifiedAccessConditions
+      @azure/abort-controller.FileSystemSetPropertiesOptionalParams.modifiedAccessConditions
     name: modifiedAccessConditions
     fullName: modifiedAccessConditions
     children: []
@@ -81,11 +77,11 @@ items:
       content: 'modifiedAccessConditions?: ModifiedAccessConditions'
       return:
         type:
-          - '@azure/storage-file-datalake.ModifiedAccessConditions'
+          - '@azure/abort-controller.ModifiedAccessConditions'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
   - uid: >-
-      @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.onDownloadProgress
+      @azure/abort-controller.FileSystemSetPropertiesOptionalParams.onDownloadProgress
     name: onDownloadProgress
     fullName: onDownloadProgress
     children: []
@@ -102,9 +98,9 @@ items:
         type:
           - 'undefined | (progress: TransferProgressEvent) => void'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
   - uid: >-
-      @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.onUploadProgress
+      @azure/abort-controller.FileSystemSetPropertiesOptionalParams.onUploadProgress
     name: onUploadProgress
     fullName: onUploadProgress
     children: []
@@ -119,9 +115,8 @@ items:
         type:
           - 'undefined | (progress: TransferProgressEvent) => void'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.properties
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSetPropertiesOptionalParams.properties'
     name: properties
     fullName: properties
     children: []
@@ -155,9 +150,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.requestId
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSetPropertiesOptionalParams.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -176,9 +170,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.spanOptions
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSetPropertiesOptionalParams.spanOptions'
     name: spanOptions
     fullName: spanOptions
     children: []
@@ -191,10 +184,10 @@ items:
       content: 'spanOptions?: SpanOptions'
       return:
         type:
-          - SpanOptions
+          - '@azure/abort-controller.SpanOptions'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.timeout'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSetPropertiesOptionalParams.timeout'
     name: timeout
     fullName: timeout
     children: []
@@ -211,9 +204,9 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
   - uid: >-
-      @azure/storage-file-datalake.FileSystemSetPropertiesOptionalParams.timeoutParameter
+      @azure/abort-controller.FileSystemSetPropertiesOptionalParams.timeoutParameter
     name: timeoutParameter
     fullName: timeoutParameter
     children: []
@@ -234,11 +227,29 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.ModifiedAccessConditions'
+  - uid: '@azure/abort-controller.RequestOptionsBase'
+    name: RequestOptionsBase
+    spec.typeScript:
+      - name: RequestOptionsBase
+        fullName: RequestOptionsBase
+        uid: '@azure/abort-controller.RequestOptionsBase'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.ModifiedAccessConditions'
     name: ModifiedAccessConditions
     spec.typeScript:
       - name: ModifiedAccessConditions
         fullName: ModifiedAccessConditions
-        uid: '@azure/storage-file-datalake.ModifiedAccessConditions'
+        uid: '@azure/abort-controller.ModifiedAccessConditions'
+  - uid: '@azure/abort-controller.SpanOptions'
+    name: SpanOptions
+    spec.typeScript:
+      - name: SpanOptions
+        fullName: SpanOptions
+        uid: '@azure/abort-controller.SpanOptions'

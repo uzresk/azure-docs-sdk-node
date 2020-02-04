@@ -1,0 +1,164 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.MetricOptions'
+    name: MetricOptions
+    fullName: MetricOptions
+    children:
+      - '@azure/abort-controller.MetricOptions.component'
+      - '@azure/abort-controller.MetricOptions.constantLabels'
+      - '@azure/abort-controller.MetricOptions.description'
+      - '@azure/abort-controller.MetricOptions.disabled'
+      - '@azure/abort-controller.MetricOptions.labelKeys'
+      - '@azure/abort-controller.MetricOptions.monotonic'
+      - '@azure/abort-controller.MetricOptions.unit'
+      - '@azure/abort-controller.MetricOptions.valueType'
+    langs:
+      - typeScript
+    type: interface
+    summary: Options needed for metric creation
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricOptions.component'
+    name: component
+    fullName: component
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the component that reports the Metric.
+    optional: true
+    syntax:
+      content: 'component?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricOptions.constantLabels'
+    name: constantLabels
+    fullName: constantLabels
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The map of constant labels for the Metric.
+    optional: true
+    syntax:
+      content: 'constantLabels?: Map<string, string>'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.Global.Map<string, string>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricOptions.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The description of the Metric.
+    optional: true
+    syntax:
+      content: 'description?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricOptions.disabled'
+    name: disabled
+    fullName: disabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates the metric is a verbose metric that is disabled by default
+    optional: true
+    syntax:
+      content: 'disabled?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricOptions.labelKeys'
+    name: labelKeys
+    fullName: labelKeys
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The list of label keys for the Metric.
+    optional: true
+    syntax:
+      content: 'labelKeys?: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricOptions.monotonic'
+    name: monotonic
+    fullName: monotonic
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Monotonic allows this metric to accept negative values. If `true` only
+      non-negative values are expected.
+    optional: true
+    syntax:
+      content: 'monotonic?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricOptions.unit'
+    name: unit
+    fullName: unit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The unit of the Metric values.
+    optional: true
+    syntax:
+      content: 'unit?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricOptions.valueType'
+    name: valueType
+    fullName: valueType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates the type of the recorded value.
+    optional: true
+    syntax:
+      content: 'valueType?: ValueType'
+      return:
+        type:
+          - '@azure/abort-controller.ValueType'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Map<string, string>'
+    name: 'Map<string, string>'
+    spec.typeScript:
+      - name: Map
+        fullName: Map
+        uid: '@azure/abort-controller.NodeJS.Global.Map'
+      - name: '<string, string>'
+        fullName: '<string, string>'
+  - uid: '@azure/abort-controller.ValueType'
+    name: ValueType
+    spec.typeScript:
+      - name: ValueType
+        fullName: ValueType
+        uid: '@azure/abort-controller.ValueType'

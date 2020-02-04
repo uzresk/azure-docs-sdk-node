@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.GaugeHandle
+    name: GaugeHandle
+    fullName: GaugeHandle
+    children:
+      - tslib.GaugeHandle.set
+    langs:
+      - typeScript
+    type: interface
+    summary: A Handle for Gauge Metric.
+    package: tslib
+  - uid: tslib.GaugeHandle.set
+    name: set(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets the given value. Values can be negative.
+    syntax:
+      content: 'function set(value: number)'
+      parameters:
+        - id: value
+          type:
+            - number
+          description: |
+            the new value.
+    package: tslib

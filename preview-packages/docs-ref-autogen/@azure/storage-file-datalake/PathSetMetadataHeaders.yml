@@ -1,23 +1,23 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathSetMetadataHeaders'
+  - uid: '@azure/abort-controller.PathSetMetadataHeaders'
     name: PathSetMetadataHeaders
     fullName: PathSetMetadataHeaders
     children:
-      - '@azure/storage-file-datalake.PathSetMetadataHeaders.clientRequestId'
-      - '@azure/storage-file-datalake.PathSetMetadataHeaders.date'
-      - '@azure/storage-file-datalake.PathSetMetadataHeaders.encryptionKeySha256'
-      - '@azure/storage-file-datalake.PathSetMetadataHeaders.etag'
-      - '@azure/storage-file-datalake.PathSetMetadataHeaders.isServerEncrypted'
-      - '@azure/storage-file-datalake.PathSetMetadataHeaders.lastModified'
-      - '@azure/storage-file-datalake.PathSetMetadataHeaders.requestId'
-      - '@azure/storage-file-datalake.PathSetMetadataHeaders.version'
+      - '@azure/abort-controller.PathSetMetadataHeaders.clientRequestId'
+      - '@azure/abort-controller.PathSetMetadataHeaders.date'
+      - '@azure/abort-controller.PathSetMetadataHeaders.encryptionKeySha256'
+      - '@azure/abort-controller.PathSetMetadataHeaders.etag'
+      - '@azure/abort-controller.PathSetMetadataHeaders.isServerEncrypted'
+      - '@azure/abort-controller.PathSetMetadataHeaders.lastModified'
+      - '@azure/abort-controller.PathSetMetadataHeaders.requestId'
+      - '@azure/abort-controller.PathSetMetadataHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetMetadataHeaders.clientRequestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetMetadataHeaders.clientRequestId'
     name: clientRequestId
     fullName: clientRequestId
     children: []
@@ -32,8 +32,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetMetadataHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetMetadataHeaders.date'
     name: date
     fullName: date
     children: []
@@ -46,10 +46,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetMetadataHeaders.encryptionKeySha256'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetMetadataHeaders.encryptionKeySha256'
     name: encryptionKeySha256
     fullName: encryptionKeySha256
     children: []
@@ -64,8 +64,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetMetadataHeaders.etag'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetMetadataHeaders.etag'
     name: etag
     fullName: etag
     children: []
@@ -80,8 +80,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetMetadataHeaders.isServerEncrypted'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetMetadataHeaders.isServerEncrypted'
     name: isServerEncrypted
     fullName: isServerEncrypted
     children: []
@@ -96,8 +96,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetMetadataHeaders.lastModified'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetMetadataHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -110,10 +110,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetMetadataHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetMetadataHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -128,8 +128,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetMetadataHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetMetadataHeaders.version'
     name: version
     fullName: version
     children: []
@@ -144,4 +144,11 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'

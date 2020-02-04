@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.TimeSeries'
+    name: TimeSeries
+    fullName: TimeSeries
+    children:
+      - '@azure/abort-controller.TimeSeries.labelValues'
+      - '@azure/abort-controller.TimeSeries.points'
+      - '@azure/abort-controller.TimeSeries.startTimestamp'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      A collection of data points that describes the time-varying values
+      of a metric.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TimeSeries.labelValues'
+    name: labelValues
+    fullName: labelValues
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The set of label values that uniquely identify this timeseries. Applies to
+      all points. The order of label values must match that of label keys in the
+      metric descriptor.
+    syntax:
+      content: 'labelValues: LabelValue[]'
+      return:
+        type:
+          - '@azure/abort-controller.LabelValue[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TimeSeries.points'
+    name: points
+    fullName: points
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The data points of this timeseries. Point.value type MUST match the
+      MetricDescriptor.type.
+    syntax:
+      content: 'points: Point[]'
+      return:
+        type:
+          - '@azure/abort-controller.Point[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TimeSeries.startTimestamp'
+    name: startTimestamp
+    fullName: startTimestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Must be present for cumulative metrics. The time when the cumulative value
+      was reset to zero. Exclusive. The cumulative value is over the time
+      interval (start_timestamp, timestamp]. If not specified, the backend can
+      use the previous recorded value.
+    optional: true
+    syntax:
+      content: 'startTimestamp?: Timestamp'
+      return:
+        type:
+          - '@azure/abort-controller.Timestamp'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.LabelValue[]'
+    name: 'LabelValue[]'
+    spec.typeScript:
+      - name: LabelValue
+        fullName: LabelValue
+        uid: '@azure/abort-controller.LabelValue'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.Point[]'
+    name: 'Point[]'
+    spec.typeScript:
+      - name: Point
+        fullName: Point
+        uid: '@azure/abort-controller.Point'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.Timestamp'
+    name: Timestamp
+    spec.typeScript:
+      - name: Timestamp
+        fullName: Timestamp
+        uid: '@azure/abort-controller.Timestamp'

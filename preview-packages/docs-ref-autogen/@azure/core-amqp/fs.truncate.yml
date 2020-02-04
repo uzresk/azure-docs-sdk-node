@@ -1,0 +1,297 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.fs.truncate
+    name: truncate
+    langs:
+      - typeScript
+    fullName: truncate
+    children: []
+    type: module
+    summary: ''
+    package: tslib
+references:
+  - uid: Object | tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: Promise<tslib.fs.Stats>
+    name: Stats>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Stats
+        fullName: Stats
+        uid: tslib.fs.Stats
+      - name: '>'
+        fullName: '>'
+  - uid: 'tslib.NodeJS.ArrayBufferView[]'
+    name: 'ArrayBufferView[]'
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: tslib.NodeJS.ArrayBufferView
+      - name: '[]'
+        fullName: '[]'
+  - uid: Promise<tslib.fs.WriteVResult>
+    name: WriteVResult>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: WriteVResult
+        fullName: WriteVResult
+        uid: tslib.fs.WriteVResult
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.fs.PathLike
+    name: PathLike
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: tslib.fs.PathLike
+  - uid: tslib.fs.PathLike | tslib.fs.promises.FileHandle
+    name: FileHandle
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: tslib.fs.PathLike
+      - name: ' | '
+        fullName: ' | '
+      - name: FileHandle
+        fullName: FileHandle
+        uid: tslib.fs.promises.FileHandle
+  - uid: tslib.fs.promises.FileHandle
+    name: FileHandle
+    spec.typeScript:
+      - name: FileHandle
+        fullName: FileHandle
+        uid: tslib.fs.promises.FileHandle
+  - uid: number | string | tslib.fs.MakeDirectoryOptions | null
+    name: MakeDirectoryOptions | null
+    spec.typeScript:
+      - name: 'number | string | '
+        fullName: 'number | string | '
+      - name: MakeDirectoryOptions
+        fullName: MakeDirectoryOptions
+        uid: tslib.fs.MakeDirectoryOptions
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: Object | tslib.BufferEncoding | null
+    name: BufferEncoding | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: Promise<tslib.fs.promises.FileHandle>
+    name: FileHandle>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: FileHandle
+        fullName: FileHandle
+        uid: tslib.fs.promises.FileHandle
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.fs.OpenDirOptions
+    name: OpenDirOptions
+    spec.typeScript:
+      - name: OpenDirOptions
+        fullName: OpenDirOptions
+        uid: tslib.fs.OpenDirOptions
+  - uid: Promise<tslib.fs.Dir>
+    name: Dir>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dir
+        fullName: Dir
+        uid: tslib.fs.Dir
+      - name: '>'
+        fullName: '>'
+  - uid: 'Promise<tslib.fs.Dirent[]>'
+    name: 'Dirent[]>'
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dirent
+        fullName: Dirent
+        uid: tslib.fs.Dirent
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: tslib.fs.RmDirAsyncOptions
+    name: RmDirAsyncOptions
+    spec.typeScript:
+      - name: RmDirAsyncOptions
+        fullName: RmDirAsyncOptions
+        uid: tslib.fs.RmDirAsyncOptions
+  - uid: Object | tslib.BufferEncoding | undefined | null
+    name: BufferEncoding | undefined | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+      - name: ' | undefined | null'
+        fullName: ' | undefined | null'
+  - uid: tslib.fs.NoParamCallback
+    name: NoParamCallback
+    spec.typeScript:
+      - name: NoParamCallback
+        fullName: NoParamCallback
+        uid: tslib.fs.NoParamCallback
+  - uid: Promise<tslib.fs.Dirent | null>
+    name: Dirent | null>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dirent
+        fullName: Dirent
+        uid: tslib.fs.Dirent
+      - name: ' | null>'
+        fullName: ' | null>'
+  - uid: tslib.fs.Dirent
+    name: Dirent
+    spec.typeScript:
+      - name: Dirent
+        fullName: Dirent
+        uid: tslib.fs.Dirent
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.stream.internal.ReadableOptions
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: tslib.stream.internal.ReadableOptions
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.fs.StatsBase<number>
+    name: StatsBase<number>
+    spec.typeScript:
+      - name: StatsBase
+        fullName: StatsBase
+        uid: tslib.fs.StatsBase
+      - name: <number>
+        fullName: <number>
+  - uid: tslib.stream.internal.Writable
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: tslib.stream.internal.Writable
+  - uid: tslib.stream.internal.WritableOptions
+    name: WritableOptions
+    spec.typeScript:
+      - name: WritableOptions
+        fullName: WritableOptions
+        uid: tslib.stream.internal.WritableOptions
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.events.EventEmitterOptions
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: tslib.events.EventEmitterOptions
+  - uid: tslib.fs.RmDirOptions
+    name: RmDirOptions
+    spec.typeScript:
+      - name: RmDirOptions
+        fullName: RmDirOptions
+        uid: tslib.fs.RmDirOptions
+  - uid: tslib.fs.PathLike | number
+    name: PathLike | number
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: tslib.fs.PathLike
+      - name: ' | number'
+        fullName: ' | number'
+  - uid: tslib.fs.WriteFileOptions
+    name: WriteFileOptions
+    spec.typeScript:
+      - name: WriteFileOptions
+        fullName: WriteFileOptions
+        uid: tslib.fs.WriteFileOptions
+  - uid: tslib.fs.ReadStream
+    name: ReadStream
+    spec.typeScript:
+      - name: ReadStream
+        fullName: ReadStream
+        uid: tslib.fs.ReadStream
+  - uid: tslib.fs.WriteStream
+    name: WriteStream
+    spec.typeScript:
+      - name: WriteStream
+        fullName: WriteStream
+        uid: tslib.fs.WriteStream
+  - uid: tslib.fs.Stats
+    name: Stats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: tslib.fs.Stats
+  - uid: tslib.fs.Dir
+    name: Dir
+    spec.typeScript:
+      - name: Dir
+        fullName: Dir
+        uid: tslib.fs.Dir
+  - uid: tslib.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: tslib.NodeJS.ArrayBufferView
+  - uid: 'tslib.fs.Dirent[]'
+    name: 'Dirent[]'
+    spec.typeScript:
+      - name: Dirent
+        fullName: Dirent
+        uid: tslib.fs.Dirent
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.fs.FSWatcher
+    name: FSWatcher
+    spec.typeScript:
+      - name: FSWatcher
+        fullName: FSWatcher
+        uid: tslib.fs.FSWatcher

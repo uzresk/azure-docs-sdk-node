@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobHierarchyListSegment'
+    name: BlobHierarchyListSegment
+    fullName: BlobHierarchyListSegment
+    children:
+      - '@azure/abort-controller.BlobHierarchyListSegment.blobItems'
+      - '@azure/abort-controller.BlobHierarchyListSegment.blobPrefixes'
+    langs:
+      - typeScript
+    type: interface
+    summary: An interface representing BlobHierarchyListSegment.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobHierarchyListSegment.blobItems'
+    name: blobItems
+    fullName: blobItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'blobItems: BlobItem[]'
+      return:
+        type:
+          - '@azure/abort-controller.BlobItem[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobHierarchyListSegment.blobPrefixes'
+    name: blobPrefixes
+    fullName: blobPrefixes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'blobPrefixes?: BlobPrefix[]'
+      return:
+        type:
+          - '@azure/abort-controller.BlobPrefix[]'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.BlobItem[]'
+    name: 'BlobItem[]'
+    spec.typeScript:
+      - name: BlobItem
+        fullName: BlobItem
+        uid: '@azure/abort-controller.BlobItem'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.BlobPrefix[]'
+    name: 'BlobPrefix[]'
+    spec.typeScript:
+      - name: BlobPrefix
+        fullName: BlobPrefix
+        uid: '@azure/abort-controller.BlobPrefix'
+      - name: '[]'
+        fullName: '[]'

@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.buffer.TranscodeEncoding'
+    name: TranscodeEncoding
+    fullName: TranscodeEncoding
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type TranscodeEncoding = "ascii" | "utf8" | "utf16le" | "ucs2" |
+        "latin1" | "binary"
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.buffer.TranscodeEncoding'
+    name: TranscodeEncoding
+    spec.typeScript:
+      - name: TranscodeEncoding
+        fullName: TranscodeEncoding
+        uid: '@azure/abort-controller.buffer.TranscodeEncoding'

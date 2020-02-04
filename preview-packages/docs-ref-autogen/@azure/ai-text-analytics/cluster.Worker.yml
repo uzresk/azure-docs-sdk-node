@@ -1,0 +1,1522 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.cluster.Worker'
+    name: Worker
+    fullName: Worker
+    children:
+      - '@azure/abort-controller.cluster.Worker.addListener_1'
+      - '@azure/abort-controller.cluster.Worker.addListener_2'
+      - '@azure/abort-controller.cluster.Worker.addListener_3'
+      - '@azure/abort-controller.cluster.Worker.addListener_4'
+      - '@azure/abort-controller.cluster.Worker.addListener_5'
+      - '@azure/abort-controller.cluster.Worker.addListener_6'
+      - '@azure/abort-controller.cluster.Worker.addListener'
+      - '@azure/abort-controller.cluster.Worker.defaultMaxListeners'
+      - '@azure/abort-controller.cluster.Worker.destroy'
+      - '@azure/abort-controller.cluster.Worker.disconnect'
+      - '@azure/abort-controller.cluster.Worker.emit_1'
+      - '@azure/abort-controller.cluster.Worker.emit_2'
+      - '@azure/abort-controller.cluster.Worker.emit_3'
+      - '@azure/abort-controller.cluster.Worker.emit_4'
+      - '@azure/abort-controller.cluster.Worker.emit_5'
+      - '@azure/abort-controller.cluster.Worker.emit_6'
+      - '@azure/abort-controller.cluster.Worker.emit'
+      - '@azure/abort-controller.cluster.Worker.eventNames'
+      - '@azure/abort-controller.cluster.Worker.exitedAfterDisconnect'
+      - '@azure/abort-controller.cluster.Worker.getMaxListeners'
+      - '@azure/abort-controller.cluster.Worker.id'
+      - '@azure/abort-controller.cluster.Worker.isConnected'
+      - '@azure/abort-controller.cluster.Worker.isDead'
+      - '@azure/abort-controller.cluster.Worker.kill'
+      - '@azure/abort-controller.cluster.Worker.listenerCount'
+      - '@azure/abort-controller.cluster.Worker.listenerCount'
+      - '@azure/abort-controller.cluster.Worker.listeners'
+      - '@azure/abort-controller.cluster.Worker.off'
+      - '@azure/abort-controller.cluster.Worker.on_1'
+      - '@azure/abort-controller.cluster.Worker.on_2'
+      - '@azure/abort-controller.cluster.Worker.on_3'
+      - '@azure/abort-controller.cluster.Worker.on_4'
+      - '@azure/abort-controller.cluster.Worker.on_5'
+      - '@azure/abort-controller.cluster.Worker.on_6'
+      - '@azure/abort-controller.cluster.Worker.on'
+      - '@azure/abort-controller.cluster.Worker.once_1'
+      - '@azure/abort-controller.cluster.Worker.once_2'
+      - '@azure/abort-controller.cluster.Worker.once_3'
+      - '@azure/abort-controller.cluster.Worker.once_4'
+      - '@azure/abort-controller.cluster.Worker.once_5'
+      - '@azure/abort-controller.cluster.Worker.once_6'
+      - '@azure/abort-controller.cluster.Worker.once'
+      - '@azure/abort-controller.cluster.Worker.prependListener_1'
+      - '@azure/abort-controller.cluster.Worker.prependListener_2'
+      - '@azure/abort-controller.cluster.Worker.prependListener_3'
+      - '@azure/abort-controller.cluster.Worker.prependListener_4'
+      - '@azure/abort-controller.cluster.Worker.prependListener_5'
+      - '@azure/abort-controller.cluster.Worker.prependListener_6'
+      - '@azure/abort-controller.cluster.Worker.prependListener'
+      - '@azure/abort-controller.cluster.Worker.prependOnceListener_1'
+      - '@azure/abort-controller.cluster.Worker.prependOnceListener_2'
+      - '@azure/abort-controller.cluster.Worker.prependOnceListener_3'
+      - '@azure/abort-controller.cluster.Worker.prependOnceListener_4'
+      - '@azure/abort-controller.cluster.Worker.prependOnceListener_5'
+      - '@azure/abort-controller.cluster.Worker.prependOnceListener_6'
+      - '@azure/abort-controller.cluster.Worker.prependOnceListener'
+      - '@azure/abort-controller.cluster.Worker.process'
+      - '@azure/abort-controller.cluster.Worker.rawListeners'
+      - '@azure/abort-controller.cluster.Worker.removeAllListeners'
+      - '@azure/abort-controller.cluster.Worker.removeListener'
+      - '@azure/abort-controller.cluster.Worker.send'
+      - '@azure/abort-controller.cluster.Worker.setMaxListeners'
+      - '@azure/abort-controller.cluster.Worker.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.addListener_1'
+    name: 'addListener("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.addListener_2'
+    name: 'addListener("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "error", listener: (error: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.addListener_3'
+    name: 'addListener("exit", (code: number, signal: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "exit", listener: (code: number, signal:
+        string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.addListener_4'
+    name: 'addListener("listening", (address: Address) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "listening", listener: (address: Address) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(address: Address) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.addListener_5'
+    name: 'addListener("message", (message: any, handle: Socket | Server) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "message", listener: (message: any, handle:
+        Socket | Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.addListener_6'
+    name: 'addListener("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.addListener'
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      events.EventEmitter
+        1. disconnect
+        2. error
+        3. exit
+        4. listening
+        5. message
+        6. online
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.defaultMaxListeners'
+    name: defaultMaxListeners
+    fullName: defaultMaxListeners
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultMaxListeners: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.destroy'
+    name: destroy(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function destroy(signal?: string)'
+      parameters:
+        - id: signal
+          type:
+            - string
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.disconnect'
+    name: disconnect()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function disconnect()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.emit_1'
+    name: emit("disconnect")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "disconnect")'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.emit_2'
+    name: 'emit("error", Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "error", error: Error)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: error
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.emit_3'
+    name: 'emit("exit", number, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "exit", code: number, signal: string)'
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: code
+          type:
+            - number
+          description: ''
+        - id: signal
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.emit_4'
+    name: 'emit("listening", Address)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "listening", address: Address)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: address
+          type:
+            - '@azure/abort-controller.cluster.Address'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.emit_5'
+    name: 'emit("message", any, Socket | Server)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "message", message: any, handle: Socket | Server)'
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: handle
+          type:
+            - >-
+              @azure/abort-controller.net.Socket |
+              @azure/abort-controller.net.Server
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.emit_6'
+    name: emit("online")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "online")'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.exitedAfterDisconnect'
+    name: exitedAfterDisconnect
+    fullName: exitedAfterDisconnect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'exitedAfterDisconnect: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.isConnected'
+    name: isConnected()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isConnected()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.isDead'
+    name: isDead()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDead()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.kill'
+    name: kill(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function kill(signal?: string)'
+      parameters:
+        - id: signal
+          type:
+            - string
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.listenerCount'
+    name: 'listenerCount(EventEmitter, string | symbol)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function listenerCount(emitter: EventEmitter, event: string |
+        symbol)
+      parameters:
+        - id: emitter
+          type:
+            - '@azure/abort-controller.events.EventEmitter.EventEmitter'
+          description: ''
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+    deprecated:
+      content: since v4.0.0
+  - uid: '@azure/abort-controller.cluster.Worker.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.on_1'
+    name: 'on("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.on_2'
+    name: 'on("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "error", listener: (error: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.on_3'
+    name: 'on("exit", (code: number, signal: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "exit", listener: (code: number, signal: string) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.on_4'
+    name: 'on("listening", (address: Address) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "listening", listener: (address: Address) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(address: Address) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.on_5'
+    name: 'on("message", (message: any, handle: Socket | Server) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "message", listener: (message: any, handle: Socket |
+        Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.on_6'
+    name: 'on("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.on'
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.once_1'
+    name: 'once("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.once_2'
+    name: 'once("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "error", listener: (error: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.once_3'
+    name: 'once("exit", (code: number, signal: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "exit", listener: (code: number, signal: string) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.once_4'
+    name: 'once("listening", (address: Address) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "listening", listener: (address: Address) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(address: Address) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.once_5'
+    name: 'once("message", (message: any, handle: Socket | Server) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "message", listener: (message: any, handle: Socket
+        | Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.once_6'
+    name: 'once("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.once'
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.prependListener_1'
+    name: 'prependListener("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.prependListener_2'
+    name: 'prependListener("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "error", listener: (error: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.prependListener_3'
+    name: 'prependListener("exit", (code: number, signal: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "exit", listener: (code: number, signal:
+        string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.prependListener_4'
+    name: 'prependListener("listening", (address: Address) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "listening", listener: (address:
+        Address) => void)
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(address: Address) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.prependListener_5'
+    name: >-
+      prependListener("message", (message: any, handle: Socket | Server) =>
+      void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "message", listener: (message: any,
+        handle: Socket | Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.prependListener_6'
+    name: 'prependListener("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.prependListener'
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.prependOnceListener_1'
+    name: 'prependOnceListener("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.prependOnceListener_2'
+    name: 'prependOnceListener("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "error", listener: (error: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.prependOnceListener_3'
+    name: 'prependOnceListener("exit", (code: number, signal: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "exit", listener: (code: number,
+        signal: string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.prependOnceListener_4'
+    name: 'prependOnceListener("listening", (address: Address) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "listening", listener: (address:
+        Address) => void)
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(address: Address) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.prependOnceListener_5'
+    name: >-
+      prependOnceListener("message", (message: any, handle: Socket | Server) =>
+      void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "message", listener: (message: any,
+        handle: Socket | Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.prependOnceListener_6'
+    name: 'prependOnceListener("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.prependOnceListener'
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.process'
+    name: process
+    fullName: process
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'process: ChildProcess'
+      return:
+        type:
+          - '@azure/abort-controller.child_process.ChildProcess'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.removeListener'
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.send'
+    name: 'send(child.Serializable, child.SendHandle, (error: Error | null) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function send(message: child.Serializable, sendHandle?:
+        child.SendHandle, callback?: (error: Error | null) => void)
+      parameters:
+        - id: message
+          type:
+            - child.Serializable
+          description: ''
+        - id: sendHandle
+          type:
+            - child.SendHandle
+          description: ''
+          optional: true
+        - id: callback
+          type:
+            - '(error: Error | null) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.cluster.Worker.constructor'
+    name: Worker(EventEmitterOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Worker(options?: EventEmitterOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.events.EventEmitterOptions'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: '@azure/abort-controller.child_process.ChildProcess'
+    name: ChildProcess
+    spec.typeScript:
+      - name: ChildProcess
+        fullName: ChildProcess
+        uid: '@azure/abort-controller.child_process.ChildProcess'
+  - uid: '@azure/abort-controller.cluster.Address'
+    name: Address
+    spec.typeScript:
+      - name: Address
+        fullName: Address
+        uid: '@azure/abort-controller.cluster.Address'
+  - uid: '@azure/abort-controller.net.Socket | @azure/abort-controller.net.Server'
+    name: Server
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/abort-controller.net.Socket'
+      - name: ' | '
+        fullName: ' | '
+      - name: Server
+        fullName: Server
+        uid: '@azure/abort-controller.net.Server'
+  - uid: '@azure/abort-controller.cluster.Worker'
+    name: Worker
+    spec.typeScript:
+      - name: Worker
+        fullName: Worker
+        uid: '@azure/abort-controller.cluster.Worker'
+  - uid: '@azure/abort-controller.cluster.ClusterSettings'
+    name: ClusterSettings
+    spec.typeScript:
+      - name: ClusterSettings
+        fullName: ClusterSettings
+        uid: '@azure/abort-controller.cluster.ClusterSettings'
+  - uid: '@azure/abort-controller.cluster.Cluster'
+    name: Cluster
+    spec.typeScript:
+      - name: Cluster
+        fullName: Cluster
+        uid: '@azure/abort-controller.cluster.Cluster'

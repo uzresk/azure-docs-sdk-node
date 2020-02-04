@@ -1,0 +1,588 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.domain.Domain
+    name: Domain
+    fullName: Domain
+    children:
+      - tslib.domain.Domain.add
+      - tslib.domain.Domain.addListener
+      - tslib.domain.Domain.bind
+      - tslib.domain.Domain.defaultMaxListeners
+      - tslib.domain.Domain.constructor
+      - tslib.domain.Domain.emit
+      - tslib.domain.Domain.enter
+      - tslib.domain.Domain.eventNames
+      - tslib.domain.Domain.exit
+      - tslib.domain.Domain.getMaxListeners
+      - tslib.domain.Domain.intercept
+      - tslib.domain.Domain.listenerCount
+      - tslib.domain.Domain.listenerCount
+      - tslib.domain.Domain.listeners
+      - tslib.domain.Domain.members
+      - tslib.domain.Domain.off
+      - tslib.domain.Domain.on
+      - tslib.domain.Domain.once
+      - tslib.domain.Domain.prependListener
+      - tslib.domain.Domain.prependOnceListener
+      - tslib.domain.Domain.rawListeners
+      - tslib.domain.Domain.remove
+      - tslib.domain.Domain.removeAllListeners
+      - tslib.domain.Domain.removeListener
+      - tslib.domain.Domain.run
+      - tslib.domain.Domain.setMaxListeners
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: tslib.events.EventEmitter.EventEmitter
+    package: tslib
+  - uid: tslib.domain.Domain.add
+    name: add(EventEmitter | Timer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function add(emitter: EventEmitter | Timer)'
+      parameters:
+        - id: emitter
+          type:
+            - tslib.events.EventEmitter.EventEmitter | tslib.NodeJS.Timer
+          description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.addListener
+    name: 'addListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: string | symbol, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.bind
+    name: bind(T)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function bind<T>(cb: T)'
+      parameters:
+        - id: cb
+          type:
+            - T
+          description: ''
+      return:
+        type:
+          - T
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.defaultMaxListeners
+    name: defaultMaxListeners
+    fullName: defaultMaxListeners
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultMaxListeners: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.constructor
+    name: Domain(EventEmitterOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Domain(options?: EventEmitterOptions)'
+      parameters:
+        - id: options
+          type:
+            - tslib.events.EventEmitterOptions
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.domain.Domain.emit
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.enter
+    name: enter()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function enter()
+      parameters: []
+    package: tslib
+  - uid: tslib.domain.Domain.eventNames
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.exit
+    name: exit()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function exit()
+      parameters: []
+    package: tslib
+  - uid: tslib.domain.Domain.getMaxListeners
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.intercept
+    name: intercept(T)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function intercept<T>(cb: T)'
+      parameters:
+        - id: cb
+          type:
+            - T
+          description: ''
+      return:
+        type:
+          - T
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.listenerCount
+    name: 'listenerCount(EventEmitter, string | symbol)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function listenerCount(emitter: EventEmitter, event: string |
+        symbol)
+      parameters:
+        - id: emitter
+          type:
+            - tslib.events.EventEmitter.EventEmitter
+          description: ''
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0
+  - uid: tslib.domain.Domain.listenerCount
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.listeners
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.members
+    name: members
+    fullName: members
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'members: Array<EventEmitter | Timer>'
+      return:
+        type:
+          - Array<tslib.events.EventEmitter.EventEmitter | tslib.NodeJS.Timer>
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.off
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.on
+    name: 'on(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.once
+    name: 'once(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.prependListener
+    name: 'prependListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.prependOnceListener
+    name: 'prependOnceListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string | symbol, listener: (args:
+        any[]) => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.rawListeners
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.remove
+    name: remove(EventEmitter | Timer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function remove(emitter: EventEmitter | Timer)'
+      parameters:
+        - id: emitter
+          type:
+            - tslib.events.EventEmitter.EventEmitter | tslib.NodeJS.Timer
+          description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.removeAllListeners
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.removeListener
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.run
+    name: 'run((args: any[]) => T, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function run<T>(fn: (args: any[]) => T, args: any[])'
+      parameters:
+        - id: fn
+          type:
+            - '(args: any[]) => T'
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - T
+        description: ''
+    package: tslib
+  - uid: tslib.domain.Domain.setMaxListeners
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.events.EventEmitterOptions
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: tslib.events.EventEmitterOptions
+  - uid: Array<tslib.events.EventEmitter.EventEmitter | tslib.NodeJS.Timer>
+    name: Timer>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+      - name: ' | '
+        fullName: ' | '
+      - name: Timer
+        fullName: Timer
+        uid: tslib.NodeJS.Timer
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.events.EventEmitter.EventEmitter | tslib.NodeJS.Timer
+    name: Timer
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+      - name: ' | '
+        fullName: ' | '
+      - name: Timer
+        fullName: Timer
+        uid: tslib.NodeJS.Timer
+  - uid: tslib.domain.Domain
+    name: Domain
+    spec.typeScript:
+      - name: Domain
+        fullName: Domain
+        uid: tslib.domain.Domain

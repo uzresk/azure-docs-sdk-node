@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.httpOverHttp'
+    name: httpOverHttp(HttpOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function httpOverHttp(options?: HttpOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.HttpOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.http.Agent'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.HttpOptions'
+    name: HttpOptions
+    spec.typeScript:
+      - name: HttpOptions
+        fullName: HttpOptions
+        uid: '@azure/abort-controller.HttpOptions'
+  - uid: '@azure/abort-controller.http.Agent'
+    name: Agent
+    spec.typeScript:
+      - name: Agent
+        fullName: Agent
+        uid: '@azure/abort-controller.http.Agent'

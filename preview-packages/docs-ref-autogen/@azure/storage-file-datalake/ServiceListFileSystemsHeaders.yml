@@ -1,21 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsHeaders'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsHeaders'
     name: ServiceListFileSystemsHeaders
     fullName: ServiceListFileSystemsHeaders
     children:
-      - '@azure/storage-file-datalake.ServiceListFileSystemsHeaders.contentType'
-      - '@azure/storage-file-datalake.ServiceListFileSystemsHeaders.continuation'
-      - '@azure/storage-file-datalake.ServiceListFileSystemsHeaders.date'
-      - '@azure/storage-file-datalake.ServiceListFileSystemsHeaders.errorCode'
-      - '@azure/storage-file-datalake.ServiceListFileSystemsHeaders.requestId'
-      - '@azure/storage-file-datalake.ServiceListFileSystemsHeaders.version'
+      - '@azure/abort-controller.ServiceListFileSystemsHeaders.contentType'
+      - '@azure/abort-controller.ServiceListFileSystemsHeaders.continuation'
+      - '@azure/abort-controller.ServiceListFileSystemsHeaders.date'
+      - '@azure/abort-controller.ServiceListFileSystemsHeaders.errorCode'
+      - '@azure/abort-controller.ServiceListFileSystemsHeaders.requestId'
+      - '@azure/abort-controller.ServiceListFileSystemsHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: Defines headers for ListFileSystems operation.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsHeaders.contentType'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsHeaders.contentType'
     name: contentType
     fullName: contentType
     children: []
@@ -32,8 +32,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsHeaders.continuation'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsHeaders.continuation'
     name: continuation
     fullName: continuation
     children: []
@@ -58,8 +58,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsHeaders.date'
     name: date
     fullName: date
     children: []
@@ -76,10 +76,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsHeaders.errorCode'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsHeaders.errorCode'
     name: errorCode
     fullName: errorCode
     children: []
@@ -94,8 +94,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -112,8 +112,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsHeaders.version'
     name: version
     fullName: version
     children: []
@@ -128,4 +128,11 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'

@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.RequestCache'
+    name: RequestCache
+    fullName: RequestCache
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type RequestCache = "default" | "force-cache" | "no-cache" | "no-store"
+        | "only-if-cached" | "reload"
+    package: '@azure/abort-controller'

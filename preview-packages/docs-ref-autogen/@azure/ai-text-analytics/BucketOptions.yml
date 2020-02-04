@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BucketOptions'
+    name: BucketOptions
+    fullName: BucketOptions
+    children:
+      - '@azure/abort-controller.BucketOptions.explicit'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Properties of a BucketOptions.
+      A Distribution may optionally contain a histogram of the values in the
+      population. The bucket boundaries for that histogram are described by
+      BucketOptions.
+      If bucket_options has no type, then there is no histogram associated with
+      the Distribution.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BucketOptions.explicit'
+    name: explicit
+    fullName: explicit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Bucket with explicit bounds.
+    syntax:
+      content: 'explicit: Explicit'
+      return:
+        type:
+          - '@azure/abort-controller.Explicit'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Explicit'
+    name: Explicit
+    spec.typeScript:
+      - name: Explicit
+        fullName: Explicit
+        uid: '@azure/abort-controller.Explicit'

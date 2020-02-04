@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobOptions'
+    name: BlobOptions
+    fullName: BlobOptions
+    children:
+      - '@azure/abort-controller.BlobOptions.endings'
+      - '@azure/abort-controller.BlobOptions.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobOptions.endings'
+    name: endings
+    fullName: endings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'endings?: "transparent" | "native"'
+      return:
+        type:
+          - '"transparent" | "native"'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobOptions.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'type?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'

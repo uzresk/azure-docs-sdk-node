@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.ResponseType'
+    name: ResponseType
+    fullName: ResponseType
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type ResponseType = "arraybuffer" | "blob" | "document" | "json" |
+        "text" | "stream"
+    package: '@azure/ms-rest-azure-env'

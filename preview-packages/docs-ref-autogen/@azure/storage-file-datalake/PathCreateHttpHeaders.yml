@@ -1,20 +1,20 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathCreateHttpHeaders'
+  - uid: '@azure/abort-controller.PathCreateHttpHeaders'
     name: PathCreateHttpHeaders
     fullName: PathCreateHttpHeaders
     children:
-      - '@azure/storage-file-datalake.PathCreateHttpHeaders.cacheControl'
-      - '@azure/storage-file-datalake.PathCreateHttpHeaders.contentDisposition'
-      - '@azure/storage-file-datalake.PathCreateHttpHeaders.contentEncoding'
-      - '@azure/storage-file-datalake.PathCreateHttpHeaders.contentLanguage'
-      - '@azure/storage-file-datalake.PathCreateHttpHeaders.contentType'
+      - '@azure/abort-controller.PathCreateHttpHeaders.cacheControl'
+      - '@azure/abort-controller.PathCreateHttpHeaders.contentDisposition'
+      - '@azure/abort-controller.PathCreateHttpHeaders.contentEncoding'
+      - '@azure/abort-controller.PathCreateHttpHeaders.contentLanguage'
+      - '@azure/abort-controller.PathCreateHttpHeaders.contentType'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathCreateHttpHeaders.cacheControl'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathCreateHttpHeaders.cacheControl'
     name: cacheControl
     fullName: cacheControl
     children: []
@@ -29,8 +29,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathCreateHttpHeaders.contentDisposition'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathCreateHttpHeaders.contentDisposition'
     name: contentDisposition
     fullName: contentDisposition
     children: []
@@ -45,8 +45,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathCreateHttpHeaders.contentEncoding'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathCreateHttpHeaders.contentEncoding'
     name: contentEncoding
     fullName: contentEncoding
     children: []
@@ -61,8 +61,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathCreateHttpHeaders.contentLanguage'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathCreateHttpHeaders.contentLanguage'
     name: contentLanguage
     fullName: contentLanguage
     children: []
@@ -77,8 +77,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathCreateHttpHeaders.contentType'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathCreateHttpHeaders.contentType'
     name: contentType
     fullName: contentType
     children: []
@@ -93,4 +93,4 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

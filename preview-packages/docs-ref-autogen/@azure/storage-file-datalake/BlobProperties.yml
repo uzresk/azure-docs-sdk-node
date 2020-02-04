@@ -1,0 +1,599 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobProperties'
+    name: BlobProperties
+    fullName: BlobProperties
+    children:
+      - '@azure/abort-controller.BlobProperties.accessTier'
+      - '@azure/abort-controller.BlobProperties.accessTierChangedOn'
+      - '@azure/abort-controller.BlobProperties.accessTierInferred'
+      - '@azure/abort-controller.BlobProperties.archiveStatus'
+      - '@azure/abort-controller.BlobProperties.blobSequenceNumber'
+      - '@azure/abort-controller.BlobProperties.blobType'
+      - '@azure/abort-controller.BlobProperties.cacheControl'
+      - '@azure/abort-controller.BlobProperties.contentDisposition'
+      - '@azure/abort-controller.BlobProperties.contentEncoding'
+      - '@azure/abort-controller.BlobProperties.contentLanguage'
+      - '@azure/abort-controller.BlobProperties.contentLength'
+      - '@azure/abort-controller.BlobProperties.contentMD5'
+      - '@azure/abort-controller.BlobProperties.contentType'
+      - '@azure/abort-controller.BlobProperties.copyCompletedOn'
+      - '@azure/abort-controller.BlobProperties.copyId'
+      - '@azure/abort-controller.BlobProperties.copyProgress'
+      - '@azure/abort-controller.BlobProperties.copySource'
+      - '@azure/abort-controller.BlobProperties.copyStatus'
+      - '@azure/abort-controller.BlobProperties.copyStatusDescription'
+      - '@azure/abort-controller.BlobProperties.createdOn'
+      - '@azure/abort-controller.BlobProperties.customerProvidedKeySha256'
+      - '@azure/abort-controller.BlobProperties.deletedOn'
+      - '@azure/abort-controller.BlobProperties.destinationSnapshot'
+      - '@azure/abort-controller.BlobProperties.etag'
+      - '@azure/abort-controller.BlobProperties.incrementalCopy'
+      - '@azure/abort-controller.BlobProperties.lastModified'
+      - '@azure/abort-controller.BlobProperties.leaseDuration'
+      - '@azure/abort-controller.BlobProperties.leaseState'
+      - '@azure/abort-controller.BlobProperties.leaseStatus'
+      - '@azure/abort-controller.BlobProperties.remainingRetentionDays'
+      - '@azure/abort-controller.BlobProperties.serverEncrypted'
+    langs:
+      - typeScript
+    type: interface
+    summary: Properties of a blob
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.accessTier'
+    name: accessTier
+    fullName: accessTier
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Possible values include: 'P4', 'P6', 'P10', 'P15', 'P20', 'P30', 'P40',
+      'P50', 'P60', 'P70',
+
+      'P80', 'Hot', 'Cool', 'Archive'
+    optional: true
+    syntax:
+      content: 'accessTier?: AccessTier'
+      return:
+        type:
+          - '@azure/abort-controller.AccessTier'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.accessTierChangedOn'
+    name: accessTierChangedOn
+    fullName: accessTierChangedOn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'accessTierChangedOn?: Date'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.Global.Date'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.accessTierInferred'
+    name: accessTierInferred
+    fullName: accessTierInferred
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'accessTierInferred?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.archiveStatus'
+    name: archiveStatus
+    fullName: archiveStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Possible values include: 'rehydrate-pending-to-hot',
+      'rehydrate-pending-to-cool'
+    optional: true
+    syntax:
+      content: 'archiveStatus?: ArchiveStatus'
+      return:
+        type:
+          - '@azure/abort-controller.ArchiveStatus'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.blobSequenceNumber'
+    name: blobSequenceNumber
+    fullName: blobSequenceNumber
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'blobSequenceNumber?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.blobType'
+    name: blobType
+    fullName: blobType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Possible values include: ''BlockBlob'', ''PageBlob'', ''AppendBlob'''
+    optional: true
+    syntax:
+      content: 'blobType?: BlobType'
+      return:
+        type:
+          - '@azure/abort-controller.BlobType'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.cacheControl'
+    name: cacheControl
+    fullName: cacheControl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'cacheControl?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.contentDisposition'
+    name: contentDisposition
+    fullName: contentDisposition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'contentDisposition?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.contentEncoding'
+    name: contentEncoding
+    fullName: contentEncoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'contentEncoding?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.contentLanguage'
+    name: contentLanguage
+    fullName: contentLanguage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'contentLanguage?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.contentLength'
+    name: contentLength
+    fullName: contentLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Size in bytes
+    optional: true
+    syntax:
+      content: 'contentLength?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.contentMD5'
+    name: contentMD5
+    fullName: contentMD5
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'contentMD5?: Uint8Array'
+      return:
+        type:
+          - '@azure/abort-controller.Buffer.Uint8Array'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.contentType'
+    name: contentType
+    fullName: contentType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'contentType?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.copyCompletedOn'
+    name: copyCompletedOn
+    fullName: copyCompletedOn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'copyCompletedOn?: Date'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.Global.Date'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.copyId'
+    name: copyId
+    fullName: copyId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'copyId?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.copyProgress'
+    name: copyProgress
+    fullName: copyProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'copyProgress?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.copySource'
+    name: copySource
+    fullName: copySource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'copySource?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.copyStatus'
+    name: copyStatus
+    fullName: copyStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Possible values include: ''pending'', ''success'', ''aborted'', ''failed'''
+    optional: true
+    syntax:
+      content: 'copyStatus?: CopyStatusType'
+      return:
+        type:
+          - '@azure/abort-controller.CopyStatusType'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.copyStatusDescription'
+    name: copyStatusDescription
+    fullName: copyStatusDescription
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'copyStatusDescription?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.createdOn'
+    name: createdOn
+    fullName: createdOn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'createdOn?: Date'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.Global.Date'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.customerProvidedKeySha256'
+    name: customerProvidedKeySha256
+    fullName: customerProvidedKeySha256
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'customerProvidedKeySha256?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.deletedOn'
+    name: deletedOn
+    fullName: deletedOn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'deletedOn?: Date'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.Global.Date'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.destinationSnapshot'
+    name: destinationSnapshot
+    fullName: destinationSnapshot
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'destinationSnapshot?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.etag'
+    name: etag
+    fullName: etag
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'etag: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.incrementalCopy'
+    name: incrementalCopy
+    fullName: incrementalCopy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'incrementalCopy?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.lastModified'
+    name: lastModified
+    fullName: lastModified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'lastModified: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.leaseDuration'
+    name: leaseDuration
+    fullName: leaseDuration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Possible values include: ''infinite'', ''fixed'''
+    optional: true
+    syntax:
+      content: 'leaseDuration?: LeaseDurationType'
+      return:
+        type:
+          - '@azure/abort-controller.LeaseDurationType'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.leaseState'
+    name: leaseState
+    fullName: leaseState
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Possible values include: 'available', 'leased', 'expired', 'breaking',
+      'broken'
+    optional: true
+    syntax:
+      content: 'leaseState?: LeaseStateType'
+      return:
+        type:
+          - '@azure/abort-controller.LeaseStateType'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.leaseStatus'
+    name: leaseStatus
+    fullName: leaseStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Possible values include: ''locked'', ''unlocked'''
+    optional: true
+    syntax:
+      content: 'leaseStatus?: LeaseStatusType'
+      return:
+        type:
+          - '@azure/abort-controller.LeaseStatusType'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.remainingRetentionDays'
+    name: remainingRetentionDays
+    fullName: remainingRetentionDays
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'remainingRetentionDays?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobProperties.serverEncrypted'
+    name: serverEncrypted
+    fullName: serverEncrypted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'serverEncrypted?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.AccessTier'
+    name: AccessTier
+    spec.typeScript:
+      - name: AccessTier
+        fullName: AccessTier
+        uid: '@azure/abort-controller.AccessTier'
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'
+  - uid: '@azure/abort-controller.ArchiveStatus'
+    name: ArchiveStatus
+    spec.typeScript:
+      - name: ArchiveStatus
+        fullName: ArchiveStatus
+        uid: '@azure/abort-controller.ArchiveStatus'
+  - uid: '@azure/abort-controller.BlobType'
+    name: BlobType
+    spec.typeScript:
+      - name: BlobType
+        fullName: BlobType
+        uid: '@azure/abort-controller.BlobType'
+  - uid: '@azure/abort-controller.Buffer.Uint8Array'
+    name: Uint8Array
+    spec.typeScript:
+      - name: Uint8Array
+        fullName: Uint8Array
+        uid: '@azure/abort-controller.Buffer.Uint8Array'
+  - uid: '@azure/abort-controller.CopyStatusType'
+    name: CopyStatusType
+    spec.typeScript:
+      - name: CopyStatusType
+        fullName: CopyStatusType
+        uid: '@azure/abort-controller.CopyStatusType'
+  - uid: '@azure/abort-controller.LeaseDurationType'
+    name: LeaseDurationType
+    spec.typeScript:
+      - name: LeaseDurationType
+        fullName: LeaseDurationType
+        uid: '@azure/abort-controller.LeaseDurationType'
+  - uid: '@azure/abort-controller.LeaseStateType'
+    name: LeaseStateType
+    spec.typeScript:
+      - name: LeaseStateType
+        fullName: LeaseStateType
+        uid: '@azure/abort-controller.LeaseStateType'
+  - uid: '@azure/abort-controller.LeaseStatusType'
+    name: LeaseStatusType
+    spec.typeScript:
+      - name: LeaseStatusType
+        fullName: LeaseStatusType
+        uid: '@azure/abort-controller.LeaseStatusType'

@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.promiseToServiceCallback'
+    name: promiseToServiceCallback(Promise<HttpOperationResponse>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Converts a Promise to a service callback.
+    syntax:
+      content: >-
+        function promiseToServiceCallback<T>(promise:
+        Promise<HttpOperationResponse>)
+      parameters:
+        - id: promise
+          type:
+            - Promise<@azure/abort-controller.HttpOperationResponse>
+          description: >-
+            The Promise of HttpOperationResponse to be converted to a service
+            callback
+      return:
+        type:
+          - Function
+        description: >-
+          A function that takes the service callback (cb: ServiceCallback<T>):
+          void
+    package: '@azure/abort-controller'
+references:
+  - uid: Promise<@azure/abort-controller.HttpOperationResponse>
+    name: HttpOperationResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: HttpOperationResponse
+        fullName: HttpOperationResponse
+        uid: '@azure/abort-controller.HttpOperationResponse'
+      - name: '>'
+        fullName: '>'

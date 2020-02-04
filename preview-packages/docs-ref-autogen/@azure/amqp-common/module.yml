@@ -1,0 +1,12 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.module'
+    name: module
+    langs:
+      - typeScript
+    fullName: module
+    children: []
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+references: []

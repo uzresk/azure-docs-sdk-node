@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.MSIOptions'
+    name: MSIOptions
+    fullName: MSIOptions
+    children:
+      - '@azure/ms-rest-azure-env.MSIOptions.httpClient'
+      - '@azure/ms-rest-azure-env.MSIOptions.resource'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MSIOptions.httpClient'
+    name: httpClient
+    fullName: httpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      {HttpClient} [httpClient] - The client responsible for sending HTTP
+      requests.
+
+      By default it is Axios-based <xref:DefaultHttpClient>.
+    optional: true
+    syntax:
+      content: 'httpClient?: HttpClient'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.HttpClient'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MSIOptions.resource'
+    name: resource
+    fullName: resource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'resource?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.HttpClient'
+    name: HttpClient
+    spec.typeScript:
+      - name: HttpClient
+        fullName: HttpClient
+        uid: '@azure/ms-rest-azure-env.HttpClient'

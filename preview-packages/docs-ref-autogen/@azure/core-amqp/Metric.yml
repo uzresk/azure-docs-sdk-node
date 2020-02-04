@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.Metric
+    name: Metric
+    fullName: Metric<T>
+    children:
+      - tslib.Metric.clear
+      - tslib.Metric.getDefaultHandle
+      - tslib.Metric.getHandle
+      - tslib.Metric.removeHandle
+      - tslib.Metric.setCallback
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Metric represents a base class for different types of metric
+      pre aggregations.
+    package: tslib
+  - uid: tslib.Metric.clear
+    name: clear()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Clears all timeseries from the Metric.
+    syntax:
+      content: function clear()
+      parameters: []
+    package: tslib
+  - uid: tslib.Metric.getDefaultHandle
+    name: getDefaultHandle()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a Handle for a metric with all labels not set.
+    syntax:
+      content: function getDefaultHandle()
+      parameters: []
+      return:
+        type:
+          - T
+        description: ''
+    package: tslib
+  - uid: tslib.Metric.getHandle
+    name: 'getHandle(string[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns a Handle associated with specified label values.
+      It is recommended to keep a reference to the Handle instead of always
+      calling this method for every operations.
+    syntax:
+      content: 'function getHandle(labelValues: string[])'
+      parameters:
+        - id: labelValues
+          type:
+            - 'string[]'
+          description: |
+            the list of label values.
+      return:
+        type:
+          - T
+        description: ''
+    package: tslib
+  - uid: tslib.Metric.removeHandle
+    name: 'removeHandle(string[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Removes the Handle from the metric, if it is present.'
+    syntax:
+      content: 'function removeHandle(labelValues: string[])'
+      parameters:
+        - id: labelValues
+          type:
+            - 'string[]'
+          description: |
+            the list of label values.
+    package: tslib
+  - uid: tslib.Metric.setCallback
+    name: setCallback(() => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: what should the callback signature be?
+    syntax:
+      content: 'function setCallback(fn: () => void)'
+      parameters:
+        - id: fn
+          type:
+            - () => void
+          description: ''
+    package: tslib

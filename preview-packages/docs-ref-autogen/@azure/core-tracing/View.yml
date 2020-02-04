@@ -1,0 +1,275 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.View'
+    name: View
+    fullName: View
+    children:
+      - '@opentelemetry/types.View.aggregation'
+      - '@opentelemetry/types.View.description'
+      - '@opentelemetry/types.View.endTime'
+      - '@opentelemetry/types.View.getColumns'
+      - '@opentelemetry/types.View.getMetric'
+      - '@opentelemetry/types.View.getSnapshot'
+      - '@opentelemetry/types.View.measure'
+      - '@opentelemetry/types.View.name'
+      - '@opentelemetry/types.View.recordMeasurement'
+      - '@opentelemetry/types.View.registered'
+      - '@opentelemetry/types.View.startTime'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Defines how individual measurements are broken down by tags and
+      aggregated.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.View.aggregation'
+    name: aggregation
+    fullName: aggregation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      An Aggregation describes how data collected is aggregated.
+      There are four aggregation types: count, sum, lastValue and distirbution.
+    syntax:
+      content: 'aggregation: AggregationType'
+      return:
+        type:
+          - '@opentelemetry/types.AggregationType'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.View.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Describes the view, e.g. "RPC latency distribution"'
+    syntax:
+      content: 'description: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.View.endTime'
+    name: endTime
+    fullName: endTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The end time for this view - represents the last time a value was recorded
+    optional: true
+    syntax:
+      content: 'endTime?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.View.getColumns'
+    name: getColumns()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the view's tag keys
+    syntax:
+      content: function getColumns()
+      parameters: []
+      return:
+        type:
+          - '@opentelemetry/types.TagKey[]'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.View.getMetric'
+    name: getMetric(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets view`s metric
+    syntax:
+      content: 'function getMetric(start: number)'
+      parameters:
+        - id: start
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - '@opentelemetry/types.Metric'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.View.getSnapshot'
+    name: getSnapshot(Array<TagValue | null>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a snapshot of an AggregationData for that tags/labels values.
+    syntax:
+      content: 'function getSnapshot(tagValues: Array<TagValue | null>)'
+      parameters:
+        - id: tagValues
+          type:
+            - Array<@opentelemetry/types.TagValue | null>
+          description: |
+            The desired data's tag values.
+      return:
+        type:
+          - '@opentelemetry/types.AggregationData'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.View.measure'
+    name: measure
+    fullName: measure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The Measure to which this view is applied.
+    syntax:
+      content: 'measure: Measure'
+      return:
+        type:
+          - '@opentelemetry/types.Measure'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.View.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A string by which the View will be referred to, e.g. "rpc_latency". Names
+      MUST be unique within the library.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.View.recordMeasurement'
+    name: 'recordMeasurement(Measurement, TagMap, [key: string]: string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Records a measurement in the proper view's row. This method is used by
+      Stats. User should prefer using Stats.record() instead.
+      Measurements with measurement type INT64 will have its value truncated.
+    syntax:
+      content: >-
+        function recordMeasurement(measurement: Measurement, tags: TagMap,
+        attachments?: [key: string]: string)
+      parameters:
+        - id: measurement
+          type:
+            - '@opentelemetry/types.Measurement'
+          description: The measurement to record
+        - id: tags
+          type:
+            - '@opentelemetry/types.TagMap'
+          description: The tags to which the value is applied
+        - id: attachments
+          type:
+            - '[key: string]: string'
+          description: |
+            optional The contextual information associated with an
+                example value. THe contextual information is represented as key - value
+                string pairs.
+          optional: true
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.View.registered'
+    name: registered
+    fullName: registered
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: true if the view was registered
+    syntax:
+      content: 'registered: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.View.startTime'
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The start time for this view
+    syntax:
+      content: 'startTime: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.AggregationType'
+    name: AggregationType
+    spec.typeScript:
+      - name: AggregationType
+        fullName: AggregationType
+        uid: '@opentelemetry/types.AggregationType'
+  - uid: '@opentelemetry/types.Measure'
+    name: Measure
+    spec.typeScript:
+      - name: Measure
+        fullName: Measure
+        uid: '@opentelemetry/types.Measure'
+  - uid: '@opentelemetry/types.TagKey[]'
+    name: 'TagKey[]'
+    spec.typeScript:
+      - name: TagKey
+        fullName: TagKey
+        uid: '@opentelemetry/types.TagKey'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@opentelemetry/types.Metric'
+    name: Metric
+    spec.typeScript:
+      - name: Metric
+        fullName: Metric
+        uid: '@opentelemetry/types.Metric'
+  - uid: Array<@opentelemetry/types.TagValue | null>
+    name: TagValue | null>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: TagValue
+        fullName: TagValue
+        uid: '@opentelemetry/types.TagValue'
+      - name: ' | null>'
+        fullName: ' | null>'
+  - uid: '@opentelemetry/types.AggregationData'
+    name: AggregationData
+    spec.typeScript:
+      - name: AggregationData
+        fullName: AggregationData
+        uid: '@opentelemetry/types.AggregationData'
+  - uid: '@opentelemetry/types.Measurement'
+    name: Measurement
+    spec.typeScript:
+      - name: Measurement
+        fullName: Measurement
+        uid: '@opentelemetry/types.Measurement'
+  - uid: '@opentelemetry/types.TagMap'
+    name: TagMap
+    spec.typeScript:
+      - name: TagMap
+        fullName: TagMap
+        uid: '@opentelemetry/types.TagMap'

@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.SignedIdentifier'
+  - uid: '@azure/abort-controller.SignedIdentifier'
     name: SignedIdentifier
     fullName: SignedIdentifier<T>
     children:
-      - '@azure/storage-file-datalake.SignedIdentifier.accessPolicy'
-      - '@azure/storage-file-datalake.SignedIdentifier.id'
+      - '@azure/abort-controller.SignedIdentifier.accessPolicy'
+      - '@azure/abort-controller.SignedIdentifier.id'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.SignedIdentifier.accessPolicy'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SignedIdentifier.accessPolicy'
     name: accessPolicy
     fullName: accessPolicy
     children: []
@@ -25,8 +25,8 @@ items:
         type:
           - T
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.SignedIdentifier.id'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SignedIdentifier.id'
     name: id
     fullName: id
     children: []
@@ -40,4 +40,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

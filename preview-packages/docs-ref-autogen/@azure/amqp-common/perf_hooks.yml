@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.perf_hooks'
+    name: perf_hooks
+    langs:
+      - typeScript
+    fullName: perf_hooks
+    children:
+      - '@azure/ms-rest-azure-env.perf_hooks.Performance'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceEntry'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserver'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserverCallback'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserverEntryList'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserverCallback'
+    name: PerformanceObserverCallback
+    spec.typeScript:
+      - name: PerformanceObserverCallback
+        fullName: PerformanceObserverCallback
+        uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserverCallback'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.Performance'
+    name: Performance
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceEntry'
+    name: PerformanceEntry
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming'
+    name: PerformanceNodeTiming
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserver'
+    name: PerformanceObserver
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserverEntryList'
+    name: PerformanceObserverEntryList

@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.StorageRetryPolicyType'
+  - uid: '@azure/abort-controller.StorageRetryPolicyType'
     name: StorageRetryPolicyType
     fullName: StorageRetryPolicyType
     children:
-      - '@azure/storage-file-datalake.StorageRetryPolicyType.EXPONENTIAL'
-      - '@azure/storage-file-datalake.StorageRetryPolicyType.FIXED'
+      - '@azure/abort-controller.StorageRetryPolicyType.EXPONENTIAL'
+      - '@azure/abort-controller.StorageRetryPolicyType.FIXED'
     langs:
       - typeScript
     type: enum
     summary: RetryPolicy types.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.StorageRetryPolicyType.EXPONENTIAL'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.StorageRetryPolicyType.EXPONENTIAL'
     name: EXPONENTIAL
     children: []
     langs:
@@ -19,8 +19,8 @@ items:
     summary: Exponential retry. Retry time delay grows exponentially.
     type: field
     numericValue: 0
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.StorageRetryPolicyType.FIXED'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.StorageRetryPolicyType.FIXED'
     name: FIXED
     children: []
     langs:
@@ -28,4 +28,4 @@ items:
     summary: Linear retry. Retry time delay grows linearly.
     type: field
     numericValue: 1
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

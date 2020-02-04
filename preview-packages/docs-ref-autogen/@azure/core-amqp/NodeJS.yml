@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.NodeJS
+    name: NodeJS
+    langs:
+      - typeScript
+    fullName: NodeJS
+    children:
+      - tslib.NodeJS.HRTime
+    type: module
+    summary: ''
+    package: tslib
+references:
+  - uid: tslib.NodeJS.HRTime
+    name: HRTime

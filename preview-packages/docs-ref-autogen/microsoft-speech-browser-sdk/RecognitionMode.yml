@@ -4,22 +4,13 @@ items:
     name: RecognitionMode
     fullName: RecognitionMode
     children:
-      - microsoft-speech-browser-sdk.RecognitionMode.Interactive
       - microsoft-speech-browser-sdk.RecognitionMode.Conversation
       - microsoft-speech-browser-sdk.RecognitionMode.Dictation
+      - microsoft-speech-browser-sdk.RecognitionMode.Interactive
     langs:
       - typeScript
     type: enum
     summary: ''
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.RecognitionMode.Interactive
-    name: Interactive
-    children: []
-    langs:
-      - typeScript
-    summary: ''
-    type: field
-    numericValue: 0
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.RecognitionMode.Conversation
     name: Conversation
@@ -28,7 +19,6 @@ items:
       - typeScript
     summary: ''
     type: field
-    numericValue: 1
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.RecognitionMode.Dictation
     name: Dictation
@@ -37,5 +27,12 @@ items:
       - typeScript
     summary: ''
     type: field
-    numericValue: 2
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.RecognitionMode.Interactive
+    name: Interactive
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
     package: microsoft-speech-browser-sdk

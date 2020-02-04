@@ -1,0 +1,12 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.dns.resolveNaptr'
+    name: resolveNaptr
+    langs:
+      - typeScript
+    fullName: resolveNaptr
+    children: []
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+references: []

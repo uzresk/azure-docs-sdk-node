@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.Snapshot'
+    name: Snapshot
+    fullName: Snapshot
+    children:
+      - '@opentelemetry/types.Snapshot.count'
+      - '@opentelemetry/types.Snapshot.percentileValues'
+      - '@opentelemetry/types.Snapshot.sum'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      The values in this message can be reset at arbitrary unknown times, with
+      the requirement that all of them are reset at the same time.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Snapshot.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The number of values in the snapshot. Optional since some systems don't
+      expose this.
+    syntax:
+      content: 'count: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Snapshot.percentileValues'
+    name: percentileValues
+    fullName: percentileValues
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A list of values at different percentiles of the distribution calculated
+      from the current snapshot. The percentiles must be strictly increasing.
+    syntax:
+      content: 'percentileValues: ValueAtPercentile[]'
+      return:
+        type:
+          - '@opentelemetry/types.ValueAtPercentile[]'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Snapshot.sum'
+    name: sum
+    fullName: sum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The sum of values in the snapshot. Optional since some systems don't
+      expose this. If count is zero then this field must be zero or not set
+      (if not supported).
+    syntax:
+      content: 'sum: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.ValueAtPercentile[]'
+    name: 'ValueAtPercentile[]'
+    spec.typeScript:
+      - name: ValueAtPercentile
+        fullName: ValueAtPercentile
+        uid: '@opentelemetry/types.ValueAtPercentile'
+      - name: '[]'
+        fullName: '[]'

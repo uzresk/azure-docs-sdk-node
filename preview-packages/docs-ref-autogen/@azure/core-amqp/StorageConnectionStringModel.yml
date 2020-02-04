@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.StorageConnectionStringModel'
+  - uid: tslib.StorageConnectionStringModel
     name: StorageConnectionStringModel
     fullName: StorageConnectionStringModel
     children:
-      - '@azure/core-amqp.StorageConnectionStringModel.AccountKey'
-      - '@azure/core-amqp.StorageConnectionStringModel.AccountName'
-      - '@azure/core-amqp.StorageConnectionStringModel.DefaultEndpointsProtocol'
-      - '@azure/core-amqp.StorageConnectionStringModel.EndpointSuffix'
+      - tslib.StorageConnectionStringModel.AccountKey
+      - tslib.StorageConnectionStringModel.AccountName
+      - tslib.StorageConnectionStringModel.DefaultEndpointsProtocol
+      - tslib.StorageConnectionStringModel.EndpointSuffix
     langs:
       - typeScript
     type: interface
     summary: Describes the stroage connection string model.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.StorageConnectionStringModel.AccountKey'
+    package: tslib
+  - uid: tslib.StorageConnectionStringModel.AccountKey
     name: AccountKey
     fullName: AccountKey
     children: []
@@ -27,8 +27,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.StorageConnectionStringModel.AccountName'
+    package: tslib
+  - uid: tslib.StorageConnectionStringModel.AccountName
     name: AccountName
     fullName: AccountName
     children: []
@@ -42,8 +42,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.StorageConnectionStringModel.DefaultEndpointsProtocol'
+    package: tslib
+  - uid: tslib.StorageConnectionStringModel.DefaultEndpointsProtocol
     name: DefaultEndpointsProtocol
     fullName: DefaultEndpointsProtocol
     children: []
@@ -57,8 +57,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.StorageConnectionStringModel.EndpointSuffix'
+    package: tslib
+  - uid: tslib.StorageConnectionStringModel.EndpointSuffix
     name: EndpointSuffix
     fullName: EndpointSuffix
     children: []
@@ -72,4 +72,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
+    package: tslib

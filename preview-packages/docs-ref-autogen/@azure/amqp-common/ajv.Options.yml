@@ -1,0 +1,801 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.ajv.Options'
+    name: Options
+    fullName: Options
+    children:
+      - '@azure/ms-rest-azure-env.ajv.Options.$data'
+      - '@azure/ms-rest-azure-env.ajv.Options.addUsedSchema'
+      - '@azure/ms-rest-azure-env.ajv.Options.allErrors'
+      - '@azure/ms-rest-azure-env.ajv.Options.async'
+      - '@azure/ms-rest-azure-env.ajv.Options.cache'
+      - '@azure/ms-rest-azure-env.ajv.Options.coerceTypes'
+      - '@azure/ms-rest-azure-env.ajv.Options.errorDataPath'
+      - '@azure/ms-rest-azure-env.ajv.Options.extendRefs'
+      - '@azure/ms-rest-azure-env.ajv.Options.format'
+      - '@azure/ms-rest-azure-env.ajv.Options.formats'
+      - '@azure/ms-rest-azure-env.ajv.Options.inlineRefs'
+      - '@azure/ms-rest-azure-env.ajv.Options.jsonPointers'
+      - '@azure/ms-rest-azure-env.ajv.Options.loadSchema'
+      - '@azure/ms-rest-azure-env.ajv.Options.logger'
+      - '@azure/ms-rest-azure-env.ajv.Options.loopRequired'
+      - '@azure/ms-rest-azure-env.ajv.Options.messages'
+      - '@azure/ms-rest-azure-env.ajv.Options.meta'
+      - '@azure/ms-rest-azure-env.ajv.Options.missingRefs'
+      - '@azure/ms-rest-azure-env.ajv.Options.multipleOfPrecision'
+      - '@azure/ms-rest-azure-env.ajv.Options.nullable'
+      - '@azure/ms-rest-azure-env.ajv.Options.ownProperties'
+      - '@azure/ms-rest-azure-env.ajv.Options.passContext'
+      - '@azure/ms-rest-azure-env.ajv.Options.processCode'
+      - '@azure/ms-rest-azure-env.ajv.Options.removeAdditional'
+      - '@azure/ms-rest-azure-env.ajv.Options.schemaId'
+      - '@azure/ms-rest-azure-env.ajv.Options.schemas'
+      - '@azure/ms-rest-azure-env.ajv.Options.serialize'
+      - '@azure/ms-rest-azure-env.ajv.Options.sourceCode'
+      - '@azure/ms-rest-azure-env.ajv.Options.strictDefaults'
+      - '@azure/ms-rest-azure-env.ajv.Options.strictKeywords'
+      - '@azure/ms-rest-azure-env.ajv.Options.transpile'
+      - '@azure/ms-rest-azure-env.ajv.Options.unicode'
+      - '@azure/ms-rest-azure-env.ajv.Options.uniqueItems'
+      - '@azure/ms-rest-azure-env.ajv.Options.unknownFormats'
+      - '@azure/ms-rest-azure-env.ajv.Options.useDefaults'
+      - '@azure/ms-rest-azure-env.ajv.Options.validateSchema'
+      - '@azure/ms-rest-azure-env.ajv.Options.verbose'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.$data'
+    name: $data
+    fullName: $data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: '$data?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.addUsedSchema'
+    name: addUsedSchema
+    fullName: addUsedSchema
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'addUsedSchema?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.allErrors'
+    name: allErrors
+    fullName: allErrors
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'allErrors?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.async'
+    name: async
+    fullName: async
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'async?: boolean | string'
+      return:
+        type:
+          - boolean | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.cache'
+    name: cache
+    fullName: cache
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'cache?: undefined | object'
+      return:
+        type:
+          - undefined | object
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.coerceTypes'
+    name: coerceTypes
+    fullName: coerceTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'coerceTypes?: boolean | "array"'
+      return:
+        type:
+          - boolean | "array"
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.errorDataPath'
+    name: errorDataPath
+    fullName: errorDataPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'errorDataPath?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.extendRefs'
+    name: extendRefs
+    fullName: extendRefs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'extendRefs?: true | "ignore" | "fail"'
+      return:
+        type:
+          - true | "ignore" | "fail"
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.format'
+    name: format
+    fullName: format
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'format?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.formats'
+    name: formats
+    fullName: formats
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'formats?: undefined | object'
+      return:
+        type:
+          - undefined | object
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.inlineRefs'
+    name: inlineRefs
+    fullName: inlineRefs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'inlineRefs?: boolean | number'
+      return:
+        type:
+          - boolean | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.jsonPointers'
+    name: jsonPointers
+    fullName: jsonPointers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'jsonPointers?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.loadSchema'
+    name: loadSchema
+    fullName: loadSchema
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: >-
+        loadSchema?: undefined | (uri: string, cb?: undefined | (err: Error,
+        schema: object) => void) => PromiseLike<object | boolean>
+      return:
+        type:
+          - >-
+            undefined | (uri: string, cb?: undefined | (err: Error, schema:
+            object) => void) => PromiseLike<object | boolean>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.logger'
+    name: logger
+    fullName: logger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'logger?: CustomLogger | false'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.ajv.CustomLogger | false'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.loopRequired'
+    name: loopRequired
+    fullName: loopRequired
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'loopRequired?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.messages'
+    name: messages
+    fullName: messages
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'messages?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.meta'
+    name: meta
+    fullName: meta
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'meta?: boolean | object'
+      return:
+        type:
+          - boolean | object
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.missingRefs'
+    name: missingRefs
+    fullName: missingRefs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'missingRefs?: true | "ignore" | "fail"'
+      return:
+        type:
+          - true | "ignore" | "fail"
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.multipleOfPrecision'
+    name: multipleOfPrecision
+    fullName: multipleOfPrecision
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'multipleOfPrecision?: boolean | number'
+      return:
+        type:
+          - boolean | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.nullable'
+    name: nullable
+    fullName: nullable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'nullable?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.ownProperties'
+    name: ownProperties
+    fullName: ownProperties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'ownProperties?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.passContext'
+    name: passContext
+    fullName: passContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'passContext?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.processCode'
+    name: processCode
+    fullName: processCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'processCode?: undefined | (code: string) => string'
+      return:
+        type:
+          - 'undefined | (code: string) => string'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.removeAdditional'
+    name: removeAdditional
+    fullName: removeAdditional
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'removeAdditional?: boolean | "all" | "failing"'
+      return:
+        type:
+          - boolean | "all" | "failing"
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.schemaId'
+    name: schemaId
+    fullName: schemaId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'schemaId?: "$id" | "id" | "auto"'
+      return:
+        type:
+          - '"$id" | "id" | "auto"'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.schemas'
+    name: schemas
+    fullName: schemas
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'schemas?: Array<object> | object'
+      return:
+        type:
+          - Array<object> | object
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.serialize'
+    name: serialize
+    fullName: serialize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'serialize?: (schema: object | boolean) => any | false'
+      return:
+        type:
+          - '(schema: object | boolean) => any | false'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.sourceCode'
+    name: sourceCode
+    fullName: sourceCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'sourceCode?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.strictDefaults'
+    name: strictDefaults
+    fullName: strictDefaults
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'strictDefaults?: boolean | "log"'
+      return:
+        type:
+          - boolean | "log"
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.strictKeywords'
+    name: strictKeywords
+    fullName: strictKeywords
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'strictKeywords?: boolean | "log"'
+      return:
+        type:
+          - boolean | "log"
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.transpile'
+    name: transpile
+    fullName: transpile
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'transpile?: string | (code: string) => string'
+      return:
+        type:
+          - 'string | (code: string) => string'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.unicode'
+    name: unicode
+    fullName: unicode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'unicode?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.uniqueItems'
+    name: uniqueItems
+    fullName: uniqueItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'uniqueItems?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.unknownFormats'
+    name: unknownFormats
+    fullName: unknownFormats
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'unknownFormats?: true | string[] | "ignore"'
+      return:
+        type:
+          - 'true | string[] | "ignore"'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.useDefaults'
+    name: useDefaults
+    fullName: useDefaults
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'useDefaults?: boolean | "empty" | "shared"'
+      return:
+        type:
+          - boolean | "empty" | "shared"
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.validateSchema'
+    name: validateSchema
+    fullName: validateSchema
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'validateSchema?: boolean | "log"'
+      return:
+        type:
+          - boolean | "log"
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options.verbose'
+    name: verbose
+    fullName: verbose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'verbose?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: Array<@azure/ms-rest-azure-env.ajv.ErrorObject> | null
+    name: ErrorObject> | null
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: ErrorObject
+        fullName: ErrorObject
+        uid: '@azure/ms-rest-azure-env.ajv.ErrorObject'
+      - name: '> | null'
+        fullName: '> | null'
+  - uid: >-
+      @azure/ms-rest-azure-env.ajv.FormatValidator |
+      @azure/ms-rest-azure-env.ajv.FormatDefinition
+    name: FormatDefinition
+    spec.typeScript:
+      - name: FormatValidator
+        fullName: FormatValidator
+        uid: '@azure/ms-rest-azure-env.ajv.FormatValidator'
+      - name: ' | '
+        fullName: ' | '
+      - name: FormatDefinition
+        fullName: FormatDefinition
+        uid: '@azure/ms-rest-azure-env.ajv.FormatDefinition'
+  - uid: '@azure/ms-rest-azure-env.ajv.Ajv'
+    name: Ajv
+    spec.typeScript:
+      - name: Ajv
+        fullName: Ajv
+        uid: '@azure/ms-rest-azure-env.ajv.Ajv'
+  - uid: '@azure/ms-rest-azure-env.ajv.KeywordDefinition'
+    name: KeywordDefinition
+    spec.typeScript:
+      - name: KeywordDefinition
+        fullName: KeywordDefinition
+        uid: '@azure/ms-rest-azure-env.ajv.KeywordDefinition'
+  - uid: '@azure/ms-rest-azure-env.ajv.ValidateFunction'
+    name: ValidateFunction
+    spec.typeScript:
+      - name: ValidateFunction
+        fullName: ValidateFunction
+        uid: '@azure/ms-rest-azure-env.ajv.ValidateFunction'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Boolean'
+    name: Boolean
+    spec.typeScript:
+      - name: Boolean
+        fullName: Boolean
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Boolean'
+  - uid: PromiseLike<@azure/ms-rest-azure-env.ajv.ValidateFunction>
+    name: ValidateFunction>
+    spec.typeScript:
+      - name: PromiseLike<
+        fullName: PromiseLike<
+      - name: ValidateFunction
+        fullName: ValidateFunction
+        uid: '@azure/ms-rest-azure-env.ajv.ValidateFunction'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/ms-rest-azure-env.ajv.ErrorsTextOptions'
+    name: ErrorsTextOptions
+    spec.typeScript:
+      - name: ErrorsTextOptions
+        fullName: ErrorsTextOptions
+        uid: '@azure/ms-rest-azure-env.ajv.ErrorsTextOptions'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options'
+    name: Options
+    spec.typeScript:
+      - name: Options
+        fullName: Options
+        uid: '@azure/ms-rest-azure-env.ajv.Options'
+  - uid: '@azure/ms-rest-azure-env.ajv.ErrorParameters'
+    name: ErrorParameters
+    spec.typeScript:
+      - name: ErrorParameters
+        fullName: ErrorParameters
+        uid: '@azure/ms-rest-azure-env.ajv.ErrorParameters'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Array<string>'
+    name: Array<string>
+    spec.typeScript:
+      - name: Array
+        fullName: Array
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Array'
+      - name: <string>
+        fullName: <string>
+  - uid: >-
+      @azure/ms-rest-azure-env.ajv.SchemaValidateFunction |
+      @azure/ms-rest-azure-env.ajv.ValidateFunction
+    name: ValidateFunction
+    spec.typeScript:
+      - name: SchemaValidateFunction
+        fullName: SchemaValidateFunction
+        uid: '@azure/ms-rest-azure-env.ajv.SchemaValidateFunction'
+      - name: ' | '
+        fullName: ' | '
+      - name: ValidateFunction
+        fullName: ValidateFunction
+        uid: '@azure/ms-rest-azure-env.ajv.ValidateFunction'
+  - uid: '@azure/ms-rest-azure-env.ajv.NumberFormatValidator'
+    name: NumberFormatValidator
+    spec.typeScript:
+      - name: NumberFormatValidator
+        fullName: NumberFormatValidator
+        uid: '@azure/ms-rest-azure-env.ajv.NumberFormatValidator'
+  - uid: '@azure/ms-rest-azure-env.ajv.CustomLogger | false'
+    name: CustomLogger | false
+    spec.typeScript:
+      - name: CustomLogger
+        fullName: CustomLogger
+        uid: '@azure/ms-rest-azure-env.ajv.CustomLogger'
+      - name: ' | false'
+        fullName: ' | false'
+  - uid: >-
+      @azure/ms-rest-azure-env.NodeJS.Global.Array<@azure/ms-rest-azure-env.ajv.ErrorObject>
+    name: ErrorObject>
+    spec.typeScript:
+      - name: Array
+        fullName: Array
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Array'
+      - name: <
+        fullName: <
+      - name: ErrorObject
+        fullName: ErrorObject
+        uid: '@azure/ms-rest-azure-env.ajv.ErrorObject'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/ms-rest-azure-env.ajv.FormatValidator'
+    name: FormatValidator
+    spec.typeScript:
+      - name: FormatValidator
+        fullName: FormatValidator
+        uid: '@azure/ms-rest-azure-env.ajv.FormatValidator'
+  - uid: null | Array<@azure/ms-rest-azure-env.ajv.ErrorObject>
+    name: ErrorObject>
+    spec.typeScript:
+      - name: null | Array<
+        fullName: null | Array<
+      - name: ErrorObject
+        fullName: ErrorObject
+        uid: '@azure/ms-rest-azure-env.ajv.ErrorObject'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Array<any>'
+    name: Array<any>
+    spec.typeScript:
+      - name: Array
+        fullName: Array
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Array'
+      - name: <any>
+        fullName: <any>
+  - uid: '@azure/ms-rest-azure-env.ajv.ValidateFunction | object'
+    name: ValidateFunction | object
+    spec.typeScript:
+      - name: ValidateFunction
+        fullName: ValidateFunction
+        uid: '@azure/ms-rest-azure-env.ajv.ValidateFunction'
+      - name: ' | object'
+        fullName: ' | object'

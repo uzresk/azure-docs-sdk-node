@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesResult'
+  - uid: '@azure/abort-controller.RecognizeLinkedEntitiesResult'
     name: RecognizeLinkedEntitiesResult
     fullName: RecognizeLinkedEntitiesResult
     children: []
@@ -15,4 +15,4 @@ items:
         type RecognizeLinkedEntitiesResult =
         RecognizeLinkedEntitiesSuccessResult |
         RecognizeLinkedEntitiesErrorResult
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'

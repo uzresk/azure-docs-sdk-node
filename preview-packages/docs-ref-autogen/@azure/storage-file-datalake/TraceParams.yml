@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.TraceParams'
+    name: TraceParams
+    fullName: TraceParams
+    children:
+      - '@azure/abort-controller.TraceParams.numberOfAnnontationEventsPerSpan'
+      - '@azure/abort-controller.TraceParams.numberOfAttributesPerSpan'
+      - '@azure/abort-controller.TraceParams.numberOfLinksPerSpan'
+      - '@azure/abort-controller.TraceParams.numberOfMessageEventsPerSpan'
+    langs:
+      - typeScript
+    type: interface
+    summary: Global configuration of trace service
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TraceParams.numberOfAnnontationEventsPerSpan'
+    name: numberOfAnnontationEventsPerSpan
+    fullName: numberOfAnnontationEventsPerSpan
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      numberOfAnnontationEventsPerSpan is number of annotation events per
+      span
+    optional: true
+    syntax:
+      content: 'numberOfAnnontationEventsPerSpan?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TraceParams.numberOfAttributesPerSpan'
+    name: numberOfAttributesPerSpan
+    fullName: numberOfAttributesPerSpan
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: numberOfAttributesPerSpan is number of attributes per span
+    optional: true
+    syntax:
+      content: 'numberOfAttributesPerSpan?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TraceParams.numberOfLinksPerSpan'
+    name: numberOfLinksPerSpan
+    fullName: numberOfLinksPerSpan
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: numberOfLinksPerSpan is number of links per span
+    optional: true
+    syntax:
+      content: 'numberOfLinksPerSpan?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TraceParams.numberOfMessageEventsPerSpan'
+    name: numberOfMessageEventsPerSpan
+    fullName: numberOfMessageEventsPerSpan
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: numberOfMessageEventsPerSpan is number of message events per span
+    optional: true
+    syntax:
+      content: 'numberOfMessageEventsPerSpan?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'

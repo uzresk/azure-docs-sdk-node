@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.TokenInfo'
+  - uid: '@azure/ms-rest-azure-env.TokenInfo'
     name: TokenInfo
     fullName: TokenInfo
     children:
-      - '@azure/amqp-common.TokenInfo.expiry'
-      - '@azure/amqp-common.TokenInfo.token'
-      - '@azure/amqp-common.TokenInfo.tokenType'
+      - '@azure/ms-rest-azure-env.TokenInfo.expiry'
+      - '@azure/ms-rest-azure-env.TokenInfo.token'
+      - '@azure/ms-rest-azure-env.TokenInfo.tokenType'
     langs:
       - typeScript
     type: interface
     summary: Provides information about the token.
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.TokenInfo.expiry'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.TokenInfo.expiry'
     name: expiry
     fullName: expiry
     children: []
@@ -26,8 +26,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.TokenInfo.token'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.TokenInfo.token'
     name: token
     fullName: token
     children: []
@@ -41,8 +41,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.TokenInfo.tokenType'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.TokenInfo.tokenType'
     name: tokenType
     fullName: tokenType
     children: []
@@ -56,13 +56,13 @@ items:
       content: 'tokenType: TokenType'
       return:
         type:
-          - '@azure/amqp-common.TokenType'
+          - '@azure/ms-rest-azure-env.TokenType'
         description: ''
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'
 references:
-  - uid: '@azure/amqp-common.TokenType'
+  - uid: '@azure/ms-rest-azure-env.TokenType'
     name: TokenType
     spec.typeScript:
       - name: TokenType
         fullName: TokenType
-        uid: '@azure/amqp-common.TokenType'
+        uid: '@azure/ms-rest-azure-env.TokenType'

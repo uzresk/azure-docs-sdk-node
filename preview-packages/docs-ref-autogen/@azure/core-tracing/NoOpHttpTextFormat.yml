@@ -1,0 +1,80 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.NoOpHttpTextFormat'
+    name: NoOpHttpTextFormat
+    fullName: NoOpHttpTextFormat
+    children:
+      - '@opentelemetry/types.NoOpHttpTextFormat.extract'
+      - '@opentelemetry/types.NoOpHttpTextFormat.inject'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      A no-op implementation of HttpTextFormat to be used when tracing is
+      disabled.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.NoOpHttpTextFormat.extract'
+    name: 'extract(string, unknown)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a SpanContext intance extracted from the carrier.
+    syntax:
+      content: 'function extract(_format: string, _carrier: unknown)'
+      parameters:
+        - id: _format
+          type:
+            - string
+          description: the format of the carrier
+        - id: _carrier
+          type:
+            - unknown
+          description: |
+            The carrier being used for propagation, e.g. an HTTP request
+      return:
+        type:
+          - '@opentelemetry/types.SpanContext | null'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.NoOpHttpTextFormat.inject'
+    name: 'inject(SpanContext, string, unknown)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Injects the given SpanContext for transmitting to a remote server.
+    syntax:
+      content: >-
+        function inject(_spanContext: SpanContext, _format: string, _carrier:
+        unknown)
+      parameters:
+        - id: _spanContext
+          type:
+            - '@opentelemetry/types.SpanContext'
+          description: The SpanContext to transmit
+        - id: _format
+          type:
+            - string
+          description: The format of the carrier
+        - id: _carrier
+          type:
+            - unknown
+          description: |
+            The carrier to propagate through, e.g. an HTTP request
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.SpanContext | null'
+    name: SpanContext | null
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@opentelemetry/types.SpanContext'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@opentelemetry/types.SpanContext'
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@opentelemetry/types.SpanContext'

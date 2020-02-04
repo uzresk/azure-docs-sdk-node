@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobGetPropertiesResponse'
+    name: BlobGetPropertiesResponse
+    fullName: BlobGetPropertiesResponse
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: Contains response data for the getProperties operation.
+    syntax:
+      content: >-
+        type BlobGetPropertiesResponse = BlobGetPropertiesHeaders & { _response:
+        Object }
+    package: '@azure/abort-controller'

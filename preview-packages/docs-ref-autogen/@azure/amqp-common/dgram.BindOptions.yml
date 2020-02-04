@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.dgram.BindOptions'
+    name: BindOptions
+    fullName: BindOptions
+    children:
+      - '@azure/ms-rest-azure-env.dgram.BindOptions.address'
+      - '@azure/ms-rest-azure-env.dgram.BindOptions.exclusive'
+      - '@azure/ms-rest-azure-env.dgram.BindOptions.port'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.BindOptions.address'
+    name: address
+    fullName: address
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'address?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.BindOptions.exclusive'
+    name: exclusive
+    fullName: exclusive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'exclusive?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.BindOptions.port'
+    name: port
+    fullName: port
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'port: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+  - uid: '@azure/ms-rest-azure-env.dgram.AddressInfo'
+    name: AddressInfo
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: '@azure/ms-rest-azure-env.dgram.AddressInfo'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+  - uid: '@azure/ms-rest-azure-env.dgram.SocketType'
+    name: SocketType
+    spec.typeScript:
+      - name: SocketType
+        fullName: SocketType
+        uid: '@azure/ms-rest-azure-env.dgram.SocketType'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket'
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/ms-rest-azure-env.dgram.Socket'

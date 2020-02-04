@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.v8.DoesZapCodeSpaceFlag
+    name: DoesZapCodeSpaceFlag
+    fullName: DoesZapCodeSpaceFlag
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type DoesZapCodeSpaceFlag = 0 | 1
+    package: tslib
+references:
+  - uid: tslib.v8.Deserializer
+    name: Deserializer
+    spec.typeScript:
+      - name: Deserializer
+        fullName: Deserializer
+        uid: tslib.v8.Deserializer
+  - uid: tslib.NodeJS.TypedArray
+    name: TypedArray
+    spec.typeScript:
+      - name: TypedArray
+        fullName: TypedArray
+        uid: tslib.NodeJS.TypedArray
+  - uid: tslib.v8.Serializer
+    name: Serializer
+    spec.typeScript:
+      - name: Serializer
+        fullName: Serializer
+        uid: tslib.v8.Serializer
+  - uid: tslib.v8.DoesZapCodeSpaceFlag
+    name: DoesZapCodeSpaceFlag
+    spec.typeScript:
+      - name: DoesZapCodeSpaceFlag
+        fullName: DoesZapCodeSpaceFlag
+        uid: tslib.v8.DoesZapCodeSpaceFlag
+  - uid: tslib.v8.HeapCodeStatistics
+    name: HeapCodeStatistics
+    spec.typeScript:
+      - name: HeapCodeStatistics
+        fullName: HeapCodeStatistics
+        uid: tslib.v8.HeapCodeStatistics
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: 'tslib.v8.HeapSpaceInfo[]'
+    name: 'HeapSpaceInfo[]'
+    spec.typeScript:
+      - name: HeapSpaceInfo
+        fullName: HeapSpaceInfo
+        uid: tslib.v8.HeapSpaceInfo
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.v8.HeapInfo
+    name: HeapInfo
+    spec.typeScript:
+      - name: HeapInfo
+        fullName: HeapInfo
+        uid: tslib.v8.HeapInfo

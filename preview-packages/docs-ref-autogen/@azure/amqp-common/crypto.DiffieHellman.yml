@@ -1,0 +1,448 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman'
+    name: DiffieHellman
+    fullName: DiffieHellman
+    children:
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.computeSecret'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.computeSecret_1'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.computeSecret_2'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.generateKeys'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.generateKeys_1'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.getGenerator'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.getGenerator_1'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.getPrime'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.getPrime_1'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.getPrivateKey'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.getPrivateKey_1'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.getPublicKey'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.getPublicKey_1'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.setPrivateKey'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.setPrivateKey_1'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.setPublicKey'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.setPublicKey_1'
+      - '@azure/ms-rest-azure-env.crypto.DiffieHellman.verifyError'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.computeSecret'
+    name: computeSecret(Buffer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function computeSecret(other_public_key: Buffer)'
+      parameters:
+        - id: other_public_key
+          type:
+            - Buffer
+          description: ''
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.computeSecret_1'
+    name: 'computeSecret(string, HexBase64Latin1Encoding)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function computeSecret(other_public_key: string, input_encoding:
+        HexBase64Latin1Encoding)
+      parameters:
+        - id: other_public_key
+          type:
+            - string
+          description: ''
+        - id: input_encoding
+          type:
+            - '@azure/ms-rest-azure-env.crypto.HexBase64Latin1Encoding'
+          description: ''
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.computeSecret_2'
+    name: 'computeSecret(string, HexBase64Latin1Encoding, HexBase64Latin1Encoding)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function computeSecret(other_public_key: string, input_encoding:
+        HexBase64Latin1Encoding, output_encoding: HexBase64Latin1Encoding)
+      parameters:
+        - id: other_public_key
+          type:
+            - string
+          description: ''
+        - id: input_encoding
+          type:
+            - '@azure/ms-rest-azure-env.crypto.HexBase64Latin1Encoding'
+          description: ''
+        - id: output_encoding
+          type:
+            - '@azure/ms-rest-azure-env.crypto.HexBase64Latin1Encoding'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.generateKeys'
+    name: generateKeys()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function generateKeys()
+      parameters: []
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.generateKeys_1'
+    name: generateKeys(HexBase64Latin1Encoding)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function generateKeys(encoding: HexBase64Latin1Encoding)'
+      parameters:
+        - id: encoding
+          type:
+            - '@azure/ms-rest-azure-env.crypto.HexBase64Latin1Encoding'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.getGenerator'
+    name: getGenerator()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getGenerator()
+      parameters: []
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.getGenerator_1'
+    name: getGenerator(HexBase64Latin1Encoding)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getGenerator(encoding: HexBase64Latin1Encoding)'
+      parameters:
+        - id: encoding
+          type:
+            - '@azure/ms-rest-azure-env.crypto.HexBase64Latin1Encoding'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.getPrime'
+    name: getPrime()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getPrime()
+      parameters: []
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.getPrime_1'
+    name: getPrime(HexBase64Latin1Encoding)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getPrime(encoding: HexBase64Latin1Encoding)'
+      parameters:
+        - id: encoding
+          type:
+            - '@azure/ms-rest-azure-env.crypto.HexBase64Latin1Encoding'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.getPrivateKey'
+    name: getPrivateKey()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getPrivateKey()
+      parameters: []
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.getPrivateKey_1'
+    name: getPrivateKey(HexBase64Latin1Encoding)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getPrivateKey(encoding: HexBase64Latin1Encoding)'
+      parameters:
+        - id: encoding
+          type:
+            - '@azure/ms-rest-azure-env.crypto.HexBase64Latin1Encoding'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.getPublicKey'
+    name: getPublicKey()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getPublicKey()
+      parameters: []
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.getPublicKey_1'
+    name: getPublicKey(HexBase64Latin1Encoding)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getPublicKey(encoding: HexBase64Latin1Encoding)'
+      parameters:
+        - id: encoding
+          type:
+            - '@azure/ms-rest-azure-env.crypto.HexBase64Latin1Encoding'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.setPrivateKey'
+    name: setPrivateKey(Buffer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setPrivateKey(private_key: Buffer)'
+      parameters:
+        - id: private_key
+          type:
+            - Buffer
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.setPrivateKey_1'
+    name: 'setPrivateKey(string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setPrivateKey(private_key: string, encoding: string)'
+      parameters:
+        - id: private_key
+          type:
+            - string
+          description: ''
+        - id: encoding
+          type:
+            - string
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.setPublicKey'
+    name: setPublicKey(Buffer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setPublicKey(public_key: Buffer)'
+      parameters:
+        - id: public_key
+          type:
+            - Buffer
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.setPublicKey_1'
+    name: 'setPublicKey(string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setPublicKey(public_key: string, encoding: string)'
+      parameters:
+        - id: public_key
+          type:
+            - string
+          description: ''
+        - id: encoding
+          type:
+            - string
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.crypto.DiffieHellman.verifyError'
+    name: verifyError
+    fullName: verifyError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'verifyError: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Transform'
+    name: Transform
+    spec.typeScript:
+      - name: Transform
+        fullName: Transform
+        uid: '@azure/ms-rest-azure-env.stream.internal.Transform'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.TransformOptions'
+    name: TransformOptions
+    spec.typeScript:
+      - name: TransformOptions
+        fullName: TransformOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.TransformOptions'
+  - uid: '@azure/ms-rest-azure-env.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.Error'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+  - uid: '@azure/ms-rest-azure-env.crypto.Utf8AsciiBinaryEncoding'
+    name: Utf8AsciiBinaryEncoding
+    spec.typeScript:
+      - name: Utf8AsciiBinaryEncoding
+        fullName: Utf8AsciiBinaryEncoding
+        uid: '@azure/ms-rest-azure-env.crypto.Utf8AsciiBinaryEncoding'
+  - uid: '@azure/ms-rest-azure-env.crypto.HexBase64BinaryEncoding'
+    name: HexBase64BinaryEncoding
+    spec.typeScript:
+      - name: HexBase64BinaryEncoding
+        fullName: HexBase64BinaryEncoding
+        uid: '@azure/ms-rest-azure-env.crypto.HexBase64BinaryEncoding'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+  - uid: '@azure/ms-rest-azure-env.crypto.HexBase64Latin1Encoding'
+    name: HexBase64Latin1Encoding
+    spec.typeScript:
+      - name: HexBase64Latin1Encoding
+        fullName: HexBase64Latin1Encoding
+        uid: '@azure/ms-rest-azure-env.crypto.HexBase64Latin1Encoding'
+  - uid: '@azure/ms-rest-azure-env.crypto.ECDHKeyFormat'
+    name: ECDHKeyFormat
+    spec.typeScript:
+      - name: ECDHKeyFormat
+        fullName: ECDHKeyFormat
+        uid: '@azure/ms-rest-azure-env.crypto.ECDHKeyFormat'
+  - uid: '@azure/ms-rest-azure-env.crypto.Utf8AsciiLatin1Encoding'
+    name: Utf8AsciiLatin1Encoding
+    spec.typeScript:
+      - name: Utf8AsciiLatin1Encoding
+        fullName: Utf8AsciiLatin1Encoding
+        uid: '@azure/ms-rest-azure-env.crypto.Utf8AsciiLatin1Encoding'
+  - uid: string | Buffer | @azure/ms-rest-azure-env.crypto.KeyObject
+    name: KeyObject
+    spec.typeScript:
+      - name: 'string | Buffer | '
+        fullName: 'string | Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: '@azure/ms-rest-azure-env.crypto.KeyObject'
+  - uid: '@azure/ms-rest-azure-env.crypto.CredentialDetails'
+    name: CredentialDetails
+    spec.typeScript:
+      - name: CredentialDetails
+        fullName: CredentialDetails
+        uid: '@azure/ms-rest-azure-env.crypto.CredentialDetails'
+  - uid: '@azure/ms-rest-azure-env.crypto.Credentials'
+    name: Credentials
+    spec.typeScript:
+      - name: Credentials
+        fullName: Credentials
+        uid: '@azure/ms-rest-azure-env.crypto.Credentials'

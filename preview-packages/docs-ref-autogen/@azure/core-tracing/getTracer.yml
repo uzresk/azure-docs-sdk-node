@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-tracing.getTracer'
+  - uid: '@opentelemetry/types.getTracer'
     name: getTracer()
     children: []
     type: function
@@ -14,6 +14,13 @@ items:
       parameters: []
       return:
         type:
-          - Tracer
+          - '@opentelemetry/types.Tracer'
         description: ''
-    package: '@azure/core-tracing'
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.Tracer'
+    name: Tracer
+    spec.typeScript:
+      - name: Tracer
+        fullName: Tracer
+        uid: '@opentelemetry/types.Tracer'

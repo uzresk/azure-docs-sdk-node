@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.generateBlockID'
+  - uid: '@azure/abort-controller.generateBlockID'
     name: 'generateBlockID(string, number)'
     children: []
     type: function
@@ -22,4 +22,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

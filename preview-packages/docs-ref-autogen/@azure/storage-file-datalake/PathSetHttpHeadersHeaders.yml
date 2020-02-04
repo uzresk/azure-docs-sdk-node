@@ -1,21 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathSetHttpHeadersHeaders'
+  - uid: '@azure/abort-controller.PathSetHttpHeadersHeaders'
     name: PathSetHttpHeadersHeaders
     fullName: PathSetHttpHeadersHeaders
     children:
-      - '@azure/storage-file-datalake.PathSetHttpHeadersHeaders.clientRequestId'
-      - '@azure/storage-file-datalake.PathSetHttpHeadersHeaders.date'
-      - '@azure/storage-file-datalake.PathSetHttpHeadersHeaders.etag'
-      - '@azure/storage-file-datalake.PathSetHttpHeadersHeaders.lastModified'
-      - '@azure/storage-file-datalake.PathSetHttpHeadersHeaders.requestId'
-      - '@azure/storage-file-datalake.PathSetHttpHeadersHeaders.version'
+      - '@azure/abort-controller.PathSetHttpHeadersHeaders.clientRequestId'
+      - '@azure/abort-controller.PathSetHttpHeadersHeaders.date'
+      - '@azure/abort-controller.PathSetHttpHeadersHeaders.etag'
+      - '@azure/abort-controller.PathSetHttpHeadersHeaders.lastModified'
+      - '@azure/abort-controller.PathSetHttpHeadersHeaders.requestId'
+      - '@azure/abort-controller.PathSetHttpHeadersHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetHttpHeadersHeaders.clientRequestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetHttpHeadersHeaders.clientRequestId'
     name: clientRequestId
     fullName: clientRequestId
     children: []
@@ -30,8 +30,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetHttpHeadersHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetHttpHeadersHeaders.date'
     name: date
     fullName: date
     children: []
@@ -44,10 +44,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetHttpHeadersHeaders.etag'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetHttpHeadersHeaders.etag'
     name: etag
     fullName: etag
     children: []
@@ -62,8 +62,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetHttpHeadersHeaders.lastModified'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetHttpHeadersHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -76,10 +76,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetHttpHeadersHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetHttpHeadersHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -94,8 +94,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetHttpHeadersHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetHttpHeadersHeaders.version'
     name: version
     fullName: version
     children: []
@@ -110,4 +110,11 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'

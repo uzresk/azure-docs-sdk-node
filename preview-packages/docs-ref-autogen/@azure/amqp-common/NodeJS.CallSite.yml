@@ -1,0 +1,451 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CallSite'
+    name: CallSite
+    fullName: CallSite
+    children:
+      - '@azure/ms-rest-azure-env.NodeJS.CallSite.getColumnNumber'
+      - '@azure/ms-rest-azure-env.NodeJS.CallSite.getEvalOrigin'
+      - '@azure/ms-rest-azure-env.NodeJS.CallSite.getFileName'
+      - '@azure/ms-rest-azure-env.NodeJS.CallSite.getFunction'
+      - '@azure/ms-rest-azure-env.NodeJS.CallSite.getFunctionName'
+      - '@azure/ms-rest-azure-env.NodeJS.CallSite.getLineNumber'
+      - '@azure/ms-rest-azure-env.NodeJS.CallSite.getMethodName'
+      - '@azure/ms-rest-azure-env.NodeJS.CallSite.getThis'
+      - '@azure/ms-rest-azure-env.NodeJS.CallSite.getTypeName'
+      - '@azure/ms-rest-azure-env.NodeJS.CallSite.isConstructor'
+      - '@azure/ms-rest-azure-env.NodeJS.CallSite.isEval'
+      - '@azure/ms-rest-azure-env.NodeJS.CallSite.isNative'
+      - '@azure/ms-rest-azure-env.NodeJS.CallSite.isToplevel'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CallSite.getColumnNumber'
+    name: getColumnNumber()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Current column number [if this function was defined in a script]'
+    syntax:
+      content: function getColumnNumber()
+      parameters: []
+      return:
+        type:
+          - number | null
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CallSite.getEvalOrigin'
+    name: getEvalOrigin()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      A call site object representing the location where eval was called
+      [if this function was created using a call to eval]
+    syntax:
+      content: function getEvalOrigin()
+      parameters: []
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CallSite.getFileName'
+    name: getFileName()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Name of the script [if this function was defined in a script]'
+    syntax:
+      content: function getFileName()
+      parameters: []
+      return:
+        type:
+          - string | null
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CallSite.getFunction'
+    name: getFunction()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Current function
+    syntax:
+      content: function getFunction()
+      parameters: []
+      return:
+        type:
+          - Function | undefined
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CallSite.getFunctionName'
+    name: getFunctionName()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Name of the current function, typically its name property.
+      If a name property is not available an attempt will be made to try
+      to infer a name from the function's context.
+    syntax:
+      content: function getFunctionName()
+      parameters: []
+      return:
+        type:
+          - string | null
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CallSite.getLineNumber'
+    name: getLineNumber()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Current line number [if this function was defined in a script]'
+    syntax:
+      content: function getLineNumber()
+      parameters: []
+      return:
+        type:
+          - number | null
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CallSite.getMethodName'
+    name: getMethodName()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Name of the property [of "this" or one of its prototypes] that holds
+      the current function
+    syntax:
+      content: function getMethodName()
+      parameters: []
+      return:
+        type:
+          - string | null
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CallSite.getThis'
+    name: getThis()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Value of "this"
+    syntax:
+      content: function getThis()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CallSite.getTypeName'
+    name: getTypeName()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Type of "this" as a string.
+      This is the name of the function stored in the constructor field of
+      "this", if available.  Otherwise the object's [[Class]] internal
+      property.
+    syntax:
+      content: function getTypeName()
+      parameters: []
+      return:
+        type:
+          - string | null
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CallSite.isConstructor'
+    name: isConstructor()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Is this a constructor call?
+    syntax:
+      content: function isConstructor()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CallSite.isEval'
+    name: isEval()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Does this call take place in code defined by a call to eval?
+    syntax:
+      content: function isEval()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CallSite.isNative'
+    name: isNative()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Is this call in native V8 code?
+    syntax:
+      content: function isNative()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CallSite.isToplevel'
+    name: isToplevel()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Is this a toplevel invocation, that is, is "this" the global object?'
+    syntax:
+      content: function isToplevel()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Module.Module'
+    name: Module
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: '@azure/ms-rest-azure-env.NodeJS.Module.Module'
+  - uid: '@azure/ms-rest-azure-env.NodeRequireFunction'
+    name: NodeRequireFunction
+    spec.typeScript:
+      - name: NodeRequireFunction
+        fullName: NodeRequireFunction
+        uid: '@azure/ms-rest-azure-env.NodeRequireFunction'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Events'
+    name: Events
+    spec.typeScript:
+      - name: Events
+        fullName: Events
+        uid: '@azure/ms-rest-azure-env.NodeJS.Events'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+  - uid: '@azure/ms-rest-azure-env.NodeModule'
+    name: NodeModule
+    spec.typeScript:
+      - name: NodeModule
+        fullName: NodeModule
+        uid: '@azure/ms-rest-azure-env.NodeModule'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Platform'
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: '@azure/ms-rest-azure-env.NodeJS.Platform'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.BeforeExitListener'
+    name: BeforeExitListener
+    spec.typeScript:
+      - name: BeforeExitListener
+        fullName: BeforeExitListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.BeforeExitListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.DisconnectListener'
+    name: DisconnectListener
+    spec.typeScript:
+      - name: DisconnectListener
+        fullName: DisconnectListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.DisconnectListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ExitListener'
+    name: ExitListener
+    spec.typeScript:
+      - name: ExitListener
+        fullName: ExitListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.ExitListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.RejectionHandledListener'
+    name: RejectionHandledListener
+    spec.typeScript:
+      - name: RejectionHandledListener
+        fullName: RejectionHandledListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.RejectionHandledListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.UncaughtExceptionListener'
+    name: UncaughtExceptionListener
+    spec.typeScript:
+      - name: UncaughtExceptionListener
+        fullName: UncaughtExceptionListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.UncaughtExceptionListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.UnhandledRejectionListener'
+    name: UnhandledRejectionListener
+    spec.typeScript:
+      - name: UnhandledRejectionListener
+        fullName: UnhandledRejectionListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.UnhandledRejectionListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WarningListener'
+    name: WarningListener
+    spec.typeScript:
+      - name: WarningListener
+        fullName: WarningListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.WarningListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.MessageListener'
+    name: MessageListener
+    spec.typeScript:
+      - name: MessageListener
+        fullName: MessageListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.MessageListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Signals'
+    name: Signals
+    spec.typeScript:
+      - name: Signals
+        fullName: Signals
+        uid: '@azure/ms-rest-azure-env.NodeJS.Signals'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.SignalsListener'
+    name: SignalsListener
+    spec.typeScript:
+      - name: SignalsListener
+        fullName: SignalsListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.SignalsListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.NewListenerListener'
+    name: NewListenerListener
+    spec.typeScript:
+      - name: NewListenerListener
+        fullName: NewListenerListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.NewListenerListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.RemoveListenerListener'
+    name: RemoveListenerListener
+    spec.typeScript:
+      - name: RemoveListenerListener
+        fullName: RemoveListenerListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.RemoveListenerListener'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.CpuUsage'
+    name: CpuUsage
+    spec.typeScript:
+      - name: CpuUsage
+        fullName: CpuUsage
+        uid: '@azure/ms-rest-azure-env.NodeJS.CpuUsage'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.BeforeExitListener[]'
+    name: 'BeforeExitListener[]'
+    spec.typeScript:
+      - name: BeforeExitListener
+        fullName: BeforeExitListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.BeforeExitListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.DisconnectListener[]'
+    name: 'DisconnectListener[]'
+    spec.typeScript:
+      - name: DisconnectListener
+        fullName: DisconnectListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.DisconnectListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ExitListener[]'
+    name: 'ExitListener[]'
+    spec.typeScript:
+      - name: ExitListener
+        fullName: ExitListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.ExitListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.RejectionHandledListener[]'
+    name: 'RejectionHandledListener[]'
+    spec.typeScript:
+      - name: RejectionHandledListener
+        fullName: RejectionHandledListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.RejectionHandledListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.UncaughtExceptionListener[]'
+    name: 'UncaughtExceptionListener[]'
+    spec.typeScript:
+      - name: UncaughtExceptionListener
+        fullName: UncaughtExceptionListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.UncaughtExceptionListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.UnhandledRejectionListener[]'
+    name: 'UnhandledRejectionListener[]'
+    spec.typeScript:
+      - name: UnhandledRejectionListener
+        fullName: UnhandledRejectionListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.UnhandledRejectionListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WarningListener[]'
+    name: 'WarningListener[]'
+    spec.typeScript:
+      - name: WarningListener
+        fullName: WarningListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.WarningListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.MessageListener[]'
+    name: 'MessageListener[]'
+    spec.typeScript:
+      - name: MessageListener
+        fullName: MessageListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.MessageListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.SignalsListener[]'
+    name: 'SignalsListener[]'
+    spec.typeScript:
+      - name: SignalsListener
+        fullName: SignalsListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.SignalsListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.NewListenerListener[]'
+    name: 'NewListenerListener[]'
+    spec.typeScript:
+      - name: NewListenerListener
+        fullName: NewListenerListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.NewListenerListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.RemoveListenerListener[]'
+    name: 'RemoveListenerListener[]'
+    spec.typeScript:
+      - name: RemoveListenerListener
+        fullName: RemoveListenerListener
+        uid: '@azure/ms-rest-azure-env.NodeJS.RemoveListenerListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/ms-rest-azure-env.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.Error'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'

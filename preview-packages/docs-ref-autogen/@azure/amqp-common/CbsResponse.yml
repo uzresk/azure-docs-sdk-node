@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.CbsResponse'
+  - uid: '@azure/ms-rest-azure-env.CbsResponse'
     name: CbsResponse
     fullName: CbsResponse
     children:
-      - '@azure/amqp-common.CbsResponse.correlationId'
-      - '@azure/amqp-common.CbsResponse.satusDescription'
-      - '@azure/amqp-common.CbsResponse.statusCode'
+      - '@azure/ms-rest-azure-env.CbsResponse.correlationId'
+      - '@azure/ms-rest-azure-env.CbsResponse.satusDescription'
+      - '@azure/ms-rest-azure-env.CbsResponse.statusCode'
     langs:
       - typeScript
     type: interface
     summary: Describes the CBS Response.
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.CbsResponse.correlationId'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.CbsResponse.correlationId'
     name: correlationId
     fullName: correlationId
     children: []
@@ -26,8 +26,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.CbsResponse.satusDescription'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.CbsResponse.satusDescription'
     name: satusDescription
     fullName: satusDescription
     children: []
@@ -41,8 +41,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.CbsResponse.statusCode'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.CbsResponse.statusCode'
     name: statusCode
     fullName: statusCode
     children: []
@@ -56,4 +56,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'

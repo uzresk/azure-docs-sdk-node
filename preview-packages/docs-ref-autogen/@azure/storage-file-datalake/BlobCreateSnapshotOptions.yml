@@ -1,0 +1,140 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobCreateSnapshotOptions'
+    name: BlobCreateSnapshotOptions
+    fullName: BlobCreateSnapshotOptions
+    children:
+      - '@azure/abort-controller.BlobCreateSnapshotOptions.abortSignal'
+      - '@azure/abort-controller.BlobCreateSnapshotOptions.conditions'
+      - '@azure/abort-controller.BlobCreateSnapshotOptions.customerProvidedKey'
+      - '@azure/abort-controller.BlobCreateSnapshotOptions.metadata'
+      - '@azure/abort-controller.BlobCreateSnapshotOptions.tracingOptions'
+    langs:
+      - typeScript
+    type: interface
+    summary: 'Options to configure the <xref:BlobClient.createSnapshot> operation.'
+    extends:
+      name: '@azure/abort-controller.CommonOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobCreateSnapshotOptions.abortSignal'
+    name: abortSignal
+    fullName: abortSignal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    optional: true
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type:
+          - '@azure/abort-controller.AbortSignalLike'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobCreateSnapshotOptions.conditions'
+    name: conditions
+    fullName: conditions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Conditions to meet when creating blob snapshots.
+    optional: true
+    syntax:
+      content: 'conditions?: BlobRequestConditions'
+      return:
+        type:
+          - '@azure/abort-controller.BlobRequestConditions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobCreateSnapshotOptions.customerProvidedKey'
+    name: customerProvidedKey
+    fullName: customerProvidedKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Customer Provided Key Info.
+    optional: true
+    syntax:
+      content: 'customerProvidedKey?: CpkInfo'
+      return:
+        type:
+          - '@azure/abort-controller.CpkInfo'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobCreateSnapshotOptions.metadata'
+    name: metadata
+    fullName: metadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A collection of key-value string pair to associate with the snapshot.
+    optional: true
+    syntax:
+      content: 'metadata?: Metadata'
+      return:
+        type:
+          - '@azure/abort-controller.Metadata'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobCreateSnapshotOptions.tracingOptions'
+    name: tracingOptions
+    fullName: tracingOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options to configure spans created when tracing is enabled.
+    optional: true
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type:
+          - '@azure/abort-controller.OperationTracingOptions'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.CommonOptions'
+    name: CommonOptions
+    spec.typeScript:
+      - name: CommonOptions
+        fullName: CommonOptions
+        uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.BlobRequestConditions'
+    name: BlobRequestConditions
+    spec.typeScript:
+      - name: BlobRequestConditions
+        fullName: BlobRequestConditions
+        uid: '@azure/abort-controller.BlobRequestConditions'
+  - uid: '@azure/abort-controller.CpkInfo'
+    name: CpkInfo
+    spec.typeScript:
+      - name: CpkInfo
+        fullName: CpkInfo
+        uid: '@azure/abort-controller.CpkInfo'
+  - uid: '@azure/abort-controller.Metadata'
+    name: Metadata
+    spec.typeScript:
+      - name: Metadata
+        fullName: Metadata
+        uid: '@azure/abort-controller.Metadata'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
+    name: OperationTracingOptions
+    spec.typeScript:
+      - name: OperationTracingOptions
+        fullName: OperationTracingOptions
+        uid: '@azure/abort-controller.OperationTracingOptions'

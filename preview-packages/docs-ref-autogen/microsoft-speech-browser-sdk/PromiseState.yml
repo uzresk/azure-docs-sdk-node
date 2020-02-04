@@ -5,8 +5,8 @@ items:
     fullName: PromiseState
     children:
       - microsoft-speech-browser-sdk.PromiseState.None
-      - microsoft-speech-browser-sdk.PromiseState.Resolved
       - microsoft-speech-browser-sdk.PromiseState.Rejected
+      - microsoft-speech-browser-sdk.PromiseState.Resolved
     langs:
       - typeScript
     type: enum
@@ -19,16 +19,6 @@ items:
       - typeScript
     summary: ''
     type: field
-    numericValue: 0
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.PromiseState.Resolved
-    name: Resolved
-    children: []
-    langs:
-      - typeScript
-    summary: ''
-    type: field
-    numericValue: 1
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.PromiseState.Rejected
     name: Rejected
@@ -37,5 +27,12 @@ items:
       - typeScript
     summary: ''
     type: field
-    numericValue: 2
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.PromiseState.Resolved
+    name: Resolved
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
     package: microsoft-speech-browser-sdk

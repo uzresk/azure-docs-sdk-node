@@ -1,22 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.FileSystemListPathsHeaders'
+  - uid: '@azure/abort-controller.FileSystemListPathsHeaders'
     name: FileSystemListPathsHeaders
     fullName: FileSystemListPathsHeaders
     children:
-      - '@azure/storage-file-datalake.FileSystemListPathsHeaders.continuation'
-      - '@azure/storage-file-datalake.FileSystemListPathsHeaders.date'
-      - '@azure/storage-file-datalake.FileSystemListPathsHeaders.errorCode'
-      - '@azure/storage-file-datalake.FileSystemListPathsHeaders.eTag'
-      - '@azure/storage-file-datalake.FileSystemListPathsHeaders.lastModified'
-      - '@azure/storage-file-datalake.FileSystemListPathsHeaders.requestId'
-      - '@azure/storage-file-datalake.FileSystemListPathsHeaders.version'
+      - '@azure/abort-controller.FileSystemListPathsHeaders.continuation'
+      - '@azure/abort-controller.FileSystemListPathsHeaders.date'
+      - '@azure/abort-controller.FileSystemListPathsHeaders.errorCode'
+      - '@azure/abort-controller.FileSystemListPathsHeaders.eTag'
+      - '@azure/abort-controller.FileSystemListPathsHeaders.lastModified'
+      - '@azure/abort-controller.FileSystemListPathsHeaders.requestId'
+      - '@azure/abort-controller.FileSystemListPathsHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: Defines headers for ListPaths operation.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemListPathsHeaders.continuation'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemListPathsHeaders.continuation'
     name: continuation
     fullName: continuation
     children: []
@@ -41,8 +41,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemListPathsHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemListPathsHeaders.date'
     name: date
     fullName: date
     children: []
@@ -59,10 +59,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemListPathsHeaders.errorCode'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemListPathsHeaders.errorCode'
     name: errorCode
     fullName: errorCode
     children: []
@@ -77,8 +77,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemListPathsHeaders.eTag'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemListPathsHeaders.eTag'
     name: eTag
     fullName: eTag
     children: []
@@ -97,8 +97,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemListPathsHeaders.lastModified'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemListPathsHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -115,10 +115,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemListPathsHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemListPathsHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -135,8 +135,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemListPathsHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemListPathsHeaders.version'
     name: version
     fullName: version
     children: []
@@ -151,4 +151,11 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'

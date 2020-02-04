@@ -1,21 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.FileSystemCreateHeaders'
+  - uid: '@azure/abort-controller.FileSystemCreateHeaders'
     name: FileSystemCreateHeaders
     fullName: FileSystemCreateHeaders
     children:
-      - '@azure/storage-file-datalake.FileSystemCreateHeaders.clientRequestId'
-      - '@azure/storage-file-datalake.FileSystemCreateHeaders.date'
-      - '@azure/storage-file-datalake.FileSystemCreateHeaders.etag'
-      - '@azure/storage-file-datalake.FileSystemCreateHeaders.lastModified'
-      - '@azure/storage-file-datalake.FileSystemCreateHeaders.requestId'
-      - '@azure/storage-file-datalake.FileSystemCreateHeaders.version'
+      - '@azure/abort-controller.FileSystemCreateHeaders.clientRequestId'
+      - '@azure/abort-controller.FileSystemCreateHeaders.date'
+      - '@azure/abort-controller.FileSystemCreateHeaders.etag'
+      - '@azure/abort-controller.FileSystemCreateHeaders.lastModified'
+      - '@azure/abort-controller.FileSystemCreateHeaders.requestId'
+      - '@azure/abort-controller.FileSystemCreateHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemCreateHeaders.clientRequestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemCreateHeaders.clientRequestId'
     name: clientRequestId
     fullName: clientRequestId
     children: []
@@ -30,8 +30,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemCreateHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemCreateHeaders.date'
     name: date
     fullName: date
     children: []
@@ -44,10 +44,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemCreateHeaders.etag'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemCreateHeaders.etag'
     name: etag
     fullName: etag
     children: []
@@ -62,8 +62,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemCreateHeaders.lastModified'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemCreateHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -76,10 +76,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemCreateHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemCreateHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -94,8 +94,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemCreateHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemCreateHeaders.version'
     name: version
     fullName: version
     children: []
@@ -110,4 +110,11 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'

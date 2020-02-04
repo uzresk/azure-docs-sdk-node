@@ -1,0 +1,252 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.util.CustomPromisify'
+    name: CustomPromisify
+    fullName: CustomPromisify<TCustom>
+    children:
+      - '@azure/abort-controller.util.CustomPromisify.apply'
+      - '@azure/abort-controller.util.CustomPromisify.arguments'
+      - '@azure/abort-controller.util.CustomPromisify.bind'
+      - '@azure/abort-controller.util.CustomPromisify.call'
+      - '@azure/abort-controller.util.CustomPromisify.caller'
+      - '@azure/abort-controller.util.CustomPromisify.Function'
+      - '@azure/abort-controller.util.CustomPromisify.length'
+      - '@azure/abort-controller.util.CustomPromisify.name'
+      - '@azure/abort-controller.util.CustomPromisify.prototype'
+      - '@azure/abort-controller.util.CustomPromisify.toString'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: Function
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.CustomPromisify.apply'
+    name: 'apply(Function, any, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Calls the function, substituting the specified object for the this value
+      of the function, and the specified array for the arguments of the
+      function.
+    syntax:
+      content: 'function apply(this: Function, thisArg: any, argArray?: any)'
+      parameters:
+        - id: this
+          type:
+            - Function
+          description: ''
+        - id: thisArg
+          type:
+            - any
+          description: The object to be used as the this object.
+        - id: argArray
+          type:
+            - any
+          description: |
+            A set of arguments to be passed to the function.
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.CustomPromisify.arguments'
+    name: arguments
+    fullName: arguments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'arguments: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.CustomPromisify.bind'
+    name: 'bind(Function, any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      For a given function, creates a bound function that has the same body as
+      the original function.
+
+      The this object of the bound function is associated with the specified
+      object, and has the specified initial parameters.
+    syntax:
+      content: 'function bind(this: Function, thisArg: any, argArray: any[])'
+      parameters:
+        - id: this
+          type:
+            - Function
+          description: ''
+        - id: thisArg
+          type:
+            - any
+          description: >-
+            An object to which the this keyword can refer inside the new
+            function.
+        - id: argArray
+          type:
+            - 'any[]'
+          description: |
+            A list of arguments to be passed to the new function.
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.CustomPromisify.call'
+    name: 'call(Function, any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Calls a method of an object, substituting another object for the current
+      object.
+    syntax:
+      content: 'function call(this: Function, thisArg: any, argArray: any[])'
+      parameters:
+        - id: this
+          type:
+            - Function
+          description: ''
+        - id: thisArg
+          type:
+            - any
+          description: The object to be used as the current object.
+        - id: argArray
+          type:
+            - 'any[]'
+          description: |
+            A list of arguments to be passed to the method.
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.CustomPromisify.caller'
+    name: caller
+    fullName: caller
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'caller: Function'
+      return:
+        type:
+          - Function
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.CustomPromisify.Function'
+    name: Function
+    fullName: Function
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Function: FunctionConstructor'
+      return:
+        type:
+          - FunctionConstructor
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.CustomPromisify.length'
+    name: length
+    fullName: length
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'length: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.CustomPromisify.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Returns the name of the function. Function names are read-only and can not
+      be changed.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.CustomPromisify.prototype'
+    name: prototype
+    fullName: prototype
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'prototype: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.CustomPromisify.toString'
+    name: toString()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a string representation of a function.
+    syntax:
+      content: function toString()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.util.EncodeIntoResult'
+    name: EncodeIntoResult
+    spec.typeScript:
+      - name: EncodeIntoResult
+        fullName: EncodeIntoResult
+        uid: '@azure/abort-controller.util.EncodeIntoResult'
+  - uid: '@azure/abort-controller.NodeJS.InspectOptions'
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: '@azure/abort-controller.NodeJS.InspectOptions'
+  - uid: '@azure/abort-controller.util.InspectOptions'
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: '@azure/abort-controller.util.InspectOptions'
+  - uid: '@azure/abort-controller.util.Style'
+    name: Style
+    spec.typeScript:
+      - name: Style
+        fullName: Style
+        uid: '@azure/abort-controller.util.Style'

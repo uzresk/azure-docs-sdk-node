@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.vm.Context'
+    name: Context
+    fullName: Context
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.vm.ScriptOptions'
+    name: ScriptOptions
+    spec.typeScript:
+      - name: ScriptOptions
+        fullName: ScriptOptions
+        uid: '@azure/ms-rest-azure-env.vm.ScriptOptions'
+  - uid: '@azure/ms-rest-azure-env.vm.RunningScriptOptions'
+    name: RunningScriptOptions
+    spec.typeScript:
+      - name: RunningScriptOptions
+        fullName: RunningScriptOptions
+        uid: '@azure/ms-rest-azure-env.vm.RunningScriptOptions'
+  - uid: '@azure/ms-rest-azure-env.vm.Context'
+    name: Context
+    spec.typeScript:
+      - name: Context
+        fullName: Context
+        uid: '@azure/ms-rest-azure-env.vm.Context'
+  - uid: '@azure/ms-rest-azure-env.Buffer'
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: '@azure/ms-rest-azure-env.Buffer'

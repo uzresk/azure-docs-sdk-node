@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.MessageEventType
+    name: MessageEventType
+    fullName: MessageEventType
+    children:
+      - tslib.MessageEventType.UNSPECIFIED
+      - tslib.MessageEventType.SENT
+      - tslib.MessageEventType.RECEIVED
+    langs:
+      - typeScript
+    type: enum
+    summary: An event describing a message sent/received between Spans.
+    package: tslib
+  - uid: tslib.MessageEventType.UNSPECIFIED
+    name: UNSPECIFIED
+    children: []
+    langs:
+      - typeScript
+    summary: Unknown event type.
+    type: field
+    numericValue: 0
+    package: tslib
+  - uid: tslib.MessageEventType.SENT
+    name: SENT
+    children: []
+    langs:
+      - typeScript
+    summary: Indicates a sent message.
+    type: field
+    numericValue: 1
+    package: tslib
+  - uid: tslib.MessageEventType.RECEIVED
+    name: RECEIVED
+    children: []
+    langs:
+      - typeScript
+    summary: Indicates a received message.
+    type: field
+    numericValue: 2
+    package: tslib

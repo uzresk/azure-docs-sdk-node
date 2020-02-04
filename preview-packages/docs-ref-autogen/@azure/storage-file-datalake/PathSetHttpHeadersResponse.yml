@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathSetHttpHeadersResponse'
+  - uid: '@azure/abort-controller.PathSetHttpHeadersResponse'
     name: PathSetHttpHeadersResponse
     fullName: PathSetHttpHeadersResponse
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type PathSetHttpHeadersResponse = PathSetHttpHeadersHeaders & {
         _response: Object }
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

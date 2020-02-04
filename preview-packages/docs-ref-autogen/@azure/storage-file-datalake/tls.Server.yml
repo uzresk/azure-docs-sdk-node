@@ -1,0 +1,2163 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.tls.Server'
+    name: Server
+    fullName: Server
+    children:
+      - '@azure/abort-controller.tls.Server.addContext'
+      - '@azure/abort-controller.tls.Server.addListener_6'
+      - '@azure/abort-controller.tls.Server.addListener_2'
+      - '@azure/abort-controller.tls.Server.addListener_3'
+      - '@azure/abort-controller.tls.Server.addListener_4'
+      - '@azure/abort-controller.tls.Server.addListener_5'
+      - '@azure/abort-controller.tls.Server.addListener_1'
+      - '@azure/abort-controller.tls.Server.addListener'
+      - '@azure/abort-controller.tls.Server.address'
+      - '@azure/abort-controller.tls.Server.close'
+      - '@azure/abort-controller.tls.Server.connections'
+      - '@azure/abort-controller.tls.Server.emit_6'
+      - '@azure/abort-controller.tls.Server.emit_2'
+      - '@azure/abort-controller.tls.Server.emit_3'
+      - '@azure/abort-controller.tls.Server.emit_4'
+      - '@azure/abort-controller.tls.Server.emit_5'
+      - '@azure/abort-controller.tls.Server.emit_1'
+      - '@azure/abort-controller.tls.Server.emit'
+      - '@azure/abort-controller.tls.Server.eventNames'
+      - '@azure/abort-controller.tls.Server.getConnections'
+      - '@azure/abort-controller.tls.Server.getMaxListeners'
+      - '@azure/abort-controller.tls.Server.getTicketKeys'
+      - '@azure/abort-controller.tls.Server.listen_8'
+      - '@azure/abort-controller.tls.Server.listen_7'
+      - '@azure/abort-controller.tls.Server.listen_6'
+      - '@azure/abort-controller.tls.Server.listen_5'
+      - '@azure/abort-controller.tls.Server.listen_4'
+      - '@azure/abort-controller.tls.Server.listen_3'
+      - '@azure/abort-controller.tls.Server.listen_2'
+      - '@azure/abort-controller.tls.Server.listen_1'
+      - '@azure/abort-controller.tls.Server.listen'
+      - '@azure/abort-controller.tls.Server.listenerCount'
+      - '@azure/abort-controller.tls.Server.listeners'
+      - '@azure/abort-controller.tls.Server.listening'
+      - '@azure/abort-controller.tls.Server.maxConnections'
+      - '@azure/abort-controller.tls.Server.off'
+      - '@azure/abort-controller.tls.Server.on_6'
+      - '@azure/abort-controller.tls.Server.on_2'
+      - '@azure/abort-controller.tls.Server.on_3'
+      - '@azure/abort-controller.tls.Server.on_4'
+      - '@azure/abort-controller.tls.Server.on_5'
+      - '@azure/abort-controller.tls.Server.on_1'
+      - '@azure/abort-controller.tls.Server.on'
+      - '@azure/abort-controller.tls.Server.once_6'
+      - '@azure/abort-controller.tls.Server.once_2'
+      - '@azure/abort-controller.tls.Server.once_3'
+      - '@azure/abort-controller.tls.Server.once_4'
+      - '@azure/abort-controller.tls.Server.once_5'
+      - '@azure/abort-controller.tls.Server.once_1'
+      - '@azure/abort-controller.tls.Server.once'
+      - '@azure/abort-controller.tls.Server.prependListener_6'
+      - '@azure/abort-controller.tls.Server.prependListener_2'
+      - '@azure/abort-controller.tls.Server.prependListener_3'
+      - '@azure/abort-controller.tls.Server.prependListener_4'
+      - '@azure/abort-controller.tls.Server.prependListener_5'
+      - '@azure/abort-controller.tls.Server.prependListener_1'
+      - '@azure/abort-controller.tls.Server.prependListener'
+      - '@azure/abort-controller.tls.Server.prependOnceListener_6'
+      - '@azure/abort-controller.tls.Server.prependOnceListener_2'
+      - '@azure/abort-controller.tls.Server.prependOnceListener_3'
+      - '@azure/abort-controller.tls.Server.prependOnceListener_4'
+      - '@azure/abort-controller.tls.Server.prependOnceListener_5'
+      - '@azure/abort-controller.tls.Server.prependOnceListener_1'
+      - '@azure/abort-controller.tls.Server.prependOnceListener'
+      - '@azure/abort-controller.tls.Server.rawListeners'
+      - '@azure/abort-controller.tls.Server.ref'
+      - '@azure/abort-controller.tls.Server.removeAllListeners'
+      - '@azure/abort-controller.tls.Server.removeListener'
+      - '@azure/abort-controller.tls.Server.constructor'
+      - '@azure/abort-controller.tls.Server.constructor_1'
+      - '@azure/abort-controller.tls.Server.setMaxListeners'
+      - '@azure/abort-controller.tls.Server.setSecureContext'
+      - '@azure/abort-controller.tls.Server.setTicketKeys'
+      - '@azure/abort-controller.tls.Server.unref'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.net.Server'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.addContext'
+    name: 'addContext(string, SecureContextOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      The server.addContext() method adds a secure context that will be
+      used if the client request's SNI name matches the supplied hostname
+      (or wildcard).
+    syntax:
+      content: 'function addContext(hostName: string, credentials: SecureContextOptions)'
+      parameters:
+        - id: hostName
+          type:
+            - string
+          description: ''
+        - id: credentials
+          type:
+            - '@azure/abort-controller.tls.SecureContextOptions'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.addListener_6'
+    name: 'addListener("keylog", (line: Buffer, tlsSocket: TLSSocket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "keylog", listener: (line: Buffer,
+        tlsSocket: TLSSocket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"keylog"'
+          description: ''
+        - id: listener
+          type:
+            - '(line: Buffer, tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.addListener_2'
+    name: >-
+      addListener("newSession", (sessionId: Buffer, sessionData: Buffer,
+      callback: (err: Error, resp: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "newSession", listener: (sessionId: Buffer,
+        sessionData: Buffer, callback: (err: Error, resp: Buffer) => void) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"newSession"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (sessionId: Buffer, sessionData: Buffer, callback: (err: Error,
+              resp: Buffer) => void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.addListener_3'
+    name: >-
+      addListener("OCSPRequest", (certificate: Buffer, issuer: Buffer, callback:
+      (err: Error | null, resp: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "OCSPRequest", listener: (certificate:
+        Buffer, issuer: Buffer, callback: (err: Error | null, resp: Buffer) =>
+        void) => void)
+      parameters:
+        - id: event
+          type:
+            - '"OCSPRequest"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (certificate: Buffer, issuer: Buffer, callback: (err: Error |
+              null, resp: Buffer) => void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.addListener_4'
+    name: >-
+      addListener("resumeSession", (sessionId: Buffer, callback: (err: Error,
+      sessionData: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "resumeSession", listener: (sessionId:
+        Buffer, callback: (err: Error, sessionData: Buffer) => void) => void)
+      parameters:
+        - id: event
+          type:
+            - '"resumeSession"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (sessionId: Buffer, callback: (err: Error, sessionData: Buffer) =>
+              void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.addListener_5'
+    name: 'addListener("secureConnection", (tlsSocket: TLSSocket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "secureConnection", listener: (tlsSocket:
+        TLSSocket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"secureConnection"'
+          description: ''
+        - id: listener
+          type:
+            - '(tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.addListener_1'
+    name: 'addListener("tlsClientError", (err: Error, tlsSocket: TLSSocket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "tlsClientError", listener: (err: Error,
+        tlsSocket: TLSSocket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"tlsClientError"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error, tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.addListener'
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      events.EventEmitter
+      1. tlsClientError
+      2. newSession
+      3. OCSPRequest
+      4. resumeSession
+      5. secureConnection
+      6. keylog
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.address'
+    name: address()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function address()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.net.AddressInfo | string | null'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.close'
+    name: 'close(undefined | (err?: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function close(callback?: undefined | (err?: Error) => void)'
+      parameters:
+        - id: callback
+          type:
+            - 'undefined | (err?: Error) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.connections'
+    name: connections
+    fullName: connections
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'connections: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.emit_6'
+    name: 'emit("keylog", Buffer, TLSSocket)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "keylog", line: Buffer, tlsSocket: TLSSocket)'
+      parameters:
+        - id: event
+          type:
+            - '"keylog"'
+          description: ''
+        - id: line
+          type:
+            - Buffer
+          description: ''
+        - id: tlsSocket
+          type:
+            - '@azure/abort-controller.tls.TLSSocket'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.emit_2'
+    name: 'emit("newSession", Buffer, Buffer, (err: Error, resp: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function emit(event: "newSession", sessionId: Buffer, sessionData:
+        Buffer, callback: (err: Error, resp: Buffer) => void)
+      parameters:
+        - id: event
+          type:
+            - '"newSession"'
+          description: ''
+        - id: sessionId
+          type:
+            - Buffer
+          description: ''
+        - id: sessionData
+          type:
+            - Buffer
+          description: ''
+        - id: callback
+          type:
+            - '(err: Error, resp: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.emit_3'
+    name: >-
+      emit("OCSPRequest", Buffer, Buffer, (err: Error | null, resp: Buffer) =>
+      void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function emit(event: "OCSPRequest", certificate: Buffer, issuer: Buffer,
+        callback: (err: Error | null, resp: Buffer) => void)
+      parameters:
+        - id: event
+          type:
+            - '"OCSPRequest"'
+          description: ''
+        - id: certificate
+          type:
+            - Buffer
+          description: ''
+        - id: issuer
+          type:
+            - Buffer
+          description: ''
+        - id: callback
+          type:
+            - '(err: Error | null, resp: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.emit_4'
+    name: 'emit("resumeSession", Buffer, (err: Error, sessionData: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function emit(event: "resumeSession", sessionId: Buffer, callback: (err:
+        Error, sessionData: Buffer) => void)
+      parameters:
+        - id: event
+          type:
+            - '"resumeSession"'
+          description: ''
+        - id: sessionId
+          type:
+            - Buffer
+          description: ''
+        - id: callback
+          type:
+            - '(err: Error, sessionData: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.emit_5'
+    name: 'emit("secureConnection", TLSSocket)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "secureConnection", tlsSocket: TLSSocket)'
+      parameters:
+        - id: event
+          type:
+            - '"secureConnection"'
+          description: ''
+        - id: tlsSocket
+          type:
+            - '@azure/abort-controller.tls.TLSSocket'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.emit_1'
+    name: 'emit("tlsClientError", Error, TLSSocket)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "tlsClientError", err: Error, tlsSocket: TLSSocket)'
+      parameters:
+        - id: event
+          type:
+            - '"tlsClientError"'
+          description: ''
+        - id: err
+          type:
+            - Error
+          description: ''
+        - id: tlsSocket
+          type:
+            - '@azure/abort-controller.tls.TLSSocket'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.getConnections'
+    name: 'getConnections((error: Error | null, count: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getConnections(cb: (error: Error | null, count: number) =>
+        void)
+      parameters:
+        - id: cb
+          type:
+            - '(error: Error | null, count: number) => void'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.getTicketKeys'
+    name: getTicketKeys()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the session ticket keys.
+    syntax:
+      content: function getTicketKeys()
+      parameters: []
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.listen_8'
+    name: 'listen(any, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listen(handle: any, listeningListener?: undefined | () => void)'
+      parameters:
+        - id: handle
+          type:
+            - any
+          description: ''
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.listen_7'
+    name: 'listen(any, undefined | number, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(handle: any, backlog?: undefined | number,
+        listeningListener?: undefined | () => void)
+      parameters:
+        - id: handle
+          type:
+            - any
+          description: ''
+        - id: backlog
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.listen_6'
+    name: 'listen(ListenOptions, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(options: ListenOptions, listeningListener?: undefined |
+        () => void)
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.net.ListenOptions'
+          description: ''
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.listen_5'
+    name: 'listen(string, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(path: string, listeningListener?: undefined | () =>
+        void)
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.listen_4'
+    name: 'listen(string, undefined | number, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(path: string, backlog?: undefined | number,
+        listeningListener?: undefined | () => void)
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+        - id: backlog
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.listen_3'
+    name: 'listen(undefined | number, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(port?: undefined | number, listeningListener?: undefined
+        | () => void)
+      parameters:
+        - id: port
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.listen_2'
+    name: 'listen(undefined | number, undefined | number, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(port?: undefined | number, backlog?: undefined | number,
+        listeningListener?: undefined | () => void)
+      parameters:
+        - id: port
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: backlog
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.listen_1'
+    name: 'listen(undefined | number, undefined | string, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(port?: undefined | number, hostname?: undefined |
+        string, listeningListener?: undefined | () => void)
+      parameters:
+        - id: port
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: hostname
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.listen'
+    name: >-
+      listen(undefined | number, undefined | string, undefined | number,
+      undefined | () => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(port?: undefined | number, hostname?: undefined |
+        string, backlog?: undefined | number, listeningListener?: undefined | ()
+        => void)
+      parameters:
+        - id: port
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: hostname
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: backlog
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.listening'
+    name: listening
+    fullName: listening
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'listening: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.maxConnections'
+    name: maxConnections
+    fullName: maxConnections
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'maxConnections: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.on_6'
+    name: 'on("keylog", (line: Buffer, tlsSocket: TLSSocket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "keylog", listener: (line: Buffer, tlsSocket:
+        TLSSocket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"keylog"'
+          description: ''
+        - id: listener
+          type:
+            - '(line: Buffer, tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.on_2'
+    name: >-
+      on("newSession", (sessionId: Buffer, sessionData: Buffer, callback: (err:
+      Error, resp: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "newSession", listener: (sessionId: Buffer,
+        sessionData: Buffer, callback: (err: Error, resp: Buffer) => void) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"newSession"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (sessionId: Buffer, sessionData: Buffer, callback: (err: Error,
+              resp: Buffer) => void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.on_3'
+    name: >-
+      on("OCSPRequest", (certificate: Buffer, issuer: Buffer, callback: (err:
+      Error | null, resp: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "OCSPRequest", listener: (certificate: Buffer,
+        issuer: Buffer, callback: (err: Error | null, resp: Buffer) => void) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"OCSPRequest"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (certificate: Buffer, issuer: Buffer, callback: (err: Error |
+              null, resp: Buffer) => void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.on_4'
+    name: >-
+      on("resumeSession", (sessionId: Buffer, callback: (err: Error,
+      sessionData: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "resumeSession", listener: (sessionId: Buffer,
+        callback: (err: Error, sessionData: Buffer) => void) => void)
+      parameters:
+        - id: event
+          type:
+            - '"resumeSession"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (sessionId: Buffer, callback: (err: Error, sessionData: Buffer) =>
+              void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.on_5'
+    name: 'on("secureConnection", (tlsSocket: TLSSocket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "secureConnection", listener: (tlsSocket: TLSSocket)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"secureConnection"'
+          description: ''
+        - id: listener
+          type:
+            - '(tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.on_1'
+    name: 'on("tlsClientError", (err: Error, tlsSocket: TLSSocket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "tlsClientError", listener: (err: Error, tlsSocket:
+        TLSSocket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"tlsClientError"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error, tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.on'
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.once_6'
+    name: 'once("keylog", (line: Buffer, tlsSocket: TLSSocket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "keylog", listener: (line: Buffer, tlsSocket:
+        TLSSocket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"keylog"'
+          description: ''
+        - id: listener
+          type:
+            - '(line: Buffer, tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.once_2'
+    name: >-
+      once("newSession", (sessionId: Buffer, sessionData: Buffer, callback:
+      (err: Error, resp: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "newSession", listener: (sessionId: Buffer,
+        sessionData: Buffer, callback: (err: Error, resp: Buffer) => void) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"newSession"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (sessionId: Buffer, sessionData: Buffer, callback: (err: Error,
+              resp: Buffer) => void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.once_3'
+    name: >-
+      once("OCSPRequest", (certificate: Buffer, issuer: Buffer, callback: (err:
+      Error | null, resp: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "OCSPRequest", listener: (certificate: Buffer,
+        issuer: Buffer, callback: (err: Error | null, resp: Buffer) => void) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"OCSPRequest"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (certificate: Buffer, issuer: Buffer, callback: (err: Error |
+              null, resp: Buffer) => void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.once_4'
+    name: >-
+      once("resumeSession", (sessionId: Buffer, callback: (err: Error,
+      sessionData: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "resumeSession", listener: (sessionId: Buffer,
+        callback: (err: Error, sessionData: Buffer) => void) => void)
+      parameters:
+        - id: event
+          type:
+            - '"resumeSession"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (sessionId: Buffer, callback: (err: Error, sessionData: Buffer) =>
+              void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.once_5'
+    name: 'once("secureConnection", (tlsSocket: TLSSocket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "secureConnection", listener: (tlsSocket:
+        TLSSocket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"secureConnection"'
+          description: ''
+        - id: listener
+          type:
+            - '(tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.once_1'
+    name: 'once("tlsClientError", (err: Error, tlsSocket: TLSSocket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "tlsClientError", listener: (err: Error, tlsSocket:
+        TLSSocket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"tlsClientError"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error, tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.once'
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.prependListener_6'
+    name: 'prependListener("keylog", (line: Buffer, tlsSocket: TLSSocket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "keylog", listener: (line: Buffer,
+        tlsSocket: TLSSocket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"keylog"'
+          description: ''
+        - id: listener
+          type:
+            - '(line: Buffer, tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.prependListener_2'
+    name: >-
+      prependListener("newSession", (sessionId: Buffer, sessionData: Buffer,
+      callback: (err: Error, resp: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "newSession", listener: (sessionId:
+        Buffer, sessionData: Buffer, callback: (err: Error, resp: Buffer) =>
+        void) => void)
+      parameters:
+        - id: event
+          type:
+            - '"newSession"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (sessionId: Buffer, sessionData: Buffer, callback: (err: Error,
+              resp: Buffer) => void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.prependListener_3'
+    name: >-
+      prependListener("OCSPRequest", (certificate: Buffer, issuer: Buffer,
+      callback: (err: Error | null, resp: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "OCSPRequest", listener: (certificate:
+        Buffer, issuer: Buffer, callback: (err: Error | null, resp: Buffer) =>
+        void) => void)
+      parameters:
+        - id: event
+          type:
+            - '"OCSPRequest"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (certificate: Buffer, issuer: Buffer, callback: (err: Error |
+              null, resp: Buffer) => void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.prependListener_4'
+    name: >-
+      prependListener("resumeSession", (sessionId: Buffer, callback: (err:
+      Error, sessionData: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "resumeSession", listener: (sessionId:
+        Buffer, callback: (err: Error, sessionData: Buffer) => void) => void)
+      parameters:
+        - id: event
+          type:
+            - '"resumeSession"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (sessionId: Buffer, callback: (err: Error, sessionData: Buffer) =>
+              void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.prependListener_5'
+    name: 'prependListener("secureConnection", (tlsSocket: TLSSocket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "secureConnection", listener:
+        (tlsSocket: TLSSocket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"secureConnection"'
+          description: ''
+        - id: listener
+          type:
+            - '(tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.prependListener_1'
+    name: >-
+      prependListener("tlsClientError", (err: Error, tlsSocket: TLSSocket) =>
+      void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "tlsClientError", listener: (err: Error,
+        tlsSocket: TLSSocket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"tlsClientError"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error, tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.prependListener'
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.prependOnceListener_6'
+    name: >-
+      prependOnceListener("keylog", (line: Buffer, tlsSocket: TLSSocket) =>
+      void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "keylog", listener: (line: Buffer,
+        tlsSocket: TLSSocket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"keylog"'
+          description: ''
+        - id: listener
+          type:
+            - '(line: Buffer, tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.prependOnceListener_2'
+    name: >-
+      prependOnceListener("newSession", (sessionId: Buffer, sessionData: Buffer,
+      callback: (err: Error, resp: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "newSession", listener: (sessionId:
+        Buffer, sessionData: Buffer, callback: (err: Error, resp: Buffer) =>
+        void) => void)
+      parameters:
+        - id: event
+          type:
+            - '"newSession"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (sessionId: Buffer, sessionData: Buffer, callback: (err: Error,
+              resp: Buffer) => void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.prependOnceListener_3'
+    name: >-
+      prependOnceListener("OCSPRequest", (certificate: Buffer, issuer: Buffer,
+      callback: (err: Error | null, resp: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "OCSPRequest", listener:
+        (certificate: Buffer, issuer: Buffer, callback: (err: Error | null,
+        resp: Buffer) => void) => void)
+      parameters:
+        - id: event
+          type:
+            - '"OCSPRequest"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (certificate: Buffer, issuer: Buffer, callback: (err: Error |
+              null, resp: Buffer) => void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.prependOnceListener_4'
+    name: >-
+      prependOnceListener("resumeSession", (sessionId: Buffer, callback: (err:
+      Error, sessionData: Buffer) => void) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "resumeSession", listener:
+        (sessionId: Buffer, callback: (err: Error, sessionData: Buffer) => void)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"resumeSession"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (sessionId: Buffer, callback: (err: Error, sessionData: Buffer) =>
+              void) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.prependOnceListener_5'
+    name: 'prependOnceListener("secureConnection", (tlsSocket: TLSSocket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "secureConnection", listener:
+        (tlsSocket: TLSSocket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"secureConnection"'
+          description: ''
+        - id: listener
+          type:
+            - '(tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.prependOnceListener_1'
+    name: >-
+      prependOnceListener("tlsClientError", (err: Error, tlsSocket: TLSSocket)
+      => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "tlsClientError", listener: (err:
+        Error, tlsSocket: TLSSocket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"tlsClientError"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error, tlsSocket: TLSSocket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.prependOnceListener'
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.ref'
+    name: ref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ref()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.removeListener'
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.constructor'
+    name: 'Server(undefined | (socket: Socket) => void)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Server(connectionListener?: undefined | (socket: Socket) => void)'
+      parameters:
+        - id: connectionListener
+          type:
+            - 'undefined | (socket: Socket) => void'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.constructor_1'
+    name: 'Server(undefined | Object, undefined | (socket: Socket) => void)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new Server(options?: undefined | Object, connectionListener?: undefined
+        | (socket: Socket) => void)
+      parameters:
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+        - id: connectionListener
+          type:
+            - 'undefined | (socket: Socket) => void'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.setSecureContext'
+    name: setSecureContext(SecureContextOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      The server.setSecureContext() method replaces the
+      secure context of an existing server. Existing connections to the
+      server are not interrupted.
+    syntax:
+      content: 'function setSecureContext(details: SecureContextOptions)'
+      parameters:
+        - id: details
+          type:
+            - '@azure/abort-controller.tls.SecureContextOptions'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.setTicketKeys'
+    name: setTicketKeys(Buffer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      The server.setSecureContext() method replaces the secure context of
+      an existing server. Existing connections to the server are not
+      interrupted.
+    syntax:
+      content: 'function setTicketKeys(keys: Buffer)'
+      parameters:
+        - id: keys
+          type:
+            - Buffer
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tls.Server.unref'
+    name: unref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unref()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.net.Server'
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: '@azure/abort-controller.net.Server'
+  - uid: '@azure/abort-controller.tls.SecureContextOptions'
+    name: SecureContextOptions
+    spec.typeScript:
+      - name: SecureContextOptions
+        fullName: SecureContextOptions
+        uid: '@azure/abort-controller.tls.SecureContextOptions'
+  - uid: '@azure/abort-controller.net.AddressInfo | string | null'
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: '@azure/abort-controller.net.AddressInfo'
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: '@azure/abort-controller.tls.TLSSocket'
+    name: TLSSocket
+    spec.typeScript:
+      - name: TLSSocket
+        fullName: TLSSocket
+        uid: '@azure/abort-controller.tls.TLSSocket'
+  - uid: '@azure/abort-controller.net.ListenOptions'
+    name: ListenOptions
+    spec.typeScript:
+      - name: ListenOptions
+        fullName: ListenOptions
+        uid: '@azure/abort-controller.net.ListenOptions'
+  - uid: '@azure/abort-controller.net.Socket'
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/abort-controller.net.Socket'
+  - uid: '@azure/abort-controller.tls.TLSSocketOptions'
+    name: TLSSocketOptions
+    spec.typeScript:
+      - name: TLSSocketOptions
+        fullName: TLSSocketOptions
+        uid: '@azure/abort-controller.tls.TLSSocketOptions'
+  - uid: '@azure/abort-controller.net.AddressInfo | string'
+    name: AddressInfo | string
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: '@azure/abort-controller.net.AddressInfo'
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: '@azure/abort-controller.net.SocketConnectOpts'
+    name: SocketConnectOpts
+    spec.typeScript:
+      - name: SocketConnectOpts
+        fullName: SocketConnectOpts
+        uid: '@azure/abort-controller.net.SocketConnectOpts'
+  - uid: '@azure/abort-controller.AbortError.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/abort-controller.AbortError.Error'
+  - uid: '@azure/abort-controller.tls.PeerCertificate | object | null'
+    name: PeerCertificate | object | null
+    spec.typeScript:
+      - name: PeerCertificate
+        fullName: PeerCertificate
+        uid: '@azure/abort-controller.tls.PeerCertificate'
+      - name: ' | object | null'
+        fullName: ' | object | null'
+  - uid: '@azure/abort-controller.tls.CipherNameAndProtocol'
+    name: CipherNameAndProtocol
+    spec.typeScript:
+      - name: CipherNameAndProtocol
+        fullName: CipherNameAndProtocol
+        uid: '@azure/abort-controller.tls.CipherNameAndProtocol'
+  - uid: '@azure/abort-controller.tls.EphemeralKeyInfo | object | null'
+    name: EphemeralKeyInfo | object | null
+    spec.typeScript:
+      - name: EphemeralKeyInfo
+        fullName: EphemeralKeyInfo
+        uid: '@azure/abort-controller.tls.EphemeralKeyInfo'
+      - name: ' | object | null'
+        fullName: ' | object | null'
+  - uid: '@azure/abort-controller.tls.DetailedPeerCertificate'
+    name: DetailedPeerCertificate
+    spec.typeScript:
+      - name: DetailedPeerCertificate
+        fullName: DetailedPeerCertificate
+        uid: '@azure/abort-controller.tls.DetailedPeerCertificate'
+  - uid: '@azure/abort-controller.tls.PeerCertificate'
+    name: PeerCertificate
+    spec.typeScript:
+      - name: PeerCertificate
+        fullName: PeerCertificate
+        uid: '@azure/abort-controller.tls.PeerCertificate'
+  - uid: >-
+      @azure/abort-controller.tls.PeerCertificate |
+      @azure/abort-controller.tls.DetailedPeerCertificate
+    name: DetailedPeerCertificate
+    spec.typeScript:
+      - name: PeerCertificate
+        fullName: PeerCertificate
+        uid: '@azure/abort-controller.tls.PeerCertificate'
+      - name: ' | '
+        fullName: ' | '
+      - name: DetailedPeerCertificate
+        fullName: DetailedPeerCertificate
+        uid: '@azure/abort-controller.tls.DetailedPeerCertificate'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: '@azure/abort-controller.tls.SecureContext'
+    name: SecureContext
+    spec.typeScript:
+      - name: SecureContext
+        fullName: SecureContext
+        uid: '@azure/abort-controller.tls.SecureContext'
+  - uid: undefined | @azure/abort-controller.tls.checkServerIdentity
+    name: checkServerIdentity
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: checkServerIdentity
+        fullName: checkServerIdentity
+        uid: '@azure/abort-controller.tls.checkServerIdentity'
+  - uid: string | Buffer | Array<Buffer | @azure/abort-controller.tls.KeyObject>
+    name: KeyObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<Buffer | '
+        fullName: 'string | Buffer | Array<Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: '@azure/abort-controller.tls.KeyObject'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.tls.SecureVersion'
+    name: SecureVersion
+    spec.typeScript:
+      - name: SecureVersion
+        fullName: SecureVersion
+        uid: '@azure/abort-controller.tls.SecureVersion'
+  - uid: >-
+      string | Buffer | Array<string | Buffer |
+      @azure/abort-controller.tls.PxfObject>
+    name: PxfObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<string | Buffer | '
+        fullName: 'string | Buffer | Array<string | Buffer | '
+      - name: PxfObject
+        fullName: PxfObject
+        uid: '@azure/abort-controller.tls.PxfObject'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.Buffer'
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: '@azure/abort-controller.Buffer'
+  - uid: '@azure/abort-controller.tls.PSKCallbackNegotation | null'
+    name: PSKCallbackNegotation | null
+    spec.typeScript:
+      - name: PSKCallbackNegotation
+        fullName: PSKCallbackNegotation
+        uid: '@azure/abort-controller.tls.PSKCallbackNegotation'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.tls.Certificate'
+    name: Certificate
+    spec.typeScript:
+      - name: Certificate
+        fullName: Certificate
+        uid: '@azure/abort-controller.tls.Certificate'
+  - uid: DataView | @azure/abort-controller.NodeJS.TypedArray
+    name: TypedArray
+    spec.typeScript:
+      - name: 'DataView | '
+        fullName: 'DataView | '
+      - name: TypedArray
+        fullName: TypedArray
+        uid: '@azure/abort-controller.NodeJS.TypedArray'
+  - uid: DataView | @azure/abort-controller.NodeJS.TypedArray | null
+    name: TypedArray | null
+    spec.typeScript:
+      - name: 'DataView | '
+        fullName: 'DataView | '
+      - name: TypedArray
+        fullName: TypedArray
+        uid: '@azure/abort-controller.NodeJS.TypedArray'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.tls.ConnectionOptions'
+    name: ConnectionOptions
+    spec.typeScript:
+      - name: ConnectionOptions
+        fullName: ConnectionOptions
+        uid: '@azure/abort-controller.tls.ConnectionOptions'
+  - uid: '@azure/abort-controller.tls.SecurePair'
+    name: SecurePair
+    spec.typeScript:
+      - name: SecurePair
+        fullName: SecurePair
+        uid: '@azure/abort-controller.tls.SecurePair'
+  - uid: '@azure/abort-controller.tls.Server'
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: '@azure/abort-controller.tls.Server'
+  - uid: '@azure/abort-controller.tls.TlsOptions'
+    name: TlsOptions
+    spec.typeScript:
+      - name: TlsOptions
+        fullName: TlsOptions
+        uid: '@azure/abort-controller.tls.TlsOptions'

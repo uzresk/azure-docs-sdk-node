@@ -1,0 +1,960 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.util
+    name: util
+    langs:
+      - typeScript
+    fullName: util
+    children:
+      - tslib.util.callbackify_1
+      - tslib.util.callbackify
+      - tslib.util.callbackify_3
+      - tslib.util.callbackify_2
+      - tslib.util.callbackify_5
+      - tslib.util.callbackify_4
+      - tslib.util.callbackify_7
+      - tslib.util.callbackify_6
+      - tslib.util.callbackify_9
+      - tslib.util.callbackify_8
+      - tslib.util.callbackify_11
+      - tslib.util.callbackify_10
+      - tslib.util.callbackify_13
+      - tslib.util.callbackify_12
+      - tslib.util.CustomInspectFunction
+      - tslib.util.CustomPromisify
+      - tslib.util.debuglog
+      - tslib.util.deprecate
+      - tslib.util.EncodeIntoResult
+      - tslib.util.format
+      - tslib.util.formatWithOptions
+      - tslib.util.inherits
+      - tslib.util.InspectOptions
+      - tslib.util.InspectOptionsStylized
+      - tslib.util.isArray
+      - tslib.util.isBoolean
+      - tslib.util.isBuffer
+      - tslib.util.isDate
+      - tslib.util.isDeepStrictEqual
+      - tslib.util.isError
+      - tslib.util.isFunction
+      - tslib.util.isNull
+      - tslib.util.isNullOrUndefined
+      - tslib.util.isNumber
+      - tslib.util.isObject
+      - tslib.util.isPrimitive
+      - tslib.util.isRegExp
+      - tslib.util.isString
+      - tslib.util.isSymbol
+      - tslib.util.isUndefined
+      - tslib.util.log
+      - tslib.util.Style
+      - tslib.util.TextDecoder
+      - tslib.util.TextEncoder
+    type: module
+    summary: ''
+    package: tslib
+  - uid: tslib.util.callbackify_1
+    name: callbackify(() => Promise<TResult>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function callbackify<TResult>(fn: () => Promise<TResult>)'
+      parameters:
+        - id: fn
+          type:
+            - () => Promise<TResult>
+          description: ''
+      return:
+        type:
+          - '(callback: (err: ErrnoException, result: TResult) => void) => void'
+        description: ''
+    package: tslib
+  - uid: tslib.util.callbackify
+    name: callbackify(() => Promise<void>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function callbackify(fn: () => Promise<void>)'
+      parameters:
+        - id: fn
+          type:
+            - () => Promise<void>
+          description: ''
+      return:
+        type:
+          - '(callback: (err: ErrnoException) => void) => void'
+        description: ''
+    package: tslib
+  - uid: tslib.util.callbackify_3
+    name: 'callbackify((arg1: T1) => Promise<TResult>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function callbackify<T1>(fn: (arg1: T1) => Promise<TResult>)'
+      parameters:
+        - id: fn
+          type:
+            - '(arg1: T1) => Promise<TResult>'
+          description: ''
+      return:
+        type:
+          - >-
+            (arg1: T1, callback: (err: ErrnoException, result: TResult) => void)
+            => void
+        description: ''
+    package: tslib
+  - uid: tslib.util.callbackify_2
+    name: 'callbackify((arg1: T1) => Promise<void>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function callbackify<T1>(fn: (arg1: T1) => Promise<void>)'
+      parameters:
+        - id: fn
+          type:
+            - '(arg1: T1) => Promise<void>'
+          description: ''
+      return:
+        type:
+          - '(arg1: T1, callback: (err: ErrnoException) => void) => void'
+        description: ''
+    package: tslib
+  - uid: tslib.util.callbackify_5
+    name: 'callbackify((arg1: T1, arg2: T2) => Promise<TResult>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function callbackify<T1>(fn: (arg1: T1, arg2: T2) => Promise<TResult>)'
+      parameters:
+        - id: fn
+          type:
+            - '(arg1: T1, arg2: T2) => Promise<TResult>'
+          description: ''
+      return:
+        type:
+          - >-
+            (arg1: T1, arg2: T2, callback: (err: ErrnoException | null, result:
+            TResult) => void) => void
+        description: ''
+    package: tslib
+  - uid: tslib.util.callbackify_4
+    name: 'callbackify((arg1: T1, arg2: T2) => Promise<void>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function callbackify<T1>(fn: (arg1: T1, arg2: T2) => Promise<void>)'
+      parameters:
+        - id: fn
+          type:
+            - '(arg1: T1, arg2: T2) => Promise<void>'
+          description: ''
+      return:
+        type:
+          - >-
+            (arg1: T1, arg2: T2, callback: (err: ErrnoException) => void) =>
+            void
+        description: ''
+    package: tslib
+  - uid: tslib.util.callbackify_7
+    name: 'callbackify((arg1: T1, arg2: T2, arg3: T3) => Promise<TResult>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function callbackify<T1>(fn: (arg1: T1, arg2: T2, arg3: T3) =>
+        Promise<TResult>)
+      parameters:
+        - id: fn
+          type:
+            - '(arg1: T1, arg2: T2, arg3: T3) => Promise<TResult>'
+          description: ''
+      return:
+        type:
+          - >-
+            (arg1: T1, arg2: T2, arg3: T3, callback: (err: ErrnoException |
+            null, result: TResult) => void) => void
+        description: ''
+    package: tslib
+  - uid: tslib.util.callbackify_6
+    name: 'callbackify((arg1: T1, arg2: T2, arg3: T3) => Promise<void>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function callbackify<T1>(fn: (arg1: T1, arg2: T2, arg3: T3) =>
+        Promise<void>)
+      parameters:
+        - id: fn
+          type:
+            - '(arg1: T1, arg2: T2, arg3: T3) => Promise<void>'
+          description: ''
+      return:
+        type:
+          - >-
+            (arg1: T1, arg2: T2, arg3: T3, callback: (err: ErrnoException) =>
+            void) => void
+        description: ''
+    package: tslib
+  - uid: tslib.util.callbackify_9
+    name: 'callbackify((arg1: T1, arg2: T2, arg3: T3, arg4: T4) => Promise<TResult>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function callbackify<T1>(fn: (arg1: T1, arg2: T2, arg3: T3, arg4: T4) =>
+        Promise<TResult>)
+      parameters:
+        - id: fn
+          type:
+            - '(arg1: T1, arg2: T2, arg3: T3, arg4: T4) => Promise<TResult>'
+          description: ''
+      return:
+        type:
+          - >-
+            (arg1: T1, arg2: T2, arg3: T3, arg4: T4, callback: (err:
+            ErrnoException | null, result: TResult) => void) => void
+        description: ''
+    package: tslib
+  - uid: tslib.util.callbackify_8
+    name: 'callbackify((arg1: T1, arg2: T2, arg3: T3, arg4: T4) => Promise<void>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function callbackify<T1>(fn: (arg1: T1, arg2: T2, arg3: T3, arg4: T4) =>
+        Promise<void>)
+      parameters:
+        - id: fn
+          type:
+            - '(arg1: T1, arg2: T2, arg3: T3, arg4: T4) => Promise<void>'
+          description: ''
+      return:
+        type:
+          - >-
+            (arg1: T1, arg2: T2, arg3: T3, arg4: T4, callback: (err:
+            ErrnoException) => void) => void
+        description: ''
+    package: tslib
+  - uid: tslib.util.callbackify_11
+    name: >-
+      callbackify((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5) =>
+      Promise<TResult>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function callbackify<T1>(fn: (arg1: T1, arg2: T2, arg3: T3, arg4: T4,
+        arg5: T5) => Promise<TResult>)
+      parameters:
+        - id: fn
+          type:
+            - >-
+              (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5) =>
+              Promise<TResult>
+          description: ''
+      return:
+        type:
+          - >-
+            (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, callback: (err:
+            ErrnoException | null, result: TResult) => void) => void
+        description: ''
+    package: tslib
+  - uid: tslib.util.callbackify_10
+    name: >-
+      callbackify((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5) =>
+      Promise<void>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function callbackify<T1>(fn: (arg1: T1, arg2: T2, arg3: T3, arg4: T4,
+        arg5: T5) => Promise<void>)
+      parameters:
+        - id: fn
+          type:
+            - >-
+              (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5) =>
+              Promise<void>
+          description: ''
+      return:
+        type:
+          - >-
+            (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, callback: (err:
+            ErrnoException) => void) => void
+        description: ''
+    package: tslib
+  - uid: tslib.util.callbackify_13
+    name: >-
+      callbackify((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6)
+      => Promise<TResult>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function callbackify<T1>(fn: (arg1: T1, arg2: T2, arg3: T3, arg4: T4,
+        arg5: T5, arg6: T6) => Promise<TResult>)
+      parameters:
+        - id: fn
+          type:
+            - >-
+              (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6) =>
+              Promise<TResult>
+          description: ''
+      return:
+        type:
+          - >-
+            (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6,
+            callback: (err: ErrnoException | null, result: TResult) => void) =>
+            void
+        description: ''
+    package: tslib
+  - uid: tslib.util.callbackify_12
+    name: >-
+      callbackify((arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6)
+      => Promise<void>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function callbackify<T1>(fn: (arg1: T1, arg2: T2, arg3: T3, arg4: T4,
+        arg5: T5, arg6: T6) => Promise<void>)
+      parameters:
+        - id: fn
+          type:
+            - >-
+              (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6) =>
+              Promise<void>
+          description: ''
+      return:
+        type:
+          - >-
+            (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6,
+            callback: (err: ErrnoException) => void) => void
+        description: ''
+    package: tslib
+  - uid: tslib.util.debuglog
+    name: debuglog(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function debuglog(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '(msg: string, param: any[]) => void'
+        description: ''
+    package: tslib
+  - uid: tslib.util.deprecate
+    name: 'deprecate(T, string, undefined | string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function deprecate<T>(fn: T, message: string, code?: undefined | string)'
+      parameters:
+        - id: fn
+          type:
+            - T
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+        - id: code
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: tslib
+  - uid: tslib.util.format
+    name: 'format(any, any[])'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function format(format: any, param: any[])'
+      parameters:
+        - id: format
+          type:
+            - any
+          description: ''
+        - id: param
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.util.formatWithOptions
+    name: 'formatWithOptions(InspectOptions, string, any[])'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function formatWithOptions(inspectOptions: InspectOptions, format:
+        string, param: any[])
+      parameters:
+        - id: inspectOptions
+          type:
+            - tslib.util.InspectOptions
+          description: ''
+        - id: format
+          type:
+            - string
+          description: ''
+        - id: param
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.util.inherits
+    name: 'inherits(any, any)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function inherits(constructor: any, superConstructor: any)'
+      parameters:
+        - id: constructor
+          type:
+            - any
+          description: ''
+        - id: superConstructor
+          type:
+            - any
+          description: ''
+    package: tslib
+  - uid: tslib.util.isArray
+    name: isArray(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isArray(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0 - use `Array.isArray()` instead.
+  - uid: tslib.util.isBoolean
+    name: isBoolean(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isBoolean(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0 - use `typeof value === 'boolean'` instead.
+  - uid: tslib.util.isBuffer
+    name: isBuffer(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isBuffer(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0 - use `Buffer.isBuffer()` instead.
+  - uid: tslib.util.isDate
+    name: isDate(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isDate(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0 - use `util.types.isDate()` instead.
+  - uid: tslib.util.isDeepStrictEqual
+    name: 'isDeepStrictEqual(any, any)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isDeepStrictEqual(val1: any, val2: any)'
+      parameters:
+        - id: val1
+          type:
+            - any
+          description: ''
+        - id: val2
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.util.isError
+    name: isError(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isError(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0 - use `util.types.isNativeError()` instead.
+  - uid: tslib.util.isFunction
+    name: isFunction(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isFunction(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0 - use `typeof value === 'function'` instead.
+  - uid: tslib.util.isNull
+    name: isNull(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isNull(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0 - use `value === null` instead.
+  - uid: tslib.util.isNullOrUndefined
+    name: isNullOrUndefined(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isNullOrUndefined(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0 - use `value === null || value === undefined` instead.
+  - uid: tslib.util.isNumber
+    name: isNumber(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isNumber(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0 - use `typeof value === 'number'` instead.
+  - uid: tslib.util.isObject
+    name: isObject(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isObject(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: >-
+        since v4.0.0 - use `value !== null && typeof value === 'object'`
+        instead.
+  - uid: tslib.util.isPrimitive
+    name: isPrimitive(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isPrimitive(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: >-
+        since v4.0.0 - use `(typeof value !== 'object' && typeof value !==
+        'function') || value === null` instead.
+  - uid: tslib.util.isRegExp
+    name: isRegExp(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isRegExp(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0 - use `util.types.isRegExp()` instead.
+  - uid: tslib.util.isString
+    name: isString(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isString(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0 - use `typeof value === 'string'` instead.
+  - uid: tslib.util.isSymbol
+    name: isSymbol(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isSymbol(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0 - use `typeof value === 'symbol'` instead.
+  - uid: tslib.util.isUndefined
+    name: isUndefined(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isUndefined(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0 - use `value === undefined` instead.
+  - uid: tslib.util.log
+    name: log(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function log(string: string)'
+      parameters:
+        - id: string
+          type:
+            - string
+          description: ''
+    package: tslib
+    deprecated:
+      content: since v0.11.3 - use a third party module instead.
+references:
+  - uid: tslib.util.EncodeIntoResult
+    name: EncodeIntoResult
+    spec.typeScript:
+      - name: EncodeIntoResult
+        fullName: EncodeIntoResult
+        uid: tslib.util.EncodeIntoResult
+  - uid: tslib.NodeJS.InspectOptions
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: tslib.NodeJS.InspectOptions
+  - uid: tslib.util.InspectOptions
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: tslib.util.InspectOptions
+  - uid: tslib.util.Style
+    name: Style
+    spec.typeScript:
+      - name: Style
+        fullName: Style
+        uid: tslib.util.Style
+  - uid: tslib.util.callbackify_1
+    name: callbackify_1
+  - uid: tslib.util.callbackify
+    name: callbackify
+  - uid: tslib.util.callbackify_3
+    name: callbackify_3
+  - uid: tslib.util.callbackify_2
+    name: callbackify_2
+  - uid: tslib.util.callbackify_5
+    name: callbackify_5
+  - uid: tslib.util.callbackify_4
+    name: callbackify_4
+  - uid: tslib.util.callbackify_7
+    name: callbackify_7
+  - uid: tslib.util.callbackify_6
+    name: callbackify_6
+  - uid: tslib.util.callbackify_9
+    name: callbackify_9
+  - uid: tslib.util.callbackify_8
+    name: callbackify_8
+  - uid: tslib.util.callbackify_11
+    name: callbackify_11
+  - uid: tslib.util.callbackify_10
+    name: callbackify_10
+  - uid: tslib.util.callbackify_13
+    name: callbackify_13
+  - uid: tslib.util.callbackify_12
+    name: callbackify_12
+  - uid: tslib.util.CustomInspectFunction
+    name: CustomInspectFunction
+  - uid: tslib.util.CustomPromisify
+    name: CustomPromisify
+  - uid: tslib.util.debuglog
+    name: debuglog
+  - uid: tslib.util.deprecate
+    name: deprecate
+  - uid: tslib.util.format
+    name: format
+  - uid: tslib.util.formatWithOptions
+    name: formatWithOptions
+  - uid: tslib.util.inherits
+    name: inherits
+  - uid: tslib.util.InspectOptionsStylized
+    name: InspectOptionsStylized
+  - uid: tslib.util.isArray
+    name: isArray
+  - uid: tslib.util.isBoolean
+    name: isBoolean
+  - uid: tslib.util.isBuffer
+    name: isBuffer
+  - uid: tslib.util.isDate
+    name: isDate
+  - uid: tslib.util.isDeepStrictEqual
+    name: isDeepStrictEqual
+  - uid: tslib.util.isError
+    name: isError
+  - uid: tslib.util.isFunction
+    name: isFunction
+  - uid: tslib.util.isNull
+    name: isNull
+  - uid: tslib.util.isNullOrUndefined
+    name: isNullOrUndefined
+  - uid: tslib.util.isNumber
+    name: isNumber
+  - uid: tslib.util.isObject
+    name: isObject
+  - uid: tslib.util.isPrimitive
+    name: isPrimitive
+  - uid: tslib.util.isRegExp
+    name: isRegExp
+  - uid: tslib.util.isString
+    name: isString
+  - uid: tslib.util.isSymbol
+    name: isSymbol
+  - uid: tslib.util.isUndefined
+    name: isUndefined
+  - uid: tslib.util.log
+    name: log
+  - uid: tslib.util.TextDecoder
+    name: TextDecoder
+  - uid: tslib.util.TextEncoder
+    name: TextEncoder

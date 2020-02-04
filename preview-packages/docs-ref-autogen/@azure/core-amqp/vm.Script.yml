@@ -1,0 +1,175 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.vm.Script
+    name: Script
+    fullName: Script
+    children:
+      - tslib.vm.Script.createCachedData
+      - tslib.vm.Script.runInContext
+      - tslib.vm.Script.runInNewContext
+      - tslib.vm.Script.runInThisContext
+      - tslib.vm.Script.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: tslib
+  - uid: tslib.vm.Script.createCachedData
+    name: createCachedData()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function createCachedData()
+      parameters: []
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.vm.Script.runInContext
+    name: 'runInContext(Context, RunningScriptOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function runInContext(contextifiedSandbox: Context, options?:
+        RunningScriptOptions)
+      parameters:
+        - id: contextifiedSandbox
+          type:
+            - tslib.vm.Context
+          description: ''
+        - id: options
+          type:
+            - tslib.vm.RunningScriptOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: tslib
+  - uid: tslib.vm.Script.runInNewContext
+    name: 'runInNewContext(Context, RunningScriptOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function runInNewContext(sandbox?: Context, options?:
+        RunningScriptOptions)
+      parameters:
+        - id: sandbox
+          type:
+            - tslib.vm.Context
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - tslib.vm.RunningScriptOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: tslib
+  - uid: tslib.vm.Script.runInThisContext
+    name: runInThisContext(RunningScriptOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function runInThisContext(options?: RunningScriptOptions)'
+      parameters:
+        - id: options
+          type:
+            - tslib.vm.RunningScriptOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: tslib
+  - uid: tslib.vm.Script.constructor
+    name: 'Script(string, ScriptOptions)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Script(code: string, options?: ScriptOptions)'
+      parameters:
+        - id: code
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - tslib.vm.ScriptOptions
+          description: ''
+          optional: true
+    package: tslib
+references:
+  - uid: tslib.vm.ScriptOptions
+    name: ScriptOptions
+    spec.typeScript:
+      - name: ScriptOptions
+        fullName: ScriptOptions
+        uid: tslib.vm.ScriptOptions
+  - uid: tslib.vm.Context
+    name: Context
+    spec.typeScript:
+      - name: Context
+        fullName: Context
+        uid: tslib.vm.Context
+  - uid: tslib.vm.RunningScriptOptions
+    name: RunningScriptOptions
+    spec.typeScript:
+      - name: RunningScriptOptions
+        fullName: RunningScriptOptions
+        uid: tslib.vm.RunningScriptOptions
+  - uid: tslib.vm.BaseOptions
+    name: BaseOptions
+    spec.typeScript:
+      - name: BaseOptions
+        fullName: BaseOptions
+        uid: tslib.vm.BaseOptions
+  - uid: tslib.Buffer
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: tslib.Buffer
+  - uid: tslib.vm.CompileFunctionOptions
+    name: CompileFunctionOptions
+    spec.typeScript:
+      - name: CompileFunctionOptions
+        fullName: CompileFunctionOptions
+        uid: tslib.vm.CompileFunctionOptions
+  - uid: tslib.vm.CreateContextOptions
+    name: CreateContextOptions
+    spec.typeScript:
+      - name: CreateContextOptions
+        fullName: CreateContextOptions
+        uid: tslib.vm.CreateContextOptions
+  - uid: tslib.vm.RunningScriptOptions | string
+    name: RunningScriptOptions | string
+    spec.typeScript:
+      - name: RunningScriptOptions
+        fullName: RunningScriptOptions
+        uid: tslib.vm.RunningScriptOptions
+      - name: ' | string'
+        fullName: ' | string'

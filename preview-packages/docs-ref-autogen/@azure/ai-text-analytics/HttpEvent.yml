@@ -1,0 +1,294 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.HttpEvent'
+    name: HttpEvent
+    fullName: HttpEvent
+    children:
+      - '@azure/abort-controller.HttpEvent.apiVersion'
+      - '@azure/abort-controller.HttpEvent.eventId'
+      - '@azure/abort-controller.HttpEvent.eventName'
+      - '@azure/abort-controller.HttpEvent.get'
+      - '@azure/abort-controller.HttpEvent.constructor'
+      - '@azure/abort-controller.HttpEvent.httpMethod'
+      - '@azure/abort-controller.HttpEvent.httpPath'
+      - '@azure/abort-controller.HttpEvent.httpResponseStatus'
+      - '@azure/abort-controller.HttpEvent.oAuthErrorCode'
+      - '@azure/abort-controller.HttpEvent.queryParams'
+      - '@azure/abort-controller.HttpEvent.requestIdHeader'
+      - '@azure/abort-controller.HttpEvent.serverErrorCode'
+      - '@azure/abort-controller.HttpEvent.serverSubErrorCode'
+      - '@azure/abort-controller.HttpEvent.speInfo'
+      - '@azure/abort-controller.HttpEvent.stop'
+      - '@azure/abort-controller.HttpEvent.telemetryCorrelationId'
+      - '@azure/abort-controller.HttpEvent.userAgent'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.TelemetryEvent'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.apiVersion'
+    name: apiVersion
+    fullName: apiVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void apiVersion
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.eventId'
+    name: eventId
+    fullName: eventId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public eventId: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.eventName'
+    name: eventName
+    fullName: eventName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string eventName
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.get'
+    name: get()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function get()
+      parameters: []
+      return:
+        type:
+          - object
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.constructor'
+    name: HttpEvent(string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new HttpEvent(correlationId: string)'
+      parameters:
+        - id: correlationId
+          type:
+            - string
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.httpMethod'
+    name: httpMethod
+    fullName: httpMethod
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void httpMethod
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.httpPath'
+    name: httpPath
+    fullName: httpPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void httpPath
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.httpResponseStatus'
+    name: httpResponseStatus
+    fullName: httpResponseStatus
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void httpResponseStatus
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.oAuthErrorCode'
+    name: oAuthErrorCode
+    fullName: oAuthErrorCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void oAuthErrorCode
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.queryParams'
+    name: queryParams
+    fullName: queryParams
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void queryParams
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.requestIdHeader'
+    name: requestIdHeader
+    fullName: requestIdHeader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void requestIdHeader
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.serverErrorCode'
+    name: serverErrorCode
+    fullName: serverErrorCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void serverErrorCode
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.serverSubErrorCode'
+    name: serverSubErrorCode
+    fullName: serverSubErrorCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void serverSubErrorCode
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.speInfo'
+    name: speInfo
+    fullName: speInfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Indicates whether the request was executed on a ring serving SPE traffic.
+
+      An empty string indicates this occurred on an outer ring, and the string
+      "I"
+
+      indicates the request occurred on the inner ring
+    syntax:
+      content: void speInfo
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.stop'
+    name: stop()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function stop()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.telemetryCorrelationId'
+    name: telemetryCorrelationId
+    fullName: telemetryCorrelationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string telemetryCorrelationId
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpEvent.userAgent'
+    name: userAgent
+    fullName: userAgent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void userAgent
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.TelemetryEvent'
+    name: TelemetryEvent
+    spec.typeScript:
+      - name: TelemetryEvent
+        fullName: TelemetryEvent
+        uid: '@azure/abort-controller.TelemetryEvent'

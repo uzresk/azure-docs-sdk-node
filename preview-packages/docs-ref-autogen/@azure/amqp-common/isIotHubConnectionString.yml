@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.isIotHubConnectionString'
+  - uid: '@azure/ms-rest-azure-env.isIotHubConnectionString'
     name: isIotHubConnectionString(string)
     children: []
     type: function
@@ -20,4 +20,4 @@ items:
         type:
           - boolean
         description: boolean.
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'

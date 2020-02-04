@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.StorageRetryPolicyFactory'
+  - uid: '@azure/abort-controller.StorageRetryPolicyFactory'
     name: StorageRetryPolicyFactory
     fullName: StorageRetryPolicyFactory
     children:
-      - '@azure/storage-file-datalake.StorageRetryPolicyFactory.create'
-      - '@azure/storage-file-datalake.StorageRetryPolicyFactory.constructor'
+      - '@azure/abort-controller.StorageRetryPolicyFactory.create'
+      - '@azure/abort-controller.StorageRetryPolicyFactory.constructor'
     langs:
       - typeScript
     type: class
     summary: >-
       StorageRetryPolicyFactory is a factory class helping generating
       <xref:StorageRetryPolicy> objects.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.StorageRetryPolicyFactory.create'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.StorageRetryPolicyFactory.create'
     name: 'create(RequestPolicy, RequestPolicyOptions)'
     children: []
     type: method
@@ -27,18 +27,18 @@ items:
       parameters:
         - id: nextPolicy
           type:
-            - RequestPolicy
+            - '@azure/abort-controller.RequestPolicy'
           description: ''
         - id: options
           type:
-            - RequestPolicyOptions
+            - '@azure/abort-controller.RequestPolicyOptions'
           description: ''
       return:
         type:
-          - '@azure/storage-file-datalake.StorageRetryPolicy'
+          - '@azure/abort-controller.StorageRetryPolicy'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.StorageRetryPolicyFactory.constructor'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.StorageRetryPolicyFactory.constructor'
     name: StorageRetryPolicyFactory(StorageRetryOptions)
     children: []
     type: constructor
@@ -50,20 +50,32 @@ items:
       parameters:
         - id: retryOptions
           type:
-            - '@azure/storage-file-datalake.StorageRetryOptions'
+            - '@azure/abort-controller.StorageRetryOptions'
           description: ''
           optional: true
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.StorageRetryOptions'
+  - uid: '@azure/abort-controller.StorageRetryOptions'
     name: StorageRetryOptions
     spec.typeScript:
       - name: StorageRetryOptions
         fullName: StorageRetryOptions
-        uid: '@azure/storage-file-datalake.StorageRetryOptions'
-  - uid: '@azure/storage-file-datalake.StorageRetryPolicy'
+        uid: '@azure/abort-controller.StorageRetryOptions'
+  - uid: '@azure/abort-controller.RequestPolicy'
+    name: RequestPolicy
+    spec.typeScript:
+      - name: RequestPolicy
+        fullName: RequestPolicy
+        uid: '@azure/abort-controller.RequestPolicy'
+  - uid: '@azure/abort-controller.RequestPolicyOptions'
+    name: RequestPolicyOptions
+    spec.typeScript:
+      - name: RequestPolicyOptions
+        fullName: RequestPolicyOptions
+        uid: '@azure/abort-controller.RequestPolicyOptions'
+  - uid: '@azure/abort-controller.StorageRetryPolicy'
     name: StorageRetryPolicy
     spec.typeScript:
       - name: StorageRetryPolicy
         fullName: StorageRetryPolicy
-        uid: '@azure/storage-file-datalake.StorageRetryPolicy'
+        uid: '@azure/abort-controller.StorageRetryPolicy'

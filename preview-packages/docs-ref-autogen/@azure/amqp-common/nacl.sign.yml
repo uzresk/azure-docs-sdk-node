@@ -1,0 +1,128 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.nacl.sign'
+    name: sign
+    langs:
+      - typeScript
+    fullName: sign
+    children:
+      - '@azure/ms-rest-azure-env.nacl.sign.detached'
+      - '@azure/ms-rest-azure-env.nacl.sign.keyPair'
+      - '@azure/ms-rest-azure-env.nacl.sign.open'
+      - '@azure/ms-rest-azure-env.nacl.sign.publicKeyLength'
+      - '@azure/ms-rest-azure-env.nacl.sign.secretKeyLength'
+      - '@azure/ms-rest-azure-env.nacl.sign.seedLength'
+      - '@azure/ms-rest-azure-env.nacl.sign.signatureLength'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.open'
+    name: 'open(Uint8Array, Uint8Array)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function open(signedMsg: Uint8Array, publicKey: Uint8Array)'
+      parameters:
+        - id: signedMsg
+          type:
+            - Uint8Array
+          description: ''
+        - id: publicKey
+          type:
+            - Uint8Array
+          description: ''
+      return:
+        type:
+          - Uint8Array | null
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.publicKeyLength'
+    name: publicKeyLength
+    fullName: publicKeyLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'publicKeyLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.secretKeyLength'
+    name: secretKeyLength
+    fullName: secretKeyLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'secretKeyLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.seedLength'
+    name: seedLength
+    fullName: seedLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'seedLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.signatureLength'
+    name: signatureLength
+    fullName: signatureLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'signatureLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.nacl.BoxKeyPair'
+    name: BoxKeyPair
+    spec.typeScript:
+      - name: BoxKeyPair
+        fullName: BoxKeyPair
+        uid: '@azure/ms-rest-azure-env.nacl.BoxKeyPair'
+  - uid: '@azure/ms-rest-azure-env.nacl.SignKeyPair'
+    name: SignKeyPair
+    spec.typeScript:
+      - name: SignKeyPair
+        fullName: SignKeyPair
+        uid: '@azure/ms-rest-azure-env.nacl.SignKeyPair'
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.detached'
+    name: detached
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.keyPair'
+    name: keyPair
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.open'
+    name: open
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.publicKeyLength'
+    name: publicKeyLength
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.secretKeyLength'
+    name: secretKeyLength
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.seedLength'
+    name: seedLength
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.signatureLength'
+    name: signatureLength

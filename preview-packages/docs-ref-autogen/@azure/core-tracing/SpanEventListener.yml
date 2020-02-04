@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.SpanEventListener'
+    name: SpanEventListener
+    fullName: SpanEventListener
+    children:
+      - '@opentelemetry/types.SpanEventListener.onEndSpan'
+      - '@opentelemetry/types.SpanEventListener.onStartSpan'
+    langs:
+      - typeScript
+    type: interface
+    summary: Defines an end span event listener
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.SpanEventListener.onEndSpan'
+    name: onEndSpan(Span)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Happens when a span is ended
+    syntax:
+      content: 'function onEndSpan(span: Span)'
+      parameters:
+        - id: span
+          type:
+            - '@opentelemetry/types.Span'
+          description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.SpanEventListener.onStartSpan'
+    name: onStartSpan(Span)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Happens when a span is started
+    syntax:
+      content: 'function onStartSpan(span: Span)'
+      parameters:
+        - id: span
+          type:
+            - '@opentelemetry/types.Span'
+          description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.Span'
+    name: Span
+    spec.typeScript:
+      - name: Span
+        fullName: Span
+        uid: '@opentelemetry/types.Span'

@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathAccessControl'
+  - uid: '@azure/abort-controller.PathAccessControl'
     name: PathAccessControl
     fullName: PathAccessControl
     children:
-      - '@azure/storage-file-datalake.PathAccessControl.acl'
-      - '@azure/storage-file-datalake.PathAccessControl.group'
-      - '@azure/storage-file-datalake.PathAccessControl.owner'
-      - '@azure/storage-file-datalake.PathAccessControl.permissions'
+      - '@azure/abort-controller.PathAccessControl.acl'
+      - '@azure/abort-controller.PathAccessControl.group'
+      - '@azure/abort-controller.PathAccessControl.owner'
+      - '@azure/abort-controller.PathAccessControl.permissions'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathAccessControl.acl'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathAccessControl.acl'
     name: acl
     fullName: acl
     children: []
@@ -25,10 +25,10 @@ items:
       content: 'acl: PathAccessControlItem[]'
       return:
         type:
-          - '@azure/storage-file-datalake.PathAccessControlItem[]'
+          - '@azure/abort-controller.PathAccessControlItem[]'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathAccessControl.group'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathAccessControl.group'
     name: group
     fullName: group
     children: []
@@ -43,8 +43,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathAccessControl.owner'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathAccessControl.owner'
     name: owner
     fullName: owner
     children: []
@@ -59,8 +59,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathAccessControl.permissions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathAccessControl.permissions'
     name: permissions
     fullName: permissions
     children: []
@@ -73,21 +73,21 @@ items:
       content: 'permissions?: PathPermissions'
       return:
         type:
-          - '@azure/storage-file-datalake.PathPermissions'
+          - '@azure/abort-controller.PathPermissions'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.PathAccessControlItem[]'
+  - uid: '@azure/abort-controller.PathAccessControlItem[]'
     name: 'PathAccessControlItem[]'
     spec.typeScript:
       - name: PathAccessControlItem
         fullName: PathAccessControlItem
-        uid: '@azure/storage-file-datalake.PathAccessControlItem'
+        uid: '@azure/abort-controller.PathAccessControlItem'
       - name: '[]'
         fullName: '[]'
-  - uid: '@azure/storage-file-datalake.PathPermissions'
+  - uid: '@azure/abort-controller.PathPermissions'
     name: PathPermissions
     spec.typeScript:
       - name: PathPermissions
         fullName: PathPermissions
-        uid: '@azure/storage-file-datalake.PathPermissions'
+        uid: '@azure/abort-controller.PathPermissions'

@@ -1,0 +1,44 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.RedirectOptions'
+    name: RedirectOptions
+    fullName: RedirectOptions
+    children:
+      - '@azure/abort-controller.RedirectOptions.handleRedirects'
+      - '@azure/abort-controller.RedirectOptions.maxRetries'
+    langs:
+      - typeScript
+    type: interface
+    summary: Options for how redirect responses are handled.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RedirectOptions.handleRedirects'
+    name: handleRedirects
+    fullName: handleRedirects
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'handleRedirects: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RedirectOptions.maxRetries'
+    name: maxRetries
+    fullName: maxRetries
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxRetries?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'

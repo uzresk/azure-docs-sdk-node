@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.ResponseType'
+    name: ResponseType
+    fullName: ResponseType
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type ResponseType = "basic" | "cors" | "default" | "error" | "opaque" |
+        "opaqueredirect"
+    package: '@azure/abort-controller'

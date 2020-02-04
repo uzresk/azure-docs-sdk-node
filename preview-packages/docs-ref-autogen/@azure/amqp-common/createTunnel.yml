@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.createTunnel'
+    name: 'createTunnel(boolean, boolean, HttpsOverHttpsOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createTunnel(isRequestHttps: boolean, isProxyHttps: boolean,
+        tunnelOptions: HttpsOverHttpsOptions)
+      parameters:
+        - id: isRequestHttps
+          type:
+            - boolean
+          description: ''
+        - id: isProxyHttps
+          type:
+            - boolean
+          description: ''
+        - id: tunnelOptions
+          type:
+            - '@azure/ms-rest-azure-env.HttpsOverHttpsOptions'
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/ms-rest-azure-env.http.Agent |
+            @azure/ms-rest-azure-env.https.Agent
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.HttpsOverHttpsOptions'
+    name: HttpsOverHttpsOptions
+    spec.typeScript:
+      - name: HttpsOverHttpsOptions
+        fullName: HttpsOverHttpsOptions
+        uid: '@azure/ms-rest-azure-env.HttpsOverHttpsOptions'
+  - uid: '@azure/ms-rest-azure-env.http.Agent | @azure/ms-rest-azure-env.https.Agent'
+    name: Agent
+    spec.typeScript:
+      - name: Agent
+        fullName: Agent
+        uid: '@azure/ms-rest-azure-env.http.Agent'
+      - name: ' | '
+        fullName: ' | '
+      - name: Agent
+        fullName: Agent
+        uid: '@azure/ms-rest-azure-env.https.Agent'

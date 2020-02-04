@@ -1,0 +1,159 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.ServiceClient'
+    name: ServiceClient
+    fullName: ServiceClient
+    children:
+      - '@azure/ms-rest-azure-env.ServiceClient.sendOperationRequest'
+      - '@azure/ms-rest-azure-env.ServiceClient.sendRequest'
+      - '@azure/ms-rest-azure-env.ServiceClient.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ServiceClient.sendOperationRequest'
+    name: >-
+      sendOperationRequest(OperationArguments, OperationSpec,
+      ServiceCallback<any>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Send an HTTP request that is populated using the provided OperationSpec.
+    syntax:
+      content: >-
+        function sendOperationRequest(operationArguments: OperationArguments,
+        operationSpec: OperationSpec, callback?: ServiceCallback<any>)
+      parameters:
+        - id: operationArguments
+          type:
+            - '@azure/ms-rest-azure-env.OperationArguments'
+          description: >-
+            The arguments that the HTTP request's templated values will be
+            populated from.
+        - id: operationSpec
+          type:
+            - '@azure/ms-rest-azure-env.OperationSpec'
+          description: The OperationSpec to use to populate the httpRequest.
+        - id: callback
+          type:
+            - '@azure/ms-rest-azure-env.ServiceCallback<any>'
+          description: |
+            The callback to call when the response is received.
+          optional: true
+      return:
+        type:
+          - Promise<@azure/ms-rest-azure-env.RestResponse>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ServiceClient.sendRequest'
+    name: sendRequest(RequestPrepareOptions | WebResource)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Send the provided httpRequest.
+    syntax:
+      content: 'function sendRequest(options: RequestPrepareOptions | WebResource)'
+      parameters:
+        - id: options
+          type:
+            - >-
+              @azure/ms-rest-azure-env.RequestPrepareOptions |
+              @azure/ms-rest-azure-env.WebResource
+          description: ''
+      return:
+        type:
+          - Promise<@azure/ms-rest-azure-env.HttpOperationResponse>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ServiceClient.constructor'
+    name: 'ServiceClient(ServiceClientCredentials, ServiceClientOptions)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: The ServiceClient constructor
+    syntax:
+      content: >-
+        new ServiceClient(credentials?: ServiceClientCredentials, options?:
+        ServiceClientOptions)
+      parameters:
+        - id: credentials
+          type:
+            - '@azure/ms-rest-azure-env.ServiceClientCredentials'
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.ServiceClientOptions'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.ServiceClientCredentials'
+    name: ServiceClientCredentials
+    spec.typeScript:
+      - name: ServiceClientCredentials
+        fullName: ServiceClientCredentials
+        uid: '@azure/ms-rest-azure-env.ServiceClientCredentials'
+  - uid: '@azure/ms-rest-azure-env.ServiceClientOptions'
+    name: ServiceClientOptions
+    spec.typeScript:
+      - name: ServiceClientOptions
+        fullName: ServiceClientOptions
+        uid: '@azure/ms-rest-azure-env.ServiceClientOptions'
+  - uid: '@azure/ms-rest-azure-env.OperationArguments'
+    name: OperationArguments
+    spec.typeScript:
+      - name: OperationArguments
+        fullName: OperationArguments
+        uid: '@azure/ms-rest-azure-env.OperationArguments'
+  - uid: '@azure/ms-rest-azure-env.OperationSpec'
+    name: OperationSpec
+    spec.typeScript:
+      - name: OperationSpec
+        fullName: OperationSpec
+        uid: '@azure/ms-rest-azure-env.OperationSpec'
+  - uid: '@azure/ms-rest-azure-env.ServiceCallback<any>'
+    name: ServiceCallback<any>
+    spec.typeScript:
+      - name: ServiceCallback
+        fullName: ServiceCallback
+        uid: '@azure/ms-rest-azure-env.ServiceCallback'
+      - name: <any>
+        fullName: <any>
+  - uid: Promise<@azure/ms-rest-azure-env.RestResponse>
+    name: RestResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: RestResponse
+        fullName: RestResponse
+        uid: '@azure/ms-rest-azure-env.RestResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/ms-rest-azure-env.RequestPrepareOptions |
+      @azure/ms-rest-azure-env.WebResource
+    name: WebResource
+    spec.typeScript:
+      - name: RequestPrepareOptions
+        fullName: RequestPrepareOptions
+        uid: '@azure/ms-rest-azure-env.RequestPrepareOptions'
+      - name: ' | '
+        fullName: ' | '
+      - name: WebResource
+        fullName: WebResource
+        uid: '@azure/ms-rest-azure-env.WebResource'
+  - uid: Promise<@azure/ms-rest-azure-env.HttpOperationResponse>
+    name: HttpOperationResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: HttpOperationResponse
+        fullName: HttpOperationResponse
+        uid: '@azure/ms-rest-azure-env.HttpOperationResponse'
+      - name: '>'
+        fullName: '>'

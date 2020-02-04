@@ -1,0 +1,125 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.StatsEventListener'
+    name: StatsEventListener
+    fullName: StatsEventListener
+    children:
+      - '@opentelemetry/types.StatsEventListener.onRecord'
+      - '@opentelemetry/types.StatsEventListener.onRegisterView'
+      - '@opentelemetry/types.StatsEventListener.start'
+      - '@opentelemetry/types.StatsEventListener.stop'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface that describes the possible events that will be emitted from
+      a
+
+      Stats instance. Stats exporters should implement this interface.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.StatsEventListener.onRecord'
+    name: 'onRecord(View[], Measurement, Map<TagKey, TagValue>)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Is called whenever a new measurement is recorded.
+    syntax:
+      content: >-
+        function onRecord(views: View[], measurement: Measurement, tags:
+        Map<TagKey, TagValue>)
+      parameters:
+        - id: views
+          type:
+            - '@opentelemetry/types.View[]'
+          description: The views related to the measurement
+        - id: measurement
+          type:
+            - '@opentelemetry/types.Measurement'
+          description: The recorded measurement
+        - id: tags
+          type:
+            - 'Map<@opentelemetry/types.TagKey, @opentelemetry/types.TagValue>'
+          description: |
+            The tags to which the value is applied
+    package: '@opentelemetry/types'
+    deprecated:
+      content: 'since version 0.0.9 - use <xref:start> instead'
+  - uid: '@opentelemetry/types.StatsEventListener.onRegisterView'
+    name: onRegisterView(View)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Is called whenever a new view is registered
+    syntax:
+      content: 'function onRegisterView(view: View)'
+      parameters:
+        - id: view
+          type:
+            - '@opentelemetry/types.View'
+          description: |
+            The registered view
+    package: '@opentelemetry/types'
+    deprecated:
+      content: 'since version 0.0.9 - use <xref:start> instead'
+  - uid: '@opentelemetry/types.StatsEventListener.start'
+    name: start()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Starts the exporter that polls Metric from Metrics library and send
+      batched data to backend.
+    syntax:
+      content: function start()
+      parameters: []
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.StatsEventListener.stop'
+    name: stop()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Stops the exporter.
+    syntax:
+      content: function stop()
+      parameters: []
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.View[]'
+    name: 'View[]'
+    spec.typeScript:
+      - name: View
+        fullName: View
+        uid: '@opentelemetry/types.View'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@opentelemetry/types.Measurement'
+    name: Measurement
+    spec.typeScript:
+      - name: Measurement
+        fullName: Measurement
+        uid: '@opentelemetry/types.Measurement'
+  - uid: 'Map<@opentelemetry/types.TagKey, @opentelemetry/types.TagValue>'
+    name: TagValue>
+    spec.typeScript:
+      - name: Map<
+        fullName: Map<
+      - name: TagKey
+        fullName: TagKey
+        uid: '@opentelemetry/types.TagKey'
+      - name: ', '
+        fullName: ', '
+      - name: TagValue
+        fullName: TagValue
+        uid: '@opentelemetry/types.TagValue'
+      - name: '>'
+        fullName: '>'
+  - uid: '@opentelemetry/types.View'
+    name: View
+    spec.typeScript:
+      - name: View
+        fullName: View
+        uid: '@opentelemetry/types.View'

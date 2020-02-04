@@ -14,62 +14,78 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.SessionStorage.Get
-    name: Get
-    fullName: Get
+    name: Get(string)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Get: (key: string) => string'
+      content: 'function Get(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
       return:
         type:
-          - '(key: string) => string'
+          - string
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.SessionStorage.GetOrAdd
-    name: GetOrAdd
-    fullName: GetOrAdd
+    name: 'GetOrAdd(string, string)'
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'GetOrAdd: (key: string, valueToAdd: string) => string'
+      content: 'function GetOrAdd(key: string, valueToAdd: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+        - id: valueToAdd
+          type:
+            - string
+          description: ''
       return:
         type:
-          - '(key: string, valueToAdd: string) => string'
+          - string
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.SessionStorage.Remove
-    name: Remove
-    fullName: Remove
+    name: Remove(string)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Remove: (key: string) => void'
-      return:
-        type:
-          - '(key: string) => void'
-        description: ''
+      content: 'function Remove(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.SessionStorage.Set
-    name: Set
-    fullName: Set
+    name: 'Set(string, string)'
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Set: (key: string, value: string) => void'
-      return:
-        type:
-          - '(key: string, value: string) => void'
-        description: ''
+      content: 'function Set(key: string, value: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
     package: microsoft-speech-browser-sdk

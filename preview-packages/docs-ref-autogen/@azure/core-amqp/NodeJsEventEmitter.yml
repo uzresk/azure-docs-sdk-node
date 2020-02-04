@@ -1,0 +1,307 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.NodeJsEventEmitter
+    name: NodeJsEventEmitter
+    fullName: NodeJsEventEmitter
+    children:
+      - tslib.NodeJsEventEmitter.addListener
+      - tslib.NodeJsEventEmitter.emit
+      - tslib.NodeJsEventEmitter.eventNames
+      - tslib.NodeJsEventEmitter.getMaxListeners
+      - tslib.NodeJsEventEmitter.listenerCount
+      - tslib.NodeJsEventEmitter.listeners
+      - tslib.NodeJsEventEmitter.on
+      - tslib.NodeJsEventEmitter.once
+      - tslib.NodeJsEventEmitter.prependListener
+      - tslib.NodeJsEventEmitter.prependOnceListener
+      - tslib.NodeJsEventEmitter.removeAllListeners
+      - tslib.NodeJsEventEmitter.removeListener
+      - tslib.NodeJsEventEmitter.setMaxListeners
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      NodeJS.EventEmitter type included here so that this package does not
+
+      need to take a dependency on the Node typings.
+
+      See:
+
+      https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/node/events.d.ts
+    package: tslib
+  - uid: tslib.NodeJsEventEmitter.addListener
+    name: 'addListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: string | symbol, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJsEventEmitter.emit
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJsEventEmitter.eventNames
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJsEventEmitter.getMaxListeners
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJsEventEmitter.listenerCount
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJsEventEmitter.listeners
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJsEventEmitter.on
+    name: 'on(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJsEventEmitter.once
+    name: 'once(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJsEventEmitter.prependListener
+    name: 'prependListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJsEventEmitter.prependOnceListener
+    name: 'prependOnceListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string | symbol, listener: (args:
+        any[]) => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJsEventEmitter.removeAllListeners
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJsEventEmitter.removeListener
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJsEventEmitter.setMaxListeners
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib

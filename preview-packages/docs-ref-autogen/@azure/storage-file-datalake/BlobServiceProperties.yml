@@ -1,0 +1,168 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobServiceProperties'
+    name: BlobServiceProperties
+    fullName: BlobServiceProperties
+    children:
+      - '@azure/abort-controller.BlobServiceProperties.blobAnalyticsLogging'
+      - '@azure/abort-controller.BlobServiceProperties.cors'
+      - '@azure/abort-controller.BlobServiceProperties.defaultServiceVersion'
+      - '@azure/abort-controller.BlobServiceProperties.deleteRetentionPolicy'
+      - '@azure/abort-controller.BlobServiceProperties.hourMetrics'
+      - '@azure/abort-controller.BlobServiceProperties.minuteMetrics'
+      - '@azure/abort-controller.BlobServiceProperties.staticWebsite'
+    langs:
+      - typeScript
+    type: interface
+    summary: Storage Service Properties.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobServiceProperties.blobAnalyticsLogging'
+    name: blobAnalyticsLogging
+    fullName: blobAnalyticsLogging
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'blobAnalyticsLogging?: Logging'
+      return:
+        type:
+          - '@azure/abort-controller.Logging'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobServiceProperties.cors'
+    name: cors
+    fullName: cors
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The set of CORS rules.
+    optional: true
+    syntax:
+      content: 'cors?: CorsRule[]'
+      return:
+        type:
+          - '@azure/abort-controller.CorsRule[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobServiceProperties.defaultServiceVersion'
+    name: defaultServiceVersion
+    fullName: defaultServiceVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The default version to use for requests to the Blob service if an incoming
+      request's version
+
+      is not specified. Possible values include version 2008-10-27 and all more
+      recent versions
+    optional: true
+    syntax:
+      content: 'defaultServiceVersion?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobServiceProperties.deleteRetentionPolicy'
+    name: deleteRetentionPolicy
+    fullName: deleteRetentionPolicy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'deleteRetentionPolicy?: RetentionPolicy'
+      return:
+        type:
+          - '@azure/abort-controller.RetentionPolicy'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobServiceProperties.hourMetrics'
+    name: hourMetrics
+    fullName: hourMetrics
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'hourMetrics?: Metrics'
+      return:
+        type:
+          - '@azure/abort-controller.Metrics'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobServiceProperties.minuteMetrics'
+    name: minuteMetrics
+    fullName: minuteMetrics
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'minuteMetrics?: Metrics'
+      return:
+        type:
+          - '@azure/abort-controller.Metrics'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobServiceProperties.staticWebsite'
+    name: staticWebsite
+    fullName: staticWebsite
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'staticWebsite?: StaticWebsite'
+      return:
+        type:
+          - '@azure/abort-controller.StaticWebsite'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Logging'
+    name: Logging
+    spec.typeScript:
+      - name: Logging
+        fullName: Logging
+        uid: '@azure/abort-controller.Logging'
+  - uid: '@azure/abort-controller.CorsRule[]'
+    name: 'CorsRule[]'
+    spec.typeScript:
+      - name: CorsRule
+        fullName: CorsRule
+        uid: '@azure/abort-controller.CorsRule'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.RetentionPolicy'
+    name: RetentionPolicy
+    spec.typeScript:
+      - name: RetentionPolicy
+        fullName: RetentionPolicy
+        uid: '@azure/abort-controller.RetentionPolicy'
+  - uid: '@azure/abort-controller.Metrics'
+    name: Metrics
+    spec.typeScript:
+      - name: Metrics
+        fullName: Metrics
+        uid: '@azure/abort-controller.Metrics'
+  - uid: '@azure/abort-controller.StaticWebsite'
+    name: StaticWebsite
+    spec.typeScript:
+      - name: StaticWebsite
+        fullName: StaticWebsite
+        uid: '@azure/abort-controller.StaticWebsite'

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.SymbolConstructor
+    name: SymbolConstructor
+    fullName: SymbolConstructor
+    children:
+      - tslib.SymbolConstructor.asyncIterator
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.SymbolConstructor.asyncIterator
+    name: asyncIterator
+    fullName: asyncIterator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'asyncIterator: symbol'
+      return:
+        type:
+          - symbol
+        description: ''
+    package: tslib

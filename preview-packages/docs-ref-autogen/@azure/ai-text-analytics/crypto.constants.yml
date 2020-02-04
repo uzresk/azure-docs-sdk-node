@@ -1,0 +1,574 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.crypto.constants'
+    name: constants
+    langs:
+      - typeScript
+    fullName: constants
+    children: []
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.stream.internal.Transform'
+    name: Transform
+    spec.typeScript:
+      - name: Transform
+        fullName: Transform
+        uid: '@azure/abort-controller.stream.internal.Transform'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: '@azure/abort-controller.crypto.BinaryLike'
+    name: BinaryLike
+    spec.typeScript:
+      - name: BinaryLike
+        fullName: BinaryLike
+        uid: '@azure/abort-controller.crypto.BinaryLike'
+  - uid: '@azure/abort-controller.crypto.Utf8AsciiBinaryEncoding'
+    name: Utf8AsciiBinaryEncoding
+    spec.typeScript:
+      - name: Utf8AsciiBinaryEncoding
+        fullName: Utf8AsciiBinaryEncoding
+        uid: '@azure/abort-controller.crypto.Utf8AsciiBinaryEncoding'
+  - uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+  - uid: '@azure/abort-controller.crypto.HexBase64BinaryEncoding'
+    name: HexBase64BinaryEncoding
+    spec.typeScript:
+      - name: HexBase64BinaryEncoding
+        fullName: HexBase64BinaryEncoding
+        uid: '@azure/abort-controller.crypto.HexBase64BinaryEncoding'
+  - uid: '@azure/abort-controller.crypto.Utf8AsciiBinaryEncoding | undefined'
+    name: Utf8AsciiBinaryEncoding | undefined
+    spec.typeScript:
+      - name: Utf8AsciiBinaryEncoding
+        fullName: Utf8AsciiBinaryEncoding
+        uid: '@azure/abort-controller.crypto.Utf8AsciiBinaryEncoding'
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: '@azure/abort-controller.crypto.HexBase64BinaryEncoding | undefined'
+    name: HexBase64BinaryEncoding | undefined
+    spec.typeScript:
+      - name: HexBase64BinaryEncoding
+        fullName: HexBase64BinaryEncoding
+        uid: '@azure/abort-controller.crypto.HexBase64BinaryEncoding'
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: '@azure/abort-controller.crypto.HexBase64Latin1Encoding'
+    name: HexBase64Latin1Encoding
+    spec.typeScript:
+      - name: HexBase64Latin1Encoding
+        fullName: HexBase64Latin1Encoding
+        uid: '@azure/abort-controller.crypto.HexBase64Latin1Encoding'
+  - uid: '@azure/abort-controller.crypto.ECDHKeyFormat'
+    name: ECDHKeyFormat
+    spec.typeScript:
+      - name: ECDHKeyFormat
+        fullName: ECDHKeyFormat
+        uid: '@azure/abort-controller.crypto.ECDHKeyFormat'
+  - uid: '@azure/abort-controller.crypto.Hash'
+    name: Hash
+    spec.typeScript:
+      - name: Hash
+        fullName: Hash
+        uid: '@azure/abort-controller.crypto.Hash'
+  - uid: '@azure/abort-controller.crypto.Utf8AsciiLatin1Encoding'
+    name: Utf8AsciiLatin1Encoding
+    spec.typeScript:
+      - name: Utf8AsciiLatin1Encoding
+        fullName: Utf8AsciiLatin1Encoding
+        uid: '@azure/abort-controller.crypto.Utf8AsciiLatin1Encoding'
+  - uid: '@azure/abort-controller.crypto.Hmac'
+    name: Hmac
+    spec.typeScript:
+      - name: Hmac
+        fullName: Hmac
+        uid: '@azure/abort-controller.crypto.Hmac'
+  - uid: '@azure/abort-controller.crypto.KeyType'
+    name: KeyType
+    spec.typeScript:
+      - name: KeyType
+        fullName: KeyType
+        uid: '@azure/abort-controller.crypto.KeyType'
+  - uid: '@azure/abort-controller.crypto.KeyObjectType'
+    name: KeyObjectType
+    spec.typeScript:
+      - name: KeyObjectType
+        fullName: KeyObjectType
+        uid: '@azure/abort-controller.crypto.KeyObjectType'
+  - uid: '@azure/abort-controller.crypto.KeyExportOptions<"pem">'
+    name: KeyExportOptions<"pem">
+    spec.typeScript:
+      - name: KeyExportOptions
+        fullName: KeyExportOptions
+        uid: '@azure/abort-controller.crypto.KeyExportOptions'
+      - name: <"pem">
+        fullName: <"pem">
+  - uid: '@azure/abort-controller.crypto.KeyExportOptions<"der">'
+    name: KeyExportOptions<"der">
+    spec.typeScript:
+      - name: KeyExportOptions
+        fullName: KeyExportOptions
+        uid: '@azure/abort-controller.crypto.KeyExportOptions'
+      - name: <"der">
+        fullName: <"der">
+  - uid: '@azure/abort-controller.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+  - uid: >-
+      @azure/abort-controller.crypto.SignPrivateKeyInput |
+      @azure/abort-controller.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: SignPrivateKeyInput
+        fullName: SignPrivateKeyInput
+        uid: '@azure/abort-controller.crypto.SignPrivateKeyInput'
+      - name: ' | '
+        fullName: ' | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/abort-controller.crypto.KeyLike'
+  - uid: '@azure/abort-controller.crypto.Signer'
+    name: Signer
+    spec.typeScript:
+      - name: Signer
+        fullName: Signer
+        uid: '@azure/abort-controller.crypto.Signer'
+  - uid: '@azure/abort-controller.crypto.Verify'
+    name: Verify
+    spec.typeScript:
+      - name: Verify
+        fullName: Verify
+        uid: '@azure/abort-controller.crypto.Verify'
+  - uid: object | @azure/abort-controller.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: 'object | '
+        fullName: 'object | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/abort-controller.crypto.KeyLike'
+  - uid: '@azure/abort-controller.crypto.Cipher'
+    name: Cipher
+    spec.typeScript:
+      - name: Cipher
+        fullName: Cipher
+        uid: '@azure/abort-controller.crypto.Cipher'
+  - uid: '@azure/abort-controller.stream.internal.TransformOptions'
+    name: TransformOptions
+    spec.typeScript:
+      - name: TransformOptions
+        fullName: TransformOptions
+        uid: '@azure/abort-controller.stream.internal.TransformOptions'
+  - uid: '@azure/abort-controller.stream.internal.TransformCallback'
+    name: TransformCallback
+    spec.typeScript:
+      - name: TransformCallback
+        fullName: TransformCallback
+        uid: '@azure/abort-controller.stream.internal.TransformCallback'
+  - uid: >-
+      @azure/abort-controller.crypto.BasePrivateKeyEncodingOptions<PrivF> &
+      Object
+    name: BasePrivateKeyEncodingOptions<PrivF> & Object
+    spec.typeScript:
+      - name: BasePrivateKeyEncodingOptions
+        fullName: BasePrivateKeyEncodingOptions
+        uid: '@azure/abort-controller.crypto.BasePrivateKeyEncodingOptions'
+      - name: <PrivF> & Object
+        fullName: <PrivF> & Object
+  - uid: '@azure/abort-controller.crypto.Decipher'
+    name: Decipher
+    spec.typeScript:
+      - name: Decipher
+        fullName: Decipher
+        uid: '@azure/abort-controller.crypto.Decipher'
+  - uid: '@azure/abort-controller.crypto.KeyObject'
+    name: KeyObject
+    spec.typeScript:
+      - name: KeyObject
+        fullName: KeyObject
+        uid: '@azure/abort-controller.crypto.KeyObject'
+  - uid: '@azure/abort-controller.crypto.KeyFormat'
+    name: KeyFormat
+    spec.typeScript:
+      - name: KeyFormat
+        fullName: KeyFormat
+        uid: '@azure/abort-controller.crypto.KeyFormat'
+  - uid: '@azure/abort-controller.crypto.KeyLike'
+    name: KeyLike
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/abort-controller.crypto.KeyLike'
+  - uid: '@azure/abort-controller.NodeJS.TypedArray'
+    name: TypedArray
+    spec.typeScript:
+      - name: TypedArray
+        fullName: TypedArray
+        uid: '@azure/abort-controller.NodeJS.TypedArray'
+  - uid: '@azure/abort-controller.crypto.PrivateKeyInput'
+    name: PrivateKeyInput
+    spec.typeScript:
+      - name: PrivateKeyInput
+        fullName: PrivateKeyInput
+        uid: '@azure/abort-controller.crypto.PrivateKeyInput'
+  - uid: '@azure/abort-controller.crypto.CipherCCMTypes'
+    name: CipherCCMTypes
+    spec.typeScript:
+      - name: CipherCCMTypes
+        fullName: CipherCCMTypes
+        uid: '@azure/abort-controller.crypto.CipherCCMTypes'
+  - uid: '@azure/abort-controller.crypto.CipherCCMOptions'
+    name: CipherCCMOptions
+    spec.typeScript:
+      - name: CipherCCMOptions
+        fullName: CipherCCMOptions
+        uid: '@azure/abort-controller.crypto.CipherCCMOptions'
+  - uid: '@azure/abort-controller.crypto.CipherCCM'
+    name: CipherCCM
+    spec.typeScript:
+      - name: CipherCCM
+        fullName: CipherCCM
+        uid: '@azure/abort-controller.crypto.CipherCCM'
+  - uid: '@azure/abort-controller.crypto.CipherGCMTypes'
+    name: CipherGCMTypes
+    spec.typeScript:
+      - name: CipherGCMTypes
+        fullName: CipherGCMTypes
+        uid: '@azure/abort-controller.crypto.CipherGCMTypes'
+  - uid: '@azure/abort-controller.crypto.CipherGCMOptions'
+    name: CipherGCMOptions
+    spec.typeScript:
+      - name: CipherGCMOptions
+        fullName: CipherGCMOptions
+        uid: '@azure/abort-controller.crypto.CipherGCMOptions'
+  - uid: '@azure/abort-controller.crypto.CipherGCM'
+    name: CipherGCM
+    spec.typeScript:
+      - name: CipherGCM
+        fullName: CipherGCM
+        uid: '@azure/abort-controller.crypto.CipherGCM'
+  - uid: '@azure/abort-controller.crypto.CipherKey'
+    name: CipherKey
+    spec.typeScript:
+      - name: CipherKey
+        fullName: CipherKey
+        uid: '@azure/abort-controller.crypto.CipherKey'
+  - uid: '@azure/abort-controller.crypto.BinaryLike | null'
+    name: BinaryLike | null
+    spec.typeScript:
+      - name: BinaryLike
+        fullName: BinaryLike
+        uid: '@azure/abort-controller.crypto.BinaryLike'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.crypto.DecipherCCM'
+    name: DecipherCCM
+    spec.typeScript:
+      - name: DecipherCCM
+        fullName: DecipherCCM
+        uid: '@azure/abort-controller.crypto.DecipherCCM'
+  - uid: '@azure/abort-controller.crypto.DecipherGCM'
+    name: DecipherGCM
+    spec.typeScript:
+      - name: DecipherGCM
+        fullName: DecipherGCM
+        uid: '@azure/abort-controller.crypto.DecipherGCM'
+  - uid: number | @azure/abort-controller.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: 'number | '
+        fullName: 'number | '
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+  - uid: '@azure/abort-controller.crypto.DiffieHellman'
+    name: DiffieHellman
+    spec.typeScript:
+      - name: DiffieHellman
+        fullName: DiffieHellman
+        uid: '@azure/abort-controller.crypto.DiffieHellman'
+  - uid: '@azure/abort-controller.crypto.ECDH'
+    name: ECDH
+    spec.typeScript:
+      - name: ECDH
+        fullName: ECDH
+        uid: '@azure/abort-controller.crypto.ECDH'
+  - uid: '@azure/abort-controller.crypto.HashOptions'
+    name: HashOptions
+    spec.typeScript:
+      - name: HashOptions
+        fullName: HashOptions
+        uid: '@azure/abort-controller.crypto.HashOptions'
+  - uid: '@azure/abort-controller.crypto.PrivateKeyInput | string | Buffer'
+    name: PrivateKeyInput | string | Buffer
+    spec.typeScript:
+      - name: PrivateKeyInput
+        fullName: PrivateKeyInput
+        uid: '@azure/abort-controller.crypto.PrivateKeyInput'
+      - name: ' | string | Buffer'
+        fullName: ' | string | Buffer'
+  - uid: >-
+      @azure/abort-controller.crypto.PublicKeyInput | string | Buffer |
+      @azure/abort-controller.crypto.KeyObject
+    name: KeyObject
+    spec.typeScript:
+      - name: PublicKeyInput
+        fullName: PublicKeyInput
+        uid: '@azure/abort-controller.crypto.PublicKeyInput'
+      - name: ' | string | Buffer | '
+        fullName: ' | string | Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: '@azure/abort-controller.crypto.KeyObject'
+  - uid: '@azure/abort-controller.crypto.RSAKeyPairOptions<"pem", "pem">'
+    name: 'RSAKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.RSAKeyPairOptions'
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: '@azure/abort-controller.crypto.KeyPairSyncResult<string, string>'
+    name: 'KeyPairSyncResult<string, string>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: '@azure/abort-controller.crypto.KeyPairSyncResult'
+      - name: '<string, string>'
+        fullName: '<string, string>'
+  - uid: '@azure/abort-controller.crypto.RSAKeyPairOptions<"pem", "der">'
+    name: 'RSAKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.RSAKeyPairOptions'
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: '@azure/abort-controller.crypto.KeyPairSyncResult<string, Buffer>'
+    name: 'KeyPairSyncResult<string, Buffer>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: '@azure/abort-controller.crypto.KeyPairSyncResult'
+      - name: '<string, Buffer>'
+        fullName: '<string, Buffer>'
+  - uid: '@azure/abort-controller.crypto.RSAKeyPairOptions<"der", "pem">'
+    name: 'RSAKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.RSAKeyPairOptions'
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: '@azure/abort-controller.crypto.KeyPairSyncResult<Buffer, string>'
+    name: 'KeyPairSyncResult<Buffer, string>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: '@azure/abort-controller.crypto.KeyPairSyncResult'
+      - name: '<Buffer, string>'
+        fullName: '<Buffer, string>'
+  - uid: '@azure/abort-controller.crypto.RSAKeyPairOptions<"der", "der">'
+    name: 'RSAKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.RSAKeyPairOptions'
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: '@azure/abort-controller.crypto.KeyPairSyncResult<Buffer, Buffer>'
+    name: 'KeyPairSyncResult<Buffer, Buffer>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: '@azure/abort-controller.crypto.KeyPairSyncResult'
+      - name: '<Buffer, Buffer>'
+        fullName: '<Buffer, Buffer>'
+  - uid: '@azure/abort-controller.crypto.RSAKeyPairKeyObjectOptions'
+    name: RSAKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: RSAKeyPairKeyObjectOptions
+        fullName: RSAKeyPairKeyObjectOptions
+        uid: '@azure/abort-controller.crypto.RSAKeyPairKeyObjectOptions'
+  - uid: '@azure/abort-controller.crypto.KeyPairKeyObjectResult'
+    name: KeyPairKeyObjectResult
+    spec.typeScript:
+      - name: KeyPairKeyObjectResult
+        fullName: KeyPairKeyObjectResult
+        uid: '@azure/abort-controller.crypto.KeyPairKeyObjectResult'
+  - uid: '@azure/abort-controller.crypto.DSAKeyPairOptions<"pem", "pem">'
+    name: 'DSAKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.DSAKeyPairOptions'
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: '@azure/abort-controller.crypto.DSAKeyPairOptions<"pem", "der">'
+    name: 'DSAKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.DSAKeyPairOptions'
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: '@azure/abort-controller.crypto.DSAKeyPairOptions<"der", "pem">'
+    name: 'DSAKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.DSAKeyPairOptions'
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: '@azure/abort-controller.crypto.DSAKeyPairOptions<"der", "der">'
+    name: 'DSAKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.DSAKeyPairOptions'
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: '@azure/abort-controller.crypto.DSAKeyPairKeyObjectOptions'
+    name: DSAKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: DSAKeyPairKeyObjectOptions
+        fullName: DSAKeyPairKeyObjectOptions
+        uid: '@azure/abort-controller.crypto.DSAKeyPairKeyObjectOptions'
+  - uid: '@azure/abort-controller.crypto.ECKeyPairOptions<"pem", "pem">'
+    name: 'ECKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: '@azure/abort-controller.crypto.ECKeyPairOptions'
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: '@azure/abort-controller.crypto.ECKeyPairOptions<"pem", "der">'
+    name: 'ECKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: '@azure/abort-controller.crypto.ECKeyPairOptions'
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: '@azure/abort-controller.crypto.ECKeyPairOptions<"der", "pem">'
+    name: 'ECKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: '@azure/abort-controller.crypto.ECKeyPairOptions'
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: '@azure/abort-controller.crypto.ECKeyPairOptions<"der", "der">'
+    name: 'ECKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: '@azure/abort-controller.crypto.ECKeyPairOptions'
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: '@azure/abort-controller.crypto.ECKeyPairKeyObjectOptions'
+    name: ECKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: ECKeyPairKeyObjectOptions
+        fullName: ECKeyPairKeyObjectOptions
+        uid: '@azure/abort-controller.crypto.ECKeyPairKeyObjectOptions'
+  - uid: >-
+      @azure/abort-controller.crypto.RsaPrivateKey |
+      @azure/abort-controller.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: RsaPrivateKey
+        fullName: RsaPrivateKey
+        uid: '@azure/abort-controller.crypto.RsaPrivateKey'
+      - name: ' | '
+        fullName: ' | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/abort-controller.crypto.KeyLike'
+  - uid: >-
+      @azure/abort-controller.crypto.RsaPublicKey |
+      @azure/abort-controller.crypto.RsaPrivateKey |
+      @azure/abort-controller.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: RsaPublicKey
+        fullName: RsaPublicKey
+        uid: '@azure/abort-controller.crypto.RsaPublicKey'
+      - name: ' | '
+        fullName: ' | '
+      - name: RsaPrivateKey
+        fullName: RsaPrivateKey
+        uid: '@azure/abort-controller.crypto.RsaPrivateKey'
+      - name: ' | '
+        fullName: ' | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/abort-controller.crypto.KeyLike'
+  - uid: '@azure/abort-controller.crypto.ScryptOptions'
+    name: ScryptOptions
+    spec.typeScript:
+      - name: ScryptOptions
+        fullName: ScryptOptions
+        uid: '@azure/abort-controller.crypto.ScryptOptions'
+  - uid: >-
+      @azure/abort-controller.crypto.KeyLike |
+      @azure/abort-controller.crypto.SignPrivateKeyInput
+    name: SignPrivateKeyInput
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/abort-controller.crypto.KeyLike'
+      - name: ' | '
+        fullName: ' | '
+      - name: SignPrivateKeyInput
+        fullName: SignPrivateKeyInput
+        uid: '@azure/abort-controller.crypto.SignPrivateKeyInput'
+  - uid: >-
+      @azure/abort-controller.crypto.KeyLike |
+      @azure/abort-controller.crypto.VerifyKeyWithOptions
+    name: VerifyKeyWithOptions
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/abort-controller.crypto.KeyLike'
+      - name: ' | '
+        fullName: ' | '
+      - name: VerifyKeyWithOptions
+        fullName: VerifyKeyWithOptions
+        uid: '@azure/abort-controller.crypto.VerifyKeyWithOptions'

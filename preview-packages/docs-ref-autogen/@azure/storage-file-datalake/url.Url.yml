@@ -1,0 +1,343 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.url.URL'
+    name: URL
+    fullName: URL
+    children:
+      - '@azure/abort-controller.url.URL.hash'
+      - '@azure/abort-controller.url.URL.host'
+      - '@azure/abort-controller.url.URL.hostname'
+      - '@azure/abort-controller.url.URL.href'
+      - '@azure/abort-controller.url.URL.origin'
+      - '@azure/abort-controller.url.URL.password'
+      - '@azure/abort-controller.url.URL.pathname'
+      - '@azure/abort-controller.url.URL.port'
+      - '@azure/abort-controller.url.URL.protocol'
+      - '@azure/abort-controller.url.URL.search'
+      - '@azure/abort-controller.url.URL.searchParams'
+      - '@azure/abort-controller.url.URL.toJSON'
+      - '@azure/abort-controller.url.URL.toString'
+      - '@azure/abort-controller.url.URL.constructor'
+      - '@azure/abort-controller.url.URL.username'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.hash'
+    name: hash
+    fullName: hash
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'hash: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.host'
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'host: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.hostname'
+    name: hostname
+    fullName: hostname
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'hostname: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.href'
+    name: href
+    fullName: href
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'href: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.origin'
+    name: origin
+    fullName: origin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'origin: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.password'
+    name: password
+    fullName: password
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'password: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.pathname'
+    name: pathname
+    fullName: pathname
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'pathname: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.port'
+    name: port
+    fullName: port
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'port: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.protocol'
+    name: protocol
+    fullName: protocol
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'protocol: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.search'
+    name: search
+    fullName: search
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'search: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.searchParams'
+    name: searchParams
+    fullName: searchParams
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'searchParams: URLSearchParams'
+      return:
+        type:
+          - '@azure/abort-controller.url.URLSearchParams'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.toJSON'
+    name: toJSON()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.toString'
+    name: toString()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toString()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.constructor'
+    name: 'URL(string, string | URL)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new URL(input: string, base?: string | URL)'
+      parameters:
+        - id: input
+          type:
+            - string
+          description: ''
+        - id: base
+          type:
+            - string | @azure/abort-controller.url.URL
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.url.URL.username'
+    name: username
+    fullName: username
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'username: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: string | @azure/abort-controller.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: '@azure/abort-controller.url.URL'
+  - uid: '@azure/abort-controller.url.URLSearchParams'
+    name: URLSearchParams
+    spec.typeScript:
+      - name: URLSearchParams
+        fullName: URLSearchParams
+        uid: '@azure/abort-controller.url.URLSearchParams'
+  - uid: >-
+      @azure/abort-controller.url.URLSearchParams | string | [key: string]:
+      function | Iterable<Object> | Array<Object>
+    name: >-
+      URLSearchParams | string | [key: string]: function | Iterable<Object> |
+      Array<Object>
+    spec.typeScript:
+      - name: URLSearchParams
+        fullName: URLSearchParams
+        uid: '@azure/abort-controller.url.URLSearchParams'
+      - name: ' | string | [key: string]: function | Iterable<Object> | Array<Object>'
+        fullName: ' | string | [key: string]: function | Iterable<Object> | Array<Object>'
+  - uid: string | null | @azure/abort-controller.querystring.ParsedUrlQuery
+    name: ParsedUrlQuery
+    spec.typeScript:
+      - name: 'string | null | '
+        fullName: 'string | null | '
+      - name: ParsedUrlQuery
+        fullName: ParsedUrlQuery
+        uid: '@azure/abort-controller.querystring.ParsedUrlQuery'
+  - uid: string | null | @azure/abort-controller.querystring.ParsedUrlQueryInput
+    name: ParsedUrlQueryInput
+    spec.typeScript:
+      - name: 'string | null | '
+        fullName: 'string | null | '
+      - name: ParsedUrlQueryInput
+        fullName: ParsedUrlQueryInput
+        uid: '@azure/abort-controller.querystring.ParsedUrlQueryInput'
+  - uid: '@azure/abort-controller.url.Url'
+    name: Url
+    spec.typeScript:
+      - name: Url
+        fullName: Url
+        uid: '@azure/abort-controller.url.Url'
+  - uid: '@azure/abort-controller.querystring.ParsedUrlQuery'
+    name: ParsedUrlQuery
+    spec.typeScript:
+      - name: ParsedUrlQuery
+        fullName: ParsedUrlQuery
+        uid: '@azure/abort-controller.querystring.ParsedUrlQuery'
+  - uid: '@azure/abort-controller.url.URL'
+    name: URL
+    spec.typeScript:
+      - name: URL
+        fullName: URL
+        uid: '@azure/abort-controller.url.URL'
+  - uid: '@azure/abort-controller.url.URLFormatOptions'
+    name: URLFormatOptions
+    spec.typeScript:
+      - name: URLFormatOptions
+        fullName: URLFormatOptions
+        uid: '@azure/abort-controller.url.URLFormatOptions'
+  - uid: '@azure/abort-controller.url.UrlObject | string'
+    name: UrlObject | string
+    spec.typeScript:
+      - name: UrlObject
+        fullName: UrlObject
+        uid: '@azure/abort-controller.url.UrlObject'
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: '@azure/abort-controller.url.UrlWithStringQuery'
+    name: UrlWithStringQuery
+    spec.typeScript:
+      - name: UrlWithStringQuery
+        fullName: UrlWithStringQuery
+        uid: '@azure/abort-controller.url.UrlWithStringQuery'
+  - uid: '@azure/abort-controller.url.UrlWithParsedQuery'
+    name: UrlWithParsedQuery
+    spec.typeScript:
+      - name: UrlWithParsedQuery
+        fullName: UrlWithParsedQuery
+        uid: '@azure/abort-controller.url.UrlWithParsedQuery'

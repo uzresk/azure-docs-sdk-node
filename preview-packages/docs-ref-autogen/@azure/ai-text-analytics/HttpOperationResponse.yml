@@ -1,0 +1,182 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.HttpOperationResponse'
+    name: HttpOperationResponse
+    fullName: HttpOperationResponse
+    children:
+      - '@azure/abort-controller.HttpOperationResponse.blobBody'
+      - '@azure/abort-controller.HttpOperationResponse.bodyAsText'
+      - '@azure/abort-controller.HttpOperationResponse.headers'
+      - '@azure/abort-controller.HttpOperationResponse.parsedBody'
+      - '@azure/abort-controller.HttpOperationResponse.parsedHeaders'
+      - '@azure/abort-controller.HttpOperationResponse.readableStreamBody'
+      - '@azure/abort-controller.HttpOperationResponse.request'
+      - '@azure/abort-controller.HttpOperationResponse.status'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Wrapper object for http request and response. Deserialized object is
+      stored in
+
+      the `parsedBody` property when the response body is received in JSON or
+      XML.
+    extends:
+      name: '@azure/abort-controller.HttpResponse'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpOperationResponse.blobBody'
+    name: blobBody
+    fullName: blobBody
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      BROWSER ONLY
+      The response body as a browser Blob.
+      Always undefined in node.js.
+    optional: true
+    syntax:
+      content: 'blobBody?: Promise<Blob>'
+      return:
+        type:
+          - Promise<Blob>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpOperationResponse.bodyAsText'
+    name: bodyAsText
+    fullName: bodyAsText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The response body as text (string format)
+    optional: true
+    syntax:
+      content: 'bodyAsText?: string | null'
+      return:
+        type:
+          - string | null
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpOperationResponse.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The HTTP response headers.
+    syntax:
+      content: 'headers: HttpHeaders'
+      return:
+        type:
+          - '@azure/abort-controller.HttpHeaders'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpOperationResponse.parsedBody'
+    name: parsedBody
+    fullName: parsedBody
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The response body as parsed JSON or XML
+    optional: true
+    syntax:
+      content: 'parsedBody?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpOperationResponse.parsedHeaders'
+    name: parsedHeaders
+    fullName: parsedHeaders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The parsed HTTP response headers.
+    optional: true
+    syntax:
+      content: 'parsedHeaders?: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpOperationResponse.readableStreamBody'
+    name: readableStreamBody
+    fullName: readableStreamBody
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      NODEJS ONLY
+      The response body as a node.js Readable stream.
+      Always undefined in the browser.
+    optional: true
+    syntax:
+      content: 'readableStreamBody?: ReadableStream'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.ReadableStream'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpOperationResponse.request'
+    name: request
+    fullName: request
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The raw request
+    syntax:
+      content: 'request: WebResource'
+      return:
+        type:
+          - '@azure/abort-controller.WebResource'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpOperationResponse.status'
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The HTTP response status (e.g. 200)
+    syntax:
+      content: 'status: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.HttpResponse'
+    name: HttpResponse
+    spec.typeScript:
+      - name: HttpResponse
+        fullName: HttpResponse
+        uid: '@azure/abort-controller.HttpResponse'
+  - uid: '@azure/abort-controller.HttpHeaders'
+    name: HttpHeaders
+    spec.typeScript:
+      - name: HttpHeaders
+        fullName: HttpHeaders
+        uid: '@azure/abort-controller.HttpHeaders'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.WebResource'
+    name: WebResource
+    spec.typeScript:
+      - name: WebResource
+        fullName: WebResource
+        uid: '@azure/abort-controller.WebResource'

@@ -1,0 +1,144 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.UiEvent'
+    name: UiEvent
+    fullName: UiEvent
+    children:
+      - '@azure/abort-controller.UiEvent.accessDenied'
+      - '@azure/abort-controller.UiEvent.eventId'
+      - '@azure/abort-controller.UiEvent.eventName'
+      - '@azure/abort-controller.UiEvent.get'
+      - '@azure/abort-controller.UiEvent.stop'
+      - '@azure/abort-controller.UiEvent.telemetryCorrelationId'
+      - '@azure/abort-controller.UiEvent.constructor'
+      - '@azure/abort-controller.UiEvent.userCancelled'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.TelemetryEvent'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.UiEvent.accessDenied'
+    name: accessDenied
+    fullName: accessDenied
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void accessDenied
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.UiEvent.eventId'
+    name: eventId
+    fullName: eventId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public eventId: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.UiEvent.eventName'
+    name: eventName
+    fullName: eventName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string eventName
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.UiEvent.get'
+    name: get()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function get()
+      parameters: []
+      return:
+        type:
+          - object
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.UiEvent.stop'
+    name: stop()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function stop()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.UiEvent.telemetryCorrelationId'
+    name: telemetryCorrelationId
+    fullName: telemetryCorrelationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string telemetryCorrelationId
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.UiEvent.constructor'
+    name: UiEvent(string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new UiEvent(correlationId: string)'
+      parameters:
+        - id: correlationId
+          type:
+            - string
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.UiEvent.userCancelled'
+    name: userCancelled
+    fullName: userCancelled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void userCancelled
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.TelemetryEvent'
+    name: TelemetryEvent
+    spec.typeScript:
+      - name: TelemetryEvent
+        fullName: TelemetryEvent
+        uid: '@azure/abort-controller.TelemetryEvent'

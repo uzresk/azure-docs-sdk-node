@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.buildTenantList'
+    name: 'buildTenantList(TokenCredentialsBase, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Builds an array of tenantIds.
+    syntax:
+      content: >-
+        function buildTenantList(credentials: TokenCredentialsBase, apiVersion:
+        string)
+      parameters:
+        - id: credentials
+          type:
+            - '@azure/ms-rest-azure-env.TokenCredentialsBase'
+          description: The credentials.
+        - id: apiVersion
+          type:
+            - string
+          description: default value 2016-06-01
+      return:
+        type:
+          - 'Promise<string[]>'
+        description: resolves to an array of tenantIds and rejects with an error.
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.TokenCredentialsBase'
+    name: TokenCredentialsBase
+    spec.typeScript:
+      - name: TokenCredentialsBase
+        fullName: TokenCredentialsBase
+        uid: '@azure/ms-rest-azure-env.TokenCredentialsBase'

@@ -1,0 +1,112 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.fs'
+    name: fs
+    langs:
+      - typeScript
+    fullName: fs
+    children:
+      - '@azure/abort-controller.fs.BigIntOptions'
+      - '@azure/abort-controller.fs.BigIntStats'
+      - '@azure/abort-controller.fs.StatOptions'
+      - '@azure/abort-controller.fs.statSync'
+      - '@azure/abort-controller.fs.statSync_1'
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.statSync'
+    name: 'statSync(PathLike, BigIntOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function statSync(path: PathLike, options: BigIntOptions)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.fs.BigIntOptions'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.fs.BigIntStats'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.statSync_1'
+    name: 'statSync(PathLike, StatOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function statSync(path: PathLike, options: StatOptions)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.fs.StatOptions'
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.fs.Stats |
+            @azure/abort-controller.fs.BigIntStats
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.fs.StatsBase<BigInt>'
+    name: StatsBase<BigInt>
+    spec.typeScript:
+      - name: StatsBase
+        fullName: StatsBase
+        uid: '@azure/abort-controller.fs.StatsBase'
+      - name: <BigInt>
+        fullName: <BigInt>
+  - uid: '@azure/abort-controller.fs.PathLike'
+    name: PathLike
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/abort-controller.fs.PathLike'
+  - uid: '@azure/abort-controller.fs.BigIntOptions'
+    name: BigIntOptions
+    spec.typeScript:
+      - name: BigIntOptions
+        fullName: BigIntOptions
+        uid: '@azure/abort-controller.fs.BigIntOptions'
+  - uid: '@azure/abort-controller.fs.BigIntStats'
+    name: BigIntStats
+    spec.typeScript:
+      - name: BigIntStats
+        fullName: BigIntStats
+        uid: '@azure/abort-controller.fs.BigIntStats'
+  - uid: '@azure/abort-controller.fs.StatOptions'
+    name: StatOptions
+    spec.typeScript:
+      - name: StatOptions
+        fullName: StatOptions
+        uid: '@azure/abort-controller.fs.StatOptions'
+  - uid: '@azure/abort-controller.fs.Stats | @azure/abort-controller.fs.BigIntStats'
+    name: BigIntStats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: '@azure/abort-controller.fs.Stats'
+      - name: ' | '
+        fullName: ' | '
+      - name: BigIntStats
+        fullName: BigIntStats
+        uid: '@azure/abort-controller.fs.BigIntStats'
+  - uid: '@azure/abort-controller.fs.statSync'
+    name: statSync
+  - uid: '@azure/abort-controller.fs.statSync_1'
+    name: statSync_1

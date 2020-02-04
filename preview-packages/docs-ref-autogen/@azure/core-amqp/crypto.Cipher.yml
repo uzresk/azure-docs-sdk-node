@@ -1,0 +1,2512 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.crypto.Cipher
+    name: Cipher
+    fullName: Cipher
+    children:
+      - tslib.crypto.Cipher.addListener
+      - tslib.crypto.Cipher.addListener_1
+      - tslib.crypto.Cipher.addListener_2
+      - tslib.crypto.Cipher.addListener_4
+      - tslib.crypto.Cipher.addListener_3
+      - tslib.crypto.Cipher.addListener_5
+      - tslib.crypto.Cipher.cork
+      - tslib.crypto.Cipher.destroy
+      - tslib.crypto.Cipher.destroyed
+      - tslib.crypto.Cipher.emit
+      - tslib.crypto.Cipher.emit_1
+      - tslib.crypto.Cipher.emit_2
+      - tslib.crypto.Cipher.emit_4
+      - tslib.crypto.Cipher.emit_3
+      - tslib.crypto.Cipher.emit_5
+      - tslib.crypto.Cipher.end_1
+      - tslib.crypto.Cipher.end_2
+      - tslib.crypto.Cipher.end
+      - tslib.crypto.Cipher.eventNames
+      - tslib.crypto.Cipher.final
+      - tslib.crypto.Cipher.final_1
+      - tslib.crypto.Cipher.from
+      - tslib.crypto.Cipher.getMaxListeners
+      - tslib.crypto.Cipher.isPaused
+      - tslib.crypto.Cipher.listenerCount
+      - tslib.crypto.Cipher.listeners
+      - tslib.crypto.Cipher.off
+      - tslib.crypto.Cipher.on
+      - tslib.crypto.Cipher.on_1
+      - tslib.crypto.Cipher.on_2
+      - tslib.crypto.Cipher.on_4
+      - tslib.crypto.Cipher.on_3
+      - tslib.crypto.Cipher.on_5
+      - tslib.crypto.Cipher.once
+      - tslib.crypto.Cipher.once_1
+      - tslib.crypto.Cipher.once_2
+      - tslib.crypto.Cipher.once_4
+      - tslib.crypto.Cipher.once_3
+      - tslib.crypto.Cipher.once_5
+      - tslib.crypto.Cipher.pause
+      - tslib.crypto.Cipher.pipe
+      - tslib.crypto.Cipher.prependListener
+      - tslib.crypto.Cipher.prependListener_1
+      - tslib.crypto.Cipher.prependListener_2
+      - tslib.crypto.Cipher.prependListener_4
+      - tslib.crypto.Cipher.prependListener_3
+      - tslib.crypto.Cipher.prependListener_5
+      - tslib.crypto.Cipher.prependOnceListener
+      - tslib.crypto.Cipher.prependOnceListener_1
+      - tslib.crypto.Cipher.prependOnceListener_2
+      - tslib.crypto.Cipher.prependOnceListener_4
+      - tslib.crypto.Cipher.prependOnceListener_3
+      - tslib.crypto.Cipher.prependOnceListener_5
+      - tslib.crypto.Cipher.push
+      - tslib.crypto.Cipher.rawListeners
+      - tslib.crypto.Cipher.read
+      - tslib.crypto.Cipher.readable
+      - tslib.crypto.Cipher.readableHighWaterMark
+      - tslib.crypto.Cipher.readableLength
+      - tslib.crypto.Cipher.readableObjectMode
+      - tslib.crypto.Cipher.removeAllListeners
+      - tslib.crypto.Cipher.removeListener
+      - tslib.crypto.Cipher.removeListener_1
+      - tslib.crypto.Cipher.removeListener_2
+      - tslib.crypto.Cipher.removeListener_4
+      - tslib.crypto.Cipher.removeListener_3
+      - tslib.crypto.Cipher.removeListener_5
+      - tslib.crypto.Cipher.resume
+      - tslib.crypto.Cipher.setAutoPadding
+      - tslib.crypto.Cipher.setDefaultEncoding
+      - tslib.crypto.Cipher.setEncoding
+      - tslib.crypto.Cipher.setMaxListeners
+      - tslib.crypto.Cipher.uncork
+      - tslib.crypto.Cipher.unpipe
+      - tslib.crypto.Cipher.unshift
+      - tslib.crypto.Cipher.update
+      - tslib.crypto.Cipher.update_2
+      - tslib.crypto.Cipher.update_3
+      - tslib.crypto.Cipher.update_1
+      - tslib.crypto.Cipher.wrap
+      - tslib.crypto.Cipher.writable
+      - tslib.crypto.Cipher.writableCorked
+      - tslib.crypto.Cipher.writableEnded
+      - tslib.crypto.Cipher.writableFinished
+      - tslib.crypto.Cipher.writableHighWaterMark
+      - tslib.crypto.Cipher.writableLength
+      - tslib.crypto.Cipher.writableObjectMode
+      - tslib.crypto.Cipher.write_1
+      - tslib.crypto.Cipher.write
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: tslib.stream.internal.Transform
+    package: tslib
+  - uid: tslib.crypto.Cipher.addListener
+    name: 'addListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Event emitter
+      The defined events on documents including:
+      1. close
+      2. data
+      3. end
+      4. readable
+      5. error
+    syntax:
+      content: 'function addListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.addListener_1
+    name: 'addListener("data", (chunk: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "data", listener: (chunk: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.addListener_2
+    name: 'addListener("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.addListener_4
+    name: 'addListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.addListener_3
+    name: 'addListener("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.addListener_5
+    name: 'addListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: string | symbol, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.cork
+    name: cork()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function cork()
+      parameters: []
+    package: tslib
+  - uid: tslib.crypto.Cipher.destroy
+    name: destroy(Error)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function destroy(error?: Error)'
+      parameters:
+        - id: error
+          type:
+            - tslib.AbortError.Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.crypto.Cipher.destroyed
+    name: destroyed
+    fullName: destroyed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'destroyed: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.emit
+    name: emit("close")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "close")'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.emit_1
+    name: 'emit("data", any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "data", chunk: any)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: chunk
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.emit_2
+    name: emit("end")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "end")'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.emit_4
+    name: 'emit("error", Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "error", err: Error)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: err
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.emit_3
+    name: emit("readable")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "readable")'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.emit_5
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.end_1
+    name: 'end(any, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(chunk: any, cb?: undefined | () => void)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: cb
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.crypto.Cipher.end_2
+    name: 'end(any, undefined | string, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function end(chunk: any, encoding?: undefined | string, cb?: undefined |
+        () => void)
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: cb
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.crypto.Cipher.end
+    name: end(undefined | () => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(cb?: undefined | () => void)'
+      parameters:
+        - id: cb
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.crypto.Cipher.eventNames
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.final
+    name: final()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function final()
+      parameters: []
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.final_1
+    name: final(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function final(output_encoding: string)'
+      parameters:
+        - id: output_encoding
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.from
+    name: 'from(Iterable<any> | AsyncIterable<any>, ReadableOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: A utility method for creating Readable Streams out of iterators.
+    syntax:
+      content: >-
+        static function from(iterable: Iterable<any> | AsyncIterable<any>,
+        options?: ReadableOptions)
+      parameters:
+        - id: iterable
+          type:
+            - Iterable<any> | AsyncIterable<any>
+          description: ''
+        - id: options
+          type:
+            - tslib.stream.internal.ReadableOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - tslib.stream.internal.Readable
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.getMaxListeners
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.isPaused
+    name: isPaused()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isPaused()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.listenerCount
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.listeners
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.off
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.on
+    name: 'on("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.on_1
+    name: 'on("data", (chunk: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "data", listener: (chunk: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.on_2
+    name: 'on("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.on_4
+    name: 'on("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.on_3
+    name: 'on("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.on_5
+    name: 'on(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.once
+    name: 'once("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.once_1
+    name: 'once("data", (chunk: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "data", listener: (chunk: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.once_2
+    name: 'once("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.once_4
+    name: 'once("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.once_3
+    name: 'once("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.once_5
+    name: 'once(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.pause
+    name: pause()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function pause()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.pipe
+    name: 'pipe(T, undefined | Object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pipe<T>(destination: T, options?: undefined | Object)'
+      parameters:
+        - id: destination
+          type:
+            - T
+          description: ''
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.prependListener
+    name: 'prependListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.prependListener_1
+    name: 'prependListener("data", (chunk: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "data", listener: (chunk: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.prependListener_2
+    name: 'prependListener("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.prependListener_4
+    name: 'prependListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.prependListener_3
+    name: 'prependListener("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.prependListener_5
+    name: 'prependListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.prependOnceListener
+    name: 'prependOnceListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.prependOnceListener_1
+    name: 'prependOnceListener("data", (chunk: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "data", listener: (chunk: any) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.prependOnceListener_2
+    name: 'prependOnceListener("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.prependOnceListener_4
+    name: 'prependOnceListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "error", listener: (err: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.prependOnceListener_3
+    name: 'prependOnceListener("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.prependOnceListener_5
+    name: 'prependOnceListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string | symbol, listener: (args:
+        any[]) => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.push
+    name: 'push(any, undefined | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function push(chunk: any, encoding?: undefined | string)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.rawListeners
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.read
+    name: read(undefined | number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function read(size?: undefined | number)'
+      parameters:
+        - id: size
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.readable
+    name: readable
+    fullName: readable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readable: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.readableHighWaterMark
+    name: readableHighWaterMark
+    fullName: readableHighWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readableHighWaterMark: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.readableLength
+    name: readableLength
+    fullName: readableLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readableLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.readableObjectMode
+    name: readableObjectMode
+    fullName: readableObjectMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readableObjectMode: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.removeAllListeners
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.removeListener
+    name: 'removeListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.removeListener_1
+    name: 'removeListener("data", (chunk: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "data", listener: (chunk: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.removeListener_2
+    name: 'removeListener("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.removeListener_4
+    name: 'removeListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.removeListener_3
+    name: 'removeListener("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.removeListener_5
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.resume
+    name: resume()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resume()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.setAutoPadding
+    name: setAutoPadding(undefined | false | true)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setAutoPadding(auto_padding?: undefined | false | true)'
+      parameters:
+        - id: auto_padding
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.setDefaultEncoding
+    name: setDefaultEncoding(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setDefaultEncoding(encoding: string)'
+      parameters:
+        - id: encoding
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.setEncoding
+    name: setEncoding(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setEncoding(encoding: string)'
+      parameters:
+        - id: encoding
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.setMaxListeners
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.uncork
+    name: uncork()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function uncork()
+      parameters: []
+    package: tslib
+  - uid: tslib.crypto.Cipher.unpipe
+    name: unpipe(NodeJS.WritableStream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unpipe(destination?: NodeJS.WritableStream)'
+      parameters:
+        - id: destination
+          type:
+            - tslib.NodeJS.WritableStream
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.unshift
+    name: 'unshift(any, BufferEncoding)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unshift(chunk: any, encoding?: BufferEncoding)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - tslib.BufferEncoding
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.crypto.Cipher.update
+    name: update(BinaryLike)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function update(data: BinaryLike)'
+      parameters:
+        - id: data
+          type:
+            - tslib.crypto.BinaryLike
+          description: ''
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.update_2
+    name: 'update(NodeJS.ArrayBufferView, undefined, HexBase64BinaryEncoding)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function update(data: NodeJS.ArrayBufferView, input_encoding: undefined,
+        output_encoding: HexBase64BinaryEncoding)
+      parameters:
+        - id: data
+          type:
+            - tslib.NodeJS.ArrayBufferView
+          description: ''
+        - id: input_encoding
+          type:
+            - undefined
+          description: ''
+        - id: output_encoding
+          type:
+            - tslib.crypto.HexBase64BinaryEncoding
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.update_3
+    name: >-
+      update(string, Utf8AsciiBinaryEncoding | undefined,
+      HexBase64BinaryEncoding)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function update(data: string, input_encoding: Utf8AsciiBinaryEncoding |
+        undefined, output_encoding: HexBase64BinaryEncoding)
+      parameters:
+        - id: data
+          type:
+            - string
+          description: ''
+        - id: input_encoding
+          type:
+            - tslib.crypto.Utf8AsciiBinaryEncoding | undefined
+          description: ''
+        - id: output_encoding
+          type:
+            - tslib.crypto.HexBase64BinaryEncoding
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.update_1
+    name: 'update(string, Utf8AsciiBinaryEncoding)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function update(data: string, input_encoding: Utf8AsciiBinaryEncoding)'
+      parameters:
+        - id: data
+          type:
+            - string
+          description: ''
+        - id: input_encoding
+          type:
+            - tslib.crypto.Utf8AsciiBinaryEncoding
+          description: ''
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.wrap
+    name: wrap(ReadableStream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function wrap(oldStream: ReadableStream)'
+      parameters:
+        - id: oldStream
+          type:
+            - tslib.NodeJS.ReadableStream
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.writable
+    name: writable
+    fullName: writable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writable: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.writableCorked
+    name: writableCorked
+    fullName: writableCorked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableCorked: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.writableEnded
+    name: writableEnded
+    fullName: writableEnded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableEnded: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.writableFinished
+    name: writableFinished
+    fullName: writableFinished
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableFinished: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.writableHighWaterMark
+    name: writableHighWaterMark
+    fullName: writableHighWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableHighWaterMark: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.writableLength
+    name: writableLength
+    fullName: writableLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.writableObjectMode
+    name: writableObjectMode
+    fullName: writableObjectMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableObjectMode: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.write_1
+    name: 'write(any, undefined | (error: Error | null | undefined) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function write(chunk: any, cb?: undefined | (error: Error | null |
+        undefined) => void)
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: cb
+          type:
+            - 'undefined | (error: Error | null | undefined) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.Cipher.write
+    name: >-
+      write(any, undefined | string, undefined | (error: Error | null |
+      undefined) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function write(chunk: any, encoding?: undefined | string, cb?: undefined
+        | (error: Error | null | undefined) => void)
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: cb
+          type:
+            - 'undefined | (error: Error | null | undefined) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.stream.internal.Transform
+    name: Transform
+    spec.typeScript:
+      - name: Transform
+        fullName: Transform
+        uid: tslib.stream.internal.Transform
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.crypto.BinaryLike
+    name: BinaryLike
+    spec.typeScript:
+      - name: BinaryLike
+        fullName: BinaryLike
+        uid: tslib.crypto.BinaryLike
+  - uid: tslib.crypto.Utf8AsciiBinaryEncoding
+    name: Utf8AsciiBinaryEncoding
+    spec.typeScript:
+      - name: Utf8AsciiBinaryEncoding
+        fullName: Utf8AsciiBinaryEncoding
+        uid: tslib.crypto.Utf8AsciiBinaryEncoding
+  - uid: tslib.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: tslib.NodeJS.ArrayBufferView
+  - uid: tslib.crypto.HexBase64BinaryEncoding
+    name: HexBase64BinaryEncoding
+    spec.typeScript:
+      - name: HexBase64BinaryEncoding
+        fullName: HexBase64BinaryEncoding
+        uid: tslib.crypto.HexBase64BinaryEncoding
+  - uid: tslib.crypto.Utf8AsciiBinaryEncoding | undefined
+    name: Utf8AsciiBinaryEncoding | undefined
+    spec.typeScript:
+      - name: Utf8AsciiBinaryEncoding
+        fullName: Utf8AsciiBinaryEncoding
+        uid: tslib.crypto.Utf8AsciiBinaryEncoding
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.stream.internal.ReadableOptions
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: tslib.stream.internal.ReadableOptions
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.crypto.HexBase64BinaryEncoding | undefined
+    name: HexBase64BinaryEncoding | undefined
+    spec.typeScript:
+      - name: HexBase64BinaryEncoding
+        fullName: HexBase64BinaryEncoding
+        uid: tslib.crypto.HexBase64BinaryEncoding
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: tslib.crypto.HexBase64Latin1Encoding
+    name: HexBase64Latin1Encoding
+    spec.typeScript:
+      - name: HexBase64Latin1Encoding
+        fullName: HexBase64Latin1Encoding
+        uid: tslib.crypto.HexBase64Latin1Encoding
+  - uid: tslib.crypto.ECDHKeyFormat
+    name: ECDHKeyFormat
+    spec.typeScript:
+      - name: ECDHKeyFormat
+        fullName: ECDHKeyFormat
+        uid: tslib.crypto.ECDHKeyFormat
+  - uid: tslib.crypto.Hash
+    name: Hash
+    spec.typeScript:
+      - name: Hash
+        fullName: Hash
+        uid: tslib.crypto.Hash
+  - uid: tslib.crypto.Utf8AsciiLatin1Encoding
+    name: Utf8AsciiLatin1Encoding
+    spec.typeScript:
+      - name: Utf8AsciiLatin1Encoding
+        fullName: Utf8AsciiLatin1Encoding
+        uid: tslib.crypto.Utf8AsciiLatin1Encoding
+  - uid: tslib.crypto.Hmac
+    name: Hmac
+    spec.typeScript:
+      - name: Hmac
+        fullName: Hmac
+        uid: tslib.crypto.Hmac
+  - uid: tslib.crypto.KeyType
+    name: KeyType
+    spec.typeScript:
+      - name: KeyType
+        fullName: KeyType
+        uid: tslib.crypto.KeyType
+  - uid: tslib.crypto.KeyObjectType
+    name: KeyObjectType
+    spec.typeScript:
+      - name: KeyObjectType
+        fullName: KeyObjectType
+        uid: tslib.crypto.KeyObjectType
+  - uid: tslib.crypto.KeyExportOptions<"pem">
+    name: KeyExportOptions<"pem">
+    spec.typeScript:
+      - name: KeyExportOptions
+        fullName: KeyExportOptions
+        uid: tslib.crypto.KeyExportOptions
+      - name: <"pem">
+        fullName: <"pem">
+  - uid: tslib.crypto.KeyExportOptions<"der">
+    name: KeyExportOptions<"der">
+    spec.typeScript:
+      - name: KeyExportOptions
+        fullName: KeyExportOptions
+        uid: tslib.crypto.KeyExportOptions
+      - name: <"der">
+        fullName: <"der">
+  - uid: tslib.stream.internal.Writable
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: tslib.stream.internal.Writable
+  - uid: tslib.crypto.SignPrivateKeyInput | tslib.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: SignPrivateKeyInput
+        fullName: SignPrivateKeyInput
+        uid: tslib.crypto.SignPrivateKeyInput
+      - name: ' | '
+        fullName: ' | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: tslib.crypto.KeyLike
+  - uid: tslib.crypto.Signer
+    name: Signer
+    spec.typeScript:
+      - name: Signer
+        fullName: Signer
+        uid: tslib.crypto.Signer
+  - uid: tslib.crypto.Verify
+    name: Verify
+    spec.typeScript:
+      - name: Verify
+        fullName: Verify
+        uid: tslib.crypto.Verify
+  - uid: object | tslib.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: 'object | '
+        fullName: 'object | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: tslib.crypto.KeyLike
+  - uid: tslib.crypto.Cipher
+    name: Cipher
+    spec.typeScript:
+      - name: Cipher
+        fullName: Cipher
+        uid: tslib.crypto.Cipher
+  - uid: tslib.stream.internal.TransformOptions
+    name: TransformOptions
+    spec.typeScript:
+      - name: TransformOptions
+        fullName: TransformOptions
+        uid: tslib.stream.internal.TransformOptions
+  - uid: tslib.stream.internal.TransformCallback
+    name: TransformCallback
+    spec.typeScript:
+      - name: TransformCallback
+        fullName: TransformCallback
+        uid: tslib.stream.internal.TransformCallback
+  - uid: tslib.crypto.BasePrivateKeyEncodingOptions<PrivF> & Object
+    name: BasePrivateKeyEncodingOptions<PrivF> & Object
+    spec.typeScript:
+      - name: BasePrivateKeyEncodingOptions
+        fullName: BasePrivateKeyEncodingOptions
+        uid: tslib.crypto.BasePrivateKeyEncodingOptions
+      - name: <PrivF> & Object
+        fullName: <PrivF> & Object
+  - uid: tslib.crypto.Decipher
+    name: Decipher
+    spec.typeScript:
+      - name: Decipher
+        fullName: Decipher
+        uid: tslib.crypto.Decipher
+  - uid: tslib.crypto.KeyObject
+    name: KeyObject
+    spec.typeScript:
+      - name: KeyObject
+        fullName: KeyObject
+        uid: tslib.crypto.KeyObject
+  - uid: tslib.crypto.KeyFormat
+    name: KeyFormat
+    spec.typeScript:
+      - name: KeyFormat
+        fullName: KeyFormat
+        uid: tslib.crypto.KeyFormat
+  - uid: tslib.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: tslib.crypto.KeyLike
+  - uid: tslib.NodeJS.TypedArray
+    name: TypedArray
+    spec.typeScript:
+      - name: TypedArray
+        fullName: TypedArray
+        uid: tslib.NodeJS.TypedArray
+  - uid: tslib.crypto.PrivateKeyInput
+    name: PrivateKeyInput
+    spec.typeScript:
+      - name: PrivateKeyInput
+        fullName: PrivateKeyInput
+        uid: tslib.crypto.PrivateKeyInput
+  - uid: tslib.crypto.CipherCCMTypes
+    name: CipherCCMTypes
+    spec.typeScript:
+      - name: CipherCCMTypes
+        fullName: CipherCCMTypes
+        uid: tslib.crypto.CipherCCMTypes
+  - uid: tslib.crypto.CipherCCMOptions
+    name: CipherCCMOptions
+    spec.typeScript:
+      - name: CipherCCMOptions
+        fullName: CipherCCMOptions
+        uid: tslib.crypto.CipherCCMOptions
+  - uid: tslib.crypto.CipherCCM
+    name: CipherCCM
+    spec.typeScript:
+      - name: CipherCCM
+        fullName: CipherCCM
+        uid: tslib.crypto.CipherCCM
+  - uid: tslib.crypto.CipherGCMTypes
+    name: CipherGCMTypes
+    spec.typeScript:
+      - name: CipherGCMTypes
+        fullName: CipherGCMTypes
+        uid: tslib.crypto.CipherGCMTypes
+  - uid: tslib.crypto.CipherGCMOptions
+    name: CipherGCMOptions
+    spec.typeScript:
+      - name: CipherGCMOptions
+        fullName: CipherGCMOptions
+        uid: tslib.crypto.CipherGCMOptions
+  - uid: tslib.crypto.CipherGCM
+    name: CipherGCM
+    spec.typeScript:
+      - name: CipherGCM
+        fullName: CipherGCM
+        uid: tslib.crypto.CipherGCM
+  - uid: tslib.crypto.CipherKey
+    name: CipherKey
+    spec.typeScript:
+      - name: CipherKey
+        fullName: CipherKey
+        uid: tslib.crypto.CipherKey
+  - uid: tslib.crypto.BinaryLike | null
+    name: BinaryLike | null
+    spec.typeScript:
+      - name: BinaryLike
+        fullName: BinaryLike
+        uid: tslib.crypto.BinaryLike
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.crypto.DecipherCCM
+    name: DecipherCCM
+    spec.typeScript:
+      - name: DecipherCCM
+        fullName: DecipherCCM
+        uid: tslib.crypto.DecipherCCM
+  - uid: tslib.crypto.DecipherGCM
+    name: DecipherGCM
+    spec.typeScript:
+      - name: DecipherGCM
+        fullName: DecipherGCM
+        uid: tslib.crypto.DecipherGCM
+  - uid: number | tslib.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: 'number | '
+        fullName: 'number | '
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: tslib.NodeJS.ArrayBufferView
+  - uid: tslib.crypto.DiffieHellman
+    name: DiffieHellman
+    spec.typeScript:
+      - name: DiffieHellman
+        fullName: DiffieHellman
+        uid: tslib.crypto.DiffieHellman
+  - uid: tslib.crypto.ECDH
+    name: ECDH
+    spec.typeScript:
+      - name: ECDH
+        fullName: ECDH
+        uid: tslib.crypto.ECDH
+  - uid: tslib.crypto.HashOptions
+    name: HashOptions
+    spec.typeScript:
+      - name: HashOptions
+        fullName: HashOptions
+        uid: tslib.crypto.HashOptions
+  - uid: tslib.crypto.PrivateKeyInput | string | Buffer
+    name: PrivateKeyInput | string | Buffer
+    spec.typeScript:
+      - name: PrivateKeyInput
+        fullName: PrivateKeyInput
+        uid: tslib.crypto.PrivateKeyInput
+      - name: ' | string | Buffer'
+        fullName: ' | string | Buffer'
+  - uid: tslib.crypto.PublicKeyInput | string | Buffer | tslib.crypto.KeyObject
+    name: KeyObject
+    spec.typeScript:
+      - name: PublicKeyInput
+        fullName: PublicKeyInput
+        uid: tslib.crypto.PublicKeyInput
+      - name: ' | string | Buffer | '
+        fullName: ' | string | Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: tslib.crypto.KeyObject
+  - uid: 'tslib.crypto.RSAKeyPairOptions<"pem", "pem">'
+    name: 'RSAKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: tslib.crypto.RSAKeyPairOptions
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: 'tslib.crypto.KeyPairSyncResult<string, string>'
+    name: 'KeyPairSyncResult<string, string>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: tslib.crypto.KeyPairSyncResult
+      - name: '<string, string>'
+        fullName: '<string, string>'
+  - uid: 'tslib.crypto.RSAKeyPairOptions<"pem", "der">'
+    name: 'RSAKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: tslib.crypto.RSAKeyPairOptions
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: 'tslib.crypto.KeyPairSyncResult<string, Buffer>'
+    name: 'KeyPairSyncResult<string, Buffer>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: tslib.crypto.KeyPairSyncResult
+      - name: '<string, Buffer>'
+        fullName: '<string, Buffer>'
+  - uid: 'tslib.crypto.RSAKeyPairOptions<"der", "pem">'
+    name: 'RSAKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: tslib.crypto.RSAKeyPairOptions
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: 'tslib.crypto.KeyPairSyncResult<Buffer, string>'
+    name: 'KeyPairSyncResult<Buffer, string>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: tslib.crypto.KeyPairSyncResult
+      - name: '<Buffer, string>'
+        fullName: '<Buffer, string>'
+  - uid: 'tslib.crypto.RSAKeyPairOptions<"der", "der">'
+    name: 'RSAKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: tslib.crypto.RSAKeyPairOptions
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: 'tslib.crypto.KeyPairSyncResult<Buffer, Buffer>'
+    name: 'KeyPairSyncResult<Buffer, Buffer>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: tslib.crypto.KeyPairSyncResult
+      - name: '<Buffer, Buffer>'
+        fullName: '<Buffer, Buffer>'
+  - uid: tslib.crypto.RSAKeyPairKeyObjectOptions
+    name: RSAKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: RSAKeyPairKeyObjectOptions
+        fullName: RSAKeyPairKeyObjectOptions
+        uid: tslib.crypto.RSAKeyPairKeyObjectOptions
+  - uid: tslib.crypto.KeyPairKeyObjectResult
+    name: KeyPairKeyObjectResult
+    spec.typeScript:
+      - name: KeyPairKeyObjectResult
+        fullName: KeyPairKeyObjectResult
+        uid: tslib.crypto.KeyPairKeyObjectResult
+  - uid: 'tslib.crypto.DSAKeyPairOptions<"pem", "pem">'
+    name: 'DSAKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: tslib.crypto.DSAKeyPairOptions
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: 'tslib.crypto.DSAKeyPairOptions<"pem", "der">'
+    name: 'DSAKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: tslib.crypto.DSAKeyPairOptions
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: 'tslib.crypto.DSAKeyPairOptions<"der", "pem">'
+    name: 'DSAKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: tslib.crypto.DSAKeyPairOptions
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: 'tslib.crypto.DSAKeyPairOptions<"der", "der">'
+    name: 'DSAKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: tslib.crypto.DSAKeyPairOptions
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: tslib.crypto.DSAKeyPairKeyObjectOptions
+    name: DSAKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: DSAKeyPairKeyObjectOptions
+        fullName: DSAKeyPairKeyObjectOptions
+        uid: tslib.crypto.DSAKeyPairKeyObjectOptions
+  - uid: 'tslib.crypto.ECKeyPairOptions<"pem", "pem">'
+    name: 'ECKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: tslib.crypto.ECKeyPairOptions
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: 'tslib.crypto.ECKeyPairOptions<"pem", "der">'
+    name: 'ECKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: tslib.crypto.ECKeyPairOptions
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: 'tslib.crypto.ECKeyPairOptions<"der", "pem">'
+    name: 'ECKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: tslib.crypto.ECKeyPairOptions
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: 'tslib.crypto.ECKeyPairOptions<"der", "der">'
+    name: 'ECKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: tslib.crypto.ECKeyPairOptions
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: tslib.crypto.ECKeyPairKeyObjectOptions
+    name: ECKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: ECKeyPairKeyObjectOptions
+        fullName: ECKeyPairKeyObjectOptions
+        uid: tslib.crypto.ECKeyPairKeyObjectOptions
+  - uid: tslib.crypto.RsaPrivateKey | tslib.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: RsaPrivateKey
+        fullName: RsaPrivateKey
+        uid: tslib.crypto.RsaPrivateKey
+      - name: ' | '
+        fullName: ' | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: tslib.crypto.KeyLike
+  - uid: >-
+      tslib.crypto.RsaPublicKey | tslib.crypto.RsaPrivateKey |
+      tslib.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: RsaPublicKey
+        fullName: RsaPublicKey
+        uid: tslib.crypto.RsaPublicKey
+      - name: ' | '
+        fullName: ' | '
+      - name: RsaPrivateKey
+        fullName: RsaPrivateKey
+        uid: tslib.crypto.RsaPrivateKey
+      - name: ' | '
+        fullName: ' | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: tslib.crypto.KeyLike
+  - uid: tslib.crypto.ScryptOptions
+    name: ScryptOptions
+    spec.typeScript:
+      - name: ScryptOptions
+        fullName: ScryptOptions
+        uid: tslib.crypto.ScryptOptions
+  - uid: tslib.crypto.KeyLike | tslib.crypto.SignPrivateKeyInput
+    name: SignPrivateKeyInput
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: tslib.crypto.KeyLike
+      - name: ' | '
+        fullName: ' | '
+      - name: SignPrivateKeyInput
+        fullName: SignPrivateKeyInput
+        uid: tslib.crypto.SignPrivateKeyInput
+  - uid: tslib.crypto.KeyLike | tslib.crypto.VerifyKeyWithOptions
+    name: VerifyKeyWithOptions
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: tslib.crypto.KeyLike
+      - name: ' | '
+        fullName: ' | '
+      - name: VerifyKeyWithOptions
+        fullName: VerifyKeyWithOptions
+        uid: tslib.crypto.VerifyKeyWithOptions

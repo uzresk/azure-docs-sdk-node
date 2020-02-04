@@ -1,0 +1,219 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobBatchSubmitBatchOptionalParams'
+    name: BlobBatchSubmitBatchOptionalParams
+    fullName: BlobBatchSubmitBatchOptionalParams
+    children:
+      - '@azure/abort-controller.BlobBatchSubmitBatchOptionalParams.abortSignal'
+      - '@azure/abort-controller.BlobBatchSubmitBatchOptionalParams.customHeaders'
+      - >-
+        @azure/abort-controller.BlobBatchSubmitBatchOptionalParams.onDownloadProgress
+      - >-
+        @azure/abort-controller.BlobBatchSubmitBatchOptionalParams.onUploadProgress
+      - '@azure/abort-controller.BlobBatchSubmitBatchOptionalParams.requestId'
+      - '@azure/abort-controller.BlobBatchSubmitBatchOptionalParams.spanOptions'
+      - '@azure/abort-controller.BlobBatchSubmitBatchOptionalParams.timeout'
+      - >-
+        @azure/abort-controller.BlobBatchSubmitBatchOptionalParams.timeoutInSeconds
+      - >-
+        @azure/abort-controller.BlobBatchSubmitBatchOptionalParams.tracingOptions
+    langs:
+      - typeScript
+    type: interface
+    summary: Options to configure the Service - Submit Batch Optional Params.
+    extends:
+      name: '@azure/abort-controller.ServiceSubmitBatchOptionalParams'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBatchSubmitBatchOptionalParams.abortSignal'
+    name: abortSignal
+    fullName: abortSignal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    optional: true
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type:
+          - '@azure/abort-controller.AbortSignalLike'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBatchSubmitBatchOptionalParams.customHeaders'
+    name: customHeaders
+    fullName: customHeaders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      {object} [customHeaders] User defined custom request headers that
+      will be applied before the request is sent.
+    optional: true
+    syntax:
+      content: 'customHeaders?: undefined | [key: string]: string'
+      return:
+        type:
+          - 'undefined | [key: string]: string'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: >-
+      @azure/abort-controller.BlobBatchSubmitBatchOptionalParams.onDownloadProgress
+    name: onDownloadProgress
+    fullName: onDownloadProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback which fires upon download progress.
+    optional: true
+    syntax:
+      content: >-
+        onDownloadProgress?: undefined | (progress: TransferProgressEvent) =>
+        void
+      return:
+        type:
+          - 'undefined | (progress: TransferProgressEvent) => void'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: >-
+      @azure/abort-controller.BlobBatchSubmitBatchOptionalParams.onUploadProgress
+    name: onUploadProgress
+    fullName: onUploadProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback which fires upon upload progress.
+    optional: true
+    syntax:
+      content: 'onUploadProgress?: undefined | (progress: TransferProgressEvent) => void'
+      return:
+        type:
+          - 'undefined | (progress: TransferProgressEvent) => void'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBatchSubmitBatchOptionalParams.requestId'
+    name: requestId
+    fullName: requestId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Provides a client-generated, opaque value with a 1 KB character limit that
+      is recorded in the
+
+      analytics logs when storage analytics logging is enabled.
+    optional: true
+    syntax:
+      content: 'requestId?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBatchSubmitBatchOptionalParams.spanOptions'
+    name: spanOptions
+    fullName: spanOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options used to create a span when tracing is enabled.
+    optional: true
+    syntax:
+      content: 'spanOptions?: SpanOptions'
+      return:
+        type:
+          - '@azure/abort-controller.SpanOptions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBatchSubmitBatchOptionalParams.timeout'
+    name: timeout
+    fullName: timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The number of milliseconds a request can take before automatically being
+      terminated.
+    optional: true
+    syntax:
+      content: 'timeout?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: >-
+      @azure/abort-controller.BlobBatchSubmitBatchOptionalParams.timeoutInSeconds
+    name: timeoutInSeconds
+    fullName: timeoutInSeconds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The timeout parameter is expressed in seconds. For more information, see
+      <a
+
+      href="https://docs.microsoft.com/en-us/rest/api/storageservices/fileservices/setting-timeouts-for-blob-service-operations">Setting
+
+      Timeouts for Blob Service Operations.</a>
+    optional: true
+    syntax:
+      content: 'timeoutInSeconds?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBatchSubmitBatchOptionalParams.tracingOptions'
+    name: tracingOptions
+    fullName: tracingOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options to configure spans created when tracing is enabled.
+    optional: true
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type:
+          - '@azure/abort-controller.OperationTracingOptions'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.ServiceSubmitBatchOptionalParams'
+    name: ServiceSubmitBatchOptionalParams
+    spec.typeScript:
+      - name: ServiceSubmitBatchOptionalParams
+        fullName: ServiceSubmitBatchOptionalParams
+        uid: '@azure/abort-controller.ServiceSubmitBatchOptionalParams'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.SpanOptions'
+    name: SpanOptions
+    spec.typeScript:
+      - name: SpanOptions
+        fullName: SpanOptions
+        uid: '@azure/abort-controller.SpanOptions'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
+    name: OperationTracingOptions
+    spec.typeScript:
+      - name: OperationTracingOptions
+        fullName: OperationTracingOptions
+        uid: '@azure/abort-controller.OperationTracingOptions'

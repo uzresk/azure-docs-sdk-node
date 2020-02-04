@@ -1,0 +1,147 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.assert.internal.AssertionError'
+    name: AssertionError
+    fullName: AssertionError
+    children:
+      - '@azure/abort-controller.assert.internal.AssertionError.actual'
+      - '@azure/abort-controller.assert.internal.AssertionError.constructor'
+      - '@azure/abort-controller.assert.internal.AssertionError.code'
+      - '@azure/abort-controller.assert.internal.AssertionError.expected'
+      - '@azure/abort-controller.assert.internal.AssertionError.generatedMessage'
+      - '@azure/abort-controller.assert.internal.AssertionError.message'
+      - '@azure/abort-controller.assert.internal.AssertionError.name'
+      - '@azure/abort-controller.assert.internal.AssertionError.operator'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.assert.internal.AssertionError.actual'
+    name: actual
+    fullName: actual
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'actual: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.assert.internal.AssertionError.constructor'
+    name: AssertionError(Object)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new AssertionError(options?: Object)'
+      parameters:
+        - id: options
+          type:
+            - Object
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.assert.internal.AssertionError.code'
+    name: code
+    fullName: code
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'code: "ERR_ASSERTION"'
+      return:
+        type:
+          - '"ERR_ASSERTION"'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.assert.internal.AssertionError.expected'
+    name: expected
+    fullName: expected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'expected: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.assert.internal.AssertionError.generatedMessage'
+    name: generatedMessage
+    fullName: generatedMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'generatedMessage: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.assert.internal.AssertionError.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'message: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.assert.internal.AssertionError.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.assert.internal.AssertionError.operator'
+    name: operator
+    fullName: operator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'operator: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.assert.internal.AssertPredicate'
+    name: AssertPredicate
+    spec.typeScript:
+      - name: AssertPredicate
+        fullName: AssertPredicate
+        uid: '@azure/abort-controller.assert.internal.AssertPredicate'

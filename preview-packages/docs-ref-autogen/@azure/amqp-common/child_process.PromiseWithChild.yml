@@ -1,0 +1,687 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.child_process.PromiseWithChild'
+    name: PromiseWithChild
+    fullName: PromiseWithChild<T>
+    children:
+      - '@azure/ms-rest-azure-env.child_process.PromiseWithChild.catch'
+      - '@azure/ms-rest-azure-env.child_process.PromiseWithChild.child'
+      - '@azure/ms-rest-azure-env.child_process.PromiseWithChild.finally'
+      - '@azure/ms-rest-azure-env.child_process.PromiseWithChild.Promise'
+      - '@azure/ms-rest-azure-env.child_process.PromiseWithChild.then'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: Promise<T>
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.PromiseWithChild.catch'
+    name: 'catch((reason: any) => TResult | PromiseLike<TResult> | undefined | null)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Attaches a callback for only the rejection of the Promise.
+    syntax:
+      content: >-
+        function catch<TResult>(onrejected?: (reason: any) => TResult |
+        PromiseLike<TResult> | undefined | null)
+      parameters:
+        - id: onrejected
+          type:
+            - '(reason: any) => TResult | PromiseLike<TResult> | undefined | null'
+          description: The callback to execute when the Promise is rejected.
+          optional: true
+      return:
+        type:
+          - Promise<T | TResult>
+        description: A Promise for the completion of the callback.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.PromiseWithChild.child'
+    name: child
+    fullName: child
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'child: ChildProcess'
+      return:
+        type:
+          - ChildProcess
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.PromiseWithChild.finally'
+    name: finally(() => void | undefined | null)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Attaches a callback that is invoked when the Promise is settled (fulfilled
+      or rejected). The
+
+      resolved value cannot be modified from the callback.
+    syntax:
+      content: 'function finally(onfinally?: () => void | undefined | null)'
+      parameters:
+        - id: onfinally
+          type:
+            - () => void | undefined | null
+          description: >-
+            The callback to execute when the Promise is settled (fulfilled or
+            rejected).
+          optional: true
+      return:
+        type:
+          - Promise<T>
+        description: A Promise for the completion of the callback.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.PromiseWithChild.Promise'
+    name: Promise
+    fullName: Promise
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Promise: PromiseConstructor'
+      return:
+        type:
+          - PromiseConstructor
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.PromiseWithChild.then'
+    name: >-
+      then((value: T) => TResult1 | PromiseLike<TResult1> | undefined | null,
+      (reason: any) => TResult2 | PromiseLike<TResult2> | undefined | null)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Attaches callbacks for the resolution and/or rejection of the Promise.
+    syntax:
+      content: >-
+        function then<TResult1>(onfulfilled?: (value: T) => TResult1 |
+        PromiseLike<TResult1> | undefined | null, onrejected?: (reason: any) =>
+        TResult2 | PromiseLike<TResult2> | undefined | null)
+      parameters:
+        - id: onfulfilled
+          type:
+            - '(value: T) => TResult1 | PromiseLike<TResult1> | undefined | null'
+          description: The callback to execute when the Promise is resolved.
+          optional: true
+        - id: onrejected
+          type:
+            - >-
+              (reason: any) => TResult2 | PromiseLike<TResult2> | undefined |
+              null
+          description: The callback to execute when the Promise is rejected.
+          optional: true
+      return:
+        type:
+          - Promise<TResult1 | TResult2>
+        description: A Promise for the completion of which ever callback is executed.
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Pipe | null'
+    name: Pipe | null
+    spec.typeScript:
+      - name: Pipe
+        fullName: Pipe
+        uid: '@azure/ms-rest-azure-env.stream.internal.Pipe'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Readable | null'
+    name: Readable | null
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable | null'
+    name: Writable | null
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Signals'
+    name: Signals
+    spec.typeScript:
+      - name: Signals
+        fullName: Signals
+        uid: '@azure/ms-rest-azure-env.NodeJS.Signals'
+  - uid: '@azure/ms-rest-azure-env.child_process.Serializable'
+    name: Serializable
+    spec.typeScript:
+      - name: Serializable
+        fullName: Serializable
+        uid: '@azure/ms-rest-azure-env.child_process.Serializable'
+  - uid: '@azure/ms-rest-azure-env.child_process.SendHandle'
+    name: SendHandle
+    spec.typeScript:
+      - name: SendHandle
+        fullName: SendHandle
+        uid: '@azure/ms-rest-azure-env.child_process.SendHandle'
+  - uid: '@azure/ms-rest-azure-env.child_process.MessageOptions'
+    name: MessageOptions
+    spec.typeScript:
+      - name: MessageOptions
+        fullName: MessageOptions
+        uid: '@azure/ms-rest-azure-env.child_process.MessageOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+  - uid: '@azure/ms-rest-azure-env.child_process.ProcessEnvOptions'
+    name: ProcessEnvOptions
+    spec.typeScript:
+      - name: ProcessEnvOptions
+        fullName: ProcessEnvOptions
+        uid: '@azure/ms-rest-azure-env.child_process.ProcessEnvOptions'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ProcessEnv'
+    name: ProcessEnv
+    spec.typeScript:
+      - name: ProcessEnv
+        fullName: ProcessEnv
+        uid: '@azure/ms-rest-azure-env.NodeJS.ProcessEnv'
+  - uid: '@azure/ms-rest-azure-env.child_process.CommonOptions'
+    name: CommonOptions
+    spec.typeScript:
+      - name: CommonOptions
+        fullName: CommonOptions
+        uid: '@azure/ms-rest-azure-env.child_process.CommonOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.SerializationType'
+    name: SerializationType
+    spec.typeScript:
+      - name: SerializationType
+        fullName: SerializationType
+        uid: '@azure/ms-rest-azure-env.child_process.SerializationType'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioOptions'
+    name: StdioOptions
+    spec.typeScript:
+      - name: StdioOptions
+        fullName: StdioOptions
+        uid: '@azure/ms-rest-azure-env.child_process.StdioOptions'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+  - uid: string | @azure/ms-rest-azure-env.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/ms-rest-azure-env.NodeJS.ArrayBufferView'
+  - uid: '@azure/ms-rest-azure-env.child_process.CommonSpawnOptions'
+    name: CommonSpawnOptions
+    spec.typeScript:
+      - name: CommonSpawnOptions
+        fullName: CommonSpawnOptions
+        uid: '@azure/ms-rest-azure-env.child_process.CommonSpawnOptions'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ErrnoException.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.NodeJS.ErrnoException.Error'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.ExecFileSyncOptionsWithStringEncoding
+    name: ExecFileSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: ExecFileSyncOptionsWithStringEncoding
+        fullName: ExecFileSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.ExecFileSyncOptionsWithStringEncoding
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.ExecFileSyncOptionsWithBufferEncoding
+    name: ExecFileSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: ExecFileSyncOptionsWithBufferEncoding
+        fullName: ExecFileSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.ExecFileSyncOptionsWithBufferEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.ExecFileSyncOptions'
+    name: ExecFileSyncOptions
+    spec.typeScript:
+      - name: ExecFileSyncOptions
+        fullName: ExecFileSyncOptions
+        uid: '@azure/ms-rest-azure-env.child_process.ExecFileSyncOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.ExecSyncOptionsWithStringEncoding'
+    name: ExecSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: ExecSyncOptionsWithStringEncoding
+        fullName: ExecSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.ExecSyncOptionsWithStringEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.ExecSyncOptionsWithBufferEncoding'
+    name: ExecSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: ExecSyncOptionsWithBufferEncoding
+        fullName: ExecSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.ExecSyncOptionsWithBufferEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.ExecSyncOptions'
+    name: ExecSyncOptions
+    spec.typeScript:
+      - name: ExecSyncOptions
+        fullName: ExecSyncOptions
+        uid: '@azure/ms-rest-azure-env.child_process.ExecSyncOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.ForkOptions'
+    name: ForkOptions
+    spec.typeScript:
+      - name: ForkOptions
+        fullName: ForkOptions
+        uid: '@azure/ms-rest-azure-env.child_process.ForkOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.SpawnOptionsWithoutStdio'
+    name: SpawnOptionsWithoutStdio
+    spec.typeScript:
+      - name: SpawnOptionsWithoutStdio
+        fullName: SpawnOptionsWithoutStdio
+        uid: '@azure/ms-rest-azure-env.child_process.SpawnOptionsWithoutStdio'
+  - uid: '@azure/ms-rest-azure-env.child_process.ChildProcessWithoutNullStreams'
+    name: ChildProcessWithoutNullStreams
+    spec.typeScript:
+      - name: ChildProcessWithoutNullStreams
+        fullName: ChildProcessWithoutNullStreams
+        uid: '@azure/ms-rest-azure-env.child_process.ChildProcessWithoutNullStreams'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple<@azure/ms-rest-azure-env.child_process.StdioPipe,
+      @azure/ms-rest-azure-env.child_process.StdioPipe,
+      @azure/ms-rest-azure-env.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/ms-rest-azure-env.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/ms-rest-azure-env.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/ms-rest-azure-env.child_process.StdioPipe'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.ChildProcessByStdio<@azure/ms-rest-azure-env.stream.internal.Writable,
+      @azure/ms-rest-azure-env.stream.internal.Readable,
+      @azure/ms-rest-azure-env.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/ms-rest-azure-env.child_process.ChildProcessByStdio'
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple<@azure/ms-rest-azure-env.child_process.StdioPipe,
+      @azure/ms-rest-azure-env.child_process.StdioPipe,
+      @azure/ms-rest-azure-env.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/ms-rest-azure-env.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/ms-rest-azure-env.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/ms-rest-azure-env.child_process.StdioNull'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.ChildProcessByStdio<@azure/ms-rest-azure-env.stream.internal.Writable,
+      @azure/ms-rest-azure-env.stream.internal.Readable, null>
+    name: 'Readable, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/ms-rest-azure-env.child_process.ChildProcessByStdio'
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+      - name: ', null>'
+        fullName: ', null>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple<@azure/ms-rest-azure-env.child_process.StdioPipe,
+      @azure/ms-rest-azure-env.child_process.StdioNull,
+      @azure/ms-rest-azure-env.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/ms-rest-azure-env.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/ms-rest-azure-env.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/ms-rest-azure-env.child_process.StdioPipe'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.ChildProcessByStdio<@azure/ms-rest-azure-env.stream.internal.Writable,
+      null, @azure/ms-rest-azure-env.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/ms-rest-azure-env.child_process.ChildProcessByStdio'
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+      - name: ', null, '
+        fullName: ', null, '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple<@azure/ms-rest-azure-env.child_process.StdioNull,
+      @azure/ms-rest-azure-env.child_process.StdioPipe,
+      @azure/ms-rest-azure-env.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/ms-rest-azure-env.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/ms-rest-azure-env.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/ms-rest-azure-env.child_process.StdioPipe'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.ChildProcessByStdio<null,
+      @azure/ms-rest-azure-env.stream.internal.Readable,
+      @azure/ms-rest-azure-env.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/ms-rest-azure-env.child_process.ChildProcessByStdio'
+      - name: '<null, '
+        fullName: '<null, '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple<@azure/ms-rest-azure-env.child_process.StdioPipe,
+      @azure/ms-rest-azure-env.child_process.StdioNull,
+      @azure/ms-rest-azure-env.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/ms-rest-azure-env.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/ms-rest-azure-env.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/ms-rest-azure-env.child_process.StdioNull'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.ChildProcessByStdio<@azure/ms-rest-azure-env.stream.internal.Writable,
+      null, null>
+    name: 'Writable, null, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/ms-rest-azure-env.child_process.ChildProcessByStdio'
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+      - name: ', null, null>'
+        fullName: ', null, null>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple<@azure/ms-rest-azure-env.child_process.StdioNull,
+      @azure/ms-rest-azure-env.child_process.StdioPipe,
+      @azure/ms-rest-azure-env.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/ms-rest-azure-env.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/ms-rest-azure-env.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/ms-rest-azure-env.child_process.StdioNull'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.ChildProcessByStdio<null,
+      @azure/ms-rest-azure-env.stream.internal.Readable, null>
+    name: 'Readable, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/ms-rest-azure-env.child_process.ChildProcessByStdio'
+      - name: '<null, '
+        fullName: '<null, '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+      - name: ', null>'
+        fullName: ', null>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple<@azure/ms-rest-azure-env.child_process.StdioNull,
+      @azure/ms-rest-azure-env.child_process.StdioNull,
+      @azure/ms-rest-azure-env.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/ms-rest-azure-env.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/ms-rest-azure-env.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/ms-rest-azure-env.child_process.StdioPipe'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.ChildProcessByStdio<null, null,
+      @azure/ms-rest-azure-env.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/ms-rest-azure-env.child_process.ChildProcessByStdio'
+      - name: '<null, null, '
+        fullName: '<null, null, '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple<@azure/ms-rest-azure-env.child_process.StdioNull,
+      @azure/ms-rest-azure-env.child_process.StdioNull,
+      @azure/ms-rest-azure-env.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/ms-rest-azure-env.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/ms-rest-azure-env.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/ms-rest-azure-env.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/ms-rest-azure-env.child_process.StdioNull'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.ChildProcessByStdio<null, null,
+      null>
+    name: 'ChildProcessByStdio<null, null, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/ms-rest-azure-env.child_process.ChildProcessByStdio'
+      - name: '<null, null, null>'
+        fullName: '<null, null, null>'
+  - uid: '@azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithStringEncoding'
+    name: SpawnSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: SpawnSyncOptionsWithStringEncoding
+        fullName: SpawnSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithStringEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding'
+    name: SpawnSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: SpawnSyncOptionsWithBufferEncoding
+        fullName: SpawnSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.SpawnSyncOptions'
+    name: SpawnSyncOptions
+    spec.typeScript:
+      - name: SpawnSyncOptions
+        fullName: SpawnSyncOptions
+        uid: '@azure/ms-rest-azure-env.child_process.SpawnSyncOptions'

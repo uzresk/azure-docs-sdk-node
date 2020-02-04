@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.LabelKey
+    name: LabelKey
+    fullName: LabelKey
+    children:
+      - tslib.LabelKey.description
+      - tslib.LabelKey.key
+    langs:
+      - typeScript
+    type: interface
+    summary: Properties of a LabelKey associated with a MetricDescriptor.
+    package: tslib
+  - uid: tslib.LabelKey.description
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A human-readable description of what this label key represents.
+    syntax:
+      content: 'description: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.LabelKey.key
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The key for the label.
+    syntax:
+      content: 'key: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib

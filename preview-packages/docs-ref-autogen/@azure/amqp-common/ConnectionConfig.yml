@@ -1,27 +1,27 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.ConnectionConfig'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig'
     name: ConnectionConfig
     langs:
       - typeScript
     fullName: ConnectionConfig
     children:
-      - '@azure/amqp-common.ConnectionConfig.connectionString'
-      - '@azure/amqp-common.ConnectionConfig.create'
-      - '@azure/amqp-common.ConnectionConfig.endpoint'
-      - '@azure/amqp-common.ConnectionConfig.entityPath'
-      - '@azure/amqp-common.ConnectionConfig.host'
-      - '@azure/amqp-common.ConnectionConfig.sharedAccessKey'
-      - '@azure/amqp-common.ConnectionConfig.sharedAccessKeyName'
-      - '@azure/amqp-common.ConnectionConfig.validate'
-      - '@azure/amqp-common.ConnectionConfig.webSocket'
-      - '@azure/amqp-common.ConnectionConfig.webSocketConstructorOptions'
-      - '@azure/amqp-common.ConnectionConfig.webSocketEndpointPath'
+      - '@azure/ms-rest-azure-env.ConnectionConfig.connectionString'
+      - '@azure/ms-rest-azure-env.ConnectionConfig.create'
+      - '@azure/ms-rest-azure-env.ConnectionConfig.endpoint'
+      - '@azure/ms-rest-azure-env.ConnectionConfig.entityPath'
+      - '@azure/ms-rest-azure-env.ConnectionConfig.host'
+      - '@azure/ms-rest-azure-env.ConnectionConfig.sharedAccessKey'
+      - '@azure/ms-rest-azure-env.ConnectionConfig.sharedAccessKeyName'
+      - '@azure/ms-rest-azure-env.ConnectionConfig.validate'
+      - '@azure/ms-rest-azure-env.ConnectionConfig.webSocket'
+      - '@azure/ms-rest-azure-env.ConnectionConfig.webSocketConstructorOptions'
+      - '@azure/ms-rest-azure-env.ConnectionConfig.webSocketEndpointPath'
     type: module
     summary: Describes the ConnectionConfig module
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'
     module: ConnectionConfig
-  - uid: '@azure/amqp-common.ConnectionConfig.connectionString'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.connectionString'
     name: connectionString
     fullName: connectionString
     children: []
@@ -35,8 +35,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.ConnectionConfig.create'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.create'
     name: 'create(string, undefined | string)'
     children: []
     type: function
@@ -59,10 +59,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/amqp-common.ConnectionConfig'
+          - '@azure/ms-rest-azure-env.ConnectionConfig'
         description: ConnectionConfig
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.ConnectionConfig.endpoint'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.endpoint'
     name: endpoint
     fullName: endpoint
     children: []
@@ -78,8 +78,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.ConnectionConfig.entityPath'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.entityPath'
     name: entityPath
     fullName: entityPath
     children: []
@@ -98,8 +98,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.ConnectionConfig.host'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.host'
     name: host
     fullName: host
     children: []
@@ -113,8 +113,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.ConnectionConfig.sharedAccessKey'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.sharedAccessKey'
     name: sharedAccessKey
     fullName: sharedAccessKey
     children: []
@@ -128,8 +128,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.ConnectionConfig.sharedAccessKeyName'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.sharedAccessKeyName'
     name: sharedAccessKeyName
     fullName: sharedAccessKeyName
     children: []
@@ -143,8 +143,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.ConnectionConfig.validate'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.validate'
     name: 'validate(ConnectionConfig, ConnectionConfigOptions)'
     children: []
     type: function
@@ -158,15 +158,15 @@ items:
       parameters:
         - id: config
           type:
-            - '@azure/amqp-common.ConnectionConfig'
+            - '@azure/ms-rest-azure-env.ConnectionConfig'
           description: The connection config to be validated.
         - id: options
           type:
-            - '@azure/amqp-common.ConnectionConfigOptions'
+            - '@azure/ms-rest-azure-env.ConnectionConfigOptions'
           description: ''
           optional: true
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.ConnectionConfig.webSocket'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.webSocket'
     name: webSocket
     fullName: webSocket
     children: []
@@ -188,8 +188,8 @@ items:
         type:
           - WebSocketImpl
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.ConnectionConfig.webSocketConstructorOptions'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.webSocketConstructorOptions'
     name: webSocketConstructorOptions
     fullName: webSocketConstructorOptions
     children: []
@@ -206,8 +206,8 @@ items:
         type:
           - any
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.ConnectionConfig.webSocketEndpointPath'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.webSocketEndpointPath'
     name: webSocketEndpointPath
     fullName: webSocketEndpointPath
     children: []
@@ -226,39 +226,39 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'
 references:
-  - uid: '@azure/amqp-common.ConnectionConfig'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig'
     name: ConnectionConfig
     spec.typeScript:
       - name: ConnectionConfig
         fullName: ConnectionConfig
-        uid: '@azure/amqp-common.ConnectionConfig'
-  - uid: '@azure/amqp-common.ConnectionConfigOptions'
+        uid: '@azure/ms-rest-azure-env.ConnectionConfig'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfigOptions'
     name: ConnectionConfigOptions
     spec.typeScript:
       - name: ConnectionConfigOptions
         fullName: ConnectionConfigOptions
-        uid: '@azure/amqp-common.ConnectionConfigOptions'
-  - uid: '@azure/amqp-common.ConnectionConfig.connectionString'
+        uid: '@azure/ms-rest-azure-env.ConnectionConfigOptions'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.connectionString'
     name: connectionString
-  - uid: '@azure/amqp-common.ConnectionConfig.create'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.create'
     name: create
-  - uid: '@azure/amqp-common.ConnectionConfig.endpoint'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.endpoint'
     name: endpoint
-  - uid: '@azure/amqp-common.ConnectionConfig.entityPath'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.entityPath'
     name: entityPath
-  - uid: '@azure/amqp-common.ConnectionConfig.host'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.host'
     name: host
-  - uid: '@azure/amqp-common.ConnectionConfig.sharedAccessKey'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.sharedAccessKey'
     name: sharedAccessKey
-  - uid: '@azure/amqp-common.ConnectionConfig.sharedAccessKeyName'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.sharedAccessKeyName'
     name: sharedAccessKeyName
-  - uid: '@azure/amqp-common.ConnectionConfig.validate'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.validate'
     name: validate
-  - uid: '@azure/amqp-common.ConnectionConfig.webSocket'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.webSocket'
     name: webSocket
-  - uid: '@azure/amqp-common.ConnectionConfig.webSocketConstructorOptions'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.webSocketConstructorOptions'
     name: webSocketConstructorOptions
-  - uid: '@azure/amqp-common.ConnectionConfig.webSocketEndpointPath'
+  - uid: '@azure/ms-rest-azure-env.ConnectionConfig.webSocketEndpointPath'
     name: webSocketEndpointPath

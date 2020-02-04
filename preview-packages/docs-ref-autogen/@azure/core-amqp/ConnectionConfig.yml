@@ -1,27 +1,27 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.ConnectionConfig'
+  - uid: tslib.ConnectionConfig
     name: ConnectionConfig
     langs:
       - typeScript
     fullName: ConnectionConfig
     children:
-      - '@azure/core-amqp.ConnectionConfig.connectionString'
-      - '@azure/core-amqp.ConnectionConfig.create'
-      - '@azure/core-amqp.ConnectionConfig.endpoint'
-      - '@azure/core-amqp.ConnectionConfig.entityPath'
-      - '@azure/core-amqp.ConnectionConfig.host'
-      - '@azure/core-amqp.ConnectionConfig.sharedAccessKey'
-      - '@azure/core-amqp.ConnectionConfig.sharedAccessKeyName'
-      - '@azure/core-amqp.ConnectionConfig.validate'
-      - '@azure/core-amqp.ConnectionConfig.webSocket'
-      - '@azure/core-amqp.ConnectionConfig.webSocketConstructorOptions'
-      - '@azure/core-amqp.ConnectionConfig.webSocketEndpointPath'
+      - tslib.ConnectionConfig.connectionString
+      - tslib.ConnectionConfig.create
+      - tslib.ConnectionConfig.endpoint
+      - tslib.ConnectionConfig.entityPath
+      - tslib.ConnectionConfig.host
+      - tslib.ConnectionConfig.sharedAccessKey
+      - tslib.ConnectionConfig.sharedAccessKeyName
+      - tslib.ConnectionConfig.validate
+      - tslib.ConnectionConfig.webSocket
+      - tslib.ConnectionConfig.webSocketConstructorOptions
+      - tslib.ConnectionConfig.webSocketEndpointPath
     type: module
     summary: Describes the ConnectionConfig module
-    package: '@azure/core-amqp'
+    package: tslib
     module: ConnectionConfig
-  - uid: '@azure/core-amqp.ConnectionConfig.connectionString'
+  - uid: tslib.ConnectionConfig.connectionString
     name: connectionString
     fullName: connectionString
     children: []
@@ -35,8 +35,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionConfig.create'
+    package: tslib
+  - uid: tslib.ConnectionConfig.create
     name: 'create(string, undefined | string)'
     children: []
     type: function
@@ -59,10 +59,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/core-amqp.ConnectionConfig'
+          - tslib.ConnectionConfig
         description: ConnectionConfig
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionConfig.endpoint'
+    package: tslib
+  - uid: tslib.ConnectionConfig.endpoint
     name: endpoint
     fullName: endpoint
     children: []
@@ -78,8 +78,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionConfig.entityPath'
+    package: tslib
+  - uid: tslib.ConnectionConfig.entityPath
     name: entityPath
     fullName: entityPath
     children: []
@@ -98,8 +98,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionConfig.host'
+    package: tslib
+  - uid: tslib.ConnectionConfig.host
     name: host
     fullName: host
     children: []
@@ -113,8 +113,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionConfig.sharedAccessKey'
+    package: tslib
+  - uid: tslib.ConnectionConfig.sharedAccessKey
     name: sharedAccessKey
     fullName: sharedAccessKey
     children: []
@@ -128,8 +128,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionConfig.sharedAccessKeyName'
+    package: tslib
+  - uid: tslib.ConnectionConfig.sharedAccessKeyName
     name: sharedAccessKeyName
     fullName: sharedAccessKeyName
     children: []
@@ -143,8 +143,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionConfig.validate'
+    package: tslib
+  - uid: tslib.ConnectionConfig.validate
     name: 'validate(ConnectionConfig, ConnectionConfigOptions)'
     children: []
     type: function
@@ -158,15 +158,15 @@ items:
       parameters:
         - id: config
           type:
-            - '@azure/core-amqp.ConnectionConfig'
+            - tslib.ConnectionConfig
           description: The connection config to be validated.
         - id: options
           type:
-            - '@azure/core-amqp.ConnectionConfigOptions'
+            - tslib.ConnectionConfigOptions
           description: ''
           optional: true
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionConfig.webSocket'
+    package: tslib
+  - uid: tslib.ConnectionConfig.webSocket
     name: webSocket
     fullName: webSocket
     children: []
@@ -188,8 +188,8 @@ items:
         type:
           - WebSocketImpl
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionConfig.webSocketConstructorOptions'
+    package: tslib
+  - uid: tslib.ConnectionConfig.webSocketConstructorOptions
     name: webSocketConstructorOptions
     fullName: webSocketConstructorOptions
     children: []
@@ -206,8 +206,8 @@ items:
         type:
           - any
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionConfig.webSocketEndpointPath'
+    package: tslib
+  - uid: tslib.ConnectionConfig.webSocketEndpointPath
     name: webSocketEndpointPath
     fullName: webSocketEndpointPath
     children: []
@@ -226,39 +226,39 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/core-amqp'
+    package: tslib
 references:
-  - uid: '@azure/core-amqp.ConnectionConfig'
+  - uid: tslib.ConnectionConfig
     name: ConnectionConfig
     spec.typeScript:
       - name: ConnectionConfig
         fullName: ConnectionConfig
-        uid: '@azure/core-amqp.ConnectionConfig'
-  - uid: '@azure/core-amqp.ConnectionConfigOptions'
+        uid: tslib.ConnectionConfig
+  - uid: tslib.ConnectionConfigOptions
     name: ConnectionConfigOptions
     spec.typeScript:
       - name: ConnectionConfigOptions
         fullName: ConnectionConfigOptions
-        uid: '@azure/core-amqp.ConnectionConfigOptions'
-  - uid: '@azure/core-amqp.ConnectionConfig.connectionString'
+        uid: tslib.ConnectionConfigOptions
+  - uid: tslib.ConnectionConfig.connectionString
     name: connectionString
-  - uid: '@azure/core-amqp.ConnectionConfig.create'
+  - uid: tslib.ConnectionConfig.create
     name: create
-  - uid: '@azure/core-amqp.ConnectionConfig.endpoint'
+  - uid: tslib.ConnectionConfig.endpoint
     name: endpoint
-  - uid: '@azure/core-amqp.ConnectionConfig.entityPath'
+  - uid: tslib.ConnectionConfig.entityPath
     name: entityPath
-  - uid: '@azure/core-amqp.ConnectionConfig.host'
+  - uid: tslib.ConnectionConfig.host
     name: host
-  - uid: '@azure/core-amqp.ConnectionConfig.sharedAccessKey'
+  - uid: tslib.ConnectionConfig.sharedAccessKey
     name: sharedAccessKey
-  - uid: '@azure/core-amqp.ConnectionConfig.sharedAccessKeyName'
+  - uid: tslib.ConnectionConfig.sharedAccessKeyName
     name: sharedAccessKeyName
-  - uid: '@azure/core-amqp.ConnectionConfig.validate'
+  - uid: tslib.ConnectionConfig.validate
     name: validate
-  - uid: '@azure/core-amqp.ConnectionConfig.webSocket'
+  - uid: tslib.ConnectionConfig.webSocket
     name: webSocket
-  - uid: '@azure/core-amqp.ConnectionConfig.webSocketConstructorOptions'
+  - uid: tslib.ConnectionConfig.webSocketConstructorOptions
     name: webSocketConstructorOptions
-  - uid: '@azure/core-amqp.ConnectionConfig.webSocketEndpointPath'
+  - uid: tslib.ConnectionConfig.webSocketEndpointPath
     name: webSocketEndpointPath

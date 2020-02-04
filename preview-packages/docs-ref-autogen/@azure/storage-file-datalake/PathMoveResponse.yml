@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathMoveResponse'
+  - uid: '@azure/abort-controller.PathMoveResponse'
     name: PathMoveResponse
     fullName: PathMoveResponse
     children: []
@@ -10,4 +10,4 @@ items:
     summary: ''
     syntax:
       content: 'type PathMoveResponse = PathRemoveHeaders & { _response: Object }'
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

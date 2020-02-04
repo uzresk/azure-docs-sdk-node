@@ -1,0 +1,170 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.URLToken'
+    name: URLToken
+    fullName: URLToken
+    children:
+      - '@azure/ms-rest-azure-env.URLToken.host'
+      - '@azure/ms-rest-azure-env.URLToken.path'
+      - '@azure/ms-rest-azure-env.URLToken.port'
+      - '@azure/ms-rest-azure-env.URLToken.query'
+      - '@azure/ms-rest-azure-env.URLToken.scheme'
+      - '@azure/ms-rest-azure-env.URLToken.text'
+      - '@azure/ms-rest-azure-env.URLToken.type'
+      - '@azure/ms-rest-azure-env.URLToken.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URLToken.host'
+    name: host(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function host(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.URLToken'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URLToken.path'
+    name: path(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function path(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.URLToken'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URLToken.port'
+    name: port(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function port(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.URLToken'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URLToken.query'
+    name: query(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function query(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.URLToken'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URLToken.scheme'
+    name: scheme(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function scheme(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.URLToken'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URLToken.text'
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public text: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URLToken.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public type: URLTokenType'
+      return:
+        type:
+          - URLTokenType
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URLToken.constructor'
+    name: 'URLToken(string, URLTokenType)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new URLToken(text: string, type: URLTokenType)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+        - id: type
+          type:
+            - URLTokenType
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.URLToken'
+    name: URLToken
+    spec.typeScript:
+      - name: URLToken
+        fullName: URLToken
+        uid: '@azure/ms-rest-azure-env.URLToken'

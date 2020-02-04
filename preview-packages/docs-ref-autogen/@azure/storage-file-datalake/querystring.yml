@@ -1,0 +1,165 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.querystring'
+    name: querystring
+    langs:
+      - typeScript
+    fullName: querystring
+    children:
+      - '@azure/abort-controller.querystring.escape'
+      - '@azure/abort-controller.querystring.parse'
+      - '@azure/abort-controller.querystring.ParsedUrlQuery'
+      - '@azure/abort-controller.querystring.ParsedUrlQueryInput'
+      - '@azure/abort-controller.querystring.ParseOptions'
+      - '@azure/abort-controller.querystring.stringify'
+      - '@azure/abort-controller.querystring.StringifyOptions'
+      - '@azure/abort-controller.querystring.unescape'
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.querystring.escape'
+    name: escape(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function escape(str: string)'
+      parameters:
+        - id: str
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.querystring.parse'
+    name: 'parse(string, undefined | string, undefined | string, ParseOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parse(str: string, sep?: undefined | string, eq?: undefined |
+        string, options?: ParseOptions)
+      parameters:
+        - id: str
+          type:
+            - string
+          description: ''
+        - id: sep
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: eq
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.querystring.ParseOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.querystring.ParsedUrlQuery'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.querystring.stringify'
+    name: >-
+      stringify(ParsedUrlQueryInput, undefined | string, undefined | string,
+      StringifyOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function stringify(obj?: ParsedUrlQueryInput, sep?: undefined | string,
+        eq?: undefined | string, options?: StringifyOptions)
+      parameters:
+        - id: obj
+          type:
+            - '@azure/abort-controller.querystring.ParsedUrlQueryInput'
+          description: ''
+          optional: true
+        - id: sep
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: eq
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.querystring.StringifyOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.querystring.unescape'
+    name: unescape(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unescape(str: string)'
+      parameters:
+        - id: str
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.querystring.ParseOptions'
+    name: ParseOptions
+    spec.typeScript:
+      - name: ParseOptions
+        fullName: ParseOptions
+        uid: '@azure/abort-controller.querystring.ParseOptions'
+  - uid: '@azure/abort-controller.querystring.ParsedUrlQuery'
+    name: ParsedUrlQuery
+    spec.typeScript:
+      - name: ParsedUrlQuery
+        fullName: ParsedUrlQuery
+        uid: '@azure/abort-controller.querystring.ParsedUrlQuery'
+  - uid: '@azure/abort-controller.querystring.ParsedUrlQueryInput'
+    name: ParsedUrlQueryInput
+    spec.typeScript:
+      - name: ParsedUrlQueryInput
+        fullName: ParsedUrlQueryInput
+        uid: '@azure/abort-controller.querystring.ParsedUrlQueryInput'
+  - uid: '@azure/abort-controller.querystring.StringifyOptions'
+    name: StringifyOptions
+    spec.typeScript:
+      - name: StringifyOptions
+        fullName: StringifyOptions
+        uid: '@azure/abort-controller.querystring.StringifyOptions'
+  - uid: '@azure/abort-controller.querystring.escape'
+    name: escape
+  - uid: '@azure/abort-controller.querystring.parse'
+    name: parse
+  - uid: '@azure/abort-controller.querystring.stringify'
+    name: stringify
+  - uid: '@azure/abort-controller.querystring.unescape'
+    name: unescape

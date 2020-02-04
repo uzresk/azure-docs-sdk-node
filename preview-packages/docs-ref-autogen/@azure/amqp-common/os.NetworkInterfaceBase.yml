@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceBase'
+    name: NetworkInterfaceBase
+    fullName: NetworkInterfaceBase
+    children:
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceBase.address'
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceBase.cidr'
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceBase.internal'
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceBase.mac'
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceBase.netmask'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceBase.address'
+    name: address
+    fullName: address
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'address: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceBase.cidr'
+    name: cidr
+    fullName: cidr
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cidr: string | null'
+      return:
+        type:
+          - string | null
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceBase.internal'
+    name: internal
+    fullName: internal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'internal: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceBase.mac'
+    name: mac
+    fullName: mac
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mac: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceBase.netmask'
+    name: netmask
+    fullName: netmask
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'netmask: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Platform'
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: '@azure/ms-rest-azure-env.NodeJS.Platform'

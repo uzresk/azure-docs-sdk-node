@@ -1,0 +1,207 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.URNComponents'
+    name: URNComponents
+    fullName: URNComponents
+    children:
+      - '@azure/ms-rest-azure-env.URNComponents.error'
+      - '@azure/ms-rest-azure-env.URNComponents.fragment'
+      - '@azure/ms-rest-azure-env.URNComponents.host'
+      - '@azure/ms-rest-azure-env.URNComponents.nid'
+      - '@azure/ms-rest-azure-env.URNComponents.nss'
+      - '@azure/ms-rest-azure-env.URNComponents.path'
+      - '@azure/ms-rest-azure-env.URNComponents.port'
+      - '@azure/ms-rest-azure-env.URNComponents.query'
+      - '@azure/ms-rest-azure-env.URNComponents.reference'
+      - '@azure/ms-rest-azure-env.URNComponents.scheme'
+      - '@azure/ms-rest-azure-env.URNComponents.userinfo'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@azure/ms-rest-azure-env.URIComponents'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNComponents.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'error?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNComponents.fragment'
+    name: fragment
+    fullName: fragment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'fragment?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNComponents.host'
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'host?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNComponents.nid'
+    name: nid
+    fullName: nid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'nid?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNComponents.nss'
+    name: nss
+    fullName: nss
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'nss?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNComponents.path'
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'path?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNComponents.port'
+    name: port
+    fullName: port
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'port?: number | string'
+      return:
+        type:
+          - number | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNComponents.query'
+    name: query
+    fullName: query
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'query?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNComponents.reference'
+    name: reference
+    fullName: reference
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'reference?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNComponents.scheme'
+    name: scheme
+    fullName: scheme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'scheme?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URNComponents.userinfo'
+    name: userinfo
+    fullName: userinfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'userinfo?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.URIComponents'
+    name: URIComponents
+    spec.typeScript:
+      - name: URIComponents
+        fullName: URIComponents
+        uid: '@azure/ms-rest-azure-env.URIComponents'

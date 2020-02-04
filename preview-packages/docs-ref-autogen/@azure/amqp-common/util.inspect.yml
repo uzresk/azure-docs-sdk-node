@@ -1,0 +1,12 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.util.inspect'
+    name: inspect
+    langs:
+      - typeScript
+    fullName: inspect
+    children: []
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+references: []

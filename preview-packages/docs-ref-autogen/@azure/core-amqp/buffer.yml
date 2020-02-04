@@ -1,0 +1,2808 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.Buffer
+    name: Buffer
+    fullName: Buffer
+    children:
+      - tslib.Buffer.alloc
+      - tslib.Buffer.allocUnsafe
+      - tslib.Buffer.allocUnsafeSlow
+      - tslib.Buffer.buffer
+      - tslib.Buffer.constructor_4
+      - tslib.Buffer.constructor_3
+      - tslib.Buffer.constructor_5
+      - tslib.Buffer.constructor_1
+      - tslib.Buffer.constructor
+      - tslib.Buffer.constructor_2
+      - tslib.Buffer.byteLength
+      - tslib.Buffer.byteLength
+      - tslib.Buffer.byteOffset
+      - tslib.Buffer.BYTES_PER_ELEMENT
+      - tslib.Buffer.compare
+      - tslib.Buffer.compare
+      - tslib.Buffer.concat
+      - tslib.Buffer.copy
+      - tslib.Buffer.copyWithin
+      - tslib.Buffer.entries
+      - tslib.Buffer.equals
+      - tslib.Buffer.every
+      - tslib.Buffer.fill
+      - tslib.Buffer.filter
+      - tslib.Buffer.find
+      - tslib.Buffer.findIndex
+      - tslib.Buffer.forEach
+      - tslib.Buffer.from
+      - tslib.Buffer.from_1
+      - tslib.Buffer.from_2
+      - tslib.Buffer.from_3
+      - tslib.Buffer.includes
+      - tslib.Buffer.indexOf
+      - tslib.Buffer.isBuffer
+      - tslib.Buffer.isEncoding
+      - tslib.Buffer.join
+      - tslib.Buffer.keys
+      - tslib.Buffer.lastIndexOf
+      - tslib.Buffer.length
+      - tslib.Buffer.map
+      - tslib.Buffer.prototype
+      - tslib.Buffer.readDoubleBE
+      - tslib.Buffer.readDoubleLE
+      - tslib.Buffer.readFloatBE
+      - tslib.Buffer.readFloatLE
+      - tslib.Buffer.readInt16BE
+      - tslib.Buffer.readInt16LE
+      - tslib.Buffer.readInt32BE
+      - tslib.Buffer.readInt32LE
+      - tslib.Buffer.readInt8
+      - tslib.Buffer.readIntBE
+      - tslib.Buffer.readIntLE
+      - tslib.Buffer.readUInt16BE
+      - tslib.Buffer.readUInt16LE
+      - tslib.Buffer.readUInt32BE
+      - tslib.Buffer.readUInt32LE
+      - tslib.Buffer.readUInt8
+      - tslib.Buffer.readUIntBE
+      - tslib.Buffer.readUIntLE
+      - tslib.Buffer.reduce
+      - tslib.Buffer.reduce_1
+      - tslib.Buffer.reduce_2
+      - tslib.Buffer.reduceRight
+      - tslib.Buffer.reduceRight_1
+      - tslib.Buffer.reduceRight_2
+      - tslib.Buffer.reverse
+      - tslib.Buffer.set
+      - tslib.Buffer.slice
+      - tslib.Buffer.some
+      - tslib.Buffer.sort
+      - tslib.Buffer.subarray
+      - tslib.Buffer.swap16
+      - tslib.Buffer.swap32
+      - tslib.Buffer.swap64
+      - tslib.Buffer.toJSON
+      - tslib.Buffer.toLocaleString
+      - tslib.Buffer.toString
+      - tslib.Buffer.Uint8Array
+      - tslib.Buffer.values
+      - tslib.Buffer.write
+      - tslib.Buffer.writeDoubleBE
+      - tslib.Buffer.writeDoubleLE
+      - tslib.Buffer.writeFloatBE
+      - tslib.Buffer.writeFloatLE
+      - tslib.Buffer.writeInt16BE
+      - tslib.Buffer.writeInt16LE
+      - tslib.Buffer.writeInt32BE
+      - tslib.Buffer.writeInt32LE
+      - tslib.Buffer.writeInt8
+      - tslib.Buffer.writeIntBE
+      - tslib.Buffer.writeIntLE
+      - tslib.Buffer.writeUInt16BE
+      - tslib.Buffer.writeUInt16LE
+      - tslib.Buffer.writeUInt32BE
+      - tslib.Buffer.writeUInt32LE
+      - tslib.Buffer.writeUInt8
+      - tslib.Buffer.writeUIntBE
+      - tslib.Buffer.writeUIntLE
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: Uint8Array
+    package: tslib
+  - uid: tslib.Buffer.alloc
+    name: 'alloc(number, string | Buffer | number, undefined | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Allocates a new buffer of {size} octets.'
+    syntax:
+      content: >-
+        static function alloc(size: number, fill?: string | Buffer | number,
+        encoding?: undefined | string)
+      parameters:
+        - id: size
+          type:
+            - number
+          description: count of octets to allocate.
+        - id: fill
+          type:
+            - string | tslib.Buffer | number
+          description: |-
+            if specified, buffer will be initialized by calling buf.fill(fill).
+               If parameter is omitted, buffer will be filled with zeros.
+          optional: true
+        - id: encoding
+          type:
+            - undefined | string
+          description: |
+            encoding used for call to buf.fill while initalizing
+          optional: true
+      return:
+        type:
+          - tslib.Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.allocUnsafe
+    name: allocUnsafe(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Allocates a new buffer of {size} octets, leaving memory not initialized,
+      so the contents
+
+      of the newly created Buffer are unknown and may contain sensitive data.
+    syntax:
+      content: 'static function allocUnsafe(size: number)'
+      parameters:
+        - id: size
+          type:
+            - number
+          description: |
+            count of octets to allocate
+      return:
+        type:
+          - tslib.Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.allocUnsafeSlow
+    name: allocUnsafeSlow(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Allocates a new non-pooled buffer of {size} octets, leaving memory not
+      initialized, so the contents
+
+      of the newly created Buffer are unknown and may contain sensitive data.
+    syntax:
+      content: 'static function allocUnsafeSlow(size: number)'
+      parameters:
+        - id: size
+          type:
+            - number
+          description: |
+            count of octets to allocate
+      return:
+        type:
+          - tslib.Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.buffer
+    name: buffer
+    fullName: buffer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The ArrayBuffer instance referenced by the array.
+    syntax:
+      content: 'buffer: ArrayBufferLike'
+      return:
+        type:
+          - ArrayBufferLike
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.constructor_4
+    name: 'Buffer(any[])'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: 'Allocates a new buffer containing the given {array} of octets.'
+    syntax:
+      content: 'new Buffer(array: any[])'
+      parameters:
+        - id: array
+          type:
+            - 'any[]'
+          description: |
+            The octets to store.
+    package: tslib
+  - uid: tslib.Buffer.constructor_3
+    name: Buffer(ArrayBuffer)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: |-
+      Produces a Buffer backed by the same allocated memory as
+      the given {ArrayBuffer}.
+    syntax:
+      content: 'new Buffer(arrayBuffer: ArrayBuffer)'
+      parameters:
+        - id: arrayBuffer
+          type:
+            - ArrayBuffer
+          description: |
+            The ArrayBuffer with which to share memory.
+    package: tslib
+  - uid: tslib.Buffer.constructor_5
+    name: Buffer(Buffer)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: 'Copies the passed {buffer} data onto a new {Buffer} instance.'
+    syntax:
+      content: 'new Buffer(buffer: Buffer)'
+      parameters:
+        - id: buffer
+          type:
+            - tslib.Buffer
+          description: |
+            The buffer to copy.
+    package: tslib
+  - uid: tslib.Buffer.constructor_1
+    name: Buffer(number)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: 'Allocates a new buffer of {size} octets.'
+    syntax:
+      content: 'new Buffer(size: number)'
+      parameters:
+        - id: size
+          type:
+            - number
+          description: |
+            count of octets to allocate.
+    package: tslib
+  - uid: tslib.Buffer.constructor
+    name: 'Buffer(string, undefined | string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: 'Allocates a new buffer containing the given {str}.'
+    syntax:
+      content: 'new Buffer(str: string, encoding?: undefined | string)'
+      parameters:
+        - id: str
+          type:
+            - string
+          description: String to store in buffer.
+        - id: encoding
+          type:
+            - undefined | string
+          description: |
+            encoding to use, optional.  Default is 'utf8'
+          optional: true
+    package: tslib
+  - uid: tslib.Buffer.constructor_2
+    name: Buffer(Uint8Array)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: 'Allocates a new buffer containing the given {array} of octets.'
+    syntax:
+      content: 'new Buffer(array: Uint8Array)'
+      parameters:
+        - id: array
+          type:
+            - Uint8Array
+          description: |
+            The octets to store.
+    package: tslib
+  - uid: tslib.Buffer.byteLength
+    name: byteLength
+    fullName: byteLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The length in bytes of the array.
+    syntax:
+      content: 'byteLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.byteLength
+    name: 'byteLength(string, undefined | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Gives the actual byte length of a string. encoding defaults to 'utf8'.
+
+      This is not the same as String.prototype.length since that returns the
+      number of characters in a string.
+    syntax:
+      content: >-
+        static function byteLength(string: string, encoding?: undefined |
+        string)
+      parameters:
+        - id: string
+          type:
+            - string
+          description: string to test.
+        - id: encoding
+          type:
+            - undefined | string
+          description: |
+            encoding used to evaluate (defaults to 'utf8')
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.byteOffset
+    name: byteOffset
+    fullName: byteOffset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The offset in bytes of the array.
+    syntax:
+      content: 'byteOffset: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.BYTES_PER_ELEMENT
+    name: BYTES_PER_ELEMENT
+    fullName: BYTES_PER_ELEMENT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The size in bytes of each element in the array.
+    syntax:
+      content: 'BYTES_PER_ELEMENT: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.compare
+    name: 'compare(Buffer, Buffer)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: The same as buf1.compare(buf2).
+    syntax:
+      content: 'static function compare(buf1: Buffer, buf2: Buffer)'
+      parameters:
+        - id: buf1
+          type:
+            - tslib.Buffer
+          description: ''
+        - id: buf2
+          type:
+            - tslib.Buffer
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.compare
+    name: >-
+      compare(Buffer, undefined | number, undefined | number, undefined |
+      number, undefined | number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function compare(otherBuffer: Buffer, targetStart?: undefined | number,
+        targetEnd?: undefined | number, sourceStart?: undefined | number,
+        sourceEnd?: undefined | number)
+      parameters:
+        - id: otherBuffer
+          type:
+            - tslib.Buffer
+          description: ''
+        - id: targetStart
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: targetEnd
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: sourceStart
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: sourceEnd
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.concat
+    name: 'concat(Buffer[], undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Returns a buffer which is the result of concatenating all the buffers in
+      the list together.
+
+      If the list has no items, or if the totalLength is 0, then it returns a
+      zero-length buffer.
+
+      If the list has exactly one item, then the first item of the list is
+      returned.
+
+      If the list has more than one item, then a new Buffer is created.
+    syntax:
+      content: 'static function concat(list: Buffer[], totalLength?: undefined | number)'
+      parameters:
+        - id: list
+          type:
+            - 'tslib.Buffer[]'
+          description: An array of Buffer objects to concatenate
+        - id: totalLength
+          type:
+            - undefined | number
+          description: |
+            Total length of the buffers when concatenated.
+              If totalLength is not provided, it is read from the buffers in the list. However, this adds an additional loop to the function, so it is faster to provide the length explicitly.
+          optional: true
+      return:
+        type:
+          - tslib.Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.copy
+    name: 'copy(Buffer, undefined | number, undefined | number, undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function copy(targetBuffer: Buffer, targetStart?: undefined | number,
+        sourceStart?: undefined | number, sourceEnd?: undefined | number)
+      parameters:
+        - id: targetBuffer
+          type:
+            - tslib.Buffer
+          description: ''
+        - id: targetStart
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: sourceStart
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: sourceEnd
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.copyWithin
+    name: 'copyWithin(number, number, undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the this object after copying a section of the array identified by
+      start and end
+
+      to the same array starting at position target
+    syntax:
+      content: >-
+        function copyWithin(target: number, start: number, end?: undefined |
+        number)
+      parameters:
+        - id: target
+          type:
+            - number
+          description: >-
+            If target is negative, it is treated as length+target where length
+            is the
+
+            length of the array.
+        - id: start
+          type:
+            - number
+          description: >-
+            If start is negative, it is treated as length+start. If end is
+            negative, it
+
+            is treated as length+end.
+        - id: end
+          type:
+            - undefined | number
+          description: >
+            If not specified, length of the this object is used as its default
+            value.
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.entries
+    name: entries()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Returns an array of key, value pairs for every entry in the array'
+    syntax:
+      content: function entries()
+      parameters: []
+      return:
+        type:
+          - IterableIterator<Object>
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.equals
+    name: equals(Buffer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function equals(otherBuffer: Buffer)'
+      parameters:
+        - id: otherBuffer
+          type:
+            - tslib.Buffer
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.every
+    name: 'every((value: number, index: number, array: Uint8Array) => boolean, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Determines whether all the members of an array satisfy the specified test.
+    syntax:
+      content: >-
+        function every(callbackfn: (value: number, index: number, array:
+        Uint8Array) => boolean, thisArg?: any)
+      parameters:
+        - id: callbackfn
+          type:
+            - '(value: number, index: number, array: Uint8Array) => boolean'
+          description: >-
+            A function that accepts up to three arguments. The every method
+            calls
+
+            the callbackfn function for each element in array1 until the
+            callbackfn returns false,
+
+            or until the end of the array.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            An object to which the this keyword can refer in the callbackfn
+            function.
+
+            If thisArg is omitted, undefined is used as the this value.
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.fill
+    name: 'fill(any, undefined | number, undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function fill(value: any, offset?: undefined | number, end?: undefined |
+        number)
+      parameters:
+        - id: value
+          type:
+            - any
+          description: ''
+        - id: offset
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: end
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.filter
+    name: 'filter((value: number, index: number, array: Uint8Array) => any, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the elements of an array that meet the condition specified in a
+      callback function.
+    syntax:
+      content: >-
+        function filter(callbackfn: (value: number, index: number, array:
+        Uint8Array) => any, thisArg?: any)
+      parameters:
+        - id: callbackfn
+          type:
+            - '(value: number, index: number, array: Uint8Array) => any'
+          description: >-
+            A function that accepts up to three arguments. The filter method
+            calls
+
+            the callbackfn function one time for each element in the array.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            An object to which the this keyword can refer in the callbackfn
+            function.
+
+            If thisArg is omitted, undefined is used as the this value.
+          optional: true
+      return:
+        type:
+          - Uint8Array
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.find
+    name: 'find((value: number, index: number, obj: Uint8Array) => boolean, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the value of the first element in the array where predicate is
+      true, and undefined
+
+      otherwise.
+    syntax:
+      content: >-
+        function find(predicate: (value: number, index: number, obj: Uint8Array)
+        => boolean, thisArg?: any)
+      parameters:
+        - id: predicate
+          type:
+            - '(value: number, index: number, obj: Uint8Array) => boolean'
+          description: >-
+            find calls predicate once for each element of the array, in
+            ascending
+
+            order, until it finds one where predicate returns true. If such an
+            element is found, find
+
+            immediately returns that element value. Otherwise, find returns
+            undefined.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            If provided, it will be used as the this value for each invocation
+            of
+
+            predicate. If it is not provided, undefined is used instead.
+          optional: true
+      return:
+        type:
+          - number | undefined
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.findIndex
+    name: 'findIndex((value: number, index: number, obj: Uint8Array) => boolean, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the index of the first element in the array where predicate is
+      true, and -1
+
+      otherwise.
+    syntax:
+      content: >-
+        function findIndex(predicate: (value: number, index: number, obj:
+        Uint8Array) => boolean, thisArg?: any)
+      parameters:
+        - id: predicate
+          type:
+            - '(value: number, index: number, obj: Uint8Array) => boolean'
+          description: >-
+            find calls predicate once for each element of the array, in
+            ascending
+
+            order, until it finds one where predicate returns true. If such an
+            element is found,
+
+            findIndex immediately returns that element index. Otherwise,
+            findIndex returns -1.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            If provided, it will be used as the this value for each invocation
+            of
+
+            predicate. If it is not provided, undefined is used instead.
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.forEach
+    name: 'forEach((value: number, index: number, array: Uint8Array) => void, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Performs the specified action for each element in an array.
+    syntax:
+      content: >-
+        function forEach(callbackfn: (value: number, index: number, array:
+        Uint8Array) => void, thisArg?: any)
+      parameters:
+        - id: callbackfn
+          type:
+            - '(value: number, index: number, array: Uint8Array) => void'
+          description: |-
+            A function that accepts up to three arguments. forEach calls the
+            callbackfn function one time for each element in the array.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            An object to which the this keyword can refer in the callbackfn
+            function.
+
+            If thisArg is omitted, undefined is used as the this value.
+          optional: true
+    package: tslib
+  - uid: tslib.Buffer.from
+    name: 'from(any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Allocates a new Buffer using an {array} of octets.'
+    syntax:
+      content: 'static function from(array: any[])'
+      parameters:
+        - id: array
+          type:
+            - 'any[]'
+          description: |+
+
+      return:
+        type:
+          - tslib.Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.from_1
+    name: 'from(ArrayBuffer, undefined | number, undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      When passed a reference to the .buffer property of a TypedArray instance,
+
+      the newly created Buffer will share the same allocated memory as the
+      TypedArray.
+
+      The optional {byteOffset} and {length} arguments specify a memory range
+
+      within the {arrayBuffer} that will be shared by the Buffer.
+    syntax:
+      content: >-
+        static function from(arrayBuffer: ArrayBuffer, byteOffset?: undefined |
+        number, length?: undefined | number)
+      parameters:
+        - id: arrayBuffer
+          type:
+            - ArrayBuffer
+          description: The .buffer property of a TypedArray or a new ArrayBuffer()
+        - id: byteOffset
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: length
+          type:
+            - undefined | number
+          description: |+
+
+          optional: true
+      return:
+        type:
+          - tslib.Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.from_2
+    name: from(Buffer | Uint8Array)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Copies the passed {buffer} data onto a new Buffer instance.'
+    syntax:
+      content: 'static function from(buffer: Buffer | Uint8Array)'
+      parameters:
+        - id: buffer
+          type:
+            - tslib.Buffer | Uint8Array
+          description: |+
+
+      return:
+        type:
+          - tslib.Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.from_3
+    name: 'from(string, undefined | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Creates a new Buffer containing the given JavaScript string {str}.
+      If provided, the {encoding} parameter identifies the character encoding.
+      If not provided, {encoding} defaults to 'utf8'.
+    syntax:
+      content: 'static function from(str: string, encoding?: undefined | string)'
+      parameters:
+        - id: str
+          type:
+            - string
+          description: |+
+
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - tslib.Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.includes
+    name: 'includes(string | number | Buffer, undefined | number, undefined | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function includes(value: string | number | Buffer, byteOffset?:
+        undefined | number, encoding?: undefined | string)
+      parameters:
+        - id: value
+          type:
+            - string | number | tslib.Buffer
+          description: ''
+        - id: byteOffset
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.indexOf
+    name: 'indexOf(string | number | Buffer, undefined | number, undefined | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function indexOf(value: string | number | Buffer, byteOffset?: undefined
+        | number, encoding?: undefined | string)
+      parameters:
+        - id: value
+          type:
+            - string | number | tslib.Buffer
+          description: ''
+        - id: byteOffset
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.isBuffer
+    name: isBuffer(any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Returns true if {obj} is a Buffer'
+    syntax:
+      content: 'static function isBuffer(obj: any)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: |
+            object to test.
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.isEncoding
+    name: isEncoding(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns true if {encoding} is a valid encoding argument.
+
+      Valid string encodings in Node 0.12: 'ascii'|'utf8'|'utf16le'|'ucs2'(alias
+      of 'utf16le')|'base64'|'binary'(deprecated)|'hex'
+    syntax:
+      content: 'static function isEncoding(encoding: string)'
+      parameters:
+        - id: encoding
+          type:
+            - string
+          description: |
+            string to test.
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.join
+    name: join(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Adds all the elements of an array separated by the specified separator
+      string.
+    syntax:
+      content: 'function join(separator?: undefined | string)'
+      parameters:
+        - id: separator
+          type:
+            - undefined | string
+          description: >
+            A string used to separate one element of an array from the next in
+            the
+
+            resulting String. If omitted, the array elements are separated with
+            a comma.
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.keys
+    name: keys()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns an list of keys in the array
+    syntax:
+      content: function keys()
+      parameters: []
+      return:
+        type:
+          - IterableIterator<number>
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.lastIndexOf
+    name: >-
+      lastIndexOf(string | number | Buffer, undefined | number, undefined |
+      string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function lastIndexOf(value: string | number | Buffer, byteOffset?:
+        undefined | number, encoding?: undefined | string)
+      parameters:
+        - id: value
+          type:
+            - string | number | tslib.Buffer
+          description: ''
+        - id: byteOffset
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.length
+    name: length
+    fullName: length
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'length: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.map
+    name: 'map((value: number, index: number, array: Uint8Array) => number, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Calls a defined callback function on each element of an array, and returns
+      an array that
+
+      contains the results.
+    syntax:
+      content: >-
+        function map(callbackfn: (value: number, index: number, array:
+        Uint8Array) => number, thisArg?: any)
+      parameters:
+        - id: callbackfn
+          type:
+            - '(value: number, index: number, array: Uint8Array) => number'
+          description: >-
+            A function that accepts up to three arguments. The map method calls
+            the
+
+            callbackfn function one time for each element in the array.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            An object to which the this keyword can refer in the callbackfn
+            function.
+
+            If thisArg is omitted, undefined is used as the this value.
+          optional: true
+      return:
+        type:
+          - Uint8Array
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.prototype
+    name: prototype
+    fullName: prototype
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'prototype: Buffer'
+      return:
+        type:
+          - tslib.Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readDoubleBE
+    name: 'readDoubleBE(number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readDoubleBE(offset: number, noAssert?: undefined | false |
+        true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readDoubleLE
+    name: 'readDoubleLE(number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readDoubleLE(offset: number, noAssert?: undefined | false |
+        true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readFloatBE
+    name: 'readFloatBE(number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readFloatBE(offset: number, noAssert?: undefined | false |
+        true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readFloatLE
+    name: 'readFloatLE(number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readFloatLE(offset: number, noAssert?: undefined | false |
+        true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readInt16BE
+    name: 'readInt16BE(number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readInt16BE(offset: number, noAssert?: undefined | false |
+        true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readInt16LE
+    name: 'readInt16LE(number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readInt16LE(offset: number, noAssert?: undefined | false |
+        true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readInt32BE
+    name: 'readInt32BE(number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readInt32BE(offset: number, noAssert?: undefined | false |
+        true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readInt32LE
+    name: 'readInt32LE(number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readInt32LE(offset: number, noAssert?: undefined | false |
+        true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readInt8
+    name: 'readInt8(number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function readInt8(offset: number, noAssert?: undefined | false | true)'
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readIntBE
+    name: 'readIntBE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readIntBE(offset: number, byteLength: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: byteLength
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readIntLE
+    name: 'readIntLE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readIntLE(offset: number, byteLength: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: byteLength
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readUInt16BE
+    name: 'readUInt16BE(number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readUInt16BE(offset: number, noAssert?: undefined | false |
+        true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readUInt16LE
+    name: 'readUInt16LE(number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readUInt16LE(offset: number, noAssert?: undefined | false |
+        true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readUInt32BE
+    name: 'readUInt32BE(number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readUInt32BE(offset: number, noAssert?: undefined | false |
+        true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readUInt32LE
+    name: 'readUInt32LE(number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readUInt32LE(offset: number, noAssert?: undefined | false |
+        true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readUInt8
+    name: 'readUInt8(number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function readUInt8(offset: number, noAssert?: undefined | false | true)'
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readUIntBE
+    name: 'readUIntBE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readUIntBE(offset: number, byteLength: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: byteLength
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.readUIntLE
+    name: 'readUIntLE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function readUIntLE(offset: number, byteLength: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: byteLength
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.reduce
+    name: >-
+      reduce((previousValue: number, currentValue: number, currentIndex: number,
+      array: Uint8Array) => number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Calls the specified callback function for all the elements in an array.
+      The return value of
+
+      the callback function is the accumulated result, and is provided as an
+      argument in the next
+
+      call to the callback function.
+    syntax:
+      content: >-
+        function reduce(callbackfn: (previousValue: number, currentValue:
+        number, currentIndex: number, array: Uint8Array) => number)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (previousValue: number, currentValue: number, currentIndex:
+              number, array: Uint8Array) => number
+          description: >-
+            A function that accepts up to four arguments. The reduce method
+            calls the
+
+            callbackfn function one time for each element in the array.
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.reduce_1
+    name: >-
+      reduce((previousValue: number, currentValue: number, currentIndex: number,
+      array: Uint8Array) => number, number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function reduce(callbackfn: (previousValue: number, currentValue:
+        number, currentIndex: number, array: Uint8Array) => number,
+        initialValue: number)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (previousValue: number, currentValue: number, currentIndex:
+              number, array: Uint8Array) => number
+          description: ''
+        - id: initialValue
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.reduce_2
+    name: >-
+      reduce((previousValue: U, currentValue: number, currentIndex: number,
+      array: Uint8Array) => U, U)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Calls the specified callback function for all the elements in an array.
+      The return value of
+
+      the callback function is the accumulated result, and is provided as an
+      argument in the next
+
+      call to the callback function.
+    syntax:
+      content: >-
+        function reduce<U>(callbackfn: (previousValue: U, currentValue: number,
+        currentIndex: number, array: Uint8Array) => U, initialValue: U)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (previousValue: U, currentValue: number, currentIndex: number,
+              array: Uint8Array) => U
+          description: >-
+            A function that accepts up to four arguments. The reduce method
+            calls the
+
+            callbackfn function one time for each element in the array.
+        - id: initialValue
+          type:
+            - U
+          description: >
+            If initialValue is specified, it is used as the initial value to
+            start
+
+            the accumulation. The first call to the callbackfn function provides
+            this value as an argument
+
+            instead of an array value.
+      return:
+        type:
+          - U
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.reduceRight
+    name: >-
+      reduceRight((previousValue: number, currentValue: number, currentIndex:
+      number, array: Uint8Array) => number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Calls the specified callback function for all the elements in an array, in
+      descending order.
+
+      The return value of the callback function is the accumulated result, and
+      is provided as an
+
+      argument in the next call to the callback function.
+    syntax:
+      content: >-
+        function reduceRight(callbackfn: (previousValue: number, currentValue:
+        number, currentIndex: number, array: Uint8Array) => number)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (previousValue: number, currentValue: number, currentIndex:
+              number, array: Uint8Array) => number
+          description: >-
+            A function that accepts up to four arguments. The reduceRight method
+            calls
+
+            the callbackfn function one time for each element in the array.
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.reduceRight_1
+    name: >-
+      reduceRight((previousValue: number, currentValue: number, currentIndex:
+      number, array: Uint8Array) => number, number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function reduceRight(callbackfn: (previousValue: number, currentValue:
+        number, currentIndex: number, array: Uint8Array) => number,
+        initialValue: number)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (previousValue: number, currentValue: number, currentIndex:
+              number, array: Uint8Array) => number
+          description: ''
+        - id: initialValue
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.reduceRight_2
+    name: >-
+      reduceRight((previousValue: U, currentValue: number, currentIndex: number,
+      array: Uint8Array) => U, U)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Calls the specified callback function for all the elements in an array, in
+      descending order.
+
+      The return value of the callback function is the accumulated result, and
+      is provided as an
+
+      argument in the next call to the callback function.
+    syntax:
+      content: >-
+        function reduceRight<U>(callbackfn: (previousValue: U, currentValue:
+        number, currentIndex: number, array: Uint8Array) => U, initialValue: U)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (previousValue: U, currentValue: number, currentIndex: number,
+              array: Uint8Array) => U
+          description: >-
+            A function that accepts up to four arguments. The reduceRight method
+            calls
+
+            the callbackfn function one time for each element in the array.
+        - id: initialValue
+          type:
+            - U
+          description: >
+            If initialValue is specified, it is used as the initial value to
+            start
+
+            the accumulation. The first call to the callbackfn function provides
+            this value as an argument
+
+            instead of an array value.
+      return:
+        type:
+          - U
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.reverse
+    name: reverse()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function reverse()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.set
+    name: 'set(ArrayLike<number>, undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets a value or an array of values.
+    syntax:
+      content: 'function set(array: ArrayLike<number>, offset?: undefined | number)'
+      parameters:
+        - id: array
+          type:
+            - ArrayLike<number>
+          description: A typed or untyped array of values to set.
+        - id: offset
+          type:
+            - undefined | number
+          description: >
+            The index in the current array at which the values are to be
+            written.
+          optional: true
+    package: tslib
+  - uid: tslib.Buffer.slice
+    name: 'slice(undefined | number, undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function slice(start?: undefined | number, end?: undefined | number)'
+      parameters:
+        - id: start
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: end
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - tslib.Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.some
+    name: 'some((value: number, index: number, array: Uint8Array) => boolean, any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Determines whether the specified callback function returns true for any
+      element of an array.
+    syntax:
+      content: >-
+        function some(callbackfn: (value: number, index: number, array:
+        Uint8Array) => boolean, thisArg?: any)
+      parameters:
+        - id: callbackfn
+          type:
+            - '(value: number, index: number, array: Uint8Array) => boolean'
+          description: >-
+            A function that accepts up to three arguments. The some method calls
+            the
+
+            callbackfn function for each element in array1 until the callbackfn
+            returns true, or until
+
+            the end of the array.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            An object to which the this keyword can refer in the callbackfn
+            function.
+
+            If thisArg is omitted, undefined is used as the this value.
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.sort
+    name: 'sort(undefined | (a: number, b: number) => number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sorts an array.
+    syntax:
+      content: 'function sort(compareFn?: undefined | (a: number, b: number) => number)'
+      parameters:
+        - id: compareFn
+          type:
+            - 'undefined | (a: number, b: number) => number'
+          description: >
+            The name of the function used to determine the order of the
+            elements. If
+
+            omitted, the elements are sorted in ascending, ASCII character
+            order.
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.subarray
+    name: 'subarray(number, undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Gets a new Uint8Array view of the ArrayBuffer store for this array,
+      referencing the elements
+
+      at begin, inclusive, up to end, exclusive.
+    syntax:
+      content: 'function subarray(begin: number, end?: undefined | number)'
+      parameters:
+        - id: begin
+          type:
+            - number
+          description: The index of the beginning of the array.
+        - id: end
+          type:
+            - undefined | number
+          description: |
+            The index of the end of the array.
+          optional: true
+      return:
+        type:
+          - Uint8Array
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.swap16
+    name: swap16()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function swap16()
+      parameters: []
+      return:
+        type:
+          - tslib.Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.swap32
+    name: swap32()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function swap32()
+      parameters: []
+      return:
+        type:
+          - tslib.Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.swap64
+    name: swap64()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function swap64()
+      parameters: []
+      return:
+        type:
+          - tslib.Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.toJSON
+    name: toJSON()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toJSON()
+      parameters: []
+      return:
+        type:
+          - Object
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.toLocaleString
+    name: toLocaleString()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Converts a number to a string by using the current locale.
+    syntax:
+      content: function toLocaleString()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.toString
+    name: 'toString(undefined | string, undefined | number, undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function toString(encoding?: undefined | string, start?: undefined |
+        number, end?: undefined | number)
+      parameters:
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: start
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: end
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.Uint8Array
+    name: Uint8Array
+    fullName: Uint8Array
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static Uint8Array: Uint8ArrayConstructor'
+      return:
+        type:
+          - Uint8ArrayConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.values
+    name: values()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns an list of values in the array
+    syntax:
+      content: function values()
+      parameters: []
+      return:
+        type:
+          - IterableIterator<number>
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.write
+    name: 'write(string, undefined | number, undefined | number, undefined | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function write(string: string, offset?: undefined | number, length?:
+        undefined | number, encoding?: undefined | string)
+      parameters:
+        - id: string
+          type:
+            - string
+          description: ''
+        - id: offset
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: length
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeDoubleBE
+    name: 'writeDoubleBE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeDoubleBE(value: number, offset: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeDoubleLE
+    name: 'writeDoubleLE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeDoubleLE(value: number, offset: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeFloatBE
+    name: 'writeFloatBE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeFloatBE(value: number, offset: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeFloatLE
+    name: 'writeFloatLE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeFloatLE(value: number, offset: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeInt16BE
+    name: 'writeInt16BE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeInt16BE(value: number, offset: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeInt16LE
+    name: 'writeInt16LE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeInt16LE(value: number, offset: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeInt32BE
+    name: 'writeInt32BE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeInt32BE(value: number, offset: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeInt32LE
+    name: 'writeInt32LE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeInt32LE(value: number, offset: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeInt8
+    name: 'writeInt8(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeInt8(value: number, offset: number, noAssert?: undefined |
+        false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeIntBE
+    name: 'writeIntBE(number, number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeIntBE(value: number, offset: number, byteLength: number,
+        noAssert?: undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: byteLength
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeIntLE
+    name: 'writeIntLE(number, number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeIntLE(value: number, offset: number, byteLength: number,
+        noAssert?: undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: byteLength
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeUInt16BE
+    name: 'writeUInt16BE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeUInt16BE(value: number, offset: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeUInt16LE
+    name: 'writeUInt16LE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeUInt16LE(value: number, offset: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeUInt32BE
+    name: 'writeUInt32BE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeUInt32BE(value: number, offset: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeUInt32LE
+    name: 'writeUInt32LE(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeUInt32LE(value: number, offset: number, noAssert?:
+        undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeUInt8
+    name: 'writeUInt8(number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeUInt8(value: number, offset: number, noAssert?: undefined
+        | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeUIntBE
+    name: 'writeUIntBE(number, number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeUIntBE(value: number, offset: number, byteLength: number,
+        noAssert?: undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: byteLength
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.Buffer.writeUIntLE
+    name: 'writeUIntLE(number, number, number, undefined | false | true)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeUIntLE(value: number, offset: number, byteLength: number,
+        noAssert?: undefined | false | true)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: byteLength
+          type:
+            - number
+          description: ''
+        - id: noAssert
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.Buffer
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: tslib.Buffer
+  - uid: string | number | tslib.Buffer
+    name: Buffer
+    spec.typeScript:
+      - name: 'string | number | '
+        fullName: 'string | number | '
+      - name: Buffer
+        fullName: Buffer
+        uid: tslib.Buffer
+  - uid: string | tslib.Buffer | number
+    name: Buffer | number
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: Buffer
+        fullName: Buffer
+        uid: tslib.Buffer
+      - name: ' | number'
+        fullName: ' | number'
+  - uid: 'tslib.Buffer[]'
+    name: 'Buffer[]'
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: tslib.Buffer
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.Buffer | Uint8Array
+    name: Buffer | Uint8Array
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: tslib.Buffer
+      - name: ' | Uint8Array'
+        fullName: ' | Uint8Array'

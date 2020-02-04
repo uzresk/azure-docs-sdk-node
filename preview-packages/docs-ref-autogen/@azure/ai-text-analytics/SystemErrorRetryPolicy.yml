@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.systemErrorRetryPolicy'
+    name: 'systemErrorRetryPolicy(number, number, number, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function systemErrorRetryPolicy(retryCount?: number, retryInterval?:
+        number, minRetryInterval?: number, maxRetryInterval?: number)
+      parameters:
+        - id: retryCount
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: retryInterval
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: minRetryInterval
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: maxRetryInterval
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.RequestPolicyFactory'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.RequestPolicyFactory'
+    name: RequestPolicyFactory
+    spec.typeScript:
+      - name: RequestPolicyFactory
+        fullName: RequestPolicyFactory
+        uid: '@azure/abort-controller.RequestPolicyFactory'

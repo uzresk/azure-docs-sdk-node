@@ -1,0 +1,86 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.MeasureHandle'
+    name: MeasureHandle
+    fullName: MeasureHandle
+    children:
+      - '@opentelemetry/types.MeasureHandle.record'
+      - '@opentelemetry/types.MeasureHandle.record_1'
+      - '@opentelemetry/types.MeasureHandle.record_2'
+    langs:
+      - typeScript
+    type: interface
+    summary: Measure to report instantaneous measurement of a value.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.MeasureHandle.record'
+    name: record(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Records the given value to this measure.
+    syntax:
+      content: 'function record(value: number)'
+      parameters:
+        - id: value
+          type:
+            - number
+          description: the measurement to record.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.MeasureHandle.record_1'
+    name: 'record(number, DistributedContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function record(value: number, distContext: DistributedContext)'
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: distContext
+          type:
+            - '@opentelemetry/types.DistributedContext'
+          description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.MeasureHandle.record_2'
+    name: 'record(number, DistributedContext, SpanContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function record(value: number, distContext: DistributedContext,
+        spanContext: SpanContext)
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+        - id: distContext
+          type:
+            - '@opentelemetry/types.DistributedContext'
+          description: ''
+        - id: spanContext
+          type:
+            - '@opentelemetry/types.SpanContext'
+          description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.DistributedContext'
+    name: DistributedContext
+    spec.typeScript:
+      - name: DistributedContext
+        fullName: DistributedContext
+        uid: '@opentelemetry/types.DistributedContext'
+  - uid: '@opentelemetry/types.SpanContext'
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@opentelemetry/types.SpanContext'

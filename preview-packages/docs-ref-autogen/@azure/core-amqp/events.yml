@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.events
+    name: events
+    langs:
+      - typeScript
+    fullName: events
+    children:
+      - tslib.events.DOMEventTarget
+      - tslib.events.EventEmitterOptions
+      - tslib.events.NodeEventTarget
+    type: module
+    summary: ''
+    package: tslib
+references:
+  - uid: tslib.NodeJS.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.NodeJS.EventEmitter
+  - uid: tslib.events.EventEmitterOptions
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: tslib.events.EventEmitterOptions
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.events.NodeEventTarget
+    name: NodeEventTarget
+    spec.typeScript:
+      - name: NodeEventTarget
+        fullName: NodeEventTarget
+        uid: tslib.events.NodeEventTarget
+  - uid: tslib.events.DOMEventTarget
+    name: DOMEventTarget
+    spec.typeScript:
+      - name: DOMEventTarget
+        fullName: DOMEventTarget
+        uid: tslib.events.DOMEventTarget

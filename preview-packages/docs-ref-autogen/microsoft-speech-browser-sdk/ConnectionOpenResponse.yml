@@ -40,7 +40,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Reason: string'
+      content: string Reason
       return:
         type:
           - string
@@ -55,7 +55,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'StatusCode: number'
+      content: number StatusCode
       return:
         type:
           - number

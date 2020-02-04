@@ -1,0 +1,144 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.net.NetConnectOpts'
+    name: NetConnectOpts
+    fullName: NetConnectOpts
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type NetConnectOpts = TcpNetConnectOpts | IpcNetConnectOpts
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.net.AddressInfo | string | null'
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: '@azure/abort-controller.net.AddressInfo'
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: '@azure/abort-controller.net.Socket'
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/abort-controller.net.Socket'
+  - uid: '@azure/abort-controller.net.ListenOptions'
+    name: ListenOptions
+    spec.typeScript:
+      - name: ListenOptions
+        fullName: ListenOptions
+        uid: '@azure/abort-controller.net.ListenOptions'
+  - uid: '@azure/abort-controller.stream.internal.Duplex'
+    name: Duplex
+    spec.typeScript:
+      - name: Duplex
+        fullName: Duplex
+        uid: '@azure/abort-controller.stream.internal.Duplex'
+  - uid: '@azure/abort-controller.net.SocketConstructorOpts'
+    name: SocketConstructorOpts
+    spec.typeScript:
+      - name: SocketConstructorOpts
+        fullName: SocketConstructorOpts
+        uid: '@azure/abort-controller.net.SocketConstructorOpts'
+  - uid: '@azure/abort-controller.net.AddressInfo | string'
+    name: AddressInfo | string
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: '@azure/abort-controller.net.AddressInfo'
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: '@azure/abort-controller.net.SocketConnectOpts'
+    name: SocketConnectOpts
+    spec.typeScript:
+      - name: SocketConnectOpts
+        fullName: SocketConnectOpts
+        uid: '@azure/abort-controller.net.SocketConnectOpts'
+  - uid: '@azure/abort-controller.AbortError.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/abort-controller.AbortError.Error'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: '@azure/abort-controller.net.OnReadOpts'
+    name: OnReadOpts
+    spec.typeScript:
+      - name: OnReadOpts
+        fullName: OnReadOpts
+        uid: '@azure/abort-controller.net.OnReadOpts'
+  - uid: '@azure/abort-controller.net.IpcSocketConnectOpts'
+    name: IpcSocketConnectOpts
+    spec.typeScript:
+      - name: IpcSocketConnectOpts
+        fullName: IpcSocketConnectOpts
+        uid: '@azure/abort-controller.net.IpcSocketConnectOpts'
+  - uid: '@azure/abort-controller.net.ConnectOpts'
+    name: ConnectOpts
+    spec.typeScript:
+      - name: ConnectOpts
+        fullName: ConnectOpts
+        uid: '@azure/abort-controller.net.ConnectOpts'
+  - uid: '@azure/abort-controller.net.TcpSocketConnectOpts'
+    name: TcpSocketConnectOpts
+    spec.typeScript:
+      - name: TcpSocketConnectOpts
+        fullName: TcpSocketConnectOpts
+        uid: '@azure/abort-controller.net.TcpSocketConnectOpts'
+  - uid: '@azure/abort-controller.net.LookupFunction'
+    name: LookupFunction
+    spec.typeScript:
+      - name: LookupFunction
+        fullName: LookupFunction
+        uid: '@azure/abort-controller.net.LookupFunction'
+  - uid: '@azure/abort-controller.net.NetConnectOpts'
+    name: NetConnectOpts
+    spec.typeScript:
+      - name: NetConnectOpts
+        fullName: NetConnectOpts
+        uid: '@azure/abort-controller.net.NetConnectOpts'
+  - uid: '@azure/abort-controller.net.Server'
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: '@azure/abort-controller.net.Server'

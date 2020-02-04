@@ -1,0 +1,39 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.TagMetadata
+    name: TagMetadata
+    fullName: TagMetadata
+    children:
+      - tslib.TagMetadata.tagTtl
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      TagMetadata contains properties associated with a Tag.
+
+      Anytime a sender serializes a tag, sends it over the wire and receiver
+
+      deserializes the tag then the tag is considered to have travelled one hop.
+
+      There could be one or more proxy(ies) between sender and receiver. Proxies
+
+      are treated as transparent entities and they do not create additional
+      hops.
+    package: tslib
+  - uid: tslib.TagMetadata.tagTtl
+    name: tagTtl
+    fullName: tagTtl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      For now, only special values of TagTtl are supported. In future,
+      additional properties may be added to address specific situations.
+    syntax:
+      content: 'tagTtl: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib

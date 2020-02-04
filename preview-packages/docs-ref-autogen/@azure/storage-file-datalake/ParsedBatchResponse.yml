@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.ParsedBatchResponse'
+    name: ParsedBatchResponse
+    fullName: ParsedBatchResponse
+    children:
+      - '@azure/abort-controller.ParsedBatchResponse.subResponses'
+      - '@azure/abort-controller.ParsedBatchResponse.subResponsesFailedCount'
+      - '@azure/abort-controller.ParsedBatchResponse.subResponsesSucceededCount'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      The multipart/mixed response which contains the response for each
+      subrequest.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ParsedBatchResponse.subResponses'
+    name: subResponses
+    fullName: subResponses
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The parsed sub responses.
+    syntax:
+      content: 'subResponses: BatchSubResponse[]'
+      return:
+        type:
+          - '@azure/abort-controller.BatchSubResponse[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ParsedBatchResponse.subResponsesFailedCount'
+    name: subResponsesFailedCount
+    fullName: subResponsesFailedCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The failed executed sub responses' count;
+    syntax:
+      content: 'subResponsesFailedCount: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ParsedBatchResponse.subResponsesSucceededCount'
+    name: subResponsesSucceededCount
+    fullName: subResponsesSucceededCount
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The succeeded executed sub responses' count;
+    syntax:
+      content: 'subResponsesSucceededCount: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.BatchSubResponse[]'
+    name: 'BatchSubResponse[]'
+    spec.typeScript:
+      - name: BatchSubResponse
+        fullName: BatchSubResponse
+        uid: '@azure/abort-controller.BatchSubResponse'
+      - name: '[]'
+        fullName: '[]'

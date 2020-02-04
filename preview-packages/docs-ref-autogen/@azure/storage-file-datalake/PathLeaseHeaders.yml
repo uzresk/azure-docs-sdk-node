@@ -1,23 +1,23 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathLeaseHeaders'
+  - uid: '@azure/abort-controller.PathLeaseHeaders'
     name: PathLeaseHeaders
     fullName: PathLeaseHeaders
     children:
-      - '@azure/storage-file-datalake.PathLeaseHeaders.date'
-      - '@azure/storage-file-datalake.PathLeaseHeaders.errorCode'
-      - '@azure/storage-file-datalake.PathLeaseHeaders.eTag'
-      - '@azure/storage-file-datalake.PathLeaseHeaders.lastModified'
-      - '@azure/storage-file-datalake.PathLeaseHeaders.leaseId'
-      - '@azure/storage-file-datalake.PathLeaseHeaders.leaseTime'
-      - '@azure/storage-file-datalake.PathLeaseHeaders.requestId'
-      - '@azure/storage-file-datalake.PathLeaseHeaders.version'
+      - '@azure/abort-controller.PathLeaseHeaders.date'
+      - '@azure/abort-controller.PathLeaseHeaders.errorCode'
+      - '@azure/abort-controller.PathLeaseHeaders.eTag'
+      - '@azure/abort-controller.PathLeaseHeaders.lastModified'
+      - '@azure/abort-controller.PathLeaseHeaders.leaseId'
+      - '@azure/abort-controller.PathLeaseHeaders.leaseTime'
+      - '@azure/abort-controller.PathLeaseHeaders.requestId'
+      - '@azure/abort-controller.PathLeaseHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: Defines headers for Lease operation.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathLeaseHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathLeaseHeaders.date'
     name: date
     fullName: date
     children: []
@@ -34,10 +34,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathLeaseHeaders.errorCode'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathLeaseHeaders.errorCode'
     name: errorCode
     fullName: errorCode
     children: []
@@ -52,8 +52,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathLeaseHeaders.eTag'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathLeaseHeaders.eTag'
     name: eTag
     fullName: eTag
     children: []
@@ -68,8 +68,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathLeaseHeaders.lastModified'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathLeaseHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -86,10 +86,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathLeaseHeaders.leaseId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathLeaseHeaders.leaseId'
     name: leaseId
     fullName: leaseId
     children: []
@@ -104,8 +104,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathLeaseHeaders.leaseTime'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathLeaseHeaders.leaseTime'
     name: leaseTime
     fullName: leaseTime
     children: []
@@ -120,8 +120,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathLeaseHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathLeaseHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -138,8 +138,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathLeaseHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathLeaseHeaders.version'
     name: version
     fullName: version
     children: []
@@ -154,4 +154,11 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'

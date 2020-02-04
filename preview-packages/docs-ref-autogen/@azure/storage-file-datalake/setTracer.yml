@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.setTracer'
+    name: setTracer(Tracer)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: 'Sets the global tracer, enabling tracing for the Azure SDK.'
+    syntax:
+      content: 'function setTracer(tracer: Tracer)'
+      parameters:
+        - id: tracer
+          type:
+            - '@azure/abort-controller.Tracer'
+          description: |
+            An OpenTelemetry Tracer instance.
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Tracer'
+    name: Tracer
+    spec.typeScript:
+      - name: Tracer
+        fullName: Tracer
+        uid: '@azure/abort-controller.Tracer'

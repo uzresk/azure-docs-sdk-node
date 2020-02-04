@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.TraceParams
+    name: TraceParams
+    fullName: TraceParams
+    children:
+      - tslib.TraceParams.numberOfAnnontationEventsPerSpan
+      - tslib.TraceParams.numberOfAttributesPerSpan
+      - tslib.TraceParams.numberOfLinksPerSpan
+      - tslib.TraceParams.numberOfMessageEventsPerSpan
+    langs:
+      - typeScript
+    type: interface
+    summary: Global configuration of trace service
+    package: tslib
+  - uid: tslib.TraceParams.numberOfAnnontationEventsPerSpan
+    name: numberOfAnnontationEventsPerSpan
+    fullName: numberOfAnnontationEventsPerSpan
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      numberOfAnnontationEventsPerSpan is number of annotation events per
+      span
+    optional: true
+    syntax:
+      content: 'numberOfAnnontationEventsPerSpan?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.TraceParams.numberOfAttributesPerSpan
+    name: numberOfAttributesPerSpan
+    fullName: numberOfAttributesPerSpan
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: numberOfAttributesPerSpan is number of attributes per span
+    optional: true
+    syntax:
+      content: 'numberOfAttributesPerSpan?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.TraceParams.numberOfLinksPerSpan
+    name: numberOfLinksPerSpan
+    fullName: numberOfLinksPerSpan
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: numberOfLinksPerSpan is number of links per span
+    optional: true
+    syntax:
+      content: 'numberOfLinksPerSpan?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.TraceParams.numberOfMessageEventsPerSpan
+    name: numberOfMessageEventsPerSpan
+    fullName: numberOfMessageEventsPerSpan
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: numberOfMessageEventsPerSpan is number of message events per span
+    optional: true
+    syntax:
+      content: 'numberOfMessageEventsPerSpan?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib

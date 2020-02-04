@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.toBlobEndpointUrl'
+  - uid: '@azure/abort-controller.toBlobEndpointUrl'
     name: toBlobEndpointUrl(string)
     children: []
     type: function
@@ -40,4 +40,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

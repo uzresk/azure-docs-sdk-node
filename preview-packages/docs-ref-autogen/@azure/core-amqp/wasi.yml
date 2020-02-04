@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.wasi
+    name: wasi
+    langs:
+      - typeScript
+    fullName: wasi
+    children:
+      - tslib.wasi.WASI
+      - tslib.wasi.WASIOptions
+    type: module
+    summary: ''
+    package: tslib
+references:
+  - uid: tslib.wasi.WASIOptions
+    name: WASIOptions
+    spec.typeScript:
+      - name: WASIOptions
+        fullName: WASIOptions
+        uid: tslib.wasi.WASIOptions
+  - uid: tslib.wasi.WASI
+    name: WASI

@@ -1,0 +1,521 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.fs.BigIntStats
+    name: BigIntStats
+    fullName: BigIntStats
+    children:
+      - tslib.fs.BigIntStats.atime
+      - tslib.fs.BigIntStats.atimeMs
+      - tslib.fs.BigIntStats.atimeNs
+      - tslib.fs.BigIntStats.birthtime
+      - tslib.fs.BigIntStats.birthtimeMs
+      - tslib.fs.BigIntStats.birthtimeNs
+      - tslib.fs.BigIntStats.blksize
+      - tslib.fs.BigIntStats.blocks
+      - tslib.fs.BigIntStats.ctime
+      - tslib.fs.BigIntStats.ctimeMs
+      - tslib.fs.BigIntStats.ctimeNs
+      - tslib.fs.BigIntStats.dev
+      - tslib.fs.BigIntStats.gid
+      - tslib.fs.BigIntStats.ino
+      - tslib.fs.BigIntStats.isBlockDevice
+      - tslib.fs.BigIntStats.isCharacterDevice
+      - tslib.fs.BigIntStats.isDirectory
+      - tslib.fs.BigIntStats.isFIFO
+      - tslib.fs.BigIntStats.isFile
+      - tslib.fs.BigIntStats.isSocket
+      - tslib.fs.BigIntStats.isSymbolicLink
+      - tslib.fs.BigIntStats.mode
+      - tslib.fs.BigIntStats.mtime
+      - tslib.fs.BigIntStats.mtimeMs
+      - tslib.fs.BigIntStats.mtimeNs
+      - tslib.fs.BigIntStats.nlink
+      - tslib.fs.BigIntStats.rdev
+      - tslib.fs.BigIntStats.size
+      - tslib.fs.BigIntStats.uid
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: tslib.fs.StatsBase<BigInt>
+    package: tslib
+  - uid: tslib.fs.BigIntStats.atime
+    name: atime
+    fullName: atime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'atime: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.atimeMs
+    name: atimeMs
+    fullName: atimeMs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'atimeMs: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.atimeNs
+    name: atimeNs
+    fullName: atimeNs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'atimeNs: BigInt'
+      return:
+        type:
+          - BigInt
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.birthtime
+    name: birthtime
+    fullName: birthtime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'birthtime: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.birthtimeMs
+    name: birthtimeMs
+    fullName: birthtimeMs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'birthtimeMs: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.birthtimeNs
+    name: birthtimeNs
+    fullName: birthtimeNs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'birthtimeNs: BigInt'
+      return:
+        type:
+          - BigInt
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.blksize
+    name: blksize
+    fullName: blksize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'blksize: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.blocks
+    name: blocks
+    fullName: blocks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'blocks: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.ctime
+    name: ctime
+    fullName: ctime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ctime: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.ctimeMs
+    name: ctimeMs
+    fullName: ctimeMs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ctimeMs: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.ctimeNs
+    name: ctimeNs
+    fullName: ctimeNs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ctimeNs: BigInt'
+      return:
+        type:
+          - BigInt
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.dev
+    name: dev
+    fullName: dev
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'dev: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.gid
+    name: gid
+    fullName: gid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'gid: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.ino
+    name: ino
+    fullName: ino
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ino: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.isBlockDevice
+    name: isBlockDevice()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isBlockDevice()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.isCharacterDevice
+    name: isCharacterDevice()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isCharacterDevice()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.isDirectory
+    name: isDirectory()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDirectory()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.isFIFO
+    name: isFIFO()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isFIFO()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.isFile
+    name: isFile()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isFile()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.isSocket
+    name: isSocket()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isSocket()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.isSymbolicLink
+    name: isSymbolicLink()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isSymbolicLink()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.mode
+    name: mode
+    fullName: mode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mode: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.mtime
+    name: mtime
+    fullName: mtime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mtime: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.mtimeMs
+    name: mtimeMs
+    fullName: mtimeMs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mtimeMs: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.mtimeNs
+    name: mtimeNs
+    fullName: mtimeNs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mtimeNs: BigInt'
+      return:
+        type:
+          - BigInt
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.nlink
+    name: nlink
+    fullName: nlink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'nlink: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.rdev
+    name: rdev
+    fullName: rdev
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'rdev: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.size
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.BigIntStats.uid
+    name: uid
+    fullName: uid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'uid: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.fs.StatsBase<BigInt>
+    name: StatsBase<BigInt>
+    spec.typeScript:
+      - name: StatsBase
+        fullName: StatsBase
+        uid: tslib.fs.StatsBase
+      - name: <BigInt>
+        fullName: <BigInt>
+  - uid: tslib.fs.PathLike
+    name: PathLike
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: tslib.fs.PathLike
+  - uid: tslib.fs.BigIntOptions
+    name: BigIntOptions
+    spec.typeScript:
+      - name: BigIntOptions
+        fullName: BigIntOptions
+        uid: tslib.fs.BigIntOptions
+  - uid: tslib.fs.BigIntStats
+    name: BigIntStats
+    spec.typeScript:
+      - name: BigIntStats
+        fullName: BigIntStats
+        uid: tslib.fs.BigIntStats
+  - uid: tslib.fs.StatOptions
+    name: StatOptions
+    spec.typeScript:
+      - name: StatOptions
+        fullName: StatOptions
+        uid: tslib.fs.StatOptions
+  - uid: tslib.fs.Stats | tslib.fs.BigIntStats
+    name: BigIntStats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: tslib.fs.Stats
+      - name: ' | '
+        fullName: ' | '
+      - name: BigIntStats
+        fullName: BigIntStats
+        uid: tslib.fs.BigIntStats

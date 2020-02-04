@@ -16,33 +16,29 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Stream.Close
-    name: Close
-    fullName: Close
+    name: Close()
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Close: () => void'
-      return:
-        type:
-          - () => void
-        description: ''
+      content: function Close()
+      parameters: []
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Stream.GetReader
-    name: GetReader
-    fullName: GetReader
+    name: GetReader()
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'GetReader: () => StreamReader<TBuffer>'
+      content: function GetReader()
+      parameters: []
       return:
         type:
-          - () => StreamReader<TBuffer>
+          - microsoft-speech-browser-sdk.StreamReader<TBuffer>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Stream.Id
@@ -54,7 +50,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Id: string'
+      content: string Id
       return:
         type:
           - string
@@ -69,7 +65,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'IsClosed: boolean'
+      content: boolean IsClosed
       return:
         type:
           - boolean
@@ -92,17 +88,26 @@ items:
           optional: true
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Stream.Write
-    name: Write
-    fullName: Write
+    name: Write(TBuffer)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Write: (buffer: TBuffer) => void'
-      return:
-        type:
-          - '(buffer: TBuffer) => void'
-        description: ''
+      content: 'function Write(buffer: TBuffer)'
+      parameters:
+        - id: buffer
+          type:
+            - TBuffer
+          description: ''
     package: microsoft-speech-browser-sdk
+references:
+  - uid: microsoft-speech-browser-sdk.StreamReader<TBuffer>
+    name: StreamReader<TBuffer>
+    spec.typeScript:
+      - name: StreamReader
+        fullName: StreamReader
+        uid: microsoft-speech-browser-sdk.StreamReader
+      - name: <TBuffer>
+        fullName: <TBuffer>

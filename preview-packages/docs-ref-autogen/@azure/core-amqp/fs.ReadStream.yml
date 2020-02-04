@@ -1,0 +1,1487 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.fs.ReadStream
+    name: ReadStream
+    fullName: ReadStream
+    children:
+      - tslib.fs.ReadStream.addListener_2
+      - tslib.fs.ReadStream.addListener_1
+      - tslib.fs.ReadStream.addListener
+      - tslib.fs.ReadStream.bytesRead
+      - tslib.fs.ReadStream.close
+      - tslib.fs.ReadStream.destroy
+      - tslib.fs.ReadStream.destroyed
+      - tslib.fs.ReadStream.emit
+      - tslib.fs.ReadStream.emit_1
+      - tslib.fs.ReadStream.emit_2
+      - tslib.fs.ReadStream.emit_4
+      - tslib.fs.ReadStream.emit_3
+      - tslib.fs.ReadStream.emit_5
+      - tslib.fs.ReadStream.eventNames
+      - tslib.fs.ReadStream.from
+      - tslib.fs.ReadStream.getMaxListeners
+      - tslib.fs.ReadStream.isPaused
+      - tslib.fs.ReadStream.listenerCount
+      - tslib.fs.ReadStream.listeners
+      - tslib.fs.ReadStream.off
+      - tslib.fs.ReadStream.on_2
+      - tslib.fs.ReadStream.on_1
+      - tslib.fs.ReadStream.on
+      - tslib.fs.ReadStream.once_2
+      - tslib.fs.ReadStream.once_1
+      - tslib.fs.ReadStream.once
+      - tslib.fs.ReadStream.path
+      - tslib.fs.ReadStream.pause
+      - tslib.fs.ReadStream.pipe
+      - tslib.fs.ReadStream.prependListener_2
+      - tslib.fs.ReadStream.prependListener_1
+      - tslib.fs.ReadStream.prependListener
+      - tslib.fs.ReadStream.prependOnceListener_2
+      - tslib.fs.ReadStream.prependOnceListener_1
+      - tslib.fs.ReadStream.prependOnceListener
+      - tslib.fs.ReadStream.push
+      - tslib.fs.ReadStream.rawListeners
+      - tslib.fs.ReadStream.read
+      - tslib.fs.ReadStream.readable
+      - tslib.fs.ReadStream.readableHighWaterMark
+      - tslib.fs.ReadStream.readableLength
+      - tslib.fs.ReadStream.readableObjectMode
+      - tslib.fs.ReadStream.constructor
+      - tslib.fs.ReadStream.removeAllListeners
+      - tslib.fs.ReadStream.removeListener
+      - tslib.fs.ReadStream.removeListener_1
+      - tslib.fs.ReadStream.removeListener_2
+      - tslib.fs.ReadStream.removeListener_4
+      - tslib.fs.ReadStream.removeListener_3
+      - tslib.fs.ReadStream.removeListener_5
+      - tslib.fs.ReadStream.resume
+      - tslib.fs.ReadStream.setEncoding
+      - tslib.fs.ReadStream.setMaxListeners
+      - tslib.fs.ReadStream.unpipe
+      - tslib.fs.ReadStream.unshift
+      - tslib.fs.ReadStream.wrap
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: tslib.stream.internal.Readable
+    package: tslib
+  - uid: tslib.fs.ReadStream.addListener_2
+    name: 'addListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.addListener_1
+    name: 'addListener("open", (fd: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "open", listener: (fd: number) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"open"'
+          description: ''
+        - id: listener
+          type:
+            - '(fd: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.addListener
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      events.EventEmitter
+        1. open
+        2. close
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.bytesRead
+    name: bytesRead
+    fullName: bytesRead
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bytesRead: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.close
+    name: close()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function close()
+      parameters: []
+    package: tslib
+  - uid: tslib.fs.ReadStream.destroy
+    name: destroy(Error)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function destroy(error?: Error)'
+      parameters:
+        - id: error
+          type:
+            - tslib.AbortError.Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.fs.ReadStream.destroyed
+    name: destroyed
+    fullName: destroyed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'destroyed: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.emit
+    name: emit("close")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "close")'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.emit_1
+    name: 'emit("data", any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "data", chunk: any)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: chunk
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.emit_2
+    name: emit("end")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "end")'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.emit_4
+    name: 'emit("error", Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "error", err: Error)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: err
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.emit_3
+    name: emit("readable")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "readable")'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.emit_5
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.eventNames
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.from
+    name: 'from(Iterable<any> | AsyncIterable<any>, ReadableOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: A utility method for creating Readable Streams out of iterators.
+    syntax:
+      content: >-
+        static function from(iterable: Iterable<any> | AsyncIterable<any>,
+        options?: ReadableOptions)
+      parameters:
+        - id: iterable
+          type:
+            - Iterable<any> | AsyncIterable<any>
+          description: ''
+        - id: options
+          type:
+            - tslib.stream.internal.ReadableOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - tslib.stream.internal.Readable
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.getMaxListeners
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.isPaused
+    name: isPaused()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isPaused()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.listenerCount
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.listeners
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.off
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.on_2
+    name: 'on("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.on_1
+    name: 'on("open", (fd: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "open", listener: (fd: number) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"open"'
+          description: ''
+        - id: listener
+          type:
+            - '(fd: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.on
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.once_2
+    name: 'once("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.once_1
+    name: 'once("open", (fd: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "open", listener: (fd: number) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"open"'
+          description: ''
+        - id: listener
+          type:
+            - '(fd: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.once
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.path
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'path: string | Buffer'
+      return:
+        type:
+          - string | Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.pause
+    name: pause()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function pause()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.pipe
+    name: 'pipe(T, undefined | Object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pipe<T>(destination: T, options?: undefined | Object)'
+      parameters:
+        - id: destination
+          type:
+            - T
+          description: ''
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.prependListener_2
+    name: 'prependListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.prependListener_1
+    name: 'prependListener("open", (fd: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "open", listener: (fd: number) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"open"'
+          description: ''
+        - id: listener
+          type:
+            - '(fd: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.prependListener
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.prependOnceListener_2
+    name: 'prependOnceListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.prependOnceListener_1
+    name: 'prependOnceListener("open", (fd: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "open", listener: (fd: number) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"open"'
+          description: ''
+        - id: listener
+          type:
+            - '(fd: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.prependOnceListener
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.push
+    name: 'push(any, undefined | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function push(chunk: any, encoding?: undefined | string)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.rawListeners
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.read
+    name: read(undefined | number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function read(size?: undefined | number)'
+      parameters:
+        - id: size
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.readable
+    name: readable
+    fullName: readable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readable: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.readableHighWaterMark
+    name: readableHighWaterMark
+    fullName: readableHighWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readableHighWaterMark: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.readableLength
+    name: readableLength
+    fullName: readableLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readableLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.readableObjectMode
+    name: readableObjectMode
+    fullName: readableObjectMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readableObjectMode: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.constructor
+    name: ReadStream(ReadableOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ReadStream(opts?: ReadableOptions)'
+      parameters:
+        - id: opts
+          type:
+            - tslib.stream.internal.ReadableOptions
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.fs.ReadStream.removeAllListeners
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.removeListener
+    name: 'removeListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.removeListener_1
+    name: 'removeListener("data", (chunk: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "data", listener: (chunk: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.removeListener_2
+    name: 'removeListener("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.removeListener_4
+    name: 'removeListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.removeListener_3
+    name: 'removeListener("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.removeListener_5
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.resume
+    name: resume()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resume()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.setEncoding
+    name: setEncoding(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setEncoding(encoding: string)'
+      parameters:
+        - id: encoding
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.setMaxListeners
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.unpipe
+    name: unpipe(NodeJS.WritableStream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unpipe(destination?: NodeJS.WritableStream)'
+      parameters:
+        - id: destination
+          type:
+            - tslib.NodeJS.WritableStream
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.fs.ReadStream.unshift
+    name: 'unshift(any, BufferEncoding)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unshift(chunk: any, encoding?: BufferEncoding)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - tslib.BufferEncoding
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.fs.ReadStream.wrap
+    name: wrap(ReadableStream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function wrap(oldStream: ReadableStream)'
+      parameters:
+        - id: oldStream
+          type:
+            - tslib.NodeJS.ReadableStream
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+references:
+  - uid: Object | tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: Promise<tslib.fs.Stats>
+    name: Stats>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Stats
+        fullName: Stats
+        uid: tslib.fs.Stats
+      - name: '>'
+        fullName: '>'
+  - uid: 'tslib.NodeJS.ArrayBufferView[]'
+    name: 'ArrayBufferView[]'
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: tslib.NodeJS.ArrayBufferView
+      - name: '[]'
+        fullName: '[]'
+  - uid: Promise<tslib.fs.WriteVResult>
+    name: WriteVResult>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: WriteVResult
+        fullName: WriteVResult
+        uid: tslib.fs.WriteVResult
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.fs.PathLike
+    name: PathLike
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: tslib.fs.PathLike
+  - uid: tslib.fs.PathLike | tslib.fs.promises.FileHandle
+    name: FileHandle
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: tslib.fs.PathLike
+      - name: ' | '
+        fullName: ' | '
+      - name: FileHandle
+        fullName: FileHandle
+        uid: tslib.fs.promises.FileHandle
+  - uid: tslib.fs.promises.FileHandle
+    name: FileHandle
+    spec.typeScript:
+      - name: FileHandle
+        fullName: FileHandle
+        uid: tslib.fs.promises.FileHandle
+  - uid: number | string | tslib.fs.MakeDirectoryOptions | null
+    name: MakeDirectoryOptions | null
+    spec.typeScript:
+      - name: 'number | string | '
+        fullName: 'number | string | '
+      - name: MakeDirectoryOptions
+        fullName: MakeDirectoryOptions
+        uid: tslib.fs.MakeDirectoryOptions
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: Object | tslib.BufferEncoding | null
+    name: BufferEncoding | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: Promise<tslib.fs.promises.FileHandle>
+    name: FileHandle>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: FileHandle
+        fullName: FileHandle
+        uid: tslib.fs.promises.FileHandle
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.fs.OpenDirOptions
+    name: OpenDirOptions
+    spec.typeScript:
+      - name: OpenDirOptions
+        fullName: OpenDirOptions
+        uid: tslib.fs.OpenDirOptions
+  - uid: Promise<tslib.fs.Dir>
+    name: Dir>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dir
+        fullName: Dir
+        uid: tslib.fs.Dir
+      - name: '>'
+        fullName: '>'
+  - uid: 'Promise<tslib.fs.Dirent[]>'
+    name: 'Dirent[]>'
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dirent
+        fullName: Dirent
+        uid: tslib.fs.Dirent
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: tslib.fs.RmDirAsyncOptions
+    name: RmDirAsyncOptions
+    spec.typeScript:
+      - name: RmDirAsyncOptions
+        fullName: RmDirAsyncOptions
+        uid: tslib.fs.RmDirAsyncOptions
+  - uid: Object | tslib.BufferEncoding | undefined | null
+    name: BufferEncoding | undefined | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+      - name: ' | undefined | null'
+        fullName: ' | undefined | null'
+  - uid: tslib.fs.NoParamCallback
+    name: NoParamCallback
+    spec.typeScript:
+      - name: NoParamCallback
+        fullName: NoParamCallback
+        uid: tslib.fs.NoParamCallback
+  - uid: Promise<tslib.fs.Dirent | null>
+    name: Dirent | null>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dirent
+        fullName: Dirent
+        uid: tslib.fs.Dirent
+      - name: ' | null>'
+        fullName: ' | null>'
+  - uid: tslib.fs.Dirent
+    name: Dirent
+    spec.typeScript:
+      - name: Dirent
+        fullName: Dirent
+        uid: tslib.fs.Dirent
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.stream.internal.ReadableOptions
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: tslib.stream.internal.ReadableOptions
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.fs.StatsBase<number>
+    name: StatsBase<number>
+    spec.typeScript:
+      - name: StatsBase
+        fullName: StatsBase
+        uid: tslib.fs.StatsBase
+      - name: <number>
+        fullName: <number>
+  - uid: tslib.stream.internal.Writable
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: tslib.stream.internal.Writable
+  - uid: tslib.stream.internal.WritableOptions
+    name: WritableOptions
+    spec.typeScript:
+      - name: WritableOptions
+        fullName: WritableOptions
+        uid: tslib.stream.internal.WritableOptions
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.events.EventEmitterOptions
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: tslib.events.EventEmitterOptions
+  - uid: tslib.fs.RmDirOptions
+    name: RmDirOptions
+    spec.typeScript:
+      - name: RmDirOptions
+        fullName: RmDirOptions
+        uid: tslib.fs.RmDirOptions
+  - uid: tslib.fs.PathLike | number
+    name: PathLike | number
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: tslib.fs.PathLike
+      - name: ' | number'
+        fullName: ' | number'
+  - uid: tslib.fs.WriteFileOptions
+    name: WriteFileOptions
+    spec.typeScript:
+      - name: WriteFileOptions
+        fullName: WriteFileOptions
+        uid: tslib.fs.WriteFileOptions
+  - uid: tslib.fs.ReadStream
+    name: ReadStream
+    spec.typeScript:
+      - name: ReadStream
+        fullName: ReadStream
+        uid: tslib.fs.ReadStream
+  - uid: tslib.fs.WriteStream
+    name: WriteStream
+    spec.typeScript:
+      - name: WriteStream
+        fullName: WriteStream
+        uid: tslib.fs.WriteStream
+  - uid: tslib.fs.Stats
+    name: Stats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: tslib.fs.Stats
+  - uid: tslib.fs.Dir
+    name: Dir
+    spec.typeScript:
+      - name: Dir
+        fullName: Dir
+        uid: tslib.fs.Dir
+  - uid: tslib.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: tslib.NodeJS.ArrayBufferView
+  - uid: 'tslib.fs.Dirent[]'
+    name: 'Dirent[]'
+    spec.typeScript:
+      - name: Dirent
+        fullName: Dirent
+        uid: tslib.fs.Dirent
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.fs.FSWatcher
+    name: FSWatcher
+    spec.typeScript:
+      - name: FSWatcher
+        fullName: FSWatcher
+        uid: tslib.fs.FSWatcher

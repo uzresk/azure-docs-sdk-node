@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.DocumentLanguage'
+    name: DocumentLanguage
+    fullName: DocumentLanguage
+    children:
+      - '@azure/abort-controller.DocumentLanguage.detectedLanguages'
+      - '@azure/abort-controller.DocumentLanguage.id'
+      - '@azure/abort-controller.DocumentLanguage.statistics'
+    langs:
+      - typeScript
+    type: interface
+    summary: An interface representing DocumentLanguage.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DocumentLanguage.detectedLanguages'
+    name: detectedLanguages
+    fullName: detectedLanguages
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A list of extracted languages.
+    syntax:
+      content: 'detectedLanguages: DetectedLanguage[]'
+      return:
+        type:
+          - '@azure/abort-controller.DetectedLanguage[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DocumentLanguage.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Unique, non-empty document identifier.'
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DocumentLanguage.statistics'
+    name: statistics
+    fullName: statistics
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      if showStats=true was specified in the request this field will contain
+      information about the
+
+      document payload.
+    optional: true
+    syntax:
+      content: 'statistics?: TextDocumentStatistics'
+      return:
+        type:
+          - '@azure/abort-controller.TextDocumentStatistics'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.DetectedLanguage[]'
+    name: 'DetectedLanguage[]'
+    spec.typeScript:
+      - name: DetectedLanguage
+        fullName: DetectedLanguage
+        uid: '@azure/abort-controller.DetectedLanguage'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.TextDocumentStatistics'
+    name: TextDocumentStatistics
+    spec.typeScript:
+      - name: TextDocumentStatistics
+        fullName: TextDocumentStatistics
+        uid: '@azure/abort-controller.TextDocumentStatistics'

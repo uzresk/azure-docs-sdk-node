@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.API_CODE'
+    name: API_CODE
+    fullName: API_CODE
+    children:
+      - '@azure/abort-controller.API_CODE.AcquireTokenRedirect'
+      - '@azure/abort-controller.API_CODE.AcquireTokenSilent'
+      - '@azure/abort-controller.API_CODE.AcquireTokenPopup'
+      - '@azure/abort-controller.API_CODE.LoginRedirect'
+      - '@azure/abort-controller.API_CODE.LoginPopup'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.API_CODE.AcquireTokenRedirect'
+    name: AcquireTokenRedirect
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2001
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.API_CODE.AcquireTokenSilent'
+    name: AcquireTokenSilent
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2002
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.API_CODE.AcquireTokenPopup'
+    name: AcquireTokenPopup
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2003
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.API_CODE.LoginRedirect'
+    name: LoginRedirect
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2004
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.API_CODE.LoginPopup'
+    name: LoginPopup
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2005
+    package: '@azure/abort-controller'

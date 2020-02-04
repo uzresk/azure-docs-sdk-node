@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.Method'
+    name: Method
+    fullName: Method
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type Method = "get" | "GET" | "delete" | "DELETE" | "head" | "HEAD" |
+        "options" | "OPTIONS" | "post" | "POST" | "put" | "PUT" | "patch" |
+        "PATCH" | "link" | "LINK" | "unlink" | "UNLINK"
+    package: '@azure/ms-rest-azure-env'

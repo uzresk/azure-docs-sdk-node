@@ -1,0 +1,60 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.HttpOverHttpsOptions'
+    name: HttpOverHttpsOptions
+    fullName: HttpOverHttpsOptions
+    children:
+      - '@azure/ms-rest-azure-env.HttpOverHttpsOptions.maxSockets'
+      - '@azure/ms-rest-azure-env.HttpOverHttpsOptions.proxy'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@azure/ms-rest-azure-env.HttpOptions'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.HttpOverHttpsOptions.maxSockets'
+    name: maxSockets
+    fullName: maxSockets
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxSockets?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.HttpOverHttpsOptions.proxy'
+    name: proxy
+    fullName: proxy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'proxy?: HttpsProxyOptions'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.HttpsProxyOptions'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.HttpOptions'
+    name: HttpOptions
+    spec.typeScript:
+      - name: HttpOptions
+        fullName: HttpOptions
+        uid: '@azure/ms-rest-azure-env.HttpOptions'
+  - uid: '@azure/ms-rest-azure-env.HttpsProxyOptions'
+    name: HttpsProxyOptions
+    spec.typeScript:
+      - name: HttpsProxyOptions
+        fullName: HttpsProxyOptions
+        uid: '@azure/ms-rest-azure-env.HttpsProxyOptions'

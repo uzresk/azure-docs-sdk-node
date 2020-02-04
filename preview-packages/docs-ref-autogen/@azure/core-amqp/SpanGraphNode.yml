@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.SpanGraphNode
+    name: SpanGraphNode
+    fullName: SpanGraphNode
+    children:
+      - tslib.SpanGraphNode.children
+      - tslib.SpanGraphNode.name
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Simple representation of a Span that only has name and child
+      relationships.
+
+      Children should be arranged in the order they were created.
+    package: tslib
+  - uid: tslib.SpanGraphNode.children
+    name: children
+    fullName: children
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: All child Spans of this Span
+    syntax:
+      content: 'children: SpanGraphNode[]'
+      return:
+        type:
+          - 'tslib.SpanGraphNode[]'
+        description: ''
+    package: tslib
+  - uid: tslib.SpanGraphNode.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The Span name
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+references:
+  - uid: 'tslib.SpanGraphNode[]'
+    name: 'SpanGraphNode[]'
+    spec.typeScript:
+      - name: SpanGraphNode
+        fullName: SpanGraphNode
+        uid: tslib.SpanGraphNode
+      - name: '[]'
+        fullName: '[]'

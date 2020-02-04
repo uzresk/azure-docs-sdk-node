@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobReleaseLeaseOptions'
+    name: BlobReleaseLeaseOptions
+    fullName: BlobReleaseLeaseOptions
+    children:
+      - '@azure/abort-controller.BlobReleaseLeaseOptions.abortSignal'
+      - '@azure/abort-controller.BlobReleaseLeaseOptions.conditions'
+      - '@azure/abort-controller.BlobReleaseLeaseOptions.tracingOptions'
+    langs:
+      - typeScript
+    type: interface
+    summary: Options to configure Blob - Release Lease operation.
+    extends:
+      name: '@azure/abort-controller.CommonOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobReleaseLeaseOptions.abortSignal'
+    name: abortSignal
+    fullName: abortSignal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    optional: true
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type:
+          - '@azure/abort-controller.AbortSignalLike'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobReleaseLeaseOptions.conditions'
+    name: conditions
+    fullName: conditions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Conditions to meet when releasing the lease of a blob.
+    optional: true
+    syntax:
+      content: 'conditions?: ModifiedAccessConditions'
+      return:
+        type:
+          - '@azure/abort-controller.ModifiedAccessConditions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobReleaseLeaseOptions.tracingOptions'
+    name: tracingOptions
+    fullName: tracingOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options to configure spans created when tracing is enabled.
+    optional: true
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type:
+          - '@azure/abort-controller.OperationTracingOptions'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.CommonOptions'
+    name: CommonOptions
+    spec.typeScript:
+      - name: CommonOptions
+        fullName: CommonOptions
+        uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.ModifiedAccessConditions'
+    name: ModifiedAccessConditions
+    spec.typeScript:
+      - name: ModifiedAccessConditions
+        fullName: ModifiedAccessConditions
+        uid: '@azure/abort-controller.ModifiedAccessConditions'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
+    name: OperationTracingOptions
+    spec.typeScript:
+      - name: OperationTracingOptions
+        fullName: OperationTracingOptions
+        uid: '@azure/abort-controller.OperationTracingOptions'

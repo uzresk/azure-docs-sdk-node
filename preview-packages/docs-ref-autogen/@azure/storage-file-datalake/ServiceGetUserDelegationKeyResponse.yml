@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.ServiceGetUserDelegationKeyResponse'
+  - uid: '@azure/abort-controller.ServiceGetUserDelegationKeyResponse'
     name: ServiceGetUserDelegationKeyResponse
     fullName: ServiceGetUserDelegationKeyResponse
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type ServiceGetUserDelegationKeyResponse = UserDelegationKey &
         ServiceGetUserDelegationKeyHeaders & { _response: Object }
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

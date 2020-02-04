@@ -1,0 +1,141 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.TagMap'
+    name: TagMap
+    fullName: TagMap
+    children:
+      - '@opentelemetry/types.TagMap.delete'
+      - '@opentelemetry/types.TagMap.set'
+      - '@opentelemetry/types.TagMap.tags'
+      - '@opentelemetry/types.TagMap.tagsWithMetadata'
+    langs:
+      - typeScript
+    type: class
+    summary: TagMap is maps of TagKey -> TagValueWithMetadata
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.TagMap.delete'
+    name: delete(TagKey)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Deletes a tag from the map if the key is in the map.
+    syntax:
+      content: 'function delete(tagKey: TagKey)'
+      parameters:
+        - id: tagKey
+          type:
+            - '@opentelemetry/types.TagKey'
+          description: |
+            The TagKey which will be removed.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.TagMap.set'
+    name: 'set(TagKey, TagValue, TagMetadata)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds the key/value pair regardless of whether the key is present.
+    syntax:
+      content: >-
+        function set(tagKey: TagKey, tagValue: TagValue, tagMetadata?:
+        TagMetadata)
+      parameters:
+        - id: tagKey
+          type:
+            - '@opentelemetry/types.TagKey'
+          description: The TagKey which will be set.
+        - id: tagValue
+          type:
+            - '@opentelemetry/types.TagValue'
+          description: The TagValue to set for the given key.
+        - id: tagMetadata
+          type:
+            - '@opentelemetry/types.TagMetadata'
+          description: |
+            The TagMetadata associated with this Tag.
+          optional: true
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.TagMap.tags'
+    name: tags
+    fullName: tags
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the tags map without metadata.
+    syntax:
+      content: 'tags: Map<TagKey, TagValue>'
+      return:
+        type:
+          - 'Map<@opentelemetry/types.TagKey, @opentelemetry/types.TagValue>'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.TagMap.tagsWithMetadata'
+    name: tagsWithMetadata
+    fullName: tagsWithMetadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the tags map with metadata.
+    syntax:
+      content: 'tagsWithMetadata: Map<TagKey, TagValueWithMetadata>'
+      return:
+        type:
+          - >-
+            Map<@opentelemetry/types.TagKey,
+            @opentelemetry/types.TagValueWithMetadata>
+        description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: 'Map<@opentelemetry/types.TagKey, @opentelemetry/types.TagValue>'
+    name: TagValue>
+    spec.typeScript:
+      - name: Map<
+        fullName: Map<
+      - name: TagKey
+        fullName: TagKey
+        uid: '@opentelemetry/types.TagKey'
+      - name: ', '
+        fullName: ', '
+      - name: TagValue
+        fullName: TagValue
+        uid: '@opentelemetry/types.TagValue'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      Map<@opentelemetry/types.TagKey,
+      @opentelemetry/types.TagValueWithMetadata>
+    name: TagValueWithMetadata>
+    spec.typeScript:
+      - name: Map<
+        fullName: Map<
+      - name: TagKey
+        fullName: TagKey
+        uid: '@opentelemetry/types.TagKey'
+      - name: ', '
+        fullName: ', '
+      - name: TagValueWithMetadata
+        fullName: TagValueWithMetadata
+        uid: '@opentelemetry/types.TagValueWithMetadata'
+      - name: '>'
+        fullName: '>'
+  - uid: '@opentelemetry/types.TagKey'
+    name: TagKey
+    spec.typeScript:
+      - name: TagKey
+        fullName: TagKey
+        uid: '@opentelemetry/types.TagKey'
+  - uid: '@opentelemetry/types.TagValue'
+    name: TagValue
+    spec.typeScript:
+      - name: TagValue
+        fullName: TagValue
+        uid: '@opentelemetry/types.TagValue'
+  - uid: '@opentelemetry/types.TagMetadata'
+    name: TagMetadata
+    spec.typeScript:
+      - name: TagMetadata
+        fullName: TagMetadata
+        uid: '@opentelemetry/types.TagMetadata'

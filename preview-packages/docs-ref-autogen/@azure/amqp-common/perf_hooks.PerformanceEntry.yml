@@ -1,0 +1,113 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceEntry'
+    name: PerformanceEntry
+    fullName: PerformanceEntry
+    children:
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceEntry.duration'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceEntry.entryType'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceEntry.kind'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceEntry.name'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceEntry.startTime'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceEntry.duration'
+    name: duration
+    fullName: duration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The total number of milliseconds elapsed for this entry.
+      This value will not be meaningful for all Performance Entry types.
+    syntax:
+      content: 'duration: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceEntry.entryType'
+    name: entryType
+    fullName: entryType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The type of the performance entry.
+
+      Currently it may be one of: 'node', 'mark', 'measure', 'gc', or
+      'function'.
+    syntax:
+      content: 'entryType: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceEntry.kind'
+    name: kind
+    fullName: kind
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      When performanceEntry.entryType is equal to 'gc', the performance.kind
+      property identifies
+
+      the type of garbage collection operation that occurred.
+
+      The value may be one of perf_hooks.constants.
+    optional: true
+    syntax:
+      content: 'kind?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceEntry.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the performance entry.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceEntry.startTime'
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The high resolution millisecond timestamp marking the starting time of the
+      Performance Entry.
+    syntax:
+      content: 'startTime: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserverCallback'
+    name: PerformanceObserverCallback
+    spec.typeScript:
+      - name: PerformanceObserverCallback
+        fullName: PerformanceObserverCallback
+        uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserverCallback'

@@ -1,0 +1,649 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.assert.internal
+    name: internal
+    langs:
+      - typeScript
+    fullName: internal
+    children:
+      - tslib.assert.internal.AssertionError
+      - tslib.assert.internal.AssertPredicate
+      - tslib.assert.internal.deepEqual
+      - tslib.assert.internal.deepStrictEqual
+      - tslib.assert.internal.doesNotMatch
+      - tslib.assert.internal.doesNotReject_1
+      - tslib.assert.internal.doesNotReject
+      - tslib.assert.internal.doesNotThrow_1
+      - tslib.assert.internal.doesNotThrow
+      - tslib.assert.internal.equal
+      - tslib.assert.internal.fail_1
+      - tslib.assert.internal.fail
+      - tslib.assert.internal.ifError
+      - tslib.assert.internal.match
+      - tslib.assert.internal.notDeepEqual
+      - tslib.assert.internal.notDeepStrictEqual
+      - tslib.assert.internal.notEqual
+      - tslib.assert.internal.notStrictEqual
+      - tslib.assert.internal.ok
+      - tslib.assert.internal.rejects_1
+      - tslib.assert.internal.rejects
+      - tslib.assert.internal.strictEqual
+      - tslib.assert.internal.throws_1
+      - tslib.assert.internal.throws
+    type: module
+    summary: ''
+    package: tslib
+  - uid: tslib.assert.internal.deepEqual
+    name: 'deepEqual(any, any, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function deepEqual(actual: any, expected: any, message?: string | Error)'
+      parameters:
+        - id: actual
+          type:
+            - any
+          description: ''
+        - id: expected
+          type:
+            - any
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.assert.internal.deepStrictEqual
+    name: 'deepStrictEqual(any, any, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function deepStrictEqual(actual: any, expected: any, message?: string |
+        Error)
+      parameters:
+        - id: actual
+          type:
+            - any
+          description: ''
+        - id: expected
+          type:
+            - any
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.assert.internal.doesNotMatch
+    name: 'doesNotMatch(string, RegExp, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function doesNotMatch(value: string, regExp: RegExp, message?: string |
+        Error)
+      parameters:
+        - id: value
+          type:
+            - string
+          description: ''
+        - id: regExp
+          type:
+            - RegExp
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.assert.internal.doesNotReject_1
+    name: >-
+      doesNotReject(() => Promise<any> | Promise<any>, RegExp | Function, string
+      | Error)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function doesNotReject(block: () => Promise<any> | Promise<any>, error:
+        RegExp | Function, message?: string | Error)
+      parameters:
+        - id: block
+          type:
+            - () => Promise<any> | Promise<any>
+          description: ''
+        - id: error
+          type:
+            - RegExp | Function
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: tslib
+  - uid: tslib.assert.internal.doesNotReject
+    name: 'doesNotReject(() => Promise<any> | Promise<any>, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function doesNotReject(block: () => Promise<any> | Promise<any>,
+        message?: string | Error)
+      parameters:
+        - id: block
+          type:
+            - () => Promise<any> | Promise<any>
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: tslib
+  - uid: tslib.assert.internal.doesNotThrow_1
+    name: 'doesNotThrow(() => any, RegExp | Function, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function doesNotThrow(block: () => any, error: RegExp | Function,
+        message?: string | Error)
+      parameters:
+        - id: block
+          type:
+            - () => any
+          description: ''
+        - id: error
+          type:
+            - RegExp | Function
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.assert.internal.doesNotThrow
+    name: 'doesNotThrow(() => any, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function doesNotThrow(block: () => any, message?: string | Error)'
+      parameters:
+        - id: block
+          type:
+            - () => any
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.assert.internal.equal
+    name: 'equal(any, any, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function equal(actual: any, expected: any, message?: string | Error)'
+      parameters:
+        - id: actual
+          type:
+            - any
+          description: ''
+        - id: expected
+          type:
+            - any
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.assert.internal.fail_1
+    name: 'fail(any, any, string | Error, undefined | string, Function)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function fail(actual: any, expected: any, message?: string | Error,
+        operator?: undefined | string, stackStartFn?: Function)
+      parameters:
+        - id: actual
+          type:
+            - any
+          description: ''
+        - id: expected
+          type:
+            - any
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+        - id: operator
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: stackStartFn
+          type:
+            - tslib.NodeJS.Global.Function
+          description: ''
+          optional: true
+      return:
+        type:
+          - never
+        description: ''
+    package: tslib
+  - uid: tslib.assert.internal.fail
+    name: fail(string | Error)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fail(message?: string | Error)'
+      parameters:
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+      return:
+        type:
+          - never
+        description: ''
+    package: tslib
+  - uid: tslib.assert.internal.ifError
+    name: ifError(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function ifError(value: any)'
+      parameters:
+        - id: value
+          type:
+            - any
+          description: ''
+    package: tslib
+  - uid: tslib.assert.internal.match
+    name: 'match(string, RegExp, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function match(value: string, regExp: RegExp, message?: string | Error)'
+      parameters:
+        - id: value
+          type:
+            - string
+          description: ''
+        - id: regExp
+          type:
+            - RegExp
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.assert.internal.notDeepEqual
+    name: 'notDeepEqual(any, any, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function notDeepEqual(actual: any, expected: any, message?: string |
+        Error)
+      parameters:
+        - id: actual
+          type:
+            - any
+          description: ''
+        - id: expected
+          type:
+            - any
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.assert.internal.notDeepStrictEqual
+    name: 'notDeepStrictEqual(any, any, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function notDeepStrictEqual(actual: any, expected: any, message?: string
+        | Error)
+      parameters:
+        - id: actual
+          type:
+            - any
+          description: ''
+        - id: expected
+          type:
+            - any
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.assert.internal.notEqual
+    name: 'notEqual(any, any, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function notEqual(actual: any, expected: any, message?: string | Error)'
+      parameters:
+        - id: actual
+          type:
+            - any
+          description: ''
+        - id: expected
+          type:
+            - any
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.assert.internal.notStrictEqual
+    name: 'notStrictEqual(any, any, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function notStrictEqual(actual: any, expected: any, message?: string |
+        Error)
+      parameters:
+        - id: actual
+          type:
+            - any
+          description: ''
+        - id: expected
+          type:
+            - any
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.assert.internal.ok
+    name: 'ok(any, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function ok(value: any, message?: string | Error)'
+      parameters:
+        - id: value
+          type:
+            - any
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.assert.internal.rejects_1
+    name: >-
+      rejects(() => Promise<any> | Promise<any>, AssertPredicate, string |
+      Error)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function rejects(block: () => Promise<any> | Promise<any>, error:
+        AssertPredicate, message?: string | Error)
+      parameters:
+        - id: block
+          type:
+            - () => Promise<any> | Promise<any>
+          description: ''
+        - id: error
+          type:
+            - tslib.assert.internal.AssertPredicate
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: tslib
+  - uid: tslib.assert.internal.rejects
+    name: 'rejects(() => Promise<any> | Promise<any>, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function rejects(block: () => Promise<any> | Promise<any>, message?:
+        string | Error)
+      parameters:
+        - id: block
+          type:
+            - () => Promise<any> | Promise<any>
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: tslib
+  - uid: tslib.assert.internal.strictEqual
+    name: 'strictEqual(any, any, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function strictEqual(actual: any, expected: any, message?: string |
+        Error)
+      parameters:
+        - id: actual
+          type:
+            - any
+          description: ''
+        - id: expected
+          type:
+            - any
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.assert.internal.throws_1
+    name: 'throws(() => any, AssertPredicate, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function throws(block: () => any, error: AssertPredicate, message?:
+        string | Error)
+      parameters:
+        - id: block
+          type:
+            - () => any
+          description: ''
+        - id: error
+          type:
+            - tslib.assert.internal.AssertPredicate
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.assert.internal.throws
+    name: 'throws(() => any, string | Error)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function throws(block: () => any, message?: string | Error)'
+      parameters:
+        - id: block
+          type:
+            - () => any
+          description: ''
+        - id: message
+          type:
+            - string | Error
+          description: ''
+          optional: true
+    package: tslib
+references:
+  - uid: tslib.NodeJS.Global.Function
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: tslib.NodeJS.Global.Function
+  - uid: tslib.assert.internal.AssertPredicate
+    name: AssertPredicate
+    spec.typeScript:
+      - name: AssertPredicate
+        fullName: AssertPredicate
+        uid: tslib.assert.internal.AssertPredicate
+  - uid: tslib.assert.internal.AssertionError
+    name: AssertionError
+  - uid: tslib.assert.internal.deepEqual
+    name: deepEqual
+  - uid: tslib.assert.internal.deepStrictEqual
+    name: deepStrictEqual
+  - uid: tslib.assert.internal.doesNotMatch
+    name: doesNotMatch
+  - uid: tslib.assert.internal.doesNotReject_1
+    name: doesNotReject_1
+  - uid: tslib.assert.internal.doesNotReject
+    name: doesNotReject
+  - uid: tslib.assert.internal.doesNotThrow_1
+    name: doesNotThrow_1
+  - uid: tslib.assert.internal.doesNotThrow
+    name: doesNotThrow
+  - uid: tslib.assert.internal.equal
+    name: equal
+  - uid: tslib.assert.internal.fail_1
+    name: fail_1
+  - uid: tslib.assert.internal.fail
+    name: fail
+  - uid: tslib.assert.internal.ifError
+    name: ifError
+  - uid: tslib.assert.internal.match
+    name: match
+  - uid: tslib.assert.internal.notDeepEqual
+    name: notDeepEqual
+  - uid: tslib.assert.internal.notDeepStrictEqual
+    name: notDeepStrictEqual
+  - uid: tslib.assert.internal.notEqual
+    name: notEqual
+  - uid: tslib.assert.internal.notStrictEqual
+    name: notStrictEqual
+  - uid: tslib.assert.internal.ok
+    name: ok
+  - uid: tslib.assert.internal.rejects_1
+    name: rejects_1
+  - uid: tslib.assert.internal.rejects
+    name: rejects
+  - uid: tslib.assert.internal.strictEqual
+    name: strictEqual
+  - uid: tslib.assert.internal.throws_1
+    name: throws_1
+  - uid: tslib.assert.internal.throws
+    name: throws

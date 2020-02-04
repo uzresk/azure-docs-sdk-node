@@ -1,0 +1,416 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.module.Module'
+    name: Module
+    fullName: Module
+    children:
+      - '@azure/ms-rest-azure-env.module.Module.builtinModules'
+      - '@azure/ms-rest-azure-env.module.Module.children'
+      - '@azure/ms-rest-azure-env.module.Module.createRequire'
+      - '@azure/ms-rest-azure-env.module.Module.createRequireFromPath'
+      - '@azure/ms-rest-azure-env.module.Module.exports'
+      - '@azure/ms-rest-azure-env.module.Module.filename'
+      - '@azure/ms-rest-azure-env.module.Module.findSourceMap'
+      - '@azure/ms-rest-azure-env.module.Module.id'
+      - '@azure/ms-rest-azure-env.module.Module.loaded'
+      - '@azure/ms-rest-azure-env.module.Module.Module'
+      - '@azure/ms-rest-azure-env.module.Module.constructor_1'
+      - '@azure/ms-rest-azure-env.module.Module.constructor'
+      - '@azure/ms-rest-azure-env.module.Module.parent'
+      - '@azure/ms-rest-azure-env.module.Module.paths'
+      - '@azure/ms-rest-azure-env.module.Module.require'
+      - '@azure/ms-rest-azure-env.module.Module.runMain'
+      - '@azure/ms-rest-azure-env.module.Module.runMain_1'
+      - '@azure/ms-rest-azure-env.module.Module.SourceMap'
+      - '@azure/ms-rest-azure-env.module.Module.SourceMapPayload'
+      - '@azure/ms-rest-azure-env.module.Module.SourceMapping'
+      - '@azure/ms-rest-azure-env.module.Module.syncBuiltinESMExports'
+      - '@azure/ms-rest-azure-env.module.Module.wrap'
+      - '@azure/ms-rest-azure-env.module.Module.wrap_1'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: NodeModule
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.builtinModules'
+    name: builtinModules
+    fullName: builtinModules
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static builtinModules: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.children'
+    name: children
+    fullName: children
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'children: Module[]'
+      return:
+        type:
+          - 'Module[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.createRequire'
+    name: createRequire(string | URL)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createRequire(path: string | URL)'
+      parameters:
+        - id: path
+          type:
+            - string | @azure/ms-rest-azure-env.url.URL
+          description: ''
+      return:
+        type:
+          - NodeRequire
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.createRequireFromPath'
+    name: createRequireFromPath(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createRequireFromPath(path: string)'
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - NodeRequire
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+    deprecated:
+      content: 'Deprecated since: v12.2.0. Please use createRequire() instead.'
+  - uid: '@azure/ms-rest-azure-env.module.Module.exports'
+    name: exports
+    fullName: exports
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'exports: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.filename'
+    name: filename
+    fullName: filename
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'filename: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.findSourceMap'
+    name: 'findSourceMap(string, Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function findSourceMap(path: string, error?: Error)'
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+        - id: error
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.ErrnoException.Error'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.module.Module.SourceMap'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.loaded'
+    name: loaded
+    fullName: loaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'loaded: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.Module'
+    name: Module
+    fullName: Module
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static Module: Module'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.module.Module'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.constructor_1'
+    name: 'Module(string, Module)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Module(id: string, parent?: Module)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: parent
+          type:
+            - '@azure/ms-rest-azure-env.module.Module.Module'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.constructor'
+    name: 'Module(string, Module)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Module(id: string, parent?: Module)'
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: parent
+          type:
+            - '@azure/ms-rest-azure-env.module.Module.Module'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.parent'
+    name: parent
+    fullName: parent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'parent: Module | null'
+      return:
+        type:
+          - Module | null
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.paths'
+    name: paths
+    fullName: paths
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'paths: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.require'
+    name: require
+    fullName: require
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'require: Require'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.NodeJS.Require'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.runMain'
+    name: runMain()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function runMain()
+      parameters: []
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.runMain_1'
+    name: runMain()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function runMain()
+      parameters: []
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.syncBuiltinESMExports'
+    name: syncBuiltinESMExports()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Updates all the live bindings for builtin ES Modules to match the
+      properties of the CommonJS exports.
+
+      It does not add or remove exported names from the ES Modules.
+    syntax:
+      content: static function syncBuiltinESMExports()
+      parameters: []
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.wrap'
+    name: wrap(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function wrap(code: string)'
+      parameters:
+        - id: code
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.module.Module.wrap_1'
+    name: wrap(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function wrap(code: string)'
+      parameters:
+        - id: code
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.module.Module.SourceMapPayload'
+    name: SourceMapPayload
+    spec.typeScript:
+      - name: SourceMapPayload
+        fullName: SourceMapPayload
+        uid: '@azure/ms-rest-azure-env.module.Module.SourceMapPayload'
+  - uid: '@azure/ms-rest-azure-env.module.Module.SourceMapping'
+    name: SourceMapping
+    spec.typeScript:
+      - name: SourceMapping
+        fullName: SourceMapping
+        uid: '@azure/ms-rest-azure-env.module.Module.SourceMapping'
+  - uid: '@azure/ms-rest-azure-env.module.Module.Module'
+    name: Module
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: '@azure/ms-rest-azure-env.module.Module.Module'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Require'
+    name: Require
+    spec.typeScript:
+      - name: Require
+        fullName: Require
+        uid: '@azure/ms-rest-azure-env.NodeJS.Require'
+  - uid: '@azure/ms-rest-azure-env.module.Module'
+    name: Module
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: '@azure/ms-rest-azure-env.module.Module'
+  - uid: string | @azure/ms-rest-azure-env.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: '@azure/ms-rest-azure-env.url.URL'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ErrnoException.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.NodeJS.ErrnoException.Error'
+  - uid: '@azure/ms-rest-azure-env.module.Module.SourceMap'
+    name: SourceMap
+    spec.typeScript:
+      - name: SourceMap
+        fullName: SourceMap
+        uid: '@azure/ms-rest-azure-env.module.Module.SourceMap'

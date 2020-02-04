@@ -1,0 +1,2052 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.child_process.ChildProcess'
+    name: ChildProcess
+    fullName: ChildProcess
+    children:
+      - '@azure/abort-controller.child_process.ChildProcess.addListener_1'
+      - '@azure/abort-controller.child_process.ChildProcess.addListener_2'
+      - '@azure/abort-controller.child_process.ChildProcess.addListener_3'
+      - '@azure/abort-controller.child_process.ChildProcess.addListener_4'
+      - '@azure/abort-controller.child_process.ChildProcess.addListener_5'
+      - '@azure/abort-controller.child_process.ChildProcess.addListener'
+      - '@azure/abort-controller.child_process.ChildProcess.channel'
+      - '@azure/abort-controller.child_process.ChildProcess.constructor'
+      - '@azure/abort-controller.child_process.ChildProcess.connected'
+      - '@azure/abort-controller.child_process.ChildProcess.defaultMaxListeners'
+      - '@azure/abort-controller.child_process.ChildProcess.disconnect'
+      - '@azure/abort-controller.child_process.ChildProcess.emit_1'
+      - '@azure/abort-controller.child_process.ChildProcess.emit_2'
+      - '@azure/abort-controller.child_process.ChildProcess.emit_3'
+      - '@azure/abort-controller.child_process.ChildProcess.emit_4'
+      - '@azure/abort-controller.child_process.ChildProcess.emit_5'
+      - '@azure/abort-controller.child_process.ChildProcess.emit'
+      - '@azure/abort-controller.child_process.ChildProcess.eventNames'
+      - '@azure/abort-controller.child_process.ChildProcess.getMaxListeners'
+      - '@azure/abort-controller.child_process.ChildProcess.kill'
+      - '@azure/abort-controller.child_process.ChildProcess.killed'
+      - '@azure/abort-controller.child_process.ChildProcess.listenerCount'
+      - '@azure/abort-controller.child_process.ChildProcess.listenerCount'
+      - '@azure/abort-controller.child_process.ChildProcess.listeners'
+      - '@azure/abort-controller.child_process.ChildProcess.off'
+      - '@azure/abort-controller.child_process.ChildProcess.on_1'
+      - '@azure/abort-controller.child_process.ChildProcess.on_2'
+      - '@azure/abort-controller.child_process.ChildProcess.on_3'
+      - '@azure/abort-controller.child_process.ChildProcess.on_4'
+      - '@azure/abort-controller.child_process.ChildProcess.on_5'
+      - '@azure/abort-controller.child_process.ChildProcess.on'
+      - '@azure/abort-controller.child_process.ChildProcess.once_1'
+      - '@azure/abort-controller.child_process.ChildProcess.once_2'
+      - '@azure/abort-controller.child_process.ChildProcess.once_3'
+      - '@azure/abort-controller.child_process.ChildProcess.once_4'
+      - '@azure/abort-controller.child_process.ChildProcess.once_5'
+      - '@azure/abort-controller.child_process.ChildProcess.once'
+      - '@azure/abort-controller.child_process.ChildProcess.pid'
+      - '@azure/abort-controller.child_process.ChildProcess.prependListener_1'
+      - '@azure/abort-controller.child_process.ChildProcess.prependListener_2'
+      - '@azure/abort-controller.child_process.ChildProcess.prependListener_3'
+      - '@azure/abort-controller.child_process.ChildProcess.prependListener_4'
+      - '@azure/abort-controller.child_process.ChildProcess.prependListener_5'
+      - '@azure/abort-controller.child_process.ChildProcess.prependListener'
+      - '@azure/abort-controller.child_process.ChildProcess.prependOnceListener_1'
+      - '@azure/abort-controller.child_process.ChildProcess.prependOnceListener_2'
+      - '@azure/abort-controller.child_process.ChildProcess.prependOnceListener_3'
+      - '@azure/abort-controller.child_process.ChildProcess.prependOnceListener_4'
+      - '@azure/abort-controller.child_process.ChildProcess.prependOnceListener_5'
+      - '@azure/abort-controller.child_process.ChildProcess.prependOnceListener'
+      - '@azure/abort-controller.child_process.ChildProcess.rawListeners'
+      - '@azure/abort-controller.child_process.ChildProcess.ref'
+      - '@azure/abort-controller.child_process.ChildProcess.removeAllListeners'
+      - '@azure/abort-controller.child_process.ChildProcess.removeListener'
+      - '@azure/abort-controller.child_process.ChildProcess.send'
+      - '@azure/abort-controller.child_process.ChildProcess.send_1'
+      - '@azure/abort-controller.child_process.ChildProcess.send_2'
+      - '@azure/abort-controller.child_process.ChildProcess.setMaxListeners'
+      - '@azure/abort-controller.child_process.ChildProcess.stderr'
+      - '@azure/abort-controller.child_process.ChildProcess.stdin'
+      - '@azure/abort-controller.child_process.ChildProcess.stdio'
+      - '@azure/abort-controller.child_process.ChildProcess.stdout'
+      - '@azure/abort-controller.child_process.ChildProcess.unref'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.addListener_1'
+    name: 'addListener("close", (code: number, signal: NodeJS.Signals) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "close", listener: (code: number, signal:
+        NodeJS.Signals) => void)
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: NodeJS.Signals) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.addListener_2'
+    name: 'addListener("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.addListener_3'
+    name: 'addListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.addListener_4'
+    name: 'addListener("exit", (code: number | null, signal: NodeJS) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "exit", listener: (code: number | null,
+        signal: NodeJS) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number | null, signal: NodeJS) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.addListener_5'
+    name: >-
+      addListener("message", (message: Serializable, sendHandle: SendHandle) =>
+      void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "message", listener: (message: Serializable,
+        sendHandle: SendHandle) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: Serializable, sendHandle: SendHandle) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.addListener'
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      events.EventEmitter
+      1. close
+      2. disconnect
+      3. error
+      4. exit
+      5. message
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.channel'
+    name: channel
+    fullName: channel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'channel?: Pipe | null'
+      return:
+        type:
+          - '@azure/abort-controller.stream.internal.Pipe | null'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.constructor'
+    name: ChildProcess(EventEmitterOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ChildProcess(options?: EventEmitterOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.events.EventEmitterOptions'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.connected'
+    name: connected
+    fullName: connected
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'connected: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.defaultMaxListeners'
+    name: defaultMaxListeners
+    fullName: defaultMaxListeners
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultMaxListeners: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.disconnect'
+    name: disconnect()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function disconnect()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.emit_1'
+    name: 'emit("close", number, NodeJS.Signals)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "close", code: number, signal: NodeJS.Signals)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: code
+          type:
+            - number
+          description: ''
+        - id: signal
+          type:
+            - '@azure/abort-controller.NodeJS.Signals'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.emit_2'
+    name: emit("disconnect")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "disconnect")'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.emit_3'
+    name: 'emit("error", Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "error", err: Error)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: err
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.emit_4'
+    name: 'emit("exit", number | null, NodeJS)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "exit", code: number | null, signal: NodeJS)'
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: code
+          type:
+            - number | null
+          description: ''
+        - id: signal
+          type:
+            - NodeJS
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.emit_5'
+    name: 'emit("message", Serializable, SendHandle)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function emit(event: "message", message: Serializable, sendHandle:
+        SendHandle)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: message
+          type:
+            - '@azure/abort-controller.child_process.Serializable'
+          description: ''
+        - id: sendHandle
+          type:
+            - '@azure/abort-controller.child_process.SendHandle'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.kill'
+    name: kill(NodeJS)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function kill(signal?: NodeJS)'
+      parameters:
+        - id: signal
+          type:
+            - NodeJS
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.killed'
+    name: killed
+    fullName: killed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'killed: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.listenerCount'
+    name: 'listenerCount(EventEmitter, string | symbol)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function listenerCount(emitter: EventEmitter, event: string |
+        symbol)
+      parameters:
+        - id: emitter
+          type:
+            - '@azure/abort-controller.events.EventEmitter.EventEmitter'
+          description: ''
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+    deprecated:
+      content: since v4.0.0
+  - uid: '@azure/abort-controller.child_process.ChildProcess.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.on_1'
+    name: 'on("close", (code: number, signal: NodeJS.Signals) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "close", listener: (code: number, signal:
+        NodeJS.Signals) => void)
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: NodeJS.Signals) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.on_2'
+    name: 'on("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.on_3'
+    name: 'on("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.on_4'
+    name: 'on("exit", (code: number | null, signal: NodeJS) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "exit", listener: (code: number | null, signal:
+        NodeJS) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number | null, signal: NodeJS) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.on_5'
+    name: 'on("message", (message: Serializable, sendHandle: SendHandle) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "message", listener: (message: Serializable,
+        sendHandle: SendHandle) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: Serializable, sendHandle: SendHandle) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.on'
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.once_1'
+    name: 'once("close", (code: number, signal: NodeJS.Signals) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "close", listener: (code: number, signal:
+        NodeJS.Signals) => void)
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: NodeJS.Signals) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.once_2'
+    name: 'once("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.once_3'
+    name: 'once("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.once_4'
+    name: 'once("exit", (code: number | null, signal: NodeJS) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "exit", listener: (code: number | null, signal:
+        NodeJS) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number | null, signal: NodeJS) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.once_5'
+    name: 'once("message", (message: Serializable, sendHandle: SendHandle) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "message", listener: (message: Serializable,
+        sendHandle: SendHandle) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: Serializable, sendHandle: SendHandle) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.once'
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.pid'
+    name: pid
+    fullName: pid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'pid: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.prependListener_1'
+    name: 'prependListener("close", (code: number, signal: NodeJS.Signals) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "close", listener: (code: number,
+        signal: NodeJS.Signals) => void)
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: NodeJS.Signals) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.prependListener_2'
+    name: 'prependListener("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.prependListener_3'
+    name: 'prependListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.prependListener_4'
+    name: 'prependListener("exit", (code: number | null, signal: NodeJS) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "exit", listener: (code: number | null,
+        signal: NodeJS) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number | null, signal: NodeJS) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.prependListener_5'
+    name: >-
+      prependListener("message", (message: Serializable, sendHandle: SendHandle)
+      => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "message", listener: (message:
+        Serializable, sendHandle: SendHandle) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: Serializable, sendHandle: SendHandle) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.prependListener'
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.prependOnceListener_1'
+    name: >-
+      prependOnceListener("close", (code: number, signal: NodeJS.Signals) =>
+      void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "close", listener: (code: number,
+        signal: NodeJS.Signals) => void)
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: NodeJS.Signals) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.prependOnceListener_2'
+    name: 'prependOnceListener("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.prependOnceListener_3'
+    name: 'prependOnceListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "error", listener: (err: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.prependOnceListener_4'
+    name: 'prependOnceListener("exit", (code: number | null, signal: NodeJS) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "exit", listener: (code: number |
+        null, signal: NodeJS) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number | null, signal: NodeJS) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.prependOnceListener_5'
+    name: >-
+      prependOnceListener("message", (message: Serializable, sendHandle:
+      SendHandle) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "message", listener: (message:
+        Serializable, sendHandle: SendHandle) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: Serializable, sendHandle: SendHandle) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.prependOnceListener'
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.ref'
+    name: ref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ref()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.removeListener'
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.send'
+    name: 'send(Serializable, (error: Error | null) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function send(message: Serializable, callback?: (error: Error | null) =>
+        void)
+      parameters:
+        - id: message
+          type:
+            - '@azure/abort-controller.child_process.Serializable'
+          description: ''
+        - id: callback
+          type:
+            - '(error: Error | null) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.send_1'
+    name: 'send(Serializable, SendHandle, (error: Error | null) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function send(message: Serializable, sendHandle?: SendHandle, callback?:
+        (error: Error | null) => void)
+      parameters:
+        - id: message
+          type:
+            - '@azure/abort-controller.child_process.Serializable'
+          description: ''
+        - id: sendHandle
+          type:
+            - '@azure/abort-controller.child_process.SendHandle'
+          description: ''
+          optional: true
+        - id: callback
+          type:
+            - '(error: Error | null) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.send_2'
+    name: >-
+      send(Serializable, SendHandle, MessageOptions, (error: Error | null) =>
+      void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function send(message: Serializable, sendHandle?: SendHandle, options?:
+        MessageOptions, callback?: (error: Error | null) => void)
+      parameters:
+        - id: message
+          type:
+            - '@azure/abort-controller.child_process.Serializable'
+          description: ''
+        - id: sendHandle
+          type:
+            - '@azure/abort-controller.child_process.SendHandle'
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.child_process.MessageOptions'
+          description: ''
+          optional: true
+        - id: callback
+          type:
+            - '(error: Error | null) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.stderr'
+    name: stderr
+    fullName: stderr
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'stderr: Readable | null'
+      return:
+        type:
+          - '@azure/abort-controller.stream.internal.Readable | null'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.stdin'
+    name: stdin
+    fullName: stdin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'stdin: Writable | null'
+      return:
+        type:
+          - '@azure/abort-controller.stream.internal.Writable | null'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.stdio'
+    name: stdio
+    fullName: stdio
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'stdio: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.stdout'
+    name: stdout
+    fullName: stdout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'stdout: Readable | null'
+      return:
+        type:
+          - '@azure/abort-controller.stream.internal.Readable | null'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.ChildProcess.unref'
+    name: unref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unref()
+      parameters: []
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: '@azure/abort-controller.stream.internal.Pipe | null'
+    name: Pipe | null
+    spec.typeScript:
+      - name: Pipe
+        fullName: Pipe
+        uid: '@azure/abort-controller.stream.internal.Pipe'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.stream.internal.Readable | null'
+    name: Readable | null
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.stream.internal.Writable | null'
+    name: Writable | null
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.NodeJS.Signals'
+    name: Signals
+    spec.typeScript:
+      - name: Signals
+        fullName: Signals
+        uid: '@azure/abort-controller.NodeJS.Signals'
+  - uid: '@azure/abort-controller.child_process.Serializable'
+    name: Serializable
+    spec.typeScript:
+      - name: Serializable
+        fullName: Serializable
+        uid: '@azure/abort-controller.child_process.Serializable'
+  - uid: '@azure/abort-controller.child_process.SendHandle'
+    name: SendHandle
+    spec.typeScript:
+      - name: SendHandle
+        fullName: SendHandle
+        uid: '@azure/abort-controller.child_process.SendHandle'
+  - uid: '@azure/abort-controller.child_process.MessageOptions'
+    name: MessageOptions
+    spec.typeScript:
+      - name: MessageOptions
+        fullName: MessageOptions
+        uid: '@azure/abort-controller.child_process.MessageOptions'
+  - uid: '@azure/abort-controller.child_process.ChildProcess'
+    name: ChildProcess
+    spec.typeScript:
+      - name: ChildProcess
+        fullName: ChildProcess
+        uid: '@azure/abort-controller.child_process.ChildProcess'
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: '@azure/abort-controller.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+  - uid: '@azure/abort-controller.child_process.ProcessEnvOptions'
+    name: ProcessEnvOptions
+    spec.typeScript:
+      - name: ProcessEnvOptions
+        fullName: ProcessEnvOptions
+        uid: '@azure/abort-controller.child_process.ProcessEnvOptions'
+  - uid: '@azure/abort-controller.NodeJS.ProcessEnv'
+    name: ProcessEnv
+    spec.typeScript:
+      - name: ProcessEnv
+        fullName: ProcessEnv
+        uid: '@azure/abort-controller.NodeJS.ProcessEnv'
+  - uid: '@azure/abort-controller.child_process.CommonOptions'
+    name: CommonOptions
+    spec.typeScript:
+      - name: CommonOptions
+        fullName: CommonOptions
+        uid: '@azure/abort-controller.child_process.CommonOptions'
+  - uid: '@azure/abort-controller.child_process.SerializationType'
+    name: SerializationType
+    spec.typeScript:
+      - name: SerializationType
+        fullName: SerializationType
+        uid: '@azure/abort-controller.child_process.SerializationType'
+  - uid: '@azure/abort-controller.child_process.StdioOptions'
+    name: StdioOptions
+    spec.typeScript:
+      - name: StdioOptions
+        fullName: StdioOptions
+        uid: '@azure/abort-controller.child_process.StdioOptions'
+  - uid: '@azure/abort-controller.child_process.ExecFileOptions'
+    name: ExecFileOptions
+    spec.typeScript:
+      - name: ExecFileOptions
+        fullName: ExecFileOptions
+        uid: '@azure/abort-controller.child_process.ExecFileOptions'
+  - uid: '@azure/abort-controller.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: string | @azure/abort-controller.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+  - uid: '@azure/abort-controller.child_process.ExecFileSyncOptions'
+    name: ExecFileSyncOptions
+    spec.typeScript:
+      - name: ExecFileSyncOptions
+        fullName: ExecFileSyncOptions
+        uid: '@azure/abort-controller.child_process.ExecFileSyncOptions'
+  - uid: '@azure/abort-controller.child_process.ExecOptions'
+    name: ExecOptions
+    spec.typeScript:
+      - name: ExecOptions
+        fullName: ExecOptions
+        uid: '@azure/abort-controller.child_process.ExecOptions'
+  - uid: '@azure/abort-controller.child_process.ExecSyncOptions'
+    name: ExecSyncOptions
+    spec.typeScript:
+      - name: ExecSyncOptions
+        fullName: ExecSyncOptions
+        uid: '@azure/abort-controller.child_process.ExecSyncOptions'
+  - uid: '@azure/abort-controller.child_process.CommonSpawnOptions'
+    name: CommonSpawnOptions
+    spec.typeScript:
+      - name: CommonSpawnOptions
+        fullName: CommonSpawnOptions
+        uid: '@azure/abort-controller.child_process.CommonSpawnOptions'
+  - uid: '@azure/abort-controller.child_process.SpawnOptions'
+    name: SpawnOptions
+    spec.typeScript:
+      - name: SpawnOptions
+        fullName: SpawnOptions
+        uid: '@azure/abort-controller.child_process.SpawnOptions'
+  - uid: '@azure/abort-controller.child_process.SpawnSyncOptions'
+    name: SpawnSyncOptions
+    spec.typeScript:
+      - name: SpawnSyncOptions
+        fullName: SpawnSyncOptions
+        uid: '@azure/abort-controller.child_process.SpawnSyncOptions'
+  - uid: >-
+      @azure/abort-controller.child_process.ExecFileSyncOptionsWithStringEncoding
+    name: ExecFileSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: ExecFileSyncOptionsWithStringEncoding
+        fullName: ExecFileSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/abort-controller.child_process.ExecFileSyncOptionsWithStringEncoding
+  - uid: >-
+      @azure/abort-controller.child_process.ExecFileSyncOptionsWithBufferEncoding
+    name: ExecFileSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: ExecFileSyncOptionsWithBufferEncoding
+        fullName: ExecFileSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/abort-controller.child_process.ExecFileSyncOptionsWithBufferEncoding
+  - uid: '@azure/abort-controller.child_process.ExecSyncOptionsWithStringEncoding'
+    name: ExecSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: ExecSyncOptionsWithStringEncoding
+        fullName: ExecSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/abort-controller.child_process.ExecSyncOptionsWithStringEncoding
+  - uid: '@azure/abort-controller.child_process.ExecSyncOptionsWithBufferEncoding'
+    name: ExecSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: ExecSyncOptionsWithBufferEncoding
+        fullName: ExecSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/abort-controller.child_process.ExecSyncOptionsWithBufferEncoding
+  - uid: '@azure/abort-controller.child_process.ForkOptions'
+    name: ForkOptions
+    spec.typeScript:
+      - name: ForkOptions
+        fullName: ForkOptions
+        uid: '@azure/abort-controller.child_process.ForkOptions'
+  - uid: '@azure/abort-controller.child_process.SpawnOptionsWithoutStdio'
+    name: SpawnOptionsWithoutStdio
+    spec.typeScript:
+      - name: SpawnOptionsWithoutStdio
+        fullName: SpawnOptionsWithoutStdio
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithoutStdio'
+  - uid: '@azure/abort-controller.child_process.ChildProcessWithoutNullStreams'
+    name: ChildProcessWithoutNullStreams
+    spec.typeScript:
+      - name: ChildProcessWithoutNullStreams
+        fullName: ChildProcessWithoutNullStreams
+        uid: '@azure/abort-controller.child_process.ChildProcessWithoutNullStreams'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+      @azure/abort-controller.stream.internal.Readable,
+      @azure/abort-controller.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+      @azure/abort-controller.stream.internal.Readable, null>
+    name: 'Readable, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: ', null>'
+        fullName: ', null>'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+      null, @azure/abort-controller.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+      - name: ', null, '
+        fullName: ', null, '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<null,
+      @azure/abort-controller.stream.internal.Readable,
+      @azure/abort-controller.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: '<null, '
+        fullName: '<null, '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+      null, null>
+    name: 'Writable, null, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+      - name: ', null, null>'
+        fullName: ', null, null>'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<null,
+      @azure/abort-controller.stream.internal.Readable, null>
+    name: 'Readable, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: '<null, '
+        fullName: '<null, '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: ', null>'
+        fullName: ', null>'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<null, null,
+      @azure/abort-controller.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: '<null, null, '
+        fullName: '<null, null, '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<null, null,
+      null>
+    name: 'ChildProcessByStdio<null, null, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: '<null, null, null>'
+        fullName: '<null, null, null>'
+  - uid: '@azure/abort-controller.child_process.SpawnSyncReturns<Buffer>'
+    name: SpawnSyncReturns<Buffer>
+    spec.typeScript:
+      - name: SpawnSyncReturns
+        fullName: SpawnSyncReturns
+        uid: '@azure/abort-controller.child_process.SpawnSyncReturns'
+      - name: <Buffer>
+        fullName: <Buffer>
+  - uid: '@azure/abort-controller.child_process.SpawnSyncOptionsWithStringEncoding'
+    name: SpawnSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: SpawnSyncOptionsWithStringEncoding
+        fullName: SpawnSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/abort-controller.child_process.SpawnSyncOptionsWithStringEncoding
+  - uid: '@azure/abort-controller.child_process.SpawnSyncReturns<string>'
+    name: SpawnSyncReturns<string>
+    spec.typeScript:
+      - name: SpawnSyncReturns
+        fullName: SpawnSyncReturns
+        uid: '@azure/abort-controller.child_process.SpawnSyncReturns'
+      - name: <string>
+        fullName: <string>
+  - uid: '@azure/abort-controller.child_process.SpawnSyncOptionsWithBufferEncoding'
+    name: SpawnSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: SpawnSyncOptionsWithBufferEncoding
+        fullName: SpawnSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/abort-controller.child_process.SpawnSyncOptionsWithBufferEncoding

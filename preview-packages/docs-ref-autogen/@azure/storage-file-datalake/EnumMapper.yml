@@ -1,0 +1,235 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.EnumMapper'
+    name: EnumMapper
+    fullName: EnumMapper
+    children:
+      - '@azure/abort-controller.EnumMapper.constraints'
+      - '@azure/abort-controller.EnumMapper.defaultValue'
+      - '@azure/abort-controller.EnumMapper.isConstant'
+      - '@azure/abort-controller.EnumMapper.nullable'
+      - '@azure/abort-controller.EnumMapper.readOnly'
+      - '@azure/abort-controller.EnumMapper.required'
+      - '@azure/abort-controller.EnumMapper.serializedName'
+      - '@azure/abort-controller.EnumMapper.type'
+      - '@azure/abort-controller.EnumMapper.xmlElementName'
+      - '@azure/abort-controller.EnumMapper.xmlIsAttribute'
+      - '@azure/abort-controller.EnumMapper.xmlIsWrapped'
+      - '@azure/abort-controller.EnumMapper.xmlName'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.BaseMapper'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EnumMapper.constraints'
+    name: constraints
+    fullName: constraints
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'constraints?: MapperConstraints'
+      return:
+        type:
+          - '@azure/abort-controller.MapperConstraints'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EnumMapper.defaultValue'
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'defaultValue?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EnumMapper.isConstant'
+    name: isConstant
+    fullName: isConstant
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isConstant?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EnumMapper.nullable'
+    name: nullable
+    fullName: nullable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'nullable?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EnumMapper.readOnly'
+    name: readOnly
+    fullName: readOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'readOnly?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EnumMapper.required'
+    name: required
+    fullName: required
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'required?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EnumMapper.serializedName'
+    name: serializedName
+    fullName: serializedName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'serializedName?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EnumMapper.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: EnumMapperType'
+      return:
+        type:
+          - '@azure/abort-controller.EnumMapperType'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EnumMapper.xmlElementName'
+    name: xmlElementName
+    fullName: xmlElementName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'xmlElementName?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EnumMapper.xmlIsAttribute'
+    name: xmlIsAttribute
+    fullName: xmlIsAttribute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'xmlIsAttribute?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EnumMapper.xmlIsWrapped'
+    name: xmlIsWrapped
+    fullName: xmlIsWrapped
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'xmlIsWrapped?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EnumMapper.xmlName'
+    name: xmlName
+    fullName: xmlName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'xmlName?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.BaseMapper'
+    name: BaseMapper
+    spec.typeScript:
+      - name: BaseMapper
+        fullName: BaseMapper
+        uid: '@azure/abort-controller.BaseMapper'
+  - uid: '@azure/abort-controller.MapperConstraints'
+    name: MapperConstraints
+    spec.typeScript:
+      - name: MapperConstraints
+        fullName: MapperConstraints
+        uid: '@azure/abort-controller.MapperConstraints'
+  - uid: '@azure/abort-controller.EnumMapperType'
+    name: EnumMapperType
+    spec.typeScript:
+      - name: EnumMapperType
+        fullName: EnumMapperType
+        uid: '@azure/abort-controller.EnumMapperType'

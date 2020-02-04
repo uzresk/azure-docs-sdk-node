@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.FileSystemCreateResponse'
+  - uid: '@azure/abort-controller.FileSystemCreateResponse'
     name: FileSystemCreateResponse
     fullName: FileSystemCreateResponse
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type FileSystemCreateResponse = FileSystemCreateHeaders & { _response:
         Object }
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

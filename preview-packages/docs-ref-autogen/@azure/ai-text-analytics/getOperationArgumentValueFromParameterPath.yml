@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.getOperationArgumentValueFromParameterPath'
+    name: >-
+      getOperationArgumentValueFromParameterPath(ServiceClient,
+      OperationArguments, ParameterPath, Mapper, Serializer)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getOperationArgumentValueFromParameterPath(serviceClient:
+        ServiceClient, operationArguments: OperationArguments, parameterPath:
+        ParameterPath, parameterMapper: Mapper, serializer: Serializer)
+      parameters:
+        - id: serviceClient
+          type:
+            - '@azure/abort-controller.ServiceClient'
+          description: ''
+        - id: operationArguments
+          type:
+            - '@azure/abort-controller.OperationArguments'
+          description: ''
+        - id: parameterPath
+          type:
+            - '@azure/abort-controller.ParameterPath'
+          description: ''
+        - id: parameterMapper
+          type:
+            - '@azure/abort-controller.Mapper'
+          description: ''
+        - id: serializer
+          type:
+            - '@azure/abort-controller.Serializer'
+          description: ''
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.ServiceClient'
+    name: ServiceClient
+    spec.typeScript:
+      - name: ServiceClient
+        fullName: ServiceClient
+        uid: '@azure/abort-controller.ServiceClient'
+  - uid: '@azure/abort-controller.OperationArguments'
+    name: OperationArguments
+    spec.typeScript:
+      - name: OperationArguments
+        fullName: OperationArguments
+        uid: '@azure/abort-controller.OperationArguments'
+  - uid: '@azure/abort-controller.ParameterPath'
+    name: ParameterPath
+    spec.typeScript:
+      - name: ParameterPath
+        fullName: ParameterPath
+        uid: '@azure/abort-controller.ParameterPath'
+  - uid: '@azure/abort-controller.Mapper'
+    name: Mapper
+    spec.typeScript:
+      - name: Mapper
+        fullName: Mapper
+        uid: '@azure/abort-controller.Mapper'
+  - uid: '@azure/abort-controller.Serializer'
+    name: Serializer
+    spec.typeScript:
+      - name: Serializer
+        fullName: Serializer
+        uid: '@azure/abort-controller.Serializer'

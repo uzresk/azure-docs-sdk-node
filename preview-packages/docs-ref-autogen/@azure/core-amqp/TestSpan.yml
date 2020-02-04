@@ -1,0 +1,384 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.TestSpan
+    name: TestSpan
+    fullName: TestSpan
+    children:
+      - tslib.TestSpan.addEvent
+      - tslib.TestSpan.context
+      - tslib.TestSpan.end
+      - tslib.TestSpan.endCalled
+      - tslib.TestSpan.isRecording
+      - tslib.TestSpan.kind
+      - tslib.TestSpan.name
+      - tslib.TestSpan.parentSpanId
+      - tslib.TestSpan.setAttribute
+      - tslib.TestSpan.setAttributes
+      - tslib.TestSpan.setStatus
+      - tslib.TestSpan.startTime
+      - tslib.TestSpan.status
+      - tslib.TestSpan.constructor
+      - tslib.TestSpan.tracer
+      - tslib.TestSpan.updateName
+    langs:
+      - typeScript
+    type: class
+    summary: A mock span useful for testing.
+    extends:
+      name: tslib.NoOpSpan
+    package: tslib
+  - uid: tslib.TestSpan.addEvent
+    name: 'addEvent(string, Attributes)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds an event to the Span
+    syntax:
+      content: 'function addEvent(_name: string, _attributes?: Attributes)'
+      parameters:
+        - id: _name
+          type:
+            - string
+          description: The name of the event
+        - id: _attributes
+          type:
+            - tslib.Attributes
+          description: |
+            The associated attributes to add for this event
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.TestSpan.context
+    name: context()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the SpanContext associated with this Span.
+    syntax:
+      content: function context()
+      parameters: []
+      return:
+        type:
+          - tslib.SpanContext
+        description: ''
+    package: tslib
+  - uid: tslib.TestSpan.end
+    name: end(undefined | number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Marks the end of Span execution.
+    syntax:
+      content: 'function end(_endTime?: undefined | number)'
+      parameters:
+        - id: _endTime
+          type:
+            - undefined | number
+          description: |
+            The time to use as the Span's end time. Defaults to
+            the current time.
+          optional: true
+    package: tslib
+  - uid: tslib.TestSpan.endCalled
+    name: endCalled
+    fullName: endCalled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: True if end() has been called on the Span
+    syntax:
+      content: 'endCalled: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.TestSpan.isRecording
+    name: isRecording()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns whether this span will be recorded
+    syntax:
+      content: function isRecording()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.TestSpan.kind
+    name: kind
+    fullName: kind
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The Span's kind
+    syntax:
+      content: 'kind: SpanKind'
+      return:
+        type:
+          - tslib.SpanKind
+        description: ''
+    package: tslib
+  - uid: tslib.TestSpan.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The Span's current name
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.TestSpan.parentSpanId
+    name: parentSpanId
+    fullName: parentSpanId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The id of the parent Span, if any.'
+    optional: true
+    syntax:
+      content: 'parentSpanId?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.TestSpan.setAttribute
+    name: 'setAttribute(string, unknown)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets an attribute on the Span
+    syntax:
+      content: 'function setAttribute(_key: string, _value: unknown)'
+      parameters:
+        - id: _key
+          type:
+            - string
+          description: the attribute key
+        - id: _value
+          type:
+            - unknown
+          description: |
+            the attribute value
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.TestSpan.setAttributes
+    name: setAttributes(Attributes)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets attributes on the Span
+    syntax:
+      content: 'function setAttributes(_attributes: Attributes)'
+      parameters:
+        - id: _attributes
+          type:
+            - tslib.Attributes
+          description: |
+            the attributes to add
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.TestSpan.setStatus
+    name: setStatus(Status)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets a status on the span. Overrides the default of CanonicalCode.OK.
+    syntax:
+      content: 'function setStatus(status: Status)'
+      parameters:
+        - id: status
+          type:
+            - tslib.Status
+          description: |
+            The status to set.
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.TestSpan.startTime
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The start time of the Span
+    syntax:
+      content: 'startTime: TimeInput'
+      return:
+        type:
+          - tslib.TimeInput
+        description: ''
+    package: tslib
+  - uid: tslib.TestSpan.status
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The Span's current status
+    syntax:
+      content: 'status: Status'
+      return:
+        type:
+          - tslib.Status
+        description: ''
+    package: tslib
+  - uid: tslib.TestSpan.constructor
+    name: >-
+      TestSpan(TestTracer, string, SpanContext, SpanKind, undefined | string,
+      TimeInput)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Starts a new Span.
+    syntax:
+      content: >-
+        new TestSpan(parentTracer: TestTracer, name: string, context:
+        SpanContext, kind: SpanKind, parentSpanId?: undefined | string,
+        startTime?: TimeInput)
+      parameters:
+        - id: parentTracer
+          type:
+            - tslib.TestTracer
+          description: The tracer that created this Span
+        - id: name
+          type:
+            - string
+          description: The name of the span.
+        - id: context
+          type:
+            - tslib.SpanContext
+          description: The SpanContext this span belongs to
+        - id: kind
+          type:
+            - tslib.SpanKind
+          description: The SpanKind of this Span
+        - id: parentSpanId
+          type:
+            - undefined | string
+          description: The identifier of the parent Span
+          optional: true
+        - id: startTime
+          type:
+            - tslib.TimeInput
+          description: |
+            The startTime of the event (defaults to now)
+          optional: true
+    package: tslib
+  - uid: tslib.TestSpan.tracer
+    name: tracer()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the Tracer that created this Span
+    syntax:
+      content: function tracer()
+      parameters: []
+      return:
+        type:
+          - tslib.Tracer
+        description: ''
+    package: tslib
+  - uid: tslib.TestSpan.updateName
+    name: updateName(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Updates the name of the Span
+    syntax:
+      content: 'function updateName(_name: string)'
+      parameters:
+        - id: _name
+          type:
+            - string
+          description: |
+            the new Span name
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.NoOpSpan
+    name: NoOpSpan
+    spec.typeScript:
+      - name: NoOpSpan
+        fullName: NoOpSpan
+        uid: tslib.NoOpSpan
+  - uid: tslib.TestTracer
+    name: TestTracer
+    spec.typeScript:
+      - name: TestTracer
+        fullName: TestTracer
+        uid: tslib.TestTracer
+  - uid: tslib.SpanContext
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: tslib.SpanContext
+  - uid: tslib.SpanKind
+    name: SpanKind
+    spec.typeScript:
+      - name: SpanKind
+        fullName: SpanKind
+        uid: tslib.SpanKind
+  - uid: tslib.TimeInput
+    name: TimeInput
+    spec.typeScript:
+      - name: TimeInput
+        fullName: TimeInput
+        uid: tslib.TimeInput
+  - uid: tslib.Status
+    name: Status
+    spec.typeScript:
+      - name: Status
+        fullName: Status
+        uid: tslib.Status
+  - uid: tslib.Attributes
+    name: Attributes
+    spec.typeScript:
+      - name: Attributes
+        fullName: Attributes
+        uid: tslib.Attributes
+  - uid: tslib.Tracer
+    name: Tracer
+    spec.typeScript:
+      - name: Tracer
+        fullName: Tracer
+        uid: tslib.Tracer

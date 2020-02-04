@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.newPipeline'
+  - uid: '@azure/abort-controller.newPipeline'
     name: >-
       newPipeline(StorageSharedKeyCredential | AnonymousCredential |
       TokenCredential, StoragePipelineOptions)
@@ -18,8 +18,9 @@ items:
         - id: credential
           type:
             - >-
-              @azure/storage-file-datalake.StorageSharedKeyCredential |
-              @azure/storage-file-datalake.AnonymousCredential | TokenCredential
+              @azure/abort-controller.StorageSharedKeyCredential |
+              @azure/abort-controller.AnonymousCredential |
+              @azure/abort-controller.TokenCredential
           description: >-
             Such as AnonymousCredential, StorageSharedKeyCredential or any
             credential from the @azure/identity package to authenticate requests
@@ -28,39 +29,43 @@ items:
             used.
         - id: pipelineOptions
           type:
-            - '@azure/storage-file-datalake.StoragePipelineOptions'
+            - '@azure/abort-controller.StoragePipelineOptions'
           description: ''
           optional: true
       return:
         type:
-          - '@azure/storage-file-datalake.Pipeline'
+          - '@azure/abort-controller.Pipeline'
         description: A new Pipeline object.
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
   - uid: >-
-      @azure/storage-file-datalake.StorageSharedKeyCredential |
-      @azure/storage-file-datalake.AnonymousCredential | TokenCredential
-    name: AnonymousCredential | TokenCredential
+      @azure/abort-controller.StorageSharedKeyCredential |
+      @azure/abort-controller.AnonymousCredential |
+      @azure/abort-controller.TokenCredential
+    name: TokenCredential
     spec.typeScript:
       - name: StorageSharedKeyCredential
         fullName: StorageSharedKeyCredential
-        uid: '@azure/storage-file-datalake.StorageSharedKeyCredential'
+        uid: '@azure/abort-controller.StorageSharedKeyCredential'
       - name: ' | '
         fullName: ' | '
       - name: AnonymousCredential
         fullName: AnonymousCredential
-        uid: '@azure/storage-file-datalake.AnonymousCredential'
-      - name: ' | TokenCredential'
-        fullName: ' | TokenCredential'
-  - uid: '@azure/storage-file-datalake.StoragePipelineOptions'
+        uid: '@azure/abort-controller.AnonymousCredential'
+      - name: ' | '
+        fullName: ' | '
+      - name: TokenCredential
+        fullName: TokenCredential
+        uid: '@azure/abort-controller.TokenCredential'
+  - uid: '@azure/abort-controller.StoragePipelineOptions'
     name: StoragePipelineOptions
     spec.typeScript:
       - name: StoragePipelineOptions
         fullName: StoragePipelineOptions
-        uid: '@azure/storage-file-datalake.StoragePipelineOptions'
-  - uid: '@azure/storage-file-datalake.Pipeline'
+        uid: '@azure/abort-controller.StoragePipelineOptions'
+  - uid: '@azure/abort-controller.Pipeline'
     name: Pipeline
     spec.typeScript:
       - name: Pipeline
         fullName: Pipeline
-        uid: '@azure/storage-file-datalake.Pipeline'
+        uid: '@azure/abort-controller.Pipeline'

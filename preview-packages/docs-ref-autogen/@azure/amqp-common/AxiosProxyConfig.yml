@@ -1,0 +1,77 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.AxiosProxyConfig'
+    name: AxiosProxyConfig
+    fullName: AxiosProxyConfig
+    children:
+      - '@azure/ms-rest-azure-env.AxiosProxyConfig.auth'
+      - '@azure/ms-rest-azure-env.AxiosProxyConfig.host'
+      - '@azure/ms-rest-azure-env.AxiosProxyConfig.port'
+      - '@azure/ms-rest-azure-env.AxiosProxyConfig.protocol'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosProxyConfig.auth'
+    name: auth
+    fullName: auth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'auth?: undefined | Object'
+      return:
+        type:
+          - undefined | Object
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosProxyConfig.host'
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'host: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosProxyConfig.port'
+    name: port
+    fullName: port
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'port: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosProxyConfig.protocol'
+    name: protocol
+    fullName: protocol
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'protocol?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'

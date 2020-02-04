@@ -1,19 +1,20 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.StorageConnectionStringModel'
+  - uid: '@azure/ms-rest-azure-env.StorageConnectionStringModel'
     name: StorageConnectionStringModel
     fullName: StorageConnectionStringModel
     children:
-      - '@azure/amqp-common.StorageConnectionStringModel.AccountKey'
-      - '@azure/amqp-common.StorageConnectionStringModel.AccountName'
-      - '@azure/amqp-common.StorageConnectionStringModel.DefaultEndpointsProtocol'
-      - '@azure/amqp-common.StorageConnectionStringModel.EndpointSuffix'
+      - '@azure/ms-rest-azure-env.StorageConnectionStringModel.AccountKey'
+      - '@azure/ms-rest-azure-env.StorageConnectionStringModel.AccountName'
+      - >-
+        @azure/ms-rest-azure-env.StorageConnectionStringModel.DefaultEndpointsProtocol
+      - '@azure/ms-rest-azure-env.StorageConnectionStringModel.EndpointSuffix'
     langs:
       - typeScript
     type: interface
     summary: Describes the stroage connection string model.
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.StorageConnectionStringModel.AccountKey'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.StorageConnectionStringModel.AccountKey'
     name: AccountKey
     fullName: AccountKey
     children: []
@@ -27,8 +28,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.StorageConnectionStringModel.AccountName'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.StorageConnectionStringModel.AccountName'
     name: AccountName
     fullName: AccountName
     children: []
@@ -42,8 +43,9 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.StorageConnectionStringModel.DefaultEndpointsProtocol'
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.StorageConnectionStringModel.DefaultEndpointsProtocol
     name: DefaultEndpointsProtocol
     fullName: DefaultEndpointsProtocol
     children: []
@@ -57,8 +59,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.StorageConnectionStringModel.EndpointSuffix'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.StorageConnectionStringModel.EndpointSuffix'
     name: EndpointSuffix
     fullName: EndpointSuffix
     children: []
@@ -72,4 +74,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'

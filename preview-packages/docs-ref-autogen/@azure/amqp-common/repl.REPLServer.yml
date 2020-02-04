@@ -1,0 +1,940 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer'
+    name: REPLServer
+    fullName: REPLServer
+    children:
+      - '@azure/ms-rest-azure-env.repl.REPLServer.addListener_1'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.addListener_2'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.addListener'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.close'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.context'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.cursor'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.defineCommand'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.displayPrompt'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.emit_1'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.emit_2'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.emit'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.eventNames'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.getCursorPos'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.getMaxListeners'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.inputStream'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.line'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.listenerCount'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.listeners'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.off'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.on_1'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.on_2'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.on'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.once_1'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.once_2'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.once'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.outputStream'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.pause'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.prependListener_1'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.prependListener_2'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.prependListener'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.prependOnceListener_1'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.prependOnceListener_2'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.prependOnceListener'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.prompt'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.question'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.rawListeners'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.removeAllListeners'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.removeListener'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.resume'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.setMaxListeners'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.setPrompt'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.terminal'
+      - '@azure/ms-rest-azure-env.repl.REPLServer.write'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@azure/ms-rest-azure-env.readline.Interface'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.addListener_1'
+    name: 'addListener("exit", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "exit", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.addListener_2'
+    name: 'addListener("reset", (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "reset", listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"reset"'
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.addListener'
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      events.EventEmitter
+      1. exit
+      2. reset
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.close'
+    name: close()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function close()
+      parameters: []
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.context'
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'context: Context'
+      return:
+        type:
+          - Context
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.cursor'
+    name: cursor
+    fullName: cursor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The current cursor position in the input line
+    syntax:
+      content: 'cursor: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.defineCommand'
+    name: 'defineCommand(string, Function | Object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function defineCommand(keyword: string, cmd: Function | Object)'
+      parameters:
+        - id: keyword
+          type:
+            - string
+          description: ''
+        - id: cmd
+          type:
+            - Function | Object
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.displayPrompt'
+    name: displayPrompt(undefined | false | true)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function displayPrompt(preserveCursor?: undefined | false | true)'
+      parameters:
+        - id: preserveCursor
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.emit_1'
+    name: emit("exit")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "exit")'
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.emit_2'
+    name: 'emit("reset", any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "reset", context: any)'
+      parameters:
+        - id: event
+          type:
+            - '"reset"'
+          description: ''
+        - id: context
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.getCursorPos'
+    name: getCursorPos()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns the real position of the cursor in relation to the input
+      prompt + string.  Long input (wrapping) strings, as well as multiple
+      line prompts are included in the calculations.
+    syntax:
+      content: function getCursorPos()
+      parameters: []
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.readline.CursorPos'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.inputStream'
+    name: inputStream
+    fullName: inputStream
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'inputStream: ReadableStream'
+      return:
+        type:
+          - ReadableStream
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.line'
+    name: line
+    fullName: line
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The current input data
+    syntax:
+      content: 'line: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.on_1'
+    name: 'on("exit", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "exit", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.on_2'
+    name: 'on("reset", (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "reset", listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"reset"'
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.on'
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.once_1'
+    name: 'once("exit", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "exit", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.once_2'
+    name: 'once("reset", (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "reset", listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"reset"'
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.once'
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.outputStream'
+    name: outputStream
+    fullName: outputStream
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'outputStream: WritableStream'
+      return:
+        type:
+          - WritableStream
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.pause'
+    name: pause()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function pause()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.prependListener_1'
+    name: 'prependListener("exit", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "exit", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.prependListener_2'
+    name: 'prependListener("reset", (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "reset", listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"reset"'
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.prependListener'
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.prependOnceListener_1'
+    name: 'prependOnceListener("exit", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "exit", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.prependOnceListener_2'
+    name: 'prependOnceListener("reset", (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "reset", listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"reset"'
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.prependOnceListener'
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.prompt'
+    name: prompt(undefined | false | true)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prompt(preserveCursor?: undefined | false | true)'
+      parameters:
+        - id: preserveCursor
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.question'
+    name: 'question(string, (answer: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function question(query: string, callback: (answer: string) => void)'
+      parameters:
+        - id: query
+          type:
+            - string
+          description: ''
+        - id: callback
+          type:
+            - '(answer: string) => void'
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.removeListener'
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.resume'
+    name: resume()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resume()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.setPrompt'
+    name: setPrompt(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setPrompt(prompt: string)'
+      parameters:
+        - id: prompt
+          type:
+            - string
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.terminal'
+    name: terminal
+    fullName: terminal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'terminal: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.REPLServer.write'
+    name: 'write(string | Buffer, Key)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function write(data: string | Buffer, key?: Key)'
+      parameters:
+        - id: data
+          type:
+            - string | Buffer
+          description: ''
+        - id: key
+          type:
+            - '@azure/ms-rest-azure-env.readline.Key'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.readline.Interface'
+    name: Interface
+    spec.typeScript:
+      - name: Interface
+        fullName: Interface
+        uid: '@azure/ms-rest-azure-env.readline.Interface'
+  - uid: '@azure/ms-rest-azure-env.readline.CursorPos'
+    name: CursorPos
+    spec.typeScript:
+      - name: CursorPos
+        fullName: CursorPos
+        uid: '@azure/ms-rest-azure-env.readline.CursorPos'
+  - uid: '@azure/ms-rest-azure-env.readline.Key'
+    name: Key
+    spec.typeScript:
+      - name: Key
+        fullName: Key
+        uid: '@azure/ms-rest-azure-env.readline.Key'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'

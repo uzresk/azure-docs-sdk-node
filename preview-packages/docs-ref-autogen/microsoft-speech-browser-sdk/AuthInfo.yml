@@ -40,7 +40,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'HeaderName: string'
+      content: string HeaderName
       return:
         type:
           - string
@@ -55,7 +55,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Token: string'
+      content: string Token
       return:
         type:
           - string

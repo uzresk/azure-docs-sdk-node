@@ -1,0 +1,46 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Range'
+    name: Range
+    fullName: Range
+    children:
+      - '@azure/abort-controller.Range.count'
+      - '@azure/abort-controller.Range.offset'
+    langs:
+      - typeScript
+    type: interface
+    summary: Range for Blob Service Operations.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Range.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Optional. Count of bytes, larger than 0.
+      If not provided, will return bytes from offset to the end.
+    optional: true
+    syntax:
+      content: 'count?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Range.offset'
+    name: offset
+    fullName: offset
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'StartByte, larger than or equal 0.'
+    syntax:
+      content: 'offset: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'

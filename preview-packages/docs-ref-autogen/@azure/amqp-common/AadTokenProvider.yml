@@ -1,20 +1,20 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.AadTokenProvider'
+  - uid: '@azure/ms-rest-azure-env.AadTokenProvider'
     name: AadTokenProvider
     fullName: AadTokenProvider
     children:
-      - '@azure/amqp-common.AadTokenProvider.constructor'
-      - '@azure/amqp-common.AadTokenProvider.credentials'
-      - '@azure/amqp-common.AadTokenProvider.getToken'
-      - '@azure/amqp-common.AadTokenProvider.tokenRenewalMarginInSeconds'
-      - '@azure/amqp-common.AadTokenProvider.tokenValidTimeInSeconds'
+      - '@azure/ms-rest-azure-env.AadTokenProvider.constructor'
+      - '@azure/ms-rest-azure-env.AadTokenProvider.credentials'
+      - '@azure/ms-rest-azure-env.AadTokenProvider.getToken'
+      - '@azure/ms-rest-azure-env.AadTokenProvider.tokenRenewalMarginInSeconds'
+      - '@azure/ms-rest-azure-env.AadTokenProvider.tokenValidTimeInSeconds'
     langs:
       - typeScript
     type: class
     summary: Defines the AAD (Azure ActiveDirectory) TokenProvider.
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.AadTokenProvider.constructor'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AadTokenProvider.constructor'
     name: >-
       AadTokenProvider(ApplicationTokenCredentials | UserTokenCredentials |
       DeviceTokenCredentials | MSITokenCredentials)
@@ -31,11 +31,13 @@ items:
         - id: credentials
           type:
             - >-
-              ApplicationTokenCredentials | UserTokenCredentials |
-              DeviceTokenCredentials | MSITokenCredentials
+              @azure/ms-rest-azure-env.ApplicationTokenCredentials |
+              @azure/ms-rest-azure-env.UserTokenCredentials |
+              @azure/ms-rest-azure-env.DeviceTokenCredentials |
+              @azure/ms-rest-azure-env.MSITokenCredentials
           description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.AadTokenProvider.credentials'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AadTokenProvider.credentials'
     name: credentials
     fullName: credentials
     children: []
@@ -53,11 +55,13 @@ items:
       return:
         type:
           - >-
-            ApplicationTokenCredentials | UserTokenCredentials |
-            DeviceTokenCredentials | MSITokenCredentials
+            @azure/ms-rest-azure-env.ApplicationTokenCredentials |
+            @azure/ms-rest-azure-env.UserTokenCredentials |
+            @azure/ms-rest-azure-env.DeviceTokenCredentials |
+            @azure/ms-rest-azure-env.MSITokenCredentials
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.AadTokenProvider.getToken'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AadTokenProvider.getToken'
     name: getToken(undefined | string)
     children: []
     type: method
@@ -74,10 +78,10 @@ items:
           optional: true
       return:
         type:
-          - Promise<@azure/amqp-common.TokenInfo>
+          - Promise<@azure/ms-rest-azure-env.TokenInfo>
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.AadTokenProvider.tokenRenewalMarginInSeconds'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AadTokenProvider.tokenRenewalMarginInSeconds'
     name: tokenRenewalMarginInSeconds
     fullName: tokenRenewalMarginInSeconds
     children: []
@@ -104,8 +108,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.AadTokenProvider.tokenValidTimeInSeconds'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AadTokenProvider.tokenValidTimeInSeconds'
     name: tokenValidTimeInSeconds
     fullName: tokenValidTimeInSeconds
     children: []
@@ -125,15 +129,40 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'
 references:
-  - uid: Promise<@azure/amqp-common.TokenInfo>
+  - uid: >-
+      @azure/ms-rest-azure-env.ApplicationTokenCredentials |
+      @azure/ms-rest-azure-env.UserTokenCredentials |
+      @azure/ms-rest-azure-env.DeviceTokenCredentials |
+      @azure/ms-rest-azure-env.MSITokenCredentials
+    name: MSITokenCredentials
+    spec.typeScript:
+      - name: ApplicationTokenCredentials
+        fullName: ApplicationTokenCredentials
+        uid: '@azure/ms-rest-azure-env.ApplicationTokenCredentials'
+      - name: ' | '
+        fullName: ' | '
+      - name: UserTokenCredentials
+        fullName: UserTokenCredentials
+        uid: '@azure/ms-rest-azure-env.UserTokenCredentials'
+      - name: ' | '
+        fullName: ' | '
+      - name: DeviceTokenCredentials
+        fullName: DeviceTokenCredentials
+        uid: '@azure/ms-rest-azure-env.DeviceTokenCredentials'
+      - name: ' | '
+        fullName: ' | '
+      - name: MSITokenCredentials
+        fullName: MSITokenCredentials
+        uid: '@azure/ms-rest-azure-env.MSITokenCredentials'
+  - uid: Promise<@azure/ms-rest-azure-env.TokenInfo>
     name: TokenInfo>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: TokenInfo
         fullName: TokenInfo
-        uid: '@azure/amqp-common.TokenInfo'
+        uid: '@azure/ms-rest-azure-env.TokenInfo'
       - name: '>'
         fullName: '>'

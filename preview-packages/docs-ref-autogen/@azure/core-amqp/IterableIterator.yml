@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.IterableIterator
+    name: IterableIterator
+    fullName: IterableIterator<T>
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib

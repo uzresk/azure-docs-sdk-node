@@ -1,0 +1,187 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.Tracer
+    name: Tracer
+    fullName: Tracer
+    children:
+      - tslib.Tracer.bind
+      - tslib.Tracer.getBinaryFormat
+      - tslib.Tracer.getCurrentSpan
+      - tslib.Tracer.getHttpTextFormat
+      - tslib.Tracer.startSpan
+      - tslib.Tracer.withSpan
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      Tracer provides an interface for creating <xref:Span>s and propagating
+
+      context in-process.
+
+      Users may choose to use manual or automatic Context propagation. Because
+      of
+
+      that this class offers APIs to facilitate both usages.
+    package: tslib
+  - uid: tslib.Tracer.bind
+    name: 'bind(T, Span)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Bind a span as the target's scope or propagate the current one.
+    syntax:
+      content: 'function bind<T>(target: T, span?: Span)'
+      parameters:
+        - id: target
+          type:
+            - T
+          description: Any object to which a scope need to be set
+        - id: span
+          type:
+            - tslib.Span
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: tslib
+  - uid: tslib.Tracer.getBinaryFormat
+    name: getBinaryFormat()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Returns the <xref:BinaryFormat> interface which can serialize/deserialize
+      Spans.
+      If no tracer implementation is provided, this defaults to the W3C Trace
+      Context binary format <xref:BinaryFormat>. For more details see
+      <a href="https://w3c.github.io/trace-context-binary/">W3C Trace Context
+      binary protocol</a>.
+    syntax:
+      content: function getBinaryFormat()
+      parameters: []
+      return:
+        type:
+          - tslib.BinaryFormat
+        description: 'the {@link BinaryFormat} for this implementation.'
+    package: tslib
+  - uid: tslib.Tracer.getCurrentSpan
+    name: getCurrentSpan()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Returns the current Span from the current context if available.
+      If there is no Span associated with the current context, null is returned.
+    syntax:
+      content: function getCurrentSpan()
+      parameters: []
+      return:
+        type:
+          - tslib.Span | null
+        description: Span The currently active Span
+    package: tslib
+  - uid: tslib.Tracer.getHttpTextFormat
+    name: getHttpTextFormat()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Returns the <xref:HttpTextFormat> interface which can inject/extract
+      Spans.
+      If no tracer implementation is provided, this defaults to the W3C Trace
+      Context HTTP text format <xref:HttpTextFormat>. For more details see
+      <a href="https://w3c.github.io/trace-context/">W3C Trace Context</a>.
+    syntax:
+      content: function getHttpTextFormat()
+      parameters: []
+      return:
+        type:
+          - tslib.HttpTextFormat
+        description: 'the {@link HttpTextFormat} for this implementation.'
+    package: tslib
+  - uid: tslib.Tracer.startSpan
+    name: 'startSpan(string, SpanOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Starts a new <xref:Span>.'
+    syntax:
+      content: 'function startSpan(name: string, options?: SpanOptions)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: The name of the span
+        - id: options
+          type:
+            - tslib.SpanOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - tslib.Span
+        description: Span The newly created span
+    package: tslib
+  - uid: tslib.Tracer.withSpan
+    name: 'withSpan(Span, T)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Executes the function given by fn within the context provided by Span
+    syntax:
+      content: 'function withSpan<T>(span: Span, fn: T)'
+      parameters:
+        - id: span
+          type:
+            - tslib.Span
+          description: The span that provides the context
+        - id: fn
+          type:
+            - T
+          description: The function to be executed inside the provided context
+      return:
+        type:
+          - ReturnType<T>
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.Span
+    name: Span
+    spec.typeScript:
+      - name: Span
+        fullName: Span
+        uid: tslib.Span
+  - uid: tslib.BinaryFormat
+    name: BinaryFormat
+    spec.typeScript:
+      - name: BinaryFormat
+        fullName: BinaryFormat
+        uid: tslib.BinaryFormat
+  - uid: tslib.Span | null
+    name: Span | null
+    spec.typeScript:
+      - name: Span
+        fullName: Span
+        uid: tslib.Span
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.HttpTextFormat
+    name: HttpTextFormat
+    spec.typeScript:
+      - name: HttpTextFormat
+        fullName: HttpTextFormat
+        uid: tslib.HttpTextFormat
+  - uid: tslib.SpanOptions
+    name: SpanOptions
+    spec.typeScript:
+      - name: SpanOptions
+        fullName: SpanOptions
+        uid: tslib.SpanOptions

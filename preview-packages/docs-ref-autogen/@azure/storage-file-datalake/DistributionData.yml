@@ -1,0 +1,250 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.DistributionData'
+    name: DistributionData
+    fullName: DistributionData
+    children:
+      - '@azure/abort-controller.DistributionData.bucketCounts'
+      - '@azure/abort-controller.DistributionData.buckets'
+      - '@azure/abort-controller.DistributionData.count'
+      - '@azure/abort-controller.DistributionData.exemplars'
+      - '@azure/abort-controller.DistributionData.mean'
+      - '@azure/abort-controller.DistributionData.startTime'
+      - '@azure/abort-controller.DistributionData.stdDeviation'
+      - '@azure/abort-controller.DistributionData.sum'
+      - '@azure/abort-controller.DistributionData.sumOfSquaredDeviation'
+      - '@azure/abort-controller.DistributionData.tagValues'
+      - '@azure/abort-controller.DistributionData.timestamp'
+      - '@azure/abort-controller.DistributionData.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: This AggregationData contains a histogram of the collected values.
+    extends:
+      name: '@azure/abort-controller.AggregationMetadata'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DistributionData.bucketCounts'
+    name: bucketCounts
+    fullName: bucketCounts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Buckets count
+    optional: true
+    syntax:
+      content: 'bucketCounts?: number[]'
+      return:
+        type:
+          - 'number[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DistributionData.buckets'
+    name: buckets
+    fullName: buckets
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Bucket distribution of the histogram
+    syntax:
+      content: 'buckets: Bucket[]'
+      return:
+        type:
+          - '@azure/abort-controller.Bucket[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DistributionData.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get the total count of all recorded values in the histogram
+    syntax:
+      content: 'count: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DistributionData.exemplars'
+    name: exemplars
+    fullName: exemplars
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If the distribution does not have a histogram, then omit this field.'
+    optional: true
+    syntax:
+      content: 'exemplars?: StatsExemplar[]'
+      return:
+        type:
+          - '@azure/abort-controller.StatsExemplar[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DistributionData.mean'
+    name: mean
+    fullName: mean
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get the computed mean value of all recorded values in the histogram
+    syntax:
+      content: 'mean: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DistributionData.startTime'
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The first timestamp a datapoint was added
+    syntax:
+      content: 'startTime: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DistributionData.stdDeviation'
+    name: stdDeviation
+    fullName: stdDeviation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Get the computed standard deviation of all recorded values in the
+      histogram
+    syntax:
+      content: 'stdDeviation: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DistributionData.sum'
+    name: sum
+    fullName: sum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Sum of all recorded values in the histogram
+    syntax:
+      content: 'sum: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DistributionData.sumOfSquaredDeviation'
+    name: sumOfSquaredDeviation
+    fullName: sumOfSquaredDeviation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Get the computed sum of squared deviations of all recorded values in the
+      histogram.
+    syntax:
+      content: 'sumOfSquaredDeviation: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DistributionData.tagValues'
+    name: tagValues
+    fullName: tagValues
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The tagValues that this AggregationData collects and aggregates
+    syntax:
+      content: 'tagValues: Array<TagValue | null>'
+      return:
+        type:
+          - Array<@azure/abort-controller.TagValue | null>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DistributionData.timestamp'
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The latest timestamp a new data point was recorded
+    syntax:
+      content: 'timestamp: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DistributionData.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: DISTRIBUTION'
+      return:
+        type:
+          - '@azure/abort-controller.AggregationType.DISTRIBUTION'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.AggregationMetadata'
+    name: AggregationMetadata
+    spec.typeScript:
+      - name: AggregationMetadata
+        fullName: AggregationMetadata
+        uid: '@azure/abort-controller.AggregationMetadata'
+  - uid: '@azure/abort-controller.Bucket[]'
+    name: 'Bucket[]'
+    spec.typeScript:
+      - name: Bucket
+        fullName: Bucket
+        uid: '@azure/abort-controller.Bucket'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.StatsExemplar[]'
+    name: 'StatsExemplar[]'
+    spec.typeScript:
+      - name: StatsExemplar
+        fullName: StatsExemplar
+        uid: '@azure/abort-controller.StatsExemplar'
+      - name: '[]'
+        fullName: '[]'
+  - uid: Array<@azure/abort-controller.TagValue | null>
+    name: TagValue | null>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: TagValue
+        fullName: TagValue
+        uid: '@azure/abort-controller.TagValue'
+      - name: ' | null>'
+        fullName: ' | null>'
+  - uid: '@azure/abort-controller.AggregationType.DISTRIBUTION'
+    name: DISTRIBUTION
+    spec.typeScript:
+      - name: DISTRIBUTION
+        fullName: DISTRIBUTION
+        uid: '@azure/abort-controller.AggregationType.DISTRIBUTION'

@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.ImportMeta
+    name: ImportMeta
+    fullName: ImportMeta
+    children:
+      - tslib.ImportMeta.url
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.ImportMeta.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'url: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib

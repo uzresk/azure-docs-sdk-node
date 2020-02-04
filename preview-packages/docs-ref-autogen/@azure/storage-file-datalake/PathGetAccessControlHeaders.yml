@@ -1,22 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathGetAccessControlHeaders'
+  - uid: '@azure/abort-controller.PathGetAccessControlHeaders'
     name: PathGetAccessControlHeaders
     fullName: PathGetAccessControlHeaders
     children:
-      - '@azure/storage-file-datalake.PathGetAccessControlHeaders.date'
-      - '@azure/storage-file-datalake.PathGetAccessControlHeaders.eTag'
-      - '@azure/storage-file-datalake.PathGetAccessControlHeaders.group'
-      - '@azure/storage-file-datalake.PathGetAccessControlHeaders.lastModified'
-      - '@azure/storage-file-datalake.PathGetAccessControlHeaders.owner'
-      - '@azure/storage-file-datalake.PathGetAccessControlHeaders.requestId'
-      - '@azure/storage-file-datalake.PathGetAccessControlHeaders.version'
+      - '@azure/abort-controller.PathGetAccessControlHeaders.date'
+      - '@azure/abort-controller.PathGetAccessControlHeaders.eTag'
+      - '@azure/abort-controller.PathGetAccessControlHeaders.group'
+      - '@azure/abort-controller.PathGetAccessControlHeaders.lastModified'
+      - '@azure/abort-controller.PathGetAccessControlHeaders.owner'
+      - '@azure/abort-controller.PathGetAccessControlHeaders.requestId'
+      - '@azure/abort-controller.PathGetAccessControlHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetAccessControlHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetAccessControlHeaders.date'
     name: date
     fullName: date
     children: []
@@ -29,10 +29,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetAccessControlHeaders.eTag'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetAccessControlHeaders.eTag'
     name: eTag
     fullName: eTag
     children: []
@@ -47,8 +47,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetAccessControlHeaders.group'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetAccessControlHeaders.group'
     name: group
     fullName: group
     children: []
@@ -63,8 +63,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetAccessControlHeaders.lastModified'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetAccessControlHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -77,10 +77,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetAccessControlHeaders.owner'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetAccessControlHeaders.owner'
     name: owner
     fullName: owner
     children: []
@@ -95,8 +95,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetAccessControlHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetAccessControlHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -111,8 +111,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetAccessControlHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetAccessControlHeaders.version'
     name: version
     fullName: version
     children: []
@@ -127,4 +127,11 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'

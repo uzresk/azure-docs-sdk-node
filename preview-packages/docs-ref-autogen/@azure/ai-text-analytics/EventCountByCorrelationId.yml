@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.EventCountByCorrelationId'
+    name: EventCountByCorrelationId
+    fullName: EventCountByCorrelationId
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'

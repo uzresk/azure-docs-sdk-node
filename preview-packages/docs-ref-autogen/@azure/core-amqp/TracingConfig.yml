@@ -1,0 +1,150 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.TracingConfig
+    name: TracingConfig
+    fullName: TracingConfig
+    children:
+      - tslib.TracingConfig.exporter
+      - tslib.TracingConfig.logger
+      - tslib.TracingConfig.logLevel
+      - tslib.TracingConfig.maximumLabelValueSize
+      - tslib.TracingConfig.plugins
+      - tslib.TracingConfig.stats
+    langs:
+      - typeScript
+    type: interface
+    summary: Available configuration options.
+    package: tslib
+  - uid: tslib.TracingConfig.exporter
+    name: exporter
+    fullName: exporter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: An exporter object
+    optional: true
+    syntax:
+      content: 'exporter?: Exporter'
+      return:
+        type:
+          - tslib.Exporter
+        description: ''
+    package: tslib
+  - uid: tslib.TracingConfig.logger
+    name: logger
+    fullName: logger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: An instance of a logger
+    optional: true
+    syntax:
+      content: 'logger?: Logger'
+      return:
+        type:
+          - tslib.Logger
+        description: ''
+    package: tslib
+  - uid: tslib.TracingConfig.logLevel
+    name: logLevel
+    fullName: logLevel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'level of logger - 0:disable, 1: error, 2: warn, 3: info, 4: debug'
+    optional: true
+    syntax:
+      content: 'logLevel?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.TracingConfig.maximumLabelValueSize
+    name: maximumLabelValueSize
+    fullName: maximumLabelValueSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The maximum number of characters reported on a label value.
+    optional: true
+    syntax:
+      content: 'maximumLabelValueSize?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.TracingConfig.plugins
+    name: plugins
+    fullName: plugins
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A list of trace instrumentations plugins to load.
+      Each key is the name of the module to trace, and its
+      value is the name of the package which has the plugin
+      implementation.
+      Ex.:
+      plugins: {
+       'http': '@opencensus/opencensus-instrumentation-http',
+       'mongodb-core': '@opencensus/opencensus-instrumentation-mongodb-core',
+        ...
+      }
+      Any user-provided value will be added to the default list.
+      It will override any default plugin for the same key.
+    optional: true
+    syntax:
+      content: 'plugins?: PluginNames'
+      return:
+        type:
+          - tslib.PluginNames
+        description: ''
+    package: tslib
+  - uid: tslib.TracingConfig.stats
+    name: stats
+    fullName: stats
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: An instance of a stats
+    optional: true
+    syntax:
+      content: 'stats?: Stats'
+      return:
+        type:
+          - tslib.Stats
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.Exporter
+    name: Exporter
+    spec.typeScript:
+      - name: Exporter
+        fullName: Exporter
+        uid: tslib.Exporter
+  - uid: tslib.Logger
+    name: Logger
+    spec.typeScript:
+      - name: Logger
+        fullName: Logger
+        uid: tslib.Logger
+  - uid: tslib.PluginNames
+    name: PluginNames
+    spec.typeScript:
+      - name: PluginNames
+        fullName: PluginNames
+        uid: tslib.PluginNames
+  - uid: tslib.Stats
+    name: Stats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: tslib.Stats

@@ -1,0 +1,96 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.os.CpuInfo'
+    name: CpuInfo
+    fullName: CpuInfo
+    children:
+      - '@azure/abort-controller.os.CpuInfo.model'
+      - '@azure/abort-controller.os.CpuInfo.speed'
+      - '@azure/abort-controller.os.CpuInfo.times'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.os.CpuInfo.model'
+    name: model
+    fullName: model
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'model: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.os.CpuInfo.speed'
+    name: speed
+    fullName: speed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'speed: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.os.CpuInfo.times'
+    name: times
+    fullName: times
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'times: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.os.NetworkInterfaceBase'
+    name: NetworkInterfaceBase
+    spec.typeScript:
+      - name: NetworkInterfaceBase
+        fullName: NetworkInterfaceBase
+        uid: '@azure/abort-controller.os.NetworkInterfaceBase'
+  - uid: '@azure/abort-controller.os.CpuInfo[]'
+    name: 'CpuInfo[]'
+    spec.typeScript:
+      - name: CpuInfo
+        fullName: CpuInfo
+        uid: '@azure/abort-controller.os.CpuInfo'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.Platform'
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: '@azure/abort-controller.NodeJS.Platform'
+  - uid: '@azure/abort-controller.os.UserInfo<Buffer>'
+    name: UserInfo<Buffer>
+    spec.typeScript:
+      - name: UserInfo
+        fullName: UserInfo
+        uid: '@azure/abort-controller.os.UserInfo'
+      - name: <Buffer>
+        fullName: <Buffer>
+  - uid: '@azure/abort-controller.os.UserInfo<string>'
+    name: UserInfo<string>
+    spec.typeScript:
+      - name: UserInfo
+        fullName: UserInfo
+        uid: '@azure/abort-controller.os.UserInfo'
+      - name: <string>
+        fullName: <string>

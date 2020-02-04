@@ -1,23 +1,23 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.RetryConfig'
+  - uid: '@azure/ms-rest-azure-env.RetryConfig'
     name: RetryConfig
     fullName: RetryConfig<T>
     children:
-      - '@azure/amqp-common.RetryConfig.connectionHost'
-      - '@azure/amqp-common.RetryConfig.connectionId'
-      - '@azure/amqp-common.RetryConfig.delayInSeconds'
-      - '@azure/amqp-common.RetryConfig.operation'
-      - '@azure/amqp-common.RetryConfig.operationType'
-      - '@azure/amqp-common.RetryConfig.times'
+      - '@azure/ms-rest-azure-env.RetryConfig.connectionHost'
+      - '@azure/ms-rest-azure-env.RetryConfig.connectionId'
+      - '@azure/ms-rest-azure-env.RetryConfig.delayInSeconds'
+      - '@azure/ms-rest-azure-env.RetryConfig.operation'
+      - '@azure/ms-rest-azure-env.RetryConfig.operationType'
+      - '@azure/ms-rest-azure-env.RetryConfig.times'
     langs:
       - typeScript
     type: interface
     summary: >-
       Describes the parameters that need to be configured for the retry
       operation.
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.RetryConfig.connectionHost'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.RetryConfig.connectionHost'
     name: connectionHost
     fullName: connectionHost
     children: []
@@ -34,8 +34,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.RetryConfig.connectionId'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.RetryConfig.connectionId'
     name: connectionId
     fullName: connectionId
     children: []
@@ -53,8 +53,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.RetryConfig.delayInSeconds'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.RetryConfig.delayInSeconds'
     name: delayInSeconds
     fullName: delayInSeconds
     children: []
@@ -73,8 +73,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.RetryConfig.operation'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.RetryConfig.operation'
     name: operation
     fullName: operation
     children: []
@@ -88,8 +88,8 @@ items:
         type:
           - () => Promise<T>
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.RetryConfig.operationType'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.RetryConfig.operationType'
     name: operationType
     fullName: operationType
     children: []
@@ -105,10 +105,10 @@ items:
       content: 'operationType: RetryOperationType'
       return:
         type:
-          - '@azure/amqp-common.RetryOperationType'
+          - '@azure/ms-rest-azure-env.RetryOperationType'
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.RetryConfig.times'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.RetryConfig.times'
     name: times
     fullName: times
     children: []
@@ -125,11 +125,11 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'
 references:
-  - uid: '@azure/amqp-common.RetryOperationType'
+  - uid: '@azure/ms-rest-azure-env.RetryOperationType'
     name: RetryOperationType
     spec.typeScript:
       - name: RetryOperationType
         fullName: RetryOperationType
-        uid: '@azure/amqp-common.RetryOperationType'
+        uid: '@azure/ms-rest-azure-env.RetryOperationType'

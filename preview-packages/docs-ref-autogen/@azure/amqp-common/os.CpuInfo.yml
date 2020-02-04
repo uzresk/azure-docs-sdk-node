@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.os.CpuInfo'
+    name: CpuInfo
+    fullName: CpuInfo
+    children:
+      - '@azure/ms-rest-azure-env.os.CpuInfo.model'
+      - '@azure/ms-rest-azure-env.os.CpuInfo.speed'
+      - '@azure/ms-rest-azure-env.os.CpuInfo.times'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.CpuInfo.model'
+    name: model
+    fullName: model
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'model: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.CpuInfo.speed'
+    name: speed
+    fullName: speed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'speed: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.CpuInfo.times'
+    name: times
+    fullName: times
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'times: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Platform'
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: '@azure/ms-rest-azure-env.NodeJS.Platform'

@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.prepareXMLRootList'
+    name: 'prepareXMLRootList(any, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prepareXMLRootList(obj: any, elementName: string)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+        - id: elementName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Object
+        description: ''
+    package: '@azure/abort-controller'

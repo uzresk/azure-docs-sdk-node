@@ -1,0 +1,219 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.URIRegExps'
+    name: URIRegExps
+    fullName: URIRegExps
+    children:
+      - '@azure/ms-rest-azure-env.URIRegExps.ESCAPE'
+      - '@azure/ms-rest-azure-env.URIRegExps.IPV4ADDRESS'
+      - '@azure/ms-rest-azure-env.URIRegExps.IPV6ADDRESS'
+      - '@azure/ms-rest-azure-env.URIRegExps.NOT_FRAGMENT'
+      - '@azure/ms-rest-azure-env.URIRegExps.NOT_HOST'
+      - '@azure/ms-rest-azure-env.URIRegExps.NOT_PATH'
+      - '@azure/ms-rest-azure-env.URIRegExps.NOT_PATH_NOSCHEME'
+      - '@azure/ms-rest-azure-env.URIRegExps.NOT_QUERY'
+      - '@azure/ms-rest-azure-env.URIRegExps.NOT_SCHEME'
+      - '@azure/ms-rest-azure-env.URIRegExps.NOT_USERINFO'
+      - '@azure/ms-rest-azure-env.URIRegExps.OTHER_CHARS'
+      - '@azure/ms-rest-azure-env.URIRegExps.PCT_ENCODED'
+      - '@azure/ms-rest-azure-env.URIRegExps.UNRESERVED'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URIRegExps.ESCAPE'
+    name: ESCAPE
+    fullName: ESCAPE
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ESCAPE: RegExp'
+      return:
+        type:
+          - RegExp
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URIRegExps.IPV4ADDRESS'
+    name: IPV4ADDRESS
+    fullName: IPV4ADDRESS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IPV4ADDRESS: RegExp'
+      return:
+        type:
+          - RegExp
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URIRegExps.IPV6ADDRESS'
+    name: IPV6ADDRESS
+    fullName: IPV6ADDRESS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IPV6ADDRESS: RegExp'
+      return:
+        type:
+          - RegExp
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URIRegExps.NOT_FRAGMENT'
+    name: NOT_FRAGMENT
+    fullName: NOT_FRAGMENT
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'NOT_FRAGMENT: RegExp'
+      return:
+        type:
+          - RegExp
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URIRegExps.NOT_HOST'
+    name: NOT_HOST
+    fullName: NOT_HOST
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'NOT_HOST: RegExp'
+      return:
+        type:
+          - RegExp
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URIRegExps.NOT_PATH'
+    name: NOT_PATH
+    fullName: NOT_PATH
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'NOT_PATH: RegExp'
+      return:
+        type:
+          - RegExp
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URIRegExps.NOT_PATH_NOSCHEME'
+    name: NOT_PATH_NOSCHEME
+    fullName: NOT_PATH_NOSCHEME
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'NOT_PATH_NOSCHEME: RegExp'
+      return:
+        type:
+          - RegExp
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URIRegExps.NOT_QUERY'
+    name: NOT_QUERY
+    fullName: NOT_QUERY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'NOT_QUERY: RegExp'
+      return:
+        type:
+          - RegExp
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URIRegExps.NOT_SCHEME'
+    name: NOT_SCHEME
+    fullName: NOT_SCHEME
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'NOT_SCHEME: RegExp'
+      return:
+        type:
+          - RegExp
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URIRegExps.NOT_USERINFO'
+    name: NOT_USERINFO
+    fullName: NOT_USERINFO
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'NOT_USERINFO: RegExp'
+      return:
+        type:
+          - RegExp
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URIRegExps.OTHER_CHARS'
+    name: OTHER_CHARS
+    fullName: OTHER_CHARS
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'OTHER_CHARS: RegExp'
+      return:
+        type:
+          - RegExp
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URIRegExps.PCT_ENCODED'
+    name: PCT_ENCODED
+    fullName: PCT_ENCODED
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'PCT_ENCODED: RegExp'
+      return:
+        type:
+          - RegExp
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URIRegExps.UNRESERVED'
+    name: UNRESERVED
+    fullName: UNRESERVED
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'UNRESERVED: RegExp'
+      return:
+        type:
+          - RegExp
+        description: ''
+    package: '@azure/ms-rest-azure-env'

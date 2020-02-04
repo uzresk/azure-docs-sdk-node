@@ -1,0 +1,378 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.tls.CommonConnectionOptions
+    name: CommonConnectionOptions
+    fullName: CommonConnectionOptions
+    children:
+      - tslib.tls.CommonConnectionOptions.ALPNProtocols
+      - tslib.tls.CommonConnectionOptions.enableTrace
+      - tslib.tls.CommonConnectionOptions.rejectUnauthorized
+      - tslib.tls.CommonConnectionOptions.requestCert
+      - tslib.tls.CommonConnectionOptions.secureContext
+      - tslib.tls.CommonConnectionOptions.SNICallback
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.tls.CommonConnectionOptions.ALPNProtocols
+    name: ALPNProtocols
+    fullName: ALPNProtocols
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      An array of strings or a Buffer naming possible ALPN protocols.
+      (Protocols should be ordered by their priority.)
+    optional: true
+    syntax:
+      content: 'ALPNProtocols?: string[] | Uint8Array[] | Uint8Array'
+      return:
+        type:
+          - 'string[] | Uint8Array[] | Uint8Array'
+        description: ''
+    package: tslib
+  - uid: tslib.tls.CommonConnectionOptions.enableTrace
+    name: enableTrace
+    fullName: enableTrace
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      When enabled, TLS packet trace information is written to `stderr`. This
+      can be
+
+      used to debug TLS connection problems.
+    optional: true
+    syntax:
+      content: 'enableTrace?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.tls.CommonConnectionOptions.rejectUnauthorized
+    name: rejectUnauthorized
+    fullName: rejectUnauthorized
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      If true the server will reject any connection which is not
+      authorized with the list of supplied CAs. This option only has an
+      effect if requestCert is true.
+    optional: true
+    syntax:
+      content: 'rejectUnauthorized?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.tls.CommonConnectionOptions.requestCert
+    name: requestCert
+    fullName: requestCert
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      If true the server will request a certificate from clients that
+      connect and attempt to verify that certificate. Defaults to
+      false.
+    optional: true
+    syntax:
+      content: 'requestCert?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.tls.CommonConnectionOptions.secureContext
+    name: secureContext
+    fullName: secureContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: An optional TLS context object from tls.createSecureContext()
+    optional: true
+    syntax:
+      content: 'secureContext?: SecureContext'
+      return:
+        type:
+          - tslib.tls.SecureContext
+        description: ''
+    package: tslib
+  - uid: tslib.tls.CommonConnectionOptions.SNICallback
+    name: SNICallback
+    fullName: SNICallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      SNICallback(servername, cb) <Function> A function that will be
+      called if the client supports SNI TLS extension. Two arguments
+      will be passed when called: servername and cb. SNICallback should
+      invoke cb(null, ctx), where ctx is a SecureContext instance.
+      (tls.createSecureContext(...) can be used to get a proper
+      SecureContext.) If SNICallback wasn't provided the default callback
+      with high-level API will be used (see below).
+    optional: true
+    syntax:
+      content: >-
+        SNICallback?: undefined | (servername: string, cb: (err: Error | null,
+        ctx: SecureContext) => void) => void
+      return:
+        type:
+          - >-
+            undefined | (servername: string, cb: (err: Error | null, ctx:
+            SecureContext) => void) => void
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.net.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.net.Server
+  - uid: tslib.tls.SecureContextOptions
+    name: SecureContextOptions
+    spec.typeScript:
+      - name: SecureContextOptions
+        fullName: SecureContextOptions
+        uid: tslib.tls.SecureContextOptions
+  - uid: tslib.net.AddressInfo | string | null
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: tslib.tls.TLSSocket
+    name: TLSSocket
+    spec.typeScript:
+      - name: TLSSocket
+        fullName: TLSSocket
+        uid: tslib.tls.TLSSocket
+  - uid: tslib.net.ListenOptions
+    name: ListenOptions
+    spec.typeScript:
+      - name: ListenOptions
+        fullName: ListenOptions
+        uid: tslib.net.ListenOptions
+  - uid: tslib.net.Socket
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.net.Socket
+  - uid: tslib.tls.TLSSocketOptions
+    name: TLSSocketOptions
+    spec.typeScript:
+      - name: TLSSocketOptions
+        fullName: TLSSocketOptions
+        uid: tslib.tls.TLSSocketOptions
+  - uid: tslib.net.AddressInfo | string
+    name: AddressInfo | string
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: tslib.net.SocketConnectOpts
+    name: SocketConnectOpts
+    spec.typeScript:
+      - name: SocketConnectOpts
+        fullName: SocketConnectOpts
+        uid: tslib.net.SocketConnectOpts
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.tls.PeerCertificate | object | null
+    name: PeerCertificate | object | null
+    spec.typeScript:
+      - name: PeerCertificate
+        fullName: PeerCertificate
+        uid: tslib.tls.PeerCertificate
+      - name: ' | object | null'
+        fullName: ' | object | null'
+  - uid: tslib.tls.CipherNameAndProtocol
+    name: CipherNameAndProtocol
+    spec.typeScript:
+      - name: CipherNameAndProtocol
+        fullName: CipherNameAndProtocol
+        uid: tslib.tls.CipherNameAndProtocol
+  - uid: tslib.tls.EphemeralKeyInfo | object | null
+    name: EphemeralKeyInfo | object | null
+    spec.typeScript:
+      - name: EphemeralKeyInfo
+        fullName: EphemeralKeyInfo
+        uid: tslib.tls.EphemeralKeyInfo
+      - name: ' | object | null'
+        fullName: ' | object | null'
+  - uid: tslib.tls.DetailedPeerCertificate
+    name: DetailedPeerCertificate
+    spec.typeScript:
+      - name: DetailedPeerCertificate
+        fullName: DetailedPeerCertificate
+        uid: tslib.tls.DetailedPeerCertificate
+  - uid: tslib.tls.PeerCertificate
+    name: PeerCertificate
+    spec.typeScript:
+      - name: PeerCertificate
+        fullName: PeerCertificate
+        uid: tslib.tls.PeerCertificate
+  - uid: tslib.tls.PeerCertificate | tslib.tls.DetailedPeerCertificate
+    name: DetailedPeerCertificate
+    spec.typeScript:
+      - name: PeerCertificate
+        fullName: PeerCertificate
+        uid: tslib.tls.PeerCertificate
+      - name: ' | '
+        fullName: ' | '
+      - name: DetailedPeerCertificate
+        fullName: DetailedPeerCertificate
+        uid: tslib.tls.DetailedPeerCertificate
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.stream.internal.ReadableOptions
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: tslib.stream.internal.ReadableOptions
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.tls.SecureContext
+    name: SecureContext
+    spec.typeScript:
+      - name: SecureContext
+        fullName: SecureContext
+        uid: tslib.tls.SecureContext
+  - uid: undefined | tslib.tls.checkServerIdentity
+    name: checkServerIdentity
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: checkServerIdentity
+        fullName: checkServerIdentity
+        uid: tslib.tls.checkServerIdentity
+  - uid: string | Buffer | Array<Buffer | tslib.tls.KeyObject>
+    name: KeyObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<Buffer | '
+        fullName: 'string | Buffer | Array<Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: tslib.tls.KeyObject
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.tls.SecureVersion
+    name: SecureVersion
+    spec.typeScript:
+      - name: SecureVersion
+        fullName: SecureVersion
+        uid: tslib.tls.SecureVersion
+  - uid: string | Buffer | Array<string | Buffer | tslib.tls.PxfObject>
+    name: PxfObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<string | Buffer | '
+        fullName: 'string | Buffer | Array<string | Buffer | '
+      - name: PxfObject
+        fullName: PxfObject
+        uid: tslib.tls.PxfObject
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.Buffer
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: tslib.Buffer
+  - uid: tslib.tls.PSKCallbackNegotation | null
+    name: PSKCallbackNegotation | null
+    spec.typeScript:
+      - name: PSKCallbackNegotation
+        fullName: PSKCallbackNegotation
+        uid: tslib.tls.PSKCallbackNegotation
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.tls.Certificate
+    name: Certificate
+    spec.typeScript:
+      - name: Certificate
+        fullName: Certificate
+        uid: tslib.tls.Certificate
+  - uid: DataView | tslib.NodeJS.TypedArray
+    name: TypedArray
+    spec.typeScript:
+      - name: 'DataView | '
+        fullName: 'DataView | '
+      - name: TypedArray
+        fullName: TypedArray
+        uid: tslib.NodeJS.TypedArray
+  - uid: DataView | tslib.NodeJS.TypedArray | null
+    name: TypedArray | null
+    spec.typeScript:
+      - name: 'DataView | '
+        fullName: 'DataView | '
+      - name: TypedArray
+        fullName: TypedArray
+        uid: tslib.NodeJS.TypedArray
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.tls.ConnectionOptions
+    name: ConnectionOptions
+    spec.typeScript:
+      - name: ConnectionOptions
+        fullName: ConnectionOptions
+        uid: tslib.tls.ConnectionOptions
+  - uid: tslib.tls.SecurePair
+    name: SecurePair
+    spec.typeScript:
+      - name: SecurePair
+        fullName: SecurePair
+        uid: tslib.tls.SecurePair
+  - uid: tslib.tls.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.tls.Server
+  - uid: tslib.tls.TlsOptions
+    name: TlsOptions
+    spec.typeScript:
+      - name: TlsOptions
+        fullName: TlsOptions
+        uid: tslib.tls.TlsOptions

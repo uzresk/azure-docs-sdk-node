@@ -1,0 +1,253 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.path.win32'
+    name: win32
+    langs:
+      - typeScript
+    fullName: win32
+    children:
+      - '@azure/ms-rest-azure-env.path.win32.basename'
+      - '@azure/ms-rest-azure-env.path.win32.dirname'
+      - '@azure/ms-rest-azure-env.path.win32.extname'
+      - '@azure/ms-rest-azure-env.path.win32.format'
+      - '@azure/ms-rest-azure-env.path.win32.isAbsolute'
+      - '@azure/ms-rest-azure-env.path.win32.join'
+      - '@azure/ms-rest-azure-env.path.win32.normalize'
+      - '@azure/ms-rest-azure-env.path.win32.parse'
+      - '@azure/ms-rest-azure-env.path.win32.relative'
+      - '@azure/ms-rest-azure-env.path.win32.resolve'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.path.win32.basename'
+    name: 'basename(string, undefined | string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function basename(p: string, ext?: undefined | string)'
+      parameters:
+        - id: p
+          type:
+            - string
+          description: ''
+        - id: ext
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.path.win32.dirname'
+    name: dirname(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function dirname(p: string)'
+      parameters:
+        - id: p
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.path.win32.extname'
+    name: extname(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function extname(p: string)'
+      parameters:
+        - id: p
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.path.win32.format'
+    name: format(FormatInputPathObject)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function format(pP: FormatInputPathObject)'
+      parameters:
+        - id: pP
+          type:
+            - '@azure/ms-rest-azure-env.path.FormatInputPathObject'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.path.win32.isAbsolute'
+    name: isAbsolute(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isAbsolute(p: string)'
+      parameters:
+        - id: p
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.path.win32.join'
+    name: 'join(any[])'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function join(paths: any[])'
+      parameters:
+        - id: paths
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.path.win32.normalize'
+    name: normalize(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function normalize(p: string)'
+      parameters:
+        - id: p
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.path.win32.parse'
+    name: parse(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parse(p: string)'
+      parameters:
+        - id: p
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.path.ParsedPath'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.path.win32.relative'
+    name: 'relative(string, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function relative(from: string, to: string)'
+      parameters:
+        - id: from
+          type:
+            - string
+          description: ''
+        - id: to
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.path.win32.resolve'
+    name: 'resolve(any[])'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function resolve(pathSegments: any[])'
+      parameters:
+        - id: pathSegments
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.path.FormatInputPathObject'
+    name: FormatInputPathObject
+    spec.typeScript:
+      - name: FormatInputPathObject
+        fullName: FormatInputPathObject
+        uid: '@azure/ms-rest-azure-env.path.FormatInputPathObject'
+  - uid: '@azure/ms-rest-azure-env.path.ParsedPath'
+    name: ParsedPath
+    spec.typeScript:
+      - name: ParsedPath
+        fullName: ParsedPath
+        uid: '@azure/ms-rest-azure-env.path.ParsedPath'
+  - uid: '@azure/ms-rest-azure-env.path.win32.basename'
+    name: basename
+  - uid: '@azure/ms-rest-azure-env.path.win32.dirname'
+    name: dirname
+  - uid: '@azure/ms-rest-azure-env.path.win32.extname'
+    name: extname
+  - uid: '@azure/ms-rest-azure-env.path.win32.format'
+    name: format
+  - uid: '@azure/ms-rest-azure-env.path.win32.isAbsolute'
+    name: isAbsolute
+  - uid: '@azure/ms-rest-azure-env.path.win32.join'
+    name: join
+  - uid: '@azure/ms-rest-azure-env.path.win32.normalize'
+    name: normalize
+  - uid: '@azure/ms-rest-azure-env.path.win32.parse'
+    name: parse
+  - uid: '@azure/ms-rest-azure-env.path.win32.relative'
+    name: relative
+  - uid: '@azure/ms-rest-azure-env.path.win32.resolve'
+    name: resolve

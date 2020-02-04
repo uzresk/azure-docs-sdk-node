@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.getPathStringFromParameterPath'
+    name: 'getPathStringFromParameterPath(ParameterPath, Mapper)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getPathStringFromParameterPath(parameterPath: ParameterPath,
+        mapper: Mapper)
+      parameters:
+        - id: parameterPath
+          type:
+            - '@azure/abort-controller.ParameterPath'
+          description: ''
+        - id: mapper
+          type:
+            - '@azure/abort-controller.Mapper'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.ParameterPath'
+    name: ParameterPath
+    spec.typeScript:
+      - name: ParameterPath
+        fullName: ParameterPath
+        uid: '@azure/abort-controller.ParameterPath'
+  - uid: '@azure/abort-controller.Mapper'
+    name: Mapper
+    spec.typeScript:
+      - name: Mapper
+        fullName: Mapper
+        uid: '@azure/abort-controller.Mapper'

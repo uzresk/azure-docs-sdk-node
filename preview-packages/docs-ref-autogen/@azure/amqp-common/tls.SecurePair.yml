@@ -1,0 +1,178 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.tls.SecurePair'
+    name: SecurePair
+    fullName: SecurePair
+    children:
+      - '@azure/ms-rest-azure-env.tls.SecurePair.cleartext'
+      - '@azure/ms-rest-azure-env.tls.SecurePair.encrypted'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.SecurePair.cleartext'
+    name: cleartext
+    fullName: cleartext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cleartext: TLSSocket'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.tls.TLSSocket'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.SecurePair.encrypted'
+    name: encrypted
+    fullName: encrypted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'encrypted: TLSSocket'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.tls.TLSSocket'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.net.Server'
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: '@azure/ms-rest-azure-env.net.Server'
+  - uid: '@azure/ms-rest-azure-env.net.AddressInfo | string | null'
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: '@azure/ms-rest-azure-env.net.AddressInfo'
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: '@azure/ms-rest-azure-env.tls.TLSSocket'
+    name: TLSSocket
+    spec.typeScript:
+      - name: TLSSocket
+        fullName: TLSSocket
+        uid: '@azure/ms-rest-azure-env.tls.TLSSocket'
+  - uid: '@azure/ms-rest-azure-env.net.Socket'
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/ms-rest-azure-env.net.Socket'
+  - uid: '@azure/ms-rest-azure-env.net.AddressInfo | string'
+    name: AddressInfo | string
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: '@azure/ms-rest-azure-env.net.AddressInfo'
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: '@azure/ms-rest-azure-env.net.SocketConnectOpts'
+    name: SocketConnectOpts
+    spec.typeScript:
+      - name: SocketConnectOpts
+        fullName: SocketConnectOpts
+        uid: '@azure/ms-rest-azure-env.net.SocketConnectOpts'
+  - uid: '@azure/ms-rest-azure-env.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.Error'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex'
+    name: Duplex
+    spec.typeScript:
+      - name: Duplex
+        fullName: Duplex
+        uid: '@azure/ms-rest-azure-env.stream.internal.Duplex'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.DuplexOptions'
+    name: DuplexOptions
+    spec.typeScript:
+      - name: DuplexOptions
+        fullName: DuplexOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.DuplexOptions'
+  - uid: string | Buffer | Array<Buffer | @azure/ms-rest-azure-env.tls.KeyObject>
+    name: KeyObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<Buffer | '
+        fullName: 'string | Buffer | Array<Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: '@azure/ms-rest-azure-env.tls.KeyObject'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/ms-rest-azure-env.tls.SecureVersion'
+    name: SecureVersion
+    spec.typeScript:
+      - name: SecureVersion
+        fullName: SecureVersion
+        uid: '@azure/ms-rest-azure-env.tls.SecureVersion'
+  - uid: >-
+      string | Buffer | Array<string | Buffer |
+      @azure/ms-rest-azure-env.tls.PxfObject>
+    name: PxfObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<string | Buffer | '
+        fullName: 'string | Buffer | Array<string | Buffer | '
+      - name: PxfObject
+        fullName: PxfObject
+        uid: '@azure/ms-rest-azure-env.tls.PxfObject'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/ms-rest-azure-env.tls.SecureContext'
+    name: SecureContext
+    spec.typeScript:
+      - name: SecureContext
+        fullName: SecureContext
+        uid: '@azure/ms-rest-azure-env.tls.SecureContext'
+  - uid: '@azure/ms-rest-azure-env.Buffer'
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: '@azure/ms-rest-azure-env.Buffer'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions'
+    name: ConnectionOptions
+    spec.typeScript:
+      - name: ConnectionOptions
+        fullName: ConnectionOptions
+        uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions'
+  - uid: '@azure/ms-rest-azure-env.tls.Server'
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: '@azure/ms-rest-azure-env.tls.Server'

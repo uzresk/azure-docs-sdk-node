@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.AggregationData'
+    name: AggregationData
+    fullName: AggregationData
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type AggregationData = SumData | CountData | LastValueData |
+        DistributionData
+    package: '@azure/abort-controller'

@@ -1,0 +1,116 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4'
+    name: NetworkInterfaceInfoIPv4
+    fullName: NetworkInterfaceInfoIPv4
+    children:
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4.address'
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4.cidr'
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4.family'
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4.internal'
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4.mac'
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4.netmask'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: NetworkInterfaceBase
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4.address'
+    name: address
+    fullName: address
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'address: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4.cidr'
+    name: cidr
+    fullName: cidr
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cidr: string | null'
+      return:
+        type:
+          - string | null
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4.family'
+    name: family
+    fullName: family
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'family: "IPv4"'
+      return:
+        type:
+          - '"IPv4"'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4.internal'
+    name: internal
+    fullName: internal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'internal: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4.mac'
+    name: mac
+    fullName: mac
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mac: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4.netmask'
+    name: netmask
+    fullName: netmask
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'netmask: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Platform'
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: '@azure/ms-rest-azure-env.NodeJS.Platform'

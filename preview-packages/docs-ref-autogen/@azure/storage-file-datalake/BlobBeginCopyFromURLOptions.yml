@@ -1,0 +1,270 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions'
+    name: BlobBeginCopyFromURLOptions
+    fullName: BlobBeginCopyFromURLOptions
+    children:
+      - '@azure/abort-controller.BlobBeginCopyFromURLOptions.abortSignal'
+      - '@azure/abort-controller.BlobBeginCopyFromURLOptions.conditions'
+      - '@azure/abort-controller.BlobBeginCopyFromURLOptions.intervalInMs'
+      - '@azure/abort-controller.BlobBeginCopyFromURLOptions.metadata'
+      - '@azure/abort-controller.BlobBeginCopyFromURLOptions.onProgress'
+      - '@azure/abort-controller.BlobBeginCopyFromURLOptions.rehydratePriority'
+      - '@azure/abort-controller.BlobBeginCopyFromURLOptions.resumeFrom'
+      - '@azure/abort-controller.BlobBeginCopyFromURLOptions.sourceConditions'
+      - '@azure/abort-controller.BlobBeginCopyFromURLOptions.tier'
+      - '@azure/abort-controller.BlobBeginCopyFromURLOptions.tracingOptions'
+    langs:
+      - typeScript
+    type: interface
+    summary: 'Options to configure the <xref:BlobClient.beginCopyFromURL> operation.'
+    extends:
+      name: '@azure/abort-controller.BlobStartCopyFromURLOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions.abortSignal'
+    name: abortSignal
+    fullName: abortSignal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    optional: true
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type:
+          - '@azure/abort-controller.AbortSignalLike'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions.conditions'
+    name: conditions
+    fullName: conditions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Conditions to meet for the destination blob when copying from a URL to the
+      blob.
+    optional: true
+    syntax:
+      content: 'conditions?: BlobRequestConditions'
+      return:
+        type:
+          - '@azure/abort-controller.BlobRequestConditions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions.intervalInMs'
+    name: intervalInMs
+    fullName: intervalInMs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The amount of time in milliseconds the poller should wait between
+      calls to the service to determine the status of the Blob copy.
+      Defaults to 15 seconds.
+    optional: true
+    syntax:
+      content: 'intervalInMs?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions.metadata'
+    name: metadata
+    fullName: metadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A collection of key-value string pair to associate with the blob that are
+      being copied.
+    optional: true
+    syntax:
+      content: 'metadata?: Metadata'
+      return:
+        type:
+          - '@azure/abort-controller.Metadata'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions.onProgress'
+    name: onProgress
+    fullName: onProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback to receive the state of the copy progress.
+    optional: true
+    syntax:
+      content: 'onProgress?: undefined | (state: BlobBeginCopyFromUrlPollState) => void'
+      return:
+        type:
+          - 'undefined | (state: BlobBeginCopyFromUrlPollState) => void'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions.rehydratePriority'
+    name: rehydratePriority
+    fullName: rehydratePriority
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Rehydrate Priority - possible values include 'High', 'Standard'.
+
+      More Details -
+      https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-rehydration#rehydrate-an-archived-blob-to-an-online-tier
+    optional: true
+    syntax:
+      content: 'rehydratePriority?: RehydratePriority'
+      return:
+        type:
+          - '@azure/abort-controller.RehydratePriority'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions.resumeFrom'
+    name: resumeFrom
+    fullName: resumeFrom
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      Serialized poller state that can be used to resume polling from.
+      This may be useful when starting a copy on one process or thread
+      and you wish to continue polling on another process or thread.
+      To get serialized poller state, call `poller.toString()` on an existing
+      poller.
+    optional: true
+    syntax:
+      content: 'resumeFrom?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions.sourceConditions'
+    name: sourceConditions
+    fullName: sourceConditions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Conditions to meet for the source Azure Blob/File when copying from a URL
+      to the blob.
+    optional: true
+    syntax:
+      content: 'sourceConditions?: ModifiedAccessConditions'
+      return:
+        type:
+          - '@azure/abort-controller.ModifiedAccessConditions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions.tier'
+    name: tier
+    fullName: tier
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Access tier.
+
+      More Details -
+      https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers
+    optional: true
+    syntax:
+      content: 'tier?: BlockBlobTier | PremiumPageBlobTier | string'
+      return:
+        type:
+          - >-
+            @azure/abort-controller.BlockBlobTier |
+            @azure/abort-controller.PremiumPageBlobTier | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions.tracingOptions'
+    name: tracingOptions
+    fullName: tracingOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options to configure spans created when tracing is enabled.
+    optional: true
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type:
+          - '@azure/abort-controller.OperationTracingOptions'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.BlobStartCopyFromURLOptions'
+    name: BlobStartCopyFromURLOptions
+    spec.typeScript:
+      - name: BlobStartCopyFromURLOptions
+        fullName: BlobStartCopyFromURLOptions
+        uid: '@azure/abort-controller.BlobStartCopyFromURLOptions'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.BlobRequestConditions'
+    name: BlobRequestConditions
+    spec.typeScript:
+      - name: BlobRequestConditions
+        fullName: BlobRequestConditions
+        uid: '@azure/abort-controller.BlobRequestConditions'
+  - uid: '@azure/abort-controller.Metadata'
+    name: Metadata
+    spec.typeScript:
+      - name: Metadata
+        fullName: Metadata
+        uid: '@azure/abort-controller.Metadata'
+  - uid: '@azure/abort-controller.RehydratePriority'
+    name: RehydratePriority
+    spec.typeScript:
+      - name: RehydratePriority
+        fullName: RehydratePriority
+        uid: '@azure/abort-controller.RehydratePriority'
+  - uid: '@azure/abort-controller.ModifiedAccessConditions'
+    name: ModifiedAccessConditions
+    spec.typeScript:
+      - name: ModifiedAccessConditions
+        fullName: ModifiedAccessConditions
+        uid: '@azure/abort-controller.ModifiedAccessConditions'
+  - uid: >-
+      @azure/abort-controller.BlockBlobTier |
+      @azure/abort-controller.PremiumPageBlobTier | string
+    name: PremiumPageBlobTier | string
+    spec.typeScript:
+      - name: BlockBlobTier
+        fullName: BlockBlobTier
+        uid: '@azure/abort-controller.BlockBlobTier'
+      - name: ' | '
+        fullName: ' | '
+      - name: PremiumPageBlobTier
+        fullName: PremiumPageBlobTier
+        uid: '@azure/abort-controller.PremiumPageBlobTier'
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
+    name: OperationTracingOptions
+    spec.typeScript:
+      - name: OperationTracingOptions
+        fullName: OperationTracingOptions
+        uid: '@azure/abort-controller.OperationTracingOptions'

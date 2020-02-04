@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.RequireResolve
+    name: RequireResolve
+    fullName: RequireResolve
+    children:
+      - tslib.RequireResolve.paths
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: tslib.NodeJS.RequireResolve
+    package: tslib
+  - uid: tslib.RequireResolve.paths
+    name: paths(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function paths(request: string)'
+      parameters:
+        - id: request
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'string[] | null'
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.NodeJS.RequireResolve
+    name: RequireResolve
+    spec.typeScript:
+      - name: RequireResolve
+        fullName: RequireResolve
+        uid: tslib.NodeJS.RequireResolve

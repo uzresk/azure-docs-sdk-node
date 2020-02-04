@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.generateDataLakeSASQueryParameters'
+  - uid: '@azure/abort-controller.generateDataLakeSASQueryParameters'
     name: >-
       generateDataLakeSASQueryParameters(DataLakeSASSignatureValues,
       StorageSharedKeyCredential)
@@ -39,33 +39,33 @@ items:
       parameters:
         - id: dataLakeSASSignatureValues
           type:
-            - '@azure/storage-file-datalake.DataLakeSASSignatureValues'
+            - '@azure/abort-controller.DataLakeSASSignatureValues'
           description: ''
         - id: sharedKeyCredential
           type:
-            - '@azure/storage-file-datalake.StorageSharedKeyCredential'
+            - '@azure/abort-controller.StorageSharedKeyCredential'
           description: ''
       return:
         type:
-          - '@azure/storage-file-datalake.SASQueryParameters'
+          - '@azure/abort-controller.SASQueryParameters'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues'
+  - uid: '@azure/abort-controller.DataLakeSASSignatureValues'
     name: DataLakeSASSignatureValues
     spec.typeScript:
       - name: DataLakeSASSignatureValues
         fullName: DataLakeSASSignatureValues
-        uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues'
-  - uid: '@azure/storage-file-datalake.StorageSharedKeyCredential'
+        uid: '@azure/abort-controller.DataLakeSASSignatureValues'
+  - uid: '@azure/abort-controller.StorageSharedKeyCredential'
     name: StorageSharedKeyCredential
     spec.typeScript:
       - name: StorageSharedKeyCredential
         fullName: StorageSharedKeyCredential
-        uid: '@azure/storage-file-datalake.StorageSharedKeyCredential'
-  - uid: '@azure/storage-file-datalake.SASQueryParameters'
+        uid: '@azure/abort-controller.StorageSharedKeyCredential'
+  - uid: '@azure/abort-controller.SASQueryParameters'
     name: SASQueryParameters
     spec.typeScript:
       - name: SASQueryParameters
         fullName: SASQueryParameters
-        uid: '@azure/storage-file-datalake.SASQueryParameters'
+        uid: '@azure/abort-controller.SASQueryParameters'

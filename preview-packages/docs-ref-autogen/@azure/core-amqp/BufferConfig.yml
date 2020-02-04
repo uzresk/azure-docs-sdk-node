@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.BufferConfig
+    name: BufferConfig
+    fullName: BufferConfig
+    children:
+      - tslib.BufferConfig.bufferSize
+      - tslib.BufferConfig.bufferTimeout
+      - tslib.BufferConfig.logger
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface configuration for a buffer.
+    package: tslib
+  - uid: tslib.BufferConfig.bufferSize
+    name: bufferSize
+    fullName: bufferSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Maximum size of a buffer.
+    optional: true
+    syntax:
+      content: 'bufferSize?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.BufferConfig.bufferTimeout
+    name: bufferTimeout
+    fullName: bufferTimeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Max time for a buffer can wait before being sent
+    optional: true
+    syntax:
+      content: 'bufferTimeout?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.BufferConfig.logger
+    name: logger
+    fullName: logger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A logger object
+    optional: true
+    syntax:
+      content: 'logger?: Logger'
+      return:
+        type:
+          - tslib.Logger
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.Logger
+    name: Logger
+    spec.typeScript:
+      - name: Logger
+        fullName: Logger
+        uid: tslib.Logger

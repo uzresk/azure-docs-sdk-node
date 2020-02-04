@@ -1,13 +1,13 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathUpdateAction'
+  - uid: '@azure/abort-controller.PathUpdateAction'
     name: PathUpdateAction
     fullName: PathUpdateAction
     children:
-      - '@azure/storage-file-datalake.PathUpdateAction.Append'
-      - '@azure/storage-file-datalake.PathUpdateAction.Flush'
-      - '@azure/storage-file-datalake.PathUpdateAction.SetAccessControl'
-      - '@azure/storage-file-datalake.PathUpdateAction.SetProperties'
+      - '@azure/abort-controller.PathUpdateAction.Append'
+      - '@azure/abort-controller.PathUpdateAction.Flush'
+      - '@azure/abort-controller.PathUpdateAction.SetAccessControl'
+      - '@azure/abort-controller.PathUpdateAction.SetProperties'
     langs:
       - typeScript
     type: enum
@@ -16,8 +16,8 @@ items:
 
       Possible values include: 'append', 'flush', 'setProperties',
       'setAccessControl'
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathUpdateAction.Append'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathUpdateAction.Append'
     name: Append
     children: []
     langs:
@@ -25,8 +25,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathUpdateAction.Flush'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathUpdateAction.Flush'
     name: Flush
     children: []
     langs:
@@ -34,8 +34,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathUpdateAction.SetAccessControl'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathUpdateAction.SetAccessControl'
     name: SetAccessControl
     children: []
     langs:
@@ -43,8 +43,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathUpdateAction.SetProperties'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathUpdateAction.SetProperties'
     name: SetProperties
     children: []
     langs:
@@ -52,4 +52,4 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

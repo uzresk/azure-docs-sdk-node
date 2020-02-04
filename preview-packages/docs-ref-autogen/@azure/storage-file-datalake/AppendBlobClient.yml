@@ -1,0 +1,1330 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.AppendBlobClient'
+    name: AppendBlobClient
+    fullName: AppendBlobClient
+    children:
+      - '@azure/abort-controller.AppendBlobClient.abortCopyFromURL'
+      - '@azure/abort-controller.AppendBlobClient.accountName'
+      - '@azure/abort-controller.AppendBlobClient.constructor_2'
+      - '@azure/abort-controller.AppendBlobClient.constructor_1'
+      - '@azure/abort-controller.AppendBlobClient.constructor'
+      - '@azure/abort-controller.AppendBlobClient.appendBlock'
+      - '@azure/abort-controller.AppendBlobClient.appendBlockFromURL'
+      - '@azure/abort-controller.AppendBlobClient.beginCopyFromURL'
+      - '@azure/abort-controller.AppendBlobClient.containerName'
+      - '@azure/abort-controller.AppendBlobClient.create'
+      - '@azure/abort-controller.AppendBlobClient.createSnapshot'
+      - '@azure/abort-controller.AppendBlobClient.credential'
+      - '@azure/abort-controller.AppendBlobClient.delete'
+      - '@azure/abort-controller.AppendBlobClient.download'
+      - '@azure/abort-controller.AppendBlobClient.downloadToBuffer_1'
+      - '@azure/abort-controller.AppendBlobClient.downloadToBuffer'
+      - '@azure/abort-controller.AppendBlobClient.downloadToFile'
+      - '@azure/abort-controller.AppendBlobClient.exists'
+      - '@azure/abort-controller.AppendBlobClient.getAppendBlobClient'
+      - '@azure/abort-controller.AppendBlobClient.getBlobLeaseClient'
+      - '@azure/abort-controller.AppendBlobClient.getBlockBlobClient'
+      - '@azure/abort-controller.AppendBlobClient.getPageBlobClient'
+      - '@azure/abort-controller.AppendBlobClient.getProperties'
+      - '@azure/abort-controller.AppendBlobClient.name'
+      - '@azure/abort-controller.AppendBlobClient.setAccessTier'
+      - '@azure/abort-controller.AppendBlobClient.setHTTPHeaders'
+      - '@azure/abort-controller.AppendBlobClient.setMetadata'
+      - '@azure/abort-controller.AppendBlobClient.syncCopyFromURL'
+      - '@azure/abort-controller.AppendBlobClient.undelete'
+      - '@azure/abort-controller.AppendBlobClient.url'
+      - '@azure/abort-controller.AppendBlobClient.withSnapshot'
+    langs:
+      - typeScript
+    type: class
+    summary: AppendBlobClient defines a set of operations applicable to append blobs.
+    extends:
+      name: '@azure/abort-controller.BlobClient'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.abortCopyFromURL'
+    name: 'abortCopyFromURL(string, BlobAbortCopyFromURLOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Aborts a pending asynchronous Copy Blob operation, and leaves a
+      destination blob with zero
+
+      length and full metadata. Version 2012-02-12 and newer.
+    syntax:
+      content: >-
+        function abortCopyFromURL(copyId: string, options?:
+        BlobAbortCopyFromURLOptions)
+      parameters:
+        - id: copyId
+          type:
+            - string
+          description: Id of the Copy From URL operation.
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobAbortCopyFromURLOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobAbortCopyFromURLResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.accountName'
+    name: accountName
+    fullName: accountName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'accountName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.constructor_2'
+    name: 'AppendBlobClient(string, Pipeline)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      Creates an instance of AppendBlobClient.
+
+      This method accepts an encoded URL or non-encoded URL pointing to an
+      append blob.
+
+      Encoded URL string will NOT be escaped twice, only special characters in
+      URL path will be escaped.
+
+      If a blob name includes ? or %, blob name must be encoded in the URL.
+    syntax:
+      content: 'new AppendBlobClient(url: string, pipeline: Pipeline)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: |-
+            A URL string pointing to Azure Storage append blob, such as
+                                "https://myaccount.blob.core.windows.net/mycontainer/appendblob". You can
+                                append a SAS if using AnonymousCredential, such as
+                                "https://myaccount.blob.core.windows.net/mycontainer/appendblob?sasString".
+                                This method accepts an encoded URL or non-encoded URL pointing to a blob.
+                                Encoded URL string will NOT be escaped twice, only special characters in URL path will be escaped.
+                                However, if a blob name includes ? or %, blob name must be encoded in the URL.
+                                Such as a blob named "my?blob%", the URL should be "https://myaccount.blob.core.windows.net/mycontainer/my%3Fblob%25".
+        - id: pipeline
+          type:
+            - '@azure/abort-controller.Pipeline'
+          description: |-
+            Call newPipeline() to create a default
+                                       pipeline, or provide a customized pipeline.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.constructor_1'
+    name: >-
+      AppendBlobClient(string, StorageSharedKeyCredential | AnonymousCredential
+      | TokenCredential, StoragePipelineOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      Creates an instance of AppendBlobClient.
+
+      This method accepts an encoded URL or non-encoded URL pointing to an
+      append blob.
+
+      Encoded URL string will NOT be escaped twice, only special characters in
+      URL path will be escaped.
+
+      If a blob name includes ? or %, blob name must be encoded in the URL.
+    syntax:
+      content: >-
+        new AppendBlobClient(url: string, credential: StorageSharedKeyCredential
+        | AnonymousCredential | TokenCredential, options?:
+        StoragePipelineOptions)
+      parameters:
+        - id: url
+          type:
+            - string
+          description: |-
+            A URL string pointing to Azure Storage append blob, such as
+                                "https://myaccount.blob.core.windows.net/mycontainer/appendblob". You can
+                                append a SAS if using AnonymousCredential, such as
+                                "https://myaccount.blob.core.windows.net/mycontainer/appendblob?sasString".
+                                This method accepts an encoded URL or non-encoded URL pointing to a blob.
+                                Encoded URL string will NOT be escaped twice, only special characters in URL path will be escaped.
+                                However, if a blob name includes ? or %, blob name must be encoded in the URL.
+                                Such as a blob named "my?blob%", the URL should be "https://myaccount.blob.core.windows.net/mycontainer/my%3Fblob%25".
+        - id: credential
+          type:
+            - >-
+              @azure/abort-controller.StorageSharedKeyCredential |
+              @azure/abort-controller.AnonymousCredential |
+              @azure/abort-controller.TokenCredential
+          description: >-
+            Such as AnonymousCredential, StorageSharedKeyCredential or any
+            credential from the @azure/identity package to authenticate requests
+            to the service. You can also provide an object that implements the
+            TokenCredential interface. If not specified, AnonymousCredential is
+            used.
+        - id: options
+          type:
+            - '@azure/abort-controller.StoragePipelineOptions'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.constructor'
+    name: 'AppendBlobClient(string, string, string, StoragePipelineOptions)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Creates an instance of AppendBlobClient.
+    syntax:
+      content: >-
+        new AppendBlobClient(connectionString: string, containerName: string,
+        blobName: string, options?: StoragePipelineOptions)
+      parameters:
+        - id: connectionString
+          type:
+            - string
+          description: >-
+            Account connection string or a SAS connection string of an Azure
+            storage account.
+                                             [ Note - Account connection string can only be used in NODE.JS runtime. ]
+                                             Account connection string example -
+                                             `DefaultEndpointsProtocol=https;AccountName=myaccount;AccountKey=accountKey;EndpointSuffix=core.windows.net`
+                                             SAS connection string example -
+                                             `BlobEndpoint=https://myaccount.blob.core.windows.net/;QueueEndpoint=https://myaccount.queue.core.windows.net/;FileEndpoint=https://myaccount.file.core.windows.net/;TableEndpoint=https://myaccount.table.core.windows.net/;SharedAccessSignature=sasString`
+        - id: containerName
+          type:
+            - string
+          description: Container name.
+        - id: blobName
+          type:
+            - string
+          description: Blob name.
+        - id: options
+          type:
+            - '@azure/abort-controller.StoragePipelineOptions'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.appendBlock'
+    name: 'appendBlock(HttpRequestBody, number, AppendBlobAppendBlockOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Commits a new block of data to the end of the existing append blob.
+    syntax:
+      content: >-
+        function appendBlock(body: HttpRequestBody, contentLength: number,
+        options?: AppendBlobAppendBlockOptions)
+      parameters:
+        - id: body
+          type:
+            - '@azure/abort-controller.HttpRequestBody'
+          description: Data to be appended.
+        - id: contentLength
+          type:
+            - number
+          description: Length of the body in bytes.
+        - id: options
+          type:
+            - '@azure/abort-controller.AppendBlobAppendBlockOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.AppendBlobAppendBlockResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.appendBlockFromURL'
+    name: >-
+      appendBlockFromURL(string, number, number,
+      AppendBlobAppendBlockFromURLOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      The Append Block operation commits a new block of data to the end of an
+      existing append blob
+
+      where the contents are read from a source url.
+    syntax:
+      content: >-
+        function appendBlockFromURL(sourceURL: string, sourceOffset: number,
+        count: number, options?: AppendBlobAppendBlockFromURLOptions)
+      parameters:
+        - id: sourceURL
+          type:
+            - string
+          description: |2-
+
+                            The url to the blob that will be the source of the copy. A source blob in the same storage account can
+                            be authenticated via Shared Key. However, if the source is a blob in another account, the source blob
+                            must either be public or must be authenticated via a shared access signature. If the source blob is
+                            public, no authentication is required to perform the operation.
+        - id: sourceOffset
+          type:
+            - number
+          description: Offset in source to be appended
+        - id: count
+          type:
+            - number
+          description: Number of bytes to be appended as a block
+        - id: options
+          type:
+            - '@azure/abort-controller.AppendBlobAppendBlockFromURLOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - >-
+            Promise<@azure/abort-controller.AppendBlobAppendBlockFromUrlResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.beginCopyFromURL'
+    name: 'beginCopyFromURL(string, BlobBeginCopyFromURLOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronously copies a blob to a destination within the storage account.
+
+      This method returns a long running operation poller that allows you to
+      wait
+
+      indefinitely until the copy is completed.
+
+      You can also cancel a copy before it is completed by calling
+      `cancelOperation` on the poller.
+
+      Note that attempting to cancel a completed copy will result in an error
+      being thrown.
+
+      In version 2012-02-12 and later, the source for a Copy Blob operation can
+      be
+
+      a committed blob in any Azure storage account.
+
+      Beginning with version 2015-02-21, the source for a Copy Blob operation
+      can be
+
+      an Azure file in any Azure storage account.
+
+      Only storage accounts created on or after June 7th, 2012 allow the Copy
+      Blob
+
+      operation to copy from another storage account.
+    syntax:
+      content: >-
+        function beginCopyFromURL(copySource: string, options?:
+        BlobBeginCopyFromURLOptions)
+      parameters:
+        - id: copySource
+          type:
+            - string
+          description: url to the source Azure Blob/File.
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobBeginCopyFromURLOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - >-
+            Promise<@azure/abort-controller.PollerLike<@azure/abort-controller.PollOperationState<@azure/abort-controller.BlobBeginCopyFromURLResponse>,
+            @azure/abort-controller.BlobBeginCopyFromURLResponse>>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.containerName'
+    name: containerName
+    fullName: containerName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the storage container the blob is associated with.
+    syntax:
+      content: 'containerName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.create'
+    name: create(AppendBlobCreateOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Creates a 0-length append blob. Call AppendBlock to append data to an
+      append blob.
+    syntax:
+      content: 'function create(options?: AppendBlobCreateOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.AppendBlobCreateOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.AppendBlobCreateResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.createSnapshot'
+    name: createSnapshot(BlobCreateSnapshotOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a read-only snapshot of a blob.
+    syntax:
+      content: 'function createSnapshot(options?: BlobCreateSnapshotOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobCreateSnapshotOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobCreateSnapshotResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.credential'
+    name: credential
+    fullName: credential
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Such as AnonymousCredential, StorageSharedKeyCredential or any credential
+      from the @azure/identity package to authenticate requests to the service.
+      You can also provide an object that implements the TokenCredential
+      interface. If not specified, AnonymousCredential is used.
+    syntax:
+      content: >-
+        credential: StorageSharedKeyCredential | AnonymousCredential |
+        TokenCredential
+      return:
+        type:
+          - >-
+            @azure/abort-controller.StorageSharedKeyCredential |
+            @azure/abort-controller.AnonymousCredential |
+            @azure/abort-controller.TokenCredential
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.delete'
+    name: delete(BlobDeleteOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Marks the specified blob or snapshot for deletion. The blob is later
+      deleted
+
+      during garbage collection. Note that in order to delete a blob, you must
+      delete
+
+      all of its snapshots. You can delete both at the same time with the Delete
+
+      Blob operation.
+    syntax:
+      content: 'function delete(options?: BlobDeleteOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobDeleteOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobDeleteResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.download'
+    name: 'download(undefined | number, undefined | number, BlobDownloadOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Reads or downloads a blob from the system, including its metadata and
+      properties.
+
+      You can also call Get Blob to read a snapshot.
+
+      * In Node.js, data returns in a Readable stream readableStreamBody
+
+      * In browsers, data returns in a promise blobBody
+    syntax:
+      content: >-
+        function download(offset?: undefined | number, count?: undefined |
+        number, options?: BlobDownloadOptions)
+      parameters:
+        - id: offset
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: count
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobDownloadOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<BlobDownloadResponseModel>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.downloadToBuffer_1'
+    name: >-
+      downloadToBuffer(Buffer, undefined | number, undefined | number,
+      BlobDownloadToBufferOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      ONLY AVAILABLE IN NODE.JS RUNTIME.
+
+      Downloads an Azure Blob in parallel to a buffer.
+
+      Offset and count are optional, downloads the entire blob if they are not
+      provided.
+
+
+      Warning: Buffers can only support files up to about one gigabyte on 32-bit
+      systems or about two
+
+      gigabytes on 64-bit systems due to limitations of Node.js/V8. For blobs
+      larger than this size,
+
+      consider <xref:downloadToFile>.
+    syntax:
+      content: >-
+        function downloadToBuffer(buffer: Buffer, offset?: undefined | number,
+        count?: undefined | number, options?: BlobDownloadToBufferOptions)
+      parameters:
+        - id: buffer
+          type:
+            - Buffer
+          description: 'Buffer to be fill, must have length larger than count'
+        - id: offset
+          type:
+            - undefined | number
+          description: From which position of the block blob to download(in bytes)
+          optional: true
+        - id: count
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobDownloadToBufferOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<Buffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.downloadToBuffer'
+    name: >-
+      downloadToBuffer(undefined | number, undefined | number,
+      BlobDownloadToBufferOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      ONLY AVAILABLE IN NODE.JS RUNTIME.
+
+      Downloads an Azure Blob in parallel to a buffer.
+
+      Offset and count are optional, downloads the entire blob if they are not
+      provided.
+
+
+      Warning: Buffers can only support files up to about one gigabyte on 32-bit
+      systems or about two
+
+      gigabytes on 64-bit systems due to limitations of Node.js/V8. For blobs
+      larger than this size,
+
+      consider <xref:downloadToFile>.
+    syntax:
+      content: >-
+        function downloadToBuffer(offset?: undefined | number, count?: undefined
+        | number, options?: BlobDownloadToBufferOptions)
+      parameters:
+        - id: offset
+          type:
+            - undefined | number
+          description: From which position of the block blob to download(in bytes)
+          optional: true
+        - id: count
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobDownloadToBufferOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<Buffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.downloadToFile'
+    name: >-
+      downloadToFile(string, undefined | number, undefined | number,
+      BlobDownloadOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      ONLY AVAILABLE IN NODE.JS RUNTIME.
+
+      Downloads an Azure Blob to a local file.
+
+      Fails if the the given file path already exits.
+
+      Offset and count are optional, pass 0 and undefined respectively to
+      download the entire blob.
+    syntax:
+      content: >-
+        function downloadToFile(filePath: string, offset?: undefined | number,
+        count?: undefined | number, options?: BlobDownloadOptions)
+      parameters:
+        - id: filePath
+          type:
+            - string
+          description: ''
+        - id: offset
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: count
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobDownloadOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<BlobDownloadResponseModel>
+        description: |-
+          The response data for blob download operation,
+                                                          but with readableStreamBody set to undefined since its
+                                                          content is already read and written into a local file
+                                                          at the specified path.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.exists'
+    name: exists(BlobExistsOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Returns true if the Azrue blob resource represented by this client exists;
+      false otherwise.
+
+      NOTE: use this function with care since an existing blob might be deleted
+      by other clients or
+
+      applications. Vice versa new blobs might be added by other clients or
+      applications after this
+
+      function completes.
+    syntax:
+      content: 'function exists(options?: BlobExistsOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobExistsOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<boolean>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.getAppendBlobClient'
+    name: getAppendBlobClient()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a AppendBlobClient object.
+    syntax:
+      content: function getAppendBlobClient()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.AppendBlobClient'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.getBlobLeaseClient'
+    name: getBlobLeaseClient(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Get a <xref:BlobLeaseClient> that manages leases on the blob.'
+    syntax:
+      content: 'function getBlobLeaseClient(proposeLeaseId?: undefined | string)'
+      parameters:
+        - id: proposeLeaseId
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.BlobLeaseClient'
+        description: A new BlobLeaseClient object for managing leases on the blob.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.getBlockBlobClient'
+    name: getBlockBlobClient()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a BlockBlobClient object.
+    syntax:
+      content: function getBlockBlobClient()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.BlockBlobClient'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.getPageBlobClient'
+    name: getPageBlobClient()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a PageBlobClient object.
+    syntax:
+      content: function getPageBlobClient()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.PageBlobClient'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.getProperties'
+    name: getProperties(BlobGetPropertiesOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns all user-defined metadata, standard HTTP properties, and system
+      properties
+
+      for the blob. It does not return the content of the blob.
+    syntax:
+      content: 'function getProperties(options?: BlobGetPropertiesOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobGetPropertiesOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobGetPropertiesResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the blob.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.setAccessTier'
+    name: >-
+      setAccessTier(BlockBlobTier | PremiumPageBlobTier | string,
+      BlobSetTierOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets the tier on a blob. The operation is allowed on a page blob in a
+      premium
+
+      storage account and on a block blob in a blob storage account (locally
+      redundant
+
+      storage only). A premium page blob's tier determines the allowed size,
+      IOPS,
+
+      and bandwidth of the blob. A block blob's tier determines Hot/Cool/Archive
+
+      storage type. This operation does not update the blob's ETag.
+    syntax:
+      content: >-
+        function setAccessTier(tier: BlockBlobTier | PremiumPageBlobTier |
+        string, options?: BlobSetTierOptions)
+      parameters:
+        - id: tier
+          type:
+            - >-
+              @azure/abort-controller.BlockBlobTier |
+              @azure/abort-controller.PremiumPageBlobTier | string
+          description: >-
+            The tier to be set on the blob. Valid values are Hot, Cool, or
+            Archive.
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobSetTierOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobSetTierResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.setHTTPHeaders'
+    name: 'setHTTPHeaders(BlobHTTPHeaders, BlobSetHTTPHeadersOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets system properties on the blob.
+
+      If no value provided, or no value provided for the specificed blob HTTP
+      headers,
+
+      these blob HTTP headers without a value will be cleared.
+    syntax:
+      content: >-
+        function setHTTPHeaders(blobHTTPHeaders?: BlobHTTPHeaders, options?:
+        BlobSetHTTPHeadersOptions)
+      parameters:
+        - id: blobHTTPHeaders
+          type:
+            - '@azure/abort-controller.BlobHTTPHeaders'
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobSetHTTPHeadersOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobSetHTTPHeadersResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.setMetadata'
+    name: 'setMetadata(Metadata, BlobSetMetadataOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets user-defined metadata for the specified blob as one or more
+      name-value pairs.
+
+      If no option provided, or no metadata defined in the parameter, the blob
+
+      metadata will be removed.
+    syntax:
+      content: >-
+        function setMetadata(metadata?: Metadata, options?:
+        BlobSetMetadataOptions)
+      parameters:
+        - id: metadata
+          type:
+            - '@azure/abort-controller.Metadata'
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobSetMetadataOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobSetMetadataResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.syncCopyFromURL'
+    name: 'syncCopyFromURL(string, BlobSyncCopyFromURLOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      The synchronous Copy From URL operation copies a blob or an internet
+      resource to a new blob. It will not
+
+      return a response until the copy is complete.
+    syntax:
+      content: >-
+        function syncCopyFromURL(copySource: string, options?:
+        BlobSyncCopyFromURLOptions)
+      parameters:
+        - id: copySource
+          type:
+            - string
+          description: >-
+            The source URL to copy from, Shared Access Signature(SAS) maybe
+            needed for authentication
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobSyncCopyFromURLOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobCopyFromURLResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.undelete'
+    name: undelete(BlobUndeleteOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Restores the contents and metadata of soft deleted blob and any associated
+
+      soft deleted snapshots. Undelete Blob is supported only on version
+      2017-07-29
+
+      or later.
+    syntax:
+      content: 'function undelete(options?: BlobUndeleteOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobUndeleteOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobUndeleteResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Encoded URL string value.
+    syntax:
+      content: 'url: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AppendBlobClient.withSnapshot'
+    name: withSnapshot(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Creates a new AppendBlobClient object identical to the source but with the
+      specified snapshot timestamp.
+      Provide "" will remove the snapshot and return a Client to the base blob.
+    syntax:
+      content: 'function withSnapshot(snapshot: string)'
+      parameters:
+        - id: snapshot
+          type:
+            - string
+          description: The snapshot timestamp.
+      return:
+        type:
+          - '@azure/abort-controller.AppendBlobClient'
+        description: >-
+          A new AppendBlobClient object identical to the source but with the
+          specified snapshot timestamp.
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.BlobClient'
+    name: BlobClient
+    spec.typeScript:
+      - name: BlobClient
+        fullName: BlobClient
+        uid: '@azure/abort-controller.BlobClient'
+  - uid: '@azure/abort-controller.StoragePipelineOptions'
+    name: StoragePipelineOptions
+    spec.typeScript:
+      - name: StoragePipelineOptions
+        fullName: StoragePipelineOptions
+        uid: '@azure/abort-controller.StoragePipelineOptions'
+  - uid: >-
+      @azure/abort-controller.StorageSharedKeyCredential |
+      @azure/abort-controller.AnonymousCredential |
+      @azure/abort-controller.TokenCredential
+    name: TokenCredential
+    spec.typeScript:
+      - name: StorageSharedKeyCredential
+        fullName: StorageSharedKeyCredential
+        uid: '@azure/abort-controller.StorageSharedKeyCredential'
+      - name: ' | '
+        fullName: ' | '
+      - name: AnonymousCredential
+        fullName: AnonymousCredential
+        uid: '@azure/abort-controller.AnonymousCredential'
+      - name: ' | '
+        fullName: ' | '
+      - name: TokenCredential
+        fullName: TokenCredential
+        uid: '@azure/abort-controller.TokenCredential'
+  - uid: '@azure/abort-controller.Pipeline'
+    name: Pipeline
+    spec.typeScript:
+      - name: Pipeline
+        fullName: Pipeline
+        uid: '@azure/abort-controller.Pipeline'
+  - uid: '@azure/abort-controller.BlobAbortCopyFromURLOptions'
+    name: BlobAbortCopyFromURLOptions
+    spec.typeScript:
+      - name: BlobAbortCopyFromURLOptions
+        fullName: BlobAbortCopyFromURLOptions
+        uid: '@azure/abort-controller.BlobAbortCopyFromURLOptions'
+  - uid: Promise<@azure/abort-controller.BlobAbortCopyFromURLResponse>
+    name: BlobAbortCopyFromURLResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobAbortCopyFromURLResponse
+        fullName: BlobAbortCopyFromURLResponse
+        uid: '@azure/abort-controller.BlobAbortCopyFromURLResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.HttpRequestBody'
+    name: HttpRequestBody
+    spec.typeScript:
+      - name: HttpRequestBody
+        fullName: HttpRequestBody
+        uid: '@azure/abort-controller.HttpRequestBody'
+  - uid: '@azure/abort-controller.AppendBlobAppendBlockOptions'
+    name: AppendBlobAppendBlockOptions
+    spec.typeScript:
+      - name: AppendBlobAppendBlockOptions
+        fullName: AppendBlobAppendBlockOptions
+        uid: '@azure/abort-controller.AppendBlobAppendBlockOptions'
+  - uid: Promise<@azure/abort-controller.AppendBlobAppendBlockResponse>
+    name: AppendBlobAppendBlockResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: AppendBlobAppendBlockResponse
+        fullName: AppendBlobAppendBlockResponse
+        uid: '@azure/abort-controller.AppendBlobAppendBlockResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.AppendBlobAppendBlockFromURLOptions'
+    name: AppendBlobAppendBlockFromURLOptions
+    spec.typeScript:
+      - name: AppendBlobAppendBlockFromURLOptions
+        fullName: AppendBlobAppendBlockFromURLOptions
+        uid: '@azure/abort-controller.AppendBlobAppendBlockFromURLOptions'
+  - uid: Promise<@azure/abort-controller.AppendBlobAppendBlockFromUrlResponse>
+    name: AppendBlobAppendBlockFromUrlResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: AppendBlobAppendBlockFromUrlResponse
+        fullName: AppendBlobAppendBlockFromUrlResponse
+        uid: '@azure/abort-controller.AppendBlobAppendBlockFromUrlResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions'
+    name: BlobBeginCopyFromURLOptions
+    spec.typeScript:
+      - name: BlobBeginCopyFromURLOptions
+        fullName: BlobBeginCopyFromURLOptions
+        uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions'
+  - uid: >-
+      Promise<@azure/abort-controller.PollerLike<@azure/abort-controller.PollOperationState<@azure/abort-controller.BlobBeginCopyFromURLResponse>,
+      @azure/abort-controller.BlobBeginCopyFromURLResponse>>
+    name: BlobBeginCopyFromURLResponse>>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: PollerLike
+        fullName: PollerLike
+        uid: '@azure/abort-controller.PollerLike'
+      - name: <
+        fullName: <
+      - name: PollOperationState
+        fullName: PollOperationState
+        uid: '@azure/abort-controller.PollOperationState'
+      - name: <
+        fullName: <
+      - name: BlobBeginCopyFromURLResponse
+        fullName: BlobBeginCopyFromURLResponse
+        uid: '@azure/abort-controller.BlobBeginCopyFromURLResponse'
+      - name: '>, '
+        fullName: '>, '
+      - name: BlobBeginCopyFromURLResponse
+        fullName: BlobBeginCopyFromURLResponse
+        uid: '@azure/abort-controller.BlobBeginCopyFromURLResponse'
+      - name: '>>'
+        fullName: '>>'
+  - uid: '@azure/abort-controller.AppendBlobCreateOptions'
+    name: AppendBlobCreateOptions
+    spec.typeScript:
+      - name: AppendBlobCreateOptions
+        fullName: AppendBlobCreateOptions
+        uid: '@azure/abort-controller.AppendBlobCreateOptions'
+  - uid: Promise<@azure/abort-controller.AppendBlobCreateResponse>
+    name: AppendBlobCreateResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: AppendBlobCreateResponse
+        fullName: AppendBlobCreateResponse
+        uid: '@azure/abort-controller.AppendBlobCreateResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobCreateSnapshotOptions'
+    name: BlobCreateSnapshotOptions
+    spec.typeScript:
+      - name: BlobCreateSnapshotOptions
+        fullName: BlobCreateSnapshotOptions
+        uid: '@azure/abort-controller.BlobCreateSnapshotOptions'
+  - uid: Promise<@azure/abort-controller.BlobCreateSnapshotResponse>
+    name: BlobCreateSnapshotResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobCreateSnapshotResponse
+        fullName: BlobCreateSnapshotResponse
+        uid: '@azure/abort-controller.BlobCreateSnapshotResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobDeleteOptions'
+    name: BlobDeleteOptions
+    spec.typeScript:
+      - name: BlobDeleteOptions
+        fullName: BlobDeleteOptions
+        uid: '@azure/abort-controller.BlobDeleteOptions'
+  - uid: Promise<@azure/abort-controller.BlobDeleteResponse>
+    name: BlobDeleteResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobDeleteResponse
+        fullName: BlobDeleteResponse
+        uid: '@azure/abort-controller.BlobDeleteResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobDownloadOptions'
+    name: BlobDownloadOptions
+    spec.typeScript:
+      - name: BlobDownloadOptions
+        fullName: BlobDownloadOptions
+        uid: '@azure/abort-controller.BlobDownloadOptions'
+  - uid: '@azure/abort-controller.BlobDownloadToBufferOptions'
+    name: BlobDownloadToBufferOptions
+    spec.typeScript:
+      - name: BlobDownloadToBufferOptions
+        fullName: BlobDownloadToBufferOptions
+        uid: '@azure/abort-controller.BlobDownloadToBufferOptions'
+  - uid: '@azure/abort-controller.BlobExistsOptions'
+    name: BlobExistsOptions
+    spec.typeScript:
+      - name: BlobExistsOptions
+        fullName: BlobExistsOptions
+        uid: '@azure/abort-controller.BlobExistsOptions'
+  - uid: '@azure/abort-controller.AppendBlobClient'
+    name: AppendBlobClient
+    spec.typeScript:
+      - name: AppendBlobClient
+        fullName: AppendBlobClient
+        uid: '@azure/abort-controller.AppendBlobClient'
+  - uid: '@azure/abort-controller.BlobLeaseClient'
+    name: BlobLeaseClient
+    spec.typeScript:
+      - name: BlobLeaseClient
+        fullName: BlobLeaseClient
+        uid: '@azure/abort-controller.BlobLeaseClient'
+  - uid: '@azure/abort-controller.BlockBlobClient'
+    name: BlockBlobClient
+    spec.typeScript:
+      - name: BlockBlobClient
+        fullName: BlockBlobClient
+        uid: '@azure/abort-controller.BlockBlobClient'
+  - uid: '@azure/abort-controller.PageBlobClient'
+    name: PageBlobClient
+    spec.typeScript:
+      - name: PageBlobClient
+        fullName: PageBlobClient
+        uid: '@azure/abort-controller.PageBlobClient'
+  - uid: '@azure/abort-controller.BlobGetPropertiesOptions'
+    name: BlobGetPropertiesOptions
+    spec.typeScript:
+      - name: BlobGetPropertiesOptions
+        fullName: BlobGetPropertiesOptions
+        uid: '@azure/abort-controller.BlobGetPropertiesOptions'
+  - uid: Promise<@azure/abort-controller.BlobGetPropertiesResponse>
+    name: BlobGetPropertiesResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobGetPropertiesResponse
+        fullName: BlobGetPropertiesResponse
+        uid: '@azure/abort-controller.BlobGetPropertiesResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.BlockBlobTier |
+      @azure/abort-controller.PremiumPageBlobTier | string
+    name: PremiumPageBlobTier | string
+    spec.typeScript:
+      - name: BlockBlobTier
+        fullName: BlockBlobTier
+        uid: '@azure/abort-controller.BlockBlobTier'
+      - name: ' | '
+        fullName: ' | '
+      - name: PremiumPageBlobTier
+        fullName: PremiumPageBlobTier
+        uid: '@azure/abort-controller.PremiumPageBlobTier'
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: '@azure/abort-controller.BlobSetTierOptions'
+    name: BlobSetTierOptions
+    spec.typeScript:
+      - name: BlobSetTierOptions
+        fullName: BlobSetTierOptions
+        uid: '@azure/abort-controller.BlobSetTierOptions'
+  - uid: Promise<@azure/abort-controller.BlobSetTierResponse>
+    name: BlobSetTierResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobSetTierResponse
+        fullName: BlobSetTierResponse
+        uid: '@azure/abort-controller.BlobSetTierResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobHTTPHeaders'
+    name: BlobHTTPHeaders
+    spec.typeScript:
+      - name: BlobHTTPHeaders
+        fullName: BlobHTTPHeaders
+        uid: '@azure/abort-controller.BlobHTTPHeaders'
+  - uid: '@azure/abort-controller.BlobSetHTTPHeadersOptions'
+    name: BlobSetHTTPHeadersOptions
+    spec.typeScript:
+      - name: BlobSetHTTPHeadersOptions
+        fullName: BlobSetHTTPHeadersOptions
+        uid: '@azure/abort-controller.BlobSetHTTPHeadersOptions'
+  - uid: Promise<@azure/abort-controller.BlobSetHTTPHeadersResponse>
+    name: BlobSetHTTPHeadersResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobSetHTTPHeadersResponse
+        fullName: BlobSetHTTPHeadersResponse
+        uid: '@azure/abort-controller.BlobSetHTTPHeadersResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.Metadata'
+    name: Metadata
+    spec.typeScript:
+      - name: Metadata
+        fullName: Metadata
+        uid: '@azure/abort-controller.Metadata'
+  - uid: '@azure/abort-controller.BlobSetMetadataOptions'
+    name: BlobSetMetadataOptions
+    spec.typeScript:
+      - name: BlobSetMetadataOptions
+        fullName: BlobSetMetadataOptions
+        uid: '@azure/abort-controller.BlobSetMetadataOptions'
+  - uid: Promise<@azure/abort-controller.BlobSetMetadataResponse>
+    name: BlobSetMetadataResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobSetMetadataResponse
+        fullName: BlobSetMetadataResponse
+        uid: '@azure/abort-controller.BlobSetMetadataResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobSyncCopyFromURLOptions'
+    name: BlobSyncCopyFromURLOptions
+    spec.typeScript:
+      - name: BlobSyncCopyFromURLOptions
+        fullName: BlobSyncCopyFromURLOptions
+        uid: '@azure/abort-controller.BlobSyncCopyFromURLOptions'
+  - uid: Promise<@azure/abort-controller.BlobCopyFromURLResponse>
+    name: BlobCopyFromURLResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobCopyFromURLResponse
+        fullName: BlobCopyFromURLResponse
+        uid: '@azure/abort-controller.BlobCopyFromURLResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobUndeleteOptions'
+    name: BlobUndeleteOptions
+    spec.typeScript:
+      - name: BlobUndeleteOptions
+        fullName: BlobUndeleteOptions
+        uid: '@azure/abort-controller.BlobUndeleteOptions'
+  - uid: Promise<@azure/abort-controller.BlobUndeleteResponse>
+    name: BlobUndeleteResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobUndeleteResponse
+        fullName: BlobUndeleteResponse
+        uid: '@azure/abort-controller.BlobUndeleteResponse'
+      - name: '>'
+        fullName: '>'

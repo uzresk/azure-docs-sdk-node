@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.Propagation
+    name: Propagation
+    fullName: Propagation
+    children:
+      - tslib.Propagation.extract
+      - tslib.Propagation.generate
+      - tslib.Propagation.inject
+    langs:
+      - typeScript
+    type: interface
+    summary: Propagation interface
+    package: tslib
+  - uid: tslib.Propagation.extract
+    name: extract(HeaderGetter)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function extract(getter: HeaderGetter)'
+      parameters:
+        - id: getter
+          type:
+            - tslib.HeaderGetter
+          description: ''
+      return:
+        type:
+          - tslib.SpanContext | null
+        description: ''
+    package: tslib
+  - uid: tslib.Propagation.generate
+    name: generate()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function generate()
+      parameters: []
+      return:
+        type:
+          - tslib.SpanContext
+        description: ''
+    package: tslib
+  - uid: tslib.Propagation.inject
+    name: 'inject(HeaderSetter, SpanContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function inject(setter: HeaderSetter, spanContext: SpanContext)'
+      parameters:
+        - id: setter
+          type:
+            - tslib.HeaderSetter
+          description: ''
+        - id: spanContext
+          type:
+            - tslib.SpanContext
+          description: ''
+    package: tslib
+references:
+  - uid: tslib.HeaderGetter
+    name: HeaderGetter
+    spec.typeScript:
+      - name: HeaderGetter
+        fullName: HeaderGetter
+        uid: tslib.HeaderGetter
+  - uid: tslib.SpanContext | null
+    name: SpanContext | null
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: tslib.SpanContext
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.SpanContext
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: tslib.SpanContext
+  - uid: tslib.HeaderSetter
+    name: HeaderSetter
+    spec.typeScript:
+      - name: HeaderSetter
+        fullName: HeaderSetter
+        uid: tslib.HeaderSetter

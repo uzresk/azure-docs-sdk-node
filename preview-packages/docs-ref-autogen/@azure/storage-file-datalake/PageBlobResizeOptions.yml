@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.PageBlobResizeOptions'
+    name: PageBlobResizeOptions
+    fullName: PageBlobResizeOptions
+    children:
+      - '@azure/abort-controller.PageBlobResizeOptions.abortSignal'
+      - '@azure/abort-controller.PageBlobResizeOptions.conditions'
+      - '@azure/abort-controller.PageBlobResizeOptions.tracingOptions'
+    langs:
+      - typeScript
+    type: interface
+    summary: 'Options to configure <xref:PageBlobClient.resize> operation.'
+    extends:
+      name: '@azure/abort-controller.CommonOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobResizeOptions.abortSignal'
+    name: abortSignal
+    fullName: abortSignal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    optional: true
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type:
+          - '@azure/abort-controller.AbortSignalLike'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobResizeOptions.conditions'
+    name: conditions
+    fullName: conditions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Conditions to meet when resizing a page blob.
+    optional: true
+    syntax:
+      content: 'conditions?: BlobRequestConditions'
+      return:
+        type:
+          - '@azure/abort-controller.BlobRequestConditions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobResizeOptions.tracingOptions'
+    name: tracingOptions
+    fullName: tracingOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options to configure spans created when tracing is enabled.
+    optional: true
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type:
+          - '@azure/abort-controller.OperationTracingOptions'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.CommonOptions'
+    name: CommonOptions
+    spec.typeScript:
+      - name: CommonOptions
+        fullName: CommonOptions
+        uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.BlobRequestConditions'
+    name: BlobRequestConditions
+    spec.typeScript:
+      - name: BlobRequestConditions
+        fullName: BlobRequestConditions
+        uid: '@azure/abort-controller.BlobRequestConditions'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
+    name: OperationTracingOptions
+    spec.typeScript:
+      - name: OperationTracingOptions
+        fullName: OperationTracingOptions
+        uid: '@azure/abort-controller.OperationTracingOptions'

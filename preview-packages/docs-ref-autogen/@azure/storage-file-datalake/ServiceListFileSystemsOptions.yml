@@ -1,23 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsOptions'
     name: ServiceListFileSystemsOptions
     fullName: ServiceListFileSystemsOptions
     children:
-      - '@azure/storage-file-datalake.ServiceListFileSystemsOptions.abortSignal'
-      - >-
-        @azure/storage-file-datalake.ServiceListFileSystemsOptions.includeMetadata
-      - '@azure/storage-file-datalake.ServiceListFileSystemsOptions.prefix'
-      - >-
-        @azure/storage-file-datalake.ServiceListFileSystemsOptions.tracingOptions
+      - '@azure/abort-controller.ServiceListFileSystemsOptions.abortSignal'
+      - '@azure/abort-controller.ServiceListFileSystemsOptions.includeMetadata'
+      - '@azure/abort-controller.ServiceListFileSystemsOptions.prefix'
+      - '@azure/abort-controller.ServiceListFileSystemsOptions.tracingOptions'
     langs:
       - typeScript
     type: interface
     summary: ''
     extends:
-      name: '@azure/storage-file-datalake.CommonOptions'
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions.abortSignal'
+      name: '@azure/abort-controller.CommonOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsOptions.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -30,10 +28,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - AbortSignalLike
+          - '@azure/abort-controller.AbortSignalLike'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions.includeMetadata'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsOptions.includeMetadata'
     name: includeMetadata
     fullName: includeMetadata
     children: []
@@ -48,8 +46,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions.prefix'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsOptions.prefix'
     name: prefix
     fullName: prefix
     children: []
@@ -64,8 +62,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions.tracingOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsOptions.tracingOptions'
     name: tracingOptions
     fullName: tracingOptions
     children: []
@@ -78,19 +76,25 @@ items:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         type:
-          - '@azure/storage-file-datalake.OperationTracingOptions'
+          - '@azure/abort-controller.OperationTracingOptions'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.CommonOptions'
+  - uid: '@azure/abort-controller.CommonOptions'
     name: CommonOptions
     spec.typeScript:
       - name: CommonOptions
         fullName: CommonOptions
-        uid: '@azure/storage-file-datalake.CommonOptions'
-  - uid: '@azure/storage-file-datalake.OperationTracingOptions'
+        uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
     name: OperationTracingOptions
     spec.typeScript:
       - name: OperationTracingOptions
         fullName: OperationTracingOptions
-        uid: '@azure/storage-file-datalake.OperationTracingOptions'
+        uid: '@azure/abort-controller.OperationTracingOptions'

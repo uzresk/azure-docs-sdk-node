@@ -12,20 +12,26 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.RiffPcmEncoder.Encode
-    name: Encode
-    fullName: Encode
+    name: 'Encode(boolean, Float32Array)'
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: >-
-        Encode: (needHeader: boolean, actualAudioFrame: Float32Array) =>
-        ArrayBuffer
+      content: 'function Encode(needHeader: boolean, actualAudioFrame: Float32Array)'
+      parameters:
+        - id: needHeader
+          type:
+            - boolean
+          description: ''
+        - id: actualAudioFrame
+          type:
+            - Float32Array
+          description: ''
       return:
         type:
-          - '(needHeader: boolean, actualAudioFrame: Float32Array) => ArrayBuffer'
+          - ArrayBuffer
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.RiffPcmEncoder.constructor

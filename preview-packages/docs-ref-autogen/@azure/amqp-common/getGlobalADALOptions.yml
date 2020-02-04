@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.getGlobalADALOptions'
+    name: getGlobalADALOptions()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getGlobalADALOptions()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'

@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.RequestPolicy'
+    name: RequestPolicy
+    fullName: RequestPolicy
+    children:
+      - '@azure/ms-rest-azure-env.RequestPolicy.sendRequest'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.RequestPolicy.sendRequest'
+    name: sendRequest(WebResource)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function sendRequest(httpRequest: WebResource)'
+      parameters:
+        - id: httpRequest
+          type:
+            - '@azure/ms-rest-azure-env.WebResource'
+          description: ''
+      return:
+        type:
+          - Promise<@azure/ms-rest-azure-env.HttpOperationResponse>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.WebResource'
+    name: WebResource
+    spec.typeScript:
+      - name: WebResource
+        fullName: WebResource
+        uid: '@azure/ms-rest-azure-env.WebResource'
+  - uid: Promise<@azure/ms-rest-azure-env.HttpOperationResponse>
+    name: HttpOperationResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: HttpOperationResponse
+        fullName: HttpOperationResponse
+        uid: '@azure/ms-rest-azure-env.HttpOperationResponse'
+      - name: '>'
+        fullName: '>'

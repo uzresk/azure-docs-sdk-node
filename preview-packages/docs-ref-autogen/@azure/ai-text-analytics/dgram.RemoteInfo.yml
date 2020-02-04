@@ -1,0 +1,124 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.dgram.RemoteInfo'
+    name: RemoteInfo
+    fullName: RemoteInfo
+    children:
+      - '@azure/abort-controller.dgram.RemoteInfo.address'
+      - '@azure/abort-controller.dgram.RemoteInfo.family'
+      - '@azure/abort-controller.dgram.RemoteInfo.port'
+      - '@azure/abort-controller.dgram.RemoteInfo.size'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.dgram.RemoteInfo.address'
+    name: address
+    fullName: address
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'address: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.dgram.RemoteInfo.family'
+    name: family
+    fullName: family
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'family: "IPv4" | "IPv6"'
+      return:
+        type:
+          - '"IPv4" | "IPv6"'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.dgram.RemoteInfo.port'
+    name: port
+    fullName: port
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'port: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.dgram.RemoteInfo.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: '@azure/abort-controller.net.AddressInfo'
+    name: AddressInfo
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: '@azure/abort-controller.net.AddressInfo'
+  - uid: '@azure/abort-controller.dgram.BindOptions'
+    name: BindOptions
+    spec.typeScript:
+      - name: BindOptions
+        fullName: BindOptions
+        uid: '@azure/abort-controller.dgram.BindOptions'
+  - uid: '@azure/abort-controller.dgram.RemoteInfo'
+    name: RemoteInfo
+    spec.typeScript:
+      - name: RemoteInfo
+        fullName: RemoteInfo
+        uid: '@azure/abort-controller.dgram.RemoteInfo'
+  - uid: '@azure/abort-controller.dgram.SocketType'
+    name: SocketType
+    spec.typeScript:
+      - name: SocketType
+        fullName: SocketType
+        uid: '@azure/abort-controller.dgram.SocketType'
+  - uid: '@azure/abort-controller.dgram.Socket'
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/abort-controller.dgram.Socket'
+  - uid: '@azure/abort-controller.dgram.SocketOptions'
+    name: SocketOptions
+    spec.typeScript:
+      - name: SocketOptions
+        fullName: SocketOptions
+        uid: '@azure/abort-controller.dgram.SocketOptions'

@@ -1,0 +1,196 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.querystring'
+    name: querystring
+    langs:
+      - typeScript
+    fullName: querystring
+    children:
+      - '@azure/ms-rest-azure-env.querystring.escape'
+      - '@azure/ms-rest-azure-env.querystring.parse'
+      - '@azure/ms-rest-azure-env.querystring.parse_1'
+      - '@azure/ms-rest-azure-env.querystring.ParsedUrlQuery'
+      - '@azure/ms-rest-azure-env.querystring.ParseOptions'
+      - '@azure/ms-rest-azure-env.querystring.stringify'
+      - '@azure/ms-rest-azure-env.querystring.StringifyOptions'
+      - '@azure/ms-rest-azure-env.querystring.unescape'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.querystring.escape'
+    name: escape(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function escape(str: string)'
+      parameters:
+        - id: str
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.querystring.parse'
+    name: 'parse(string, undefined | string, undefined | string, ParseOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parse(str: string, sep?: undefined | string, eq?: undefined |
+        string, options?: ParseOptions)
+      parameters:
+        - id: str
+          type:
+            - string
+          description: ''
+        - id: sep
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: eq
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.querystring.ParseOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - ParsedUrlQuery
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.querystring.parse_1'
+    name: 'parse(string, undefined | string, undefined | string, ParseOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parse<T>(str: string, sep?: undefined | string, eq?: undefined
+        | string, options?: ParseOptions)
+      parameters:
+        - id: str
+          type:
+            - string
+          description: ''
+        - id: sep
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: eq
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.querystring.ParseOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.querystring.stringify'
+    name: 'stringify(T, undefined | string, undefined | string, StringifyOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function stringify<T>(obj: T, sep?: undefined | string, eq?: undefined |
+        string, options?: StringifyOptions)
+      parameters:
+        - id: obj
+          type:
+            - T
+          description: ''
+        - id: sep
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: eq
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.querystring.StringifyOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.querystring.unescape'
+    name: unescape(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unescape(str: string)'
+      parameters:
+        - id: str
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+  - uid: '@azure/ms-rest-azure-env.querystring.ParseOptions'
+    name: ParseOptions
+    spec.typeScript:
+      - name: ParseOptions
+        fullName: ParseOptions
+        uid: '@azure/ms-rest-azure-env.querystring.ParseOptions'
+  - uid: '@azure/ms-rest-azure-env.querystring.StringifyOptions'
+    name: StringifyOptions
+    spec.typeScript:
+      - name: StringifyOptions
+        fullName: StringifyOptions
+        uid: '@azure/ms-rest-azure-env.querystring.StringifyOptions'
+  - uid: '@azure/ms-rest-azure-env.querystring.escape'
+    name: escape
+  - uid: '@azure/ms-rest-azure-env.querystring.parse'
+    name: parse
+  - uid: '@azure/ms-rest-azure-env.querystring.parse_1'
+    name: parse_1
+  - uid: '@azure/ms-rest-azure-env.querystring.ParsedUrlQuery'
+    name: ParsedUrlQuery
+  - uid: '@azure/ms-rest-azure-env.querystring.stringify'
+    name: stringify
+  - uid: '@azure/ms-rest-azure-env.querystring.unescape'
+    name: unescape

@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.Match'
+  - uid: '@azure/abort-controller.Match'
     name: Match
     fullName: Match
     children:
-      - '@azure/ai-text-analytics.Match.length'
-      - '@azure/ai-text-analytics.Match.offset'
-      - '@azure/ai-text-analytics.Match.score'
-      - '@azure/ai-text-analytics.Match.text'
+      - '@azure/abort-controller.Match.length'
+      - '@azure/abort-controller.Match.offset'
+      - '@azure/abort-controller.Match.score'
+      - '@azure/abort-controller.Match.text'
     langs:
       - typeScript
     type: interface
     summary: An interface representing Match.
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.Match.length'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Match.length'
     name: length
     fullName: length
     children: []
@@ -27,8 +27,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.Match.offset'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Match.offset'
     name: offset
     fullName: offset
     children: []
@@ -42,8 +42,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.Match.score'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Match.score'
     name: score
     fullName: score
     children: []
@@ -61,8 +61,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.Match.text'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Match.text'
     name: text
     fullName: text
     children: []
@@ -76,4 +76,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'

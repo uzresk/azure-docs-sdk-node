@@ -1,0 +1,58 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.nacl.box.open'
+    name: open
+    fullName: open
+    children:
+      - '@azure/ms-rest-azure-env.nacl.box.open.after'
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'open: open'
+      return:
+        type:
+          - open
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.nacl.box.open.after'
+    name: 'after(Uint8Array, Uint8Array, Uint8Array)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function after(box: Uint8Array, nonce: Uint8Array, key: Uint8Array)'
+      parameters:
+        - id: box
+          type:
+            - Uint8Array
+          description: ''
+        - id: nonce
+          type:
+            - Uint8Array
+          description: ''
+        - id: key
+          type:
+            - Uint8Array
+          description: ''
+      return:
+        type:
+          - Uint8Array | false
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.nacl.BoxKeyPair'
+    name: BoxKeyPair
+    spec.typeScript:
+      - name: BoxKeyPair
+        fullName: BoxKeyPair
+        uid: '@azure/ms-rest-azure-env.nacl.BoxKeyPair'
+  - uid: '@azure/ms-rest-azure-env.nacl.SignKeyPair'
+    name: SignKeyPair
+    spec.typeScript:
+      - name: SignKeyPair
+        fullName: SignKeyPair
+        uid: '@azure/ms-rest-azure-env.nacl.SignKeyPair'

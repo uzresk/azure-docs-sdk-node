@@ -1,0 +1,570 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.domain.Domain'
+    name: Domain
+    fullName: Domain
+    children:
+      - '@azure/ms-rest-azure-env.domain.Domain.add'
+      - '@azure/ms-rest-azure-env.domain.Domain.addListener'
+      - '@azure/ms-rest-azure-env.domain.Domain.bind'
+      - '@azure/ms-rest-azure-env.domain.Domain.defaultMaxListeners'
+      - '@azure/ms-rest-azure-env.domain.Domain.dispose'
+      - '@azure/ms-rest-azure-env.domain.Domain.constructor'
+      - '@azure/ms-rest-azure-env.domain.Domain.emit'
+      - '@azure/ms-rest-azure-env.domain.Domain.enter'
+      - '@azure/ms-rest-azure-env.domain.Domain.eventNames'
+      - '@azure/ms-rest-azure-env.domain.Domain.exit'
+      - '@azure/ms-rest-azure-env.domain.Domain.getMaxListeners'
+      - '@azure/ms-rest-azure-env.domain.Domain.intercept'
+      - '@azure/ms-rest-azure-env.domain.Domain.listenerCount'
+      - '@azure/ms-rest-azure-env.domain.Domain.listenerCount'
+      - '@azure/ms-rest-azure-env.domain.Domain.listeners'
+      - '@azure/ms-rest-azure-env.domain.Domain.members'
+      - '@azure/ms-rest-azure-env.domain.Domain.off'
+      - '@azure/ms-rest-azure-env.domain.Domain.on'
+      - '@azure/ms-rest-azure-env.domain.Domain.once'
+      - '@azure/ms-rest-azure-env.domain.Domain.prependListener'
+      - '@azure/ms-rest-azure-env.domain.Domain.prependOnceListener'
+      - '@azure/ms-rest-azure-env.domain.Domain.rawListeners'
+      - '@azure/ms-rest-azure-env.domain.Domain.remove'
+      - '@azure/ms-rest-azure-env.domain.Domain.removeAllListeners'
+      - '@azure/ms-rest-azure-env.domain.Domain.removeListener'
+      - '@azure/ms-rest-azure-env.domain.Domain.run'
+      - '@azure/ms-rest-azure-env.domain.Domain.setMaxListeners'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.add'
+    name: add(events.EventEmitter)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function add(emitter: events.EventEmitter)'
+      parameters:
+        - id: emitter
+          type:
+            - events.EventEmitter
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.addListener'
+    name: 'addListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: string | symbol, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.bind'
+    name: 'bind((err: Error, data: any) => any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function bind(cb: (err: Error, data: any) => any)'
+      parameters:
+        - id: cb
+          type:
+            - '(err: Error, data: any) => any'
+          description: ''
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.defaultMaxListeners'
+    name: defaultMaxListeners
+    fullName: defaultMaxListeners
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultMaxListeners: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.dispose'
+    name: dispose()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function dispose()
+      parameters: []
+    package: '@azure/ms-rest-azure-env'
+    deprecated:
+      content: >-
+        since v0.11.7 - recover from failed I/O actions explicitly via error
+        event handlers set on the domain instead.
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.constructor'
+    name: Domain(EventEmitterOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Domain(options?: EventEmitterOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.enter'
+    name: enter()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function enter()
+      parameters: []
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.exit'
+    name: exit()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function exit()
+      parameters: []
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.intercept'
+    name: 'intercept((data: any) => any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function intercept(cb: (data: any) => any)'
+      parameters:
+        - id: cb
+          type:
+            - '(data: any) => any'
+          description: ''
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.listenerCount'
+    name: 'listenerCount(EventEmitter, string | symbol)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function listenerCount(emitter: EventEmitter, event: string |
+        symbol)
+      parameters:
+        - id: emitter
+          type:
+            - '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+          description: ''
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+    deprecated:
+      content: since v4.0.0
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.members'
+    name: members
+    fullName: members
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'members: any[]'
+      return:
+        type:
+          - 'any[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.on'
+    name: 'on(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.once'
+    name: 'once(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.prependListener'
+    name: 'prependListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.prependOnceListener'
+    name: 'prependOnceListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string | symbol, listener: (args:
+        any[]) => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.remove'
+    name: remove(events.EventEmitter)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function remove(emitter: events.EventEmitter)'
+      parameters:
+        - id: emitter
+          type:
+            - events.EventEmitter
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.removeListener'
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.run'
+    name: run(Function)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function run(fn: Function)'
+      parameters:
+        - id: fn
+          type:
+            - Function
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain'
+    name: Domain
+    spec.typeScript:
+      - name: Domain
+        fullName: Domain
+        uid: '@azure/ms-rest-azure-env.domain.Domain'

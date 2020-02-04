@@ -1,0 +1,383 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.NodeJS.RemoveListenerListener'
+    name: RemoveListenerListener
+    fullName: RemoveListenerListener
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type RemoveListenerListener = (type: string | symbol, listener: (args:
+        any[]) => void) => void
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.NodeJS.ConsoleConstructorOptions'
+    name: ConsoleConstructorOptions
+    spec.typeScript:
+      - name: ConsoleConstructorOptions
+        fullName: ConsoleConstructorOptions
+        uid: '@azure/abort-controller.NodeJS.ConsoleConstructorOptions'
+  - uid: '@azure/abort-controller.NodeJS.InspectOptions'
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: '@azure/abort-controller.NodeJS.InspectOptions'
+  - uid: '@azure/abort-controller.NodeJS.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.NodeJS.EventEmitter'
+  - uid: >-
+      @azure/abort-controller.NodeJS.EventEmitter |
+      @azure/abort-controller.NodeJS.Timer
+    name: Timer
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.NodeJS.EventEmitter'
+      - name: ' | '
+        fullName: ' | '
+      - name: Timer
+        fullName: Timer
+        uid: '@azure/abort-controller.NodeJS.Timer'
+  - uid: '@azure/abort-controller.NodeJS.Global'
+    name: Global
+    spec.typeScript:
+      - name: Global
+        fullName: Global
+        uid: '@azure/abort-controller.NodeJS.Global'
+  - uid: '@azure/abort-controller.NodeJS.Process'
+    name: Process
+    spec.typeScript:
+      - name: Process
+        fullName: Process
+        uid: '@azure/abort-controller.NodeJS.Process'
+  - uid: '@azure/abort-controller.NodeJS.RefCounted'
+    name: RefCounted
+    spec.typeScript:
+      - name: RefCounted
+        fullName: RefCounted
+        uid: '@azure/abort-controller.NodeJS.RefCounted'
+  - uid: '@azure/abort-controller.NodeJS.Module[]'
+    name: 'Module[]'
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: '@azure/abort-controller.NodeJS.Module'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.Module | null'
+    name: Module | null
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: '@azure/abort-controller.NodeJS.Module'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.NodeJS.Require'
+    name: Require
+    spec.typeScript:
+      - name: Require
+        fullName: Require
+        uid: '@azure/abort-controller.NodeJS.Require'
+  - uid: '@azure/abort-controller.NodeJS.Domain'
+    name: Domain
+    spec.typeScript:
+      - name: Domain
+        fullName: Domain
+        uid: '@azure/abort-controller.NodeJS.Domain'
+  - uid: '@azure/abort-controller.NodeJS.ProcessEnv'
+    name: ProcessEnv
+    spec.typeScript:
+      - name: ProcessEnv
+        fullName: ProcessEnv
+        uid: '@azure/abort-controller.NodeJS.ProcessEnv'
+  - uid: '@azure/abort-controller.NodeJS.Module'
+    name: Module
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: '@azure/abort-controller.NodeJS.Module'
+  - uid: '@azure/abort-controller.NodeJS.Platform'
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: '@azure/abort-controller.NodeJS.Platform'
+  - uid: '@azure/abort-controller.NodeJS.ProcessRelease'
+    name: ProcessRelease
+    spec.typeScript:
+      - name: ProcessRelease
+        fullName: ProcessRelease
+        uid: '@azure/abort-controller.NodeJS.ProcessRelease'
+  - uid: '@azure/abort-controller.NodeJS.ProcessReport'
+    name: ProcessReport
+    spec.typeScript:
+      - name: ProcessReport
+        fullName: ProcessReport
+        uid: '@azure/abort-controller.NodeJS.ProcessReport'
+  - uid: '@azure/abort-controller.NodeJS.ProcessVersions'
+    name: ProcessVersions
+    spec.typeScript:
+      - name: ProcessVersions
+        fullName: ProcessVersions
+        uid: '@azure/abort-controller.NodeJS.ProcessVersions'
+  - uid: '@azure/abort-controller.NodeJS.BeforeExitListener'
+    name: BeforeExitListener
+    spec.typeScript:
+      - name: BeforeExitListener
+        fullName: BeforeExitListener
+        uid: '@azure/abort-controller.NodeJS.BeforeExitListener'
+  - uid: '@azure/abort-controller.NodeJS.DisconnectListener'
+    name: DisconnectListener
+    spec.typeScript:
+      - name: DisconnectListener
+        fullName: DisconnectListener
+        uid: '@azure/abort-controller.NodeJS.DisconnectListener'
+  - uid: '@azure/abort-controller.NodeJS.ExitListener'
+    name: ExitListener
+    spec.typeScript:
+      - name: ExitListener
+        fullName: ExitListener
+        uid: '@azure/abort-controller.NodeJS.ExitListener'
+  - uid: '@azure/abort-controller.NodeJS.RejectionHandledListener'
+    name: RejectionHandledListener
+    spec.typeScript:
+      - name: RejectionHandledListener
+        fullName: RejectionHandledListener
+        uid: '@azure/abort-controller.NodeJS.RejectionHandledListener'
+  - uid: '@azure/abort-controller.NodeJS.UncaughtExceptionListener'
+    name: UncaughtExceptionListener
+    spec.typeScript:
+      - name: UncaughtExceptionListener
+        fullName: UncaughtExceptionListener
+        uid: '@azure/abort-controller.NodeJS.UncaughtExceptionListener'
+  - uid: '@azure/abort-controller.NodeJS.UnhandledRejectionListener'
+    name: UnhandledRejectionListener
+    spec.typeScript:
+      - name: UnhandledRejectionListener
+        fullName: UnhandledRejectionListener
+        uid: '@azure/abort-controller.NodeJS.UnhandledRejectionListener'
+  - uid: '@azure/abort-controller.NodeJS.WarningListener'
+    name: WarningListener
+    spec.typeScript:
+      - name: WarningListener
+        fullName: WarningListener
+        uid: '@azure/abort-controller.NodeJS.WarningListener'
+  - uid: '@azure/abort-controller.NodeJS.MessageListener'
+    name: MessageListener
+    spec.typeScript:
+      - name: MessageListener
+        fullName: MessageListener
+        uid: '@azure/abort-controller.NodeJS.MessageListener'
+  - uid: '@azure/abort-controller.NodeJS.Signals'
+    name: Signals
+    spec.typeScript:
+      - name: Signals
+        fullName: Signals
+        uid: '@azure/abort-controller.NodeJS.Signals'
+  - uid: '@azure/abort-controller.NodeJS.SignalsListener'
+    name: SignalsListener
+    spec.typeScript:
+      - name: SignalsListener
+        fullName: SignalsListener
+        uid: '@azure/abort-controller.NodeJS.SignalsListener'
+  - uid: '@azure/abort-controller.NodeJS.NewListenerListener'
+    name: NewListenerListener
+    spec.typeScript:
+      - name: NewListenerListener
+        fullName: NewListenerListener
+        uid: '@azure/abort-controller.NodeJS.NewListenerListener'
+  - uid: '@azure/abort-controller.NodeJS.RemoveListenerListener'
+    name: RemoveListenerListener
+    spec.typeScript:
+      - name: RemoveListenerListener
+        fullName: RemoveListenerListener
+        uid: '@azure/abort-controller.NodeJS.RemoveListenerListener'
+  - uid: '@azure/abort-controller.NodeJS.MultipleResolveListener'
+    name: MultipleResolveListener
+    spec.typeScript:
+      - name: MultipleResolveListener
+        fullName: MultipleResolveListener
+        uid: '@azure/abort-controller.NodeJS.MultipleResolveListener'
+  - uid: '@azure/abort-controller.NodeJS.CpuUsage'
+    name: CpuUsage
+    spec.typeScript:
+      - name: CpuUsage
+        fullName: CpuUsage
+        uid: '@azure/abort-controller.NodeJS.CpuUsage'
+  - uid: '@azure/abort-controller.NodeJS.BeforeExitListener[]'
+    name: 'BeforeExitListener[]'
+    spec.typeScript:
+      - name: BeforeExitListener
+        fullName: BeforeExitListener
+        uid: '@azure/abort-controller.NodeJS.BeforeExitListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.DisconnectListener[]'
+    name: 'DisconnectListener[]'
+    spec.typeScript:
+      - name: DisconnectListener
+        fullName: DisconnectListener
+        uid: '@azure/abort-controller.NodeJS.DisconnectListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.ExitListener[]'
+    name: 'ExitListener[]'
+    spec.typeScript:
+      - name: ExitListener
+        fullName: ExitListener
+        uid: '@azure/abort-controller.NodeJS.ExitListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.RejectionHandledListener[]'
+    name: 'RejectionHandledListener[]'
+    spec.typeScript:
+      - name: RejectionHandledListener
+        fullName: RejectionHandledListener
+        uid: '@azure/abort-controller.NodeJS.RejectionHandledListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.UncaughtExceptionListener[]'
+    name: 'UncaughtExceptionListener[]'
+    spec.typeScript:
+      - name: UncaughtExceptionListener
+        fullName: UncaughtExceptionListener
+        uid: '@azure/abort-controller.NodeJS.UncaughtExceptionListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.UnhandledRejectionListener[]'
+    name: 'UnhandledRejectionListener[]'
+    spec.typeScript:
+      - name: UnhandledRejectionListener
+        fullName: UnhandledRejectionListener
+        uid: '@azure/abort-controller.NodeJS.UnhandledRejectionListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.WarningListener[]'
+    name: 'WarningListener[]'
+    spec.typeScript:
+      - name: WarningListener
+        fullName: WarningListener
+        uid: '@azure/abort-controller.NodeJS.WarningListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.MessageListener[]'
+    name: 'MessageListener[]'
+    spec.typeScript:
+      - name: MessageListener
+        fullName: MessageListener
+        uid: '@azure/abort-controller.NodeJS.MessageListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.SignalsListener[]'
+    name: 'SignalsListener[]'
+    spec.typeScript:
+      - name: SignalsListener
+        fullName: SignalsListener
+        uid: '@azure/abort-controller.NodeJS.SignalsListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.NewListenerListener[]'
+    name: 'NewListenerListener[]'
+    spec.typeScript:
+      - name: NewListenerListener
+        fullName: NewListenerListener
+        uid: '@azure/abort-controller.NodeJS.NewListenerListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.RemoveListenerListener[]'
+    name: 'RemoveListenerListener[]'
+    spec.typeScript:
+      - name: RemoveListenerListener
+        fullName: RemoveListenerListener
+        uid: '@azure/abort-controller.NodeJS.RemoveListenerListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.MultipleResolveListener[]'
+    name: 'MultipleResolveListener[]'
+    spec.typeScript:
+      - name: MultipleResolveListener
+        fullName: MultipleResolveListener
+        uid: '@azure/abort-controller.NodeJS.MultipleResolveListener'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.MemoryUsage'
+    name: MemoryUsage
+    spec.typeScript:
+      - name: MemoryUsage
+        fullName: MemoryUsage
+        uid: '@azure/abort-controller.NodeJS.MemoryUsage'
+  - uid: '@azure/abort-controller.NodeJS.Socket'
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/abort-controller.NodeJS.Socket'
+  - uid: '@azure/abort-controller.NodeJS.ResourceUsage'
+    name: ResourceUsage
+    spec.typeScript:
+      - name: ResourceUsage
+        fullName: ResourceUsage
+        uid: '@azure/abort-controller.NodeJS.ResourceUsage'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: '@azure/abort-controller.NodeJS.NodeRequireCache'
+    name: NodeRequireCache
+    spec.typeScript:
+      - name: NodeRequireCache
+        fullName: NodeRequireCache
+        uid: '@azure/abort-controller.NodeJS.NodeRequireCache'
+  - uid: '@azure/abort-controller.NodeJS.RequireExtensions'
+    name: RequireExtensions
+    spec.typeScript:
+      - name: RequireExtensions
+        fullName: RequireExtensions
+        uid: '@azure/abort-controller.NodeJS.RequireExtensions'
+  - uid: '@azure/abort-controller.NodeJS.Module | undefined'
+    name: Module | undefined
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: '@azure/abort-controller.NodeJS.Module'
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: '@azure/abort-controller.NodeJS.RequireResolve'
+    name: RequireResolve
+    spec.typeScript:
+      - name: RequireResolve
+        fullName: RequireResolve
+        uid: '@azure/abort-controller.NodeJS.RequireResolve'
+  - uid: '@azure/abort-controller.NodeJS.ReadWriteStream'
+    name: ReadWriteStream
+    spec.typeScript:
+      - name: ReadWriteStream
+        fullName: ReadWriteStream
+        uid: '@azure/abort-controller.NodeJS.ReadWriteStream'
+  - uid: '@azure/abort-controller.NodeJS.Timer'
+    name: Timer
+    spec.typeScript:
+      - name: Timer
+        fullName: Timer
+        uid: '@azure/abort-controller.NodeJS.Timer'

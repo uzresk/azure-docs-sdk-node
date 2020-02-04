@@ -1,0 +1,150 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.TracingConfig'
+    name: TracingConfig
+    fullName: TracingConfig
+    children:
+      - '@azure/abort-controller.TracingConfig.exporter'
+      - '@azure/abort-controller.TracingConfig.logger'
+      - '@azure/abort-controller.TracingConfig.logLevel'
+      - '@azure/abort-controller.TracingConfig.maximumLabelValueSize'
+      - '@azure/abort-controller.TracingConfig.plugins'
+      - '@azure/abort-controller.TracingConfig.stats'
+    langs:
+      - typeScript
+    type: interface
+    summary: Available configuration options.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TracingConfig.exporter'
+    name: exporter
+    fullName: exporter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: An exporter object
+    optional: true
+    syntax:
+      content: 'exporter?: Exporter'
+      return:
+        type:
+          - '@azure/abort-controller.Exporter'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TracingConfig.logger'
+    name: logger
+    fullName: logger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: An instance of a logger
+    optional: true
+    syntax:
+      content: 'logger?: Logger'
+      return:
+        type:
+          - '@azure/abort-controller.Logger'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TracingConfig.logLevel'
+    name: logLevel
+    fullName: logLevel
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'level of logger - 0:disable, 1: error, 2: warn, 3: info, 4: debug'
+    optional: true
+    syntax:
+      content: 'logLevel?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TracingConfig.maximumLabelValueSize'
+    name: maximumLabelValueSize
+    fullName: maximumLabelValueSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The maximum number of characters reported on a label value.
+    optional: true
+    syntax:
+      content: 'maximumLabelValueSize?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TracingConfig.plugins'
+    name: plugins
+    fullName: plugins
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A list of trace instrumentations plugins to load.
+      Each key is the name of the module to trace, and its
+      value is the name of the package which has the plugin
+      implementation.
+      Ex.:
+      plugins: {
+       'http': '@opencensus/opencensus-instrumentation-http',
+       'mongodb-core': '@opencensus/opencensus-instrumentation-mongodb-core',
+        ...
+      }
+      Any user-provided value will be added to the default list.
+      It will override any default plugin for the same key.
+    optional: true
+    syntax:
+      content: 'plugins?: PluginNames'
+      return:
+        type:
+          - '@azure/abort-controller.PluginNames'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TracingConfig.stats'
+    name: stats
+    fullName: stats
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: An instance of a stats
+    optional: true
+    syntax:
+      content: 'stats?: Stats'
+      return:
+        type:
+          - '@azure/abort-controller.fs.Stats'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Exporter'
+    name: Exporter
+    spec.typeScript:
+      - name: Exporter
+        fullName: Exporter
+        uid: '@azure/abort-controller.Exporter'
+  - uid: '@azure/abort-controller.Logger'
+    name: Logger
+    spec.typeScript:
+      - name: Logger
+        fullName: Logger
+        uid: '@azure/abort-controller.Logger'
+  - uid: '@azure/abort-controller.PluginNames'
+    name: PluginNames
+    spec.typeScript:
+      - name: PluginNames
+        fullName: PluginNames
+        uid: '@azure/abort-controller.PluginNames'
+  - uid: '@azure/abort-controller.fs.Stats'
+    name: Stats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: '@azure/abort-controller.fs.Stats'

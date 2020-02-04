@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.MapConstructor'
+    name: MapConstructor
+    fullName: MapConstructor
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'

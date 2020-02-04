@@ -1,0 +1,90 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.MetricProducerManager'
+    name: MetricProducerManager
+    fullName: MetricProducerManager
+    children:
+      - '@azure/abort-controller.MetricProducerManager.add'
+      - '@azure/abort-controller.MetricProducerManager.getAllMetricProducer'
+      - '@azure/abort-controller.MetricProducerManager.remove'
+      - '@azure/abort-controller.MetricProducerManager.removeAll'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Keeps a set of MetricProducer that is used by exporters to determine the
+      metrics that need to be exported.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricProducerManager.add'
+    name: add(MetricProducer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds the MetricProducer to the manager
+    syntax:
+      content: 'function add(metricProducer: MetricProducer)'
+      parameters:
+        - id: metricProducer
+          type:
+            - '@azure/abort-controller.MetricProducer'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricProducerManager.getAllMetricProducer'
+    name: getAllMetricProducer()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets all registered MetricProducers that should be exported
+    syntax:
+      content: function getAllMetricProducer()
+      parameters: []
+      return:
+        type:
+          - Set<@azure/abort-controller.MetricProducer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricProducerManager.remove'
+    name: remove(MetricProducer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes the MetricProducer to the manager
+    syntax:
+      content: 'function remove(metricProducer: MetricProducer)'
+      parameters:
+        - id: metricProducer
+          type:
+            - '@azure/abort-controller.MetricProducer'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricProducerManager.removeAll'
+    name: removeAll()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Clears all MetricProducers
+    syntax:
+      content: function removeAll()
+      parameters: []
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.MetricProducer'
+    name: MetricProducer
+    spec.typeScript:
+      - name: MetricProducer
+        fullName: MetricProducer
+        uid: '@azure/abort-controller.MetricProducer'
+  - uid: Set<@azure/abort-controller.MetricProducer>
+    name: MetricProducer>
+    spec.typeScript:
+      - name: Set<
+        fullName: Set<
+      - name: MetricProducer
+        fullName: MetricProducer
+        uid: '@azure/abort-controller.MetricProducer'
+      - name: '>'
+        fullName: '>'

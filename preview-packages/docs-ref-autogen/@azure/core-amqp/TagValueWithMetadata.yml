@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.TagValueWithMetadata
+    name: TagValueWithMetadata
+    fullName: TagValueWithMetadata
+    children:
+      - tslib.TagValueWithMetadata.tagMetadata
+      - tslib.TagValueWithMetadata.tagValue
+    langs:
+      - typeScript
+    type: interface
+    summary: TagValueWithMetadata holds a TagValue and a TagMetadata.
+    package: tslib
+  - uid: tslib.TagValueWithMetadata.tagMetadata
+    name: tagMetadata
+    fullName: tagMetadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The metadata for the tag
+    syntax:
+      content: 'tagMetadata: TagMetadata'
+      return:
+        type:
+          - tslib.TagMetadata
+        description: ''
+    package: tslib
+  - uid: tslib.TagValueWithMetadata.tagValue
+    name: tagValue
+    fullName: tagValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The tag value
+    syntax:
+      content: 'tagValue: TagValue'
+      return:
+        type:
+          - tslib.TagValue
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.TagMetadata
+    name: TagMetadata
+    spec.typeScript:
+      - name: TagMetadata
+        fullName: TagMetadata
+        uid: tslib.TagMetadata
+  - uid: tslib.TagValue
+    name: TagValue
+    spec.typeScript:
+      - name: TagValue
+        fullName: TagValue
+        uid: tslib.TagValue

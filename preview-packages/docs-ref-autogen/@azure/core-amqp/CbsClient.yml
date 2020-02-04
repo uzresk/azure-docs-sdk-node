@@ -1,25 +1,25 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.CbsClient'
+  - uid: tslib.CbsClient
     name: CbsClient
     fullName: CbsClient
     children:
-      - '@azure/core-amqp.CbsClient.constructor'
-      - '@azure/core-amqp.CbsClient.cbsLock'
-      - '@azure/core-amqp.CbsClient.close'
-      - '@azure/core-amqp.CbsClient.connection'
-      - '@azure/core-amqp.CbsClient.connectionLock'
-      - '@azure/core-amqp.CbsClient.endpoint'
-      - '@azure/core-amqp.CbsClient.init'
-      - '@azure/core-amqp.CbsClient.negotiateClaim'
-      - '@azure/core-amqp.CbsClient.remove'
-      - '@azure/core-amqp.CbsClient.replyTo'
+      - tslib.CbsClient.constructor
+      - tslib.CbsClient.cbsLock
+      - tslib.CbsClient.close
+      - tslib.CbsClient.connection
+      - tslib.CbsClient.connectionLock
+      - tslib.CbsClient.endpoint
+      - tslib.CbsClient.init
+      - tslib.CbsClient.negotiateClaim
+      - tslib.CbsClient.remove
+      - tslib.CbsClient.replyTo
     langs:
       - typeScript
     type: class
     summary: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.CbsClient.constructor'
+    package: tslib
+  - uid: tslib.CbsClient.constructor
     name: 'CbsClient(Connection, string)'
     children: []
     type: constructor
@@ -38,8 +38,8 @@ items:
             - string
           description: |
             A unique string (usually a guid) per connection.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.CbsClient.cbsLock'
+    package: tslib
+  - uid: tslib.CbsClient.cbsLock
     name: cbsLock
     fullName: cbsLock
     children: []
@@ -58,8 +58,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.CbsClient.close'
+    package: tslib
+  - uid: tslib.CbsClient.close
     name: close()
     children: []
     type: method
@@ -75,8 +75,8 @@ items:
         type:
           - Promise<void>
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.CbsClient.connection'
+    package: tslib
+  - uid: tslib.CbsClient.connection
     name: connection
     fullName: connection
     children: []
@@ -90,8 +90,8 @@ items:
         type:
           - Connection
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.CbsClient.connectionLock'
+    package: tslib
+  - uid: tslib.CbsClient.connectionLock
     name: connectionLock
     fullName: connectionLock
     children: []
@@ -110,8 +110,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.CbsClient.endpoint'
+    package: tslib
+  - uid: tslib.CbsClient.endpoint
     name: endpoint
     fullName: endpoint
     children: []
@@ -125,8 +125,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.CbsClient.init'
+    package: tslib
+  - uid: tslib.CbsClient.init
     name: init()
     children: []
     type: method
@@ -144,8 +144,8 @@ items:
         type:
           - Promise<void>
         description: Promise<void>.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.CbsClient.negotiateClaim'
+    package: tslib
+  - uid: tslib.CbsClient.negotiateClaim
     name: 'negotiateClaim(string, AccessToken, TokenType)'
     children: []
     type: method
@@ -189,20 +189,20 @@ items:
                     - `"sb://<your-namespace>.servicebus.windows.net/<event-hub-name>/$management"`.
         - id: tokenObject
           type:
-            - AccessToken
+            - tslib.AccessToken
           description: The token object that needs to be sent in the put-token request.
         - id: tokenType
           type:
-            - '@azure/core-amqp.TokenType'
+            - tslib.TokenType
           description: ''
       return:
         type:
-          - Promise<@azure/core-amqp.CbsResponse>
+          - Promise<tslib.CbsResponse>
         description: |-
           Returns a Promise that resolves when $cbs authentication is successful
           and rejects when an error occurs during $cbs authentication.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.CbsClient.remove'
+    package: tslib
+  - uid: tslib.CbsClient.remove
     name: remove()
     children: []
     type: method
@@ -212,8 +212,8 @@ items:
     syntax:
       content: function remove()
       parameters: []
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.CbsClient.replyTo'
+    package: tslib
+  - uid: tslib.CbsClient.replyTo
     name: replyTo
     fullName: replyTo
     children: []
@@ -229,21 +229,27 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
+    package: tslib
 references:
-  - uid: '@azure/core-amqp.TokenType'
+  - uid: tslib.AccessToken
+    name: AccessToken
+    spec.typeScript:
+      - name: AccessToken
+        fullName: AccessToken
+        uid: tslib.AccessToken
+  - uid: tslib.TokenType
     name: TokenType
     spec.typeScript:
       - name: TokenType
         fullName: TokenType
-        uid: '@azure/core-amqp.TokenType'
-  - uid: Promise<@azure/core-amqp.CbsResponse>
+        uid: tslib.TokenType
+  - uid: Promise<tslib.CbsResponse>
     name: CbsResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: CbsResponse
         fullName: CbsResponse
-        uid: '@azure/core-amqp.CbsResponse'
+        uid: tslib.CbsResponse
       - name: '>'
         fullName: '>'

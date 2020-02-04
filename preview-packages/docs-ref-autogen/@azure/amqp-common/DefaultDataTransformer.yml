@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.DefaultDataTransformer'
+  - uid: '@azure/ms-rest-azure-env.DefaultDataTransformer'
     name: DefaultDataTransformer
     fullName: DefaultDataTransformer
     children:
-      - '@azure/amqp-common.DefaultDataTransformer.decode'
-      - '@azure/amqp-common.DefaultDataTransformer.encode'
+      - '@azure/ms-rest-azure-env.DefaultDataTransformer.decode'
+      - '@azure/ms-rest-azure-env.DefaultDataTransformer.encode'
     langs:
       - typeScript
     type: class
     summary: The default data transformer that will be used by the Azure SDK.
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.DefaultDataTransformer.decode'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.DefaultDataTransformer.decode'
     name: decode(any)
     children: []
     type: method
@@ -38,8 +38,8 @@ items:
         type:
           - any
         description: decoded body or the given body as-is.
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.DefaultDataTransformer.encode'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.DefaultDataTransformer.encode'
     name: encode(any)
     children: []
     type: method
@@ -69,4 +69,4 @@ items:
           - content: The given AMQP message body as a Buffer.
 
           - multiple: true | undefined.
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'

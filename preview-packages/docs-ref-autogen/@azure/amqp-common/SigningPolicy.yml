@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.signingPolicy'
+    name: signingPolicy(ServiceClientCredentials)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function signingPolicy(authenticationProvider: ServiceClientCredentials)'
+      parameters:
+        - id: authenticationProvider
+          type:
+            - '@azure/ms-rest-azure-env.ServiceClientCredentials'
+          description: ''
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.RequestPolicyFactory'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.ServiceClientCredentials'
+    name: ServiceClientCredentials
+    spec.typeScript:
+      - name: ServiceClientCredentials
+        fullName: ServiceClientCredentials
+        uid: '@azure/ms-rest-azure-env.ServiceClientCredentials'
+  - uid: '@azure/ms-rest-azure-env.RequestPolicyFactory'
+    name: RequestPolicyFactory
+    spec.typeScript:
+      - name: RequestPolicyFactory
+        fullName: RequestPolicyFactory
+        uid: '@azure/ms-rest-azure-env.RequestPolicyFactory'

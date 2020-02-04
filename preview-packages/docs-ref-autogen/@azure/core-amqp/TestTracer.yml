@@ -1,0 +1,277 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.TestTracer
+    name: TestTracer
+    fullName: TestTracer
+    children:
+      - tslib.TestTracer.bind
+      - tslib.TestTracer.getActiveSpans
+      - tslib.TestTracer.getBinaryFormat
+      - tslib.TestTracer.getCurrentSpan
+      - tslib.TestTracer.getHttpTextFormat
+      - tslib.TestTracer.getKnownSpans
+      - tslib.TestTracer.getRootSpans
+      - tslib.TestTracer.getSpanGraph
+      - tslib.TestTracer.recordSpanData
+      - tslib.TestTracer.startSpan
+      - tslib.TestTracer.withSpan
+    langs:
+      - typeScript
+    type: class
+    summary: A mock tracer useful for testing
+    extends:
+      name: tslib.NoOpTracer
+    package: tslib
+  - uid: tslib.TestTracer.bind
+    name: 'bind(T, Span)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Bind a Span as the target's scope
+    syntax:
+      content: 'function bind<T>(target: T, _span?: Span)'
+      parameters:
+        - id: target
+          type:
+            - T
+          description: An object to bind the scope.
+        - id: _span
+          type:
+            - tslib.Span
+          description: |
+            A specific Span to use. Otherwise, use the current one.
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: tslib
+  - uid: tslib.TestTracer.getActiveSpans
+    name: getActiveSpans()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns all Spans where end() has not been called
+    syntax:
+      content: function getActiveSpans()
+      parameters: []
+      return:
+        type:
+          - 'tslib.TestSpan[]'
+        description: ''
+    package: tslib
+  - uid: tslib.TestTracer.getBinaryFormat
+    name: getBinaryFormat()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the BinaryFormat interface for serializing/deserializing Spans.
+    syntax:
+      content: function getBinaryFormat()
+      parameters: []
+      return:
+        type:
+          - tslib.BinaryFormat
+        description: ''
+    package: tslib
+  - uid: tslib.TestTracer.getCurrentSpan
+    name: getCurrentSpan()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Returns the current Span from the current context, if available.'
+    syntax:
+      content: function getCurrentSpan()
+      parameters: []
+      return:
+        type:
+          - tslib.Span
+        description: ''
+    package: tslib
+  - uid: tslib.TestTracer.getHttpTextFormat
+    name: getHttpTextFormat()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the HttpTextFormat interface for injecting/extracting Spans.
+    syntax:
+      content: function getHttpTextFormat()
+      parameters: []
+      return:
+        type:
+          - tslib.HttpTextFormat
+        description: ''
+    package: tslib
+  - uid: tslib.TestTracer.getKnownSpans
+    name: getKnownSpans()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns all Spans this Tracer knows about
+    syntax:
+      content: function getKnownSpans()
+      parameters: []
+      return:
+        type:
+          - 'tslib.TestSpan[]'
+        description: ''
+    package: tslib
+  - uid: tslib.TestTracer.getRootSpans
+    name: getRootSpans()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns all Spans that were created without a parent
+    syntax:
+      content: function getRootSpans()
+      parameters: []
+      return:
+        type:
+          - 'tslib.TestSpan[]'
+        description: ''
+    package: tslib
+  - uid: tslib.TestTracer.getSpanGraph
+    name: getSpanGraph(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Return all Spans for a particular trace, grouped by their
+      parent Span in a tree-like structure
+    syntax:
+      content: 'function getSpanGraph(traceId: string)'
+      parameters:
+        - id: traceId
+          type:
+            - string
+          description: |
+            The traceId to return the graph for
+      return:
+        type:
+          - tslib.SpanGraph
+        description: ''
+    package: tslib
+  - uid: tslib.TestTracer.recordSpanData
+    name: recordSpanData(Span)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Send a pre-populated Span object to the exporter.
+    syntax:
+      content: 'function recordSpanData(_span: Span)'
+      parameters:
+        - id: _span
+          type:
+            - tslib.Span
+          description: |
+            The span to pass along.
+    package: tslib
+  - uid: tslib.TestTracer.startSpan
+    name: 'startSpan(string, SpanOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Starts a new Span.
+    syntax:
+      content: 'function startSpan(name: string, options?: SpanOptions)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: The name of the span.
+        - id: options
+          type:
+            - tslib.SpanOptions
+          description: |
+            The SpanOptions used during Span creation.
+          optional: true
+      return:
+        type:
+          - tslib.TestSpan
+        description: ''
+    package: tslib
+  - uid: tslib.TestTracer.withSpan
+    name: 'withSpan(Span, T)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Executes the given function within the context provided by a Span.
+    syntax:
+      content: 'function withSpan<T>(_span: Span, fn: T)'
+      parameters:
+        - id: _span
+          type:
+            - tslib.Span
+          description: The span that provides the context.
+        - id: fn
+          type:
+            - T
+          description: |
+            The function to be executed.
+      return:
+        type:
+          - ReturnType<T>
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.NoOpTracer
+    name: NoOpTracer
+    spec.typeScript:
+      - name: NoOpTracer
+        fullName: NoOpTracer
+        uid: tslib.NoOpTracer
+  - uid: tslib.Span
+    name: Span
+    spec.typeScript:
+      - name: Span
+        fullName: Span
+        uid: tslib.Span
+  - uid: 'tslib.TestSpan[]'
+    name: 'TestSpan[]'
+    spec.typeScript:
+      - name: TestSpan
+        fullName: TestSpan
+        uid: tslib.TestSpan
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.BinaryFormat
+    name: BinaryFormat
+    spec.typeScript:
+      - name: BinaryFormat
+        fullName: BinaryFormat
+        uid: tslib.BinaryFormat
+  - uid: tslib.HttpTextFormat
+    name: HttpTextFormat
+    spec.typeScript:
+      - name: HttpTextFormat
+        fullName: HttpTextFormat
+        uid: tslib.HttpTextFormat
+  - uid: tslib.SpanGraph
+    name: SpanGraph
+    spec.typeScript:
+      - name: SpanGraph
+        fullName: SpanGraph
+        uid: tslib.SpanGraph
+  - uid: tslib.SpanOptions
+    name: SpanOptions
+    spec.typeScript:
+      - name: SpanOptions
+        fullName: SpanOptions
+        uid: tslib.SpanOptions
+  - uid: tslib.TestSpan
+    name: TestSpan
+    spec.typeScript:
+      - name: TestSpan
+        fullName: TestSpan
+        uid: tslib.TestSpan

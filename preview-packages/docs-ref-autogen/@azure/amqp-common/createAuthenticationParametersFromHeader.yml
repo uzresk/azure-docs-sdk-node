@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.createAuthenticationParametersFromHeader'
+    name: createAuthenticationParametersFromHeader(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Creates an <xref:AuthenticationParameters> object from the contents of a
+
+      www-authenticate header received from a HTTP 401 response from a resource
+      server.
+    syntax:
+      content: 'function createAuthenticationParametersFromHeader(challenge: string)'
+      parameters:
+        - id: challenge
+          type:
+            - string
+          description: The content fo the www-authenticate header.
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.AuthenticationParameters'
+        description: >-
+          An AuthenticationParameters object containing the parsed values from
+          the header.
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.AuthenticationParameters'
+    name: AuthenticationParameters
+    spec.typeScript:
+      - name: AuthenticationParameters
+        fullName: AuthenticationParameters
+        uid: '@azure/ms-rest-azure-env.AuthenticationParameters'

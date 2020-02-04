@@ -1,25 +1,25 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.SystemErrorConditionMapper'
+  - uid: tslib.SystemErrorConditionMapper
     name: SystemErrorConditionMapper
     fullName: SystemErrorConditionMapper
     children:
-      - '@azure/core-amqp.SystemErrorConditionMapper.EBUSY'
-      - '@azure/core-amqp.SystemErrorConditionMapper.ECONNREFUSED'
-      - '@azure/core-amqp.SystemErrorConditionMapper.ECONNRESET'
-      - '@azure/core-amqp.SystemErrorConditionMapper.EHOSTDOWN'
-      - '@azure/core-amqp.SystemErrorConditionMapper.ENETDOWN'
-      - '@azure/core-amqp.SystemErrorConditionMapper.ENETRESET'
-      - '@azure/core-amqp.SystemErrorConditionMapper.ENETUNREACH'
-      - '@azure/core-amqp.SystemErrorConditionMapper.ENONET'
-      - '@azure/core-amqp.SystemErrorConditionMapper.ENOTFOUND'
-      - '@azure/core-amqp.SystemErrorConditionMapper.ETIMEDOUT'
+      - tslib.SystemErrorConditionMapper.EBUSY
+      - tslib.SystemErrorConditionMapper.ECONNREFUSED
+      - tslib.SystemErrorConditionMapper.ECONNRESET
+      - tslib.SystemErrorConditionMapper.EHOSTDOWN
+      - tslib.SystemErrorConditionMapper.ENETDOWN
+      - tslib.SystemErrorConditionMapper.ENETRESET
+      - tslib.SystemErrorConditionMapper.ENETUNREACH
+      - tslib.SystemErrorConditionMapper.ENONET
+      - tslib.SystemErrorConditionMapper.ENOTFOUND
+      - tslib.SystemErrorConditionMapper.ETIMEDOUT
     langs:
       - typeScript
     type: enum
     summary: Maps some SytemErrors to amqp error conditions
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.SystemErrorConditionMapper.EBUSY'
+    package: tslib
+  - uid: tslib.SystemErrorConditionMapper.EBUSY
     name: EBUSY
     children: []
     langs:
@@ -27,8 +27,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.SystemErrorConditionMapper.ECONNREFUSED'
+    package: tslib
+  - uid: tslib.SystemErrorConditionMapper.ECONNREFUSED
     name: ECONNREFUSED
     children: []
     langs:
@@ -36,8 +36,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.SystemErrorConditionMapper.ECONNRESET'
+    package: tslib
+  - uid: tslib.SystemErrorConditionMapper.ECONNRESET
     name: ECONNRESET
     children: []
     langs:
@@ -45,8 +45,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.SystemErrorConditionMapper.EHOSTDOWN'
+    package: tslib
+  - uid: tslib.SystemErrorConditionMapper.EHOSTDOWN
     name: EHOSTDOWN
     children: []
     langs:
@@ -54,8 +54,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.SystemErrorConditionMapper.ENETDOWN'
+    package: tslib
+  - uid: tslib.SystemErrorConditionMapper.ENETDOWN
     name: ENETDOWN
     children: []
     langs:
@@ -63,8 +63,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.SystemErrorConditionMapper.ENETRESET'
+    package: tslib
+  - uid: tslib.SystemErrorConditionMapper.ENETRESET
     name: ENETRESET
     children: []
     langs:
@@ -72,8 +72,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.SystemErrorConditionMapper.ENETUNREACH'
+    package: tslib
+  - uid: tslib.SystemErrorConditionMapper.ENETUNREACH
     name: ENETUNREACH
     children: []
     langs:
@@ -81,8 +81,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.SystemErrorConditionMapper.ENONET'
+    package: tslib
+  - uid: tslib.SystemErrorConditionMapper.ENONET
     name: ENONET
     children: []
     langs:
@@ -90,8 +90,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.SystemErrorConditionMapper.ENOTFOUND'
+    package: tslib
+  - uid: tslib.SystemErrorConditionMapper.ENOTFOUND
     name: ENOTFOUND
     children: []
     langs:
@@ -99,8 +99,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.SystemErrorConditionMapper.ETIMEDOUT'
+    package: tslib
+  - uid: tslib.SystemErrorConditionMapper.ETIMEDOUT
     name: ETIMEDOUT
     children: []
     langs:
@@ -108,4 +108,4 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
+    package: tslib

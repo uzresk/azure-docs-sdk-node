@@ -1,0 +1,1695 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+    name: Writable
+    fullName: Writable
+    children:
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.addListener_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.addListener_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.addListener_3'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.addListener_4'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.addListener_5'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.addListener_6'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.addListener'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.cork'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.destroy'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.emit_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.emit_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.emit_3'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.emit_4'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.emit_5'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.emit_6'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.emit'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.end_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.end_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.end'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.eventNames'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.getMaxListeners'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.listenerCount'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.listeners'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.off'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.on_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.on_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.on_3'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.on_4'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.on_5'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.on_6'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.on'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.once_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.once_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.once_3'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.once_4'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.once_5'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.once_6'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.once'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.pipe'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.prependListener_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.prependListener_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.prependListener_3'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.prependListener_4'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.prependListener_5'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.prependListener_6'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.prependListener'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.prependOnceListener_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.prependOnceListener_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.prependOnceListener_3'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.prependOnceListener_4'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.prependOnceListener_5'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.prependOnceListener_6'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.prependOnceListener'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.rawListeners'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.removeAllListeners'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.removeListener_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.removeListener_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.removeListener_3'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.removeListener_4'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.removeListener_5'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.removeListener_6'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.removeListener'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.setDefaultEncoding'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.setMaxListeners'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.uncork'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.writable'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.constructor'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.writableHighWaterMark'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.write'
+      - '@azure/ms-rest-azure-env.stream.internal.Writable.write_1'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/ms-rest-azure-env.stream.internal.Stream'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.addListener_1'
+    name: 'addListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.addListener_2'
+    name: 'addListener("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.addListener_3'
+    name: 'addListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.addListener_4'
+    name: 'addListener("finish", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "finish", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.addListener_5'
+    name: 'addListener("pipe", (src: Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "pipe", listener: (src: Readable) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.addListener_6'
+    name: 'addListener("unpipe", (src: Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "unpipe", listener: (src: Readable) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.addListener'
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Event emitter
+      The defined events on documents including:
+      1. close
+      2. drain
+      3. error
+      4. finish
+      5. pipe
+      6. unpipe
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.cork'
+    name: cork()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function cork()
+      parameters: []
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.destroy'
+    name: destroy(Error)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function destroy(error?: Error)'
+      parameters:
+        - id: error
+          type:
+            - '@azure/ms-rest-azure-env.Error'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.emit_1'
+    name: emit("close")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "close")'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.emit_2'
+    name: 'emit("drain", Buffer | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "drain", chunk: Buffer | string)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: chunk
+          type:
+            - Buffer | string
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.emit_3'
+    name: 'emit("error", Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "error", err: Error)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: err
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.emit_4'
+    name: emit("finish")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "finish")'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.emit_5'
+    name: 'emit("pipe", Readable)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "pipe", src: Readable)'
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: src
+          type:
+            - '@azure/ms-rest-azure-env.stream.internal.Readable'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.emit_6'
+    name: 'emit("unpipe", Readable)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "unpipe", src: Readable)'
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: src
+          type:
+            - '@azure/ms-rest-azure-env.stream.internal.Readable'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.end_1'
+    name: 'end(any, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(chunk: any, cb?: Function)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: cb
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.end_2'
+    name: 'end(any, undefined | string, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(chunk: any, encoding?: undefined | string, cb?: Function)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: cb
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.end'
+    name: end(Function)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(cb?: Function)'
+      parameters:
+        - id: cb
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.on_1'
+    name: 'on("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.on_2'
+    name: 'on("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.on_3'
+    name: 'on("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.on_4'
+    name: 'on("finish", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "finish", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.on_5'
+    name: 'on("pipe", (src: Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "pipe", listener: (src: Readable) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.on_6'
+    name: 'on("unpipe", (src: Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "unpipe", listener: (src: Readable) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.on'
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.once_1'
+    name: 'once("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.once_2'
+    name: 'once("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.once_3'
+    name: 'once("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.once_4'
+    name: 'once("finish", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "finish", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.once_5'
+    name: 'once("pipe", (src: Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "pipe", listener: (src: Readable) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.once_6'
+    name: 'once("unpipe", (src: Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "unpipe", listener: (src: Readable) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.once'
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.pipe'
+    name: 'pipe(T, undefined | Object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pipe<T>(destination: T, options?: undefined | Object)'
+      parameters:
+        - id: destination
+          type:
+            - T
+          description: ''
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.prependListener_1'
+    name: 'prependListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.prependListener_2'
+    name: 'prependListener("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.prependListener_3'
+    name: 'prependListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.prependListener_4'
+    name: 'prependListener("finish", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "finish", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.prependListener_5'
+    name: 'prependListener("pipe", (src: Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "pipe", listener: (src: Readable) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.prependListener_6'
+    name: 'prependListener("unpipe", (src: Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "unpipe", listener: (src: Readable) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.prependListener'
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.prependOnceListener_1'
+    name: 'prependOnceListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.prependOnceListener_2'
+    name: 'prependOnceListener("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.prependOnceListener_3'
+    name: 'prependOnceListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "error", listener: (err: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.prependOnceListener_4'
+    name: 'prependOnceListener("finish", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "finish", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.prependOnceListener_5'
+    name: 'prependOnceListener("pipe", (src: Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "pipe", listener: (src: Readable) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.prependOnceListener_6'
+    name: 'prependOnceListener("unpipe", (src: Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "unpipe", listener: (src: Readable)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.prependOnceListener'
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.removeListener_1'
+    name: 'removeListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.removeListener_2'
+    name: 'removeListener("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.removeListener_3'
+    name: 'removeListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.removeListener_4'
+    name: 'removeListener("finish", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "finish", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.removeListener_5'
+    name: 'removeListener("pipe", (src: Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: "pipe", listener: (src: Readable) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.removeListener_6'
+    name: 'removeListener("unpipe", (src: Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: "unpipe", listener: (src: Readable) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.removeListener'
+    name: 'removeListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.setDefaultEncoding'
+    name: setDefaultEncoding(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setDefaultEncoding(encoding: string)'
+      parameters:
+        - id: encoding
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.uncork'
+    name: uncork()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function uncork()
+      parameters: []
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.writable'
+    name: writable
+    fullName: writable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writable: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.constructor'
+    name: Writable(WritableOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Writable(opts?: WritableOptions)'
+      parameters:
+        - id: opts
+          type:
+            - '@azure/ms-rest-azure-env.stream.internal.WritableOptions'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.writableHighWaterMark'
+    name: writableHighWaterMark
+    fullName: writableHighWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableHighWaterMark: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.write'
+    name: 'write(any, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function write(chunk: any, cb?: Function)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: cb
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable.write_1'
+    name: 'write(any, undefined | string, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function write(chunk: any, encoding?: undefined | string, cb?: Function)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: cb
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.DuplexOptions'
+    name: DuplexOptions
+    spec.typeScript:
+      - name: DuplexOptions
+        fullName: DuplexOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.DuplexOptions'
+  - uid: '@azure/ms-rest-azure-env.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.Error'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Transform'
+    name: Transform
+    spec.typeScript:
+      - name: Transform
+        fullName: Transform
+        uid: '@azure/ms-rest-azure-env.stream.internal.Transform'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.TransformOptions'
+    name: TransformOptions
+    spec.typeScript:
+      - name: TransformOptions
+        fullName: TransformOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.TransformOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Stream'
+    name: Stream
+    spec.typeScript:
+      - name: Stream
+        fullName: Stream
+        uid: '@azure/ms-rest-azure-env.stream.internal.Stream'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal'
+    name: internal
+    spec.typeScript:
+      - name: internal
+        fullName: internal
+        uid: '@azure/ms-rest-azure-env.stream.internal'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex'
+    name: Duplex
+    spec.typeScript:
+      - name: Duplex
+        fullName: Duplex
+        uid: '@azure/ms-rest-azure-env.stream.internal.Duplex'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.WritableOptions'
+    name: WritableOptions
+    spec.typeScript:
+      - name: WritableOptions
+        fullName: WritableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.WritableOptions'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'

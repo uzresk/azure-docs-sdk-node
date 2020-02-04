@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.wasi'
+    name: wasi
+    langs:
+      - typeScript
+    fullName: wasi
+    children:
+      - '@azure/abort-controller.wasi.WASI'
+      - '@azure/abort-controller.wasi.WASIOptions'
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.wasi.WASIOptions'
+    name: WASIOptions
+    spec.typeScript:
+      - name: WASIOptions
+        fullName: WASIOptions
+        uid: '@azure/abort-controller.wasi.WASIOptions'
+  - uid: '@azure/abort-controller.wasi.WASI'
+    name: WASI

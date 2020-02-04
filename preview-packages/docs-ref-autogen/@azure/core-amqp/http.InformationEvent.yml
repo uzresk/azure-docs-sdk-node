@@ -1,0 +1,322 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.http.InformationEvent
+    name: InformationEvent
+    fullName: InformationEvent
+    children:
+      - tslib.http.InformationEvent.headers
+      - tslib.http.InformationEvent.httpVersion
+      - tslib.http.InformationEvent.httpVersionMajor
+      - tslib.http.InformationEvent.httpVersionMinor
+      - tslib.http.InformationEvent.rawHeaders
+      - tslib.http.InformationEvent.statusCode
+      - tslib.http.InformationEvent.statusMessage
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.http.InformationEvent.headers
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'headers: IncomingHttpHeaders'
+      return:
+        type:
+          - tslib.http.IncomingHttpHeaders
+        description: ''
+    package: tslib
+  - uid: tslib.http.InformationEvent.httpVersion
+    name: httpVersion
+    fullName: httpVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'httpVersion: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.http.InformationEvent.httpVersionMajor
+    name: httpVersionMajor
+    fullName: httpVersionMajor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'httpVersionMajor: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.http.InformationEvent.httpVersionMinor
+    name: httpVersionMinor
+    fullName: httpVersionMinor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'httpVersionMinor: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.http.InformationEvent.rawHeaders
+    name: rawHeaders
+    fullName: rawHeaders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'rawHeaders: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: tslib
+  - uid: tslib.http.InformationEvent.statusCode
+    name: statusCode
+    fullName: statusCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'statusCode: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.http.InformationEvent.statusMessage
+    name: statusMessage
+    fullName: statusMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'statusMessage: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.http.AgentOptions
+    name: AgentOptions
+    spec.typeScript:
+      - name: AgentOptions
+        fullName: AgentOptions
+        uid: tslib.http.AgentOptions
+  - uid: tslib.http.OutgoingMessage
+    name: OutgoingMessage
+    spec.typeScript:
+      - name: OutgoingMessage
+        fullName: OutgoingMessage
+        uid: tslib.http.OutgoingMessage
+  - uid: string | tslib.url.URL | tslib.http.ClientRequestArgs
+    name: ClientRequestArgs
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+      - name: ' | '
+        fullName: ' | '
+      - name: ClientRequestArgs
+        fullName: ClientRequestArgs
+        uid: tslib.http.ClientRequestArgs
+  - uid: tslib.net.Socket
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.net.Socket
+  - uid: tslib.http.OutgoingHttpHeaders | Array<Object>
+    name: OutgoingHttpHeaders | Array<Object>
+    spec.typeScript:
+      - name: OutgoingHttpHeaders
+        fullName: OutgoingHttpHeaders
+        uid: tslib.http.OutgoingHttpHeaders
+      - name: ' | Array<Object>'
+        fullName: ' | Array<Object>'
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.http.OutgoingHttpHeaders
+    name: OutgoingHttpHeaders
+    spec.typeScript:
+      - name: OutgoingHttpHeaders
+        fullName: OutgoingHttpHeaders
+        uid: tslib.http.OutgoingHttpHeaders
+  - uid: tslib.http.IncomingHttpHeaders
+    name: IncomingHttpHeaders
+    spec.typeScript:
+      - name: IncomingHttpHeaders
+        fullName: IncomingHttpHeaders
+        uid: tslib.http.IncomingHttpHeaders
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.stream.internal.ReadableOptions
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: tslib.stream.internal.ReadableOptions
+  - uid: tslib.stream.internal.Writable
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: tslib.stream.internal.Writable
+  - uid: tslib.http.HttpBase
+    name: HttpBase
+    spec.typeScript:
+      - name: HttpBase
+        fullName: HttpBase
+        uid: tslib.http.HttpBase
+  - uid: tslib.http.RequestListener
+    name: RequestListener
+    spec.typeScript:
+      - name: RequestListener
+        fullName: RequestListener
+        uid: tslib.http.RequestListener
+  - uid: tslib.http.ServerOptions
+    name: ServerOptions
+    spec.typeScript:
+      - name: ServerOptions
+        fullName: ServerOptions
+        uid: tslib.http.ServerOptions
+  - uid: tslib.net.AddressInfo | string | null
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: tslib.net.ListenOptions
+    name: ListenOptions
+    spec.typeScript:
+      - name: ListenOptions
+        fullName: ListenOptions
+        uid: tslib.net.ListenOptions
+  - uid: tslib.http.IncomingMessage
+    name: IncomingMessage
+    spec.typeScript:
+      - name: IncomingMessage
+        fullName: IncomingMessage
+        uid: tslib.http.IncomingMessage
+  - uid: tslib.http.Agent | boolean
+    name: Agent | boolean
+    spec.typeScript:
+      - name: Agent
+        fullName: Agent
+        uid: tslib.http.Agent
+      - name: ' | boolean'
+        fullName: ' | boolean'
+  - uid: tslib.http.ClientRequestArgs
+    name: ClientRequestArgs
+    spec.typeScript:
+      - name: ClientRequestArgs
+        fullName: ClientRequestArgs
+        uid: tslib.http.ClientRequestArgs
+  - uid: undefined | tslib.http.IncomingMessage
+    name: IncomingMessage
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: IncomingMessage
+        fullName: IncomingMessage
+        uid: tslib.http.IncomingMessage
+  - uid: undefined | tslib.http.ServerResponse
+    name: ServerResponse
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: ServerResponse
+        fullName: ServerResponse
+        uid: tslib.http.ServerResponse
+  - uid: tslib.http.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.http.Server
+  - uid: tslib.http.RequestOptions | string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: RequestOptions
+        fullName: RequestOptions
+        uid: tslib.http.RequestOptions
+      - name: ' | string | '
+        fullName: ' | string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.http.ClientRequest
+    name: ClientRequest
+    spec.typeScript:
+      - name: ClientRequest
+        fullName: ClientRequest
+        uid: tslib.http.ClientRequest
+  - uid: string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.http.RequestOptions
+    name: RequestOptions
+    spec.typeScript:
+      - name: RequestOptions
+        fullName: RequestOptions
+        uid: tslib.http.RequestOptions

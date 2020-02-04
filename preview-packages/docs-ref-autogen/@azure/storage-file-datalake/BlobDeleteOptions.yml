@@ -1,0 +1,143 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobDeleteOptions'
+    name: BlobDeleteOptions
+    fullName: BlobDeleteOptions
+    children:
+      - '@azure/abort-controller.BlobDeleteOptions.abortSignal'
+      - '@azure/abort-controller.BlobDeleteOptions.conditions'
+      - '@azure/abort-controller.BlobDeleteOptions.customerProvidedKey'
+      - '@azure/abort-controller.BlobDeleteOptions.deleteSnapshots'
+      - '@azure/abort-controller.BlobDeleteOptions.tracingOptions'
+    langs:
+      - typeScript
+    type: interface
+    summary: 'Options to configure the <xref:BlobClient.delete> operation.'
+    extends:
+      name: '@azure/abort-controller.CommonOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobDeleteOptions.abortSignal'
+    name: abortSignal
+    fullName: abortSignal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    optional: true
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type:
+          - '@azure/abort-controller.AbortSignalLike'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobDeleteOptions.conditions'
+    name: conditions
+    fullName: conditions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Conditions to meet when deleting blobs.
+    optional: true
+    syntax:
+      content: 'conditions?: BlobRequestConditions'
+      return:
+        type:
+          - '@azure/abort-controller.BlobRequestConditions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobDeleteOptions.customerProvidedKey'
+    name: customerProvidedKey
+    fullName: customerProvidedKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Customer Provided Key Info.
+    optional: true
+    syntax:
+      content: 'customerProvidedKey?: CpkInfo'
+      return:
+        type:
+          - '@azure/abort-controller.CpkInfo'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobDeleteOptions.deleteSnapshots'
+    name: deleteSnapshots
+    fullName: deleteSnapshots
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Specifies options to delete blobs that have associated snapshots.
+      - `include`: Delete the base blob and all of its snapshots.
+      - `only`: Delete only the blob's snapshots and not the blob itself.
+    optional: true
+    syntax:
+      content: 'deleteSnapshots?: DeleteSnapshotsOptionType'
+      return:
+        type:
+          - '@azure/abort-controller.DeleteSnapshotsOptionType'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobDeleteOptions.tracingOptions'
+    name: tracingOptions
+    fullName: tracingOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options to configure spans created when tracing is enabled.
+    optional: true
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type:
+          - '@azure/abort-controller.OperationTracingOptions'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.CommonOptions'
+    name: CommonOptions
+    spec.typeScript:
+      - name: CommonOptions
+        fullName: CommonOptions
+        uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.BlobRequestConditions'
+    name: BlobRequestConditions
+    spec.typeScript:
+      - name: BlobRequestConditions
+        fullName: BlobRequestConditions
+        uid: '@azure/abort-controller.BlobRequestConditions'
+  - uid: '@azure/abort-controller.CpkInfo'
+    name: CpkInfo
+    spec.typeScript:
+      - name: CpkInfo
+        fullName: CpkInfo
+        uid: '@azure/abort-controller.CpkInfo'
+  - uid: '@azure/abort-controller.DeleteSnapshotsOptionType'
+    name: DeleteSnapshotsOptionType
+    spec.typeScript:
+      - name: DeleteSnapshotsOptionType
+        fullName: DeleteSnapshotsOptionType
+        uid: '@azure/abort-controller.DeleteSnapshotsOptionType'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
+    name: OperationTracingOptions
+    spec.typeScript:
+      - name: OperationTracingOptions
+        fullName: OperationTracingOptions
+        uid: '@azure/abort-controller.OperationTracingOptions'

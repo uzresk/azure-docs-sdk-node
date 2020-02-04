@@ -13,34 +13,30 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Timer.start
-    name: start
-    fullName: start
+    name: 'start(any[])'
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'start: (params: any[]) => void'
-      return:
-        type:
-          - '(params: any[]) => void'
-        description: ''
+      content: 'function start(params: any[])'
+      parameters:
+        - id: params
+          type:
+            - 'any[]'
+          description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Timer.stop
-    name: stop
-    fullName: stop
+    name: stop()
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'stop: () => void'
-      return:
-        type:
-          - () => void
-        description: ''
+      content: function stop()
+      parameters: []
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Timer.constructor
     name: 'Timer(number, any)'

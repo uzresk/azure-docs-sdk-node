@@ -1,0 +1,518 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.fs.Stats'
+    name: Stats
+    fullName: Stats
+    children:
+      - '@azure/ms-rest-azure-env.fs.Stats.atime'
+      - '@azure/ms-rest-azure-env.fs.Stats.atimeMs'
+      - '@azure/ms-rest-azure-env.fs.Stats.birthtime'
+      - '@azure/ms-rest-azure-env.fs.Stats.birthtimeMs'
+      - '@azure/ms-rest-azure-env.fs.Stats.blksize'
+      - '@azure/ms-rest-azure-env.fs.Stats.blocks'
+      - '@azure/ms-rest-azure-env.fs.Stats.ctime'
+      - '@azure/ms-rest-azure-env.fs.Stats.ctimeMs'
+      - '@azure/ms-rest-azure-env.fs.Stats.dev'
+      - '@azure/ms-rest-azure-env.fs.Stats.gid'
+      - '@azure/ms-rest-azure-env.fs.Stats.ino'
+      - '@azure/ms-rest-azure-env.fs.Stats.isBlockDevice'
+      - '@azure/ms-rest-azure-env.fs.Stats.isCharacterDevice'
+      - '@azure/ms-rest-azure-env.fs.Stats.isDirectory'
+      - '@azure/ms-rest-azure-env.fs.Stats.isFIFO'
+      - '@azure/ms-rest-azure-env.fs.Stats.isFile'
+      - '@azure/ms-rest-azure-env.fs.Stats.isSocket'
+      - '@azure/ms-rest-azure-env.fs.Stats.isSymbolicLink'
+      - '@azure/ms-rest-azure-env.fs.Stats.mode'
+      - '@azure/ms-rest-azure-env.fs.Stats.mtime'
+      - '@azure/ms-rest-azure-env.fs.Stats.mtimeMs'
+      - '@azure/ms-rest-azure-env.fs.Stats.nlink'
+      - '@azure/ms-rest-azure-env.fs.Stats.rdev'
+      - '@azure/ms-rest-azure-env.fs.Stats.size'
+      - '@azure/ms-rest-azure-env.fs.Stats.uid'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.atime'
+    name: atime
+    fullName: atime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'atime: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.atimeMs'
+    name: atimeMs
+    fullName: atimeMs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'atimeMs: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.birthtime'
+    name: birthtime
+    fullName: birthtime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'birthtime: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.birthtimeMs'
+    name: birthtimeMs
+    fullName: birthtimeMs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'birthtimeMs: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.blksize'
+    name: blksize
+    fullName: blksize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'blksize: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.blocks'
+    name: blocks
+    fullName: blocks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'blocks: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.ctime'
+    name: ctime
+    fullName: ctime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ctime: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.ctimeMs'
+    name: ctimeMs
+    fullName: ctimeMs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ctimeMs: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.dev'
+    name: dev
+    fullName: dev
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'dev: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.gid'
+    name: gid
+    fullName: gid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'gid: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.ino'
+    name: ino
+    fullName: ino
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ino: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.isBlockDevice'
+    name: isBlockDevice()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isBlockDevice()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.isCharacterDevice'
+    name: isCharacterDevice()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isCharacterDevice()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.isDirectory'
+    name: isDirectory()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDirectory()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.isFIFO'
+    name: isFIFO()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isFIFO()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.isFile'
+    name: isFile()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isFile()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.isSocket'
+    name: isSocket()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isSocket()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.isSymbolicLink'
+    name: isSymbolicLink()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isSymbolicLink()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.mode'
+    name: mode
+    fullName: mode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mode: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.mtime'
+    name: mtime
+    fullName: mtime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mtime: Date'
+      return:
+        type:
+          - Date
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.mtimeMs'
+    name: mtimeMs
+    fullName: mtimeMs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mtimeMs: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.nlink'
+    name: nlink
+    fullName: nlink
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'nlink: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.rdev'
+    name: rdev
+    fullName: rdev
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'rdev: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats.uid'
+    name: uid
+    fullName: uid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'uid: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.WritableOptions'
+    name: WritableOptions
+    spec.typeScript:
+      - name: WritableOptions
+        fullName: WritableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.WritableOptions'
+  - uid: '@azure/ms-rest-azure-env.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.Error'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+  - uid: '@azure/ms-rest-azure-env.fs.PathLike'
+    name: PathLike
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/ms-rest-azure-env.fs.PathLike'
+  - uid: '@azure/ms-rest-azure-env.fs.PathLike | number'
+    name: PathLike | number
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/ms-rest-azure-env.fs.PathLike'
+      - name: ' | number'
+        fullName: ' | number'
+  - uid: '@azure/ms-rest-azure-env.fs.ReadStream'
+    name: ReadStream
+    spec.typeScript:
+      - name: ReadStream
+        fullName: ReadStream
+        uid: '@azure/ms-rest-azure-env.fs.ReadStream'
+  - uid: '@azure/ms-rest-azure-env.fs.WriteStream'
+    name: WriteStream
+    spec.typeScript:
+      - name: WriteStream
+        fullName: WriteStream
+        uid: '@azure/ms-rest-azure-env.fs.WriteStream'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats'
+    name: Stats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: '@azure/ms-rest-azure-env.fs.Stats'
+  - uid: Object | @azure/ms-rest-azure-env.BufferEncoding | null
+    name: BufferEncoding | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: Object | @azure/ms-rest-azure-env.BufferEncoding | undefined | null
+    name: BufferEncoding | undefined | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+      - name: ' | undefined | null'
+        fullName: ' | undefined | null'

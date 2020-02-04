@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.safe-buffer'
+    name: safe-buffer
+    langs:
+      - typeScript
+    fullName: safe-buffer
+    children:
+      - '@azure/ms-rest-azure-env.safe-buffer.Buffer'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.safe-buffer.Buffer'
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: '@azure/ms-rest-azure-env.safe-buffer.Buffer'
+  - uid: string | number | @azure/ms-rest-azure-env.safe-buffer.Buffer
+    name: Buffer
+    spec.typeScript:
+      - name: 'string | number | '
+        fullName: 'string | number | '
+      - name: Buffer
+        fullName: Buffer
+        uid: '@azure/ms-rest-azure-env.safe-buffer.Buffer'
+  - uid: string | @azure/ms-rest-azure-env.safe-buffer.Buffer | number
+    name: Buffer | number
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: Buffer
+        fullName: Buffer
+        uid: '@azure/ms-rest-azure-env.safe-buffer.Buffer'
+      - name: ' | number'
+        fullName: ' | number'
+  - uid: '@azure/ms-rest-azure-env.safe-buffer.Buffer[]'
+    name: 'Buffer[]'
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: '@azure/ms-rest-azure-env.safe-buffer.Buffer'
+      - name: '[]'
+        fullName: '[]'

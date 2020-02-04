@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.vm.Context'
+    name: Context
+    fullName: Context
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.vm.ScriptOptions'
+    name: ScriptOptions
+    spec.typeScript:
+      - name: ScriptOptions
+        fullName: ScriptOptions
+        uid: '@azure/abort-controller.vm.ScriptOptions'
+  - uid: '@azure/abort-controller.vm.Context'
+    name: Context
+    spec.typeScript:
+      - name: Context
+        fullName: Context
+        uid: '@azure/abort-controller.vm.Context'
+  - uid: '@azure/abort-controller.vm.RunningScriptOptions'
+    name: RunningScriptOptions
+    spec.typeScript:
+      - name: RunningScriptOptions
+        fullName: RunningScriptOptions
+        uid: '@azure/abort-controller.vm.RunningScriptOptions'
+  - uid: '@azure/abort-controller.vm.BaseOptions'
+    name: BaseOptions
+    spec.typeScript:
+      - name: BaseOptions
+        fullName: BaseOptions
+        uid: '@azure/abort-controller.vm.BaseOptions'
+  - uid: '@azure/abort-controller.vm.CompileFunctionOptions'
+    name: CompileFunctionOptions
+    spec.typeScript:
+      - name: CompileFunctionOptions
+        fullName: CompileFunctionOptions
+        uid: '@azure/abort-controller.vm.CompileFunctionOptions'
+  - uid: '@azure/abort-controller.vm.CreateContextOptions'
+    name: CreateContextOptions
+    spec.typeScript:
+      - name: CreateContextOptions
+        fullName: CreateContextOptions
+        uid: '@azure/abort-controller.vm.CreateContextOptions'
+  - uid: '@azure/abort-controller.vm.RunningScriptOptions | string'
+    name: RunningScriptOptions | string
+    spec.typeScript:
+      - name: RunningScriptOptions
+        fullName: RunningScriptOptions
+        uid: '@azure/abort-controller.vm.RunningScriptOptions'
+      - name: ' | string'
+        fullName: ' | string'

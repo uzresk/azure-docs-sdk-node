@@ -1,11 +1,11 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
+  - uid: '@azure/abort-controller.TextAnalyticsSuccessResult'
     name: TextAnalyticsSuccessResult
     fullName: TextAnalyticsSuccessResult
     children:
-      - '@azure/ai-text-analytics.TextAnalyticsSuccessResult.id'
-      - '@azure/ai-text-analytics.TextAnalyticsSuccessResult.statistics'
+      - '@azure/abort-controller.TextAnalyticsSuccessResult.id'
+      - '@azure/abort-controller.TextAnalyticsSuccessResult.statistics'
     langs:
       - typeScript
     type: interface
@@ -14,8 +14,8 @@ items:
       single
 
       input document.
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult.id'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TextAnalyticsSuccessResult.id'
     name: id
     fullName: id
     children: []
@@ -29,8 +29,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult.statistics'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TextAnalyticsSuccessResult.statistics'
     name: statistics
     fullName: statistics
     children: []
@@ -49,13 +49,13 @@ items:
       content: 'statistics?: TextDocumentStatistics'
       return:
         type:
-          - '@azure/ai-text-analytics.TextDocumentStatistics'
+          - '@azure/abort-controller.TextDocumentStatistics'
         description: ''
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/ai-text-analytics.TextDocumentStatistics'
+  - uid: '@azure/abort-controller.TextDocumentStatistics'
     name: TextDocumentStatistics
     spec.typeScript:
       - name: TextDocumentStatistics
         fullName: TextDocumentStatistics
-        uid: '@azure/ai-text-analytics.TextDocumentStatistics'
+        uid: '@azure/abort-controller.TextDocumentStatistics'

@@ -1,0 +1,293 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.fs.ftruncate'
+    name: ftruncate
+    langs:
+      - typeScript
+    fullName: ftruncate
+    children: []
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: Object | @azure/abort-controller.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: Promise<@azure/abort-controller.fs.Stats>
+    name: Stats>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Stats
+        fullName: Stats
+        uid: '@azure/abort-controller.fs.Stats'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.NodeJS.ArrayBufferView[]'
+    name: 'ArrayBufferView[]'
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+      - name: '[]'
+        fullName: '[]'
+  - uid: Promise<@azure/abort-controller.fs.WriteVResult>
+    name: WriteVResult>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: WriteVResult
+        fullName: WriteVResult
+        uid: '@azure/abort-controller.fs.WriteVResult'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.fs.PathLike'
+    name: PathLike
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/abort-controller.fs.PathLike'
+  - uid: >-
+      @azure/abort-controller.fs.PathLike |
+      @azure/abort-controller.fs.promises.FileHandle
+    name: FileHandle
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/abort-controller.fs.PathLike'
+      - name: ' | '
+        fullName: ' | '
+      - name: FileHandle
+        fullName: FileHandle
+        uid: '@azure/abort-controller.fs.promises.FileHandle'
+  - uid: '@azure/abort-controller.fs.promises.FileHandle'
+    name: FileHandle
+    spec.typeScript:
+      - name: FileHandle
+        fullName: FileHandle
+        uid: '@azure/abort-controller.fs.promises.FileHandle'
+  - uid: number | string | @azure/abort-controller.fs.MakeDirectoryOptions | null
+    name: MakeDirectoryOptions | null
+    spec.typeScript:
+      - name: 'number | string | '
+        fullName: 'number | string | '
+      - name: MakeDirectoryOptions
+        fullName: MakeDirectoryOptions
+        uid: '@azure/abort-controller.fs.MakeDirectoryOptions'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: Object | @azure/abort-controller.BufferEncoding | null
+    name: BufferEncoding | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: Promise<@azure/abort-controller.fs.promises.FileHandle>
+    name: FileHandle>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: FileHandle
+        fullName: FileHandle
+        uid: '@azure/abort-controller.fs.promises.FileHandle'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.fs.OpenDirOptions'
+    name: OpenDirOptions
+    spec.typeScript:
+      - name: OpenDirOptions
+        fullName: OpenDirOptions
+        uid: '@azure/abort-controller.fs.OpenDirOptions'
+  - uid: Promise<@azure/abort-controller.fs.Dir>
+    name: Dir>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dir
+        fullName: Dir
+        uid: '@azure/abort-controller.fs.Dir'
+      - name: '>'
+        fullName: '>'
+  - uid: 'Promise<@azure/abort-controller.fs.Dirent[]>'
+    name: 'Dirent[]>'
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dirent
+        fullName: Dirent
+        uid: '@azure/abort-controller.fs.Dirent'
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: '@azure/abort-controller.fs.RmDirAsyncOptions'
+    name: RmDirAsyncOptions
+    spec.typeScript:
+      - name: RmDirAsyncOptions
+        fullName: RmDirAsyncOptions
+        uid: '@azure/abort-controller.fs.RmDirAsyncOptions'
+  - uid: Object | @azure/abort-controller.BufferEncoding | undefined | null
+    name: BufferEncoding | undefined | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+      - name: ' | undefined | null'
+        fullName: ' | undefined | null'
+  - uid: '@azure/abort-controller.fs.NoParamCallback'
+    name: NoParamCallback
+    spec.typeScript:
+      - name: NoParamCallback
+        fullName: NoParamCallback
+        uid: '@azure/abort-controller.fs.NoParamCallback'
+  - uid: Promise<@azure/abort-controller.fs.Dirent | null>
+    name: Dirent | null>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dirent
+        fullName: Dirent
+        uid: '@azure/abort-controller.fs.Dirent'
+      - name: ' | null>'
+        fullName: ' | null>'
+  - uid: '@azure/abort-controller.fs.Dirent'
+    name: Dirent
+    spec.typeScript:
+      - name: Dirent
+        fullName: Dirent
+        uid: '@azure/abort-controller.fs.Dirent'
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.fs.StatsBase<number>'
+    name: StatsBase<number>
+    spec.typeScript:
+      - name: StatsBase
+        fullName: StatsBase
+        uid: '@azure/abort-controller.fs.StatsBase'
+      - name: <number>
+        fullName: <number>
+  - uid: '@azure/abort-controller.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+  - uid: '@azure/abort-controller.stream.internal.WritableOptions'
+    name: WritableOptions
+    spec.typeScript:
+      - name: WritableOptions
+        fullName: WritableOptions
+        uid: '@azure/abort-controller.stream.internal.WritableOptions'
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: '@azure/abort-controller.fs.RmDirOptions'
+    name: RmDirOptions
+    spec.typeScript:
+      - name: RmDirOptions
+        fullName: RmDirOptions
+        uid: '@azure/abort-controller.fs.RmDirOptions'
+  - uid: '@azure/abort-controller.fs.PathLike | number'
+    name: PathLike | number
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/abort-controller.fs.PathLike'
+      - name: ' | number'
+        fullName: ' | number'
+  - uid: '@azure/abort-controller.fs.WriteFileOptions'
+    name: WriteFileOptions
+    spec.typeScript:
+      - name: WriteFileOptions
+        fullName: WriteFileOptions
+        uid: '@azure/abort-controller.fs.WriteFileOptions'
+  - uid: '@azure/abort-controller.fs.ReadStream'
+    name: ReadStream
+    spec.typeScript:
+      - name: ReadStream
+        fullName: ReadStream
+        uid: '@azure/abort-controller.fs.ReadStream'
+  - uid: '@azure/abort-controller.fs.WriteStream'
+    name: WriteStream
+    spec.typeScript:
+      - name: WriteStream
+        fullName: WriteStream
+        uid: '@azure/abort-controller.fs.WriteStream'
+  - uid: '@azure/abort-controller.fs.Stats'
+    name: Stats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: '@azure/abort-controller.fs.Stats'
+  - uid: '@azure/abort-controller.fs.Dir'
+    name: Dir
+    spec.typeScript:
+      - name: Dir
+        fullName: Dir
+        uid: '@azure/abort-controller.fs.Dir'
+  - uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+  - uid: '@azure/abort-controller.fs.Dirent[]'
+    name: 'Dirent[]'
+    spec.typeScript:
+      - name: Dirent
+        fullName: Dirent
+        uid: '@azure/abort-controller.fs.Dirent'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.fs.FSWatcher'
+    name: FSWatcher
+    spec.typeScript:
+      - name: FSWatcher
+        fullName: FSWatcher
+        uid: '@azure/abort-controller.fs.FSWatcher'

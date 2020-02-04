@@ -1,0 +1,16 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.AuthOptions'
+    name: AuthOptions
+    fullName: AuthOptions
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type AuthOptions = { authority: string, clientId: string,
+        navigateToLoginRequestUrl: boolean, postLogoutRedirectUri: Object,
+        redirectUri: Object, validateAuthority: boolean }
+    package: '@azure/abort-controller'

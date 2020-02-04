@@ -1,0 +1,351 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Stats'
+    name: Stats
+    fullName: Stats
+    children:
+      - '@azure/abort-controller.Stats.clear'
+      - '@azure/abort-controller.Stats.createMeasureDouble'
+      - '@azure/abort-controller.Stats.createMeasureInt64'
+      - '@azure/abort-controller.Stats.createView'
+      - '@azure/abort-controller.Stats.getCurrentTagContext'
+      - '@azure/abort-controller.Stats.getMetrics'
+      - '@azure/abort-controller.Stats.record'
+      - '@azure/abort-controller.Stats.registerExporter'
+      - '@azure/abort-controller.Stats.registerView'
+      - '@azure/abort-controller.Stats.unregisterExporter'
+      - '@azure/abort-controller.Stats.withTagContext'
+    langs:
+      - typeScript
+    type: interface
+    summary: Main interface for stats.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Stats.clear'
+    name: clear()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Remove all registered Views and exporters from the stats.
+    syntax:
+      content: function clear()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Stats.createMeasureDouble'
+    name: 'createMeasureDouble(string, MeasureUnit, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a measure of type Double.
+    syntax:
+      content: >-
+        function createMeasureDouble(name: string, unit: MeasureUnit,
+        description?: string)
+      parameters:
+        - id: name
+          type:
+            - string
+          description: The measure name
+        - id: unit
+          type:
+            - '@azure/abort-controller.MeasureUnit'
+          description: The measure unit
+        - id: description
+          type:
+            - string
+          description: |
+            The measure description
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.Measure'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Stats.createMeasureInt64'
+    name: 'createMeasureInt64(string, MeasureUnit, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Creates a measure of type Int64. Values must be integers up to
+      Number.MAX_SAFE_INTERGER.
+    syntax:
+      content: >-
+        function createMeasureInt64(name: string, unit: MeasureUnit,
+        description?: string)
+      parameters:
+        - id: name
+          type:
+            - string
+          description: The measure name
+        - id: unit
+          type:
+            - '@azure/abort-controller.MeasureUnit'
+          description: The measure unit
+        - id: description
+          type:
+            - string
+          description: |
+            The measure description
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.Measure'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Stats.createView'
+    name: 'createView(string, Measure, AggregationType, TagKey[], string, number[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a view.
+    syntax:
+      content: >-
+        function createView(name: string, measure: Measure, aggregation:
+        AggregationType, tagKeys: TagKey[], description: string,
+        bucketBoundaries?: number[])
+      parameters:
+        - id: name
+          type:
+            - string
+          description: The view name
+        - id: measure
+          type:
+            - '@azure/abort-controller.Measure'
+          description: The view measure
+        - id: aggregation
+          type:
+            - '@azure/abort-controller.AggregationType'
+          description: The view aggregation type
+        - id: tagKeys
+          type:
+            - '@azure/abort-controller.TagKey[]'
+          description: The view columns (tag keys)
+        - id: description
+          type:
+            - string
+          description: The view description
+        - id: bucketBoundaries
+          type:
+            - 'number[]'
+          description: |
+            The view bucket boundaries for a distribution
+                aggregation type
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.View'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Stats.getCurrentTagContext'
+    name: getCurrentTagContext()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the current tag context.
+    syntax:
+      content: function getCurrentTagContext()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.TagMap'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Stats.getMetrics'
+    name: getMetrics()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets a collection of produced Metric`s to be exported.
+    syntax:
+      content: function getMetrics()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.Metric[]'
+        description: The List of metrics.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Stats.record'
+    name: 'record(Measurement[], TagMap, [key: string]: string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Updates all views with the new measurements.
+    syntax:
+      content: >-
+        function record(measurements: Measurement[], tags?: TagMap,
+        attachments?: [key: string]: string)
+      parameters:
+        - id: measurements
+          type:
+            - '@azure/abort-controller.Measurement[]'
+          description: A list of measurements to record
+        - id: tags
+          type:
+            - '@azure/abort-controller.TagMap'
+          description: |-
+            optional The tags to which the value is applied.
+                tags could either be explicitly passed to the method, or implicitly
+                read from current execution context.
+          optional: true
+        - id: attachments
+          type:
+            - '[key: string]: string'
+          description: |
+            optional The contextual information associated with an
+                example value. The contextual information is represented as key - value
+                string pairs.
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Stats.registerExporter'
+    name: registerExporter(StatsEventListener)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Registers an exporter to send stats data to a service.
+    syntax:
+      content: 'function registerExporter(exporter: StatsEventListener)'
+      parameters:
+        - id: exporter
+          type:
+            - '@azure/abort-controller.StatsEventListener'
+          description: |
+            An stats exporter
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Stats.registerView'
+    name: registerView(View)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Registers a view to listen to new measurements in its measure.
+    syntax:
+      content: 'function registerView(view: View)'
+      parameters:
+        - id: view
+          type:
+            - '@azure/abort-controller.View'
+          description: |
+            The view to be registered
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Stats.unregisterExporter'
+    name: unregisterExporter(StatsEventListener)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Unregisters an exporter. It should be called whenever the exporter is not
+      needed anymore.
+    syntax:
+      content: 'function unregisterExporter(exporter: StatsEventListener)'
+      parameters:
+        - id: exporter
+          type:
+            - '@azure/abort-controller.StatsEventListener'
+          description: |
+            An stats exporter
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Stats.withTagContext'
+    name: 'withTagContext(TagMap, Func<T>)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Enters the scope of code where the given `TagMap` is in the current
+      context
+
+      (replacing the previous `TagMap`).
+    syntax:
+      content: 'function withTagContext<T>(tags: TagMap, fn: Func<T>)'
+      parameters:
+        - id: tags
+          type:
+            - '@azure/abort-controller.TagMap'
+          description: The TagMap to be set to the current context.
+        - id: fn
+          type:
+            - '@azure/abort-controller.Func<T>'
+          description: Callback function.
+      return:
+        type:
+          - T
+        description: The callback return.
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.MeasureUnit'
+    name: MeasureUnit
+    spec.typeScript:
+      - name: MeasureUnit
+        fullName: MeasureUnit
+        uid: '@azure/abort-controller.MeasureUnit'
+  - uid: '@azure/abort-controller.Measure'
+    name: Measure
+    spec.typeScript:
+      - name: Measure
+        fullName: Measure
+        uid: '@azure/abort-controller.Measure'
+  - uid: '@azure/abort-controller.AggregationType'
+    name: AggregationType
+    spec.typeScript:
+      - name: AggregationType
+        fullName: AggregationType
+        uid: '@azure/abort-controller.AggregationType'
+  - uid: '@azure/abort-controller.TagKey[]'
+    name: 'TagKey[]'
+    spec.typeScript:
+      - name: TagKey
+        fullName: TagKey
+        uid: '@azure/abort-controller.TagKey'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.View'
+    name: View
+    spec.typeScript:
+      - name: View
+        fullName: View
+        uid: '@azure/abort-controller.View'
+  - uid: '@azure/abort-controller.TagMap'
+    name: TagMap
+    spec.typeScript:
+      - name: TagMap
+        fullName: TagMap
+        uid: '@azure/abort-controller.TagMap'
+  - uid: '@azure/abort-controller.Metric[]'
+    name: 'Metric[]'
+    spec.typeScript:
+      - name: Metric
+        fullName: Metric
+        uid: '@azure/abort-controller.Metric'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.Measurement[]'
+    name: 'Measurement[]'
+    spec.typeScript:
+      - name: Measurement
+        fullName: Measurement
+        uid: '@azure/abort-controller.Measurement'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.StatsEventListener'
+    name: StatsEventListener
+    spec.typeScript:
+      - name: StatsEventListener
+        fullName: StatsEventListener
+        uid: '@azure/abort-controller.StatsEventListener'
+  - uid: '@azure/abort-controller.Func<T>'
+    name: Func<T>
+    spec.typeScript:
+      - name: Func
+        fullName: Func
+        uid: '@azure/abort-controller.Func'
+      - name: <T>
+        fullName: <T>

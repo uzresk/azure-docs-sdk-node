@@ -1,0 +1,838 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.util.types'
+    name: types
+    langs:
+      - typeScript
+    fullName: types
+    children:
+      - '@azure/ms-rest-azure-env.util.types.isAnyArrayBuffer'
+      - '@azure/ms-rest-azure-env.util.types.isArgumentsObject'
+      - '@azure/ms-rest-azure-env.util.types.isArrayBuffer'
+      - '@azure/ms-rest-azure-env.util.types.isAsyncFunction'
+      - '@azure/ms-rest-azure-env.util.types.isBooleanObject'
+      - '@azure/ms-rest-azure-env.util.types.isBoxedPrimitive'
+      - '@azure/ms-rest-azure-env.util.types.isDataView'
+      - '@azure/ms-rest-azure-env.util.types.isDate'
+      - '@azure/ms-rest-azure-env.util.types.isExternal'
+      - '@azure/ms-rest-azure-env.util.types.isFloat32Array'
+      - '@azure/ms-rest-azure-env.util.types.isFloat64Array'
+      - '@azure/ms-rest-azure-env.util.types.isGeneratorFunction'
+      - '@azure/ms-rest-azure-env.util.types.isGeneratorObject'
+      - '@azure/ms-rest-azure-env.util.types.isInt16Array'
+      - '@azure/ms-rest-azure-env.util.types.isInt32Array'
+      - '@azure/ms-rest-azure-env.util.types.isInt8Array'
+      - '@azure/ms-rest-azure-env.util.types.isMap'
+      - '@azure/ms-rest-azure-env.util.types.isMapIterator'
+      - '@azure/ms-rest-azure-env.util.types.isModuleNamespaceObject'
+      - '@azure/ms-rest-azure-env.util.types.isNativeError'
+      - '@azure/ms-rest-azure-env.util.types.isNumberObject'
+      - '@azure/ms-rest-azure-env.util.types.isPromise'
+      - '@azure/ms-rest-azure-env.util.types.isProxy'
+      - '@azure/ms-rest-azure-env.util.types.isRegExp'
+      - '@azure/ms-rest-azure-env.util.types.isSet'
+      - '@azure/ms-rest-azure-env.util.types.isSetIterator'
+      - '@azure/ms-rest-azure-env.util.types.isSharedArrayBuffer'
+      - '@azure/ms-rest-azure-env.util.types.isStringObject'
+      - '@azure/ms-rest-azure-env.util.types.isSymbolObject'
+      - '@azure/ms-rest-azure-env.util.types.isTypedArray'
+      - '@azure/ms-rest-azure-env.util.types.isUint16Array'
+      - '@azure/ms-rest-azure-env.util.types.isUint32Array'
+      - '@azure/ms-rest-azure-env.util.types.isUint8Array'
+      - '@azure/ms-rest-azure-env.util.types.isUint8ClampedArray'
+      - '@azure/ms-rest-azure-env.util.types.isWeakMap'
+      - '@azure/ms-rest-azure-env.util.types.isWeakSet'
+      - '@azure/ms-rest-azure-env.util.types.isWebAssemblyCompiledModule'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isAnyArrayBuffer'
+    name: isAnyArrayBuffer(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isAnyArrayBuffer(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isArgumentsObject'
+    name: isArgumentsObject(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isArgumentsObject(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isArrayBuffer'
+    name: isArrayBuffer(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isArrayBuffer(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isAsyncFunction'
+    name: isAsyncFunction(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isAsyncFunction(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isBooleanObject'
+    name: isBooleanObject(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isBooleanObject(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isBoxedPrimitive'
+    name: isBoxedPrimitive(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isBoxedPrimitive(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isDataView'
+    name: isDataView(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isDataView(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isDate'
+    name: isDate(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isDate(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isExternal'
+    name: isExternal(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isExternal(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isFloat32Array'
+    name: isFloat32Array(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isFloat32Array(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isFloat64Array'
+    name: isFloat64Array(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isFloat64Array(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isGeneratorFunction'
+    name: isGeneratorFunction(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isGeneratorFunction(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isGeneratorObject'
+    name: isGeneratorObject(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isGeneratorObject(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isInt16Array'
+    name: isInt16Array(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isInt16Array(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isInt32Array'
+    name: isInt32Array(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isInt32Array(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isInt8Array'
+    name: isInt8Array(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isInt8Array(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isMap'
+    name: isMap(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isMap(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isMapIterator'
+    name: isMapIterator(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isMapIterator(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isModuleNamespaceObject'
+    name: isModuleNamespaceObject(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isModuleNamespaceObject(value: any)'
+      parameters:
+        - id: value
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isNativeError'
+    name: isNativeError(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isNativeError(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isNumberObject'
+    name: isNumberObject(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isNumberObject(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isPromise'
+    name: isPromise(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isPromise(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isProxy'
+    name: isProxy(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isProxy(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isRegExp'
+    name: isRegExp(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isRegExp(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isSet'
+    name: isSet(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isSet(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isSetIterator'
+    name: isSetIterator(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isSetIterator(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isSharedArrayBuffer'
+    name: isSharedArrayBuffer(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isSharedArrayBuffer(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isStringObject'
+    name: isStringObject(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isStringObject(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isSymbolObject'
+    name: isSymbolObject(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isSymbolObject(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isTypedArray'
+    name: isTypedArray(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isTypedArray(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isUint16Array'
+    name: isUint16Array(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isUint16Array(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isUint32Array'
+    name: isUint32Array(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isUint32Array(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isUint8Array'
+    name: isUint8Array(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isUint8Array(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isUint8ClampedArray'
+    name: isUint8ClampedArray(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isUint8ClampedArray(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isWeakMap'
+    name: isWeakMap(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isWeakMap(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isWeakSet'
+    name: isWeakSet(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isWeakSet(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.types.isWebAssemblyCompiledModule'
+    name: isWebAssemblyCompiledModule(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isWebAssemblyCompiledModule(object: any)'
+      parameters:
+        - id: object
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.util.EncodeIntoResult'
+    name: EncodeIntoResult
+    spec.typeScript:
+      - name: EncodeIntoResult
+        fullName: EncodeIntoResult
+        uid: '@azure/ms-rest-azure-env.util.EncodeIntoResult'
+  - uid: '@azure/ms-rest-azure-env.util.Style'
+    name: Style
+    spec.typeScript:
+      - name: Style
+        fullName: Style
+        uid: '@azure/ms-rest-azure-env.util.Style'
+  - uid: '@azure/ms-rest-azure-env.util.types.isAnyArrayBuffer'
+    name: isAnyArrayBuffer
+  - uid: '@azure/ms-rest-azure-env.util.types.isArgumentsObject'
+    name: isArgumentsObject
+  - uid: '@azure/ms-rest-azure-env.util.types.isArrayBuffer'
+    name: isArrayBuffer
+  - uid: '@azure/ms-rest-azure-env.util.types.isAsyncFunction'
+    name: isAsyncFunction
+  - uid: '@azure/ms-rest-azure-env.util.types.isBooleanObject'
+    name: isBooleanObject
+  - uid: '@azure/ms-rest-azure-env.util.types.isBoxedPrimitive'
+    name: isBoxedPrimitive
+  - uid: '@azure/ms-rest-azure-env.util.types.isDataView'
+    name: isDataView
+  - uid: '@azure/ms-rest-azure-env.util.types.isDate'
+    name: isDate
+  - uid: '@azure/ms-rest-azure-env.util.types.isExternal'
+    name: isExternal
+  - uid: '@azure/ms-rest-azure-env.util.types.isFloat32Array'
+    name: isFloat32Array
+  - uid: '@azure/ms-rest-azure-env.util.types.isFloat64Array'
+    name: isFloat64Array
+  - uid: '@azure/ms-rest-azure-env.util.types.isGeneratorFunction'
+    name: isGeneratorFunction
+  - uid: '@azure/ms-rest-azure-env.util.types.isGeneratorObject'
+    name: isGeneratorObject
+  - uid: '@azure/ms-rest-azure-env.util.types.isInt16Array'
+    name: isInt16Array
+  - uid: '@azure/ms-rest-azure-env.util.types.isInt32Array'
+    name: isInt32Array
+  - uid: '@azure/ms-rest-azure-env.util.types.isInt8Array'
+    name: isInt8Array
+  - uid: '@azure/ms-rest-azure-env.util.types.isMap'
+    name: isMap
+  - uid: '@azure/ms-rest-azure-env.util.types.isMapIterator'
+    name: isMapIterator
+  - uid: '@azure/ms-rest-azure-env.util.types.isModuleNamespaceObject'
+    name: isModuleNamespaceObject
+  - uid: '@azure/ms-rest-azure-env.util.types.isNativeError'
+    name: isNativeError
+  - uid: '@azure/ms-rest-azure-env.util.types.isNumberObject'
+    name: isNumberObject
+  - uid: '@azure/ms-rest-azure-env.util.types.isPromise'
+    name: isPromise
+  - uid: '@azure/ms-rest-azure-env.util.types.isProxy'
+    name: isProxy
+  - uid: '@azure/ms-rest-azure-env.util.types.isRegExp'
+    name: isRegExp
+  - uid: '@azure/ms-rest-azure-env.util.types.isSet'
+    name: isSet
+  - uid: '@azure/ms-rest-azure-env.util.types.isSetIterator'
+    name: isSetIterator
+  - uid: '@azure/ms-rest-azure-env.util.types.isSharedArrayBuffer'
+    name: isSharedArrayBuffer
+  - uid: '@azure/ms-rest-azure-env.util.types.isStringObject'
+    name: isStringObject
+  - uid: '@azure/ms-rest-azure-env.util.types.isSymbolObject'
+    name: isSymbolObject
+  - uid: '@azure/ms-rest-azure-env.util.types.isTypedArray'
+    name: isTypedArray
+  - uid: '@azure/ms-rest-azure-env.util.types.isUint16Array'
+    name: isUint16Array
+  - uid: '@azure/ms-rest-azure-env.util.types.isUint32Array'
+    name: isUint32Array
+  - uid: '@azure/ms-rest-azure-env.util.types.isUint8Array'
+    name: isUint8Array
+  - uid: '@azure/ms-rest-azure-env.util.types.isUint8ClampedArray'
+    name: isUint8ClampedArray
+  - uid: '@azure/ms-rest-azure-env.util.types.isWeakMap'
+    name: isWeakMap
+  - uid: '@azure/ms-rest-azure-env.util.types.isWeakSet'
+    name: isWeakSet
+  - uid: '@azure/ms-rest-azure-env.util.types.isWebAssemblyCompiledModule'
+    name: isWebAssemblyCompiledModule

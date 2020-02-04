@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.sortByPreviousIdOrder'
+    name: 'sortByPreviousIdOrder(T[], U[])'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Given a sorted array of input objects (with a unique ID) and an unsorted
+      array of results,
+
+      return a sorted array of results.
+    syntax:
+      content: 'function sortByPreviousIdOrder<T>(sortedArray: T[], unsortedArray: U[])'
+      parameters:
+        - id: sortedArray
+          type:
+            - 'T[]'
+          description: An array of entries sorted by `id`
+        - id: unsortedArray
+          type:
+            - 'U[]'
+          description: |
+            An array of entries that contain `id` but are not sorted
+      return:
+        type:
+          - 'U[]'
+        description: ''
+    package: '@azure/abort-controller'

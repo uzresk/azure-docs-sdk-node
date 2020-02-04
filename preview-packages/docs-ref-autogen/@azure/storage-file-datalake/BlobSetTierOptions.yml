@@ -1,0 +1,125 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobSetTierOptions'
+    name: BlobSetTierOptions
+    fullName: BlobSetTierOptions
+    children:
+      - '@azure/abort-controller.BlobSetTierOptions.abortSignal'
+      - '@azure/abort-controller.BlobSetTierOptions.conditions'
+      - '@azure/abort-controller.BlobSetTierOptions.rehydratePriority'
+      - '@azure/abort-controller.BlobSetTierOptions.tracingOptions'
+    langs:
+      - typeScript
+    type: interface
+    summary: 'Options to configure the <xref:BlobClient.setAccessTier> operation.'
+    extends:
+      name: '@azure/abort-controller.CommonOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobSetTierOptions.abortSignal'
+    name: abortSignal
+    fullName: abortSignal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    optional: true
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type:
+          - '@azure/abort-controller.AbortSignalLike'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobSetTierOptions.conditions'
+    name: conditions
+    fullName: conditions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If specified, contains the lease id that must be matched and lease with
+      this id
+
+      must be active in order for the operation to succeed.
+    optional: true
+    syntax:
+      content: 'conditions?: LeaseAccessConditions'
+      return:
+        type:
+          - '@azure/abort-controller.LeaseAccessConditions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobSetTierOptions.rehydratePriority'
+    name: rehydratePriority
+    fullName: rehydratePriority
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Rehydrate Priority - possible values include 'High', 'Standard'.
+
+      More Details -
+      https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-rehydration#rehydrate-an-archived-blob-to-an-online-tier
+    optional: true
+    syntax:
+      content: 'rehydratePriority?: RehydratePriority'
+      return:
+        type:
+          - '@azure/abort-controller.RehydratePriority'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobSetTierOptions.tracingOptions'
+    name: tracingOptions
+    fullName: tracingOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options to configure spans created when tracing is enabled.
+    optional: true
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type:
+          - '@azure/abort-controller.OperationTracingOptions'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.CommonOptions'
+    name: CommonOptions
+    spec.typeScript:
+      - name: CommonOptions
+        fullName: CommonOptions
+        uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.LeaseAccessConditions'
+    name: LeaseAccessConditions
+    spec.typeScript:
+      - name: LeaseAccessConditions
+        fullName: LeaseAccessConditions
+        uid: '@azure/abort-controller.LeaseAccessConditions'
+  - uid: '@azure/abort-controller.RehydratePriority'
+    name: RehydratePriority
+    spec.typeScript:
+      - name: RehydratePriority
+        fullName: RehydratePriority
+        uid: '@azure/abort-controller.RehydratePriority'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
+    name: OperationTracingOptions
+    spec.typeScript:
+      - name: OperationTracingOptions
+        fullName: OperationTracingOptions
+        uid: '@azure/abort-controller.OperationTracingOptions'

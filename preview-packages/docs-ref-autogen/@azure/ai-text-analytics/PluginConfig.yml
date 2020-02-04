@@ -1,0 +1,128 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.PluginConfig'
+    name: PluginConfig
+    fullName: PluginConfig
+    children:
+      - '@azure/abort-controller.PluginConfig.enabled'
+      - '@azure/abort-controller.PluginConfig.enhancedDatabaseReporting'
+      - '@azure/abort-controller.PluginConfig.ignoreMethods'
+      - '@azure/abort-controller.PluginConfig.ignoreUrls'
+      - '@azure/abort-controller.PluginConfig.internalFilesExports'
+      - '@azure/abort-controller.PluginConfig.path'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PluginConfig.enabled'
+    name: enabled
+    fullName: enabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether to enable the plugin.
+    optional: true
+    syntax:
+      content: 'enabled?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PluginConfig.enhancedDatabaseReporting'
+    name: enhancedDatabaseReporting
+    fullName: enhancedDatabaseReporting
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      If true, additional information about query parameters and
+      results will be attached (as `attributes`) to spans representing
+      database operations.
+    optional: true
+    syntax:
+      content: 'enhancedDatabaseReporting?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PluginConfig.ignoreMethods'
+    name: ignoreMethods
+    fullName: ignoreMethods
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Request methods that match any string in ignoreMethods will not be traced.
+    optional: true
+    syntax:
+      content: 'ignoreMethods?: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PluginConfig.ignoreUrls'
+    name: ignoreUrls
+    fullName: ignoreUrls
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      URLs that partially match any regex in ignoreUrls will not be traced.
+      In addition, URLs that are _exact matches_ of strings in ignoreUrls will
+      also not be traced.
+    optional: true
+    syntax:
+      content: 'ignoreUrls?: Array<string | RegExp>'
+      return:
+        type:
+          - Array<string | RegExp>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PluginConfig.internalFilesExports'
+    name: internalFilesExports
+    fullName: internalFilesExports
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      List of internal files that need patch and are not exported by
+      default.
+    optional: true
+    syntax:
+      content: 'internalFilesExports?: PluginInternalFiles'
+      return:
+        type:
+          - '@azure/abort-controller.PluginInternalFiles'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PluginConfig.path'
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Path of the trace plugin to load.
+    optional: true
+    syntax:
+      content: 'path?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.PluginInternalFiles'
+    name: PluginInternalFiles
+    spec.typeScript:
+      - name: PluginInternalFiles
+        fullName: PluginInternalFiles
+        uid: '@azure/abort-controller.PluginInternalFiles'

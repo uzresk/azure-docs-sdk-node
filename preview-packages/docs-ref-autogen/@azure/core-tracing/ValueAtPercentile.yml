@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.ValueAtPercentile'
+    name: ValueAtPercentile
+    fullName: ValueAtPercentile
+    children:
+      - '@opentelemetry/types.ValueAtPercentile.percentile'
+      - '@opentelemetry/types.ValueAtPercentile.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: Represents the value at a given percentile of a distribution.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.ValueAtPercentile.percentile'
+    name: percentile
+    fullName: percentile
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The percentile of a distribution. Must be in the interval (0.0, 100.0].'
+    syntax:
+      content: 'percentile: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.ValueAtPercentile.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The value at the given percentile of a distribution.
+    syntax:
+      content: 'value: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'

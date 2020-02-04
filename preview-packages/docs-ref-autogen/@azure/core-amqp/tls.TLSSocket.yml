@@ -1,0 +1,2794 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.tls.TLSSocket
+    name: TLSSocket
+    fullName: TLSSocket
+    children:
+      - tslib.tls.TLSSocket.addListener_4
+      - tslib.tls.TLSSocket.addListener_1
+      - tslib.tls.TLSSocket.addListener_2
+      - tslib.tls.TLSSocket.addListener_3
+      - tslib.tls.TLSSocket.addListener
+      - tslib.tls.TLSSocket.address
+      - tslib.tls.TLSSocket.alpnProtocol
+      - tslib.tls.TLSSocket.authorizationError
+      - tslib.tls.TLSSocket.authorized
+      - tslib.tls.TLSSocket.bufferSize
+      - tslib.tls.TLSSocket.bytesRead
+      - tslib.tls.TLSSocket.bytesWritten
+      - tslib.tls.TLSSocket.connect_1
+      - tslib.tls.TLSSocket.connect_2
+      - tslib.tls.TLSSocket.connect
+      - tslib.tls.TLSSocket.connect_3
+      - tslib.tls.TLSSocket.connecting
+      - tslib.tls.TLSSocket.cork
+      - tslib.tls.TLSSocket.destroy
+      - tslib.tls.TLSSocket.destroyed
+      - tslib.tls.TLSSocket.disableRenegotiation
+      - tslib.tls.TLSSocket.emit_4
+      - tslib.tls.TLSSocket.emit_1
+      - tslib.tls.TLSSocket.emit_2
+      - tslib.tls.TLSSocket.emit_3
+      - tslib.tls.TLSSocket.emit
+      - tslib.tls.TLSSocket.enableTrace
+      - tslib.tls.TLSSocket.encrypted
+      - tslib.tls.TLSSocket.end_1
+      - tslib.tls.TLSSocket.end_2
+      - tslib.tls.TLSSocket.end
+      - tslib.tls.TLSSocket.eventNames
+      - tslib.tls.TLSSocket.from
+      - tslib.tls.TLSSocket.getCertificate
+      - tslib.tls.TLSSocket.getCipher
+      - tslib.tls.TLSSocket.getEphemeralKeyInfo
+      - tslib.tls.TLSSocket.getFinished
+      - tslib.tls.TLSSocket.getMaxListeners
+      - tslib.tls.TLSSocket.getPeerCertificate
+      - tslib.tls.TLSSocket.getPeerCertificate_2
+      - tslib.tls.TLSSocket.getPeerCertificate_1
+      - tslib.tls.TLSSocket.getPeerFinished
+      - tslib.tls.TLSSocket.getProtocol
+      - tslib.tls.TLSSocket.getSession
+      - tslib.tls.TLSSocket.getSharedSigalgs
+      - tslib.tls.TLSSocket.getTLSTicket
+      - tslib.tls.TLSSocket.isPaused
+      - tslib.tls.TLSSocket.isSessionReused
+      - tslib.tls.TLSSocket.listenerCount
+      - tslib.tls.TLSSocket.listeners
+      - tslib.tls.TLSSocket.localAddress
+      - tslib.tls.TLSSocket.localPort
+      - tslib.tls.TLSSocket.off
+      - tslib.tls.TLSSocket.on_4
+      - tslib.tls.TLSSocket.on_1
+      - tslib.tls.TLSSocket.on_2
+      - tslib.tls.TLSSocket.on_3
+      - tslib.tls.TLSSocket.on
+      - tslib.tls.TLSSocket.once_4
+      - tslib.tls.TLSSocket.once_1
+      - tslib.tls.TLSSocket.once_2
+      - tslib.tls.TLSSocket.once_3
+      - tslib.tls.TLSSocket.once
+      - tslib.tls.TLSSocket.pause
+      - tslib.tls.TLSSocket.pipe
+      - tslib.tls.TLSSocket.prependListener_4
+      - tslib.tls.TLSSocket.prependListener_1
+      - tslib.tls.TLSSocket.prependListener_2
+      - tslib.tls.TLSSocket.prependListener_3
+      - tslib.tls.TLSSocket.prependListener
+      - tslib.tls.TLSSocket.prependOnceListener_4
+      - tslib.tls.TLSSocket.prependOnceListener_1
+      - tslib.tls.TLSSocket.prependOnceListener_2
+      - tslib.tls.TLSSocket.prependOnceListener_3
+      - tslib.tls.TLSSocket.prependOnceListener
+      - tslib.tls.TLSSocket.push
+      - tslib.tls.TLSSocket.rawListeners
+      - tslib.tls.TLSSocket.read
+      - tslib.tls.TLSSocket.readable
+      - tslib.tls.TLSSocket.readableHighWaterMark
+      - tslib.tls.TLSSocket.readableLength
+      - tslib.tls.TLSSocket.readableObjectMode
+      - tslib.tls.TLSSocket.ref
+      - tslib.tls.TLSSocket.remoteAddress
+      - tslib.tls.TLSSocket.remoteFamily
+      - tslib.tls.TLSSocket.remotePort
+      - tslib.tls.TLSSocket.removeAllListeners
+      - tslib.tls.TLSSocket.removeListener
+      - tslib.tls.TLSSocket.removeListener_1
+      - tslib.tls.TLSSocket.removeListener_2
+      - tslib.tls.TLSSocket.removeListener_4
+      - tslib.tls.TLSSocket.removeListener_3
+      - tslib.tls.TLSSocket.removeListener_5
+      - tslib.tls.TLSSocket.renegotiate
+      - tslib.tls.TLSSocket.resume
+      - tslib.tls.TLSSocket.setDefaultEncoding
+      - tslib.tls.TLSSocket.setEncoding
+      - tslib.tls.TLSSocket.setKeepAlive
+      - tslib.tls.TLSSocket.setMaxListeners
+      - tslib.tls.TLSSocket.setMaxSendFragment
+      - tslib.tls.TLSSocket.setNoDelay
+      - tslib.tls.TLSSocket.setTimeout
+      - tslib.tls.TLSSocket.constructor
+      - tslib.tls.TLSSocket.uncork
+      - tslib.tls.TLSSocket.unpipe
+      - tslib.tls.TLSSocket.unref
+      - tslib.tls.TLSSocket.unshift
+      - tslib.tls.TLSSocket.wrap
+      - tslib.tls.TLSSocket.writable
+      - tslib.tls.TLSSocket.writableCorked
+      - tslib.tls.TLSSocket.writableEnded
+      - tslib.tls.TLSSocket.writableFinished
+      - tslib.tls.TLSSocket.writableHighWaterMark
+      - tslib.tls.TLSSocket.writableLength
+      - tslib.tls.TLSSocket.writableObjectMode
+      - tslib.tls.TLSSocket.write
+      - tslib.tls.TLSSocket.write_1
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: tslib.net.Socket
+    package: tslib
+  - uid: tslib.tls.TLSSocket.addListener_4
+    name: 'addListener("keylog", (line: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "keylog", listener: (line: Buffer) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"keylog"'
+          description: ''
+        - id: listener
+          type:
+            - '(line: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.addListener_1
+    name: 'addListener("OCSPResponse", (response: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "OCSPResponse", listener: (response: Buffer)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"OCSPResponse"'
+          description: ''
+        - id: listener
+          type:
+            - '(response: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.addListener_2
+    name: 'addListener("secureConnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "secureConnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"secureConnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.addListener_3
+    name: 'addListener("session", (session: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "session", listener: (session: Buffer) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"session"'
+          description: ''
+        - id: listener
+          type:
+            - '(session: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.addListener
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.address
+    name: address()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function address()
+      parameters: []
+      return:
+        type:
+          - tslib.net.AddressInfo | string
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.alpnProtocol
+    name: alpnProtocol
+    fullName: alpnProtocol
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      String containing the selected ALPN protocol.
+      When ALPN has no selected protocol, tlsSocket.alpnProtocol equals false.
+    optional: true
+    syntax:
+      content: 'alpnProtocol?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.authorizationError
+    name: authorizationError
+    fullName: authorizationError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The reason why the peer's certificate has not been verified.
+      This property becomes available only when tlsSocket.authorized === false.
+    syntax:
+      content: 'authorizationError: Error'
+      return:
+        type:
+          - Error
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.authorized
+    name: authorized
+    fullName: authorized
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A boolean that is true if the peer certificate was signed by one of the
+      specified CAs, otherwise false.
+    syntax:
+      content: 'authorized: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.bufferSize
+    name: bufferSize
+    fullName: bufferSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bufferSize: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.bytesRead
+    name: bytesRead
+    fullName: bytesRead
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bytesRead: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.bytesWritten
+    name: bytesWritten
+    fullName: bytesWritten
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bytesWritten: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.connect_1
+    name: 'connect(number, string, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function connect(port: number, host: string, connectionListener?:
+        undefined | () => void)
+      parameters:
+        - id: port
+          type:
+            - number
+          description: ''
+        - id: host
+          type:
+            - string
+          description: ''
+        - id: connectionListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.connect_2
+    name: 'connect(number, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function connect(port: number, connectionListener?: undefined | () =>
+        void)
+      parameters:
+        - id: port
+          type:
+            - number
+          description: ''
+        - id: connectionListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.connect
+    name: 'connect(SocketConnectOpts, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function connect(options: SocketConnectOpts, connectionListener?:
+        undefined | () => void)
+      parameters:
+        - id: options
+          type:
+            - tslib.net.SocketConnectOpts
+          description: ''
+        - id: connectionListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.connect_3
+    name: 'connect(string, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function connect(path: string, connectionListener?: undefined | () =>
+        void)
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+        - id: connectionListener
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.connecting
+    name: connecting
+    fullName: connecting
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'connecting: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.cork
+    name: cork()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function cork()
+      parameters: []
+    package: tslib
+  - uid: tslib.tls.TLSSocket.destroy
+    name: destroy(Error)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function destroy(error?: Error)'
+      parameters:
+        - id: error
+          type:
+            - tslib.AbortError.Error
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.tls.TLSSocket.destroyed
+    name: destroyed
+    fullName: destroyed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'destroyed: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.disableRenegotiation
+    name: disableRenegotiation()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Disables TLS renegotiation for this TLSSocket instance. Once called,
+      attempts to renegotiate will trigger an 'error' event on the
+      TLSSocket.
+    syntax:
+      content: function disableRenegotiation()
+      parameters: []
+    package: tslib
+  - uid: tslib.tls.TLSSocket.emit_4
+    name: 'emit("keylog", Buffer)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "keylog", line: Buffer)'
+      parameters:
+        - id: event
+          type:
+            - '"keylog"'
+          description: ''
+        - id: line
+          type:
+            - Buffer
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.emit_1
+    name: 'emit("OCSPResponse", Buffer)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "OCSPResponse", response: Buffer)'
+      parameters:
+        - id: event
+          type:
+            - '"OCSPResponse"'
+          description: ''
+        - id: response
+          type:
+            - Buffer
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.emit_2
+    name: emit("secureConnect")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "secureConnect")'
+      parameters:
+        - id: event
+          type:
+            - '"secureConnect"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.emit_3
+    name: 'emit("session", Buffer)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "session", session: Buffer)'
+      parameters:
+        - id: event
+          type:
+            - '"session"'
+          description: ''
+        - id: session
+          type:
+            - Buffer
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.emit
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.enableTrace
+    name: enableTrace()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      When enabled, TLS packet trace information is written to `stderr`. This
+      can be
+
+      used to debug TLS connection problems.
+
+      Note: The format of the output is identical to the output of `openssl
+      s_client
+
+      -trace` or `openssl s_server -trace`. While it is produced by OpenSSL's
+
+      `SSL_trace()` function, the format is undocumented, can change without
+      notice,
+
+      and should not be relied on.
+    syntax:
+      content: function enableTrace()
+      parameters: []
+    package: tslib
+  - uid: tslib.tls.TLSSocket.encrypted
+    name: encrypted
+    fullName: encrypted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Static boolean value, always true.
+      May be used to distinguish TLS sockets from regular ones.
+    syntax:
+      content: 'encrypted: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.end_1
+    name: 'end(Uint8Array | string, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(buffer: Uint8Array | string, cb?: undefined | () => void)'
+      parameters:
+        - id: buffer
+          type:
+            - Uint8Array | string
+          description: ''
+        - id: cb
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.tls.TLSSocket.end_2
+    name: 'end(Uint8Array | string, undefined | string, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function end(str: Uint8Array | string, encoding?: undefined | string,
+        cb?: undefined | () => void)
+      parameters:
+        - id: str
+          type:
+            - Uint8Array | string
+          description: ''
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: cb
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.tls.TLSSocket.end
+    name: end(undefined | () => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(cb?: undefined | () => void)'
+      parameters:
+        - id: cb
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.tls.TLSSocket.eventNames
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.from
+    name: 'from(Iterable<any> | AsyncIterable<any>, ReadableOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: A utility method for creating Readable Streams out of iterators.
+    syntax:
+      content: >-
+        static function from(iterable: Iterable<any> | AsyncIterable<any>,
+        options?: ReadableOptions)
+      parameters:
+        - id: iterable
+          type:
+            - Iterable<any> | AsyncIterable<any>
+          description: ''
+        - id: options
+          type:
+            - tslib.stream.internal.ReadableOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - tslib.stream.internal.Readable
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.getCertificate
+    name: getCertificate()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Returns an object representing the local certificate. The returned
+      object has some properties corresponding to the fields of the
+      certificate.
+      See tls.TLSSocket.getPeerCertificate() for an example of the
+      certificate structure.
+
+      If there is no local certificate, an empty object will be returned.
+      If the socket has been destroyed, null will be returned.
+    syntax:
+      content: function getCertificate()
+      parameters: []
+      return:
+        type:
+          - tslib.tls.PeerCertificate | object | null
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.getCipher
+    name: getCipher()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns an object representing the cipher name and the SSL/TLS protocol
+      version of the current connection.
+    syntax:
+      content: function getCipher()
+      parameters: []
+      return:
+        type:
+          - tslib.tls.CipherNameAndProtocol
+        description: |-
+          Returns an object representing the cipher name
+          and the SSL/TLS protocol version of the current connection.
+    package: tslib
+  - uid: tslib.tls.TLSSocket.getEphemeralKeyInfo
+    name: getEphemeralKeyInfo()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Returns an object representing the type, name, and size of parameter
+      of an ephemeral key exchange in Perfect Forward Secrecy on a client
+      connection. It returns an empty object when the key exchange is not
+      ephemeral. As this is only supported on a client socket; null is
+      returned if called on a server socket. The supported types are 'DH'
+      and 'ECDH'. The name property is available only when type is 'ECDH'.
+      For example: { type: 'ECDH', name: 'prime256v1', size: 256 }.
+    syntax:
+      content: function getEphemeralKeyInfo()
+      parameters: []
+      return:
+        type:
+          - tslib.tls.EphemeralKeyInfo | object | null
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.getFinished
+    name: getFinished()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Returns the latest Finished message that has
+      been sent to the socket as part of a SSL/TLS handshake, or undefined
+      if no Finished message has been sent yet.
+      As the Finished messages are message digests of the complete
+      handshake (with a total of 192 bits for TLS 1.0 and more for SSL
+      3.0), they can be used for external authentication procedures when
+      the authentication provided by SSL/TLS is not desired or is not
+      enough.
+
+      Corresponds to the SSL_get_finished routine in OpenSSL and may be
+      used to implement the tls-unique channel binding from RFC 5929.
+    syntax:
+      content: function getFinished()
+      parameters: []
+      return:
+        type:
+          - Buffer | undefined
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.getMaxListeners
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.getPeerCertificate
+    name: getPeerCertificate(true)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns an object representing the peer's certificate.
+
+      The returned object has some properties corresponding to the field of the
+      certificate.
+
+      If detailed argument is true the full chain with issuer property will be
+      returned,
+
+      if false only the top certificate without issuer property.
+
+      If the peer does not provide a certificate, it returns null or an empty
+      object.
+    syntax:
+      content: 'function getPeerCertificate(detailed: true)'
+      parameters:
+        - id: detailed
+          type:
+            - 'true'
+          description: If true; the full chain with issuer property will be returned.
+      return:
+        type:
+          - tslib.tls.DetailedPeerCertificate
+        description: An object representing the peer's certificate.
+    package: tslib
+  - uid: tslib.tls.TLSSocket.getPeerCertificate_2
+    name: getPeerCertificate(undefined | false | true)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getPeerCertificate(detailed?: undefined | false | true)'
+      parameters:
+        - id: detailed
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - tslib.tls.PeerCertificate | tslib.tls.DetailedPeerCertificate
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.getPeerCertificate_1
+    name: getPeerCertificate(undefined | false)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getPeerCertificate(detailed?: undefined | false)'
+      parameters:
+        - id: detailed
+          type:
+            - undefined | false
+          description: ''
+          optional: true
+      return:
+        type:
+          - tslib.tls.PeerCertificate
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.getPeerFinished
+    name: getPeerFinished()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Returns the latest Finished message that is expected or has actually
+      been received from the socket as part of a SSL/TLS handshake, or
+      undefined if there is no Finished message so far.
+      As the Finished messages are message digests of the complete
+      handshake (with a total of 192 bits for TLS 1.0 and more for SSL
+      3.0), they can be used for external authentication procedures when
+      the authentication provided by SSL/TLS is not desired or is not
+      enough.
+
+      Corresponds to the SSL_get_peer_finished routine in OpenSSL and may
+      be used to implement the tls-unique channel binding from RFC 5929.
+    syntax:
+      content: function getPeerFinished()
+      parameters: []
+      return:
+        type:
+          - Buffer | undefined
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.getProtocol
+    name: getProtocol()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns a string containing the negotiated SSL/TLS protocol version of the
+      current connection.
+
+      The value `'unknown'` will be returned for connected sockets that have not
+      completed the handshaking process.
+
+      The value `null` will be returned for server sockets or disconnected
+      client sockets.
+
+      See https://www.openssl.org/docs/man1.0.2/ssl/SSL_get_version.html for
+      more information.
+    syntax:
+      content: function getProtocol()
+      parameters: []
+      return:
+        type:
+          - string | null
+        description: negotiated SSL/TLS protocol version of the current connection
+    package: tslib
+  - uid: tslib.tls.TLSSocket.getSession
+    name: getSession()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Could be used to speed up handshake establishment when reconnecting to the
+      server.
+    syntax:
+      content: function getSession()
+      parameters: []
+      return:
+        type:
+          - Buffer | undefined
+        description: ASN.1 encoded TLS session or undefined if none was negotiated.
+    package: tslib
+  - uid: tslib.tls.TLSSocket.getSharedSigalgs
+    name: getSharedSigalgs()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns a list of signature algorithms shared between the server and
+      the client in the order of decreasing preference.
+    syntax:
+      content: function getSharedSigalgs()
+      parameters: []
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.getTLSTicket
+    name: getTLSTicket()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      NOTE: Works only with client TLS sockets.
+
+      Useful only for debugging, for session reuse provide session option to
+      tls.connect().
+    syntax:
+      content: function getTLSTicket()
+      parameters: []
+      return:
+        type:
+          - Buffer | undefined
+        description: TLS session ticket or undefined if none was negotiated.
+    package: tslib
+  - uid: tslib.tls.TLSSocket.isPaused
+    name: isPaused()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isPaused()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.isSessionReused
+    name: isSessionReused()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Returns true if the session was reused, false otherwise.'
+    syntax:
+      content: function isSessionReused()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.listenerCount
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.listeners
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.localAddress
+    name: localAddress
+    fullName: localAddress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'localAddress: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.localPort
+    name: localPort
+    fullName: localPort
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'localPort: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.off
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.on_4
+    name: 'on("keylog", (line: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "keylog", listener: (line: Buffer) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"keylog"'
+          description: ''
+        - id: listener
+          type:
+            - '(line: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.on_1
+    name: 'on("OCSPResponse", (response: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "OCSPResponse", listener: (response: Buffer) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"OCSPResponse"'
+          description: ''
+        - id: listener
+          type:
+            - '(response: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.on_2
+    name: 'on("secureConnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "secureConnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"secureConnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.on_3
+    name: 'on("session", (session: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "session", listener: (session: Buffer) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"session"'
+          description: ''
+        - id: listener
+          type:
+            - '(session: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.on
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.once_4
+    name: 'once("keylog", (line: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "keylog", listener: (line: Buffer) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"keylog"'
+          description: ''
+        - id: listener
+          type:
+            - '(line: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.once_1
+    name: 'once("OCSPResponse", (response: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "OCSPResponse", listener: (response: Buffer) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"OCSPResponse"'
+          description: ''
+        - id: listener
+          type:
+            - '(response: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.once_2
+    name: 'once("secureConnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "secureConnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"secureConnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.once_3
+    name: 'once("session", (session: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "session", listener: (session: Buffer) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"session"'
+          description: ''
+        - id: listener
+          type:
+            - '(session: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.once
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.pause
+    name: pause()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function pause()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.pipe
+    name: 'pipe(T, undefined | Object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pipe<T>(destination: T, options?: undefined | Object)'
+      parameters:
+        - id: destination
+          type:
+            - T
+          description: ''
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.prependListener_4
+    name: 'prependListener("keylog", (line: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "keylog", listener: (line: Buffer) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"keylog"'
+          description: ''
+        - id: listener
+          type:
+            - '(line: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.prependListener_1
+    name: 'prependListener("OCSPResponse", (response: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "OCSPResponse", listener: (response:
+        Buffer) => void)
+      parameters:
+        - id: event
+          type:
+            - '"OCSPResponse"'
+          description: ''
+        - id: listener
+          type:
+            - '(response: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.prependListener_2
+    name: 'prependListener("secureConnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "secureConnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"secureConnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.prependListener_3
+    name: 'prependListener("session", (session: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "session", listener: (session: Buffer)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"session"'
+          description: ''
+        - id: listener
+          type:
+            - '(session: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.prependListener
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.prependOnceListener_4
+    name: 'prependOnceListener("keylog", (line: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "keylog", listener: (line: Buffer)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"keylog"'
+          description: ''
+        - id: listener
+          type:
+            - '(line: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.prependOnceListener_1
+    name: 'prependOnceListener("OCSPResponse", (response: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "OCSPResponse", listener: (response:
+        Buffer) => void)
+      parameters:
+        - id: event
+          type:
+            - '"OCSPResponse"'
+          description: ''
+        - id: listener
+          type:
+            - '(response: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.prependOnceListener_2
+    name: 'prependOnceListener("secureConnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "secureConnect", listener: () =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"secureConnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.prependOnceListener_3
+    name: 'prependOnceListener("session", (session: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "session", listener: (session:
+        Buffer) => void)
+      parameters:
+        - id: event
+          type:
+            - '"session"'
+          description: ''
+        - id: listener
+          type:
+            - '(session: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.prependOnceListener
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.push
+    name: 'push(any, undefined | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function push(chunk: any, encoding?: undefined | string)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.rawListeners
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.read
+    name: read(undefined | number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function read(size?: undefined | number)'
+      parameters:
+        - id: size
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.readable
+    name: readable
+    fullName: readable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readable: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.readableHighWaterMark
+    name: readableHighWaterMark
+    fullName: readableHighWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readableHighWaterMark: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.readableLength
+    name: readableLength
+    fullName: readableLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readableLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.readableObjectMode
+    name: readableObjectMode
+    fullName: readableObjectMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readableObjectMode: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.ref
+    name: ref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ref()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.remoteAddress
+    name: remoteAddress
+    fullName: remoteAddress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'remoteAddress?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.remoteFamily
+    name: remoteFamily
+    fullName: remoteFamily
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'remoteFamily?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.remotePort
+    name: remotePort
+    fullName: remotePort
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'remotePort?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.removeAllListeners
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.removeListener
+    name: 'removeListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.removeListener_1
+    name: 'removeListener("data", (chunk: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "data", listener: (chunk: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.removeListener_2
+    name: 'removeListener("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.removeListener_4
+    name: 'removeListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.removeListener_3
+    name: 'removeListener("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.removeListener_5
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.renegotiate
+    name: 'renegotiate(Object, (err: Error | null) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Initiate TLS renegotiation process.
+
+      NOTE: Can be used to request peer's certificate after the secure
+      connection has been established.
+
+      ANOTHER NOTE: When running as the server, socket will be destroyed with an
+      error after handshakeTimeout timeout.
+    syntax:
+      content: >-
+        function renegotiate(options: Object, callback: (err: Error | null) =>
+        void)
+      parameters:
+        - id: options
+          type:
+            - Object
+          description: |-
+            The options may contain the following fields: rejectUnauthorized,
+            requestCert (See tls.createServer() for details).
+        - id: callback
+          type:
+            - '(err: Error | null) => void'
+          description: >-
+            callback(err) will be executed with null as err, once the
+            renegotiation
+
+            is successfully completed.
+      return:
+        type:
+          - undefined | boolean
+        description: >-
+          `undefined` when socket is destroy, `false` if negotiaion can't be
+          initiated.
+    package: tslib
+  - uid: tslib.tls.TLSSocket.resume
+    name: resume()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resume()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.setDefaultEncoding
+    name: setDefaultEncoding(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setDefaultEncoding(encoding: string)'
+      parameters:
+        - id: encoding
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.setEncoding
+    name: setEncoding(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setEncoding(encoding?: undefined | string)'
+      parameters:
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.setKeepAlive
+    name: 'setKeepAlive(undefined | false | true, undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function setKeepAlive(enable?: undefined | false | true, initialDelay?:
+        undefined | number)
+      parameters:
+        - id: enable
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+        - id: initialDelay
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.setMaxListeners
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.setMaxSendFragment
+    name: setMaxSendFragment(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Set maximum TLS fragment size (default and maximum value is: 16384,
+      minimum is: 512).
+
+      Smaller fragment size decreases buffering latency on the client: large
+      fragments are buffered by
+
+      the TLS layer until the entire fragment is received and its integrity is
+      verified;
+
+      large fragments can span multiple roundtrips, and their processing can be
+      delayed due to packet
+
+      loss or reordering. However, smaller fragments add extra TLS framing bytes
+      and CPU overhead,
+
+      which may decrease overall server throughput.
+    syntax:
+      content: 'function setMaxSendFragment(size: number)'
+      parameters:
+        - id: size
+          type:
+            - number
+          description: >-
+            TLS fragment size (default and maximum value is: 16384, minimum is:
+            512).
+      return:
+        type:
+          - boolean
+        description: 'Returns true on success, false otherwise.'
+    package: tslib
+  - uid: tslib.tls.TLSSocket.setNoDelay
+    name: setNoDelay(undefined | false | true)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setNoDelay(noDelay?: undefined | false | true)'
+      parameters:
+        - id: noDelay
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.setTimeout
+    name: 'setTimeout(number, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setTimeout(timeout: number, callback?: undefined | () => void)'
+      parameters:
+        - id: timeout
+          type:
+            - number
+          description: ''
+        - id: callback
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.constructor
+    name: 'TLSSocket(Socket, TLSSocketOptions)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Construct a new tls.TLSSocket object from an existing TCP socket.
+    syntax:
+      content: 'new TLSSocket(socket: Socket, options?: TLSSocketOptions)'
+      parameters:
+        - id: socket
+          type:
+            - tslib.net.Socket
+          description: ''
+        - id: options
+          type:
+            - tslib.tls.TLSSocketOptions
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.tls.TLSSocket.uncork
+    name: uncork()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function uncork()
+      parameters: []
+    package: tslib
+  - uid: tslib.tls.TLSSocket.unpipe
+    name: unpipe(NodeJS.WritableStream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unpipe(destination?: NodeJS.WritableStream)'
+      parameters:
+        - id: destination
+          type:
+            - tslib.NodeJS.WritableStream
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.unref
+    name: unref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unref()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.unshift
+    name: 'unshift(any, BufferEncoding)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unshift(chunk: any, encoding?: BufferEncoding)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - tslib.BufferEncoding
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.tls.TLSSocket.wrap
+    name: wrap(ReadableStream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function wrap(oldStream: ReadableStream)'
+      parameters:
+        - id: oldStream
+          type:
+            - tslib.NodeJS.ReadableStream
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.writable
+    name: writable
+    fullName: writable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writable: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.writableCorked
+    name: writableCorked
+    fullName: writableCorked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableCorked: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.writableEnded
+    name: writableEnded
+    fullName: writableEnded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableEnded: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.writableFinished
+    name: writableFinished
+    fullName: writableFinished
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableFinished: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.writableHighWaterMark
+    name: writableHighWaterMark
+    fullName: writableHighWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableHighWaterMark: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.writableLength
+    name: writableLength
+    fullName: writableLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.writableObjectMode
+    name: writableObjectMode
+    fullName: writableObjectMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableObjectMode: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.write
+    name: 'write(Uint8Array | string, undefined | (err?: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function write(buffer: Uint8Array | string, cb?: undefined | (err?:
+        Error) => void)
+      parameters:
+        - id: buffer
+          type:
+            - Uint8Array | string
+          description: ''
+        - id: cb
+          type:
+            - 'undefined | (err?: Error) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.tls.TLSSocket.write_1
+    name: >-
+      write(Uint8Array | string, undefined | string, undefined | (err?: Error)
+      => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function write(str: Uint8Array | string, encoding?: undefined | string,
+        cb?: undefined | (err?: Error) => void)
+      parameters:
+        - id: str
+          type:
+            - Uint8Array | string
+          description: ''
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: cb
+          type:
+            - 'undefined | (err?: Error) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.net.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.net.Server
+  - uid: tslib.tls.SecureContextOptions
+    name: SecureContextOptions
+    spec.typeScript:
+      - name: SecureContextOptions
+        fullName: SecureContextOptions
+        uid: tslib.tls.SecureContextOptions
+  - uid: tslib.net.AddressInfo | string | null
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: tslib.tls.TLSSocket
+    name: TLSSocket
+    spec.typeScript:
+      - name: TLSSocket
+        fullName: TLSSocket
+        uid: tslib.tls.TLSSocket
+  - uid: tslib.net.ListenOptions
+    name: ListenOptions
+    spec.typeScript:
+      - name: ListenOptions
+        fullName: ListenOptions
+        uid: tslib.net.ListenOptions
+  - uid: tslib.net.Socket
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.net.Socket
+  - uid: tslib.tls.TLSSocketOptions
+    name: TLSSocketOptions
+    spec.typeScript:
+      - name: TLSSocketOptions
+        fullName: TLSSocketOptions
+        uid: tslib.tls.TLSSocketOptions
+  - uid: tslib.net.AddressInfo | string
+    name: AddressInfo | string
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: tslib.net.SocketConnectOpts
+    name: SocketConnectOpts
+    spec.typeScript:
+      - name: SocketConnectOpts
+        fullName: SocketConnectOpts
+        uid: tslib.net.SocketConnectOpts
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.tls.PeerCertificate | object | null
+    name: PeerCertificate | object | null
+    spec.typeScript:
+      - name: PeerCertificate
+        fullName: PeerCertificate
+        uid: tslib.tls.PeerCertificate
+      - name: ' | object | null'
+        fullName: ' | object | null'
+  - uid: tslib.tls.CipherNameAndProtocol
+    name: CipherNameAndProtocol
+    spec.typeScript:
+      - name: CipherNameAndProtocol
+        fullName: CipherNameAndProtocol
+        uid: tslib.tls.CipherNameAndProtocol
+  - uid: tslib.tls.EphemeralKeyInfo | object | null
+    name: EphemeralKeyInfo | object | null
+    spec.typeScript:
+      - name: EphemeralKeyInfo
+        fullName: EphemeralKeyInfo
+        uid: tslib.tls.EphemeralKeyInfo
+      - name: ' | object | null'
+        fullName: ' | object | null'
+  - uid: tslib.tls.DetailedPeerCertificate
+    name: DetailedPeerCertificate
+    spec.typeScript:
+      - name: DetailedPeerCertificate
+        fullName: DetailedPeerCertificate
+        uid: tslib.tls.DetailedPeerCertificate
+  - uid: tslib.tls.PeerCertificate
+    name: PeerCertificate
+    spec.typeScript:
+      - name: PeerCertificate
+        fullName: PeerCertificate
+        uid: tslib.tls.PeerCertificate
+  - uid: tslib.tls.PeerCertificate | tslib.tls.DetailedPeerCertificate
+    name: DetailedPeerCertificate
+    spec.typeScript:
+      - name: PeerCertificate
+        fullName: PeerCertificate
+        uid: tslib.tls.PeerCertificate
+      - name: ' | '
+        fullName: ' | '
+      - name: DetailedPeerCertificate
+        fullName: DetailedPeerCertificate
+        uid: tslib.tls.DetailedPeerCertificate
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.stream.internal.ReadableOptions
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: tslib.stream.internal.ReadableOptions
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.tls.SecureContext
+    name: SecureContext
+    spec.typeScript:
+      - name: SecureContext
+        fullName: SecureContext
+        uid: tslib.tls.SecureContext
+  - uid: undefined | tslib.tls.checkServerIdentity
+    name: checkServerIdentity
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: checkServerIdentity
+        fullName: checkServerIdentity
+        uid: tslib.tls.checkServerIdentity
+  - uid: string | Buffer | Array<Buffer | tslib.tls.KeyObject>
+    name: KeyObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<Buffer | '
+        fullName: 'string | Buffer | Array<Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: tslib.tls.KeyObject
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.tls.SecureVersion
+    name: SecureVersion
+    spec.typeScript:
+      - name: SecureVersion
+        fullName: SecureVersion
+        uid: tslib.tls.SecureVersion
+  - uid: string | Buffer | Array<string | Buffer | tslib.tls.PxfObject>
+    name: PxfObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<string | Buffer | '
+        fullName: 'string | Buffer | Array<string | Buffer | '
+      - name: PxfObject
+        fullName: PxfObject
+        uid: tslib.tls.PxfObject
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.Buffer
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: tslib.Buffer
+  - uid: tslib.tls.PSKCallbackNegotation | null
+    name: PSKCallbackNegotation | null
+    spec.typeScript:
+      - name: PSKCallbackNegotation
+        fullName: PSKCallbackNegotation
+        uid: tslib.tls.PSKCallbackNegotation
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.tls.Certificate
+    name: Certificate
+    spec.typeScript:
+      - name: Certificate
+        fullName: Certificate
+        uid: tslib.tls.Certificate
+  - uid: DataView | tslib.NodeJS.TypedArray
+    name: TypedArray
+    spec.typeScript:
+      - name: 'DataView | '
+        fullName: 'DataView | '
+      - name: TypedArray
+        fullName: TypedArray
+        uid: tslib.NodeJS.TypedArray
+  - uid: DataView | tslib.NodeJS.TypedArray | null
+    name: TypedArray | null
+    spec.typeScript:
+      - name: 'DataView | '
+        fullName: 'DataView | '
+      - name: TypedArray
+        fullName: TypedArray
+        uid: tslib.NodeJS.TypedArray
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.tls.ConnectionOptions
+    name: ConnectionOptions
+    spec.typeScript:
+      - name: ConnectionOptions
+        fullName: ConnectionOptions
+        uid: tslib.tls.ConnectionOptions
+  - uid: tslib.tls.SecurePair
+    name: SecurePair
+    spec.typeScript:
+      - name: SecurePair
+        fullName: SecurePair
+        uid: tslib.tls.SecurePair
+  - uid: tslib.tls.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.tls.Server
+  - uid: tslib.tls.TlsOptions
+    name: TlsOptions
+    spec.typeScript:
+      - name: TlsOptions
+        fullName: TlsOptions
+        uid: tslib.tls.TlsOptions

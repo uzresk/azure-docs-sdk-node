@@ -1,0 +1,800 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions'
+    name: ConnectionOptions
+    fullName: ConnectionOptions
+    children:
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.ALPNProtocols'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.ca'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.cert'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.checkServerIdentity'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.ciphers'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.clientCertEngine'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.crl'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.dhparam'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.ecdhCurve'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.honorCipherOrder'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.host'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.key'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.lookup'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.maxVersion'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.minDHSize'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.minVersion'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.NPNProtocols'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.passphrase'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.path'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.pfx'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.port'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.privateKeyEngine'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.privateKeyIdentifier'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.rejectUnauthorized'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.secureContext'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.secureOptions'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.secureProtocol'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.servername'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.session'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.sessionIdContext'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.sigalgs'
+      - '@azure/ms-rest-azure-env.tls.ConnectionOptions.socket'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: SecureContextOptions
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.ALPNProtocols'
+    name: ALPNProtocols
+    fullName: ALPNProtocols
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'ALPNProtocols?: string[] | Buffer[] | Uint8Array[] | Buffer | Uint8Array'
+      return:
+        type:
+          - 'string[] | Buffer[] | Uint8Array[] | Buffer | Uint8Array'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.ca'
+    name: ca
+    fullName: ca
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Optionally override the trusted CA certificates. Default is to trust
+      the well-known CAs curated by Mozilla. Mozilla's CAs are completely
+      replaced when CAs are explicitly specified using this option.
+    optional: true
+    syntax:
+      content: 'ca?: string | Buffer | Array<string | Buffer>'
+      return:
+        type:
+          - string | Buffer | Array<string | Buffer>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.cert'
+    name: cert
+    fullName: cert
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Cert chains in PEM format. One cert chain should be provided per
+       private key. Each cert chain should consist of the PEM formatted
+       certificate for a provided private key, followed by the PEM
+       formatted intermediate certificates (if any), in order, and not
+       including the root CA (the root CA must be pre-known to the peer,
+       see ca). When providing multiple cert chains, they do not have to
+       be in the same order as their private keys in key. If the
+       intermediate certificates are not provided, the peer will not be
+       able to validate the certificate, and the handshake will fail.
+    optional: true
+    syntax:
+      content: 'cert?: string | Buffer | Array<string | Buffer>'
+      return:
+        type:
+          - string | Buffer | Array<string | Buffer>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.checkServerIdentity'
+    name: checkServerIdentity
+    fullName: checkServerIdentity
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'checkServerIdentity?: undefined | checkServerIdentity'
+      return:
+        type:
+          - undefined | checkServerIdentity
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.ciphers'
+    name: ciphers
+    fullName: ciphers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Cipher suite specification, replacing the default. For more
+      information, see modifying the default cipher suite. Permitted
+      ciphers can be obtained via tls.getCiphers(). Cipher names must be
+      uppercased in order for OpenSSL to accept them.
+    optional: true
+    syntax:
+      content: 'ciphers?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.clientCertEngine'
+    name: clientCertEngine
+    fullName: clientCertEngine
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Name of an OpenSSL engine which can provide the client certificate.
+    optional: true
+    syntax:
+      content: 'clientCertEngine?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.crl'
+    name: crl
+    fullName: crl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: PEM formatted CRLs (Certificate Revocation Lists).
+    optional: true
+    syntax:
+      content: 'crl?: string | Buffer | Array<string | Buffer>'
+      return:
+        type:
+          - string | Buffer | Array<string | Buffer>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.dhparam'
+    name: dhparam
+    fullName: dhparam
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Diffie Hellman parameters, required for Perfect Forward Secrecy. Use
+      openssl dhparam to create the parameters. The key length must be
+      greater than or equal to 1024 bits or else an error will be thrown.
+      Although 1024 bits is permissible, use 2048 bits or larger for
+      stronger security. If omitted or invalid, the parameters are
+      silently discarded and DHE ciphers will not be available.
+    optional: true
+    syntax:
+      content: 'dhparam?: string | Buffer'
+      return:
+        type:
+          - string | Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.ecdhCurve'
+    name: ecdhCurve
+    fullName: ecdhCurve
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A string describing a named curve or a colon separated list of curve
+      NIDs or names, for example P-521:P-384:P-256, to use for ECDH key
+      agreement. Set to auto to select the curve automatically. Use
+      crypto.getCurves() to obtain a list of available curve names. On
+      recent releases, openssl ecparam -list_curves will also display the
+      name and description of each available elliptic curve. Default:
+      tls.DEFAULT_ECDH_CURVE.
+    optional: true
+    syntax:
+      content: 'ecdhCurve?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.honorCipherOrder'
+    name: honorCipherOrder
+    fullName: honorCipherOrder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Attempt to use the server's cipher suite preferences instead of the
+      client's. When true, causes SSL_OP_CIPHER_SERVER_PREFERENCE to be
+      set in secureOptions
+    optional: true
+    syntax:
+      content: 'honorCipherOrder?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.host'
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'host?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Private keys in PEM format. PEM allows the option of private keys
+      being encrypted. Encrypted keys will be decrypted with
+      options.passphrase. Multiple keys using different algorithms can be
+      provided either as an array of unencrypted key strings or buffers,
+      or an array of objects in the form {pem: <string|buffer>[,
+      passphrase: <string>]}. The object form can only occur in an array.
+      object.passphrase is optional. Encrypted keys will be decrypted with
+      object.passphrase if provided, or options.passphrase if it is not.
+    optional: true
+    syntax:
+      content: 'key?: string | Buffer | Array<Buffer | KeyObject>'
+      return:
+        type:
+          - >-
+            string | Buffer | Array<Buffer |
+            @azure/ms-rest-azure-env.tls.KeyObject>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.lookup'
+    name: lookup
+    fullName: lookup
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'lookup?: net.LookupFunction'
+      return:
+        type:
+          - net.LookupFunction
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.maxVersion'
+    name: maxVersion
+    fullName: maxVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optionally set the maximum TLS version to allow. One
+
+      of `'TLSv1.3'`, `'TLSv1.2'`, `'TLSv1.1'`, or `'TLSv1'`. Cannot be
+      specified along with the
+
+      `secureProtocol` option, use one or the other.
+
+      **Default:** `'TLSv1.3'`, unless changed using CLI options. Using
+
+      `--tls-max-v1.2` sets the default to `'TLSv1.2'`. Using `--tls-max-v1.3`
+      sets the default to
+
+      `'TLSv1.3'`. If multiple of the options are provided, the highest maximum
+      is used.
+    optional: true
+    syntax:
+      content: 'maxVersion?: SecureVersion'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.tls.SecureVersion'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.minDHSize'
+    name: minDHSize
+    fullName: minDHSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'minDHSize?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.minVersion'
+    name: minVersion
+    fullName: minVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optionally set the minimum TLS version to allow. One
+
+      of `'TLSv1.3'`, `'TLSv1.2'`, `'TLSv1.1'`, or `'TLSv1'`. Cannot be
+      specified along with the
+
+      `secureProtocol` option, use one or the other.  It is not recommended to
+      use
+
+      less than TLSv1.2, but it may be required for interoperability.
+
+      **Default:** `'TLSv1.2'`, unless changed using CLI options. Using
+
+      `--tls-v1.0` sets the default to `'TLSv1'`. Using `--tls-v1.1` sets the
+      default to
+
+      `'TLSv1.1'`. Using `--tls-min-v1.3` sets the default to
+
+      'TLSv1.3'. If multiple of the options are provided, the lowest minimum is
+      used.
+    optional: true
+    syntax:
+      content: 'minVersion?: SecureVersion'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.tls.SecureVersion'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.NPNProtocols'
+    name: NPNProtocols
+    fullName: NPNProtocols
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'NPNProtocols?: string[] | Buffer[] | Uint8Array[] | Buffer | Uint8Array'
+      return:
+        type:
+          - 'string[] | Buffer[] | Uint8Array[] | Buffer | Uint8Array'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.passphrase'
+    name: passphrase
+    fullName: passphrase
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Shared passphrase used for a single private key and/or a PFX.
+    optional: true
+    syntax:
+      content: 'passphrase?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.path'
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'path?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.pfx'
+    name: pfx
+    fullName: pfx
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      PFX or PKCS12 encoded private key and certificate chain. pfx is an
+      alternative to providing key and cert individually. PFX is usually
+      encrypted, if it is, passphrase will be used to decrypt it. Multiple
+      PFX can be provided either as an array of unencrypted PFX buffers,
+      or an array of objects in the form {buf: <string|buffer>[,
+      passphrase: <string>]}. The object form can only occur in an array.
+      object.passphrase is optional. Encrypted PFX will be decrypted with
+      object.passphrase if provided, or options.passphrase if it is not.
+    optional: true
+    syntax:
+      content: 'pfx?: string | Buffer | Array<string | Buffer | PxfObject>'
+      return:
+        type:
+          - >-
+            string | Buffer | Array<string | Buffer |
+            @azure/ms-rest-azure-env.tls.PxfObject>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.port'
+    name: port
+    fullName: port
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'port?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.privateKeyEngine'
+    name: privateKeyEngine
+    fullName: privateKeyEngine
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Name of an OpenSSL engine to get private key from. Should be used
+      together with privateKeyIdentifier.
+    optional: true
+    syntax:
+      content: 'privateKeyEngine?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.privateKeyIdentifier'
+    name: privateKeyIdentifier
+    fullName: privateKeyIdentifier
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Identifier of a private key managed by an OpenSSL engine. Should be
+      used together with privateKeyEngine. Should not be set together with
+      key, because both options define a private key in different ways.
+    optional: true
+    syntax:
+      content: 'privateKeyIdentifier?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.rejectUnauthorized'
+    name: rejectUnauthorized
+    fullName: rejectUnauthorized
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'rejectUnauthorized?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.secureContext'
+    name: secureContext
+    fullName: secureContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'secureContext?: SecureContext'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.tls.SecureContext'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.secureOptions'
+    name: secureOptions
+    fullName: secureOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Optionally affect the OpenSSL protocol behavior, which is not
+      usually necessary. This should be used carefully if at all! Value is
+      a numeric bitmask of the SSL_OP_* options from OpenSSL Options
+    optional: true
+    syntax:
+      content: 'secureOptions?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.secureProtocol'
+    name: secureProtocol
+    fullName: secureProtocol
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Legacy mechanism to select the TLS protocol version to use, it does
+      not support independent control of the minimum and maximum version,
+      and does not support limiting the protocol to TLSv1.3. Use
+      minVersion and maxVersion instead. The possible values are listed as
+      SSL_METHODS, use the function names as strings. For example, use
+      'TLSv1_1_method' to force TLS version 1.1, or 'TLS_method' to allow
+      any TLS protocol version up to TLSv1.3. It is not recommended to use
+      TLS versions less than 1.2, but it may be required for
+      interoperability. Default: none, see minVersion.
+    optional: true
+    syntax:
+      content: 'secureProtocol?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.servername'
+    name: servername
+    fullName: servername
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'servername?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.session'
+    name: session
+    fullName: session
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'session?: Buffer'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.Buffer'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.sessionIdContext'
+    name: sessionIdContext
+    fullName: sessionIdContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Opaque identifier used by servers to ensure session state is not
+      shared between applications. Unused by clients.
+    optional: true
+    syntax:
+      content: 'sessionIdContext?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.sigalgs'
+    name: sigalgs
+    fullName: sigalgs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Colon-separated list of supported signature algorithms. The list
+       can contain digest algorithms (SHA256, MD5 etc.), public key
+       algorithms (RSA-PSS, ECDSA etc.), combination of both (e.g
+       'RSA+SHA384') or TLS v1.3 scheme names (e.g. rsa_pss_pss_sha512).
+    optional: true
+    syntax:
+      content: 'sigalgs?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions.socket'
+    name: socket
+    fullName: socket
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'socket?: net.Socket'
+      return:
+        type:
+          - net.Socket
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.net.Server'
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: '@azure/ms-rest-azure-env.net.Server'
+  - uid: '@azure/ms-rest-azure-env.net.AddressInfo | string | null'
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: '@azure/ms-rest-azure-env.net.AddressInfo'
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: '@azure/ms-rest-azure-env.tls.TLSSocket'
+    name: TLSSocket
+    spec.typeScript:
+      - name: TLSSocket
+        fullName: TLSSocket
+        uid: '@azure/ms-rest-azure-env.tls.TLSSocket'
+  - uid: '@azure/ms-rest-azure-env.net.Socket'
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/ms-rest-azure-env.net.Socket'
+  - uid: '@azure/ms-rest-azure-env.net.AddressInfo | string'
+    name: AddressInfo | string
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: '@azure/ms-rest-azure-env.net.AddressInfo'
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: '@azure/ms-rest-azure-env.net.SocketConnectOpts'
+    name: SocketConnectOpts
+    spec.typeScript:
+      - name: SocketConnectOpts
+        fullName: SocketConnectOpts
+        uid: '@azure/ms-rest-azure-env.net.SocketConnectOpts'
+  - uid: '@azure/ms-rest-azure-env.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.Error'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex'
+    name: Duplex
+    spec.typeScript:
+      - name: Duplex
+        fullName: Duplex
+        uid: '@azure/ms-rest-azure-env.stream.internal.Duplex'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.DuplexOptions'
+    name: DuplexOptions
+    spec.typeScript:
+      - name: DuplexOptions
+        fullName: DuplexOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.DuplexOptions'
+  - uid: string | Buffer | Array<Buffer | @azure/ms-rest-azure-env.tls.KeyObject>
+    name: KeyObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<Buffer | '
+        fullName: 'string | Buffer | Array<Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: '@azure/ms-rest-azure-env.tls.KeyObject'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/ms-rest-azure-env.tls.SecureVersion'
+    name: SecureVersion
+    spec.typeScript:
+      - name: SecureVersion
+        fullName: SecureVersion
+        uid: '@azure/ms-rest-azure-env.tls.SecureVersion'
+  - uid: >-
+      string | Buffer | Array<string | Buffer |
+      @azure/ms-rest-azure-env.tls.PxfObject>
+    name: PxfObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<string | Buffer | '
+        fullName: 'string | Buffer | Array<string | Buffer | '
+      - name: PxfObject
+        fullName: PxfObject
+        uid: '@azure/ms-rest-azure-env.tls.PxfObject'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/ms-rest-azure-env.tls.SecureContext'
+    name: SecureContext
+    spec.typeScript:
+      - name: SecureContext
+        fullName: SecureContext
+        uid: '@azure/ms-rest-azure-env.tls.SecureContext'
+  - uid: '@azure/ms-rest-azure-env.Buffer'
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: '@azure/ms-rest-azure-env.Buffer'
+  - uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions'
+    name: ConnectionOptions
+    spec.typeScript:
+      - name: ConnectionOptions
+        fullName: ConnectionOptions
+        uid: '@azure/ms-rest-azure-env.tls.ConnectionOptions'
+  - uid: '@azure/ms-rest-azure-env.tls.Server'
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: '@azure/ms-rest-azure-env.tls.Server'

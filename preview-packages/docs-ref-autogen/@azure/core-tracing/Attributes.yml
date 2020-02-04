@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.Attributes'
+    name: Attributes
+    fullName: Attributes
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: Defines a attributes interface.
+    package: '@opentelemetry/types'

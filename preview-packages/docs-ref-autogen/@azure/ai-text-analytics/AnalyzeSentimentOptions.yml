@@ -1,22 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentOptions'
+  - uid: '@azure/abort-controller.AnalyzeSentimentOptions'
     name: AnalyzeSentimentOptions
     fullName: AnalyzeSentimentOptions
     children:
-      - '@azure/ai-text-analytics.AnalyzeSentimentOptions.abortSignal'
-      - '@azure/ai-text-analytics.AnalyzeSentimentOptions.includeStatistics'
-      - '@azure/ai-text-analytics.AnalyzeSentimentOptions.modelVersion'
-      - '@azure/ai-text-analytics.AnalyzeSentimentOptions.requestOptions'
-      - '@azure/ai-text-analytics.AnalyzeSentimentOptions.tracingOptions'
+      - '@azure/abort-controller.AnalyzeSentimentOptions.abortSignal'
+      - '@azure/abort-controller.AnalyzeSentimentOptions.includeStatistics'
+      - '@azure/abort-controller.AnalyzeSentimentOptions.modelVersion'
+      - '@azure/abort-controller.AnalyzeSentimentOptions.requestOptions'
+      - '@azure/abort-controller.AnalyzeSentimentOptions.tracingOptions'
     langs:
       - typeScript
     type: interface
     summary: Options for the analyze sentiment operation.
     extends:
-      name: '@azure/ai-text-analytics.TextAnalyticsOperationOptions'
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentOptions.abortSignal'
+      name: '@azure/abort-controller.TextAnalyticsOperationOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentOptions.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -29,10 +29,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - AbortSignalLike
+          - '@azure/abort-controller.AbortSignalLike'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentOptions.includeStatistics'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentOptions.includeStatistics'
     name: includeStatistics
     fullName: includeStatistics
     children: []
@@ -47,8 +47,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentOptions.modelVersion'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentOptions.modelVersion'
     name: modelVersion
     fullName: modelVersion
     children: []
@@ -72,8 +72,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentOptions.requestOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentOptions.requestOptions'
     name: requestOptions
     fullName: requestOptions
     children: []
@@ -86,10 +86,10 @@ items:
       content: 'requestOptions?: OperationRequestOptions'
       return:
         type:
-          - OperationRequestOptions
+          - '@azure/abort-controller.OperationRequestOptions'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentOptions.tracingOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentOptions.tracingOptions'
     name: tracingOptions
     fullName: tracingOptions
     children: []
@@ -102,13 +102,31 @@ items:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         type:
-          - OperationTracingOptions
+          - '@azure/abort-controller.OperationTracingOptions'
         description: ''
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions'
+  - uid: '@azure/abort-controller.TextAnalyticsOperationOptions'
     name: TextAnalyticsOperationOptions
     spec.typeScript:
       - name: TextAnalyticsOperationOptions
         fullName: TextAnalyticsOperationOptions
-        uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions'
+        uid: '@azure/abort-controller.TextAnalyticsOperationOptions'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.OperationRequestOptions'
+    name: OperationRequestOptions
+    spec.typeScript:
+      - name: OperationRequestOptions
+        fullName: OperationRequestOptions
+        uid: '@azure/abort-controller.OperationRequestOptions'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
+    name: OperationTracingOptions
+    spec.typeScript:
+      - name: OperationTracingOptions
+        fullName: OperationTracingOptions
+        uid: '@azure/abort-controller.OperationTracingOptions'

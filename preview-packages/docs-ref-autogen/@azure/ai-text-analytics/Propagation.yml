@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Propagation'
+    name: Propagation
+    fullName: Propagation
+    children:
+      - '@azure/abort-controller.Propagation.extract'
+      - '@azure/abort-controller.Propagation.generate'
+      - '@azure/abort-controller.Propagation.inject'
+    langs:
+      - typeScript
+    type: interface
+    summary: Propagation interface
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Propagation.extract'
+    name: extract(HeaderGetter)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function extract(getter: HeaderGetter)'
+      parameters:
+        - id: getter
+          type:
+            - '@azure/abort-controller.HeaderGetter'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.SpanContext | null'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Propagation.generate'
+    name: generate()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function generate()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.SpanContext'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Propagation.inject'
+    name: 'inject(HeaderSetter, SpanContext)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function inject(setter: HeaderSetter, spanContext: SpanContext)'
+      parameters:
+        - id: setter
+          type:
+            - '@azure/abort-controller.HeaderSetter'
+          description: ''
+        - id: spanContext
+          type:
+            - '@azure/abort-controller.SpanContext'
+          description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.HeaderGetter'
+    name: HeaderGetter
+    spec.typeScript:
+      - name: HeaderGetter
+        fullName: HeaderGetter
+        uid: '@azure/abort-controller.HeaderGetter'
+  - uid: '@azure/abort-controller.SpanContext | null'
+    name: SpanContext | null
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@azure/abort-controller.SpanContext'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.SpanContext'
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@azure/abort-controller.SpanContext'
+  - uid: '@azure/abort-controller.HeaderSetter'
+    name: HeaderSetter
+    spec.typeScript:
+      - name: HeaderSetter
+        fullName: HeaderSetter
+        uid: '@azure/abort-controller.HeaderSetter'

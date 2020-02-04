@@ -1,0 +1,12 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.setTimeout
+    name: setTimeout
+    langs:
+      - typeScript
+    fullName: setTimeout
+    children: []
+    type: module
+    summary: ''
+    package: tslib
+references: []

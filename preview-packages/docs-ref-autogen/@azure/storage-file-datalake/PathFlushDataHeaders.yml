@@ -1,22 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathFlushDataHeaders'
+  - uid: '@azure/abort-controller.PathFlushDataHeaders'
     name: PathFlushDataHeaders
     fullName: PathFlushDataHeaders
     children:
-      - '@azure/storage-file-datalake.PathFlushDataHeaders.clientRequestId'
-      - '@azure/storage-file-datalake.PathFlushDataHeaders.contentLength'
-      - '@azure/storage-file-datalake.PathFlushDataHeaders.date'
-      - '@azure/storage-file-datalake.PathFlushDataHeaders.eTag'
-      - '@azure/storage-file-datalake.PathFlushDataHeaders.lastModified'
-      - '@azure/storage-file-datalake.PathFlushDataHeaders.requestId'
-      - '@azure/storage-file-datalake.PathFlushDataHeaders.version'
+      - '@azure/abort-controller.PathFlushDataHeaders.clientRequestId'
+      - '@azure/abort-controller.PathFlushDataHeaders.contentLength'
+      - '@azure/abort-controller.PathFlushDataHeaders.date'
+      - '@azure/abort-controller.PathFlushDataHeaders.eTag'
+      - '@azure/abort-controller.PathFlushDataHeaders.lastModified'
+      - '@azure/abort-controller.PathFlushDataHeaders.requestId'
+      - '@azure/abort-controller.PathFlushDataHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: Defines headers for FlushData operation.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathFlushDataHeaders.clientRequestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathFlushDataHeaders.clientRequestId'
     name: clientRequestId
     fullName: clientRequestId
     children: []
@@ -35,8 +35,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathFlushDataHeaders.contentLength'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathFlushDataHeaders.contentLength'
     name: contentLength
     fullName: contentLength
     children: []
@@ -51,8 +51,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathFlushDataHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathFlushDataHeaders.date'
     name: date
     fullName: date
     children: []
@@ -69,10 +69,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathFlushDataHeaders.eTag'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathFlushDataHeaders.eTag'
     name: eTag
     fullName: eTag
     children: []
@@ -87,8 +87,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathFlushDataHeaders.lastModified'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathFlushDataHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -105,10 +105,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathFlushDataHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathFlushDataHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -125,8 +125,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathFlushDataHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathFlushDataHeaders.version'
     name: version
     fullName: version
     children: []
@@ -141,4 +141,11 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'

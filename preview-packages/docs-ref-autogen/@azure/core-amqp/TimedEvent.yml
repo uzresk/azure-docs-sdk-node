@@ -1,0 +1,83 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.TimedEvent
+    name: TimedEvent
+    fullName: TimedEvent
+    children:
+      - tslib.TimedEvent.attributes
+      - tslib.TimedEvent.name
+      - tslib.TimedEvent.time
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Represents a timed event.
+      A timed event is an event with a timestamp.
+    extends:
+      name: tslib.Event
+    package: tslib
+  - uid: tslib.TimedEvent.attributes
+    name: attributes
+    fullName: attributes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The attributes of the event.
+    optional: true
+    syntax:
+      content: 'attributes?: Attributes'
+      return:
+        type:
+          - tslib.Attributes
+        description: ''
+    package: tslib
+  - uid: tslib.TimedEvent.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the event.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.TimedEvent.time
+    name: time
+    fullName: time
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'time: HrTime'
+      return:
+        type:
+          - tslib.HrTime
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.Event
+    name: Event
+    spec.typeScript:
+      - name: Event
+        fullName: Event
+        uid: tslib.Event
+  - uid: tslib.Attributes
+    name: Attributes
+    spec.typeScript:
+      - name: Attributes
+        fullName: Attributes
+        uid: tslib.Attributes
+  - uid: tslib.HrTime
+    name: HrTime
+    spec.typeScript:
+      - name: HrTime
+        fullName: HrTime
+        uid: tslib.HrTime

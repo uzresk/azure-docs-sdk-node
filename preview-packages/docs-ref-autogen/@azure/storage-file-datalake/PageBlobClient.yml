@@ -1,0 +1,1639 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.PageBlobClient'
+    name: PageBlobClient
+    fullName: PageBlobClient
+    children:
+      - '@azure/abort-controller.PageBlobClient.abortCopyFromURL'
+      - '@azure/abort-controller.PageBlobClient.accountName'
+      - '@azure/abort-controller.PageBlobClient.beginCopyFromURL'
+      - '@azure/abort-controller.PageBlobClient.clearPages'
+      - '@azure/abort-controller.PageBlobClient.containerName'
+      - '@azure/abort-controller.PageBlobClient.create'
+      - '@azure/abort-controller.PageBlobClient.createSnapshot'
+      - '@azure/abort-controller.PageBlobClient.credential'
+      - '@azure/abort-controller.PageBlobClient.delete'
+      - '@azure/abort-controller.PageBlobClient.download'
+      - '@azure/abort-controller.PageBlobClient.downloadToBuffer_1'
+      - '@azure/abort-controller.PageBlobClient.downloadToBuffer'
+      - '@azure/abort-controller.PageBlobClient.downloadToFile'
+      - '@azure/abort-controller.PageBlobClient.exists'
+      - '@azure/abort-controller.PageBlobClient.getAppendBlobClient'
+      - '@azure/abort-controller.PageBlobClient.getBlobLeaseClient'
+      - '@azure/abort-controller.PageBlobClient.getBlockBlobClient'
+      - '@azure/abort-controller.PageBlobClient.getPageBlobClient'
+      - '@azure/abort-controller.PageBlobClient.getPageRanges'
+      - '@azure/abort-controller.PageBlobClient.getPageRangesDiff'
+      - '@azure/abort-controller.PageBlobClient.getProperties'
+      - '@azure/abort-controller.PageBlobClient.name'
+      - '@azure/abort-controller.PageBlobClient.constructor_2'
+      - '@azure/abort-controller.PageBlobClient.constructor_1'
+      - '@azure/abort-controller.PageBlobClient.constructor'
+      - '@azure/abort-controller.PageBlobClient.resize'
+      - '@azure/abort-controller.PageBlobClient.setAccessTier'
+      - '@azure/abort-controller.PageBlobClient.setHTTPHeaders'
+      - '@azure/abort-controller.PageBlobClient.setMetadata'
+      - '@azure/abort-controller.PageBlobClient.startCopyIncremental'
+      - '@azure/abort-controller.PageBlobClient.syncCopyFromURL'
+      - '@azure/abort-controller.PageBlobClient.undelete'
+      - '@azure/abort-controller.PageBlobClient.updateSequenceNumber'
+      - '@azure/abort-controller.PageBlobClient.uploadPages'
+      - '@azure/abort-controller.PageBlobClient.uploadPagesFromURL'
+      - '@azure/abort-controller.PageBlobClient.url'
+      - '@azure/abort-controller.PageBlobClient.withSnapshot'
+    langs:
+      - typeScript
+    type: class
+    summary: PageBlobClient defines a set of operations applicable to page blobs.
+    extends:
+      name: '@azure/abort-controller.BlobClient'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.abortCopyFromURL'
+    name: 'abortCopyFromURL(string, BlobAbortCopyFromURLOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Aborts a pending asynchronous Copy Blob operation, and leaves a
+      destination blob with zero
+
+      length and full metadata. Version 2012-02-12 and newer.
+    syntax:
+      content: >-
+        function abortCopyFromURL(copyId: string, options?:
+        BlobAbortCopyFromURLOptions)
+      parameters:
+        - id: copyId
+          type:
+            - string
+          description: Id of the Copy From URL operation.
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobAbortCopyFromURLOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobAbortCopyFromURLResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.accountName'
+    name: accountName
+    fullName: accountName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'accountName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.beginCopyFromURL'
+    name: 'beginCopyFromURL(string, BlobBeginCopyFromURLOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronously copies a blob to a destination within the storage account.
+
+      This method returns a long running operation poller that allows you to
+      wait
+
+      indefinitely until the copy is completed.
+
+      You can also cancel a copy before it is completed by calling
+      `cancelOperation` on the poller.
+
+      Note that attempting to cancel a completed copy will result in an error
+      being thrown.
+
+      In version 2012-02-12 and later, the source for a Copy Blob operation can
+      be
+
+      a committed blob in any Azure storage account.
+
+      Beginning with version 2015-02-21, the source for a Copy Blob operation
+      can be
+
+      an Azure file in any Azure storage account.
+
+      Only storage accounts created on or after June 7th, 2012 allow the Copy
+      Blob
+
+      operation to copy from another storage account.
+    syntax:
+      content: >-
+        function beginCopyFromURL(copySource: string, options?:
+        BlobBeginCopyFromURLOptions)
+      parameters:
+        - id: copySource
+          type:
+            - string
+          description: url to the source Azure Blob/File.
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobBeginCopyFromURLOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - >-
+            Promise<@azure/abort-controller.PollerLike<@azure/abort-controller.PollOperationState<@azure/abort-controller.BlobBeginCopyFromURLResponse>,
+            @azure/abort-controller.BlobBeginCopyFromURLResponse>>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.clearPages'
+    name: >-
+      clearPages(undefined | number, undefined | number,
+      PageBlobClearPagesOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Frees the specified pages from the page blob.
+    syntax:
+      content: >-
+        function clearPages(offset?: undefined | number, count?: undefined |
+        number, options?: PageBlobClearPagesOptions)
+      parameters:
+        - id: offset
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: count
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.PageBlobClearPagesOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.PageBlobClearPagesResponse>
+        description: Response data for the Page Blob Clear Pages operation.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.containerName'
+    name: containerName
+    fullName: containerName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the storage container the blob is associated with.
+    syntax:
+      content: 'containerName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.create'
+    name: 'create(number, PageBlobCreateOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Creates a page blob of the specified length. Call uploadPages to upload
+      data
+
+      data to a page blob.
+    syntax:
+      content: 'function create(size: number, options?: PageBlobCreateOptions)'
+      parameters:
+        - id: size
+          type:
+            - number
+          description: size of the page blob.
+        - id: options
+          type:
+            - '@azure/abort-controller.PageBlobCreateOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.PageBlobCreateResponse>
+        description: Response data for the Page Blob Create operation.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.createSnapshot'
+    name: createSnapshot(BlobCreateSnapshotOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a read-only snapshot of a blob.
+    syntax:
+      content: 'function createSnapshot(options?: BlobCreateSnapshotOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobCreateSnapshotOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobCreateSnapshotResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.credential'
+    name: credential
+    fullName: credential
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Such as AnonymousCredential, StorageSharedKeyCredential or any credential
+      from the @azure/identity package to authenticate requests to the service.
+      You can also provide an object that implements the TokenCredential
+      interface. If not specified, AnonymousCredential is used.
+    syntax:
+      content: >-
+        credential: StorageSharedKeyCredential | AnonymousCredential |
+        TokenCredential
+      return:
+        type:
+          - >-
+            @azure/abort-controller.StorageSharedKeyCredential |
+            @azure/abort-controller.AnonymousCredential |
+            @azure/abort-controller.TokenCredential
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.delete'
+    name: delete(BlobDeleteOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Marks the specified blob or snapshot for deletion. The blob is later
+      deleted
+
+      during garbage collection. Note that in order to delete a blob, you must
+      delete
+
+      all of its snapshots. You can delete both at the same time with the Delete
+
+      Blob operation.
+    syntax:
+      content: 'function delete(options?: BlobDeleteOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobDeleteOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobDeleteResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.download'
+    name: 'download(undefined | number, undefined | number, BlobDownloadOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Reads or downloads a blob from the system, including its metadata and
+      properties.
+
+      You can also call Get Blob to read a snapshot.
+
+      * In Node.js, data returns in a Readable stream readableStreamBody
+
+      * In browsers, data returns in a promise blobBody
+    syntax:
+      content: >-
+        function download(offset?: undefined | number, count?: undefined |
+        number, options?: BlobDownloadOptions)
+      parameters:
+        - id: offset
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: count
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobDownloadOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<BlobDownloadResponseModel>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.downloadToBuffer_1'
+    name: >-
+      downloadToBuffer(Buffer, undefined | number, undefined | number,
+      BlobDownloadToBufferOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      ONLY AVAILABLE IN NODE.JS RUNTIME.
+
+      Downloads an Azure Blob in parallel to a buffer.
+
+      Offset and count are optional, downloads the entire blob if they are not
+      provided.
+
+
+      Warning: Buffers can only support files up to about one gigabyte on 32-bit
+      systems or about two
+
+      gigabytes on 64-bit systems due to limitations of Node.js/V8. For blobs
+      larger than this size,
+
+      consider <xref:downloadToFile>.
+    syntax:
+      content: >-
+        function downloadToBuffer(buffer: Buffer, offset?: undefined | number,
+        count?: undefined | number, options?: BlobDownloadToBufferOptions)
+      parameters:
+        - id: buffer
+          type:
+            - Buffer
+          description: 'Buffer to be fill, must have length larger than count'
+        - id: offset
+          type:
+            - undefined | number
+          description: From which position of the block blob to download(in bytes)
+          optional: true
+        - id: count
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobDownloadToBufferOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<Buffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.downloadToBuffer'
+    name: >-
+      downloadToBuffer(undefined | number, undefined | number,
+      BlobDownloadToBufferOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      ONLY AVAILABLE IN NODE.JS RUNTIME.
+
+      Downloads an Azure Blob in parallel to a buffer.
+
+      Offset and count are optional, downloads the entire blob if they are not
+      provided.
+
+
+      Warning: Buffers can only support files up to about one gigabyte on 32-bit
+      systems or about two
+
+      gigabytes on 64-bit systems due to limitations of Node.js/V8. For blobs
+      larger than this size,
+
+      consider <xref:downloadToFile>.
+    syntax:
+      content: >-
+        function downloadToBuffer(offset?: undefined | number, count?: undefined
+        | number, options?: BlobDownloadToBufferOptions)
+      parameters:
+        - id: offset
+          type:
+            - undefined | number
+          description: From which position of the block blob to download(in bytes)
+          optional: true
+        - id: count
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobDownloadToBufferOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<Buffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.downloadToFile'
+    name: >-
+      downloadToFile(string, undefined | number, undefined | number,
+      BlobDownloadOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      ONLY AVAILABLE IN NODE.JS RUNTIME.
+
+      Downloads an Azure Blob to a local file.
+
+      Fails if the the given file path already exits.
+
+      Offset and count are optional, pass 0 and undefined respectively to
+      download the entire blob.
+    syntax:
+      content: >-
+        function downloadToFile(filePath: string, offset?: undefined | number,
+        count?: undefined | number, options?: BlobDownloadOptions)
+      parameters:
+        - id: filePath
+          type:
+            - string
+          description: ''
+        - id: offset
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: count
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobDownloadOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<BlobDownloadResponseModel>
+        description: |-
+          The response data for blob download operation,
+                                                          but with readableStreamBody set to undefined since its
+                                                          content is already read and written into a local file
+                                                          at the specified path.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.exists'
+    name: exists(BlobExistsOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Returns true if the Azrue blob resource represented by this client exists;
+      false otherwise.
+
+      NOTE: use this function with care since an existing blob might be deleted
+      by other clients or
+
+      applications. Vice versa new blobs might be added by other clients or
+      applications after this
+
+      function completes.
+    syntax:
+      content: 'function exists(options?: BlobExistsOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobExistsOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<boolean>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.getAppendBlobClient'
+    name: getAppendBlobClient()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a AppendBlobClient object.
+    syntax:
+      content: function getAppendBlobClient()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.AppendBlobClient'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.getBlobLeaseClient'
+    name: getBlobLeaseClient(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Get a <xref:BlobLeaseClient> that manages leases on the blob.'
+    syntax:
+      content: 'function getBlobLeaseClient(proposeLeaseId?: undefined | string)'
+      parameters:
+        - id: proposeLeaseId
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.BlobLeaseClient'
+        description: A new BlobLeaseClient object for managing leases on the blob.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.getBlockBlobClient'
+    name: getBlockBlobClient()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a BlockBlobClient object.
+    syntax:
+      content: function getBlockBlobClient()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.BlockBlobClient'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.getPageBlobClient'
+    name: getPageBlobClient()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Creates a PageBlobClient object.
+    syntax:
+      content: function getPageBlobClient()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.PageBlobClient'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.getPageRanges'
+    name: >-
+      getPageRanges(undefined | number, undefined | number,
+      PageBlobGetPageRangesOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the list of valid page ranges for a page blob or snapshot of a
+      page blob.
+    syntax:
+      content: >-
+        function getPageRanges(offset?: undefined | number, count?: undefined |
+        number, options?: PageBlobGetPageRangesOptions)
+      parameters:
+        - id: offset
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: count
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.PageBlobGetPageRangesOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.PageBlobGetPageRangesResponse>
+        description: Response data for the Page Blob Get Ranges operation.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.getPageRangesDiff'
+    name: >-
+      getPageRangesDiff(number, number, string,
+      PageBlobGetPageRangesDiffOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Gets the collection of page ranges that differ between a specified
+      snapshot and this page blob.
+    syntax:
+      content: >-
+        function getPageRangesDiff(offset: number, count: number, prevSnapshot:
+        string, options?: PageBlobGetPageRangesDiffOptions)
+      parameters:
+        - id: offset
+          type:
+            - number
+          description: Starting byte position of the page blob
+        - id: count
+          type:
+            - number
+          description: Number of bytes to get ranges diff.
+        - id: prevSnapshot
+          type:
+            - string
+          description: Timestamp of snapshot to retrive the difference.
+        - id: options
+          type:
+            - '@azure/abort-controller.PageBlobGetPageRangesDiffOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.PageBlobGetPageRangesDiffResponse>
+        description: Response data for the Page Blob Get Page Range Diff operation.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.getProperties'
+    name: getProperties(BlobGetPropertiesOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns all user-defined metadata, standard HTTP properties, and system
+      properties
+
+      for the blob. It does not return the content of the blob.
+    syntax:
+      content: 'function getProperties(options?: BlobGetPropertiesOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobGetPropertiesOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobGetPropertiesResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the blob.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.constructor_2'
+    name: 'PageBlobClient(string, Pipeline)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Creates an instance of PageBlobClient.
+    syntax:
+      content: 'new PageBlobClient(url: string, pipeline: Pipeline)'
+      parameters:
+        - id: url
+          type:
+            - string
+          description: |-
+            A Client string pointing to Azure Storage blob service, such as
+                                "https://myaccount.blob.core.windows.net". You can append a SAS
+                                if using AnonymousCredential, such as "https://myaccount.blob.core.windows.net?sasString".
+        - id: pipeline
+          type:
+            - '@azure/abort-controller.Pipeline'
+          description: |-
+            Call newPipeline() to create a default
+                                       pipeline, or provide a customized pipeline.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.constructor_1'
+    name: >-
+      PageBlobClient(string, StorageSharedKeyCredential | AnonymousCredential |
+      TokenCredential, StoragePipelineOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: >-
+      Creates an instance of PageBlobClient.
+
+      This method accepts an encoded URL or non-encoded URL pointing to a blob.
+
+      Encoded URL string will NOT be escaped twice, only special characters in
+      URL path will be escaped.
+
+      If a blob name includes ? or %, blob name must be encoded in the URL.
+    syntax:
+      content: >-
+        new PageBlobClient(url: string, credential: StorageSharedKeyCredential |
+        AnonymousCredential | TokenCredential, options?: StoragePipelineOptions)
+      parameters:
+        - id: url
+          type:
+            - string
+          description: |-
+            A Client string pointing to Azure Storage blob service, such as
+                                "https://myaccount.blob.core.windows.net". You can append a SAS
+                                if using AnonymousCredential, such as "https://myaccount.blob.core.windows.net?sasString".
+        - id: credential
+          type:
+            - >-
+              @azure/abort-controller.StorageSharedKeyCredential |
+              @azure/abort-controller.AnonymousCredential |
+              @azure/abort-controller.TokenCredential
+          description: >-
+            Such as AnonymousCredential, StorageSharedKeyCredential or any
+            credential from the @azure/identity package to authenticate requests
+            to the service. You can also provide an object that implements the
+            TokenCredential interface. If not specified, AnonymousCredential is
+            used.
+        - id: options
+          type:
+            - '@azure/abort-controller.StoragePipelineOptions'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.constructor'
+    name: 'PageBlobClient(string, string, string, StoragePipelineOptions)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Creates an instance of PageBlobClient.
+    syntax:
+      content: >-
+        new PageBlobClient(connectionString: string, containerName: string,
+        blobName: string, options?: StoragePipelineOptions)
+      parameters:
+        - id: connectionString
+          type:
+            - string
+          description: >-
+            Account connection string or a SAS connection string of an Azure
+            storage account.
+                                             [ Note - Account connection string can only be used in NODE.JS runtime. ]
+                                             Account connection string example -
+                                             `DefaultEndpointsProtocol=https;AccountName=myaccount;AccountKey=accountKey;EndpointSuffix=core.windows.net`
+                                             SAS connection string example -
+                                             `BlobEndpoint=https://myaccount.blob.core.windows.net/;QueueEndpoint=https://myaccount.queue.core.windows.net/;FileEndpoint=https://myaccount.file.core.windows.net/;TableEndpoint=https://myaccount.table.core.windows.net/;SharedAccessSignature=sasString`
+        - id: containerName
+          type:
+            - string
+          description: Container name.
+        - id: blobName
+          type:
+            - string
+          description: Blob name.
+        - id: options
+          type:
+            - '@azure/abort-controller.StoragePipelineOptions'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.resize'
+    name: 'resize(number, PageBlobResizeOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Resizes the page blob to the specified size (which must be a multiple of
+      512).
+    syntax:
+      content: 'function resize(size: number, options?: PageBlobResizeOptions)'
+      parameters:
+        - id: size
+          type:
+            - number
+          description: Target size
+        - id: options
+          type:
+            - '@azure/abort-controller.PageBlobResizeOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.PageBlobResizeResponse>
+        description: Response data for the Page Blob Resize operation.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.setAccessTier'
+    name: >-
+      setAccessTier(BlockBlobTier | PremiumPageBlobTier | string,
+      BlobSetTierOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets the tier on a blob. The operation is allowed on a page blob in a
+      premium
+
+      storage account and on a block blob in a blob storage account (locally
+      redundant
+
+      storage only). A premium page blob's tier determines the allowed size,
+      IOPS,
+
+      and bandwidth of the blob. A block blob's tier determines Hot/Cool/Archive
+
+      storage type. This operation does not update the blob's ETag.
+    syntax:
+      content: >-
+        function setAccessTier(tier: BlockBlobTier | PremiumPageBlobTier |
+        string, options?: BlobSetTierOptions)
+      parameters:
+        - id: tier
+          type:
+            - >-
+              @azure/abort-controller.BlockBlobTier |
+              @azure/abort-controller.PremiumPageBlobTier | string
+          description: >-
+            The tier to be set on the blob. Valid values are Hot, Cool, or
+            Archive.
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobSetTierOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobSetTierResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.setHTTPHeaders'
+    name: 'setHTTPHeaders(BlobHTTPHeaders, BlobSetHTTPHeadersOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets system properties on the blob.
+
+      If no value provided, or no value provided for the specificed blob HTTP
+      headers,
+
+      these blob HTTP headers without a value will be cleared.
+    syntax:
+      content: >-
+        function setHTTPHeaders(blobHTTPHeaders?: BlobHTTPHeaders, options?:
+        BlobSetHTTPHeadersOptions)
+      parameters:
+        - id: blobHTTPHeaders
+          type:
+            - '@azure/abort-controller.BlobHTTPHeaders'
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobSetHTTPHeadersOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobSetHTTPHeadersResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.setMetadata'
+    name: 'setMetadata(Metadata, BlobSetMetadataOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Sets user-defined metadata for the specified blob as one or more
+      name-value pairs.
+
+      If no option provided, or no metadata defined in the parameter, the blob
+
+      metadata will be removed.
+    syntax:
+      content: >-
+        function setMetadata(metadata?: Metadata, options?:
+        BlobSetMetadataOptions)
+      parameters:
+        - id: metadata
+          type:
+            - '@azure/abort-controller.Metadata'
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobSetMetadataOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobSetMetadataResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.startCopyIncremental'
+    name: 'startCopyIncremental(string, PageBlobStartCopyIncrementalOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Begins an operation to start an incremental copy from one page blob's
+      snapshot to this page blob.
+
+      The snapshot is copied such that only the differential changes between the
+      previously
+
+      copied snapshot are transferred to the destination.
+
+      The copied snapshots are complete copies of the original snapshot and can
+      be read or copied from as usual.
+    syntax:
+      content: >-
+        function startCopyIncremental(copySource: string, options?:
+        PageBlobStartCopyIncrementalOptions)
+      parameters:
+        - id: copySource
+          type:
+            - string
+          description: |-
+            Specifies the name of the source page blob snapshot. For example,
+                                       https://myaccount.blob.core.windows.net/mycontainer/myblob?snapshot=<DateTime>
+        - id: options
+          type:
+            - '@azure/abort-controller.PageBlobStartCopyIncrementalOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.PageBlobCopyIncrementalResponse>
+        description: Response data for the Page Blob Copy Incremental operation.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.syncCopyFromURL'
+    name: 'syncCopyFromURL(string, BlobSyncCopyFromURLOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      The synchronous Copy From URL operation copies a blob or an internet
+      resource to a new blob. It will not
+
+      return a response until the copy is complete.
+    syntax:
+      content: >-
+        function syncCopyFromURL(copySource: string, options?:
+        BlobSyncCopyFromURLOptions)
+      parameters:
+        - id: copySource
+          type:
+            - string
+          description: >-
+            The source URL to copy from, Shared Access Signature(SAS) maybe
+            needed for authentication
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobSyncCopyFromURLOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobCopyFromURLResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.undelete'
+    name: undelete(BlobUndeleteOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Restores the contents and metadata of soft deleted blob and any associated
+
+      soft deleted snapshots. Undelete Blob is supported only on version
+      2017-07-29
+
+      or later.
+    syntax:
+      content: 'function undelete(options?: BlobUndeleteOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobUndeleteOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.BlobUndeleteResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.updateSequenceNumber'
+    name: >-
+      updateSequenceNumber(SequenceNumberActionType, undefined | number,
+      PageBlobUpdateSequenceNumberOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets a page blob's sequence number.
+    syntax:
+      content: >-
+        function updateSequenceNumber(sequenceNumberAction:
+        SequenceNumberActionType, sequenceNumber?: undefined | number, options?:
+        PageBlobUpdateSequenceNumberOptions)
+      parameters:
+        - id: sequenceNumberAction
+          type:
+            - '@azure/abort-controller.SequenceNumberActionType'
+          description: Indicates how the service should modify the blob's sequence number.
+        - id: sequenceNumber
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.PageBlobUpdateSequenceNumberOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - >-
+            Promise<@azure/abort-controller.PageBlobUpdateSequenceNumberResponse>
+        description: Response data for the Page Blob Update Sequence Number operation.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.uploadPages'
+    name: 'uploadPages(HttpRequestBody, number, number, PageBlobUploadPagesOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Writes 1 or more pages to the page blob. The start and end offsets must be
+      a multiple of 512.
+    syntax:
+      content: >-
+        function uploadPages(body: HttpRequestBody, offset: number, count:
+        number, options?: PageBlobUploadPagesOptions)
+      parameters:
+        - id: body
+          type:
+            - '@azure/abort-controller.HttpRequestBody'
+          description: Data to upload
+        - id: offset
+          type:
+            - number
+          description: Offset of destination page blob
+        - id: count
+          type:
+            - number
+          description: 'Content length of the body, also number of bytes to be uploaded'
+        - id: options
+          type:
+            - '@azure/abort-controller.PageBlobUploadPagesOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.PageBlobUploadPagesResponse>
+        description: Response data for the Page Blob Upload Pages operation.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.uploadPagesFromURL'
+    name: >-
+      uploadPagesFromURL(string, number, number, number,
+      PageBlobUploadPagesFromURLOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      The Upload Pages operation writes a range of pages to a page blob where
+      the
+
+      contents are read from a URL.
+    syntax:
+      content: >-
+        function uploadPagesFromURL(sourceURL: string, sourceOffset: number,
+        destOffset: number, count: number, options?:
+        PageBlobUploadPagesFromURLOptions)
+      parameters:
+        - id: sourceURL
+          type:
+            - string
+          description: >-
+            Specify a URL to the copy source, Shared Access Signature(SAS) maybe
+            needed for authentication
+        - id: sourceOffset
+          type:
+            - number
+          description: >-
+            The source offset to copy from. Pass 0 to copy from the beginning of
+            source page blob
+        - id: destOffset
+          type:
+            - number
+          description: Offset of destination page blob
+        - id: count
+          type:
+            - number
+          description: Number of bytes to be uploaded from source page blob
+        - id: options
+          type:
+            - '@azure/abort-controller.PageBlobUploadPagesFromURLOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.PageBlobUploadPagesFromURLResponse>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Encoded URL string value.
+    syntax:
+      content: 'url: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobClient.withSnapshot'
+    name: withSnapshot(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Creates a new PageBlobClient object identical to the source but with the
+      specified snapshot timestamp.
+      Provide "" will remove the snapshot and return a Client to the base blob.
+    syntax:
+      content: 'function withSnapshot(snapshot: string)'
+      parameters:
+        - id: snapshot
+          type:
+            - string
+          description: The snapshot timestamp.
+      return:
+        type:
+          - '@azure/abort-controller.PageBlobClient'
+        description: >-
+          A new PageBlobClient object identical to the source but with the
+          specified snapshot timestamp.
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.BlobClient'
+    name: BlobClient
+    spec.typeScript:
+      - name: BlobClient
+        fullName: BlobClient
+        uid: '@azure/abort-controller.BlobClient'
+  - uid: '@azure/abort-controller.StoragePipelineOptions'
+    name: StoragePipelineOptions
+    spec.typeScript:
+      - name: StoragePipelineOptions
+        fullName: StoragePipelineOptions
+        uid: '@azure/abort-controller.StoragePipelineOptions'
+  - uid: >-
+      @azure/abort-controller.StorageSharedKeyCredential |
+      @azure/abort-controller.AnonymousCredential |
+      @azure/abort-controller.TokenCredential
+    name: TokenCredential
+    spec.typeScript:
+      - name: StorageSharedKeyCredential
+        fullName: StorageSharedKeyCredential
+        uid: '@azure/abort-controller.StorageSharedKeyCredential'
+      - name: ' | '
+        fullName: ' | '
+      - name: AnonymousCredential
+        fullName: AnonymousCredential
+        uid: '@azure/abort-controller.AnonymousCredential'
+      - name: ' | '
+        fullName: ' | '
+      - name: TokenCredential
+        fullName: TokenCredential
+        uid: '@azure/abort-controller.TokenCredential'
+  - uid: '@azure/abort-controller.Pipeline'
+    name: Pipeline
+    spec.typeScript:
+      - name: Pipeline
+        fullName: Pipeline
+        uid: '@azure/abort-controller.Pipeline'
+  - uid: '@azure/abort-controller.BlobAbortCopyFromURLOptions'
+    name: BlobAbortCopyFromURLOptions
+    spec.typeScript:
+      - name: BlobAbortCopyFromURLOptions
+        fullName: BlobAbortCopyFromURLOptions
+        uid: '@azure/abort-controller.BlobAbortCopyFromURLOptions'
+  - uid: Promise<@azure/abort-controller.BlobAbortCopyFromURLResponse>
+    name: BlobAbortCopyFromURLResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobAbortCopyFromURLResponse
+        fullName: BlobAbortCopyFromURLResponse
+        uid: '@azure/abort-controller.BlobAbortCopyFromURLResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions'
+    name: BlobBeginCopyFromURLOptions
+    spec.typeScript:
+      - name: BlobBeginCopyFromURLOptions
+        fullName: BlobBeginCopyFromURLOptions
+        uid: '@azure/abort-controller.BlobBeginCopyFromURLOptions'
+  - uid: >-
+      Promise<@azure/abort-controller.PollerLike<@azure/abort-controller.PollOperationState<@azure/abort-controller.BlobBeginCopyFromURLResponse>,
+      @azure/abort-controller.BlobBeginCopyFromURLResponse>>
+    name: BlobBeginCopyFromURLResponse>>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: PollerLike
+        fullName: PollerLike
+        uid: '@azure/abort-controller.PollerLike'
+      - name: <
+        fullName: <
+      - name: PollOperationState
+        fullName: PollOperationState
+        uid: '@azure/abort-controller.PollOperationState'
+      - name: <
+        fullName: <
+      - name: BlobBeginCopyFromURLResponse
+        fullName: BlobBeginCopyFromURLResponse
+        uid: '@azure/abort-controller.BlobBeginCopyFromURLResponse'
+      - name: '>, '
+        fullName: '>, '
+      - name: BlobBeginCopyFromURLResponse
+        fullName: BlobBeginCopyFromURLResponse
+        uid: '@azure/abort-controller.BlobBeginCopyFromURLResponse'
+      - name: '>>'
+        fullName: '>>'
+  - uid: '@azure/abort-controller.PageBlobClearPagesOptions'
+    name: PageBlobClearPagesOptions
+    spec.typeScript:
+      - name: PageBlobClearPagesOptions
+        fullName: PageBlobClearPagesOptions
+        uid: '@azure/abort-controller.PageBlobClearPagesOptions'
+  - uid: Promise<@azure/abort-controller.PageBlobClearPagesResponse>
+    name: PageBlobClearPagesResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: PageBlobClearPagesResponse
+        fullName: PageBlobClearPagesResponse
+        uid: '@azure/abort-controller.PageBlobClearPagesResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.PageBlobCreateOptions'
+    name: PageBlobCreateOptions
+    spec.typeScript:
+      - name: PageBlobCreateOptions
+        fullName: PageBlobCreateOptions
+        uid: '@azure/abort-controller.PageBlobCreateOptions'
+  - uid: Promise<@azure/abort-controller.PageBlobCreateResponse>
+    name: PageBlobCreateResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: PageBlobCreateResponse
+        fullName: PageBlobCreateResponse
+        uid: '@azure/abort-controller.PageBlobCreateResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobCreateSnapshotOptions'
+    name: BlobCreateSnapshotOptions
+    spec.typeScript:
+      - name: BlobCreateSnapshotOptions
+        fullName: BlobCreateSnapshotOptions
+        uid: '@azure/abort-controller.BlobCreateSnapshotOptions'
+  - uid: Promise<@azure/abort-controller.BlobCreateSnapshotResponse>
+    name: BlobCreateSnapshotResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobCreateSnapshotResponse
+        fullName: BlobCreateSnapshotResponse
+        uid: '@azure/abort-controller.BlobCreateSnapshotResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobDeleteOptions'
+    name: BlobDeleteOptions
+    spec.typeScript:
+      - name: BlobDeleteOptions
+        fullName: BlobDeleteOptions
+        uid: '@azure/abort-controller.BlobDeleteOptions'
+  - uid: Promise<@azure/abort-controller.BlobDeleteResponse>
+    name: BlobDeleteResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobDeleteResponse
+        fullName: BlobDeleteResponse
+        uid: '@azure/abort-controller.BlobDeleteResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobDownloadOptions'
+    name: BlobDownloadOptions
+    spec.typeScript:
+      - name: BlobDownloadOptions
+        fullName: BlobDownloadOptions
+        uid: '@azure/abort-controller.BlobDownloadOptions'
+  - uid: '@azure/abort-controller.BlobDownloadToBufferOptions'
+    name: BlobDownloadToBufferOptions
+    spec.typeScript:
+      - name: BlobDownloadToBufferOptions
+        fullName: BlobDownloadToBufferOptions
+        uid: '@azure/abort-controller.BlobDownloadToBufferOptions'
+  - uid: '@azure/abort-controller.BlobExistsOptions'
+    name: BlobExistsOptions
+    spec.typeScript:
+      - name: BlobExistsOptions
+        fullName: BlobExistsOptions
+        uid: '@azure/abort-controller.BlobExistsOptions'
+  - uid: '@azure/abort-controller.AppendBlobClient'
+    name: AppendBlobClient
+    spec.typeScript:
+      - name: AppendBlobClient
+        fullName: AppendBlobClient
+        uid: '@azure/abort-controller.AppendBlobClient'
+  - uid: '@azure/abort-controller.BlobLeaseClient'
+    name: BlobLeaseClient
+    spec.typeScript:
+      - name: BlobLeaseClient
+        fullName: BlobLeaseClient
+        uid: '@azure/abort-controller.BlobLeaseClient'
+  - uid: '@azure/abort-controller.BlockBlobClient'
+    name: BlockBlobClient
+    spec.typeScript:
+      - name: BlockBlobClient
+        fullName: BlockBlobClient
+        uid: '@azure/abort-controller.BlockBlobClient'
+  - uid: '@azure/abort-controller.PageBlobClient'
+    name: PageBlobClient
+    spec.typeScript:
+      - name: PageBlobClient
+        fullName: PageBlobClient
+        uid: '@azure/abort-controller.PageBlobClient'
+  - uid: '@azure/abort-controller.PageBlobGetPageRangesOptions'
+    name: PageBlobGetPageRangesOptions
+    spec.typeScript:
+      - name: PageBlobGetPageRangesOptions
+        fullName: PageBlobGetPageRangesOptions
+        uid: '@azure/abort-controller.PageBlobGetPageRangesOptions'
+  - uid: Promise<@azure/abort-controller.PageBlobGetPageRangesResponse>
+    name: PageBlobGetPageRangesResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: PageBlobGetPageRangesResponse
+        fullName: PageBlobGetPageRangesResponse
+        uid: '@azure/abort-controller.PageBlobGetPageRangesResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.PageBlobGetPageRangesDiffOptions'
+    name: PageBlobGetPageRangesDiffOptions
+    spec.typeScript:
+      - name: PageBlobGetPageRangesDiffOptions
+        fullName: PageBlobGetPageRangesDiffOptions
+        uid: '@azure/abort-controller.PageBlobGetPageRangesDiffOptions'
+  - uid: Promise<@azure/abort-controller.PageBlobGetPageRangesDiffResponse>
+    name: PageBlobGetPageRangesDiffResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: PageBlobGetPageRangesDiffResponse
+        fullName: PageBlobGetPageRangesDiffResponse
+        uid: '@azure/abort-controller.PageBlobGetPageRangesDiffResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobGetPropertiesOptions'
+    name: BlobGetPropertiesOptions
+    spec.typeScript:
+      - name: BlobGetPropertiesOptions
+        fullName: BlobGetPropertiesOptions
+        uid: '@azure/abort-controller.BlobGetPropertiesOptions'
+  - uid: Promise<@azure/abort-controller.BlobGetPropertiesResponse>
+    name: BlobGetPropertiesResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobGetPropertiesResponse
+        fullName: BlobGetPropertiesResponse
+        uid: '@azure/abort-controller.BlobGetPropertiesResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.PageBlobResizeOptions'
+    name: PageBlobResizeOptions
+    spec.typeScript:
+      - name: PageBlobResizeOptions
+        fullName: PageBlobResizeOptions
+        uid: '@azure/abort-controller.PageBlobResizeOptions'
+  - uid: Promise<@azure/abort-controller.PageBlobResizeResponse>
+    name: PageBlobResizeResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: PageBlobResizeResponse
+        fullName: PageBlobResizeResponse
+        uid: '@azure/abort-controller.PageBlobResizeResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.BlockBlobTier |
+      @azure/abort-controller.PremiumPageBlobTier | string
+    name: PremiumPageBlobTier | string
+    spec.typeScript:
+      - name: BlockBlobTier
+        fullName: BlockBlobTier
+        uid: '@azure/abort-controller.BlockBlobTier'
+      - name: ' | '
+        fullName: ' | '
+      - name: PremiumPageBlobTier
+        fullName: PremiumPageBlobTier
+        uid: '@azure/abort-controller.PremiumPageBlobTier'
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: '@azure/abort-controller.BlobSetTierOptions'
+    name: BlobSetTierOptions
+    spec.typeScript:
+      - name: BlobSetTierOptions
+        fullName: BlobSetTierOptions
+        uid: '@azure/abort-controller.BlobSetTierOptions'
+  - uid: Promise<@azure/abort-controller.BlobSetTierResponse>
+    name: BlobSetTierResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobSetTierResponse
+        fullName: BlobSetTierResponse
+        uid: '@azure/abort-controller.BlobSetTierResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobHTTPHeaders'
+    name: BlobHTTPHeaders
+    spec.typeScript:
+      - name: BlobHTTPHeaders
+        fullName: BlobHTTPHeaders
+        uid: '@azure/abort-controller.BlobHTTPHeaders'
+  - uid: '@azure/abort-controller.BlobSetHTTPHeadersOptions'
+    name: BlobSetHTTPHeadersOptions
+    spec.typeScript:
+      - name: BlobSetHTTPHeadersOptions
+        fullName: BlobSetHTTPHeadersOptions
+        uid: '@azure/abort-controller.BlobSetHTTPHeadersOptions'
+  - uid: Promise<@azure/abort-controller.BlobSetHTTPHeadersResponse>
+    name: BlobSetHTTPHeadersResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobSetHTTPHeadersResponse
+        fullName: BlobSetHTTPHeadersResponse
+        uid: '@azure/abort-controller.BlobSetHTTPHeadersResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.Metadata'
+    name: Metadata
+    spec.typeScript:
+      - name: Metadata
+        fullName: Metadata
+        uid: '@azure/abort-controller.Metadata'
+  - uid: '@azure/abort-controller.BlobSetMetadataOptions'
+    name: BlobSetMetadataOptions
+    spec.typeScript:
+      - name: BlobSetMetadataOptions
+        fullName: BlobSetMetadataOptions
+        uid: '@azure/abort-controller.BlobSetMetadataOptions'
+  - uid: Promise<@azure/abort-controller.BlobSetMetadataResponse>
+    name: BlobSetMetadataResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobSetMetadataResponse
+        fullName: BlobSetMetadataResponse
+        uid: '@azure/abort-controller.BlobSetMetadataResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.PageBlobStartCopyIncrementalOptions'
+    name: PageBlobStartCopyIncrementalOptions
+    spec.typeScript:
+      - name: PageBlobStartCopyIncrementalOptions
+        fullName: PageBlobStartCopyIncrementalOptions
+        uid: '@azure/abort-controller.PageBlobStartCopyIncrementalOptions'
+  - uid: Promise<@azure/abort-controller.PageBlobCopyIncrementalResponse>
+    name: PageBlobCopyIncrementalResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: PageBlobCopyIncrementalResponse
+        fullName: PageBlobCopyIncrementalResponse
+        uid: '@azure/abort-controller.PageBlobCopyIncrementalResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobSyncCopyFromURLOptions'
+    name: BlobSyncCopyFromURLOptions
+    spec.typeScript:
+      - name: BlobSyncCopyFromURLOptions
+        fullName: BlobSyncCopyFromURLOptions
+        uid: '@azure/abort-controller.BlobSyncCopyFromURLOptions'
+  - uid: Promise<@azure/abort-controller.BlobCopyFromURLResponse>
+    name: BlobCopyFromURLResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobCopyFromURLResponse
+        fullName: BlobCopyFromURLResponse
+        uid: '@azure/abort-controller.BlobCopyFromURLResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.BlobUndeleteOptions'
+    name: BlobUndeleteOptions
+    spec.typeScript:
+      - name: BlobUndeleteOptions
+        fullName: BlobUndeleteOptions
+        uid: '@azure/abort-controller.BlobUndeleteOptions'
+  - uid: Promise<@azure/abort-controller.BlobUndeleteResponse>
+    name: BlobUndeleteResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: BlobUndeleteResponse
+        fullName: BlobUndeleteResponse
+        uid: '@azure/abort-controller.BlobUndeleteResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.SequenceNumberActionType'
+    name: SequenceNumberActionType
+    spec.typeScript:
+      - name: SequenceNumberActionType
+        fullName: SequenceNumberActionType
+        uid: '@azure/abort-controller.SequenceNumberActionType'
+  - uid: '@azure/abort-controller.PageBlobUpdateSequenceNumberOptions'
+    name: PageBlobUpdateSequenceNumberOptions
+    spec.typeScript:
+      - name: PageBlobUpdateSequenceNumberOptions
+        fullName: PageBlobUpdateSequenceNumberOptions
+        uid: '@azure/abort-controller.PageBlobUpdateSequenceNumberOptions'
+  - uid: Promise<@azure/abort-controller.PageBlobUpdateSequenceNumberResponse>
+    name: PageBlobUpdateSequenceNumberResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: PageBlobUpdateSequenceNumberResponse
+        fullName: PageBlobUpdateSequenceNumberResponse
+        uid: '@azure/abort-controller.PageBlobUpdateSequenceNumberResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.HttpRequestBody'
+    name: HttpRequestBody
+    spec.typeScript:
+      - name: HttpRequestBody
+        fullName: HttpRequestBody
+        uid: '@azure/abort-controller.HttpRequestBody'
+  - uid: '@azure/abort-controller.PageBlobUploadPagesOptions'
+    name: PageBlobUploadPagesOptions
+    spec.typeScript:
+      - name: PageBlobUploadPagesOptions
+        fullName: PageBlobUploadPagesOptions
+        uid: '@azure/abort-controller.PageBlobUploadPagesOptions'
+  - uid: Promise<@azure/abort-controller.PageBlobUploadPagesResponse>
+    name: PageBlobUploadPagesResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: PageBlobUploadPagesResponse
+        fullName: PageBlobUploadPagesResponse
+        uid: '@azure/abort-controller.PageBlobUploadPagesResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.PageBlobUploadPagesFromURLOptions'
+    name: PageBlobUploadPagesFromURLOptions
+    spec.typeScript:
+      - name: PageBlobUploadPagesFromURLOptions
+        fullName: PageBlobUploadPagesFromURLOptions
+        uid: '@azure/abort-controller.PageBlobUploadPagesFromURLOptions'
+  - uid: Promise<@azure/abort-controller.PageBlobUploadPagesFromURLResponse>
+    name: PageBlobUploadPagesFromURLResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: PageBlobUploadPagesFromURLResponse
+        fullName: PageBlobUploadPagesFromURLResponse
+        uid: '@azure/abort-controller.PageBlobUploadPagesFromURLResponse'
+      - name: '>'
+        fullName: '>'

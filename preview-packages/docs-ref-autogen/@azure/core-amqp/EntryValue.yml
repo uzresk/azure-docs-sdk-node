@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.EntryValue
+    name: EntryValue
+    fullName: EntryValue
+    children:
+      - tslib.EntryValue.ttl
+      - tslib.EntryValue.value
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      <xref:EntryValue> contains properties associated with a {@link
+      DistributedContext}.
+    package: tslib
+  - uid: tslib.EntryValue.ttl
+    name: ttl
+    fullName: ttl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      ttl is an integer that represents number of hops an entry can
+      propagate.
+    optional: true
+    syntax:
+      content: 'ttl?: EntryTtl'
+      return:
+        type:
+          - tslib.EntryTtl
+        description: ''
+    package: tslib
+  - uid: tslib.EntryValue.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '`String` value of the `EntryValue`.'
+    syntax:
+      content: 'value: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.EntryTtl
+    name: EntryTtl
+    spec.typeScript:
+      - name: EntryTtl
+        fullName: EntryTtl
+        uid: tslib.EntryTtl

@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BodyInit'
+    name: BodyInit
+    fullName: BodyInit
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type BodyInit = ArrayBuffer | ArrayBufferView | ReadableStream | string
+        | URLSearchParams
+    package: '@azure/abort-controller'

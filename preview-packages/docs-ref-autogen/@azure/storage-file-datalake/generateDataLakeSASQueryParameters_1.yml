@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.generateDataLakeSASQueryParameters_1'
+  - uid: '@azure/abort-controller.generateDataLakeSASQueryParameters_1'
     name: >-
       generateDataLakeSASQueryParameters(DataLakeSASSignatureValues,
       UserDelegationKey, string)
@@ -23,11 +23,11 @@ items:
       parameters:
         - id: dataLakeSASSignatureValues
           type:
-            - '@azure/storage-file-datalake.DataLakeSASSignatureValues'
+            - '@azure/abort-controller.DataLakeSASSignatureValues'
           description: ''
         - id: userDelegationKey
           type:
-            - '@azure/storage-file-datalake.UserDelegationKey'
+            - '@azure/abort-controller.UserDelegationKey'
           description: Return value of `blobServiceClient.getUserDelegationKey()`
         - id: accountName
           type:
@@ -35,25 +35,25 @@ items:
           description: ''
       return:
         type:
-          - '@azure/storage-file-datalake.SASQueryParameters'
+          - '@azure/abort-controller.SASQueryParameters'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues'
+  - uid: '@azure/abort-controller.DataLakeSASSignatureValues'
     name: DataLakeSASSignatureValues
     spec.typeScript:
       - name: DataLakeSASSignatureValues
         fullName: DataLakeSASSignatureValues
-        uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues'
-  - uid: '@azure/storage-file-datalake.UserDelegationKey'
+        uid: '@azure/abort-controller.DataLakeSASSignatureValues'
+  - uid: '@azure/abort-controller.UserDelegationKey'
     name: UserDelegationKey
     spec.typeScript:
       - name: UserDelegationKey
         fullName: UserDelegationKey
-        uid: '@azure/storage-file-datalake.UserDelegationKey'
-  - uid: '@azure/storage-file-datalake.SASQueryParameters'
+        uid: '@azure/abort-controller.UserDelegationKey'
+  - uid: '@azure/abort-controller.SASQueryParameters'
     name: SASQueryParameters
     spec.typeScript:
       - name: SASQueryParameters
         fullName: SASQueryParameters
-        uid: '@azure/storage-file-datalake.SASQueryParameters'
+        uid: '@azure/abort-controller.SASQueryParameters'

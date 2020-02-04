@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.v8'
+    name: v8
+    langs:
+      - typeScript
+    fullName: v8
+    children:
+      - '@azure/ms-rest-azure-env.v8.DoesZapCodeSpaceFlag'
+      - '@azure/ms-rest-azure-env.v8.getHeapSpaceStatistics'
+      - '@azure/ms-rest-azure-env.v8.getHeapStatistics'
+      - '@azure/ms-rest-azure-env.v8.HeapInfo'
+      - '@azure/ms-rest-azure-env.v8.HeapSpaceInfo'
+      - '@azure/ms-rest-azure-env.v8.setFlagsFromString'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.getHeapSpaceStatistics'
+    name: getHeapSpaceStatistics()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getHeapSpaceStatistics()
+      parameters: []
+      return:
+        type:
+          - 'HeapSpaceInfo[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.getHeapStatistics'
+    name: getHeapStatistics()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getHeapStatistics()
+      parameters: []
+      return:
+        type:
+          - HeapInfo
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.setFlagsFromString'
+    name: setFlagsFromString(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setFlagsFromString(flags: string)'
+      parameters:
+        - id: flags
+          type:
+            - string
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.v8.DoesZapCodeSpaceFlag'
+    name: DoesZapCodeSpaceFlag
+    spec.typeScript:
+      - name: DoesZapCodeSpaceFlag
+        fullName: DoesZapCodeSpaceFlag
+        uid: '@azure/ms-rest-azure-env.v8.DoesZapCodeSpaceFlag'
+  - uid: '@azure/ms-rest-azure-env.v8.getHeapSpaceStatistics'
+    name: getHeapSpaceStatistics
+  - uid: '@azure/ms-rest-azure-env.v8.getHeapStatistics'
+    name: getHeapStatistics
+  - uid: '@azure/ms-rest-azure-env.v8.HeapInfo'
+    name: HeapInfo
+  - uid: '@azure/ms-rest-azure-env.v8.HeapSpaceInfo'
+    name: HeapSpaceInfo
+  - uid: '@azure/ms-rest-azure-env.v8.setFlagsFromString'
+    name: setFlagsFromString

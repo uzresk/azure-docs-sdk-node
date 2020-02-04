@@ -1,0 +1,78 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.LoggingOptions'
+    name: LoggingOptions
+    fullName: LoggingOptions
+    children:
+      - '@azure/ms-rest-azure-env.LoggingOptions.level'
+      - '@azure/ms-rest-azure-env.LoggingOptions.log'
+      - '@azure/ms-rest-azure-env.LoggingOptions.loggingWithPII'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      {boolean} [loggingWithPII] This value indicts if personal identity related
+      information such as token and claims should be logged. The default value
+      is false.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.LoggingOptions.level'
+    name: level
+    fullName: level
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'level?: LoggingLevel'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.LoggingLevel'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.LoggingOptions.log'
+    name: log
+    fullName: log
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'log?: LoggingCallback'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.LoggingCallback'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.LoggingOptions.loggingWithPII'
+    name: loggingWithPII
+    fullName: loggingWithPII
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'loggingWithPII?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.LoggingLevel'
+    name: LoggingLevel
+    spec.typeScript:
+      - name: LoggingLevel
+        fullName: LoggingLevel
+        uid: '@azure/ms-rest-azure-env.LoggingLevel'
+  - uid: '@azure/ms-rest-azure-env.LoggingCallback'
+    name: LoggingCallback
+    spec.typeScript:
+      - name: LoggingCallback
+        fullName: LoggingCallback
+        uid: '@azure/ms-rest-azure-env.LoggingCallback'

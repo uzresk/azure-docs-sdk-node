@@ -1,0 +1,105 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.readline.CursorPos'
+    name: CursorPos
+    fullName: CursorPos
+    children:
+      - '@azure/abort-controller.readline.CursorPos.cols'
+      - '@azure/abort-controller.readline.CursorPos.rows'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.CursorPos.cols'
+    name: cols
+    fullName: cols
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cols: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.CursorPos.rows'
+    name: rows
+    fullName: rows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'rows: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.readline.CursorPos'
+    name: CursorPos
+    spec.typeScript:
+      - name: CursorPos
+        fullName: CursorPos
+        uid: '@azure/abort-controller.readline.CursorPos'
+  - uid: '@azure/abort-controller.readline.Key'
+    name: Key
+    spec.typeScript:
+      - name: Key
+        fullName: Key
+        uid: '@azure/abort-controller.readline.Key'
+  - uid: >-
+      @azure/abort-controller.readline.Completer |
+      @azure/abort-controller.readline.AsyncCompleter
+    name: AsyncCompleter
+    spec.typeScript:
+      - name: Completer
+        fullName: Completer
+        uid: '@azure/abort-controller.readline.Completer'
+      - name: ' | '
+        fullName: ' | '
+      - name: AsyncCompleter
+        fullName: AsyncCompleter
+        uid: '@azure/abort-controller.readline.AsyncCompleter'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.readline.Direction'
+    name: Direction
+    spec.typeScript:
+      - name: Direction
+        fullName: Direction
+        uid: '@azure/abort-controller.readline.Direction'
+  - uid: '@azure/abort-controller.readline.Interface'
+    name: Interface
+    spec.typeScript:
+      - name: Interface
+        fullName: Interface
+        uid: '@azure/abort-controller.readline.Interface'
+  - uid: '@azure/abort-controller.readline.ReadLineOptions'
+    name: ReadLineOptions
+    spec.typeScript:
+      - name: ReadLineOptions
+        fullName: ReadLineOptions
+        uid: '@azure/abort-controller.readline.ReadLineOptions'

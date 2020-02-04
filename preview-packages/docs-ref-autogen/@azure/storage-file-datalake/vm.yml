@@ -1,0 +1,251 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.vm'
+    name: vm
+    langs:
+      - typeScript
+    fullName: vm
+    children:
+      - '@azure/abort-controller.vm.BaseOptions'
+      - '@azure/abort-controller.vm.compileFunction'
+      - '@azure/abort-controller.vm.CompileFunctionOptions'
+      - '@azure/abort-controller.vm.Context'
+      - '@azure/abort-controller.vm.createContext'
+      - '@azure/abort-controller.vm.CreateContextOptions'
+      - '@azure/abort-controller.vm.isContext'
+      - '@azure/abort-controller.vm.runInContext'
+      - '@azure/abort-controller.vm.runInNewContext'
+      - '@azure/abort-controller.vm.runInThisContext'
+      - '@azure/abort-controller.vm.RunningScriptOptions'
+      - '@azure/abort-controller.vm.Script'
+      - '@azure/abort-controller.vm.ScriptOptions'
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.vm.compileFunction'
+    name: 'compileFunction(string, string[], CompileFunctionOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function compileFunction(code: string, params: string[], options:
+        CompileFunctionOptions)
+      parameters:
+        - id: code
+          type:
+            - string
+          description: ''
+        - id: params
+          type:
+            - 'string[]'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.vm.CompileFunctionOptions'
+          description: ''
+      return:
+        type:
+          - Function
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.vm.createContext'
+    name: 'createContext(Context, CreateContextOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createContext(sandbox?: Context, options?:
+        CreateContextOptions)
+      parameters:
+        - id: sandbox
+          type:
+            - '@azure/abort-controller.vm.Context'
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.vm.CreateContextOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.vm.Context'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.vm.isContext'
+    name: isContext(Context)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isContext(sandbox: Context)'
+      parameters:
+        - id: sandbox
+          type:
+            - '@azure/abort-controller.vm.Context'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.vm.runInContext'
+    name: 'runInContext(string, Context, RunningScriptOptions | string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function runInContext(code: string, contextifiedSandbox: Context,
+        options?: RunningScriptOptions | string)
+      parameters:
+        - id: code
+          type:
+            - string
+          description: ''
+        - id: contextifiedSandbox
+          type:
+            - '@azure/abort-controller.vm.Context'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.vm.RunningScriptOptions | string'
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.vm.runInNewContext'
+    name: 'runInNewContext(string, Context, RunningScriptOptions | string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function runInNewContext(code: string, sandbox?: Context, options?:
+        RunningScriptOptions | string)
+      parameters:
+        - id: code
+          type:
+            - string
+          description: ''
+        - id: sandbox
+          type:
+            - '@azure/abort-controller.vm.Context'
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.vm.RunningScriptOptions | string'
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.vm.runInThisContext'
+    name: 'runInThisContext(string, RunningScriptOptions | string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function runInThisContext(code: string, options?: RunningScriptOptions |
+        string)
+      parameters:
+        - id: code
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.vm.RunningScriptOptions | string'
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.vm.ScriptOptions'
+    name: ScriptOptions
+    spec.typeScript:
+      - name: ScriptOptions
+        fullName: ScriptOptions
+        uid: '@azure/abort-controller.vm.ScriptOptions'
+  - uid: '@azure/abort-controller.vm.Context'
+    name: Context
+    spec.typeScript:
+      - name: Context
+        fullName: Context
+        uid: '@azure/abort-controller.vm.Context'
+  - uid: '@azure/abort-controller.vm.RunningScriptOptions'
+    name: RunningScriptOptions
+    spec.typeScript:
+      - name: RunningScriptOptions
+        fullName: RunningScriptOptions
+        uid: '@azure/abort-controller.vm.RunningScriptOptions'
+  - uid: '@azure/abort-controller.vm.BaseOptions'
+    name: BaseOptions
+    spec.typeScript:
+      - name: BaseOptions
+        fullName: BaseOptions
+        uid: '@azure/abort-controller.vm.BaseOptions'
+  - uid: '@azure/abort-controller.Buffer'
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: '@azure/abort-controller.Buffer'
+  - uid: '@azure/abort-controller.vm.CompileFunctionOptions'
+    name: CompileFunctionOptions
+    spec.typeScript:
+      - name: CompileFunctionOptions
+        fullName: CompileFunctionOptions
+        uid: '@azure/abort-controller.vm.CompileFunctionOptions'
+  - uid: '@azure/abort-controller.vm.CreateContextOptions'
+    name: CreateContextOptions
+    spec.typeScript:
+      - name: CreateContextOptions
+        fullName: CreateContextOptions
+        uid: '@azure/abort-controller.vm.CreateContextOptions'
+  - uid: '@azure/abort-controller.vm.RunningScriptOptions | string'
+    name: RunningScriptOptions | string
+    spec.typeScript:
+      - name: RunningScriptOptions
+        fullName: RunningScriptOptions
+        uid: '@azure/abort-controller.vm.RunningScriptOptions'
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: '@azure/abort-controller.vm.compileFunction'
+    name: compileFunction
+  - uid: '@azure/abort-controller.vm.createContext'
+    name: createContext
+  - uid: '@azure/abort-controller.vm.isContext'
+    name: isContext
+  - uid: '@azure/abort-controller.vm.runInContext'
+    name: runInContext
+  - uid: '@azure/abort-controller.vm.runInNewContext'
+    name: runInNewContext
+  - uid: '@azure/abort-controller.vm.runInThisContext'
+    name: runInThisContext
+  - uid: '@azure/abort-controller.vm.Script'
+    name: Script

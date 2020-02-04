@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.CustomAttributeFunction'
+    name: CustomAttributeFunction
+    fullName: CustomAttributeFunction
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Function that can be provided to plugin in order to add custom
+      attributes to spans
+    package: '@opentelemetry/types'

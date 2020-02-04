@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.parseConnectionString'
+  - uid: '@azure/ms-rest-azure-env.parseConnectionString'
     name: parseConnectionString(string)
     children: []
     type: function
@@ -31,15 +31,15 @@ items:
           description: The connection string to be parsed.
       return:
         type:
-          - '@azure/amqp-common.ParsedOutput<T>'
+          - '@azure/ms-rest-azure-env.ParsedOutput<T>'
         description: ParsedOutput<T>.
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'
 references:
-  - uid: '@azure/amqp-common.ParsedOutput<T>'
+  - uid: '@azure/ms-rest-azure-env.ParsedOutput<T>'
     name: ParsedOutput<T>
     spec.typeScript:
       - name: ParsedOutput
         fullName: ParsedOutput
-        uid: '@azure/amqp-common.ParsedOutput'
+        uid: '@azure/ms-rest-azure-env.ParsedOutput'
       - name: <T>
         fullName: <T>

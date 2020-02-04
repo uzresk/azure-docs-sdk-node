@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.EnumMapperType'
+    name: EnumMapperType
+    fullName: EnumMapperType
+    children:
+      - '@azure/abort-controller.EnumMapperType.allowedValues'
+      - '@azure/abort-controller.EnumMapperType.name'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EnumMapperType.allowedValues'
+    name: allowedValues
+    fullName: allowedValues
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'allowedValues: any[]'
+      return:
+        type:
+          - 'any[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EnumMapperType.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: "Enum"'
+      return:
+        type:
+          - '"Enum"'
+        description: ''
+    package: '@azure/abort-controller'

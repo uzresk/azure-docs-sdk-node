@@ -1,0 +1,922 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.stream.internal'
+    name: internal
+    fullName: internal
+    children:
+      - '@azure/abort-controller.stream.internal.addListener'
+      - '@azure/abort-controller.stream.internal.defaultMaxListeners'
+      - '@azure/abort-controller.stream.internal.Duplex'
+      - '@azure/abort-controller.stream.internal.DuplexOptions'
+      - '@azure/abort-controller.stream.internal.emit'
+      - '@azure/abort-controller.stream.internal.eventNames'
+      - '@azure/abort-controller.stream.internal.finished_1'
+      - '@azure/abort-controller.stream.internal.finished'
+      - '@azure/abort-controller.stream.internal.FinishedOptions'
+      - '@azure/abort-controller.stream.internal.getMaxListeners'
+      - '@azure/abort-controller.stream.internal.constructor'
+      - '@azure/abort-controller.stream.internal.listenerCount'
+      - '@azure/abort-controller.stream.internal.listenerCount'
+      - '@azure/abort-controller.stream.internal.listeners'
+      - '@azure/abort-controller.stream.internal.off'
+      - '@azure/abort-controller.stream.internal.on'
+      - '@azure/abort-controller.stream.internal.once'
+      - '@azure/abort-controller.stream.internal.PassThrough'
+      - '@azure/abort-controller.stream.internal.Pipe'
+      - '@azure/abort-controller.stream.internal.pipe'
+      - '@azure/abort-controller.stream.internal.pipeline_4'
+      - '@azure/abort-controller.stream.internal.pipeline_5'
+      - '@azure/abort-controller.stream.internal.pipeline_3'
+      - '@azure/abort-controller.stream.internal.pipeline_2'
+      - '@azure/abort-controller.stream.internal.pipeline_1'
+      - '@azure/abort-controller.stream.internal.pipeline'
+      - '@azure/abort-controller.stream.internal.prependListener'
+      - '@azure/abort-controller.stream.internal.prependOnceListener'
+      - '@azure/abort-controller.stream.internal.rawListeners'
+      - '@azure/abort-controller.stream.internal.Readable'
+      - '@azure/abort-controller.stream.internal.ReadableOptions'
+      - '@azure/abort-controller.stream.internal.removeAllListeners'
+      - '@azure/abort-controller.stream.internal.removeListener'
+      - '@azure/abort-controller.stream.internal.setMaxListeners'
+      - '@azure/abort-controller.stream.internal.Stream'
+      - '@azure/abort-controller.stream.internal.Transform'
+      - '@azure/abort-controller.stream.internal.TransformCallback'
+      - '@azure/abort-controller.stream.internal.TransformOptions'
+      - '@azure/abort-controller.stream.internal.Writable'
+      - '@azure/abort-controller.stream.internal.WritableOptions'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.addListener'
+    name: 'addListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: string | symbol, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.defaultMaxListeners'
+    name: defaultMaxListeners
+    fullName: defaultMaxListeners
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultMaxListeners: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.finished_1'
+    name: >-
+      finished(ReadableStream | WritableStream | ReadWriteStream, (err?:
+      ErrnoException | null) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function finished(stream: ReadableStream | WritableStream |
+        ReadWriteStream, callback: (err?: ErrnoException | null) => void)
+      parameters:
+        - id: stream
+          type:
+            - >-
+              @azure/abort-controller.NodeJS.ReadableStream |
+              @azure/abort-controller.NodeJS.WritableStream |
+              @azure/abort-controller.NodeJS.ReadWriteStream
+          description: ''
+        - id: callback
+          type:
+            - '(err?: ErrnoException | null) => void'
+          description: ''
+      return:
+        type:
+          - () => void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.finished'
+    name: >-
+      finished(ReadableStream | WritableStream | ReadWriteStream,
+      FinishedOptions, (err?: ErrnoException | null) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function finished(stream: ReadableStream | WritableStream |
+        ReadWriteStream, options: FinishedOptions, callback: (err?:
+        ErrnoException | null) => void)
+      parameters:
+        - id: stream
+          type:
+            - >-
+              @azure/abort-controller.NodeJS.ReadableStream |
+              @azure/abort-controller.NodeJS.WritableStream |
+              @azure/abort-controller.NodeJS.ReadWriteStream
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.stream.internal.FinishedOptions'
+          description: ''
+        - id: callback
+          type:
+            - '(err?: ErrnoException | null) => void'
+          description: ''
+      return:
+        type:
+          - () => void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.constructor'
+    name: internal(EventEmitterOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new internal(options?: EventEmitterOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.events.EventEmitterOptions'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.listenerCount'
+    name: 'listenerCount(EventEmitter, string | symbol)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function listenerCount(emitter: EventEmitter, event: string |
+        symbol)
+      parameters:
+        - id: emitter
+          type:
+            - '@azure/abort-controller.events.EventEmitter.EventEmitter'
+          description: ''
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+    deprecated:
+      content: since v4.0.0
+  - uid: '@azure/abort-controller.stream.internal.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.on'
+    name: 'on(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.once'
+    name: 'once(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.pipe'
+    name: 'pipe(T, Object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pipe<T>(destination: T, options?: Object)'
+      parameters:
+        - id: destination
+          type:
+            - T
+          description: ''
+        - id: options
+          type:
+            - Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.pipeline_4'
+    name: >-
+      pipeline(Array<ReadableStream | WritableStream | ReadWriteStream>, (err:
+      ErrnoException | null) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function pipeline(streams: Array<ReadableStream | WritableStream
+        | ReadWriteStream>, callback?: (err: ErrnoException | null) => void)
+      parameters:
+        - id: streams
+          type:
+            - >-
+              Array<@azure/abort-controller.NodeJS.ReadableStream |
+              @azure/abort-controller.NodeJS.WritableStream |
+              @azure/abort-controller.NodeJS.ReadWriteStream>
+          description: ''
+        - id: callback
+          type:
+            - '(err: ErrnoException | null) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.WritableStream'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.pipeline_5'
+    name: >-
+      pipeline(ReadableStream, ReadWriteStream | WritableStream,
+      Array<ReadWriteStream | WritableStream | (err: ErrnoException | null) =>
+      void>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function pipeline(stream1: ReadableStream, stream2:
+        ReadWriteStream | WritableStream, streams: Array<ReadWriteStream |
+        WritableStream | (err: ErrnoException | null) => void>)
+      parameters:
+        - id: stream1
+          type:
+            - '@azure/abort-controller.NodeJS.ReadableStream'
+          description: ''
+        - id: stream2
+          type:
+            - >-
+              @azure/abort-controller.NodeJS.ReadWriteStream |
+              @azure/abort-controller.NodeJS.WritableStream
+          description: ''
+        - id: streams
+          type:
+            - >-
+              Array<@azure/abort-controller.NodeJS.ReadWriteStream |
+              @azure/abort-controller.NodeJS.WritableStream | (err:
+              ErrnoException | null) => void>
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.WritableStream'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.pipeline_3'
+    name: >-
+      pipeline(ReadableStream, ReadWriteStream, ReadWriteStream,
+      ReadWriteStream, T, (err: ErrnoException | null) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function pipeline<T>(stream1: ReadableStream, stream2:
+        ReadWriteStream, stream3: ReadWriteStream, stream4: ReadWriteStream,
+        stream5: T, callback?: (err: ErrnoException | null) => void)
+      parameters:
+        - id: stream1
+          type:
+            - '@azure/abort-controller.NodeJS.ReadableStream'
+          description: ''
+        - id: stream2
+          type:
+            - '@azure/abort-controller.NodeJS.ReadWriteStream'
+          description: ''
+        - id: stream3
+          type:
+            - '@azure/abort-controller.NodeJS.ReadWriteStream'
+          description: ''
+        - id: stream4
+          type:
+            - '@azure/abort-controller.NodeJS.ReadWriteStream'
+          description: ''
+        - id: stream5
+          type:
+            - T
+          description: ''
+        - id: callback
+          type:
+            - '(err: ErrnoException | null) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.pipeline_2'
+    name: >-
+      pipeline(ReadableStream, ReadWriteStream, ReadWriteStream, T, (err:
+      ErrnoException | null) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function pipeline<T>(stream1: ReadableStream, stream2:
+        ReadWriteStream, stream3: ReadWriteStream, stream4: T, callback?: (err:
+        ErrnoException | null) => void)
+      parameters:
+        - id: stream1
+          type:
+            - '@azure/abort-controller.NodeJS.ReadableStream'
+          description: ''
+        - id: stream2
+          type:
+            - '@azure/abort-controller.NodeJS.ReadWriteStream'
+          description: ''
+        - id: stream3
+          type:
+            - '@azure/abort-controller.NodeJS.ReadWriteStream'
+          description: ''
+        - id: stream4
+          type:
+            - T
+          description: ''
+        - id: callback
+          type:
+            - '(err: ErrnoException | null) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.pipeline_1'
+    name: >-
+      pipeline(ReadableStream, ReadWriteStream, T, (err: ErrnoException | null)
+      => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function pipeline<T>(stream1: ReadableStream, stream2:
+        ReadWriteStream, stream3: T, callback?: (err: ErrnoException | null) =>
+        void)
+      parameters:
+        - id: stream1
+          type:
+            - '@azure/abort-controller.NodeJS.ReadableStream'
+          description: ''
+        - id: stream2
+          type:
+            - '@azure/abort-controller.NodeJS.ReadWriteStream'
+          description: ''
+        - id: stream3
+          type:
+            - T
+          description: ''
+        - id: callback
+          type:
+            - '(err: ErrnoException | null) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.pipeline'
+    name: 'pipeline(ReadableStream, T, (err: ErrnoException | null) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function pipeline<T>(stream1: ReadableStream, stream2: T,
+        callback?: (err: ErrnoException | null) => void)
+      parameters:
+        - id: stream1
+          type:
+            - '@azure/abort-controller.NodeJS.ReadableStream'
+          description: ''
+        - id: stream2
+          type:
+            - T
+          description: ''
+        - id: callback
+          type:
+            - '(err: ErrnoException | null) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.prependListener'
+    name: 'prependListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.prependOnceListener'
+    name: 'prependOnceListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string | symbol, listener: (args:
+        any[]) => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.removeListener'
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions'
+    name: DuplexOptions
+    spec.typeScript:
+      - name: DuplexOptions
+        fullName: DuplexOptions
+        uid: '@azure/abort-controller.stream.internal.DuplexOptions'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+  - uid: '@azure/abort-controller.stream.internal.Transform'
+    name: Transform
+    spec.typeScript:
+      - name: Transform
+        fullName: Transform
+        uid: '@azure/abort-controller.stream.internal.Transform'
+  - uid: '@azure/abort-controller.stream.internal.TransformOptions'
+    name: TransformOptions
+    spec.typeScript:
+      - name: TransformOptions
+        fullName: TransformOptions
+        uid: '@azure/abort-controller.stream.internal.TransformOptions'
+  - uid: '@azure/abort-controller.stream.internal.Stream'
+    name: Stream
+    spec.typeScript:
+      - name: Stream
+        fullName: Stream
+        uid: '@azure/abort-controller.stream.internal.Stream'
+  - uid: '@azure/abort-controller.stream.internal'
+    name: internal
+    spec.typeScript:
+      - name: internal
+        fullName: internal
+        uid: '@azure/abort-controller.stream.internal'
+  - uid: '@azure/abort-controller.stream.internal.Duplex'
+    name: Duplex
+    spec.typeScript:
+      - name: Duplex
+        fullName: Duplex
+        uid: '@azure/abort-controller.stream.internal.Duplex'
+  - uid: '@azure/abort-controller.stream.internal.WritableOptions'
+    name: WritableOptions
+    spec.typeScript:
+      - name: WritableOptions
+        fullName: WritableOptions
+        uid: '@azure/abort-controller.stream.internal.WritableOptions'
+  - uid: '@azure/abort-controller.stream.internal.TransformCallback'
+    name: TransformCallback
+    spec.typeScript:
+      - name: TransformCallback
+        fullName: TransformCallback
+        uid: '@azure/abort-controller.stream.internal.TransformCallback'
+  - uid: '@azure/abort-controller.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: >-
+      @azure/abort-controller.NodeJS.ReadableStream |
+      @azure/abort-controller.NodeJS.WritableStream |
+      @azure/abort-controller.NodeJS.ReadWriteStream
+    name: ReadWriteStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+      - name: ' | '
+        fullName: ' | '
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+      - name: ' | '
+        fullName: ' | '
+      - name: ReadWriteStream
+        fullName: ReadWriteStream
+        uid: '@azure/abort-controller.NodeJS.ReadWriteStream'
+  - uid: '@azure/abort-controller.stream.internal.FinishedOptions'
+    name: FinishedOptions
+    spec.typeScript:
+      - name: FinishedOptions
+        fullName: FinishedOptions
+        uid: '@azure/abort-controller.stream.internal.FinishedOptions'
+  - uid: '@azure/abort-controller.NodeJS.ReadWriteStream'
+    name: ReadWriteStream
+    spec.typeScript:
+      - name: ReadWriteStream
+        fullName: ReadWriteStream
+        uid: '@azure/abort-controller.NodeJS.ReadWriteStream'
+  - uid: >-
+      Array<@azure/abort-controller.NodeJS.ReadableStream |
+      @azure/abort-controller.NodeJS.WritableStream |
+      @azure/abort-controller.NodeJS.ReadWriteStream>
+    name: ReadWriteStream>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+      - name: ' | '
+        fullName: ' | '
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+      - name: ' | '
+        fullName: ' | '
+      - name: ReadWriteStream
+        fullName: ReadWriteStream
+        uid: '@azure/abort-controller.NodeJS.ReadWriteStream'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.NodeJS.ReadWriteStream |
+      @azure/abort-controller.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: ReadWriteStream
+        fullName: ReadWriteStream
+        uid: '@azure/abort-controller.NodeJS.ReadWriteStream'
+      - name: ' | '
+        fullName: ' | '
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: >-
+      Array<@azure/abort-controller.NodeJS.ReadWriteStream |
+      @azure/abort-controller.NodeJS.WritableStream | (err: ErrnoException |
+      null) => void>
+    name: 'WritableStream | (err: ErrnoException | null) => void>'
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: ReadWriteStream
+        fullName: ReadWriteStream
+        uid: '@azure/abort-controller.NodeJS.ReadWriteStream'
+      - name: ' | '
+        fullName: ' | '
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+      - name: ' | (err: ErrnoException | null) => void>'
+        fullName: ' | (err: ErrnoException | null) => void>'

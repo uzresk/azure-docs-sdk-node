@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.clearInterval
+    name: clearInterval(Timeout)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function clearInterval(intervalId: Timeout)'
+      parameters:
+        - id: intervalId
+          type:
+            - tslib.NodeJS.Timeout
+          description: ''
+    package: tslib
+references:
+  - uid: tslib.NodeJS.Timeout
+    name: Timeout
+    spec.typeScript:
+      - name: Timeout
+        fullName: Timeout
+        uid: tslib.NodeJS.Timeout

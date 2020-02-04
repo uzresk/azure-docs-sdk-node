@@ -1,0 +1,132 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.punycode.Punycode'
+    name: Punycode
+    fullName: Punycode
+    children:
+      - '@azure/ms-rest-azure-env.punycode.Punycode.decode'
+      - '@azure/ms-rest-azure-env.punycode.Punycode.encode'
+      - '@azure/ms-rest-azure-env.punycode.Punycode.toASCII'
+      - '@azure/ms-rest-azure-env.punycode.Punycode.toUnicode'
+      - '@azure/ms-rest-azure-env.punycode.Punycode.ucs2'
+      - '@azure/ms-rest-azure-env.punycode.Punycode.version'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.punycode.Punycode.decode'
+    name: decode
+    fullName: decode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'decode: decode'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.punycode.decode'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.punycode.Punycode.encode'
+    name: encode
+    fullName: encode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'encode: encode'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.punycode.encode'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.punycode.Punycode.toASCII'
+    name: toASCII
+    fullName: toASCII
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'toASCII: toASCII'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.punycode.toASCII'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.punycode.Punycode.toUnicode'
+    name: toUnicode
+    fullName: toUnicode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'toUnicode: toUnicode'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.punycode.toUnicode'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.punycode.Punycode.ucs2'
+    name: ucs2
+    fullName: ucs2
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ucs2: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.punycode.Punycode.version'
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'version: "2.2.0"'
+      return:
+        type:
+          - '"2.2.0"'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.punycode.decode'
+    name: decode
+    spec.typeScript:
+      - name: decode
+        fullName: decode
+        uid: '@azure/ms-rest-azure-env.punycode.decode'
+  - uid: '@azure/ms-rest-azure-env.punycode.encode'
+    name: encode
+    spec.typeScript:
+      - name: encode
+        fullName: encode
+        uid: '@azure/ms-rest-azure-env.punycode.encode'
+  - uid: '@azure/ms-rest-azure-env.punycode.toASCII'
+    name: toASCII
+    spec.typeScript:
+      - name: toASCII
+        fullName: toASCII
+        uid: '@azure/ms-rest-azure-env.punycode.toASCII'
+  - uid: '@azure/ms-rest-azure-env.punycode.toUnicode'
+    name: toUnicode
+    spec.typeScript:
+      - name: toUnicode
+        fullName: toUnicode
+        uid: '@azure/ms-rest-azure-env.punycode.toUnicode'

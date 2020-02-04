@@ -1,0 +1,227 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.readline.ReadLineOptions'
+    name: ReadLineOptions
+    fullName: ReadLineOptions
+    children:
+      - '@azure/abort-controller.readline.ReadLineOptions.completer'
+      - '@azure/abort-controller.readline.ReadLineOptions.crlfDelay'
+      - '@azure/abort-controller.readline.ReadLineOptions.escapeCodeTimeout'
+      - '@azure/abort-controller.readline.ReadLineOptions.historySize'
+      - '@azure/abort-controller.readline.ReadLineOptions.input'
+      - '@azure/abort-controller.readline.ReadLineOptions.output'
+      - '@azure/abort-controller.readline.ReadLineOptions.prompt'
+      - '@azure/abort-controller.readline.ReadLineOptions.removeHistoryDuplicates'
+      - '@azure/abort-controller.readline.ReadLineOptions.terminal'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.ReadLineOptions.completer'
+    name: completer
+    fullName: completer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'completer?: Completer | AsyncCompleter'
+      return:
+        type:
+          - >-
+            @azure/abort-controller.readline.Completer |
+            @azure/abort-controller.readline.AsyncCompleter
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.ReadLineOptions.crlfDelay'
+    name: crlfDelay
+    fullName: crlfDelay
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'crlfDelay?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.ReadLineOptions.escapeCodeTimeout'
+    name: escapeCodeTimeout
+    fullName: escapeCodeTimeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'escapeCodeTimeout?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.ReadLineOptions.historySize'
+    name: historySize
+    fullName: historySize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'historySize?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.ReadLineOptions.input'
+    name: input
+    fullName: input
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'input: ReadableStream'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.ReadableStream'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.ReadLineOptions.output'
+    name: output
+    fullName: output
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'output?: WritableStream'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.WritableStream'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.ReadLineOptions.prompt'
+    name: prompt
+    fullName: prompt
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'prompt?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.ReadLineOptions.removeHistoryDuplicates'
+    name: removeHistoryDuplicates
+    fullName: removeHistoryDuplicates
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'removeHistoryDuplicates?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.readline.ReadLineOptions.terminal'
+    name: terminal
+    fullName: terminal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'terminal?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.readline.CursorPos'
+    name: CursorPos
+    spec.typeScript:
+      - name: CursorPos
+        fullName: CursorPos
+        uid: '@azure/abort-controller.readline.CursorPos'
+  - uid: '@azure/abort-controller.readline.Key'
+    name: Key
+    spec.typeScript:
+      - name: Key
+        fullName: Key
+        uid: '@azure/abort-controller.readline.Key'
+  - uid: >-
+      @azure/abort-controller.readline.Completer |
+      @azure/abort-controller.readline.AsyncCompleter
+    name: AsyncCompleter
+    spec.typeScript:
+      - name: Completer
+        fullName: Completer
+        uid: '@azure/abort-controller.readline.Completer'
+      - name: ' | '
+        fullName: ' | '
+      - name: AsyncCompleter
+        fullName: AsyncCompleter
+        uid: '@azure/abort-controller.readline.AsyncCompleter'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.readline.Direction'
+    name: Direction
+    spec.typeScript:
+      - name: Direction
+        fullName: Direction
+        uid: '@azure/abort-controller.readline.Direction'
+  - uid: '@azure/abort-controller.readline.Interface'
+    name: Interface
+    spec.typeScript:
+      - name: Interface
+        fullName: Interface
+        uid: '@azure/abort-controller.readline.Interface'
+  - uid: '@azure/abort-controller.readline.ReadLineOptions'
+    name: ReadLineOptions
+    spec.typeScript:
+      - name: ReadLineOptions
+        fullName: ReadLineOptions
+        uid: '@azure/abort-controller.readline.ReadLineOptions'

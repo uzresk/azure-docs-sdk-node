@@ -1,0 +1,1721 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex'
+    name: Duplex
+    fullName: Duplex
+    children:
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.addListener_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.addListener_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.addListener_3'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.addListener_5'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.addListener_4'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.addListener'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.cork'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.destroy'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.constructor'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.emit_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.emit_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.emit_3'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.emit_5'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.emit_4'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.emit'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.end_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.end_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.end'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.eventNames'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.getMaxListeners'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.isPaused'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.listenerCount'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.listeners'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.off'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.on_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.on_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.on_3'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.on_5'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.on_4'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.on'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.once_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.once_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.once_3'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.once_5'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.once_4'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.once'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.pause'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.pipe'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.prependListener_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.prependListener_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.prependListener_3'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.prependListener_5'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.prependListener_4'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.prependListener'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.prependOnceListener_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.prependOnceListener_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.prependOnceListener_3'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.prependOnceListener_5'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.prependOnceListener_4'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.prependOnceListener'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.push'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.rawListeners'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.read'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.readable'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.readableHighWaterMark'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.removeAllListeners'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.removeListener_1'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.removeListener_2'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.removeListener_3'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.removeListener_5'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.removeListener_4'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.removeListener'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.resume'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.setDefaultEncoding'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.setEncoding'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.setMaxListeners'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.uncork'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.unpipe'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.unshift'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.wrap'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.writable'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.writableHighWaterMark'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.write'
+      - '@azure/ms-rest-azure-env.stream.internal.Duplex.write_1'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/ms-rest-azure-env.stream.internal.Readable'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.addListener_1'
+    name: 'addListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.addListener_2'
+    name: 'addListener("data", (chunk: Buffer | string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "data", listener: (chunk: Buffer | string)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: Buffer | string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.addListener_3'
+    name: 'addListener("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.addListener_5'
+    name: 'addListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.addListener_4'
+    name: 'addListener("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.addListener'
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Event emitter
+      The defined events on documents including:
+      1. close
+      2. data
+      3. end
+      4. readable
+      5. error
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.cork'
+    name: cork()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function cork()
+      parameters: []
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.destroy'
+    name: destroy(Error)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function destroy(error?: Error)'
+      parameters:
+        - id: error
+          type:
+            - '@azure/ms-rest-azure-env.Error'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.constructor'
+    name: Duplex(DuplexOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Duplex(opts?: DuplexOptions)'
+      parameters:
+        - id: opts
+          type:
+            - '@azure/ms-rest-azure-env.stream.internal.DuplexOptions'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.emit_1'
+    name: emit("close")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "close")'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.emit_2'
+    name: 'emit("data", Buffer | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "data", chunk: Buffer | string)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: chunk
+          type:
+            - Buffer | string
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.emit_3'
+    name: emit("end")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "end")'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.emit_5'
+    name: 'emit("error", Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "error", err: Error)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: err
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.emit_4'
+    name: emit("readable")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "readable")'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.end_1'
+    name: 'end(any, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(chunk: any, cb?: Function)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: cb
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.end_2'
+    name: 'end(any, undefined | string, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(chunk: any, encoding?: undefined | string, cb?: Function)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: cb
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.end'
+    name: end(Function)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(cb?: Function)'
+      parameters:
+        - id: cb
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.isPaused'
+    name: isPaused()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isPaused()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.on_1'
+    name: 'on("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.on_2'
+    name: 'on("data", (chunk: Buffer | string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "data", listener: (chunk: Buffer | string) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: Buffer | string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.on_3'
+    name: 'on("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.on_5'
+    name: 'on("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.on_4'
+    name: 'on("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.on'
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.once_1'
+    name: 'once("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.once_2'
+    name: 'once("data", (chunk: Buffer | string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "data", listener: (chunk: Buffer | string) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: Buffer | string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.once_3'
+    name: 'once("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.once_5'
+    name: 'once("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.once_4'
+    name: 'once("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.once'
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.pause'
+    name: pause()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function pause()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.pipe'
+    name: 'pipe(T, undefined | Object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pipe<T>(destination: T, options?: undefined | Object)'
+      parameters:
+        - id: destination
+          type:
+            - T
+          description: ''
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.prependListener_1'
+    name: 'prependListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.prependListener_2'
+    name: 'prependListener("data", (chunk: Buffer | string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "data", listener: (chunk: Buffer |
+        string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: Buffer | string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.prependListener_3'
+    name: 'prependListener("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.prependListener_5'
+    name: 'prependListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.prependListener_4'
+    name: 'prependListener("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.prependListener'
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.prependOnceListener_1'
+    name: 'prependOnceListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.prependOnceListener_2'
+    name: 'prependOnceListener("data", (chunk: Buffer | string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "data", listener: (chunk: Buffer |
+        string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: Buffer | string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.prependOnceListener_3'
+    name: 'prependOnceListener("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.prependOnceListener_5'
+    name: 'prependOnceListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "error", listener: (err: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.prependOnceListener_4'
+    name: 'prependOnceListener("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.prependOnceListener'
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.push'
+    name: 'push(any, undefined | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function push(chunk: any, encoding?: undefined | string)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.read'
+    name: read(undefined | number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function read(size?: undefined | number)'
+      parameters:
+        - id: size
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.readable'
+    name: readable
+    fullName: readable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readable: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.readableHighWaterMark'
+    name: readableHighWaterMark
+    fullName: readableHighWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readableHighWaterMark: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.removeListener_1'
+    name: 'removeListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.removeListener_2'
+    name: 'removeListener("data", (chunk: Buffer | string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: "data", listener: (chunk: Buffer |
+        string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: Buffer | string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.removeListener_3'
+    name: 'removeListener("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.removeListener_5'
+    name: 'removeListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.removeListener_4'
+    name: 'removeListener("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.removeListener'
+    name: 'removeListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.resume'
+    name: resume()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resume()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.setDefaultEncoding'
+    name: setDefaultEncoding(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setDefaultEncoding(encoding: string)'
+      parameters:
+        - id: encoding
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.setEncoding'
+    name: setEncoding(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setEncoding(encoding: string)'
+      parameters:
+        - id: encoding
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.uncork'
+    name: uncork()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function uncork()
+      parameters: []
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.unpipe'
+    name: unpipe(T)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unpipe<T>(destination?: T)'
+      parameters:
+        - id: destination
+          type:
+            - T
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.unshift'
+    name: unshift(any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unshift(chunk: any)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.wrap'
+    name: wrap(ReadableStream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function wrap(oldStream: ReadableStream)'
+      parameters:
+        - id: oldStream
+          type:
+            - ReadableStream
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.writable'
+    name: writable
+    fullName: writable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writable: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.writableHighWaterMark'
+    name: writableHighWaterMark
+    fullName: writableHighWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableHighWaterMark: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.write'
+    name: 'write(any, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function write(chunk: any, cb?: Function)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: cb
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex.write_1'
+    name: 'write(any, undefined | string, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function write(chunk: any, encoding?: undefined | string, cb?: Function)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: cb
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.DuplexOptions'
+    name: DuplexOptions
+    spec.typeScript:
+      - name: DuplexOptions
+        fullName: DuplexOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.DuplexOptions'
+  - uid: '@azure/ms-rest-azure-env.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.Error'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Transform'
+    name: Transform
+    spec.typeScript:
+      - name: Transform
+        fullName: Transform
+        uid: '@azure/ms-rest-azure-env.stream.internal.Transform'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.TransformOptions'
+    name: TransformOptions
+    spec.typeScript:
+      - name: TransformOptions
+        fullName: TransformOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.TransformOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Stream'
+    name: Stream
+    spec.typeScript:
+      - name: Stream
+        fullName: Stream
+        uid: '@azure/ms-rest-azure-env.stream.internal.Stream'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal'
+    name: internal
+    spec.typeScript:
+      - name: internal
+        fullName: internal
+        uid: '@azure/ms-rest-azure-env.stream.internal'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex'
+    name: Duplex
+    spec.typeScript:
+      - name: Duplex
+        fullName: Duplex
+        uid: '@azure/ms-rest-azure-env.stream.internal.Duplex'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.WritableOptions'
+    name: WritableOptions
+    spec.typeScript:
+      - name: WritableOptions
+        fullName: WritableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.WritableOptions'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'

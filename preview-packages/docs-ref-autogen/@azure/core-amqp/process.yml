@@ -1,0 +1,12 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.process
+    name: process
+    langs:
+      - typeScript
+    fullName: process
+    children: []
+    type: module
+    summary: ''
+    package: tslib
+references: []

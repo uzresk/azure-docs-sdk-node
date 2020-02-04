@@ -1,0 +1,399 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.repl.ReplOptions'
+    name: ReplOptions
+    fullName: ReplOptions
+    children:
+      - '@azure/abort-controller.repl.ReplOptions.breakEvalOnSigint'
+      - '@azure/abort-controller.repl.ReplOptions.completer'
+      - '@azure/abort-controller.repl.ReplOptions.eval'
+      - '@azure/abort-controller.repl.ReplOptions.ignoreUndefined'
+      - '@azure/abort-controller.repl.ReplOptions.input'
+      - '@azure/abort-controller.repl.ReplOptions.output'
+      - '@azure/abort-controller.repl.ReplOptions.preview'
+      - '@azure/abort-controller.repl.ReplOptions.prompt'
+      - '@azure/abort-controller.repl.ReplOptions.replMode'
+      - '@azure/abort-controller.repl.ReplOptions.terminal'
+      - '@azure/abort-controller.repl.ReplOptions.useColors'
+      - '@azure/abort-controller.repl.ReplOptions.useGlobal'
+      - '@azure/abort-controller.repl.ReplOptions.writer'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.repl.ReplOptions.breakEvalOnSigint'
+    name: breakEvalOnSigint
+    fullName: breakEvalOnSigint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Stop evaluating the current piece of code when `SIGINT` is received, i.e.
+      `Ctrl+C` is
+
+      pressed. This cannot be used together with a custom `eval` function.
+
+      Default: `false`.
+    optional: true
+    syntax:
+      content: 'breakEvalOnSigint?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.repl.ReplOptions.completer'
+    name: completer
+    fullName: completer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: An optional function used for custom Tab auto completion.
+    optional: true
+    syntax:
+      content: 'completer?: Completer | AsyncCompleter'
+      return:
+        type:
+          - >-
+            @azure/abort-controller.readline.Completer |
+            @azure/abort-controller.readline.AsyncCompleter
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.repl.ReplOptions.eval'
+    name: eval
+    fullName: eval
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The function to be used when evaluating each given line of input.
+
+      Default: an async wrapper for the JavaScript `eval()` function. An `eval`
+      function can
+
+      error with `repl.Recoverable` to indicate the input was incomplete and
+      prompt for
+
+      additional lines.
+    optional: true
+    syntax:
+      content: 'eval?: REPLEval'
+      return:
+        type:
+          - '@azure/abort-controller.repl.REPLEval'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.repl.ReplOptions.ignoreUndefined'
+    name: ignoreUndefined
+    fullName: ignoreUndefined
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If `true`, specifies that the default writer will not output the return
+      value of a
+
+      command if it evaluates to `undefined`.
+
+      Default: `false`.
+    optional: true
+    syntax:
+      content: 'ignoreUndefined?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.repl.ReplOptions.input'
+    name: input
+    fullName: input
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The `Readable` stream from which REPL input will be read.
+      Default: `process.stdin`
+    optional: true
+    syntax:
+      content: 'input?: ReadableStream'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.ReadableStream'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.repl.ReplOptions.output'
+    name: output
+    fullName: output
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The `Writable` stream to which REPL output will be written.
+      Default: `process.stdout`
+    optional: true
+    syntax:
+      content: 'output?: WritableStream'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.WritableStream'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.repl.ReplOptions.preview'
+    name: preview
+    fullName: preview
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Defines if the repl prints output previews or not.
+    optional: true
+    syntax:
+      content: 'preview?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.repl.ReplOptions.prompt'
+    name: prompt
+    fullName: prompt
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The input prompt to display.
+      Default: `"> "`
+    optional: true
+    syntax:
+      content: 'prompt?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.repl.ReplOptions.replMode'
+    name: replMode
+    fullName: replMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A flag that specifies whether the default evaluator executes all
+      JavaScript commands in
+
+      strict mode or default (sloppy) mode.
+
+      Accepted values are:
+
+      - `repl.REPL_MODE_SLOPPY` - evaluates expressions in sloppy mode.
+
+      - `repl.REPL_MODE_STRICT` - evaluates expressions in strict mode. This is
+      equivalent to
+        prefacing every repl statement with `'use strict'`.
+    optional: true
+    syntax:
+      content: 'replMode?: unique symbol | unique symbol'
+      return:
+        type:
+          - unique symbol | unique symbol
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.repl.ReplOptions.terminal'
+    name: terminal
+    fullName: terminal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If `true`, specifies that the output should be treated as a TTY terminal,
+      and have
+
+      ANSI/VT100 escape codes written to it.
+
+      Default: checking the value of the `isTTY` property on the output stream
+      upon
+
+      instantiation.
+    optional: true
+    syntax:
+      content: 'terminal?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.repl.ReplOptions.useColors'
+    name: useColors
+    fullName: useColors
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If `true`, specifies that the default `writer` function should include
+      ANSI color
+
+      styling to REPL output. If a custom `writer` function is provided then
+      this has no
+
+      effect.
+
+      Default: the REPL instance's `terminal` value.
+    optional: true
+    syntax:
+      content: 'useColors?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.repl.ReplOptions.useGlobal'
+    name: useGlobal
+    fullName: useGlobal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If `true`, specifies that the default evaluation function will use the
+      JavaScript
+
+      `global` as the context as opposed to creating a new separate context for
+      the REPL
+
+      instance. The node CLI REPL sets this value to `true`.
+
+      Default: `false`.
+    optional: true
+    syntax:
+      content: 'useGlobal?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.repl.ReplOptions.writer'
+    name: writer
+    fullName: writer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The function to invoke to format the output of each command before writing
+      to `output`.
+
+      Default: a wrapper for `util.inspect`.
+    optional: true
+    syntax:
+      content: 'writer?: REPLWriter'
+      return:
+        type:
+          - '@azure/abort-controller.repl.REPLWriter'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.readline.Interface'
+    name: Interface
+    spec.typeScript:
+      - name: Interface
+        fullName: Interface
+        uid: '@azure/abort-controller.readline.Interface'
+  - uid: >-
+      @azure/abort-controller.readline.Completer |
+      @azure/abort-controller.readline.AsyncCompleter
+    name: AsyncCompleter
+    spec.typeScript:
+      - name: Completer
+        fullName: Completer
+        uid: '@azure/abort-controller.readline.Completer'
+      - name: ' | '
+        fullName: ' | '
+      - name: AsyncCompleter
+        fullName: AsyncCompleter
+        uid: '@azure/abort-controller.readline.AsyncCompleter'
+  - uid: '@azure/abort-controller.vm.Context'
+    name: Context
+    spec.typeScript:
+      - name: Context
+        fullName: Context
+        uid: '@azure/abort-controller.vm.Context'
+  - uid: '@azure/abort-controller.repl.REPLEval'
+    name: REPLEval
+    spec.typeScript:
+      - name: REPLEval
+        fullName: REPLEval
+        uid: '@azure/abort-controller.repl.REPLEval'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.repl.REPLWriter'
+    name: REPLWriter
+    spec.typeScript:
+      - name: REPLWriter
+        fullName: REPLWriter
+        uid: '@azure/abort-controller.repl.REPLWriter'
+  - uid: >-
+      @azure/abort-controller.repl.REPLCommandAction |
+      @azure/abort-controller.repl.REPLCommand
+    name: REPLCommand
+    spec.typeScript:
+      - name: REPLCommandAction
+        fullName: REPLCommandAction
+        uid: '@azure/abort-controller.repl.REPLCommandAction'
+      - name: ' | '
+        fullName: ' | '
+      - name: REPLCommand
+        fullName: REPLCommand
+        uid: '@azure/abort-controller.repl.REPLCommand'
+  - uid: '@azure/abort-controller.readline.CursorPos'
+    name: CursorPos
+    spec.typeScript:
+      - name: CursorPos
+        fullName: CursorPos
+        uid: '@azure/abort-controller.readline.CursorPos'
+  - uid: '@azure/abort-controller.readline.Key'
+    name: Key
+    spec.typeScript:
+      - name: Key
+        fullName: Key
+        uid: '@azure/abort-controller.readline.Key'
+  - uid: '@azure/abort-controller.repl.REPLCommandAction'
+    name: REPLCommandAction
+    spec.typeScript:
+      - name: REPLCommandAction
+        fullName: REPLCommandAction
+        uid: '@azure/abort-controller.repl.REPLCommandAction'
+  - uid: string | @azure/abort-controller.repl.ReplOptions
+    name: ReplOptions
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: ReplOptions
+        fullName: ReplOptions
+        uid: '@azure/abort-controller.repl.ReplOptions'
+  - uid: '@azure/abort-controller.repl.REPLServer'
+    name: REPLServer
+    spec.typeScript:
+      - name: REPLServer
+        fullName: REPLServer
+        uid: '@azure/abort-controller.repl.REPLServer'

@@ -1,44 +1,44 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.FileReadHeaders'
+  - uid: '@azure/abort-controller.FileReadHeaders'
     name: FileReadHeaders
     fullName: FileReadHeaders
     children:
-      - '@azure/storage-file-datalake.FileReadHeaders.acceptRanges'
-      - '@azure/storage-file-datalake.FileReadHeaders.cacheControl'
-      - '@azure/storage-file-datalake.FileReadHeaders.clientRequestId'
-      - '@azure/storage-file-datalake.FileReadHeaders.contentCrc64'
-      - '@azure/storage-file-datalake.FileReadHeaders.contentDisposition'
-      - '@azure/storage-file-datalake.FileReadHeaders.contentEncoding'
-      - '@azure/storage-file-datalake.FileReadHeaders.contentLanguage'
-      - '@azure/storage-file-datalake.FileReadHeaders.contentLength'
-      - '@azure/storage-file-datalake.FileReadHeaders.contentMD5'
-      - '@azure/storage-file-datalake.FileReadHeaders.contentRange'
-      - '@azure/storage-file-datalake.FileReadHeaders.contentType'
-      - '@azure/storage-file-datalake.FileReadHeaders.copyCompletedOn'
-      - '@azure/storage-file-datalake.FileReadHeaders.copyId'
-      - '@azure/storage-file-datalake.FileReadHeaders.copyProgress'
-      - '@azure/storage-file-datalake.FileReadHeaders.copySource'
-      - '@azure/storage-file-datalake.FileReadHeaders.copyStatus'
-      - '@azure/storage-file-datalake.FileReadHeaders.copyStatusDescription'
-      - '@azure/storage-file-datalake.FileReadHeaders.date'
-      - '@azure/storage-file-datalake.FileReadHeaders.encryptionKeySha256'
-      - '@azure/storage-file-datalake.FileReadHeaders.etag'
-      - '@azure/storage-file-datalake.FileReadHeaders.fileContentMD5'
-      - '@azure/storage-file-datalake.FileReadHeaders.isServerEncrypted'
-      - '@azure/storage-file-datalake.FileReadHeaders.lastModified'
-      - '@azure/storage-file-datalake.FileReadHeaders.leaseDuration'
-      - '@azure/storage-file-datalake.FileReadHeaders.leaseState'
-      - '@azure/storage-file-datalake.FileReadHeaders.leaseStatus'
-      - '@azure/storage-file-datalake.FileReadHeaders.metadata'
-      - '@azure/storage-file-datalake.FileReadHeaders.requestId'
-      - '@azure/storage-file-datalake.FileReadHeaders.version'
+      - '@azure/abort-controller.FileReadHeaders.acceptRanges'
+      - '@azure/abort-controller.FileReadHeaders.cacheControl'
+      - '@azure/abort-controller.FileReadHeaders.clientRequestId'
+      - '@azure/abort-controller.FileReadHeaders.contentCrc64'
+      - '@azure/abort-controller.FileReadHeaders.contentDisposition'
+      - '@azure/abort-controller.FileReadHeaders.contentEncoding'
+      - '@azure/abort-controller.FileReadHeaders.contentLanguage'
+      - '@azure/abort-controller.FileReadHeaders.contentLength'
+      - '@azure/abort-controller.FileReadHeaders.contentMD5'
+      - '@azure/abort-controller.FileReadHeaders.contentRange'
+      - '@azure/abort-controller.FileReadHeaders.contentType'
+      - '@azure/abort-controller.FileReadHeaders.copyCompletedOn'
+      - '@azure/abort-controller.FileReadHeaders.copyId'
+      - '@azure/abort-controller.FileReadHeaders.copyProgress'
+      - '@azure/abort-controller.FileReadHeaders.copySource'
+      - '@azure/abort-controller.FileReadHeaders.copyStatus'
+      - '@azure/abort-controller.FileReadHeaders.copyStatusDescription'
+      - '@azure/abort-controller.FileReadHeaders.date'
+      - '@azure/abort-controller.FileReadHeaders.encryptionKeySha256'
+      - '@azure/abort-controller.FileReadHeaders.etag'
+      - '@azure/abort-controller.FileReadHeaders.fileContentMD5'
+      - '@azure/abort-controller.FileReadHeaders.isServerEncrypted'
+      - '@azure/abort-controller.FileReadHeaders.lastModified'
+      - '@azure/abort-controller.FileReadHeaders.leaseDuration'
+      - '@azure/abort-controller.FileReadHeaders.leaseState'
+      - '@azure/abort-controller.FileReadHeaders.leaseStatus'
+      - '@azure/abort-controller.FileReadHeaders.metadata'
+      - '@azure/abort-controller.FileReadHeaders.requestId'
+      - '@azure/abort-controller.FileReadHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.acceptRanges'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.acceptRanges'
     name: acceptRanges
     fullName: acceptRanges
     children: []
@@ -53,8 +53,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.cacheControl'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.cacheControl'
     name: cacheControl
     fullName: cacheControl
     children: []
@@ -69,8 +69,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.clientRequestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.clientRequestId'
     name: clientRequestId
     fullName: clientRequestId
     children: []
@@ -85,8 +85,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.contentCrc64'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.contentCrc64'
     name: contentCrc64
     fullName: contentCrc64
     children: []
@@ -99,10 +99,10 @@ items:
       content: 'contentCrc64?: Uint8Array'
       return:
         type:
-          - Uint8Array
+          - '@azure/abort-controller.Buffer.Uint8Array'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.contentDisposition'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.contentDisposition'
     name: contentDisposition
     fullName: contentDisposition
     children: []
@@ -117,8 +117,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.contentEncoding'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.contentEncoding'
     name: contentEncoding
     fullName: contentEncoding
     children: []
@@ -133,8 +133,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.contentLanguage'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.contentLanguage'
     name: contentLanguage
     fullName: contentLanguage
     children: []
@@ -149,8 +149,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.contentLength'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.contentLength'
     name: contentLength
     fullName: contentLength
     children: []
@@ -165,8 +165,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.contentMD5'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.contentMD5'
     name: contentMD5
     fullName: contentMD5
     children: []
@@ -179,10 +179,10 @@ items:
       content: 'contentMD5?: Uint8Array'
       return:
         type:
-          - Uint8Array
+          - '@azure/abort-controller.Buffer.Uint8Array'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.contentRange'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.contentRange'
     name: contentRange
     fullName: contentRange
     children: []
@@ -197,8 +197,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.contentType'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.contentType'
     name: contentType
     fullName: contentType
     children: []
@@ -213,8 +213,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.copyCompletedOn'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.copyCompletedOn'
     name: copyCompletedOn
     fullName: copyCompletedOn
     children: []
@@ -227,10 +227,10 @@ items:
       content: 'copyCompletedOn?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.copyId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.copyId'
     name: copyId
     fullName: copyId
     children: []
@@ -245,8 +245,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.copyProgress'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.copyProgress'
     name: copyProgress
     fullName: copyProgress
     children: []
@@ -261,8 +261,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.copySource'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.copySource'
     name: copySource
     fullName: copySource
     children: []
@@ -277,8 +277,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.copyStatus'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.copyStatus'
     name: copyStatus
     fullName: copyStatus
     children: []
@@ -291,10 +291,10 @@ items:
       content: 'copyStatus?: CopyStatusType'
       return:
         type:
-          - '@azure/storage-file-datalake.CopyStatusType'
+          - '@azure/abort-controller.CopyStatusType'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.copyStatusDescription'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.copyStatusDescription'
     name: copyStatusDescription
     fullName: copyStatusDescription
     children: []
@@ -309,8 +309,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.date'
     name: date
     fullName: date
     children: []
@@ -323,10 +323,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.encryptionKeySha256'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.encryptionKeySha256'
     name: encryptionKeySha256
     fullName: encryptionKeySha256
     children: []
@@ -341,8 +341,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.etag'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.etag'
     name: etag
     fullName: etag
     children: []
@@ -357,8 +357,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.fileContentMD5'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.fileContentMD5'
     name: fileContentMD5
     fullName: fileContentMD5
     children: []
@@ -371,10 +371,10 @@ items:
       content: 'fileContentMD5?: Uint8Array'
       return:
         type:
-          - Uint8Array
+          - '@azure/abort-controller.Buffer.Uint8Array'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.isServerEncrypted'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.isServerEncrypted'
     name: isServerEncrypted
     fullName: isServerEncrypted
     children: []
@@ -389,8 +389,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.lastModified'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -403,10 +403,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.leaseDuration'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.leaseDuration'
     name: leaseDuration
     fullName: leaseDuration
     children: []
@@ -419,10 +419,10 @@ items:
       content: 'leaseDuration?: LeaseDurationType'
       return:
         type:
-          - '@azure/storage-file-datalake.LeaseDurationType'
+          - '@azure/abort-controller.LeaseDurationType'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.leaseState'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.leaseState'
     name: leaseState
     fullName: leaseState
     children: []
@@ -435,10 +435,10 @@ items:
       content: 'leaseState?: LeaseStateType'
       return:
         type:
-          - '@azure/storage-file-datalake.LeaseStateType'
+          - '@azure/abort-controller.LeaseStateType'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.leaseStatus'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.leaseStatus'
     name: leaseStatus
     fullName: leaseStatus
     children: []
@@ -451,10 +451,10 @@ items:
       content: 'leaseStatus?: LeaseStatusType'
       return:
         type:
-          - '@azure/storage-file-datalake.LeaseStatusType'
+          - '@azure/abort-controller.LeaseStatusType'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.metadata'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.metadata'
     name: metadata
     fullName: metadata
     children: []
@@ -467,10 +467,10 @@ items:
       content: 'metadata?: Metadata'
       return:
         type:
-          - '@azure/storage-file-datalake.Metadata'
+          - '@azure/abort-controller.Metadata'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -485,8 +485,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileReadHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileReadHeaders.version'
     name: version
     fullName: version
     children: []
@@ -501,35 +501,47 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.CopyStatusType'
+  - uid: '@azure/abort-controller.Buffer.Uint8Array'
+    name: Uint8Array
+    spec.typeScript:
+      - name: Uint8Array
+        fullName: Uint8Array
+        uid: '@azure/abort-controller.Buffer.Uint8Array'
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'
+  - uid: '@azure/abort-controller.CopyStatusType'
     name: CopyStatusType
     spec.typeScript:
       - name: CopyStatusType
         fullName: CopyStatusType
-        uid: '@azure/storage-file-datalake.CopyStatusType'
-  - uid: '@azure/storage-file-datalake.LeaseDurationType'
+        uid: '@azure/abort-controller.CopyStatusType'
+  - uid: '@azure/abort-controller.LeaseDurationType'
     name: LeaseDurationType
     spec.typeScript:
       - name: LeaseDurationType
         fullName: LeaseDurationType
-        uid: '@azure/storage-file-datalake.LeaseDurationType'
-  - uid: '@azure/storage-file-datalake.LeaseStateType'
+        uid: '@azure/abort-controller.LeaseDurationType'
+  - uid: '@azure/abort-controller.LeaseStateType'
     name: LeaseStateType
     spec.typeScript:
       - name: LeaseStateType
         fullName: LeaseStateType
-        uid: '@azure/storage-file-datalake.LeaseStateType'
-  - uid: '@azure/storage-file-datalake.LeaseStatusType'
+        uid: '@azure/abort-controller.LeaseStateType'
+  - uid: '@azure/abort-controller.LeaseStatusType'
     name: LeaseStatusType
     spec.typeScript:
       - name: LeaseStatusType
         fullName: LeaseStatusType
-        uid: '@azure/storage-file-datalake.LeaseStatusType'
-  - uid: '@azure/storage-file-datalake.Metadata'
+        uid: '@azure/abort-controller.LeaseStatusType'
+  - uid: '@azure/abort-controller.Metadata'
     name: Metadata
     spec.typeScript:
       - name: Metadata
         fullName: Metadata
-        uid: '@azure/storage-file-datalake.Metadata'
+        uid: '@azure/abort-controller.Metadata'

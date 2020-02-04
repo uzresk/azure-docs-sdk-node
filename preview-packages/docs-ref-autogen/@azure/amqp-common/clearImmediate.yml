@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.clearImmediate'
+    name: clearImmediate(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function clearImmediate(immediateId: any)'
+      parameters:
+        - id: immediateId
+          type:
+            - any
+          description: ''
+    package: '@azure/ms-rest-azure-env'

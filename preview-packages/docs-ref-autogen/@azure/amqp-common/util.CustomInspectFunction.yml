@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.util.CustomInspectFunction'
+    name: CustomInspectFunction
+    fullName: CustomInspectFunction
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type CustomInspectFunction = (depth: number, options:
+        InspectOptionsStylized) => string
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.util.EncodeIntoResult'
+    name: EncodeIntoResult
+    spec.typeScript:
+      - name: EncodeIntoResult
+        fullName: EncodeIntoResult
+        uid: '@azure/ms-rest-azure-env.util.EncodeIntoResult'
+  - uid: '@azure/ms-rest-azure-env.util.Style'
+    name: Style
+    spec.typeScript:
+      - name: Style
+        fullName: Style
+        uid: '@azure/ms-rest-azure-env.util.Style'

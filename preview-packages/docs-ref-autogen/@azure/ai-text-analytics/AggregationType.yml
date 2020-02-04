@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.AggregationType'
+    name: AggregationType
+    fullName: AggregationType
+    children:
+      - '@azure/abort-controller.AggregationType.COUNT'
+      - '@azure/abort-controller.AggregationType.SUM'
+      - '@azure/abort-controller.AggregationType.LAST_VALUE'
+      - '@azure/abort-controller.AggregationType.DISTRIBUTION'
+    langs:
+      - typeScript
+    type: enum
+    summary: |-
+      Informs the type of the aggregation. It can be: count, sum, lastValue or
+      distribution.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AggregationType.COUNT'
+    name: COUNT
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AggregationType.SUM'
+    name: SUM
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AggregationType.LAST_VALUE'
+    name: LAST_VALUE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AggregationType.DISTRIBUTION'
+    name: DISTRIBUTION
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: '@azure/abort-controller'

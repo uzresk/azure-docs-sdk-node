@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathAppendDataHeaders'
+  - uid: '@azure/abort-controller.PathAppendDataHeaders'
     name: PathAppendDataHeaders
     fullName: PathAppendDataHeaders
     children:
-      - '@azure/storage-file-datalake.PathAppendDataHeaders.clientRequestId'
-      - '@azure/storage-file-datalake.PathAppendDataHeaders.date'
-      - '@azure/storage-file-datalake.PathAppendDataHeaders.requestId'
-      - '@azure/storage-file-datalake.PathAppendDataHeaders.version'
+      - '@azure/abort-controller.PathAppendDataHeaders.clientRequestId'
+      - '@azure/abort-controller.PathAppendDataHeaders.date'
+      - '@azure/abort-controller.PathAppendDataHeaders.requestId'
+      - '@azure/abort-controller.PathAppendDataHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: Defines headers for AppendData operation.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathAppendDataHeaders.clientRequestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathAppendDataHeaders.clientRequestId'
     name: clientRequestId
     fullName: clientRequestId
     children: []
@@ -32,8 +32,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathAppendDataHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathAppendDataHeaders.date'
     name: date
     fullName: date
     children: []
@@ -50,10 +50,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathAppendDataHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathAppendDataHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -70,8 +70,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathAppendDataHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathAppendDataHeaders.version'
     name: version
     fullName: version
     children: []
@@ -86,4 +86,11 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'

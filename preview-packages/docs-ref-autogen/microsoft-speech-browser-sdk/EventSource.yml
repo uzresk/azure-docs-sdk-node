@@ -17,49 +17,53 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.EventSource.Attach
-    name: Attach
-    fullName: Attach
+    name: 'Attach((event: TEvent) => void)'
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Attach: (onEventCallback: (event: TEvent) => void) => IDetachable'
+      content: 'function Attach(onEventCallback: (event: TEvent) => void)'
+      parameters:
+        - id: onEventCallback
+          type:
+            - '(event: TEvent) => void'
+          description: ''
       return:
         type:
-          - '(onEventCallback: (event: TEvent) => void) => IDetachable'
+          - microsoft-speech-browser-sdk.IDetachable
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.EventSource.AttachListener
-    name: AttachListener
-    fullName: AttachListener
+    name: AttachListener(IEventListener<TEvent>)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'AttachListener: (listener: IEventListener<TEvent>) => IDetachable'
+      content: 'function AttachListener(listener: IEventListener<TEvent>)'
+      parameters:
+        - id: listener
+          type:
+            - microsoft-speech-browser-sdk.IEventListener<TEvent>
+          description: ''
       return:
         type:
-          - '(listener: IEventListener<TEvent>) => IDetachable'
+          - microsoft-speech-browser-sdk.IDetachable
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.EventSource.Dispose
-    name: Dispose
-    fullName: Dispose
+    name: Dispose()
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Dispose: () => void'
-      return:
-        type:
-          - () => void
-        description: ''
+      content: function Dispose()
+      parameters: []
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.EventSource.constructor
     name: EventSource(IStringDictionary<string>)
@@ -78,18 +82,18 @@ items:
           optional: true
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.EventSource.IsDisposed
-    name: IsDisposed
-    fullName: IsDisposed
+    name: IsDisposed()
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'IsDisposed: () => boolean'
+      content: function IsDisposed()
+      parameters: []
       return:
         type:
-          - () => boolean
+          - boolean
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.EventSource.Metadata
@@ -101,26 +105,26 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Metadata: IStringDictionary<string>'
+      content: IStringDictionary<string> Metadata
       return:
         type:
           - microsoft-speech-browser-sdk.IStringDictionary<string>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.EventSource.OnEvent
-    name: OnEvent
-    fullName: OnEvent
+    name: OnEvent(TEvent)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'OnEvent: (event: TEvent) => void'
-      return:
-        type:
-          - '(event: TEvent) => void'
-        description: ''
+      content: 'function OnEvent(event: TEvent)'
+      parameters:
+        - id: event
+          type:
+            - TEvent
+          description: ''
     package: microsoft-speech-browser-sdk
 references:
   - uid: microsoft-speech-browser-sdk.IStringDictionary<string>
@@ -131,3 +135,17 @@ references:
         uid: microsoft-speech-browser-sdk.IStringDictionary
       - name: <string>
         fullName: <string>
+  - uid: microsoft-speech-browser-sdk.IDetachable
+    name: IDetachable
+    spec.typeScript:
+      - name: IDetachable
+        fullName: IDetachable
+        uid: microsoft-speech-browser-sdk.IDetachable
+  - uid: microsoft-speech-browser-sdk.IEventListener<TEvent>
+    name: IEventListener<TEvent>
+    spec.typeScript:
+      - name: IEventListener
+        fullName: IEventListener
+        uid: microsoft-speech-browser-sdk.IEventListener
+      - name: <TEvent>
+        fullName: <TEvent>

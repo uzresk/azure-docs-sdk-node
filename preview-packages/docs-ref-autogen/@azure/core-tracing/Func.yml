@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.Func'
+    name: Func
+    fullName: Func<T>
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: Default type for functions
+    syntax:
+      content: 'type Func<T> = (args: any[]) => T'
+    package: '@opentelemetry/types'

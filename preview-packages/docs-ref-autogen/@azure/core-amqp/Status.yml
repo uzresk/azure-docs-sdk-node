@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.Status
+    name: Status
+    fullName: Status
+    children:
+      - tslib.Status.code
+      - tslib.Status.message
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      The status of a Span by providing a standard CanonicalCode in conjunction
+      with an optional descriptive message.
+    package: tslib
+  - uid: tslib.Status.code
+    name: code
+    fullName: code
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The canonical code of this message.
+    syntax:
+      content: 'code: CanonicalCode'
+      return:
+        type:
+          - tslib.CanonicalCode
+        description: ''
+    package: tslib
+  - uid: tslib.Status.message
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A developer-facing error message.
+    optional: true
+    syntax:
+      content: 'message?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.CanonicalCode
+    name: CanonicalCode
+    spec.typeScript:
+      - name: CanonicalCode
+        fullName: CanonicalCode
+        uid: tslib.CanonicalCode

@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.MetricDescriptorType'
+    name: MetricDescriptorType
+    fullName: MetricDescriptorType
+    children:
+      - '@azure/abort-controller.MetricDescriptorType.UNSPECIFIED'
+      - '@azure/abort-controller.MetricDescriptorType.GAUGE_INT64'
+      - '@azure/abort-controller.MetricDescriptorType.GAUGE_DOUBLE'
+      - '@azure/abort-controller.MetricDescriptorType.GAUGE_DISTRIBUTION'
+      - '@azure/abort-controller.MetricDescriptorType.CUMULATIVE_INT64'
+      - '@azure/abort-controller.MetricDescriptorType.CUMULATIVE_DOUBLE'
+      - '@azure/abort-controller.MetricDescriptorType.CUMULATIVE_DISTRIBUTION'
+      - '@azure/abort-controller.MetricDescriptorType.SUMMARY'
+    langs:
+      - typeScript
+    type: enum
+    summary: |
+      The kind of metric. It describes how the data is reported.
+      A gauge is an instantaneous measurement of a value.
+
+      A cumulative measurement is a value accumulated over a time interval. In
+      a time series, cumulative measurements should have the same start time,
+      increasing values and increasing end times, until an event resets the
+      cumulative value to zero and sets a new start time for the following
+      points.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricDescriptorType.UNSPECIFIED'
+    name: UNSPECIFIED
+    children: []
+    langs:
+      - typeScript
+    summary: Do not use this default value.
+    type: field
+    numericValue: 0
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricDescriptorType.GAUGE_INT64'
+    name: GAUGE_INT64
+    children: []
+    langs:
+      - typeScript
+    summary: Integer gauge. The value can go both up and down.
+    type: field
+    numericValue: 1
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricDescriptorType.GAUGE_DOUBLE'
+    name: GAUGE_DOUBLE
+    children: []
+    langs:
+      - typeScript
+    summary: Floating point gauge. The value can go both up and down.
+    type: field
+    numericValue: 2
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricDescriptorType.GAUGE_DISTRIBUTION'
+    name: GAUGE_DISTRIBUTION
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      Distribution gauge measurement. The count and sum can go both up and
+      down. Recorded values are always >= 0.
+      Used in scenarios like a snapshot of time the current items in a queue
+      have spent there.
+    type: field
+    numericValue: 3
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricDescriptorType.CUMULATIVE_INT64'
+    name: CUMULATIVE_INT64
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      Integer cumulative measurement. The value cannot decrease, if resets
+      then the start_time should also be reset.
+    type: field
+    numericValue: 4
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricDescriptorType.CUMULATIVE_DOUBLE'
+    name: CUMULATIVE_DOUBLE
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      Floating point cumulative measurement. The value cannot decrease, if
+      resets then the start_time should also be reset. Recorded values are
+      always >= 0.
+    type: field
+    numericValue: 5
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricDescriptorType.CUMULATIVE_DISTRIBUTION'
+    name: CUMULATIVE_DISTRIBUTION
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      Distribution cumulative measurement. The count and sum cannot decrease,
+      if resets then the start_time should also be reset.
+    type: field
+    numericValue: 6
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MetricDescriptorType.SUMMARY'
+    name: SUMMARY
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      Some frameworks implemented Histograms as a summary of observations
+      (usually things like request durations and response sizes). While it
+      also provides a total count of observations and a sum of all observed
+      values, it calculates configurable percentiles over a sliding time
+      window. This is not recommended, since it cannot be aggregated.
+    type: field
+    numericValue: 7
+    package: '@azure/abort-controller'

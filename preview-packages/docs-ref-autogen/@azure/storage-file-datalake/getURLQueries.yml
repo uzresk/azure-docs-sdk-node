@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.getURLQueries'
+  - uid: '@azure/abort-controller.getURLQueries'
     name: getURLQueries(string)
     children: []
     type: function
@@ -18,4 +18,4 @@ items:
         type:
           - '[key: string]: string'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

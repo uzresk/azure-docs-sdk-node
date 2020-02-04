@@ -1,0 +1,132 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.CacheEvent'
+    name: CacheEvent
+    fullName: CacheEvent
+    children:
+      - '@azure/abort-controller.CacheEvent.constructor'
+      - '@azure/abort-controller.CacheEvent.eventId'
+      - '@azure/abort-controller.CacheEvent.eventName'
+      - '@azure/abort-controller.CacheEvent.get'
+      - '@azure/abort-controller.CacheEvent.stop'
+      - '@azure/abort-controller.CacheEvent.telemetryCorrelationId'
+      - '@azure/abort-controller.CacheEvent.tokenType'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.TelemetryEvent'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.CacheEvent.constructor'
+    name: 'CacheEvent(string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CacheEvent(eventName: string, correlationId: string)'
+      parameters:
+        - id: eventName
+          type:
+            - string
+          description: ''
+        - id: correlationId
+          type:
+            - string
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.CacheEvent.eventId'
+    name: eventId
+    fullName: eventId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public eventId: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.CacheEvent.eventName'
+    name: eventName
+    fullName: eventName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string eventName
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.CacheEvent.get'
+    name: get()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function get()
+      parameters: []
+      return:
+        type:
+          - object
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.CacheEvent.stop'
+    name: stop()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function stop()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.CacheEvent.telemetryCorrelationId'
+    name: telemetryCorrelationId
+    fullName: telemetryCorrelationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string telemetryCorrelationId
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.CacheEvent.tokenType'
+    name: tokenType
+    fullName: tokenType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void tokenType
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.TelemetryEvent'
+    name: TelemetryEvent
+    spec.typeScript:
+      - name: TelemetryEvent
+        fullName: TelemetryEvent
+        uid: '@azure/abort-controller.TelemetryEvent'

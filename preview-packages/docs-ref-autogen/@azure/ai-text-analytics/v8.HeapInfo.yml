@@ -1,0 +1,238 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.v8.HeapInfo'
+    name: HeapInfo
+    fullName: HeapInfo
+    children:
+      - '@azure/abort-controller.v8.HeapInfo.does_zap_garbage'
+      - '@azure/abort-controller.v8.HeapInfo.heap_size_limit'
+      - '@azure/abort-controller.v8.HeapInfo.malloced_memory'
+      - '@azure/abort-controller.v8.HeapInfo.number_of_detached_contexts'
+      - '@azure/abort-controller.v8.HeapInfo.number_of_native_contexts'
+      - '@azure/abort-controller.v8.HeapInfo.peak_malloced_memory'
+      - '@azure/abort-controller.v8.HeapInfo.total_available_size'
+      - '@azure/abort-controller.v8.HeapInfo.total_heap_size'
+      - '@azure/abort-controller.v8.HeapInfo.total_heap_size_executable'
+      - '@azure/abort-controller.v8.HeapInfo.total_physical_size'
+      - '@azure/abort-controller.v8.HeapInfo.used_heap_size'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.v8.HeapInfo.does_zap_garbage'
+    name: does_zap_garbage
+    fullName: does_zap_garbage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'does_zap_garbage: DoesZapCodeSpaceFlag'
+      return:
+        type:
+          - '@azure/abort-controller.v8.DoesZapCodeSpaceFlag'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.v8.HeapInfo.heap_size_limit'
+    name: heap_size_limit
+    fullName: heap_size_limit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'heap_size_limit: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.v8.HeapInfo.malloced_memory'
+    name: malloced_memory
+    fullName: malloced_memory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'malloced_memory: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.v8.HeapInfo.number_of_detached_contexts'
+    name: number_of_detached_contexts
+    fullName: number_of_detached_contexts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'number_of_detached_contexts: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.v8.HeapInfo.number_of_native_contexts'
+    name: number_of_native_contexts
+    fullName: number_of_native_contexts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'number_of_native_contexts: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.v8.HeapInfo.peak_malloced_memory'
+    name: peak_malloced_memory
+    fullName: peak_malloced_memory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'peak_malloced_memory: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.v8.HeapInfo.total_available_size'
+    name: total_available_size
+    fullName: total_available_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'total_available_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.v8.HeapInfo.total_heap_size'
+    name: total_heap_size
+    fullName: total_heap_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'total_heap_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.v8.HeapInfo.total_heap_size_executable'
+    name: total_heap_size_executable
+    fullName: total_heap_size_executable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'total_heap_size_executable: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.v8.HeapInfo.total_physical_size'
+    name: total_physical_size
+    fullName: total_physical_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'total_physical_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.v8.HeapInfo.used_heap_size'
+    name: used_heap_size
+    fullName: used_heap_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'used_heap_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.v8.Deserializer'
+    name: Deserializer
+    spec.typeScript:
+      - name: Deserializer
+        fullName: Deserializer
+        uid: '@azure/abort-controller.v8.Deserializer'
+  - uid: '@azure/abort-controller.NodeJS.TypedArray'
+    name: TypedArray
+    spec.typeScript:
+      - name: TypedArray
+        fullName: TypedArray
+        uid: '@azure/abort-controller.NodeJS.TypedArray'
+  - uid: '@azure/abort-controller.v8.Serializer'
+    name: Serializer
+    spec.typeScript:
+      - name: Serializer
+        fullName: Serializer
+        uid: '@azure/abort-controller.v8.Serializer'
+  - uid: '@azure/abort-controller.v8.DoesZapCodeSpaceFlag'
+    name: DoesZapCodeSpaceFlag
+    spec.typeScript:
+      - name: DoesZapCodeSpaceFlag
+        fullName: DoesZapCodeSpaceFlag
+        uid: '@azure/abort-controller.v8.DoesZapCodeSpaceFlag'
+  - uid: '@azure/abort-controller.v8.HeapCodeStatistics'
+    name: HeapCodeStatistics
+    spec.typeScript:
+      - name: HeapCodeStatistics
+        fullName: HeapCodeStatistics
+        uid: '@azure/abort-controller.v8.HeapCodeStatistics'
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: '@azure/abort-controller.v8.HeapSpaceInfo[]'
+    name: 'HeapSpaceInfo[]'
+    spec.typeScript:
+      - name: HeapSpaceInfo
+        fullName: HeapSpaceInfo
+        uid: '@azure/abort-controller.v8.HeapSpaceInfo'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.v8.HeapInfo'
+    name: HeapInfo
+    spec.typeScript:
+      - name: HeapInfo
+        fullName: HeapInfo
+        uid: '@azure/abort-controller.v8.HeapInfo'

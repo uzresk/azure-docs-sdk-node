@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.v8.HeapSpaceInfo'
+    name: HeapSpaceInfo
+    fullName: HeapSpaceInfo
+    children:
+      - '@azure/ms-rest-azure-env.v8.HeapSpaceInfo.physical_space_size'
+      - '@azure/ms-rest-azure-env.v8.HeapSpaceInfo.space_available_size'
+      - '@azure/ms-rest-azure-env.v8.HeapSpaceInfo.space_name'
+      - '@azure/ms-rest-azure-env.v8.HeapSpaceInfo.space_size'
+      - '@azure/ms-rest-azure-env.v8.HeapSpaceInfo.space_used_size'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.HeapSpaceInfo.physical_space_size'
+    name: physical_space_size
+    fullName: physical_space_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'physical_space_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.HeapSpaceInfo.space_available_size'
+    name: space_available_size
+    fullName: space_available_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'space_available_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.HeapSpaceInfo.space_name'
+    name: space_name
+    fullName: space_name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'space_name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.HeapSpaceInfo.space_size'
+    name: space_size
+    fullName: space_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'space_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.HeapSpaceInfo.space_used_size'
+    name: space_used_size
+    fullName: space_used_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'space_used_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.v8.DoesZapCodeSpaceFlag'
+    name: DoesZapCodeSpaceFlag
+    spec.typeScript:
+      - name: DoesZapCodeSpaceFlag
+        fullName: DoesZapCodeSpaceFlag
+        uid: '@azure/ms-rest-azure-env.v8.DoesZapCodeSpaceFlag'

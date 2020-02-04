@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.EnumMapperType'
+    name: EnumMapperType
+    fullName: EnumMapperType
+    children:
+      - '@azure/ms-rest-azure-env.EnumMapperType.allowedValues'
+      - '@azure/ms-rest-azure-env.EnumMapperType.name'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.EnumMapperType.allowedValues'
+    name: allowedValues
+    fullName: allowedValues
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'allowedValues: any[]'
+      return:
+        type:
+          - 'any[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.EnumMapperType.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: "Enum"'
+      return:
+        type:
+          - '"Enum"'
+        description: ''
+    package: '@azure/ms-rest-azure-env'

@@ -29,7 +29,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'EventId: string'
+      content: string EventId
       return:
         type:
           - string
@@ -44,7 +44,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'EventTime: string'
+      content: string EventTime
       return:
         type:
           - string
@@ -59,7 +59,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'EventType: EventType'
+      content: EventType EventType
       return:
         type:
           - microsoft-speech-browser-sdk.EventType
@@ -74,7 +74,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Metadata: IStringDictionary<string>'
+      content: IStringDictionary<string> Metadata
       return:
         type:
           - microsoft-speech-browser-sdk.IStringDictionary<string>
@@ -89,7 +89,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Name: string'
+      content: string Name
       return:
         type:
           - string
@@ -104,7 +104,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'RequestId: string'
+      content: string RequestId
       return:
         type:
           - string
@@ -119,7 +119,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Result: ISpeechFragment'
+      content: ISpeechFragment Result
       return:
         type:
           - microsoft-speech-browser-sdk.ISpeechFragment

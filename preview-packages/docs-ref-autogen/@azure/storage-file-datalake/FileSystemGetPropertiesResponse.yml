@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.FileSystemGetPropertiesResponse'
+  - uid: '@azure/abort-controller.FileSystemGetPropertiesResponse'
     name: FileSystemGetPropertiesResponse
     fullName: FileSystemGetPropertiesResponse
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type FileSystemGetPropertiesResponse = FileSystemGetPropertiesHeaders &
         { _response: Object }
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

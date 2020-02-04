@@ -1,0 +1,64 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.StatsExemplar
+    name: StatsExemplar
+    fullName: StatsExemplar
+    children:
+      - tslib.StatsExemplar.attachments
+      - tslib.StatsExemplar.timestamp
+      - tslib.StatsExemplar.value
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Exemplars are example points that may be used to annotate aggregated
+      Distribution values. They are metadata that gives information about a
+      particular value added to a Distribution bucket.
+    package: tslib
+  - uid: tslib.StatsExemplar.attachments
+    name: attachments
+    fullName: attachments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Contextual information about the example value.
+    syntax:
+      content: 'attachments: [key: string]: string'
+      return:
+        type:
+          - '[key: string]: string'
+        description: ''
+    package: tslib
+  - uid: tslib.StatsExemplar.timestamp
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The observation (sampling) time of the above value.
+    syntax:
+      content: 'timestamp: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.StatsExemplar.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Value of the exemplar point. It determines which bucket the exemplar
+      belongs to.
+    syntax:
+      content: 'value: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib

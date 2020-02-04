@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.OperationResponse'
+    name: OperationResponse
+    fullName: OperationResponse
+    children:
+      - '@azure/ms-rest-azure-env.OperationResponse.bodyMapper'
+      - '@azure/ms-rest-azure-env.OperationResponse.headersMapper'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An OperationResponse that can be returned from an operation request for a
+      single status code.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.OperationResponse.bodyMapper'
+    name: bodyMapper
+    fullName: bodyMapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The mapper that will be used to deserialize the response body.
+    optional: true
+    syntax:
+      content: 'bodyMapper?: Mapper'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.Mapper'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.OperationResponse.headersMapper'
+    name: headersMapper
+    fullName: headersMapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The mapper that will be used to deserialize the response headers.
+    optional: true
+    syntax:
+      content: 'headersMapper?: Mapper'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.Mapper'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.Mapper'
+    name: Mapper
+    spec.typeScript:
+      - name: Mapper
+        fullName: Mapper
+        uid: '@azure/ms-rest-azure-env.Mapper'

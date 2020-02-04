@@ -1,0 +1,460 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.dns.LookupOneOptions
+    name: LookupOneOptions
+    fullName: LookupOneOptions
+    children:
+      - tslib.dns.LookupOneOptions.all
+      - tslib.dns.LookupOneOptions.family
+      - tslib.dns.LookupOneOptions.hints
+      - tslib.dns.LookupOneOptions.verbatim
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: tslib.dns.LookupOptions
+    package: tslib
+  - uid: tslib.dns.LookupOneOptions.all
+    name: all
+    fullName: all
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'all?: undefined | false'
+      return:
+        type:
+          - undefined | false
+        description: ''
+    package: tslib
+  - uid: tslib.dns.LookupOneOptions.family
+    name: family
+    fullName: family
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'family?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.dns.LookupOneOptions.hints
+    name: hints
+    fullName: hints
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'hints?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.dns.LookupOneOptions.verbatim
+    name: verbatim
+    fullName: verbatim
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'verbatim?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.dns.promises.getServers
+    name: getServers
+    spec.typeScript:
+      - name: getServers
+        fullName: getServers
+        uid: tslib.dns.promises.getServers
+  - uid: tslib.dns.promises.resolve_12
+    name: resolve_12
+    spec.typeScript:
+      - name: resolve_12
+        fullName: resolve_12
+        uid: tslib.dns.promises.resolve_12
+  - uid: tslib.dns.promises.resolve4_2
+    name: resolve4_2
+    spec.typeScript:
+      - name: resolve4_2
+        fullName: resolve4_2
+        uid: tslib.dns.promises.resolve4_2
+  - uid: tslib.dns.promises.resolve6_2
+    name: resolve6_2
+    spec.typeScript:
+      - name: resolve6_2
+        fullName: resolve6_2
+        uid: tslib.dns.promises.resolve6_2
+  - uid: tslib.dns.promises.resolveAny
+    name: resolveAny
+    spec.typeScript:
+      - name: resolveAny
+        fullName: resolveAny
+        uid: tslib.dns.promises.resolveAny
+  - uid: tslib.dns.promises.resolveCname
+    name: resolveCname
+    spec.typeScript:
+      - name: resolveCname
+        fullName: resolveCname
+        uid: tslib.dns.promises.resolveCname
+  - uid: tslib.dns.promises.resolveMx
+    name: resolveMx
+    spec.typeScript:
+      - name: resolveMx
+        fullName: resolveMx
+        uid: tslib.dns.promises.resolveMx
+  - uid: tslib.dns.promises.resolveNaptr
+    name: resolveNaptr
+    spec.typeScript:
+      - name: resolveNaptr
+        fullName: resolveNaptr
+        uid: tslib.dns.promises.resolveNaptr
+  - uid: tslib.dns.promises.resolveNs
+    name: resolveNs
+    spec.typeScript:
+      - name: resolveNs
+        fullName: resolveNs
+        uid: tslib.dns.promises.resolveNs
+  - uid: tslib.dns.promises.resolvePtr
+    name: resolvePtr
+    spec.typeScript:
+      - name: resolvePtr
+        fullName: resolvePtr
+        uid: tslib.dns.promises.resolvePtr
+  - uid: tslib.dns.promises.resolveSoa
+    name: resolveSoa
+    spec.typeScript:
+      - name: resolveSoa
+        fullName: resolveSoa
+        uid: tslib.dns.promises.resolveSoa
+  - uid: tslib.dns.promises.resolveSrv
+    name: resolveSrv
+    spec.typeScript:
+      - name: resolveSrv
+        fullName: resolveSrv
+        uid: tslib.dns.promises.resolveSrv
+  - uid: tslib.dns.promises.resolveTxt
+    name: resolveTxt
+    spec.typeScript:
+      - name: resolveTxt
+        fullName: resolveTxt
+        uid: tslib.dns.promises.resolveTxt
+  - uid: tslib.dns.promises.reverse
+    name: reverse
+    spec.typeScript:
+      - name: reverse
+        fullName: reverse
+        uid: tslib.dns.promises.reverse
+  - uid: tslib.dns.promises.setServers
+    name: setServers
+    spec.typeScript:
+      - name: setServers
+        fullName: setServers
+        uid: tslib.dns.promises.setServers
+  - uid: Promise<tslib.dns.LookupAddress>
+    name: LookupAddress>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: LookupAddress
+        fullName: LookupAddress
+        uid: tslib.dns.LookupAddress
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.dns.LookupOneOptions
+    name: LookupOneOptions
+    spec.typeScript:
+      - name: LookupOneOptions
+        fullName: LookupOneOptions
+        uid: tslib.dns.LookupOneOptions
+  - uid: tslib.dns.LookupAllOptions
+    name: LookupAllOptions
+    spec.typeScript:
+      - name: LookupAllOptions
+        fullName: LookupAllOptions
+        uid: tslib.dns.LookupAllOptions
+  - uid: 'Promise<tslib.dns.LookupAddress[]>'
+    name: 'LookupAddress[]>'
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: LookupAddress
+        fullName: LookupAddress
+        uid: tslib.dns.LookupAddress
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: tslib.dns.LookupOptions
+    name: LookupOptions
+    spec.typeScript:
+      - name: LookupOptions
+        fullName: LookupOptions
+        uid: tslib.dns.LookupOptions
+  - uid: 'Promise<tslib.dns.LookupAddress | tslib.dns.LookupAddress[]>'
+    name: 'LookupAddress[]>'
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: LookupAddress
+        fullName: LookupAddress
+        uid: tslib.dns.LookupAddress
+      - name: ' | '
+        fullName: ' | '
+      - name: LookupAddress
+        fullName: LookupAddress
+        uid: tslib.dns.LookupAddress
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: 'Promise<tslib.dns.AnyRecord[]>'
+    name: 'AnyRecord[]>'
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: AnyRecord
+        fullName: AnyRecord
+        uid: tslib.dns.AnyRecord
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: 'Promise<tslib.dns.MxRecord[]>'
+    name: 'MxRecord[]>'
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: MxRecord
+        fullName: MxRecord
+        uid: tslib.dns.MxRecord
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: 'Promise<tslib.dns.NaptrRecord[]>'
+    name: 'NaptrRecord[]>'
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: NaptrRecord
+        fullName: NaptrRecord
+        uid: tslib.dns.NaptrRecord
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: Promise<tslib.dns.SoaRecord>
+    name: SoaRecord>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: SoaRecord
+        fullName: SoaRecord
+        uid: tslib.dns.SoaRecord
+      - name: '>'
+        fullName: '>'
+  - uid: 'Promise<tslib.dns.SrvRecord[]>'
+    name: 'SrvRecord[]>'
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: SrvRecord
+        fullName: SrvRecord
+        uid: tslib.dns.SrvRecord
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: >-
+      Promise<string[] | tslib.dns.MxRecord[] | tslib.dns.NaptrRecord[] |
+      tslib.dns.SoaRecord | tslib.dns.SrvRecord[] | string[][] |
+      tslib.dns.AnyRecord[]>
+    name: 'AnyRecord[]>'
+    spec.typeScript:
+      - name: 'Promise<string[] | '
+        fullName: 'Promise<string[] | '
+      - name: MxRecord
+        fullName: MxRecord
+        uid: tslib.dns.MxRecord
+      - name: '[] | '
+        fullName: '[] | '
+      - name: NaptrRecord
+        fullName: NaptrRecord
+        uid: tslib.dns.NaptrRecord
+      - name: '[] | '
+        fullName: '[] | '
+      - name: SoaRecord
+        fullName: SoaRecord
+        uid: tslib.dns.SoaRecord
+      - name: ' | '
+        fullName: ' | '
+      - name: SrvRecord
+        fullName: SrvRecord
+        uid: tslib.dns.SrvRecord
+      - name: '[] | string[][] | '
+        fullName: '[] | string[][] | '
+      - name: AnyRecord
+        fullName: AnyRecord
+        uid: tslib.dns.AnyRecord
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: tslib.dns.ResolveWithTtlOptions
+    name: ResolveWithTtlOptions
+    spec.typeScript:
+      - name: ResolveWithTtlOptions
+        fullName: ResolveWithTtlOptions
+        uid: tslib.dns.ResolveWithTtlOptions
+  - uid: 'Promise<tslib.dns.RecordWithTtl[]>'
+    name: 'RecordWithTtl[]>'
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: RecordWithTtl
+        fullName: RecordWithTtl
+        uid: tslib.dns.RecordWithTtl
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: tslib.dns.ResolveOptions
+    name: ResolveOptions
+    spec.typeScript:
+      - name: ResolveOptions
+        fullName: ResolveOptions
+        uid: tslib.dns.ResolveOptions
+  - uid: 'Promise<string[] | tslib.dns.RecordWithTtl[]>'
+    name: 'RecordWithTtl[]>'
+    spec.typeScript:
+      - name: 'Promise<string[] | '
+        fullName: 'Promise<string[] | '
+      - name: RecordWithTtl
+        fullName: RecordWithTtl
+        uid: tslib.dns.RecordWithTtl
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: tslib.dns.getServers
+    name: getServers
+    spec.typeScript:
+      - name: getServers
+        fullName: getServers
+        uid: tslib.dns.getServers
+  - uid: tslib.dns.resolve
+    name: resolve
+    spec.typeScript:
+      - name: resolve
+        fullName: resolve
+        uid: tslib.dns.resolve
+  - uid: tslib.dns.resolve4
+    name: resolve4
+    spec.typeScript:
+      - name: resolve4
+        fullName: resolve4
+        uid: tslib.dns.resolve4
+  - uid: tslib.dns.resolve6
+    name: resolve6
+    spec.typeScript:
+      - name: resolve6
+        fullName: resolve6
+        uid: tslib.dns.resolve6
+  - uid: tslib.dns.resolveAny
+    name: resolveAny
+    spec.typeScript:
+      - name: resolveAny
+        fullName: resolveAny
+        uid: tslib.dns.resolveAny
+  - uid: tslib.dns.resolveCname
+    name: resolveCname
+    spec.typeScript:
+      - name: resolveCname
+        fullName: resolveCname
+        uid: tslib.dns.resolveCname
+  - uid: tslib.dns.resolveMx
+    name: resolveMx
+    spec.typeScript:
+      - name: resolveMx
+        fullName: resolveMx
+        uid: tslib.dns.resolveMx
+  - uid: tslib.dns.resolveNaptr
+    name: resolveNaptr
+    spec.typeScript:
+      - name: resolveNaptr
+        fullName: resolveNaptr
+        uid: tslib.dns.resolveNaptr
+  - uid: tslib.dns.resolveNs
+    name: resolveNs
+    spec.typeScript:
+      - name: resolveNs
+        fullName: resolveNs
+        uid: tslib.dns.resolveNs
+  - uid: tslib.dns.resolvePtr
+    name: resolvePtr
+    spec.typeScript:
+      - name: resolvePtr
+        fullName: resolvePtr
+        uid: tslib.dns.resolvePtr
+  - uid: tslib.dns.resolveSoa
+    name: resolveSoa
+    spec.typeScript:
+      - name: resolveSoa
+        fullName: resolveSoa
+        uid: tslib.dns.resolveSoa
+  - uid: tslib.dns.resolveSrv
+    name: resolveSrv
+    spec.typeScript:
+      - name: resolveSrv
+        fullName: resolveSrv
+        uid: tslib.dns.resolveSrv
+  - uid: tslib.dns.resolveTxt
+    name: resolveTxt
+    spec.typeScript:
+      - name: resolveTxt
+        fullName: resolveTxt
+        uid: tslib.dns.resolveTxt
+  - uid: tslib.dns.reverse
+    name: reverse
+    spec.typeScript:
+      - name: reverse
+        fullName: reverse
+        uid: tslib.dns.reverse
+  - uid: tslib.dns.setServers
+    name: setServers
+    spec.typeScript:
+      - name: setServers
+        fullName: setServers
+        uid: tslib.dns.setServers
+  - uid: tslib.dns.RecordWithTtl
+    name: RecordWithTtl
+    spec.typeScript:
+      - name: RecordWithTtl
+        fullName: RecordWithTtl
+        uid: tslib.dns.RecordWithTtl
+  - uid: tslib.dns.MxRecord
+    name: MxRecord
+    spec.typeScript:
+      - name: MxRecord
+        fullName: MxRecord
+        uid: tslib.dns.MxRecord
+  - uid: tslib.dns.NaptrRecord
+    name: NaptrRecord
+    spec.typeScript:
+      - name: NaptrRecord
+        fullName: NaptrRecord
+        uid: tslib.dns.NaptrRecord
+  - uid: tslib.dns.SoaRecord
+    name: SoaRecord
+    spec.typeScript:
+      - name: SoaRecord
+        fullName: SoaRecord
+        uid: tslib.dns.SoaRecord
+  - uid: tslib.dns.SrvRecord
+    name: SrvRecord
+    spec.typeScript:
+      - name: SrvRecord
+        fullName: SrvRecord
+        uid: tslib.dns.SrvRecord

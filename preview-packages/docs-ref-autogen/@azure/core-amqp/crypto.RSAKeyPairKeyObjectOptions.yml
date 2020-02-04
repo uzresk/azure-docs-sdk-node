@@ -1,0 +1,600 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.crypto.RSAKeyPairKeyObjectOptions
+    name: RSAKeyPairKeyObjectOptions
+    fullName: RSAKeyPairKeyObjectOptions
+    children:
+      - tslib.crypto.RSAKeyPairKeyObjectOptions.modulusLength
+      - tslib.crypto.RSAKeyPairKeyObjectOptions.publicExponent
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.crypto.RSAKeyPairKeyObjectOptions.modulusLength
+    name: modulusLength
+    fullName: modulusLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Key size in bits
+    syntax:
+      content: 'modulusLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.crypto.RSAKeyPairKeyObjectOptions.publicExponent
+    name: publicExponent
+    fullName: publicExponent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'publicExponent?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.stream.internal.Transform
+    name: Transform
+    spec.typeScript:
+      - name: Transform
+        fullName: Transform
+        uid: tslib.stream.internal.Transform
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.crypto.BinaryLike
+    name: BinaryLike
+    spec.typeScript:
+      - name: BinaryLike
+        fullName: BinaryLike
+        uid: tslib.crypto.BinaryLike
+  - uid: tslib.crypto.Utf8AsciiBinaryEncoding
+    name: Utf8AsciiBinaryEncoding
+    spec.typeScript:
+      - name: Utf8AsciiBinaryEncoding
+        fullName: Utf8AsciiBinaryEncoding
+        uid: tslib.crypto.Utf8AsciiBinaryEncoding
+  - uid: tslib.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: tslib.NodeJS.ArrayBufferView
+  - uid: tslib.crypto.HexBase64BinaryEncoding
+    name: HexBase64BinaryEncoding
+    spec.typeScript:
+      - name: HexBase64BinaryEncoding
+        fullName: HexBase64BinaryEncoding
+        uid: tslib.crypto.HexBase64BinaryEncoding
+  - uid: tslib.crypto.Utf8AsciiBinaryEncoding | undefined
+    name: Utf8AsciiBinaryEncoding | undefined
+    spec.typeScript:
+      - name: Utf8AsciiBinaryEncoding
+        fullName: Utf8AsciiBinaryEncoding
+        uid: tslib.crypto.Utf8AsciiBinaryEncoding
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.stream.internal.ReadableOptions
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: tslib.stream.internal.ReadableOptions
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.crypto.HexBase64BinaryEncoding | undefined
+    name: HexBase64BinaryEncoding | undefined
+    spec.typeScript:
+      - name: HexBase64BinaryEncoding
+        fullName: HexBase64BinaryEncoding
+        uid: tslib.crypto.HexBase64BinaryEncoding
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: tslib.crypto.HexBase64Latin1Encoding
+    name: HexBase64Latin1Encoding
+    spec.typeScript:
+      - name: HexBase64Latin1Encoding
+        fullName: HexBase64Latin1Encoding
+        uid: tslib.crypto.HexBase64Latin1Encoding
+  - uid: tslib.crypto.ECDHKeyFormat
+    name: ECDHKeyFormat
+    spec.typeScript:
+      - name: ECDHKeyFormat
+        fullName: ECDHKeyFormat
+        uid: tslib.crypto.ECDHKeyFormat
+  - uid: tslib.crypto.Hash
+    name: Hash
+    spec.typeScript:
+      - name: Hash
+        fullName: Hash
+        uid: tslib.crypto.Hash
+  - uid: tslib.crypto.Utf8AsciiLatin1Encoding
+    name: Utf8AsciiLatin1Encoding
+    spec.typeScript:
+      - name: Utf8AsciiLatin1Encoding
+        fullName: Utf8AsciiLatin1Encoding
+        uid: tslib.crypto.Utf8AsciiLatin1Encoding
+  - uid: tslib.crypto.Hmac
+    name: Hmac
+    spec.typeScript:
+      - name: Hmac
+        fullName: Hmac
+        uid: tslib.crypto.Hmac
+  - uid: tslib.crypto.KeyType
+    name: KeyType
+    spec.typeScript:
+      - name: KeyType
+        fullName: KeyType
+        uid: tslib.crypto.KeyType
+  - uid: tslib.crypto.KeyObjectType
+    name: KeyObjectType
+    spec.typeScript:
+      - name: KeyObjectType
+        fullName: KeyObjectType
+        uid: tslib.crypto.KeyObjectType
+  - uid: tslib.crypto.KeyExportOptions<"pem">
+    name: KeyExportOptions<"pem">
+    spec.typeScript:
+      - name: KeyExportOptions
+        fullName: KeyExportOptions
+        uid: tslib.crypto.KeyExportOptions
+      - name: <"pem">
+        fullName: <"pem">
+  - uid: tslib.crypto.KeyExportOptions<"der">
+    name: KeyExportOptions<"der">
+    spec.typeScript:
+      - name: KeyExportOptions
+        fullName: KeyExportOptions
+        uid: tslib.crypto.KeyExportOptions
+      - name: <"der">
+        fullName: <"der">
+  - uid: tslib.stream.internal.Writable
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: tslib.stream.internal.Writable
+  - uid: tslib.crypto.SignPrivateKeyInput | tslib.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: SignPrivateKeyInput
+        fullName: SignPrivateKeyInput
+        uid: tslib.crypto.SignPrivateKeyInput
+      - name: ' | '
+        fullName: ' | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: tslib.crypto.KeyLike
+  - uid: tslib.crypto.Signer
+    name: Signer
+    spec.typeScript:
+      - name: Signer
+        fullName: Signer
+        uid: tslib.crypto.Signer
+  - uid: tslib.crypto.Verify
+    name: Verify
+    spec.typeScript:
+      - name: Verify
+        fullName: Verify
+        uid: tslib.crypto.Verify
+  - uid: object | tslib.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: 'object | '
+        fullName: 'object | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: tslib.crypto.KeyLike
+  - uid: tslib.crypto.Cipher
+    name: Cipher
+    spec.typeScript:
+      - name: Cipher
+        fullName: Cipher
+        uid: tslib.crypto.Cipher
+  - uid: tslib.stream.internal.TransformOptions
+    name: TransformOptions
+    spec.typeScript:
+      - name: TransformOptions
+        fullName: TransformOptions
+        uid: tslib.stream.internal.TransformOptions
+  - uid: tslib.stream.internal.TransformCallback
+    name: TransformCallback
+    spec.typeScript:
+      - name: TransformCallback
+        fullName: TransformCallback
+        uid: tslib.stream.internal.TransformCallback
+  - uid: tslib.crypto.BasePrivateKeyEncodingOptions<PrivF> & Object
+    name: BasePrivateKeyEncodingOptions<PrivF> & Object
+    spec.typeScript:
+      - name: BasePrivateKeyEncodingOptions
+        fullName: BasePrivateKeyEncodingOptions
+        uid: tslib.crypto.BasePrivateKeyEncodingOptions
+      - name: <PrivF> & Object
+        fullName: <PrivF> & Object
+  - uid: tslib.crypto.Decipher
+    name: Decipher
+    spec.typeScript:
+      - name: Decipher
+        fullName: Decipher
+        uid: tslib.crypto.Decipher
+  - uid: tslib.crypto.KeyObject
+    name: KeyObject
+    spec.typeScript:
+      - name: KeyObject
+        fullName: KeyObject
+        uid: tslib.crypto.KeyObject
+  - uid: tslib.crypto.KeyFormat
+    name: KeyFormat
+    spec.typeScript:
+      - name: KeyFormat
+        fullName: KeyFormat
+        uid: tslib.crypto.KeyFormat
+  - uid: tslib.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: tslib.crypto.KeyLike
+  - uid: tslib.NodeJS.TypedArray
+    name: TypedArray
+    spec.typeScript:
+      - name: TypedArray
+        fullName: TypedArray
+        uid: tslib.NodeJS.TypedArray
+  - uid: tslib.crypto.PrivateKeyInput
+    name: PrivateKeyInput
+    spec.typeScript:
+      - name: PrivateKeyInput
+        fullName: PrivateKeyInput
+        uid: tslib.crypto.PrivateKeyInput
+  - uid: tslib.crypto.CipherCCMTypes
+    name: CipherCCMTypes
+    spec.typeScript:
+      - name: CipherCCMTypes
+        fullName: CipherCCMTypes
+        uid: tslib.crypto.CipherCCMTypes
+  - uid: tslib.crypto.CipherCCMOptions
+    name: CipherCCMOptions
+    spec.typeScript:
+      - name: CipherCCMOptions
+        fullName: CipherCCMOptions
+        uid: tslib.crypto.CipherCCMOptions
+  - uid: tslib.crypto.CipherCCM
+    name: CipherCCM
+    spec.typeScript:
+      - name: CipherCCM
+        fullName: CipherCCM
+        uid: tslib.crypto.CipherCCM
+  - uid: tslib.crypto.CipherGCMTypes
+    name: CipherGCMTypes
+    spec.typeScript:
+      - name: CipherGCMTypes
+        fullName: CipherGCMTypes
+        uid: tslib.crypto.CipherGCMTypes
+  - uid: tslib.crypto.CipherGCMOptions
+    name: CipherGCMOptions
+    spec.typeScript:
+      - name: CipherGCMOptions
+        fullName: CipherGCMOptions
+        uid: tslib.crypto.CipherGCMOptions
+  - uid: tslib.crypto.CipherGCM
+    name: CipherGCM
+    spec.typeScript:
+      - name: CipherGCM
+        fullName: CipherGCM
+        uid: tslib.crypto.CipherGCM
+  - uid: tslib.crypto.CipherKey
+    name: CipherKey
+    spec.typeScript:
+      - name: CipherKey
+        fullName: CipherKey
+        uid: tslib.crypto.CipherKey
+  - uid: tslib.crypto.BinaryLike | null
+    name: BinaryLike | null
+    spec.typeScript:
+      - name: BinaryLike
+        fullName: BinaryLike
+        uid: tslib.crypto.BinaryLike
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.crypto.DecipherCCM
+    name: DecipherCCM
+    spec.typeScript:
+      - name: DecipherCCM
+        fullName: DecipherCCM
+        uid: tslib.crypto.DecipherCCM
+  - uid: tslib.crypto.DecipherGCM
+    name: DecipherGCM
+    spec.typeScript:
+      - name: DecipherGCM
+        fullName: DecipherGCM
+        uid: tslib.crypto.DecipherGCM
+  - uid: number | tslib.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: 'number | '
+        fullName: 'number | '
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: tslib.NodeJS.ArrayBufferView
+  - uid: tslib.crypto.DiffieHellman
+    name: DiffieHellman
+    spec.typeScript:
+      - name: DiffieHellman
+        fullName: DiffieHellman
+        uid: tslib.crypto.DiffieHellman
+  - uid: tslib.crypto.ECDH
+    name: ECDH
+    spec.typeScript:
+      - name: ECDH
+        fullName: ECDH
+        uid: tslib.crypto.ECDH
+  - uid: tslib.crypto.HashOptions
+    name: HashOptions
+    spec.typeScript:
+      - name: HashOptions
+        fullName: HashOptions
+        uid: tslib.crypto.HashOptions
+  - uid: tslib.crypto.PrivateKeyInput | string | Buffer
+    name: PrivateKeyInput | string | Buffer
+    spec.typeScript:
+      - name: PrivateKeyInput
+        fullName: PrivateKeyInput
+        uid: tslib.crypto.PrivateKeyInput
+      - name: ' | string | Buffer'
+        fullName: ' | string | Buffer'
+  - uid: tslib.crypto.PublicKeyInput | string | Buffer | tslib.crypto.KeyObject
+    name: KeyObject
+    spec.typeScript:
+      - name: PublicKeyInput
+        fullName: PublicKeyInput
+        uid: tslib.crypto.PublicKeyInput
+      - name: ' | string | Buffer | '
+        fullName: ' | string | Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: tslib.crypto.KeyObject
+  - uid: 'tslib.crypto.RSAKeyPairOptions<"pem", "pem">'
+    name: 'RSAKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: tslib.crypto.RSAKeyPairOptions
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: 'tslib.crypto.KeyPairSyncResult<string, string>'
+    name: 'KeyPairSyncResult<string, string>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: tslib.crypto.KeyPairSyncResult
+      - name: '<string, string>'
+        fullName: '<string, string>'
+  - uid: 'tslib.crypto.RSAKeyPairOptions<"pem", "der">'
+    name: 'RSAKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: tslib.crypto.RSAKeyPairOptions
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: 'tslib.crypto.KeyPairSyncResult<string, Buffer>'
+    name: 'KeyPairSyncResult<string, Buffer>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: tslib.crypto.KeyPairSyncResult
+      - name: '<string, Buffer>'
+        fullName: '<string, Buffer>'
+  - uid: 'tslib.crypto.RSAKeyPairOptions<"der", "pem">'
+    name: 'RSAKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: tslib.crypto.RSAKeyPairOptions
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: 'tslib.crypto.KeyPairSyncResult<Buffer, string>'
+    name: 'KeyPairSyncResult<Buffer, string>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: tslib.crypto.KeyPairSyncResult
+      - name: '<Buffer, string>'
+        fullName: '<Buffer, string>'
+  - uid: 'tslib.crypto.RSAKeyPairOptions<"der", "der">'
+    name: 'RSAKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: tslib.crypto.RSAKeyPairOptions
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: 'tslib.crypto.KeyPairSyncResult<Buffer, Buffer>'
+    name: 'KeyPairSyncResult<Buffer, Buffer>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: tslib.crypto.KeyPairSyncResult
+      - name: '<Buffer, Buffer>'
+        fullName: '<Buffer, Buffer>'
+  - uid: tslib.crypto.RSAKeyPairKeyObjectOptions
+    name: RSAKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: RSAKeyPairKeyObjectOptions
+        fullName: RSAKeyPairKeyObjectOptions
+        uid: tslib.crypto.RSAKeyPairKeyObjectOptions
+  - uid: tslib.crypto.KeyPairKeyObjectResult
+    name: KeyPairKeyObjectResult
+    spec.typeScript:
+      - name: KeyPairKeyObjectResult
+        fullName: KeyPairKeyObjectResult
+        uid: tslib.crypto.KeyPairKeyObjectResult
+  - uid: 'tslib.crypto.DSAKeyPairOptions<"pem", "pem">'
+    name: 'DSAKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: tslib.crypto.DSAKeyPairOptions
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: 'tslib.crypto.DSAKeyPairOptions<"pem", "der">'
+    name: 'DSAKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: tslib.crypto.DSAKeyPairOptions
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: 'tslib.crypto.DSAKeyPairOptions<"der", "pem">'
+    name: 'DSAKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: tslib.crypto.DSAKeyPairOptions
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: 'tslib.crypto.DSAKeyPairOptions<"der", "der">'
+    name: 'DSAKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: tslib.crypto.DSAKeyPairOptions
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: tslib.crypto.DSAKeyPairKeyObjectOptions
+    name: DSAKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: DSAKeyPairKeyObjectOptions
+        fullName: DSAKeyPairKeyObjectOptions
+        uid: tslib.crypto.DSAKeyPairKeyObjectOptions
+  - uid: 'tslib.crypto.ECKeyPairOptions<"pem", "pem">'
+    name: 'ECKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: tslib.crypto.ECKeyPairOptions
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: 'tslib.crypto.ECKeyPairOptions<"pem", "der">'
+    name: 'ECKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: tslib.crypto.ECKeyPairOptions
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: 'tslib.crypto.ECKeyPairOptions<"der", "pem">'
+    name: 'ECKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: tslib.crypto.ECKeyPairOptions
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: 'tslib.crypto.ECKeyPairOptions<"der", "der">'
+    name: 'ECKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: tslib.crypto.ECKeyPairOptions
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: tslib.crypto.ECKeyPairKeyObjectOptions
+    name: ECKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: ECKeyPairKeyObjectOptions
+        fullName: ECKeyPairKeyObjectOptions
+        uid: tslib.crypto.ECKeyPairKeyObjectOptions
+  - uid: tslib.crypto.RsaPrivateKey | tslib.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: RsaPrivateKey
+        fullName: RsaPrivateKey
+        uid: tslib.crypto.RsaPrivateKey
+      - name: ' | '
+        fullName: ' | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: tslib.crypto.KeyLike
+  - uid: >-
+      tslib.crypto.RsaPublicKey | tslib.crypto.RsaPrivateKey |
+      tslib.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: RsaPublicKey
+        fullName: RsaPublicKey
+        uid: tslib.crypto.RsaPublicKey
+      - name: ' | '
+        fullName: ' | '
+      - name: RsaPrivateKey
+        fullName: RsaPrivateKey
+        uid: tslib.crypto.RsaPrivateKey
+      - name: ' | '
+        fullName: ' | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: tslib.crypto.KeyLike
+  - uid: tslib.crypto.ScryptOptions
+    name: ScryptOptions
+    spec.typeScript:
+      - name: ScryptOptions
+        fullName: ScryptOptions
+        uid: tslib.crypto.ScryptOptions
+  - uid: tslib.crypto.KeyLike | tslib.crypto.SignPrivateKeyInput
+    name: SignPrivateKeyInput
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: tslib.crypto.KeyLike
+      - name: ' | '
+        fullName: ' | '
+      - name: SignPrivateKeyInput
+        fullName: SignPrivateKeyInput
+        uid: tslib.crypto.SignPrivateKeyInput
+  - uid: tslib.crypto.KeyLike | tslib.crypto.VerifyKeyWithOptions
+    name: VerifyKeyWithOptions
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: tslib.crypto.KeyLike
+      - name: ' | '
+        fullName: ' | '
+      - name: VerifyKeyWithOptions
+        fullName: VerifyKeyWithOptions
+        uid: tslib.crypto.VerifyKeyWithOptions

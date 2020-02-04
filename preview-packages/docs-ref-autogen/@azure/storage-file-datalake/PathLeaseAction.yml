@@ -1,22 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathLeaseAction'
+  - uid: '@azure/abort-controller.PathLeaseAction'
     name: PathLeaseAction
     fullName: PathLeaseAction
     children:
-      - '@azure/storage-file-datalake.PathLeaseAction.Acquire'
-      - '@azure/storage-file-datalake.PathLeaseAction.Break'
-      - '@azure/storage-file-datalake.PathLeaseAction.Change'
-      - '@azure/storage-file-datalake.PathLeaseAction.Release'
-      - '@azure/storage-file-datalake.PathLeaseAction.Renew'
+      - '@azure/abort-controller.PathLeaseAction.Acquire'
+      - '@azure/abort-controller.PathLeaseAction.Break'
+      - '@azure/abort-controller.PathLeaseAction.Change'
+      - '@azure/abort-controller.PathLeaseAction.Release'
+      - '@azure/abort-controller.PathLeaseAction.Renew'
     langs:
       - typeScript
     type: enum
     summary: |-
       Defines values for PathLeaseAction.
       Possible values include: 'acquire', 'break', 'change', 'renew', 'release'
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathLeaseAction.Acquire'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathLeaseAction.Acquire'
     name: Acquire
     children: []
     langs:
@@ -24,8 +24,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathLeaseAction.Break'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathLeaseAction.Break'
     name: Break
     children: []
     langs:
@@ -33,8 +33,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathLeaseAction.Change'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathLeaseAction.Change'
     name: Change
     children: []
     langs:
@@ -42,8 +42,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathLeaseAction.Release'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathLeaseAction.Release'
     name: Release
     children: []
     langs:
@@ -51,8 +51,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathLeaseAction.Renew'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathLeaseAction.Renew'
     name: Renew
     children: []
     langs:
@@ -60,4 +60,4 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.makeDetectLanguageResult'
+    name: >-
+      makeDetectLanguageResult(string, DetectedLanguage[],
+      TextDocumentStatistics)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function makeDetectLanguageResult(id: string, detectedLanguages:
+        DetectedLanguage[], statistics?: TextDocumentStatistics)
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: detectedLanguages
+          type:
+            - '@azure/abort-controller.DetectedLanguage[]'
+          description: ''
+        - id: statistics
+          type:
+            - '@azure/abort-controller.TextDocumentStatistics'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.DetectLanguageSuccessResult'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.DetectedLanguage[]'
+    name: 'DetectedLanguage[]'
+    spec.typeScript:
+      - name: DetectedLanguage
+        fullName: DetectedLanguage
+        uid: '@azure/abort-controller.DetectedLanguage'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.TextDocumentStatistics'
+    name: TextDocumentStatistics
+    spec.typeScript:
+      - name: TextDocumentStatistics
+        fullName: TextDocumentStatistics
+        uid: '@azure/abort-controller.TextDocumentStatistics'
+  - uid: '@azure/abort-controller.DetectLanguageSuccessResult'
+    name: DetectLanguageSuccessResult
+    spec.typeScript:
+      - name: DetectLanguageSuccessResult
+        fullName: DetectLanguageSuccessResult
+        uid: '@azure/abort-controller.DetectLanguageSuccessResult'

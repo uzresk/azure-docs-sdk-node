@@ -1,0 +1,74 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Batch'
+    name: Batch
+    fullName: Batch
+    children:
+      - '@azure/abort-controller.Batch.addOperation'
+      - '@azure/abort-controller.Batch.constructor'
+      - '@azure/abort-controller.Batch.do'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Batch provides basic parallel execution with concurrency limits.
+
+      Will stop execute left operations when one of the executed operation
+      throws an error.
+
+      But Batch cannot cancel ongoing operations, you need to cancel them by
+      yourself.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Batch.addOperation'
+    name: addOperation(Operation)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Add a operation into queue.
+    syntax:
+      content: 'function addOperation(operation: Operation)'
+      parameters:
+        - id: operation
+          type:
+            - '@azure/abort-controller.Operation'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Batch.constructor'
+    name: Batch(undefined | number)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Creates an instance of Batch.
+    syntax:
+      content: 'new Batch(concurrency?: undefined | number)'
+      parameters:
+        - id: concurrency
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Batch.do'
+    name: do()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Start execute operations in the queue.
+    syntax:
+      content: function do()
+      parameters: []
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Operation'
+    name: Operation
+    spec.typeScript:
+      - name: Operation
+        fullName: Operation
+        uid: '@azure/abort-controller.Operation'

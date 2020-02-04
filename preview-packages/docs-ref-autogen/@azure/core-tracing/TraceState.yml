@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.TraceState'
+    name: TraceState
+    fullName: TraceState
+    children:
+      - '@opentelemetry/types.TraceState.get'
+      - '@opentelemetry/types.TraceState.serialize'
+      - '@opentelemetry/types.TraceState.set'
+      - '@opentelemetry/types.TraceState.unset'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Tracestate carries system-specific configuration data, represented as a
+      list
+
+      of key-value pairs. TraceState allows multiple tracing systems to
+
+      participate in the same trace.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.TraceState.get'
+    name: get(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns the value to which the specified key is mapped, or `undefined` if
+      this map contains no mapping for the key.
+    syntax:
+      content: 'function get(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: with which the specified value is to be associated.
+      return:
+        type:
+          - string | undefined
+        description: |-
+          the value to which the specified key is mapped, or `undefined` if
+              this map contains no mapping for the key.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.TraceState.serialize'
+    name: serialize()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Serializes the TraceState to a `list` as defined below. The `list` is a
+      series of `list-members` separated by commas `,`, and a list-member is a
+      key/value pair separated by an equals sign `=`. Spaces and horizontal tabs
+      surrounding `list-members` are ignored. There can be a maximum of 32
+      `list-members` in a `list`.
+    syntax:
+      content: function serialize()
+      parameters: []
+      return:
+        type:
+          - string
+        description: the serialized string.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.TraceState.set'
+    name: 'set(string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Adds or updates the TraceState that has the given `key` if it is
+      present. The new State will always be added in the front of the
+      list of states.
+    syntax:
+      content: 'function set(key: string, value: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: key of the TraceState entry.
+        - id: value
+          type:
+            - string
+          description: |
+            value of the TraceState entry.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.TraceState.unset'
+    name: unset(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes the TraceState Entry that has the given `key` if it is present.
+    syntax:
+      content: 'function unset(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: |
+            the key for the TraceState Entry to be removed.
+    package: '@opentelemetry/types'

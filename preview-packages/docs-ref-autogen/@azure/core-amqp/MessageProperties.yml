@@ -1,33 +1,33 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.MessageProperties'
+  - uid: tslib.MessageProperties
     name: MessageProperties
     langs:
       - typeScript
     fullName: MessageProperties
     children:
-      - '@azure/core-amqp.MessageProperties.absoluteExpiryTime'
-      - '@azure/core-amqp.MessageProperties.contentEncoding'
-      - '@azure/core-amqp.MessageProperties.contentType'
-      - '@azure/core-amqp.MessageProperties.correlationId'
-      - '@azure/core-amqp.MessageProperties.creationTime'
-      - '@azure/core-amqp.MessageProperties.fromAmqpMessageProperties'
-      - '@azure/core-amqp.MessageProperties.groupId'
-      - '@azure/core-amqp.MessageProperties.groupSequence'
-      - '@azure/core-amqp.MessageProperties.messageId'
-      - '@azure/core-amqp.MessageProperties.replyTo'
-      - '@azure/core-amqp.MessageProperties.replyToGroupId'
-      - '@azure/core-amqp.MessageProperties.subject'
-      - '@azure/core-amqp.MessageProperties.to'
-      - '@azure/core-amqp.MessageProperties.toAmqpMessageProperties'
-      - '@azure/core-amqp.MessageProperties.userId'
+      - tslib.MessageProperties.absoluteExpiryTime
+      - tslib.MessageProperties.contentEncoding
+      - tslib.MessageProperties.contentType
+      - tslib.MessageProperties.correlationId
+      - tslib.MessageProperties.creationTime
+      - tslib.MessageProperties.fromAmqpMessageProperties
+      - tslib.MessageProperties.groupId
+      - tslib.MessageProperties.groupSequence
+      - tslib.MessageProperties.messageId
+      - tslib.MessageProperties.replyTo
+      - tslib.MessageProperties.replyToGroupId
+      - tslib.MessageProperties.subject
+      - tslib.MessageProperties.to
+      - tslib.MessageProperties.toAmqpMessageProperties
+      - tslib.MessageProperties.userId
     type: module
     summary: >-
       Describes the operations that can be performed on the amqp message
       properties.
-    package: '@azure/core-amqp'
+    package: tslib
     module: MessageProperties
-  - uid: '@azure/core-amqp.MessageProperties.absoluteExpiryTime'
+  - uid: tslib.MessageProperties.absoluteExpiryTime
     name: absoluteExpiryTime
     fullName: absoluteExpiryTime
     children: []
@@ -44,8 +44,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.MessageProperties.contentEncoding'
+    package: tslib
+  - uid: tslib.MessageProperties.contentEncoding
     name: contentEncoding
     fullName: contentEncoding
     children: []
@@ -65,8 +65,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.MessageProperties.contentType'
+    package: tslib
+  - uid: tslib.MessageProperties.contentType
     name: contentType
     fullName: contentType
     children: []
@@ -81,8 +81,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.MessageProperties.correlationId'
+    package: tslib
+  - uid: tslib.MessageProperties.correlationId
     name: correlationId
     fullName: correlationId
     children: []
@@ -99,8 +99,8 @@ items:
         type:
           - string | number | Buffer
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.MessageProperties.creationTime'
+    package: tslib
+  - uid: tslib.MessageProperties.creationTime
     name: creationTime
     fullName: creationTime
     children: []
@@ -115,8 +115,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.MessageProperties.fromAmqpMessageProperties'
+    package: tslib
+  - uid: tslib.MessageProperties.fromAmqpMessageProperties
     name: fromAmqpMessageProperties(AmqpMessageProperties)
     children: []
     type: function
@@ -132,10 +132,10 @@ items:
           description: Amqp message properties.
       return:
         type:
-          - '@azure/core-amqp.MessageProperties'
+          - tslib.MessageProperties
         description: MessageProperties.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.MessageProperties.groupId'
+    package: tslib
+  - uid: tslib.MessageProperties.groupId
     name: groupId
     fullName: groupId
     children: []
@@ -150,8 +150,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.MessageProperties.groupSequence'
+    package: tslib
+  - uid: tslib.MessageProperties.groupSequence
     name: groupSequence
     fullName: groupSequence
     children: []
@@ -168,8 +168,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.MessageProperties.messageId'
+    package: tslib
+  - uid: tslib.MessageProperties.messageId
     name: messageId
     fullName: messageId
     children: []
@@ -189,8 +189,8 @@ items:
         type:
           - string | number | Buffer
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.MessageProperties.replyTo'
+    package: tslib
+  - uid: tslib.MessageProperties.replyTo
     name: replyTo
     fullName: replyTo
     children: []
@@ -205,8 +205,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.MessageProperties.replyToGroupId'
+    package: tslib
+  - uid: tslib.MessageProperties.replyToGroupId
     name: replyToGroupId
     fullName: replyToGroupId
     children: []
@@ -221,8 +221,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.MessageProperties.subject'
+    package: tslib
+  - uid: tslib.MessageProperties.subject
     name: subject
     fullName: subject
     children: []
@@ -241,8 +241,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.MessageProperties.to'
+    package: tslib
+  - uid: tslib.MessageProperties.to
     name: to
     fullName: to
     children: []
@@ -257,8 +257,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.MessageProperties.toAmqpMessageProperties'
+    package: tslib
+  - uid: tslib.MessageProperties.toAmqpMessageProperties
     name: toAmqpMessageProperties(MessageProperties)
     children: []
     type: function
@@ -270,14 +270,14 @@ items:
       parameters:
         - id: props
           type:
-            - '@azure/core-amqp.MessageProperties'
+            - tslib.MessageProperties
           description: Message properties.
       return:
         type:
           - AmqpMessageProperties
         description: AmqpMessageProperties.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.MessageProperties.userId'
+    package: tslib
+  - uid: tslib.MessageProperties.userId
     name: userId
     fullName: userId
     children: []
@@ -294,41 +294,41 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/core-amqp'
+    package: tslib
 references:
-  - uid: '@azure/core-amqp.MessageProperties'
+  - uid: tslib.MessageProperties
     name: MessageProperties
     spec.typeScript:
       - name: MessageProperties
         fullName: MessageProperties
-        uid: '@azure/core-amqp.MessageProperties'
-  - uid: '@azure/core-amqp.MessageProperties.absoluteExpiryTime'
+        uid: tslib.MessageProperties
+  - uid: tslib.MessageProperties.absoluteExpiryTime
     name: absoluteExpiryTime
-  - uid: '@azure/core-amqp.MessageProperties.contentEncoding'
+  - uid: tslib.MessageProperties.contentEncoding
     name: contentEncoding
-  - uid: '@azure/core-amqp.MessageProperties.contentType'
+  - uid: tslib.MessageProperties.contentType
     name: contentType
-  - uid: '@azure/core-amqp.MessageProperties.correlationId'
+  - uid: tslib.MessageProperties.correlationId
     name: correlationId
-  - uid: '@azure/core-amqp.MessageProperties.creationTime'
+  - uid: tslib.MessageProperties.creationTime
     name: creationTime
-  - uid: '@azure/core-amqp.MessageProperties.fromAmqpMessageProperties'
+  - uid: tslib.MessageProperties.fromAmqpMessageProperties
     name: fromAmqpMessageProperties
-  - uid: '@azure/core-amqp.MessageProperties.groupId'
+  - uid: tslib.MessageProperties.groupId
     name: groupId
-  - uid: '@azure/core-amqp.MessageProperties.groupSequence'
+  - uid: tslib.MessageProperties.groupSequence
     name: groupSequence
-  - uid: '@azure/core-amqp.MessageProperties.messageId'
+  - uid: tslib.MessageProperties.messageId
     name: messageId
-  - uid: '@azure/core-amqp.MessageProperties.replyTo'
+  - uid: tslib.MessageProperties.replyTo
     name: replyTo
-  - uid: '@azure/core-amqp.MessageProperties.replyToGroupId'
+  - uid: tslib.MessageProperties.replyToGroupId
     name: replyToGroupId
-  - uid: '@azure/core-amqp.MessageProperties.subject'
+  - uid: tslib.MessageProperties.subject
     name: subject
-  - uid: '@azure/core-amqp.MessageProperties.to'
+  - uid: tslib.MessageProperties.to
     name: to
-  - uid: '@azure/core-amqp.MessageProperties.toAmqpMessageProperties'
+  - uid: tslib.MessageProperties.toAmqpMessageProperties
     name: toAmqpMessageProperties
-  - uid: '@azure/core-amqp.MessageProperties.userId'
+  - uid: tslib.MessageProperties.userId
     name: userId

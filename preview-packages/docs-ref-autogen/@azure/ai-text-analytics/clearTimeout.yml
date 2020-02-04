@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.clearTimeout'
+    name: clearTimeout(Timeout)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function clearTimeout(timeoutId: Timeout)'
+      parameters:
+        - id: timeoutId
+          type:
+            - '@azure/abort-controller.NodeJS.Timeout'
+          description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Timeout'
+    name: Timeout
+    spec.typeScript:
+      - name: Timeout
+        fullName: Timeout
+        uid: '@azure/abort-controller.NodeJS.Timeout'

@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.AuthResponse'
+    name: AuthResponse
+    fullName: AuthResponse
+    children:
+      - '@azure/ms-rest-azure-env.AuthResponse.credentials'
+      - '@azure/ms-rest-azure-env.AuthResponse.subscriptions'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AuthResponse.credentials'
+    name: credentials
+    fullName: credentials
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '@property {TokenCredentialsBase} credentials - The credentials object.'
+    syntax:
+      content: 'credentials: TokenCredentialsBase'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.TokenCredentialsBase'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AuthResponse.subscriptions'
+    name: subscriptions
+    fullName: subscriptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      {Array<LinkedSubscription>} [subscriptions] List of associated
+      subscriptions.
+    optional: true
+    syntax:
+      content: 'subscriptions?: LinkedSubscription[]'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.LinkedSubscription[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.TokenCredentialsBase'
+    name: TokenCredentialsBase
+    spec.typeScript:
+      - name: TokenCredentialsBase
+        fullName: TokenCredentialsBase
+        uid: '@azure/ms-rest-azure-env.TokenCredentialsBase'
+  - uid: '@azure/ms-rest-azure-env.LinkedSubscription[]'
+    name: 'LinkedSubscription[]'
+    spec.typeScript:
+      - name: LinkedSubscription
+        fullName: LinkedSubscription
+        uid: '@azure/ms-rest-azure-env.LinkedSubscription'
+      - name: '[]'
+        fullName: '[]'

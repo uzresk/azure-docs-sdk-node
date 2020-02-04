@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.BucketOptions
+    name: BucketOptions
+    fullName: BucketOptions
+    children:
+      - tslib.BucketOptions.explicit
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      Properties of a BucketOptions.
+      A Distribution may optionally contain a histogram of the values in the
+      population. The bucket boundaries for that histogram are described by
+      BucketOptions.
+      If bucket_options has no type, then there is no histogram associated with
+      the Distribution.
+    package: tslib
+  - uid: tslib.BucketOptions.explicit
+    name: explicit
+    fullName: explicit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Bucket with explicit bounds.
+    syntax:
+      content: 'explicit: Explicit'
+      return:
+        type:
+          - tslib.Explicit
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.Explicit
+    name: Explicit
+    spec.typeScript:
+      - name: Explicit
+        fullName: Explicit
+        uid: tslib.Explicit

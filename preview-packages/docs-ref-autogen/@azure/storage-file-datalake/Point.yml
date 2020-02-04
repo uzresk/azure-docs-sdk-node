@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Point'
+    name: Point
+    fullName: Point
+    children:
+      - '@azure/abort-controller.Point.timestamp'
+      - '@azure/abort-controller.Point.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: A timestamped measurement.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Point.timestamp'
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The moment when this point was recorded. Inclusive.
+      If not specified, the timestamp will be decided by the backend.
+    syntax:
+      content: 'timestamp: Timestamp'
+      return:
+        type:
+          - '@azure/abort-controller.Timestamp'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Point.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The actual point value.
+      64-bit integer or 64-bit double-precision floating-point number
+      or distribution value
+      or summary value. This is not recommended, since it cannot be aggregated.
+    syntax:
+      content: 'value: number | DistributionValue | SummaryValue'
+      return:
+        type:
+          - >-
+            number | @azure/abort-controller.DistributionValue |
+            @azure/abort-controller.SummaryValue
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Timestamp'
+    name: Timestamp
+    spec.typeScript:
+      - name: Timestamp
+        fullName: Timestamp
+        uid: '@azure/abort-controller.Timestamp'
+  - uid: >-
+      number | @azure/abort-controller.DistributionValue |
+      @azure/abort-controller.SummaryValue
+    name: SummaryValue
+    spec.typeScript:
+      - name: 'number | '
+        fullName: 'number | '
+      - name: DistributionValue
+        fullName: DistributionValue
+        uid: '@azure/abort-controller.DistributionValue'
+      - name: ' | '
+        fullName: ' | '
+      - name: SummaryValue
+        fullName: SummaryValue
+        uid: '@azure/abort-controller.SummaryValue'

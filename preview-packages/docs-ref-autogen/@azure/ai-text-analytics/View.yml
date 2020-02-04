@@ -1,0 +1,275 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.View'
+    name: View
+    fullName: View
+    children:
+      - '@azure/abort-controller.View.aggregation'
+      - '@azure/abort-controller.View.description'
+      - '@azure/abort-controller.View.endTime'
+      - '@azure/abort-controller.View.getColumns'
+      - '@azure/abort-controller.View.getMetric'
+      - '@azure/abort-controller.View.getSnapshot'
+      - '@azure/abort-controller.View.measure'
+      - '@azure/abort-controller.View.name'
+      - '@azure/abort-controller.View.recordMeasurement'
+      - '@azure/abort-controller.View.registered'
+      - '@azure/abort-controller.View.startTime'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Defines how individual measurements are broken down by tags and
+      aggregated.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.View.aggregation'
+    name: aggregation
+    fullName: aggregation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      An Aggregation describes how data collected is aggregated.
+      There are four aggregation types: count, sum, lastValue and distirbution.
+    syntax:
+      content: 'aggregation: AggregationType'
+      return:
+        type:
+          - '@azure/abort-controller.AggregationType'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.View.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Describes the view, e.g. "RPC latency distribution"'
+    syntax:
+      content: 'description: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.View.endTime'
+    name: endTime
+    fullName: endTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The end time for this view - represents the last time a value was recorded
+    optional: true
+    syntax:
+      content: 'endTime?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.View.getColumns'
+    name: getColumns()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the view's tag keys
+    syntax:
+      content: function getColumns()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.TagKey[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.View.getMetric'
+    name: getMetric(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets view`s metric
+    syntax:
+      content: 'function getMetric(start: number)'
+      parameters:
+        - id: start
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.Metric'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.View.getSnapshot'
+    name: getSnapshot(Array<TagValue | null>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a snapshot of an AggregationData for that tags/labels values.
+    syntax:
+      content: 'function getSnapshot(tagValues: Array<TagValue | null>)'
+      parameters:
+        - id: tagValues
+          type:
+            - Array<@azure/abort-controller.TagValue | null>
+          description: |
+            The desired data's tag values.
+      return:
+        type:
+          - '@azure/abort-controller.AggregationData'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.View.measure'
+    name: measure
+    fullName: measure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The Measure to which this view is applied.
+    syntax:
+      content: 'measure: Measure'
+      return:
+        type:
+          - '@azure/abort-controller.Measure'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.View.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A string by which the View will be referred to, e.g. "rpc_latency". Names
+      MUST be unique within the library.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.View.recordMeasurement'
+    name: 'recordMeasurement(Measurement, TagMap, [key: string]: string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Records a measurement in the proper view's row. This method is used by
+      Stats. User should prefer using Stats.record() instead.
+      Measurements with measurement type INT64 will have its value truncated.
+    syntax:
+      content: >-
+        function recordMeasurement(measurement: Measurement, tags: TagMap,
+        attachments?: [key: string]: string)
+      parameters:
+        - id: measurement
+          type:
+            - '@azure/abort-controller.Measurement'
+          description: The measurement to record
+        - id: tags
+          type:
+            - '@azure/abort-controller.TagMap'
+          description: The tags to which the value is applied
+        - id: attachments
+          type:
+            - '[key: string]: string'
+          description: |
+            optional The contextual information associated with an
+                example value. THe contextual information is represented as key - value
+                string pairs.
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.View.registered'
+    name: registered
+    fullName: registered
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: true if the view was registered
+    syntax:
+      content: 'registered: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.View.startTime'
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The start time for this view
+    syntax:
+      content: 'startTime: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.AggregationType'
+    name: AggregationType
+    spec.typeScript:
+      - name: AggregationType
+        fullName: AggregationType
+        uid: '@azure/abort-controller.AggregationType'
+  - uid: '@azure/abort-controller.Measure'
+    name: Measure
+    spec.typeScript:
+      - name: Measure
+        fullName: Measure
+        uid: '@azure/abort-controller.Measure'
+  - uid: '@azure/abort-controller.TagKey[]'
+    name: 'TagKey[]'
+    spec.typeScript:
+      - name: TagKey
+        fullName: TagKey
+        uid: '@azure/abort-controller.TagKey'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.Metric'
+    name: Metric
+    spec.typeScript:
+      - name: Metric
+        fullName: Metric
+        uid: '@azure/abort-controller.Metric'
+  - uid: Array<@azure/abort-controller.TagValue | null>
+    name: TagValue | null>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: TagValue
+        fullName: TagValue
+        uid: '@azure/abort-controller.TagValue'
+      - name: ' | null>'
+        fullName: ' | null>'
+  - uid: '@azure/abort-controller.AggregationData'
+    name: AggregationData
+    spec.typeScript:
+      - name: AggregationData
+        fullName: AggregationData
+        uid: '@azure/abort-controller.AggregationData'
+  - uid: '@azure/abort-controller.Measurement'
+    name: Measurement
+    spec.typeScript:
+      - name: Measurement
+        fullName: Measurement
+        uid: '@azure/abort-controller.Measurement'
+  - uid: '@azure/abort-controller.TagMap'
+    name: TagMap
+    spec.typeScript:
+      - name: TagMap
+        fullName: TagMap
+        uid: '@azure/abort-controller.TagMap'

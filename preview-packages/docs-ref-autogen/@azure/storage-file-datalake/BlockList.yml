@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlockList'
+    name: BlockList
+    fullName: BlockList
+    children:
+      - '@azure/abort-controller.BlockList.committedBlocks'
+      - '@azure/abort-controller.BlockList.uncommittedBlocks'
+    langs:
+      - typeScript
+    type: interface
+    summary: An interface representing BlockList.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlockList.committedBlocks'
+    name: committedBlocks
+    fullName: committedBlocks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'committedBlocks?: Block[]'
+      return:
+        type:
+          - '@azure/abort-controller.Block[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlockList.uncommittedBlocks'
+    name: uncommittedBlocks
+    fullName: uncommittedBlocks
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'uncommittedBlocks?: Block[]'
+      return:
+        type:
+          - '@azure/abort-controller.Block[]'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Block[]'
+    name: 'Block[]'
+    spec.typeScript:
+      - name: Block
+        fullName: Block
+        uid: '@azure/abort-controller.Block'
+      - name: '[]'
+        fullName: '[]'

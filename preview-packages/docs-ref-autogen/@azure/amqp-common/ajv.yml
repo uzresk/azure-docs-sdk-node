@@ -1,0 +1,257 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.ajv'
+    name: ajv
+    langs:
+      - typeScript
+    fullName: ajv
+    children:
+      - '@azure/ms-rest-azure-env.ajv.AdditionalPropertiesParams'
+      - '@azure/ms-rest-azure-env.ajv.Ajv'
+      - '@azure/ms-rest-azure-env.ajv.ComparisonParams'
+      - '@azure/ms-rest-azure-env.ajv.CompilationContext'
+      - '@azure/ms-rest-azure-env.ajv.CustomLogger'
+      - '@azure/ms-rest-azure-env.ajv.CustomParams'
+      - '@azure/ms-rest-azure-env.ajv.DependenciesParams'
+      - '@azure/ms-rest-azure-env.ajv.EnumParams'
+      - '@azure/ms-rest-azure-env.ajv.ErrorObject'
+      - '@azure/ms-rest-azure-env.ajv.ErrorParameters'
+      - '@azure/ms-rest-azure-env.ajv.ErrorsTextOptions'
+      - '@azure/ms-rest-azure-env.ajv.FormatDefinition'
+      - '@azure/ms-rest-azure-env.ajv.FormatParams'
+      - '@azure/ms-rest-azure-env.ajv.FormatValidator'
+      - '@azure/ms-rest-azure-env.ajv.IfParams'
+      - '@azure/ms-rest-azure-env.ajv.KeywordDefinition'
+      - '@azure/ms-rest-azure-env.ajv.LimitParams'
+      - '@azure/ms-rest-azure-env.ajv.MissingRefError'
+      - '@azure/ms-rest-azure-env.ajv.MultipleOfParams'
+      - '@azure/ms-rest-azure-env.ajv.NoParams'
+      - '@azure/ms-rest-azure-env.ajv.NumberFormatDefinition'
+      - '@azure/ms-rest-azure-env.ajv.NumberFormatValidator'
+      - '@azure/ms-rest-azure-env.ajv.Options'
+      - '@azure/ms-rest-azure-env.ajv.PatternParams'
+      - '@azure/ms-rest-azure-env.ajv.PatternRequiredParams'
+      - '@azure/ms-rest-azure-env.ajv.PropertyNamesParams'
+      - '@azure/ms-rest-azure-env.ajv.RefParams'
+      - '@azure/ms-rest-azure-env.ajv.RequiredParams'
+      - '@azure/ms-rest-azure-env.ajv.SchemaValidateFunction'
+      - '@azure/ms-rest-azure-env.ajv.StringFormatDefinition'
+      - '@azure/ms-rest-azure-env.ajv.SwitchParams'
+      - '@azure/ms-rest-azure-env.ajv.TypeParams'
+      - '@azure/ms-rest-azure-env.ajv.UniqueItemsParams'
+      - '@azure/ms-rest-azure-env.ajv.ValidateFunction'
+      - '@azure/ms-rest-azure-env.ajv.ValidationError'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: Array<@azure/ms-rest-azure-env.ajv.ErrorObject> | null
+    name: ErrorObject> | null
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: ErrorObject
+        fullName: ErrorObject
+        uid: '@azure/ms-rest-azure-env.ajv.ErrorObject'
+      - name: '> | null'
+        fullName: '> | null'
+  - uid: >-
+      @azure/ms-rest-azure-env.ajv.FormatValidator |
+      @azure/ms-rest-azure-env.ajv.FormatDefinition
+    name: FormatDefinition
+    spec.typeScript:
+      - name: FormatValidator
+        fullName: FormatValidator
+        uid: '@azure/ms-rest-azure-env.ajv.FormatValidator'
+      - name: ' | '
+        fullName: ' | '
+      - name: FormatDefinition
+        fullName: FormatDefinition
+        uid: '@azure/ms-rest-azure-env.ajv.FormatDefinition'
+  - uid: '@azure/ms-rest-azure-env.ajv.Ajv'
+    name: Ajv
+    spec.typeScript:
+      - name: Ajv
+        fullName: Ajv
+        uid: '@azure/ms-rest-azure-env.ajv.Ajv'
+  - uid: '@azure/ms-rest-azure-env.ajv.KeywordDefinition'
+    name: KeywordDefinition
+    spec.typeScript:
+      - name: KeywordDefinition
+        fullName: KeywordDefinition
+        uid: '@azure/ms-rest-azure-env.ajv.KeywordDefinition'
+  - uid: '@azure/ms-rest-azure-env.ajv.ValidateFunction'
+    name: ValidateFunction
+    spec.typeScript:
+      - name: ValidateFunction
+        fullName: ValidateFunction
+        uid: '@azure/ms-rest-azure-env.ajv.ValidateFunction'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Boolean'
+    name: Boolean
+    spec.typeScript:
+      - name: Boolean
+        fullName: Boolean
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Boolean'
+  - uid: PromiseLike<@azure/ms-rest-azure-env.ajv.ValidateFunction>
+    name: ValidateFunction>
+    spec.typeScript:
+      - name: PromiseLike<
+        fullName: PromiseLike<
+      - name: ValidateFunction
+        fullName: ValidateFunction
+        uid: '@azure/ms-rest-azure-env.ajv.ValidateFunction'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/ms-rest-azure-env.ajv.ErrorsTextOptions'
+    name: ErrorsTextOptions
+    spec.typeScript:
+      - name: ErrorsTextOptions
+        fullName: ErrorsTextOptions
+        uid: '@azure/ms-rest-azure-env.ajv.ErrorsTextOptions'
+  - uid: '@azure/ms-rest-azure-env.ajv.Options'
+    name: Options
+    spec.typeScript:
+      - name: Options
+        fullName: Options
+        uid: '@azure/ms-rest-azure-env.ajv.Options'
+  - uid: '@azure/ms-rest-azure-env.ajv.ErrorParameters'
+    name: ErrorParameters
+    spec.typeScript:
+      - name: ErrorParameters
+        fullName: ErrorParameters
+        uid: '@azure/ms-rest-azure-env.ajv.ErrorParameters'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Array<string>'
+    name: Array<string>
+    spec.typeScript:
+      - name: Array
+        fullName: Array
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Array'
+      - name: <string>
+        fullName: <string>
+  - uid: >-
+      @azure/ms-rest-azure-env.ajv.SchemaValidateFunction |
+      @azure/ms-rest-azure-env.ajv.ValidateFunction
+    name: ValidateFunction
+    spec.typeScript:
+      - name: SchemaValidateFunction
+        fullName: SchemaValidateFunction
+        uid: '@azure/ms-rest-azure-env.ajv.SchemaValidateFunction'
+      - name: ' | '
+        fullName: ' | '
+      - name: ValidateFunction
+        fullName: ValidateFunction
+        uid: '@azure/ms-rest-azure-env.ajv.ValidateFunction'
+  - uid: '@azure/ms-rest-azure-env.ajv.NumberFormatValidator'
+    name: NumberFormatValidator
+    spec.typeScript:
+      - name: NumberFormatValidator
+        fullName: NumberFormatValidator
+        uid: '@azure/ms-rest-azure-env.ajv.NumberFormatValidator'
+  - uid: '@azure/ms-rest-azure-env.ajv.CustomLogger | false'
+    name: CustomLogger | false
+    spec.typeScript:
+      - name: CustomLogger
+        fullName: CustomLogger
+        uid: '@azure/ms-rest-azure-env.ajv.CustomLogger'
+      - name: ' | false'
+        fullName: ' | false'
+  - uid: >-
+      @azure/ms-rest-azure-env.NodeJS.Global.Array<@azure/ms-rest-azure-env.ajv.ErrorObject>
+    name: ErrorObject>
+    spec.typeScript:
+      - name: Array
+        fullName: Array
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Array'
+      - name: <
+        fullName: <
+      - name: ErrorObject
+        fullName: ErrorObject
+        uid: '@azure/ms-rest-azure-env.ajv.ErrorObject'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/ms-rest-azure-env.ajv.FormatValidator'
+    name: FormatValidator
+    spec.typeScript:
+      - name: FormatValidator
+        fullName: FormatValidator
+        uid: '@azure/ms-rest-azure-env.ajv.FormatValidator'
+  - uid: null | Array<@azure/ms-rest-azure-env.ajv.ErrorObject>
+    name: ErrorObject>
+    spec.typeScript:
+      - name: null | Array<
+        fullName: null | Array<
+      - name: ErrorObject
+        fullName: ErrorObject
+        uid: '@azure/ms-rest-azure-env.ajv.ErrorObject'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Array<any>'
+    name: Array<any>
+    spec.typeScript:
+      - name: Array
+        fullName: Array
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Array'
+      - name: <any>
+        fullName: <any>
+  - uid: '@azure/ms-rest-azure-env.ajv.ValidateFunction | object'
+    name: ValidateFunction | object
+    spec.typeScript:
+      - name: ValidateFunction
+        fullName: ValidateFunction
+        uid: '@azure/ms-rest-azure-env.ajv.ValidateFunction'
+      - name: ' | object'
+        fullName: ' | object'
+  - uid: '@azure/ms-rest-azure-env.ajv.AdditionalPropertiesParams'
+    name: AdditionalPropertiesParams
+  - uid: '@azure/ms-rest-azure-env.ajv.ComparisonParams'
+    name: ComparisonParams
+  - uid: '@azure/ms-rest-azure-env.ajv.CompilationContext'
+    name: CompilationContext
+  - uid: '@azure/ms-rest-azure-env.ajv.CustomLogger'
+    name: CustomLogger
+  - uid: '@azure/ms-rest-azure-env.ajv.CustomParams'
+    name: CustomParams
+  - uid: '@azure/ms-rest-azure-env.ajv.DependenciesParams'
+    name: DependenciesParams
+  - uid: '@azure/ms-rest-azure-env.ajv.EnumParams'
+    name: EnumParams
+  - uid: '@azure/ms-rest-azure-env.ajv.ErrorObject'
+    name: ErrorObject
+  - uid: '@azure/ms-rest-azure-env.ajv.FormatDefinition'
+    name: FormatDefinition
+  - uid: '@azure/ms-rest-azure-env.ajv.FormatParams'
+    name: FormatParams
+  - uid: '@azure/ms-rest-azure-env.ajv.IfParams'
+    name: IfParams
+  - uid: '@azure/ms-rest-azure-env.ajv.LimitParams'
+    name: LimitParams
+  - uid: '@azure/ms-rest-azure-env.ajv.MissingRefError'
+    name: MissingRefError
+  - uid: '@azure/ms-rest-azure-env.ajv.MultipleOfParams'
+    name: MultipleOfParams
+  - uid: '@azure/ms-rest-azure-env.ajv.NoParams'
+    name: NoParams
+  - uid: '@azure/ms-rest-azure-env.ajv.NumberFormatDefinition'
+    name: NumberFormatDefinition
+  - uid: '@azure/ms-rest-azure-env.ajv.PatternParams'
+    name: PatternParams
+  - uid: '@azure/ms-rest-azure-env.ajv.PatternRequiredParams'
+    name: PatternRequiredParams
+  - uid: '@azure/ms-rest-azure-env.ajv.PropertyNamesParams'
+    name: PropertyNamesParams
+  - uid: '@azure/ms-rest-azure-env.ajv.RefParams'
+    name: RefParams
+  - uid: '@azure/ms-rest-azure-env.ajv.RequiredParams'
+    name: RequiredParams
+  - uid: '@azure/ms-rest-azure-env.ajv.SchemaValidateFunction'
+    name: SchemaValidateFunction
+  - uid: '@azure/ms-rest-azure-env.ajv.StringFormatDefinition'
+    name: StringFormatDefinition
+  - uid: '@azure/ms-rest-azure-env.ajv.SwitchParams'
+    name: SwitchParams
+  - uid: '@azure/ms-rest-azure-env.ajv.TypeParams'
+    name: TypeParams
+  - uid: '@azure/ms-rest-azure-env.ajv.UniqueItemsParams'
+    name: UniqueItemsParams
+  - uid: '@azure/ms-rest-azure-env.ajv.ValidationError'
+    name: ValidationError

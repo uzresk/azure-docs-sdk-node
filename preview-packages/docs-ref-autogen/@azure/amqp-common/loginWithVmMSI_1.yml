@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.loginWithVmMSI_1'
+    name: loginWithVmMSI(MSIVmOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function loginWithVmMSI(options: MSIVmOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.MSIVmOptions'
+          description: ''
+      return:
+        type:
+          - Promise<@azure/ms-rest-azure-env.MSIVmTokenCredentials>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.MSIVmOptions'
+    name: MSIVmOptions
+    spec.typeScript:
+      - name: MSIVmOptions
+        fullName: MSIVmOptions
+        uid: '@azure/ms-rest-azure-env.MSIVmOptions'
+  - uid: Promise<@azure/ms-rest-azure-env.MSIVmTokenCredentials>
+    name: MSIVmTokenCredentials>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: MSIVmTokenCredentials
+        fullName: MSIVmTokenCredentials
+        uid: '@azure/ms-rest-azure-env.MSIVmTokenCredentials'
+      - name: '>'
+        fullName: '>'

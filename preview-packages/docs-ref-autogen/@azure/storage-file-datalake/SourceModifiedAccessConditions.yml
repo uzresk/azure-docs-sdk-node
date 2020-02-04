@@ -1,23 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.SourceModifiedAccessConditions'
+  - uid: '@azure/abort-controller.SourceModifiedAccessConditions'
     name: SourceModifiedAccessConditions
     fullName: SourceModifiedAccessConditions
     children:
+      - '@azure/abort-controller.SourceModifiedAccessConditions.sourceIfMatch'
       - >-
-        @azure/storage-file-datalake.SourceModifiedAccessConditions.sourceIfMatch
+        @azure/abort-controller.SourceModifiedAccessConditions.sourceIfModifiedSince
+      - '@azure/abort-controller.SourceModifiedAccessConditions.sourceIfNoneMatch'
       - >-
-        @azure/storage-file-datalake.SourceModifiedAccessConditions.sourceIfModifiedSince
-      - >-
-        @azure/storage-file-datalake.SourceModifiedAccessConditions.sourceIfNoneMatch
-      - >-
-        @azure/storage-file-datalake.SourceModifiedAccessConditions.sourceIfUnmodifiedSince
+        @azure/abort-controller.SourceModifiedAccessConditions.sourceIfUnmodifiedSince
     langs:
       - typeScript
     type: interface
     summary: Additional parameters for create operation.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.SourceModifiedAccessConditions.sourceIfMatch'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SourceModifiedAccessConditions.sourceIfMatch'
     name: sourceIfMatch
     fullName: sourceIfMatch
     children: []
@@ -32,9 +30,9 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
   - uid: >-
-      @azure/storage-file-datalake.SourceModifiedAccessConditions.sourceIfModifiedSince
+      @azure/abort-controller.SourceModifiedAccessConditions.sourceIfModifiedSince
     name: sourceIfModifiedSince
     fullName: sourceIfModifiedSince
     children: []
@@ -51,11 +49,10 @@ items:
       content: 'sourceIfModifiedSince?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.SourceModifiedAccessConditions.sourceIfNoneMatch
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SourceModifiedAccessConditions.sourceIfNoneMatch'
     name: sourceIfNoneMatch
     fullName: sourceIfNoneMatch
     children: []
@@ -70,9 +67,9 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
   - uid: >-
-      @azure/storage-file-datalake.SourceModifiedAccessConditions.sourceIfUnmodifiedSince
+      @azure/abort-controller.SourceModifiedAccessConditions.sourceIfUnmodifiedSince
     name: sourceIfUnmodifiedSince
     fullName: sourceIfUnmodifiedSince
     children: []
@@ -89,6 +86,13 @@ items:
       content: 'sourceIfUnmodifiedSince?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'

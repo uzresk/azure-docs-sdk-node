@@ -1,0 +1,96 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.os.CpuInfo
+    name: CpuInfo
+    fullName: CpuInfo
+    children:
+      - tslib.os.CpuInfo.model
+      - tslib.os.CpuInfo.speed
+      - tslib.os.CpuInfo.times
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.os.CpuInfo.model
+    name: model
+    fullName: model
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'model: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.os.CpuInfo.speed
+    name: speed
+    fullName: speed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'speed: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.os.CpuInfo.times
+    name: times
+    fullName: times
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'times: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.os.NetworkInterfaceBase
+    name: NetworkInterfaceBase
+    spec.typeScript:
+      - name: NetworkInterfaceBase
+        fullName: NetworkInterfaceBase
+        uid: tslib.os.NetworkInterfaceBase
+  - uid: 'tslib.os.CpuInfo[]'
+    name: 'CpuInfo[]'
+    spec.typeScript:
+      - name: CpuInfo
+        fullName: CpuInfo
+        uid: tslib.os.CpuInfo
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.NodeJS.Platform
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: tslib.NodeJS.Platform
+  - uid: tslib.os.UserInfo<Buffer>
+    name: UserInfo<Buffer>
+    spec.typeScript:
+      - name: UserInfo
+        fullName: UserInfo
+        uid: tslib.os.UserInfo
+      - name: <Buffer>
+        fullName: <Buffer>
+  - uid: tslib.os.UserInfo<string>
+    name: UserInfo<string>
+    spec.typeScript:
+      - name: UserInfo
+        fullName: UserInfo
+        uid: tslib.os.UserInfo
+      - name: <string>
+        fullName: <string>

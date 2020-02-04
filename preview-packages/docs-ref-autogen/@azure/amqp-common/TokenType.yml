@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.TokenType'
+  - uid: '@azure/ms-rest-azure-env.TokenType'
     name: TokenType
     fullName: TokenType
     children:
-      - '@azure/amqp-common.TokenType.CbsTokenTypeJwt'
-      - '@azure/amqp-common.TokenType.CbsTokenTypeSas'
+      - '@azure/ms-rest-azure-env.TokenType.CbsTokenTypeJwt'
+      - '@azure/ms-rest-azure-env.TokenType.CbsTokenTypeSas'
     langs:
       - typeScript
     type: enum
     summary: Describes the type of supported tokens.
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.TokenType.CbsTokenTypeJwt'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.TokenType.CbsTokenTypeJwt'
     name: CbsTokenTypeJwt
     children: []
     langs:
@@ -19,8 +19,8 @@ items:
     summary: The "jwt" token type. Used with AADTokenProvider.
     type: field
     numericValue: null
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.TokenType.CbsTokenTypeSas'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.TokenType.CbsTokenTypeSas'
     name: CbsTokenTypeSas
     children: []
     langs:
@@ -28,4 +28,4 @@ items:
     summary: The sas token type. Used with SasTokenProvider.
     type: field
     numericValue: null
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'

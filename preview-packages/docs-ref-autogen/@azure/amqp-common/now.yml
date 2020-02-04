@@ -1,0 +1,19 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.now'
+    name: now()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |-
+      Returns the number of milliseconds since the page was loaded (if browser)
+      or the node process was started.
+    syntax:
+      content: function now()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'

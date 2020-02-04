@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.domain'
+    name: domain
+    langs:
+      - typeScript
+    fullName: domain
+    children:
+      - '@azure/abort-controller.domain.create'
+      - '@azure/abort-controller.domain.Domain'
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.create'
+    name: create()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function create()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.domain.Domain'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: >-
+      Array<@azure/abort-controller.events.EventEmitter.EventEmitter |
+      @azure/abort-controller.NodeJS.Timer>
+    name: Timer>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+      - name: ' | '
+        fullName: ' | '
+      - name: Timer
+        fullName: Timer
+        uid: '@azure/abort-controller.NodeJS.Timer'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.events.EventEmitter.EventEmitter |
+      @azure/abort-controller.NodeJS.Timer
+    name: Timer
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+      - name: ' | '
+        fullName: ' | '
+      - name: Timer
+        fullName: Timer
+        uid: '@azure/abort-controller.NodeJS.Timer'
+  - uid: '@azure/abort-controller.domain.Domain'
+    name: Domain
+    spec.typeScript:
+      - name: Domain
+        fullName: Domain
+        uid: '@azure/abort-controller.domain.Domain'
+  - uid: '@azure/abort-controller.domain.create'
+    name: create

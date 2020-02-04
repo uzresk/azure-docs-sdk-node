@@ -1,0 +1,12 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.dns.resolveSrv'
+    name: resolveSrv
+    langs:
+      - typeScript
+    fullName: resolveSrv
+    children: []
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+references: []

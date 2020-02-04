@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathLeaseResponse'
+  - uid: '@azure/abort-controller.PathLeaseResponse'
     name: PathLeaseResponse
     fullName: PathLeaseResponse
     children: []
@@ -10,4 +10,4 @@ items:
     summary: Contains response data for the lease operation.
     syntax:
       content: 'type PathLeaseResponse = PathLeaseHeaders & { _response: Object }'
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

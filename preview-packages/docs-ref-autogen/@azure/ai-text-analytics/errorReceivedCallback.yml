@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.errorReceivedCallback'
+    name: errorReceivedCallback
+    fullName: errorReceivedCallback
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: |-
+      A type alias for a errorReceivedCallback function.
+      <xref:(errorReceivedCallback%3Atype)>
+    syntax:
+      content: >-
+        type errorReceivedCallback = (authErr: AuthError, accountState: string)
+        => void
+    package: '@azure/abort-controller'

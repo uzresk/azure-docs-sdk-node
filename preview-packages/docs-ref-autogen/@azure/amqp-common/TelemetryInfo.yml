@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.TelemetryInfo'
+    name: TelemetryInfo
+    fullName: TelemetryInfo
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type TelemetryInfo = { key: Object, value: Object }'
+    package: '@azure/ms-rest-azure-env'

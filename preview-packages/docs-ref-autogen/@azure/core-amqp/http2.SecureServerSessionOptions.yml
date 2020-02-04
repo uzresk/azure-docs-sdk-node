@@ -1,0 +1,1442 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.http2.SecureServerSessionOptions
+    name: SecureServerSessionOptions
+    fullName: SecureServerSessionOptions
+    children:
+      - tslib.http2.SecureServerSessionOptions.ALPNProtocols
+      - tslib.http2.SecureServerSessionOptions.ca
+      - tslib.http2.SecureServerSessionOptions.cert
+      - tslib.http2.SecureServerSessionOptions.ciphers
+      - tslib.http2.SecureServerSessionOptions.clientCertEngine
+      - tslib.http2.SecureServerSessionOptions.createConnection
+      - tslib.http2.SecureServerSessionOptions.crl
+      - tslib.http2.SecureServerSessionOptions.dhparam
+      - tslib.http2.SecureServerSessionOptions.ecdhCurve
+      - tslib.http2.SecureServerSessionOptions.enableTrace
+      - tslib.http2.SecureServerSessionOptions.handshakeTimeout
+      - tslib.http2.SecureServerSessionOptions.honorCipherOrder
+      - tslib.http2.SecureServerSessionOptions.Http1IncomingMessage
+      - tslib.http2.SecureServerSessionOptions.Http1ServerResponse
+      - tslib.http2.SecureServerSessionOptions.Http2ServerRequest
+      - tslib.http2.SecureServerSessionOptions.Http2ServerResponse
+      - tslib.http2.SecureServerSessionOptions.key
+      - tslib.http2.SecureServerSessionOptions.maxDeflateDynamicTableSize
+      - tslib.http2.SecureServerSessionOptions.maxHeaderListPairs
+      - tslib.http2.SecureServerSessionOptions.maxOutstandingPings
+      - tslib.http2.SecureServerSessionOptions.maxSendHeaderBlockLength
+      - tslib.http2.SecureServerSessionOptions.maxSessionMemory
+      - tslib.http2.SecureServerSessionOptions.maxVersion
+      - tslib.http2.SecureServerSessionOptions.minVersion
+      - tslib.http2.SecureServerSessionOptions.paddingStrategy
+      - tslib.http2.SecureServerSessionOptions.passphrase
+      - tslib.http2.SecureServerSessionOptions.peerMaxConcurrentStreams
+      - tslib.http2.SecureServerSessionOptions.pfx
+      - tslib.http2.SecureServerSessionOptions.privateKeyEngine
+      - tslib.http2.SecureServerSessionOptions.privateKeyIdentifier
+      - tslib.http2.SecureServerSessionOptions.pskCallback
+      - tslib.http2.SecureServerSessionOptions.pskIdentityHint
+      - tslib.http2.SecureServerSessionOptions.rejectUnauthorized
+      - tslib.http2.SecureServerSessionOptions.requestCert
+      - tslib.http2.SecureServerSessionOptions.secureContext
+      - tslib.http2.SecureServerSessionOptions.secureOptions
+      - tslib.http2.SecureServerSessionOptions.secureProtocol
+      - tslib.http2.SecureServerSessionOptions.selectPadding
+      - tslib.http2.SecureServerSessionOptions.sessionIdContext
+      - tslib.http2.SecureServerSessionOptions.sessionTimeout
+      - tslib.http2.SecureServerSessionOptions.settings
+      - tslib.http2.SecureServerSessionOptions.sigalgs
+      - tslib.http2.SecureServerSessionOptions.SNICallback
+      - tslib.http2.SecureServerSessionOptions.ticketKeys
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: tslib.http2.ServerSessionOptions
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.ALPNProtocols
+    name: ALPNProtocols
+    fullName: ALPNProtocols
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      An array of strings or a Buffer naming possible ALPN protocols.
+      (Protocols should be ordered by their priority.)
+    optional: true
+    syntax:
+      content: 'ALPNProtocols?: string[] | Uint8Array[] | Uint8Array'
+      return:
+        type:
+          - 'string[] | Uint8Array[] | Uint8Array'
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.ca
+    name: ca
+    fullName: ca
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Optionally override the trusted CA certificates. Default is to trust
+      the well-known CAs curated by Mozilla. Mozilla's CAs are completely
+      replaced when CAs are explicitly specified using this option.
+    optional: true
+    syntax:
+      content: 'ca?: string | Buffer | Array<string | Buffer>'
+      return:
+        type:
+          - string | Buffer | Array<string | Buffer>
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.cert
+    name: cert
+    fullName: cert
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Cert chains in PEM format. One cert chain should be provided per
+       private key. Each cert chain should consist of the PEM formatted
+       certificate for a provided private key, followed by the PEM
+       formatted intermediate certificates (if any), in order, and not
+       including the root CA (the root CA must be pre-known to the peer,
+       see ca). When providing multiple cert chains, they do not have to
+       be in the same order as their private keys in key. If the
+       intermediate certificates are not provided, the peer will not be
+       able to validate the certificate, and the handshake will fail.
+    optional: true
+    syntax:
+      content: 'cert?: string | Buffer | Array<string | Buffer>'
+      return:
+        type:
+          - string | Buffer | Array<string | Buffer>
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.ciphers
+    name: ciphers
+    fullName: ciphers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Cipher suite specification, replacing the default. For more
+      information, see modifying the default cipher suite. Permitted
+      ciphers can be obtained via tls.getCiphers(). Cipher names must be
+      uppercased in order for OpenSSL to accept them.
+    optional: true
+    syntax:
+      content: 'ciphers?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.clientCertEngine
+    name: clientCertEngine
+    fullName: clientCertEngine
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Name of an OpenSSL engine which can provide the client certificate.
+    optional: true
+    syntax:
+      content: 'clientCertEngine?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.createConnection
+    name: 'createConnection(URL, SessionOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createConnection(authority: URL, option: SessionOptions)'
+      parameters:
+        - id: authority
+          type:
+            - tslib.url.URL
+          description: ''
+        - id: option
+          type:
+            - tslib.http2.SessionOptions
+          description: ''
+      return:
+        type:
+          - stream.Duplex
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.crl
+    name: crl
+    fullName: crl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: PEM formatted CRLs (Certificate Revocation Lists).
+    optional: true
+    syntax:
+      content: 'crl?: string | Buffer | Array<string | Buffer>'
+      return:
+        type:
+          - string | Buffer | Array<string | Buffer>
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.dhparam
+    name: dhparam
+    fullName: dhparam
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Diffie Hellman parameters, required for Perfect Forward Secrecy. Use
+      openssl dhparam to create the parameters. The key length must be
+      greater than or equal to 1024 bits or else an error will be thrown.
+      Although 1024 bits is permissible, use 2048 bits or larger for
+      stronger security. If omitted or invalid, the parameters are
+      silently discarded and DHE ciphers will not be available.
+    optional: true
+    syntax:
+      content: 'dhparam?: string | Buffer'
+      return:
+        type:
+          - string | Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.ecdhCurve
+    name: ecdhCurve
+    fullName: ecdhCurve
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A string describing a named curve or a colon separated list of curve
+      NIDs or names, for example P-521:P-384:P-256, to use for ECDH key
+      agreement. Set to auto to select the curve automatically. Use
+      crypto.getCurves() to obtain a list of available curve names. On
+      recent releases, openssl ecparam -list_curves will also display the
+      name and description of each available elliptic curve. Default:
+      tls.DEFAULT_ECDH_CURVE.
+    optional: true
+    syntax:
+      content: 'ecdhCurve?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.enableTrace
+    name: enableTrace
+    fullName: enableTrace
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      When enabled, TLS packet trace information is written to `stderr`. This
+      can be
+
+      used to debug TLS connection problems.
+    optional: true
+    syntax:
+      content: 'enableTrace?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.handshakeTimeout
+    name: handshakeTimeout
+    fullName: handshakeTimeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Abort the connection if the SSL/TLS handshake does not finish in the
+      specified number of milliseconds. A 'tlsClientError' is emitted on
+      the tls.Server object whenever a handshake times out. Default:
+      120000 (120 seconds).
+    optional: true
+    syntax:
+      content: 'handshakeTimeout?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.honorCipherOrder
+    name: honorCipherOrder
+    fullName: honorCipherOrder
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Attempt to use the server's cipher suite preferences instead of the
+      client's. When true, causes SSL_OP_CIPHER_SERVER_PREFERENCE to be
+      set in secureOptions
+    optional: true
+    syntax:
+      content: 'honorCipherOrder?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.Http1IncomingMessage
+    name: Http1IncomingMessage
+    fullName: Http1IncomingMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'Http1IncomingMessage?: undefined | IncomingMessage'
+      return:
+        type:
+          - undefined | tslib.http.IncomingMessage
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.Http1ServerResponse
+    name: Http1ServerResponse
+    fullName: Http1ServerResponse
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'Http1ServerResponse?: undefined | ServerResponse'
+      return:
+        type:
+          - undefined | tslib.http.ServerResponse
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.Http2ServerRequest
+    name: Http2ServerRequest
+    fullName: Http2ServerRequest
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'Http2ServerRequest?: undefined | Http2ServerRequest'
+      return:
+        type:
+          - undefined | tslib.http2.Http2ServerRequest
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.Http2ServerResponse
+    name: Http2ServerResponse
+    fullName: Http2ServerResponse
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'Http2ServerResponse?: undefined | Http2ServerResponse'
+      return:
+        type:
+          - undefined | tslib.http2.Http2ServerResponse
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.key
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Private keys in PEM format. PEM allows the option of private keys
+      being encrypted. Encrypted keys will be decrypted with
+      options.passphrase. Multiple keys using different algorithms can be
+      provided either as an array of unencrypted key strings or buffers,
+      or an array of objects in the form {pem: <string|buffer>[,
+      passphrase: <string>]}. The object form can only occur in an array.
+      object.passphrase is optional. Encrypted keys will be decrypted with
+      object.passphrase if provided, or options.passphrase if it is not.
+    optional: true
+    syntax:
+      content: 'key?: string | Buffer | Array<Buffer | KeyObject>'
+      return:
+        type:
+          - string | Buffer | Array<Buffer | tslib.tls.KeyObject>
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.maxDeflateDynamicTableSize
+    name: maxDeflateDynamicTableSize
+    fullName: maxDeflateDynamicTableSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxDeflateDynamicTableSize?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.maxHeaderListPairs
+    name: maxHeaderListPairs
+    fullName: maxHeaderListPairs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxHeaderListPairs?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.maxOutstandingPings
+    name: maxOutstandingPings
+    fullName: maxOutstandingPings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxOutstandingPings?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.maxSendHeaderBlockLength
+    name: maxSendHeaderBlockLength
+    fullName: maxSendHeaderBlockLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxSendHeaderBlockLength?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.maxSessionMemory
+    name: maxSessionMemory
+    fullName: maxSessionMemory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxSessionMemory?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.maxVersion
+    name: maxVersion
+    fullName: maxVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optionally set the maximum TLS version to allow. One
+
+      of `'TLSv1.3'`, `'TLSv1.2'`, `'TLSv1.1'`, or `'TLSv1'`. Cannot be
+      specified along with the
+
+      `secureProtocol` option, use one or the other.
+
+      **Default:** `'TLSv1.3'`, unless changed using CLI options. Using
+
+      `--tls-max-v1.2` sets the default to `'TLSv1.2'`. Using `--tls-max-v1.3`
+      sets the default to
+
+      `'TLSv1.3'`. If multiple of the options are provided, the highest maximum
+      is used.
+    optional: true
+    syntax:
+      content: 'maxVersion?: SecureVersion'
+      return:
+        type:
+          - tslib.tls.SecureVersion
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.minVersion
+    name: minVersion
+    fullName: minVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Optionally set the minimum TLS version to allow. One
+
+      of `'TLSv1.3'`, `'TLSv1.2'`, `'TLSv1.1'`, or `'TLSv1'`. Cannot be
+      specified along with the
+
+      `secureProtocol` option, use one or the other.  It is not recommended to
+      use
+
+      less than TLSv1.2, but it may be required for interoperability.
+
+      **Default:** `'TLSv1.2'`, unless changed using CLI options. Using
+
+      `--tls-v1.0` sets the default to `'TLSv1'`. Using `--tls-v1.1` sets the
+      default to
+
+      `'TLSv1.1'`. Using `--tls-min-v1.3` sets the default to
+
+      'TLSv1.3'. If multiple of the options are provided, the lowest minimum is
+      used.
+    optional: true
+    syntax:
+      content: 'minVersion?: SecureVersion'
+      return:
+        type:
+          - tslib.tls.SecureVersion
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.paddingStrategy
+    name: paddingStrategy
+    fullName: paddingStrategy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'paddingStrategy?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.passphrase
+    name: passphrase
+    fullName: passphrase
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Shared passphrase used for a single private key and/or a PFX.
+    optional: true
+    syntax:
+      content: 'passphrase?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.peerMaxConcurrentStreams
+    name: peerMaxConcurrentStreams
+    fullName: peerMaxConcurrentStreams
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'peerMaxConcurrentStreams?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.pfx
+    name: pfx
+    fullName: pfx
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      PFX or PKCS12 encoded private key and certificate chain. pfx is an
+      alternative to providing key and cert individually. PFX is usually
+      encrypted, if it is, passphrase will be used to decrypt it. Multiple
+      PFX can be provided either as an array of unencrypted PFX buffers,
+      or an array of objects in the form {buf: <string|buffer>[,
+      passphrase: <string>]}. The object form can only occur in an array.
+      object.passphrase is optional. Encrypted PFX will be decrypted with
+      object.passphrase if provided, or options.passphrase if it is not.
+    optional: true
+    syntax:
+      content: 'pfx?: string | Buffer | Array<string | Buffer | PxfObject>'
+      return:
+        type:
+          - string | Buffer | Array<string | Buffer | tslib.tls.PxfObject>
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.privateKeyEngine
+    name: privateKeyEngine
+    fullName: privateKeyEngine
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Name of an OpenSSL engine to get private key from. Should be used
+      together with privateKeyIdentifier.
+    optional: true
+    syntax:
+      content: 'privateKeyEngine?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.privateKeyIdentifier
+    name: privateKeyIdentifier
+    fullName: privateKeyIdentifier
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Identifier of a private key managed by an OpenSSL engine. Should be
+      used together with privateKeyEngine. Should not be set together with
+      key, because both options define a private key in different ways.
+    optional: true
+    syntax:
+      content: 'privateKeyIdentifier?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.pskCallback
+    name: 'pskCallback(TLSSocket, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pskCallback(socket: TLSSocket, identity: string)'
+      parameters:
+        - id: socket
+          type:
+            - tslib.tls.TLSSocket
+          description: ''
+        - id: identity
+          type:
+            - string
+          description: identity parameter sent from the client.
+      return:
+        type:
+          - DataView | tslib.NodeJS.TypedArray | null
+        description: >-
+          pre-shared key that must either be
+
+          a buffer or `null` to stop the negotiation process. Returned PSK must
+          be
+
+          compatible with the selected cipher's digest.
+
+
+          When negotiating TLS-PSK (pre-shared keys), this function is called
+
+          with the identity provided by the client.
+
+          If the return value is `null` the negotiation process will stop and an
+
+          "unknown_psk_identity" alert message will be sent to the other party.
+
+          If the server wishes to hide the fact that the PSK identity was not
+          known,
+
+          the callback must provide some random data as `psk` to make the
+          connection
+
+          fail with "decrypt_error" before negotiation is finished.
+
+          PSK ciphers are disabled by default, and using TLS-PSK thus
+
+          requires explicitly specifying a cipher suite with the `ciphers`
+          option.
+
+          More information can be found in the RFC 4279.
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.pskIdentityHint
+    name: pskIdentityHint
+    fullName: pskIdentityHint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      hint to send to a client to help
+      with selecting the identity during TLS-PSK negotiation. Will be ignored
+      in TLS 1.3. Upon failing to set pskIdentityHint `tlsClientError` will be
+      emitted with `ERR_TLS_PSK_SET_IDENTIY_HINT_FAILED` code.
+    optional: true
+    syntax:
+      content: 'pskIdentityHint?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.rejectUnauthorized
+    name: rejectUnauthorized
+    fullName: rejectUnauthorized
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      If true the server will reject any connection which is not
+      authorized with the list of supplied CAs. This option only has an
+      effect if requestCert is true.
+    optional: true
+    syntax:
+      content: 'rejectUnauthorized?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.requestCert
+    name: requestCert
+    fullName: requestCert
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      If true the server will request a certificate from clients that
+      connect and attempt to verify that certificate. Defaults to
+      false.
+    optional: true
+    syntax:
+      content: 'requestCert?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.secureContext
+    name: secureContext
+    fullName: secureContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: An optional TLS context object from tls.createSecureContext()
+    optional: true
+    syntax:
+      content: 'secureContext?: SecureContext'
+      return:
+        type:
+          - tslib.tls.SecureContext
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.secureOptions
+    name: secureOptions
+    fullName: secureOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Optionally affect the OpenSSL protocol behavior, which is not
+      usually necessary. This should be used carefully if at all! Value is
+      a numeric bitmask of the SSL_OP_* options from OpenSSL Options
+    optional: true
+    syntax:
+      content: 'secureOptions?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.secureProtocol
+    name: secureProtocol
+    fullName: secureProtocol
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Legacy mechanism to select the TLS protocol version to use, it does
+      not support independent control of the minimum and maximum version,
+      and does not support limiting the protocol to TLSv1.3. Use
+      minVersion and maxVersion instead. The possible values are listed as
+      SSL_METHODS, use the function names as strings. For example, use
+      'TLSv1_1_method' to force TLS version 1.1, or 'TLS_method' to allow
+      any TLS protocol version up to TLSv1.3. It is not recommended to use
+      TLS versions less than 1.2, but it may be required for
+      interoperability. Default: none, see minVersion.
+    optional: true
+    syntax:
+      content: 'secureProtocol?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.selectPadding
+    name: 'selectPadding(number, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function selectPadding(frameLen: number, maxFrameLen: number)'
+      parameters:
+        - id: frameLen
+          type:
+            - number
+          description: ''
+        - id: maxFrameLen
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.sessionIdContext
+    name: sessionIdContext
+    fullName: sessionIdContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Opaque identifier used by servers to ensure session state is not
+      shared between applications. Unused by clients.
+    optional: true
+    syntax:
+      content: 'sessionIdContext?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.sessionTimeout
+    name: sessionTimeout
+    fullName: sessionTimeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The number of seconds after which a TLS session created by the
+      server will no longer be resumable. See Session Resumption for more
+      information. Default: 300.
+    optional: true
+    syntax:
+      content: 'sessionTimeout?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.settings
+    name: settings
+    fullName: settings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'settings?: Settings'
+      return:
+        type:
+          - tslib.http2.Settings
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.sigalgs
+    name: sigalgs
+    fullName: sigalgs
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Colon-separated list of supported signature algorithms. The list
+       can contain digest algorithms (SHA256, MD5 etc.), public key
+       algorithms (RSA-PSS, ECDSA etc.), combination of both (e.g
+       'RSA+SHA384') or TLS v1.3 scheme names (e.g. rsa_pss_pss_sha512).
+    optional: true
+    syntax:
+      content: 'sigalgs?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.SNICallback
+    name: SNICallback
+    fullName: SNICallback
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      SNICallback(servername, cb) <Function> A function that will be
+      called if the client supports SNI TLS extension. Two arguments
+      will be passed when called: servername and cb. SNICallback should
+      invoke cb(null, ctx), where ctx is a SecureContext instance.
+      (tls.createSecureContext(...) can be used to get a proper
+      SecureContext.) If SNICallback wasn't provided the default callback
+      with high-level API will be used (see below).
+    optional: true
+    syntax:
+      content: >-
+        SNICallback?: undefined | (servername: string, cb: (err: Error | null,
+        ctx: SecureContext) => void) => void
+      return:
+        type:
+          - >-
+            undefined | (servername: string, cb: (err: Error | null, ctx:
+            SecureContext) => void) => void
+        description: ''
+    package: tslib
+  - uid: tslib.http2.SecureServerSessionOptions.ticketKeys
+    name: ticketKeys
+    fullName: ticketKeys
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 48-bytes of cryptographically strong pseudo-random data.
+    optional: true
+    syntax:
+      content: 'ticketKeys?: Buffer'
+      return:
+        type:
+          - tslib.Buffer
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.http2.ServerHttp2Stream
+    name: ServerHttp2Stream
+    spec.typeScript:
+      - name: ServerHttp2Stream
+        fullName: ServerHttp2Stream
+        uid: tslib.http2.ServerHttp2Stream
+  - uid: tslib.http2.IncomingHttpHeaders
+    name: IncomingHttpHeaders
+    spec.typeScript:
+      - name: IncomingHttpHeaders
+        fullName: IncomingHttpHeaders
+        uid: tslib.http2.IncomingHttpHeaders
+  - uid: tslib.net.Socket | tslib.tls.TLSSocket
+    name: TLSSocket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.net.Socket
+      - name: ' | '
+        fullName: ' | '
+      - name: TLSSocket
+        fullName: TLSSocket
+        uid: tslib.tls.TLSSocket
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.stream.internal.ReadableOptions
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: tslib.stream.internal.ReadableOptions
+  - uid: tslib.stream.internal.Stream
+    name: Stream
+    spec.typeScript:
+      - name: Stream
+        fullName: Stream
+        uid: tslib.stream.internal.Stream
+  - uid: tslib.http.OutgoingHttpHeaders
+    name: OutgoingHttpHeaders
+    spec.typeScript:
+      - name: OutgoingHttpHeaders
+        fullName: OutgoingHttpHeaders
+        uid: tslib.http.OutgoingHttpHeaders
+  - uid: number | string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'number | string | '
+        fullName: 'number | string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.http2.Http2Session
+    name: Http2Session
+    spec.typeScript:
+      - name: Http2Session
+        fullName: Http2Session
+        uid: tslib.http2.Http2Session
+  - uid: tslib.http2.Settings
+    name: Settings
+    spec.typeScript:
+      - name: Settings
+        fullName: Settings
+        uid: tslib.http2.Settings
+  - uid: tslib.http2.SessionState
+    name: SessionState
+    spec.typeScript:
+      - name: SessionState
+        fullName: SessionState
+        uid: tslib.http2.SessionState
+  - uid: tslib.http2.ClientHttp2Session
+    name: ClientHttp2Session
+    spec.typeScript:
+      - name: ClientHttp2Session
+        fullName: ClientHttp2Session
+        uid: tslib.http2.ClientHttp2Session
+  - uid: tslib.http2.ClientHttp2Stream
+    name: ClientHttp2Stream
+    spec.typeScript:
+      - name: ClientHttp2Stream
+        fullName: ClientHttp2Stream
+        uid: tslib.http2.ClientHttp2Stream
+  - uid: tslib.http2.IncomingHttpHeaders & tslib.http2.IncomingHttpStatusHeader
+    name: IncomingHttpStatusHeader
+    spec.typeScript:
+      - name: IncomingHttpHeaders
+        fullName: IncomingHttpHeaders
+        uid: tslib.http2.IncomingHttpHeaders
+      - name: ' & '
+        fullName: ' & '
+      - name: IncomingHttpStatusHeader
+        fullName: IncomingHttpStatusHeader
+        uid: tslib.http2.IncomingHttpStatusHeader
+  - uid: tslib.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: tslib.NodeJS.ArrayBufferView
+  - uid: tslib.http2.ClientSessionRequestOptions
+    name: ClientSessionRequestOptions
+    spec.typeScript:
+      - name: ClientSessionRequestOptions
+        fullName: ClientSessionRequestOptions
+        uid: tslib.http2.ClientSessionRequestOptions
+  - uid: tslib.http2.Http2Stream
+    name: Http2Stream
+    spec.typeScript:
+      - name: Http2Stream
+        fullName: Http2Stream
+        uid: tslib.http2.Http2Stream
+  - uid: tslib.stream.internal.DuplexOptions
+    name: DuplexOptions
+    spec.typeScript:
+      - name: DuplexOptions
+        fullName: DuplexOptions
+        uid: tslib.stream.internal.DuplexOptions
+  - uid: 'tslib.http.OutgoingHttpHeaders[]'
+    name: 'OutgoingHttpHeaders[]'
+    spec.typeScript:
+      - name: OutgoingHttpHeaders
+        fullName: OutgoingHttpHeaders
+        uid: tslib.http.OutgoingHttpHeaders
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.http2.StreamState
+    name: StreamState
+    spec.typeScript:
+      - name: StreamState
+        fullName: StreamState
+        uid: tslib.http2.StreamState
+  - uid: tslib.http2.StreamPriorityOptions
+    name: StreamPriorityOptions
+    spec.typeScript:
+      - name: StreamPriorityOptions
+        fullName: StreamPriorityOptions
+        uid: tslib.http2.StreamPriorityOptions
+  - uid: tslib.http2.SessionOptions
+    name: SessionOptions
+    spec.typeScript:
+      - name: SessionOptions
+        fullName: SessionOptions
+        uid: tslib.http2.SessionOptions
+  - uid: tslib.tls.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.tls.Server
+  - uid: tslib.tls.SecureContextOptions
+    name: SecureContextOptions
+    spec.typeScript:
+      - name: SecureContextOptions
+        fullName: SecureContextOptions
+        uid: tslib.tls.SecureContextOptions
+  - uid: tslib.net.AddressInfo | string | null
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: tslib.http2.Http2ServerRequest
+    name: Http2ServerRequest
+    spec.typeScript:
+      - name: Http2ServerRequest
+        fullName: Http2ServerRequest
+        uid: tslib.http2.Http2ServerRequest
+  - uid: tslib.http2.Http2ServerResponse
+    name: Http2ServerResponse
+    spec.typeScript:
+      - name: Http2ServerResponse
+        fullName: Http2ServerResponse
+        uid: tslib.http2.Http2ServerResponse
+  - uid: tslib.http2.ServerHttp2Session
+    name: ServerHttp2Session
+    spec.typeScript:
+      - name: ServerHttp2Session
+        fullName: ServerHttp2Session
+        uid: tslib.http2.ServerHttp2Session
+  - uid: tslib.tls.TLSSocket
+    name: TLSSocket
+    spec.typeScript:
+      - name: TLSSocket
+        fullName: TLSSocket
+        uid: tslib.tls.TLSSocket
+  - uid: tslib.net.ListenOptions
+    name: ListenOptions
+    spec.typeScript:
+      - name: ListenOptions
+        fullName: ListenOptions
+        uid: tslib.net.ListenOptions
+  - uid: tslib.net.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.net.Server
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.events.EventEmitterOptions
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: tslib.events.EventEmitterOptions
+  - uid: tslib.stream.internal.Duplex
+    name: Duplex
+    spec.typeScript:
+      - name: Duplex
+        fullName: Duplex
+        uid: tslib.stream.internal.Duplex
+  - uid: tslib.http.IncomingHttpHeaders
+    name: IncomingHttpHeaders
+    spec.typeScript:
+      - name: IncomingHttpHeaders
+        fullName: IncomingHttpHeaders
+        uid: tslib.http.IncomingHttpHeaders
+  - uid: tslib.http2.ClientSessionOptions
+    name: ClientSessionOptions
+    spec.typeScript:
+      - name: ClientSessionOptions
+        fullName: ClientSessionOptions
+        uid: tslib.http2.ClientSessionOptions
+  - uid: undefined | tslib.tls.checkServerIdentity
+    name: checkServerIdentity
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: checkServerIdentity
+        fullName: checkServerIdentity
+        uid: tslib.tls.checkServerIdentity
+  - uid: string | Buffer | Array<Buffer | tslib.tls.KeyObject>
+    name: KeyObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<Buffer | '
+        fullName: 'string | Buffer | Array<Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: tslib.tls.KeyObject
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.tls.SecureVersion
+    name: SecureVersion
+    spec.typeScript:
+      - name: SecureVersion
+        fullName: SecureVersion
+        uid: tslib.tls.SecureVersion
+  - uid: string | Buffer | Array<string | Buffer | tslib.tls.PxfObject>
+    name: PxfObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<string | Buffer | '
+        fullName: 'string | Buffer | Array<string | Buffer | '
+      - name: PxfObject
+        fullName: PxfObject
+        uid: tslib.tls.PxfObject
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.tls.SecureContext
+    name: SecureContext
+    spec.typeScript:
+      - name: SecureContext
+        fullName: SecureContext
+        uid: tslib.tls.SecureContext
+  - uid: tslib.Buffer
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: tslib.Buffer
+  - uid: tslib.tls.PSKCallbackNegotation | null
+    name: PSKCallbackNegotation | null
+    spec.typeScript:
+      - name: PSKCallbackNegotation
+        fullName: PSKCallbackNegotation
+        uid: tslib.tls.PSKCallbackNegotation
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.http2.SecureServerSessionOptions
+    name: SecureServerSessionOptions
+    spec.typeScript:
+      - name: SecureServerSessionOptions
+        fullName: SecureServerSessionOptions
+        uid: tslib.http2.SecureServerSessionOptions
+  - uid: undefined | tslib.http.IncomingMessage
+    name: IncomingMessage
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: IncomingMessage
+        fullName: IncomingMessage
+        uid: tslib.http.IncomingMessage
+  - uid: undefined | tslib.http.ServerResponse
+    name: ServerResponse
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: ServerResponse
+        fullName: ServerResponse
+        uid: tslib.http.ServerResponse
+  - uid: undefined | tslib.http2.Http2ServerRequest
+    name: Http2ServerRequest
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: Http2ServerRequest
+        fullName: Http2ServerRequest
+        uid: tslib.http2.Http2ServerRequest
+  - uid: undefined | tslib.http2.Http2ServerResponse
+    name: Http2ServerResponse
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: Http2ServerResponse
+        fullName: Http2ServerResponse
+        uid: tslib.http2.Http2ServerResponse
+  - uid: tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: DataView | tslib.NodeJS.TypedArray | null
+    name: TypedArray | null
+    spec.typeScript:
+      - name: 'DataView | '
+        fullName: 'DataView | '
+      - name: TypedArray
+        fullName: TypedArray
+        uid: tslib.NodeJS.TypedArray
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.http2.ServerSessionOptions
+    name: ServerSessionOptions
+    spec.typeScript:
+      - name: ServerSessionOptions
+        fullName: ServerSessionOptions
+        uid: tslib.http2.ServerSessionOptions
+  - uid: tslib.http2.Http2Server | tslib.http2.Http2SecureServer
+    name: Http2SecureServer
+    spec.typeScript:
+      - name: Http2Server
+        fullName: Http2Server
+        uid: tslib.http2.Http2Server
+      - name: ' | '
+        fullName: ' | '
+      - name: Http2SecureServer
+        fullName: Http2SecureServer
+        uid: tslib.http2.Http2SecureServer
+  - uid: number | string | tslib.url.URL | tslib.http2.AlternativeServiceOptions
+    name: AlternativeServiceOptions
+    spec.typeScript:
+      - name: 'number | string | '
+        fullName: 'number | string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+      - name: ' | '
+        fullName: ' | '
+      - name: AlternativeServiceOptions
+        fullName: AlternativeServiceOptions
+        uid: tslib.http2.AlternativeServiceOptions
+  - uid: Array<string | tslib.url.URL | Object>
+    name: URL | Object>
+    spec.typeScript:
+      - name: 'Array<string | '
+        fullName: 'Array<string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+      - name: ' | Object>'
+        fullName: ' | Object>'
+  - uid: tslib.http2.ServerStreamResponseOptions
+    name: ServerStreamResponseOptions
+    spec.typeScript:
+      - name: ServerStreamResponseOptions
+        fullName: ServerStreamResponseOptions
+        uid: tslib.http2.ServerStreamResponseOptions
+  - uid: number | tslib.fs.promises.FileHandle
+    name: FileHandle
+    spec.typeScript:
+      - name: 'number | '
+        fullName: 'number | '
+      - name: FileHandle
+        fullName: FileHandle
+        uid: tslib.fs.promises.FileHandle
+  - uid: tslib.http2.ServerStreamFileResponseOptions
+    name: ServerStreamFileResponseOptions
+    spec.typeScript:
+      - name: ServerStreamFileResponseOptions
+        fullName: ServerStreamFileResponseOptions
+        uid: tslib.http2.ServerStreamFileResponseOptions
+  - uid: tslib.http2.ServerStreamFileResponseOptionsWithError
+    name: ServerStreamFileResponseOptionsWithError
+    spec.typeScript:
+      - name: ServerStreamFileResponseOptionsWithError
+        fullName: ServerStreamFileResponseOptionsWithError
+        uid: tslib.http2.ServerStreamFileResponseOptionsWithError
+  - uid: tslib.fs.Stats
+    name: Stats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: tslib.fs.Stats
+  - uid: tslib.http2.StatOptions
+    name: StatOptions
+    spec.typeScript:
+      - name: StatOptions
+        fullName: StatOptions
+        uid: tslib.http2.StatOptions
+  - uid: tslib.NodeJS.ErrnoException
+    name: ErrnoException
+    spec.typeScript:
+      - name: ErrnoException
+        fullName: ErrnoException
+        uid: tslib.NodeJS.ErrnoException
+  - uid: string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.http2.ClientSessionOptions | tslib.http2.SecureClientSessionOptions
+    name: SecureClientSessionOptions
+    spec.typeScript:
+      - name: ClientSessionOptions
+        fullName: ClientSessionOptions
+        uid: tslib.http2.ClientSessionOptions
+      - name: ' | '
+        fullName: ' | '
+      - name: SecureClientSessionOptions
+        fullName: SecureClientSessionOptions
+        uid: tslib.http2.SecureClientSessionOptions
+  - uid: tslib.http2.Http2SecureServer
+    name: Http2SecureServer
+    spec.typeScript:
+      - name: Http2SecureServer
+        fullName: Http2SecureServer
+        uid: tslib.http2.Http2SecureServer
+  - uid: tslib.http2.SecureServerOptions
+    name: SecureServerOptions
+    spec.typeScript:
+      - name: SecureServerOptions
+        fullName: SecureServerOptions
+        uid: tslib.http2.SecureServerOptions
+  - uid: tslib.http2.Http2Server
+    name: Http2Server
+    spec.typeScript:
+      - name: Http2Server
+        fullName: Http2Server
+        uid: tslib.http2.Http2Server
+  - uid: tslib.http2.ServerOptions
+    name: ServerOptions
+    spec.typeScript:
+      - name: ServerOptions
+        fullName: ServerOptions
+        uid: tslib.http2.ServerOptions

@@ -1,0 +1,163 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.https.RequestOptions
+    name: RequestOptions
+    fullName: RequestOptions
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type RequestOptions = RequestOptions & SecureContextOptions & {
+        rejectUnauthorized: Object, servername: Object }
+    package: tslib
+references:
+  - uid: tslib.http.Agent
+    name: Agent
+    spec.typeScript:
+      - name: Agent
+        fullName: Agent
+        uid: tslib.http.Agent
+  - uid: tslib.https.AgentOptions
+    name: AgentOptions
+    spec.typeScript:
+      - name: AgentOptions
+        fullName: AgentOptions
+        uid: tslib.https.AgentOptions
+  - uid: tslib.http.HttpBase
+    name: HttpBase
+    spec.typeScript:
+      - name: HttpBase
+        fullName: HttpBase
+        uid: tslib.http.HttpBase
+  - uid: tslib.https.ServerOptions
+    name: ServerOptions
+    spec.typeScript:
+      - name: ServerOptions
+        fullName: ServerOptions
+        uid: tslib.https.ServerOptions
+  - uid: tslib.tls.SecureContextOptions
+    name: SecureContextOptions
+    spec.typeScript:
+      - name: SecureContextOptions
+        fullName: SecureContextOptions
+        uid: tslib.tls.SecureContextOptions
+  - uid: tslib.net.AddressInfo | string | null
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: tslib.tls.TLSSocket
+    name: TLSSocket
+    spec.typeScript:
+      - name: TLSSocket
+        fullName: TLSSocket
+        uid: tslib.tls.TLSSocket
+  - uid: tslib.net.ListenOptions
+    name: ListenOptions
+    spec.typeScript:
+      - name: ListenOptions
+        fullName: ListenOptions
+        uid: tslib.net.ListenOptions
+  - uid: tslib.http.AgentOptions
+    name: AgentOptions
+    spec.typeScript:
+      - name: AgentOptions
+        fullName: AgentOptions
+        uid: tslib.http.AgentOptions
+  - uid: undefined | tslib.tls.checkServerIdentity
+    name: checkServerIdentity
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: checkServerIdentity
+        fullName: checkServerIdentity
+        uid: tslib.tls.checkServerIdentity
+  - uid: string | Buffer | Array<Buffer | tslib.tls.KeyObject>
+    name: KeyObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<Buffer | '
+        fullName: 'string | Buffer | Array<Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: tslib.tls.KeyObject
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.tls.SecureVersion
+    name: SecureVersion
+    spec.typeScript:
+      - name: SecureVersion
+        fullName: SecureVersion
+        uid: tslib.tls.SecureVersion
+  - uid: string | Buffer | Array<string | Buffer | tslib.tls.PxfObject>
+    name: PxfObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<string | Buffer | '
+        fullName: 'string | Buffer | Array<string | Buffer | '
+      - name: PxfObject
+        fullName: PxfObject
+        uid: tslib.tls.PxfObject
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.tls.SecureContext
+    name: SecureContext
+    spec.typeScript:
+      - name: SecureContext
+        fullName: SecureContext
+        uid: tslib.tls.SecureContext
+  - uid: tslib.Buffer
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: tslib.Buffer
+  - uid: tslib.tls.PSKCallbackNegotation | null
+    name: PSKCallbackNegotation | null
+    spec.typeScript:
+      - name: PSKCallbackNegotation
+        fullName: PSKCallbackNegotation
+        uid: tslib.tls.PSKCallbackNegotation
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.https.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.https.Server
+  - uid: tslib.https.RequestOptions | string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: RequestOptions
+        fullName: RequestOptions
+        uid: tslib.https.RequestOptions
+      - name: ' | string | '
+        fullName: ' | string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.http.ClientRequest
+    name: ClientRequest
+    spec.typeScript:
+      - name: ClientRequest
+        fullName: ClientRequest
+        uid: tslib.http.ClientRequest
+  - uid: string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.https.RequestOptions
+    name: RequestOptions
+    spec.typeScript:
+      - name: RequestOptions
+        fullName: RequestOptions
+        uid: tslib.https.RequestOptions

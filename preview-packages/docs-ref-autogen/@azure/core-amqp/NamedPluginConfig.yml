@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.NamedPluginConfig
+    name: NamedPluginConfig
+    fullName: NamedPluginConfig
+    children:
+      - tslib.NamedPluginConfig.config
+      - tslib.NamedPluginConfig.module
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.NamedPluginConfig.config
+    name: config
+    fullName: config
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'config: PluginConfig'
+      return:
+        type:
+          - tslib.PluginConfig
+        description: ''
+    package: tslib
+  - uid: tslib.NamedPluginConfig.module
+    name: module
+    fullName: module
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'module: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.PluginConfig
+    name: PluginConfig
+    spec.typeScript:
+      - name: PluginConfig
+        fullName: PluginConfig
+        uid: tslib.PluginConfig

@@ -5,9 +5,9 @@ items:
     fullName: EventType
     children:
       - microsoft-speech-browser-sdk.EventType.Debug
+      - microsoft-speech-browser-sdk.EventType.Error
       - microsoft-speech-browser-sdk.EventType.Info
       - microsoft-speech-browser-sdk.EventType.Warning
-      - microsoft-speech-browser-sdk.EventType.Error
     langs:
       - typeScript
     type: enum
@@ -20,25 +20,6 @@ items:
       - typeScript
     summary: ''
     type: field
-    numericValue: 0
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.EventType.Info
-    name: Info
-    children: []
-    langs:
-      - typeScript
-    summary: ''
-    type: field
-    numericValue: 1
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.EventType.Warning
-    name: Warning
-    children: []
-    langs:
-      - typeScript
-    summary: ''
-    type: field
-    numericValue: 2
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.EventType.Error
     name: Error
@@ -47,5 +28,20 @@ items:
       - typeScript
     summary: ''
     type: field
-    numericValue: 3
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.EventType.Info
+    name: Info
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.EventType.Warning
+    name: Warning
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
     package: microsoft-speech-browser-sdk

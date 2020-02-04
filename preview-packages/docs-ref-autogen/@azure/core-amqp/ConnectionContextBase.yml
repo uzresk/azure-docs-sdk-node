@@ -1,25 +1,25 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.ConnectionContextBase'
+  - uid: tslib.ConnectionContextBase
     name: ConnectionContextBase
     langs:
       - typeScript
     fullName: ConnectionContextBase
     children:
-      - '@azure/core-amqp.ConnectionContextBase.cbsSession'
-      - '@azure/core-amqp.ConnectionContextBase.config'
-      - '@azure/core-amqp.ConnectionContextBase.connection'
-      - '@azure/core-amqp.ConnectionContextBase.connectionId'
-      - '@azure/core-amqp.ConnectionContextBase.connectionLock'
-      - '@azure/core-amqp.ConnectionContextBase.create'
-      - '@azure/core-amqp.ConnectionContextBase.dataTransformer'
-      - '@azure/core-amqp.ConnectionContextBase.negotiateClaimLock'
-      - '@azure/core-amqp.ConnectionContextBase.tokenCredential'
-      - '@azure/core-amqp.ConnectionContextBase.wasConnectionCloseCalled'
+      - tslib.ConnectionContextBase.cbsSession
+      - tslib.ConnectionContextBase.config
+      - tslib.ConnectionContextBase.connection
+      - tslib.ConnectionContextBase.connectionId
+      - tslib.ConnectionContextBase.connectionLock
+      - tslib.ConnectionContextBase.create
+      - tslib.ConnectionContextBase.dataTransformer
+      - tslib.ConnectionContextBase.negotiateClaimLock
+      - tslib.ConnectionContextBase.tokenCredential
+      - tslib.ConnectionContextBase.wasConnectionCloseCalled
     type: module
     summary: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionContextBase.cbsSession'
+    package: tslib
+  - uid: tslib.ConnectionContextBase.cbsSession
     name: cbsSession
     fullName: cbsSession
     children: []
@@ -35,10 +35,10 @@ items:
       content: 'cbsSession: CbsClient'
       return:
         type:
-          - '@azure/core-amqp.CbsClient'
+          - tslib.CbsClient
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionContextBase.config'
+    package: tslib
+  - uid: tslib.ConnectionContextBase.config
     name: config
     fullName: config
     children: []
@@ -54,10 +54,10 @@ items:
       content: 'config: ConnectionConfig'
       return:
         type:
-          - '@azure/core-amqp.ConnectionConfig'
+          - tslib.ConnectionConfig
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionContextBase.connection'
+    package: tslib
+  - uid: tslib.ConnectionContextBase.connection
     name: connection
     fullName: connection
     children: []
@@ -71,8 +71,8 @@ items:
         type:
           - Connection
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionContextBase.connectionId'
+    package: tslib
+  - uid: tslib.ConnectionContextBase.connectionId
     name: connectionId
     fullName: connectionId
     children: []
@@ -88,8 +88,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionContextBase.connectionLock'
+    package: tslib
+  - uid: tslib.ConnectionContextBase.connectionLock
     name: connectionLock
     fullName: connectionLock
     children: []
@@ -108,8 +108,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionContextBase.create'
+    package: tslib
+  - uid: tslib.ConnectionContextBase.create
     name: create(CreateConnectionContextBaseParameters)
     children: []
     type: function
@@ -121,16 +121,16 @@ items:
       parameters:
         - id: parameters
           type:
-            - '@azure/core-amqp.CreateConnectionContextBaseParameters'
+            - tslib.CreateConnectionContextBaseParameters
           description: |
             Parameters to be provided to create
             the base connection context.
       return:
         type:
-          - '@azure/core-amqp.ConnectionContextBase'
+          - tslib.ConnectionContextBase
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionContextBase.dataTransformer'
+    package: tslib
+  - uid: tslib.ConnectionContextBase.dataTransformer
     name: dataTransformer
     fullName: dataTransformer
     children: []
@@ -150,10 +150,10 @@ items:
       content: 'dataTransformer: DataTransformer'
       return:
         type:
-          - '@azure/core-amqp.DataTransformer'
+          - tslib.DataTransformer
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionContextBase.negotiateClaimLock'
+    package: tslib
+  - uid: tslib.ConnectionContextBase.negotiateClaimLock
     name: negotiateClaimLock
     fullName: negotiateClaimLock
     children: []
@@ -172,8 +172,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionContextBase.tokenCredential'
+    package: tslib
+  - uid: tslib.ConnectionContextBase.tokenCredential
     name: tokenCredential
     fullName: tokenCredential
     children: []
@@ -189,10 +189,10 @@ items:
       content: 'tokenCredential: SharedKeyCredential | TokenCredential'
       return:
         type:
-          - '@azure/core-amqp.SharedKeyCredential | TokenCredential'
+          - tslib.SharedKeyCredential | tslib.TokenCredential
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConnectionContextBase.wasConnectionCloseCalled'
+    package: tslib
+  - uid: tslib.ConnectionContextBase.wasConnectionCloseCalled
     name: wasConnectionCloseCalled
     fullName: wasConnectionCloseCalled
     children: []
@@ -210,63 +210,66 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/core-amqp'
+    package: tslib
 references:
-  - uid: '@azure/core-amqp.CbsClient'
+  - uid: tslib.CbsClient
     name: CbsClient
     spec.typeScript:
       - name: CbsClient
         fullName: CbsClient
-        uid: '@azure/core-amqp.CbsClient'
-  - uid: '@azure/core-amqp.ConnectionConfig'
+        uid: tslib.CbsClient
+  - uid: tslib.ConnectionConfig
     name: ConnectionConfig
     spec.typeScript:
       - name: ConnectionConfig
         fullName: ConnectionConfig
-        uid: '@azure/core-amqp.ConnectionConfig'
-  - uid: '@azure/core-amqp.DataTransformer'
+        uid: tslib.ConnectionConfig
+  - uid: tslib.DataTransformer
     name: DataTransformer
     spec.typeScript:
       - name: DataTransformer
         fullName: DataTransformer
-        uid: '@azure/core-amqp.DataTransformer'
-  - uid: '@azure/core-amqp.SharedKeyCredential | TokenCredential'
-    name: SharedKeyCredential | TokenCredential
+        uid: tslib.DataTransformer
+  - uid: tslib.SharedKeyCredential | tslib.TokenCredential
+    name: TokenCredential
     spec.typeScript:
       - name: SharedKeyCredential
         fullName: SharedKeyCredential
-        uid: '@azure/core-amqp.SharedKeyCredential'
-      - name: ' | TokenCredential'
-        fullName: ' | TokenCredential'
-  - uid: '@azure/core-amqp.CreateConnectionContextBaseParameters'
+        uid: tslib.SharedKeyCredential
+      - name: ' | '
+        fullName: ' | '
+      - name: TokenCredential
+        fullName: TokenCredential
+        uid: tslib.TokenCredential
+  - uid: tslib.CreateConnectionContextBaseParameters
     name: CreateConnectionContextBaseParameters
     spec.typeScript:
       - name: CreateConnectionContextBaseParameters
         fullName: CreateConnectionContextBaseParameters
-        uid: '@azure/core-amqp.CreateConnectionContextBaseParameters'
-  - uid: '@azure/core-amqp.ConnectionContextBase'
+        uid: tslib.CreateConnectionContextBaseParameters
+  - uid: tslib.ConnectionContextBase
     name: ConnectionContextBase
     spec.typeScript:
       - name: ConnectionContextBase
         fullName: ConnectionContextBase
-        uid: '@azure/core-amqp.ConnectionContextBase'
-  - uid: '@azure/core-amqp.ConnectionContextBase.cbsSession'
+        uid: tslib.ConnectionContextBase
+  - uid: tslib.ConnectionContextBase.cbsSession
     name: cbsSession
-  - uid: '@azure/core-amqp.ConnectionContextBase.config'
+  - uid: tslib.ConnectionContextBase.config
     name: config
-  - uid: '@azure/core-amqp.ConnectionContextBase.connection'
+  - uid: tslib.ConnectionContextBase.connection
     name: connection
-  - uid: '@azure/core-amqp.ConnectionContextBase.connectionId'
+  - uid: tslib.ConnectionContextBase.connectionId
     name: connectionId
-  - uid: '@azure/core-amqp.ConnectionContextBase.connectionLock'
+  - uid: tslib.ConnectionContextBase.connectionLock
     name: connectionLock
-  - uid: '@azure/core-amqp.ConnectionContextBase.create'
+  - uid: tslib.ConnectionContextBase.create
     name: create
-  - uid: '@azure/core-amqp.ConnectionContextBase.dataTransformer'
+  - uid: tslib.ConnectionContextBase.dataTransformer
     name: dataTransformer
-  - uid: '@azure/core-amqp.ConnectionContextBase.negotiateClaimLock'
+  - uid: tslib.ConnectionContextBase.negotiateClaimLock
     name: negotiateClaimLock
-  - uid: '@azure/core-amqp.ConnectionContextBase.tokenCredential'
+  - uid: tslib.ConnectionContextBase.tokenCredential
     name: tokenCredential
-  - uid: '@azure/core-amqp.ConnectionContextBase.wasConnectionCloseCalled'
+  - uid: tslib.ConnectionContextBase.wasConnectionCloseCalled
     name: wasConnectionCloseCalled

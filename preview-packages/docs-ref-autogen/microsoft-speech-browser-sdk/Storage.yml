@@ -22,7 +22,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'static Local: IKeyValueStorage'
+      content: static IKeyValueStorage Local
       return:
         type:
           - microsoft-speech-browser-sdk.IKeyValueStorage
@@ -37,41 +37,41 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'static Session: IKeyValueStorage'
+      content: static IKeyValueStorage Session
       return:
         type:
           - microsoft-speech-browser-sdk.IKeyValueStorage
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Storage.SetLocalStorage
-    name: SetLocalStorage
-    fullName: SetLocalStorage
+    name: SetLocalStorage(IKeyValueStorage)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'static SetLocalStorage: (localStorage: IKeyValueStorage) => void'
-      return:
-        type:
-          - '(localStorage: IKeyValueStorage) => void'
-        description: ''
+      content: 'static function SetLocalStorage(localStorage: IKeyValueStorage)'
+      parameters:
+        - id: localStorage
+          type:
+            - microsoft-speech-browser-sdk.IKeyValueStorage
+          description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Storage.SetSessionStorage
-    name: SetSessionStorage
-    fullName: SetSessionStorage
+    name: SetSessionStorage(IKeyValueStorage)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'static SetSessionStorage: (sessionStorage: IKeyValueStorage) => void'
-      return:
-        type:
-          - '(sessionStorage: IKeyValueStorage) => void'
-        description: ''
+      content: 'static function SetSessionStorage(sessionStorage: IKeyValueStorage)'
+      parameters:
+        - id: sessionStorage
+          type:
+            - microsoft-speech-browser-sdk.IKeyValueStorage
+          description: ''
     package: microsoft-speech-browser-sdk
 references:
   - uid: microsoft-speech-browser-sdk.IKeyValueStorage

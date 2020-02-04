@@ -1,0 +1,120 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.OperationQueryParameter'
+    name: OperationQueryParameter
+    fullName: OperationQueryParameter
+    children:
+      - '@azure/ms-rest-azure-env.OperationQueryParameter.collectionFormat'
+      - '@azure/ms-rest-azure-env.OperationQueryParameter.mapper'
+      - '@azure/ms-rest-azure-env.OperationQueryParameter.parameterPath'
+      - '@azure/ms-rest-azure-env.OperationQueryParameter.skipEncoding'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      A parameter for an operation that will be added as a query parameter to
+      the operation's HTTP
+
+      request.
+    extends:
+      name: '@azure/ms-rest-azure-env.OperationParameter'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.OperationQueryParameter.collectionFormat'
+    name: collectionFormat
+    fullName: collectionFormat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If this query parameter's value is a collection, what type of format
+      should the value be
+
+      converted to.
+    optional: true
+    syntax:
+      content: 'collectionFormat?: QueryCollectionFormat'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.QueryCollectionFormat'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.OperationQueryParameter.mapper'
+    name: mapper
+    fullName: mapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The mapper that defines how to validate and serialize this parameter's
+      value.
+    syntax:
+      content: 'mapper: Mapper'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.Mapper'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.OperationQueryParameter.parameterPath'
+    name: parameterPath
+    fullName: parameterPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The path to this parameter's value in OperationArguments or the object
+      that contains paths for
+
+      each property's value in OperationArguments.
+    syntax:
+      content: 'parameterPath: ParameterPath'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.ParameterPath'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.OperationQueryParameter.skipEncoding'
+    name: skipEncoding
+    fullName: skipEncoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether or not to skip encoding the query parameter's value before adding
+      it to the URL.
+    optional: true
+    syntax:
+      content: 'skipEncoding?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.OperationParameter'
+    name: OperationParameter
+    spec.typeScript:
+      - name: OperationParameter
+        fullName: OperationParameter
+        uid: '@azure/ms-rest-azure-env.OperationParameter'
+  - uid: '@azure/ms-rest-azure-env.QueryCollectionFormat'
+    name: QueryCollectionFormat
+    spec.typeScript:
+      - name: QueryCollectionFormat
+        fullName: QueryCollectionFormat
+        uid: '@azure/ms-rest-azure-env.QueryCollectionFormat'
+  - uid: '@azure/ms-rest-azure-env.Mapper'
+    name: Mapper
+    spec.typeScript:
+      - name: Mapper
+        fullName: Mapper
+        uid: '@azure/ms-rest-azure-env.Mapper'
+  - uid: '@azure/ms-rest-azure-env.ParameterPath'
+    name: ParameterPath
+    spec.typeScript:
+      - name: ParameterPath
+        fullName: ParameterPath
+        uid: '@azure/ms-rest-azure-env.ParameterPath'

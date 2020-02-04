@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.path.path'
+    name: path
+    langs:
+      - typeScript
+    fullName: path
+    children:
+      - '@azure/ms-rest-azure-env.path.path.FormatInputPathObject'
+      - '@azure/ms-rest-azure-env.path.path.ParsedPath'
+      - '@azure/ms-rest-azure-env.path.path.PlatformPath'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.path.path.PlatformPath'
+    name: PlatformPath
+    spec.typeScript:
+      - name: PlatformPath
+        fullName: PlatformPath
+        uid: '@azure/ms-rest-azure-env.path.path.PlatformPath'
+  - uid: '@azure/ms-rest-azure-env.path.path.FormatInputPathObject'
+    name: FormatInputPathObject
+    spec.typeScript:
+      - name: FormatInputPathObject
+        fullName: FormatInputPathObject
+        uid: '@azure/ms-rest-azure-env.path.path.FormatInputPathObject'
+  - uid: '@azure/ms-rest-azure-env.path.path.ParsedPath'
+    name: ParsedPath
+    spec.typeScript:
+      - name: ParsedPath
+        fullName: ParsedPath
+        uid: '@azure/ms-rest-azure-env.path.path.ParsedPath'

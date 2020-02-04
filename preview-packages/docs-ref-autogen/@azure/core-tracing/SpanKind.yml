@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.SpanKind'
+    name: SpanKind
+    fullName: SpanKind
+    children:
+      - '@opentelemetry/types.SpanKind.INTERNAL'
+      - '@opentelemetry/types.SpanKind.SERVER'
+      - '@opentelemetry/types.SpanKind.CLIENT'
+      - '@opentelemetry/types.SpanKind.PRODUCER'
+      - '@opentelemetry/types.SpanKind.CONSUMER'
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      Type of span. Can be used to specify additional relationships between
+      spans
+
+      in addition to a parent/child relationship.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.SpanKind.INTERNAL'
+    name: INTERNAL
+    children: []
+    langs:
+      - typeScript
+    summary: Default value. Indicates that the span is used internally.
+    type: field
+    numericValue: 0
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.SpanKind.SERVER'
+    name: SERVER
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      Indicates that the span covers server-side handling of an RPC or other
+      remote request.
+    type: field
+    numericValue: 1
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.SpanKind.CLIENT'
+    name: CLIENT
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      Indicates that the span covers the client-side wrapper around an RPC or
+      other remote request.
+    type: field
+    numericValue: 2
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.SpanKind.PRODUCER'
+    name: PRODUCER
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      Indicates that the span describes producer sending a message to a
+      broker. Unlike client and server, there is no direct critical path latency
+      relationship between producer and consumer spans.
+    type: field
+    numericValue: 3
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.SpanKind.CONSUMER'
+    name: CONSUMER
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      Indicates that the span describes consumer receiving a message from a
+      broker. Unlike client and server, there is no direct critical path latency
+      relationship between producer and consumer spans.
+    type: field
+    numericValue: 4
+    package: '@opentelemetry/types'

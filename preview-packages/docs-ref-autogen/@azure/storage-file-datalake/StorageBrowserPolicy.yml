@@ -1,13 +1,13 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.StorageBrowserPolicy'
+  - uid: '@azure/abort-controller.StorageBrowserPolicy'
     name: StorageBrowserPolicy
     fullName: StorageBrowserPolicy
     children:
-      - '@azure/storage-file-datalake.StorageBrowserPolicy.log'
-      - '@azure/storage-file-datalake.StorageBrowserPolicy.sendRequest'
-      - '@azure/storage-file-datalake.StorageBrowserPolicy.shouldLog'
-      - '@azure/storage-file-datalake.StorageBrowserPolicy.constructor'
+      - '@azure/abort-controller.StorageBrowserPolicy.log'
+      - '@azure/abort-controller.StorageBrowserPolicy.sendRequest'
+      - '@azure/abort-controller.StorageBrowserPolicy.shouldLog'
+      - '@azure/abort-controller.StorageBrowserPolicy.constructor'
     langs:
       - typeScript
     type: class
@@ -29,9 +29,9 @@ items:
 
       3. Remove content-length header to avoid browsers warning
     extends:
-      name: BaseRequestPolicy
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.StorageBrowserPolicy.log'
+      name: '@azure/abort-controller.BaseRequestPolicy'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.StorageBrowserPolicy.log'
     name: 'log(HttpPipelineLogLevel, string)'
     children: []
     type: method
@@ -48,15 +48,15 @@ items:
       parameters:
         - id: logLevel
           type:
-            - HttpPipelineLogLevel
+            - '@azure/abort-controller.HttpPipelineLogLevel'
           description: The log level of this log.
         - id: message
           type:
             - string
           description: |
             The message of this log.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.StorageBrowserPolicy.sendRequest'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.StorageBrowserPolicy.sendRequest'
     name: sendRequest(WebResource)
     children: []
     type: method
@@ -68,14 +68,14 @@ items:
       parameters:
         - id: request
           type:
-            - WebResource
+            - '@azure/abort-controller.WebResource'
           description: ''
       return:
         type:
-          - Promise<HttpOperationResponse>
+          - Promise<@azure/abort-controller.HttpOperationResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.StorageBrowserPolicy.shouldLog'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.StorageBrowserPolicy.shouldLog'
     name: shouldLog(HttpPipelineLogLevel)
     children: []
     type: method
@@ -87,14 +87,14 @@ items:
       parameters:
         - id: logLevel
           type:
-            - HttpPipelineLogLevel
+            - '@azure/abort-controller.HttpPipelineLogLevel'
           description: The log level of the log that will be logged.
       return:
         type:
           - boolean
         description: Whether or not a log with the provided log level should be logged.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.StorageBrowserPolicy.constructor'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.StorageBrowserPolicy.constructor'
     name: 'StorageBrowserPolicy(RequestPolicy, RequestPolicyOptions)'
     children: []
     type: constructor
@@ -108,10 +108,51 @@ items:
       parameters:
         - id: nextPolicy
           type:
-            - RequestPolicy
+            - '@azure/abort-controller.RequestPolicy'
           description: ''
         - id: options
           type:
-            - RequestPolicyOptions
+            - '@azure/abort-controller.RequestPolicyOptions'
           description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.BaseRequestPolicy'
+    name: BaseRequestPolicy
+    spec.typeScript:
+      - name: BaseRequestPolicy
+        fullName: BaseRequestPolicy
+        uid: '@azure/abort-controller.BaseRequestPolicy'
+  - uid: '@azure/abort-controller.RequestPolicy'
+    name: RequestPolicy
+    spec.typeScript:
+      - name: RequestPolicy
+        fullName: RequestPolicy
+        uid: '@azure/abort-controller.RequestPolicy'
+  - uid: '@azure/abort-controller.RequestPolicyOptions'
+    name: RequestPolicyOptions
+    spec.typeScript:
+      - name: RequestPolicyOptions
+        fullName: RequestPolicyOptions
+        uid: '@azure/abort-controller.RequestPolicyOptions'
+  - uid: '@azure/abort-controller.HttpPipelineLogLevel'
+    name: HttpPipelineLogLevel
+    spec.typeScript:
+      - name: HttpPipelineLogLevel
+        fullName: HttpPipelineLogLevel
+        uid: '@azure/abort-controller.HttpPipelineLogLevel'
+  - uid: '@azure/abort-controller.WebResource'
+    name: WebResource
+    spec.typeScript:
+      - name: WebResource
+        fullName: WebResource
+        uid: '@azure/abort-controller.WebResource'
+  - uid: Promise<@azure/abort-controller.HttpOperationResponse>
+    name: HttpOperationResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: HttpOperationResponse
+        fullName: HttpOperationResponse
+        uid: '@azure/abort-controller.HttpOperationResponse'
+      - name: '>'
+        fullName: '>'

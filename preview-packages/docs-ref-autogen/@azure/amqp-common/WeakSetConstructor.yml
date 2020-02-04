@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.WeakSetConstructor'
+    name: WeakSetConstructor
+    fullName: WeakSetConstructor
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'

@@ -1,25 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.ListFileSystemsSegmentResponse'
+  - uid: '@azure/abort-controller.ListFileSystemsSegmentResponse'
     name: ListFileSystemsSegmentResponse
     fullName: ListFileSystemsSegmentResponse
     children:
-      - >-
-        @azure/storage-file-datalake.ListFileSystemsSegmentResponse.continuationToken
-      - >-
-        @azure/storage-file-datalake.ListFileSystemsSegmentResponse.fileSystemItems
-      - '@azure/storage-file-datalake.ListFileSystemsSegmentResponse.marker'
-      - '@azure/storage-file-datalake.ListFileSystemsSegmentResponse.maxPageSize'
-      - '@azure/storage-file-datalake.ListFileSystemsSegmentResponse.prefix'
-      - >-
-        @azure/storage-file-datalake.ListFileSystemsSegmentResponse.serviceEndpoint
+      - '@azure/abort-controller.ListFileSystemsSegmentResponse.continuationToken'
+      - '@azure/abort-controller.ListFileSystemsSegmentResponse.fileSystemItems'
+      - '@azure/abort-controller.ListFileSystemsSegmentResponse.marker'
+      - '@azure/abort-controller.ListFileSystemsSegmentResponse.maxPageSize'
+      - '@azure/abort-controller.ListFileSystemsSegmentResponse.prefix'
+      - '@azure/abort-controller.ListFileSystemsSegmentResponse.serviceEndpoint'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.ListFileSystemsSegmentResponse.continuationToken
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ListFileSystemsSegmentResponse.continuationToken'
     name: continuationToken
     fullName: continuationToken
     children: []
@@ -34,9 +30,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.ListFileSystemsSegmentResponse.fileSystemItems
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ListFileSystemsSegmentResponse.fileSystemItems'
     name: fileSystemItems
     fullName: fileSystemItems
     children: []
@@ -48,10 +43,10 @@ items:
       content: 'fileSystemItems: FileSystemItem[]'
       return:
         type:
-          - '@azure/storage-file-datalake.FileSystemItem[]'
+          - '@azure/abort-controller.FileSystemItem[]'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ListFileSystemsSegmentResponse.marker'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ListFileSystemsSegmentResponse.marker'
     name: marker
     fullName: marker
     children: []
@@ -66,8 +61,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ListFileSystemsSegmentResponse.maxPageSize'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ListFileSystemsSegmentResponse.maxPageSize'
     name: maxPageSize
     fullName: maxPageSize
     children: []
@@ -82,8 +77,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ListFileSystemsSegmentResponse.prefix'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ListFileSystemsSegmentResponse.prefix'
     name: prefix
     fullName: prefix
     children: []
@@ -98,9 +93,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.ListFileSystemsSegmentResponse.serviceEndpoint
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ListFileSystemsSegmentResponse.serviceEndpoint'
     name: serviceEndpoint
     fullName: serviceEndpoint
     children: []
@@ -114,13 +108,13 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.FileSystemItem[]'
+  - uid: '@azure/abort-controller.FileSystemItem[]'
     name: 'FileSystemItem[]'
     spec.typeScript:
       - name: FileSystemItem
         fullName: FileSystemItem
-        uid: '@azure/storage-file-datalake.FileSystemItem'
+        uid: '@azure/abort-controller.FileSystemItem'
       - name: '[]'
         fullName: '[]'

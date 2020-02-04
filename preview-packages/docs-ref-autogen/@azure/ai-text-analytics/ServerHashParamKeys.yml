@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.ServerHashParamKeys'
+    name: ServerHashParamKeys
+    fullName: ServerHashParamKeys
+    children:
+      - '@azure/abort-controller.ServerHashParamKeys.ACCESS_TOKEN'
+      - '@azure/abort-controller.ServerHashParamKeys.CLIENT_INFO'
+      - '@azure/abort-controller.ServerHashParamKeys.ERROR'
+      - '@azure/abort-controller.ServerHashParamKeys.ERROR_DESCRIPTION'
+      - '@azure/abort-controller.ServerHashParamKeys.EXPIRES_IN'
+      - '@azure/abort-controller.ServerHashParamKeys.ID_TOKEN'
+      - '@azure/abort-controller.ServerHashParamKeys.SCOPE'
+      - '@azure/abort-controller.ServerHashParamKeys.SESSION_STATE'
+    langs:
+      - typeScript
+    type: enum
+    summary: Keys in the hashParams
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServerHashParamKeys.ACCESS_TOKEN'
+    name: ACCESS_TOKEN
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServerHashParamKeys.CLIENT_INFO'
+    name: CLIENT_INFO
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServerHashParamKeys.ERROR'
+    name: ERROR
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServerHashParamKeys.ERROR_DESCRIPTION'
+    name: ERROR_DESCRIPTION
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServerHashParamKeys.EXPIRES_IN'
+    name: EXPIRES_IN
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServerHashParamKeys.ID_TOKEN'
+    name: ID_TOKEN
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServerHashParamKeys.SCOPE'
+    name: SCOPE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServerHashParamKeys.SESSION_STATE'
+    name: SESSION_STATE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'

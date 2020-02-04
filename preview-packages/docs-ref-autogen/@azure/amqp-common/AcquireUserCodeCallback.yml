@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.AcquireUserCodeCallback'
+    name: AcquireUserCodeCallback
+    fullName: AcquireUserCodeCallback
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: This is the callback that is passed to all acquireUserCode method below.
+    syntax:
+      content: >-
+        type AcquireUserCodeCallback = (error: Error, response: UserCodeInfo) =>
+        void
+    package: '@azure/ms-rest-azure-env'

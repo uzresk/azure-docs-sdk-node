@@ -1,0 +1,152 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Tracing'
+    name: Tracing
+    fullName: Tracing
+    children:
+      - '@azure/abort-controller.Tracing.active'
+      - '@azure/abort-controller.Tracing.exporter'
+      - '@azure/abort-controller.Tracing.registerExporter'
+      - '@azure/abort-controller.Tracing.start'
+      - '@azure/abort-controller.Tracing.stop'
+      - '@azure/abort-controller.Tracing.tracer'
+      - '@azure/abort-controller.Tracing.unregisterExporter'
+    langs:
+      - typeScript
+    type: interface
+    summary: Main interface for tracing.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Tracing.active'
+    name: active
+    fullName: active
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets active status
+    syntax:
+      content: 'active: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Tracing.exporter'
+    name: exporter
+    fullName: exporter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Service to send collected traces to.
+    syntax:
+      content: 'exporter: Exporter'
+      return:
+        type:
+          - '@azure/abort-controller.Exporter'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Tracing.registerExporter'
+    name: registerExporter(Exporter)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Registers an exporter to send the collected traces to.
+    syntax:
+      content: 'function registerExporter(exporter: Exporter)'
+      parameters:
+        - id: exporter
+          type:
+            - '@azure/abort-controller.Exporter'
+          description: The exporter to send the traces to.
+      return:
+        type:
+          - '@azure/abort-controller.Tracing'
+        description: The tracing object.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Tracing.start'
+    name: start(configTypes.Config)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Starts tracing.
+    syntax:
+      content: 'function start(userConfig?: configTypes.Config)'
+      parameters:
+        - id: userConfig
+          type:
+            - configTypes.Config
+          description: A configuration object to start tracing.
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.Tracing'
+        description: The started Tracing instance.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Tracing.stop'
+    name: stop()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Stops tracing.
+    syntax:
+      content: function stop()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Tracing.tracer'
+    name: tracer
+    fullName: tracer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Object responsible for managing a trace.
+    syntax:
+      content: 'tracer: TracerBase'
+      return:
+        type:
+          - '@azure/abort-controller.TracerBase'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Tracing.unregisterExporter'
+    name: unregisterExporter(Exporter)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Unregisters an exporter.
+    syntax:
+      content: 'function unregisterExporter(exporter: Exporter)'
+      parameters:
+        - id: exporter
+          type:
+            - '@azure/abort-controller.Exporter'
+          description: |
+            The exporter to stop sending traces to.
+      return:
+        type:
+          - '@azure/abort-controller.Tracing'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Exporter'
+    name: Exporter
+    spec.typeScript:
+      - name: Exporter
+        fullName: Exporter
+        uid: '@azure/abort-controller.Exporter'
+  - uid: '@azure/abort-controller.TracerBase'
+    name: TracerBase
+    spec.typeScript:
+      - name: TracerBase
+        fullName: TracerBase
+        uid: '@azure/abort-controller.TracerBase'
+  - uid: '@azure/abort-controller.Tracing'
+    name: Tracing
+    spec.typeScript:
+      - name: Tracing
+        fullName: Tracing
+        uid: '@azure/abort-controller.Tracing'

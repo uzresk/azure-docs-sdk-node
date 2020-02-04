@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.getCachedDefaultHttpClient'
+  - uid: '@azure/abort-controller.getCachedDefaultHttpClient'
     name: getCachedDefaultHttpClient()
     children: []
     type: function
@@ -14,4 +14,4 @@ items:
         type:
           - DefaultHttpClient
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

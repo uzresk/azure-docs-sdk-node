@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.RequestRedirect'
+    name: RequestRedirect
+    fullName: RequestRedirect
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type RequestRedirect = "error" | "follow" | "manual"
+    package: '@azure/abort-controller'

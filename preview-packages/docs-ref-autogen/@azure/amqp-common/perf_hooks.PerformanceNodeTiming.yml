@@ -1,0 +1,361 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming'
+    name: PerformanceNodeTiming
+    fullName: PerformanceNodeTiming
+    children:
+      - >-
+        @azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.bootstrapComplete
+      - >-
+        @azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.clusterSetupEnd
+      - >-
+        @azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.clusterSetupStart
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.duration'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.entryType'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.kind'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.loopExit'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.loopStart'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.moduleLoadEnd'
+      - >-
+        @azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.moduleLoadStart
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.name'
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.nodeStart'
+      - >-
+        @azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.preloadModuleLoadEnd
+      - >-
+        @azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.preloadModuleLoadStart
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.startTime'
+      - >-
+        @azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.thirdPartyMainEnd
+      - >-
+        @azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.thirdPartyMainStart
+      - '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.v8Start'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: PerformanceEntry
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.bootstrapComplete
+    name: bootstrapComplete
+    fullName: bootstrapComplete
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The high resolution millisecond timestamp at which the Node.js process
+      completed bootstrap.
+    syntax:
+      content: 'bootstrapComplete: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.clusterSetupEnd'
+    name: clusterSetupEnd
+    fullName: clusterSetupEnd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The high resolution millisecond timestamp at which cluster processing
+      ended.
+    syntax:
+      content: 'clusterSetupEnd: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.clusterSetupStart
+    name: clusterSetupStart
+    fullName: clusterSetupStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The high resolution millisecond timestamp at which cluster processing
+      started.
+    syntax:
+      content: 'clusterSetupStart: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.duration'
+    name: duration
+    fullName: duration
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The total number of milliseconds elapsed for this entry.
+      This value will not be meaningful for all Performance Entry types.
+    syntax:
+      content: 'duration: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.entryType'
+    name: entryType
+    fullName: entryType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The type of the performance entry.
+
+      Currently it may be one of: 'node', 'mark', 'measure', 'gc', or
+      'function'.
+    syntax:
+      content: 'entryType: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.kind'
+    name: kind
+    fullName: kind
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      When performanceEntry.entryType is equal to 'gc', the performance.kind
+      property identifies
+
+      the type of garbage collection operation that occurred.
+
+      The value may be one of perf_hooks.constants.
+    optional: true
+    syntax:
+      content: 'kind?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.loopExit'
+    name: loopExit
+    fullName: loopExit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The high resolution millisecond timestamp at which the Node.js event loop
+      exited.
+    syntax:
+      content: 'loopExit: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.loopStart'
+    name: loopStart
+    fullName: loopStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The high resolution millisecond timestamp at which the Node.js event loop
+      started.
+    syntax:
+      content: 'loopStart: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.moduleLoadEnd'
+    name: moduleLoadEnd
+    fullName: moduleLoadEnd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The high resolution millisecond timestamp at which main module load ended.
+    syntax:
+      content: 'moduleLoadEnd: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.moduleLoadStart'
+    name: moduleLoadStart
+    fullName: moduleLoadStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The high resolution millisecond timestamp at which main module load
+      started.
+    syntax:
+      content: 'moduleLoadStart: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the performance entry.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.nodeStart'
+    name: nodeStart
+    fullName: nodeStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The high resolution millisecond timestamp at which the Node.js process was
+      initialized.
+    syntax:
+      content: 'nodeStart: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.preloadModuleLoadEnd
+    name: preloadModuleLoadEnd
+    fullName: preloadModuleLoadEnd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The high resolution millisecond timestamp at which preload module load
+      ended.
+    syntax:
+      content: 'preloadModuleLoadEnd: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.preloadModuleLoadStart
+    name: preloadModuleLoadStart
+    fullName: preloadModuleLoadStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The high resolution millisecond timestamp at which preload module load
+      started.
+    syntax:
+      content: 'preloadModuleLoadStart: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.startTime'
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The high resolution millisecond timestamp marking the starting time of the
+      Performance Entry.
+    syntax:
+      content: 'startTime: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.thirdPartyMainEnd
+    name: thirdPartyMainEnd
+    fullName: thirdPartyMainEnd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The high resolution millisecond timestamp at which third_party_main
+      processing ended.
+    syntax:
+      content: 'thirdPartyMainEnd: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.thirdPartyMainStart
+    name: thirdPartyMainStart
+    fullName: thirdPartyMainStart
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The high resolution millisecond timestamp at which third_party_main
+      processing started.
+    syntax:
+      content: 'thirdPartyMainStart: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceNodeTiming.v8Start'
+    name: v8Start
+    fullName: v8Start
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The high resolution millisecond timestamp at which the V8 platform was
+      initialized.
+    syntax:
+      content: 'v8Start: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserverCallback'
+    name: PerformanceObserverCallback
+    spec.typeScript:
+      - name: PerformanceObserverCallback
+        fullName: PerformanceObserverCallback
+        uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserverCallback'

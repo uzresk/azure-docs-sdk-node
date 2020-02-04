@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.LeaseStatusType'
+  - uid: '@azure/abort-controller.LeaseStatusType'
     name: LeaseStatusType
     fullName: LeaseStatusType
     children: []
@@ -10,4 +10,4 @@ items:
     summary: ''
     syntax:
       content: type LeaseStatusType = "locked" | "unlocked"
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

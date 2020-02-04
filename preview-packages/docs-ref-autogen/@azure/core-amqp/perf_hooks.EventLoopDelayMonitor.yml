@@ -1,0 +1,223 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.perf_hooks.EventLoopDelayMonitor
+    name: EventLoopDelayMonitor
+    fullName: EventLoopDelayMonitor
+    children:
+      - tslib.perf_hooks.EventLoopDelayMonitor.disable
+      - tslib.perf_hooks.EventLoopDelayMonitor.enable
+      - tslib.perf_hooks.EventLoopDelayMonitor.exceeds
+      - tslib.perf_hooks.EventLoopDelayMonitor.max
+      - tslib.perf_hooks.EventLoopDelayMonitor.mean
+      - tslib.perf_hooks.EventLoopDelayMonitor.min
+      - tslib.perf_hooks.EventLoopDelayMonitor.percentile
+      - tslib.perf_hooks.EventLoopDelayMonitor.percentiles
+      - tslib.perf_hooks.EventLoopDelayMonitor.reset
+      - tslib.perf_hooks.EventLoopDelayMonitor.stddev
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.perf_hooks.EventLoopDelayMonitor.disable
+    name: disable()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Disables the event loop delay sample timer. Returns `true` if the timer
+      was stopped, `false` if it was already stopped.
+    syntax:
+      content: function disable()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.perf_hooks.EventLoopDelayMonitor.enable
+    name: enable()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Enables the event loop delay sample timer. Returns `true` if the timer was
+      started, `false` if it was already started.
+    syntax:
+      content: function enable()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.perf_hooks.EventLoopDelayMonitor.exceeds
+    name: exceeds
+    fullName: exceeds
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The number of times the event loop delay exceeded the maximum 1 hour
+      eventloop delay threshold.
+    syntax:
+      content: 'exceeds: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.perf_hooks.EventLoopDelayMonitor.max
+    name: max
+    fullName: max
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The maximum recorded event loop delay.
+    syntax:
+      content: 'max: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.perf_hooks.EventLoopDelayMonitor.mean
+    name: mean
+    fullName: mean
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The mean of the recorded event loop delays.
+    syntax:
+      content: 'mean: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.perf_hooks.EventLoopDelayMonitor.min
+    name: min
+    fullName: min
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The minimum recorded event loop delay.
+    syntax:
+      content: 'min: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.perf_hooks.EventLoopDelayMonitor.percentile
+    name: percentile(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the value at the given percentile.
+    syntax:
+      content: 'function percentile(percentile: number)'
+      parameters:
+        - id: percentile
+          type:
+            - number
+          description: |
+            A percentile value between 1 and 100.
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.perf_hooks.EventLoopDelayMonitor.percentiles
+    name: percentiles
+    fullName: percentiles
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A `Map` object detailing the accumulated percentile distribution.
+    syntax:
+      content: 'percentiles: Map<number, number>'
+      return:
+        type:
+          - 'Map<number, number>'
+        description: ''
+    package: tslib
+  - uid: tslib.perf_hooks.EventLoopDelayMonitor.reset
+    name: reset()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Resets the collected histogram data.
+    syntax:
+      content: function reset()
+      parameters: []
+    package: tslib
+  - uid: tslib.perf_hooks.EventLoopDelayMonitor.stddev
+    name: stddev
+    fullName: stddev
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The standard deviation of the recorded event loop delays.
+    syntax:
+      content: 'stddev: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.async_hooks.AsyncResource
+    name: AsyncResource
+    spec.typeScript:
+      - name: AsyncResource
+        fullName: AsyncResource
+        uid: tslib.async_hooks.AsyncResource
+  - uid: tslib.perf_hooks.PerformanceObserverCallback
+    name: PerformanceObserverCallback
+    spec.typeScript:
+      - name: PerformanceObserverCallback
+        fullName: PerformanceObserverCallback
+        uid: tslib.perf_hooks.PerformanceObserverCallback
+  - uid: tslib.perf_hooks.PerformanceNodeTiming
+    name: PerformanceNodeTiming
+    spec.typeScript:
+      - name: PerformanceNodeTiming
+        fullName: PerformanceNodeTiming
+        uid: tslib.perf_hooks.PerformanceNodeTiming
+  - uid: 'tslib.perf_hooks.PerformanceEntry[]'
+    name: 'PerformanceEntry[]'
+    spec.typeScript:
+      - name: PerformanceEntry
+        fullName: PerformanceEntry
+        uid: tslib.perf_hooks.PerformanceEntry
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.perf_hooks.PerformanceEntry
+    name: PerformanceEntry
+    spec.typeScript:
+      - name: PerformanceEntry
+        fullName: PerformanceEntry
+        uid: tslib.perf_hooks.PerformanceEntry
+  - uid: tslib.perf_hooks.EventLoopMonitorOptions
+    name: EventLoopMonitorOptions
+    spec.typeScript:
+      - name: EventLoopMonitorOptions
+        fullName: EventLoopMonitorOptions
+        uid: tslib.perf_hooks.EventLoopMonitorOptions
+  - uid: tslib.perf_hooks.EventLoopDelayMonitor
+    name: EventLoopDelayMonitor
+    spec.typeScript:
+      - name: EventLoopDelayMonitor
+        fullName: EventLoopDelayMonitor
+        uid: tslib.perf_hooks.EventLoopDelayMonitor

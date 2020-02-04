@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.equal'
+    name: 'equal(string, string, URIOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function equal(uriA: string, uriB: string, options?: URIOptions)'
+      parameters:
+        - id: uriA
+          type:
+            - string
+          description: ''
+        - id: uriB
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.URIOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.URIOptions'
+    name: URIOptions
+    spec.typeScript:
+      - name: URIOptions
+        fullName: URIOptions
+        uid: '@azure/ms-rest-azure-env.URIOptions'

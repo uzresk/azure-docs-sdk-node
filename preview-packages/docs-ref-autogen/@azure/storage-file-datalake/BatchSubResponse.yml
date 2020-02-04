@@ -1,0 +1,102 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BatchSubResponse'
+    name: BatchSubResponse
+    fullName: BatchSubResponse
+    children:
+      - '@azure/abort-controller.BatchSubResponse.bodyAsText'
+      - '@azure/abort-controller.BatchSubResponse.errorCode'
+      - '@azure/abort-controller.BatchSubResponse.headers'
+      - '@azure/abort-controller.BatchSubResponse.status'
+      - '@azure/abort-controller.BatchSubResponse.statusMessage'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      The response data associated with a single request within a batch
+      operation.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BatchSubResponse.bodyAsText'
+    name: bodyAsText
+    fullName: bodyAsText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The body as text.
+    optional: true
+    syntax:
+      content: 'bodyAsText?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BatchSubResponse.errorCode'
+    name: errorCode
+    fullName: errorCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The error code of the sub opeartion, if the sub operation failed.'
+    optional: true
+    syntax:
+      content: 'errorCode?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BatchSubResponse.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The HTTP response headers.
+    syntax:
+      content: 'headers: HttpHeaders'
+      return:
+        type:
+          - '@azure/abort-controller.HttpHeaders'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BatchSubResponse.status'
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The status code of the sub operation.
+    syntax:
+      content: 'status: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BatchSubResponse.statusMessage'
+    name: statusMessage
+    fullName: statusMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The status message of the sub opeartion.
+    syntax:
+      content: 'statusMessage: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.HttpHeaders'
+    name: HttpHeaders
+    spec.typeScript:
+      - name: HttpHeaders
+        fullName: HttpHeaders
+        uid: '@azure/abort-controller.HttpHeaders'

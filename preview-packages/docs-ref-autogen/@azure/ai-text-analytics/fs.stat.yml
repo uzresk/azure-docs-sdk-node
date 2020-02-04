@@ -1,0 +1,55 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.fs.stat'
+    name: stat
+    langs:
+      - typeScript
+    fullName: stat
+    children: []
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.fs.StatsBase<BigInt>'
+    name: StatsBase<BigInt>
+    spec.typeScript:
+      - name: StatsBase
+        fullName: StatsBase
+        uid: '@azure/abort-controller.fs.StatsBase'
+      - name: <BigInt>
+        fullName: <BigInt>
+  - uid: '@azure/abort-controller.fs.PathLike'
+    name: PathLike
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/abort-controller.fs.PathLike'
+  - uid: '@azure/abort-controller.fs.BigIntOptions'
+    name: BigIntOptions
+    spec.typeScript:
+      - name: BigIntOptions
+        fullName: BigIntOptions
+        uid: '@azure/abort-controller.fs.BigIntOptions'
+  - uid: '@azure/abort-controller.fs.BigIntStats'
+    name: BigIntStats
+    spec.typeScript:
+      - name: BigIntStats
+        fullName: BigIntStats
+        uid: '@azure/abort-controller.fs.BigIntStats'
+  - uid: '@azure/abort-controller.fs.StatOptions'
+    name: StatOptions
+    spec.typeScript:
+      - name: StatOptions
+        fullName: StatOptions
+        uid: '@azure/abort-controller.fs.StatOptions'
+  - uid: '@azure/abort-controller.fs.Stats | @azure/abort-controller.fs.BigIntStats'
+    name: BigIntStats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: '@azure/abort-controller.fs.Stats'
+      - name: ' | '
+        fullName: ' | '
+      - name: BigIntStats
+        fullName: BigIntStats
+        uid: '@azure/abort-controller.fs.BigIntStats'

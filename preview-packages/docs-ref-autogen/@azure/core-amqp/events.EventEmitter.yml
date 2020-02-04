@@ -1,0 +1,121 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.events.EventEmitter
+    name: EventEmitter
+    langs:
+      - typeScript
+    fullName: EventEmitter
+    children:
+      - tslib.events.EventEmitter.EventEmitter
+      - tslib.events.EventEmitter.on
+      - tslib.events.EventEmitter.once_1
+      - tslib.events.EventEmitter.once
+    type: module
+    summary: ''
+    package: tslib
+  - uid: tslib.events.EventEmitter.on
+    name: 'on(EventEmitter, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(emitter: EventEmitter, event: string)'
+      parameters:
+        - id: emitter
+          type:
+            - tslib.events.EventEmitter.EventEmitter
+          description: ''
+        - id: event
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - AsyncIterableIterator<any>
+        description: ''
+    package: tslib
+  - uid: tslib.events.EventEmitter.once_1
+    name: 'once(DOMEventTarget, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(emitter: DOMEventTarget, event: string)'
+      parameters:
+        - id: emitter
+          type:
+            - tslib.events.DOMEventTarget
+          description: ''
+        - id: event
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'Promise<any[]>'
+        description: ''
+    package: tslib
+  - uid: tslib.events.EventEmitter.once
+    name: 'once(NodeEventTarget, string | symbol)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(emitter: NodeEventTarget, event: string | symbol)'
+      parameters:
+        - id: emitter
+          type:
+            - tslib.events.NodeEventTarget
+          description: ''
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Promise<any[]>'
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.NodeJS.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.NodeJS.EventEmitter
+  - uid: tslib.events.EventEmitterOptions
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: tslib.events.EventEmitterOptions
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.events.NodeEventTarget
+    name: NodeEventTarget
+    spec.typeScript:
+      - name: NodeEventTarget
+        fullName: NodeEventTarget
+        uid: tslib.events.NodeEventTarget
+  - uid: tslib.events.DOMEventTarget
+    name: DOMEventTarget
+    spec.typeScript:
+      - name: DOMEventTarget
+        fullName: DOMEventTarget
+        uid: tslib.events.DOMEventTarget
+  - uid: tslib.events.EventEmitter.on
+    name: 'on'
+  - uid: tslib.events.EventEmitter.once_1
+    name: once_1
+  - uid: tslib.events.EventEmitter.once
+    name: once

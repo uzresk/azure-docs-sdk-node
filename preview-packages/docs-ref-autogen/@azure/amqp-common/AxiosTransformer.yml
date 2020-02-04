@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.AxiosTransformer'
+    name: AxiosTransformer
+    fullName: AxiosTransformer
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'

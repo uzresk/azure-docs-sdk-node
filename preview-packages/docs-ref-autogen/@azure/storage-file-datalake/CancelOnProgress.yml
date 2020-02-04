@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.CancelOnProgress'
+    name: CancelOnProgress
+    fullName: CancelOnProgress
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type CancelOnProgress = () => void
+    package: '@azure/abort-controller'

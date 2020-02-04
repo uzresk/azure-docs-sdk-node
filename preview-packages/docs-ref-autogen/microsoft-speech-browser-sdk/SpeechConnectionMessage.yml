@@ -33,7 +33,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'AdditionalHeaders: IStringDictionary<string>'
+      content: IStringDictionary<string> AdditionalHeaders
       return:
         type:
           - microsoft-speech-browser-sdk.IStringDictionary<string>
@@ -48,7 +48,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'BinaryBody: ArrayBuffer'
+      content: ArrayBuffer BinaryBody
       return:
         type:
           - ArrayBuffer
@@ -63,7 +63,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Body: any'
+      content: any Body
       return:
         type:
           - any
@@ -78,27 +78,29 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'ContentType: string'
+      content: string ContentType
       return:
         type:
           - string
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.SpeechConnectionMessage.FromConnectionMessage
-    name: FromConnectionMessage
-    fullName: FromConnectionMessage
+    name: FromConnectionMessage(ConnectionMessage)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: >-
-        static FromConnectionMessage: (message: ConnectionMessage) =>
-        SpeechConnectionMessage
+      content: 'static function FromConnectionMessage(message: ConnectionMessage)'
+      parameters:
+        - id: message
+          type:
+            - microsoft-speech-browser-sdk.ConnectionMessage
+          description: ''
       return:
         type:
-          - '(message: ConnectionMessage) => SpeechConnectionMessage'
+          - microsoft-speech-browser-sdk.SpeechConnectionMessage
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.SpeechConnectionMessage.Headers
@@ -110,7 +112,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Headers: any'
+      content: any Headers
       return:
         type:
           - any
@@ -125,7 +127,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Id: string'
+      content: string Id
       return:
         type:
           - string
@@ -140,7 +142,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'MessageType: MessageType'
+      content: MessageType MessageType
       return:
         type:
           - microsoft-speech-browser-sdk.MessageType
@@ -155,7 +157,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Path: string'
+      content: string Path
       return:
         type:
           - string
@@ -170,7 +172,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'RequestId: string'
+      content: string RequestId
       return:
         type:
           - string
@@ -231,7 +233,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'TextBody: string'
+      content: string TextBody
       return:
         type:
           - string
@@ -258,3 +260,9 @@ references:
         uid: microsoft-speech-browser-sdk.IStringDictionary
       - name: <string>
         fullName: <string>
+  - uid: microsoft-speech-browser-sdk.SpeechConnectionMessage
+    name: SpeechConnectionMessage
+    spec.typeScript:
+      - name: SpeechConnectionMessage
+        fullName: SpeechConnectionMessage
+        uid: microsoft-speech-browser-sdk.SpeechConnectionMessage

@@ -1,20 +1,20 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.TextAnalyticsError'
+  - uid: '@azure/abort-controller.TextAnalyticsError'
     name: TextAnalyticsError
     fullName: TextAnalyticsError
     children:
-      - '@azure/ai-text-analytics.TextAnalyticsError.code'
-      - '@azure/ai-text-analytics.TextAnalyticsError.details'
-      - '@azure/ai-text-analytics.TextAnalyticsError.innerError'
-      - '@azure/ai-text-analytics.TextAnalyticsError.message'
-      - '@azure/ai-text-analytics.TextAnalyticsError.target'
+      - '@azure/abort-controller.TextAnalyticsError.code'
+      - '@azure/abort-controller.TextAnalyticsError.details'
+      - '@azure/abort-controller.TextAnalyticsError.innerError'
+      - '@azure/abort-controller.TextAnalyticsError.message'
+      - '@azure/abort-controller.TextAnalyticsError.target'
     langs:
       - typeScript
     type: interface
     summary: An interface representing TextAnalyticsError.
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.TextAnalyticsError.code'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TextAnalyticsError.code'
     name: code
     fullName: code
     children: []
@@ -28,10 +28,10 @@ items:
       content: 'code: ErrorCodeValue'
       return:
         type:
-          - '@azure/ai-text-analytics.ErrorCodeValue'
+          - '@azure/abort-controller.ErrorCodeValue'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.TextAnalyticsError.details'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TextAnalyticsError.details'
     name: details
     fullName: details
     children: []
@@ -44,10 +44,10 @@ items:
       content: 'details?: TextAnalyticsError[]'
       return:
         type:
-          - '@azure/ai-text-analytics.TextAnalyticsError[]'
+          - '@azure/abort-controller.TextAnalyticsError[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.TextAnalyticsError.innerError'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TextAnalyticsError.innerError'
     name: innerError
     fullName: innerError
     children: []
@@ -60,10 +60,10 @@ items:
       content: 'innerError?: InnerError'
       return:
         type:
-          - '@azure/ai-text-analytics.InnerError'
+          - '@azure/abort-controller.InnerError'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.TextAnalyticsError.message'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TextAnalyticsError.message'
     name: message
     fullName: message
     children: []
@@ -77,8 +77,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.TextAnalyticsError.target'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TextAnalyticsError.target'
     name: target
     fullName: target
     children: []
@@ -93,25 +93,25 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/ai-text-analytics.ErrorCodeValue'
+  - uid: '@azure/abort-controller.ErrorCodeValue'
     name: ErrorCodeValue
     spec.typeScript:
       - name: ErrorCodeValue
         fullName: ErrorCodeValue
-        uid: '@azure/ai-text-analytics.ErrorCodeValue'
-  - uid: '@azure/ai-text-analytics.TextAnalyticsError[]'
+        uid: '@azure/abort-controller.ErrorCodeValue'
+  - uid: '@azure/abort-controller.TextAnalyticsError[]'
     name: 'TextAnalyticsError[]'
     spec.typeScript:
       - name: TextAnalyticsError
         fullName: TextAnalyticsError
-        uid: '@azure/ai-text-analytics.TextAnalyticsError'
+        uid: '@azure/abort-controller.TextAnalyticsError'
       - name: '[]'
         fullName: '[]'
-  - uid: '@azure/ai-text-analytics.InnerError'
+  - uid: '@azure/abort-controller.InnerError'
     name: InnerError
     spec.typeScript:
       - name: InnerError
         fullName: InnerError
-        uid: '@azure/ai-text-analytics.InnerError'
+        uid: '@azure/abort-controller.InnerError'

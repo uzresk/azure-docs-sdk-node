@@ -1,0 +1,112 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Blob'
+    name: Blob
+    fullName: Blob
+    children:
+      - '@azure/abort-controller.Blob.constructor'
+      - '@azure/abort-controller.Blob.size'
+      - '@azure/abort-controller.Blob.slice'
+      - '@azure/abort-controller.Blob.type'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Blob.constructor'
+    name: 'Blob(BlobPart[], BlobOptions)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Blob(blobParts?: BlobPart[], options?: BlobOptions)'
+      parameters:
+        - id: blobParts
+          type:
+            - '@azure/abort-controller.BlobPart[]'
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobOptions'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Blob.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Blob.slice'
+    name: 'slice(number, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function slice(start?: number, end?: number)'
+      parameters:
+        - id: start
+          type:
+            - number
+          description: ''
+          optional: true
+        - id: end
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.Blob'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Blob.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.BlobPart[]'
+    name: 'BlobPart[]'
+    spec.typeScript:
+      - name: BlobPart
+        fullName: BlobPart
+        uid: '@azure/abort-controller.BlobPart'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.BlobOptions'
+    name: BlobOptions
+    spec.typeScript:
+      - name: BlobOptions
+        fullName: BlobOptions
+        uid: '@azure/abort-controller.BlobOptions'
+  - uid: '@azure/abort-controller.Blob'
+    name: Blob
+    spec.typeScript:
+      - name: Blob
+        fullName: Blob
+        uid: '@azure/abort-controller.Blob'

@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.getCache'
+    name: getCache()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCache()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.TracerCache'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.TracerCache'
+    name: TracerCache
+    spec.typeScript:
+      - name: TracerCache
+        fullName: TracerCache
+        uid: '@azure/abort-controller.TracerCache'

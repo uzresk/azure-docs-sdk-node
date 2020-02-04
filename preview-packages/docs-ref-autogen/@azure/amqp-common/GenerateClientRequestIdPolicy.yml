@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.generateClientRequestIdPolicy'
+    name: generateClientRequestIdPolicy(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function generateClientRequestIdPolicy(requestIdHeaderName: string)'
+      parameters:
+        - id: requestIdHeaderName
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.RequestPolicyFactory'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.RequestPolicyFactory'
+    name: RequestPolicyFactory
+    spec.typeScript:
+      - name: RequestPolicyFactory
+        fullName: RequestPolicyFactory
+        uid: '@azure/ms-rest-azure-env.RequestPolicyFactory'

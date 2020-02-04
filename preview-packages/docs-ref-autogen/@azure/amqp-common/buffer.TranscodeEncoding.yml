@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.buffer.TranscodeEncoding'
+    name: TranscodeEncoding
+    fullName: TranscodeEncoding
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type TranscodeEncoding = "ascii" | "utf8" | "utf16le" | "ucs2" |
+        "latin1" | "binary"
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.buffer.TranscodeEncoding'
+    name: TranscodeEncoding
+    spec.typeScript:
+      - name: TranscodeEncoding
+        fullName: TranscodeEncoding
+        uid: '@azure/ms-rest-azure-env.buffer.TranscodeEncoding'

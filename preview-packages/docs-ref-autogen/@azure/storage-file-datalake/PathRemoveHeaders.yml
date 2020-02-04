@@ -1,21 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathRemoveHeaders'
+  - uid: '@azure/abort-controller.PathRemoveHeaders'
     name: PathRemoveHeaders
     fullName: PathRemoveHeaders
     children:
-      - '@azure/storage-file-datalake.PathRemoveHeaders.contentLength'
-      - '@azure/storage-file-datalake.PathRemoveHeaders.date'
-      - '@azure/storage-file-datalake.PathRemoveHeaders.eTag'
-      - '@azure/storage-file-datalake.PathRemoveHeaders.lastModified'
-      - '@azure/storage-file-datalake.PathRemoveHeaders.requestId'
-      - '@azure/storage-file-datalake.PathRemoveHeaders.version'
+      - '@azure/abort-controller.PathRemoveHeaders.contentLength'
+      - '@azure/abort-controller.PathRemoveHeaders.date'
+      - '@azure/abort-controller.PathRemoveHeaders.eTag'
+      - '@azure/abort-controller.PathRemoveHeaders.lastModified'
+      - '@azure/abort-controller.PathRemoveHeaders.requestId'
+      - '@azure/abort-controller.PathRemoveHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathRemoveHeaders.contentLength'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathRemoveHeaders.contentLength'
     name: contentLength
     fullName: contentLength
     children: []
@@ -30,8 +30,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathRemoveHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathRemoveHeaders.date'
     name: date
     fullName: date
     children: []
@@ -44,10 +44,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathRemoveHeaders.eTag'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathRemoveHeaders.eTag'
     name: eTag
     fullName: eTag
     children: []
@@ -62,8 +62,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathRemoveHeaders.lastModified'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathRemoveHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -76,10 +76,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathRemoveHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathRemoveHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -94,8 +94,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathRemoveHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathRemoveHeaders.version'
     name: version
     fullName: version
     children: []
@@ -110,4 +110,11 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'

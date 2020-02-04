@@ -1,0 +1,90 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.NodeRequire'
+    name: NodeRequire
+    fullName: NodeRequire
+    children:
+      - '@azure/ms-rest-azure-env.NodeRequire.cache'
+      - '@azure/ms-rest-azure-env.NodeRequire.extensions'
+      - '@azure/ms-rest-azure-env.NodeRequire.main'
+      - '@azure/ms-rest-azure-env.NodeRequire.resolve'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@azure/ms-rest-azure-env.NodeRequireFunction'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeRequire.cache'
+    name: cache
+    fullName: cache
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cache: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeRequire.extensions'
+    name: extensions
+    fullName: extensions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'extensions: NodeExtensions'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.NodeExtensions'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeRequire.main'
+    name: main
+    fullName: main
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'main: NodeModule | undefined'
+      return:
+        type:
+          - NodeModule | undefined
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeRequire.resolve'
+    name: resolve
+    fullName: resolve
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'resolve: RequireResolve'
+      return:
+        type:
+          - RequireResolve
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.NodeRequireFunction'
+    name: NodeRequireFunction
+    spec.typeScript:
+      - name: NodeRequireFunction
+        fullName: NodeRequireFunction
+        uid: '@azure/ms-rest-azure-env.NodeRequireFunction'
+  - uid: '@azure/ms-rest-azure-env.NodeExtensions'
+    name: NodeExtensions
+    spec.typeScript:
+      - name: NodeExtensions
+        fullName: NodeExtensions
+        uid: '@azure/ms-rest-azure-env.NodeExtensions'

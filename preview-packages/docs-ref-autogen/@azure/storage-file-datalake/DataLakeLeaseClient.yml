@@ -1,23 +1,23 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.DataLakeLeaseClient'
+  - uid: '@azure/abort-controller.DataLakeLeaseClient'
     name: DataLakeLeaseClient
     fullName: DataLakeLeaseClient
     children:
-      - '@azure/storage-file-datalake.DataLakeLeaseClient.acquireLease'
-      - '@azure/storage-file-datalake.DataLakeLeaseClient.breakLease'
-      - '@azure/storage-file-datalake.DataLakeLeaseClient.changeLease'
-      - '@azure/storage-file-datalake.DataLakeLeaseClient.constructor'
-      - '@azure/storage-file-datalake.DataLakeLeaseClient.leaseId'
-      - '@azure/storage-file-datalake.DataLakeLeaseClient.releaseLease'
-      - '@azure/storage-file-datalake.DataLakeLeaseClient.renewLease'
-      - '@azure/storage-file-datalake.DataLakeLeaseClient.url'
+      - '@azure/abort-controller.DataLakeLeaseClient.acquireLease'
+      - '@azure/abort-controller.DataLakeLeaseClient.breakLease'
+      - '@azure/abort-controller.DataLakeLeaseClient.changeLease'
+      - '@azure/abort-controller.DataLakeLeaseClient.constructor'
+      - '@azure/abort-controller.DataLakeLeaseClient.leaseId'
+      - '@azure/abort-controller.DataLakeLeaseClient.releaseLease'
+      - '@azure/abort-controller.DataLakeLeaseClient.renewLease'
+      - '@azure/abort-controller.DataLakeLeaseClient.url'
     langs:
       - typeScript
     type: class
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeLeaseClient.acquireLease'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeLeaseClient.acquireLease'
     name: 'acquireLease(number, LeaseOperationOptions)'
     children: []
     type: method
@@ -33,15 +33,15 @@ items:
           description: ''
         - id: options
           type:
-            - LeaseOperationOptions
+            - '@azure/abort-controller.LeaseOperationOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<LeaseOperationResponse>
+          - Promise<@azure/abort-controller.LeaseOperationResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeLeaseClient.breakLease'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeLeaseClient.breakLease'
     name: 'breakLease(number, LeaseOperationOptions)'
     children: []
     type: method
@@ -59,15 +59,15 @@ items:
           description: ''
         - id: options
           type:
-            - LeaseOperationOptions
+            - '@azure/abort-controller.LeaseOperationOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<LeaseOperationResponse>
+          - Promise<@azure/abort-controller.LeaseOperationResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeLeaseClient.changeLease'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeLeaseClient.changeLease'
     name: 'changeLease(string, LeaseOperationOptions)'
     children: []
     type: method
@@ -85,15 +85,15 @@ items:
           description: ''
         - id: options
           type:
-            - LeaseOperationOptions
+            - '@azure/abort-controller.LeaseOperationOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<LeaseOperationResponse>
+          - Promise<@azure/abort-controller.LeaseOperationResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeLeaseClient.constructor'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeLeaseClient.constructor'
     name: DataLakeLeaseClient(BlobLeaseClient)
     children: []
     type: constructor
@@ -105,10 +105,10 @@ items:
       parameters:
         - id: client
           type:
-            - BlobLeaseClient
+            - '@azure/abort-controller.BlobLeaseClient'
           description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeLeaseClient.leaseId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeLeaseClient.leaseId'
     name: leaseId
     fullName: leaseId
     children: []
@@ -122,8 +122,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeLeaseClient.releaseLease'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeLeaseClient.releaseLease'
     name: releaseLease(LeaseOperationOptions)
     children: []
     type: method
@@ -135,15 +135,15 @@ items:
       parameters:
         - id: options
           type:
-            - LeaseOperationOptions
+            - '@azure/abort-controller.LeaseOperationOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<LeaseOperationResponse>
+          - Promise<@azure/abort-controller.LeaseOperationResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeLeaseClient.renewLease'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeLeaseClient.renewLease'
     name: renewLease(LeaseOperationOptions)
     children: []
     type: method
@@ -155,15 +155,15 @@ items:
       parameters:
         - id: options
           type:
-            - LeaseOperationOptions
+            - '@azure/abort-controller.LeaseOperationOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<Lease>
+          - Promise<@azure/abort-controller.Lease>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeLeaseClient.url'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeLeaseClient.url'
     name: url
     fullName: url
     children: []
@@ -177,4 +177,37 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.BlobLeaseClient'
+    name: BlobLeaseClient
+    spec.typeScript:
+      - name: BlobLeaseClient
+        fullName: BlobLeaseClient
+        uid: '@azure/abort-controller.BlobLeaseClient'
+  - uid: '@azure/abort-controller.LeaseOperationOptions'
+    name: LeaseOperationOptions
+    spec.typeScript:
+      - name: LeaseOperationOptions
+        fullName: LeaseOperationOptions
+        uid: '@azure/abort-controller.LeaseOperationOptions'
+  - uid: Promise<@azure/abort-controller.LeaseOperationResponse>
+    name: LeaseOperationResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: LeaseOperationResponse
+        fullName: LeaseOperationResponse
+        uid: '@azure/abort-controller.LeaseOperationResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: Promise<@azure/abort-controller.Lease>
+    name: Lease>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Lease
+        fullName: Lease
+        uid: '@azure/abort-controller.Lease'
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,132 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.ScopeSet'
+    name: ScopeSet
+    fullName: ScopeSet
+    children:
+      - '@azure/abort-controller.ScopeSet.containsScope'
+      - '@azure/abort-controller.ScopeSet.convertToLowerCase'
+      - '@azure/abort-controller.ScopeSet.isIntersectingScopes'
+      - '@azure/abort-controller.ScopeSet.parseScope'
+      - '@azure/abort-controller.ScopeSet.removeElement'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ScopeSet.containsScope'
+    name: 'containsScope(Array<string>, Array<string>)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Check if a given scope is present in the request
+    syntax:
+      content: >-
+        static function containsScope(cachedScopes: Array<string>, scopes:
+        Array<string>)
+      parameters:
+        - id: cachedScopes
+          type:
+            - Array<string>
+          description: ''
+        - id: scopes
+          type:
+            - Array<string>
+          description: |+
+
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ScopeSet.convertToLowerCase'
+    name: convertToLowerCase(Array<string>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: toLower
+    syntax:
+      content: 'static function convertToLowerCase(scopes: Array<string>)'
+      parameters:
+        - id: scopes
+          type:
+            - Array<string>
+          description: |+
+
+      return:
+        type:
+          - Array<string>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ScopeSet.isIntersectingScopes'
+    name: 'isIntersectingScopes(Array<string>, Array<string>)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Check if there are dup scopes in a given request
+    syntax:
+      content: >-
+        static function isIntersectingScopes(cachedScopes: Array<string>,
+        scopes: Array<string>)
+      parameters:
+        - id: cachedScopes
+          type:
+            - Array<string>
+          description: ''
+        - id: scopes
+          type:
+            - Array<string>
+          description: |+
+
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ScopeSet.parseScope'
+    name: parseScope(Array<string>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Parse the scopes into a formatted scopeList
+    syntax:
+      content: 'static function parseScope(scopes: Array<string>)'
+      parameters:
+        - id: scopes
+          type:
+            - Array<string>
+          description: |+
+
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ScopeSet.removeElement'
+    name: 'removeElement(Array<string>, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: remove one element from a scope array
+    syntax:
+      content: 'static function removeElement(scopes: Array<string>, scope: string)'
+      parameters:
+        - id: scopes
+          type:
+            - Array<string>
+          description: ''
+        - id: scope
+          type:
+            - string
+          description: |+
+
+      return:
+        type:
+          - Array<string>
+        description: ''
+    package: '@azure/abort-controller'

@@ -1,0 +1,166 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.url.URLFormatOptions
+    name: URLFormatOptions
+    fullName: URLFormatOptions
+    children:
+      - tslib.url.URLFormatOptions.auth
+      - tslib.url.URLFormatOptions.fragment
+      - tslib.url.URLFormatOptions.search
+      - tslib.url.URLFormatOptions.unicode
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.url.URLFormatOptions.auth
+    name: auth
+    fullName: auth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'auth?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.url.URLFormatOptions.fragment
+    name: fragment
+    fullName: fragment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'fragment?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.url.URLFormatOptions.search
+    name: search
+    fullName: search
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'search?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.url.URLFormatOptions.unicode
+    name: unicode
+    fullName: unicode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'unicode?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+references:
+  - uid: string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.url.URLSearchParams
+    name: URLSearchParams
+    spec.typeScript:
+      - name: URLSearchParams
+        fullName: URLSearchParams
+        uid: tslib.url.URLSearchParams
+  - uid: >-
+      tslib.url.URLSearchParams | string | [key: string]: function |
+      Iterable<Object> | Array<Object>
+    name: >-
+      URLSearchParams | string | [key: string]: function | Iterable<Object> |
+      Array<Object>
+    spec.typeScript:
+      - name: URLSearchParams
+        fullName: URLSearchParams
+        uid: tslib.url.URLSearchParams
+      - name: ' | string | [key: string]: function | Iterable<Object> | Array<Object>'
+        fullName: ' | string | [key: string]: function | Iterable<Object> | Array<Object>'
+  - uid: string | null | tslib.querystring.ParsedUrlQuery
+    name: ParsedUrlQuery
+    spec.typeScript:
+      - name: 'string | null | '
+        fullName: 'string | null | '
+      - name: ParsedUrlQuery
+        fullName: ParsedUrlQuery
+        uid: tslib.querystring.ParsedUrlQuery
+  - uid: string | null | tslib.querystring.ParsedUrlQueryInput
+    name: ParsedUrlQueryInput
+    spec.typeScript:
+      - name: 'string | null | '
+        fullName: 'string | null | '
+      - name: ParsedUrlQueryInput
+        fullName: ParsedUrlQueryInput
+        uid: tslib.querystring.ParsedUrlQueryInput
+  - uid: tslib.url.Url
+    name: Url
+    spec.typeScript:
+      - name: Url
+        fullName: Url
+        uid: tslib.url.Url
+  - uid: tslib.querystring.ParsedUrlQuery
+    name: ParsedUrlQuery
+    spec.typeScript:
+      - name: ParsedUrlQuery
+        fullName: ParsedUrlQuery
+        uid: tslib.querystring.ParsedUrlQuery
+  - uid: tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.url.URLFormatOptions
+    name: URLFormatOptions
+    spec.typeScript:
+      - name: URLFormatOptions
+        fullName: URLFormatOptions
+        uid: tslib.url.URLFormatOptions
+  - uid: tslib.url.UrlObject | string
+    name: UrlObject | string
+    spec.typeScript:
+      - name: UrlObject
+        fullName: UrlObject
+        uid: tslib.url.UrlObject
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: tslib.url.UrlWithStringQuery
+    name: UrlWithStringQuery
+    spec.typeScript:
+      - name: UrlWithStringQuery
+        fullName: UrlWithStringQuery
+        uid: tslib.url.UrlWithStringQuery
+  - uid: tslib.url.UrlWithParsedQuery
+    name: UrlWithParsedQuery
+    spec.typeScript:
+      - name: UrlWithParsedQuery
+        fullName: UrlWithParsedQuery
+        uid: tslib.url.UrlWithParsedQuery

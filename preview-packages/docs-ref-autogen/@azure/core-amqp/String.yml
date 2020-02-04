@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.String
+    name: String
+    fullName: String
+    children:
+      - tslib.String.trimLeft
+      - tslib.String.trimRight
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.String.trimLeft
+    name: trimLeft()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes whitespace from the left end of a string.
+    syntax:
+      content: function trimLeft()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.String.trimRight
+    name: trimRight()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes whitespace from the right end of a string.
+    syntax:
+      content: function trimRight()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib

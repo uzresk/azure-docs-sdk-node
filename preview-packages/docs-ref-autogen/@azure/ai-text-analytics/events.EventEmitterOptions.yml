@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    fullName: EventEmitterOptions
+    children:
+      - '@azure/abort-controller.events.EventEmitterOptions.captureRejections'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions.captureRejections'
+    name: captureRejections
+    fullName: captureRejections
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Enables automatic capturing of promise rejection.
+    optional: true
+    syntax:
+      content: 'captureRejections?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.NodeJS.EventEmitter'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.events.NodeEventTarget'
+    name: NodeEventTarget
+    spec.typeScript:
+      - name: NodeEventTarget
+        fullName: NodeEventTarget
+        uid: '@azure/abort-controller.events.NodeEventTarget'
+  - uid: '@azure/abort-controller.events.DOMEventTarget'
+    name: DOMEventTarget
+    spec.typeScript:
+      - name: DOMEventTarget
+        fullName: DOMEventTarget
+        uid: '@azure/abort-controller.events.DOMEventTarget'

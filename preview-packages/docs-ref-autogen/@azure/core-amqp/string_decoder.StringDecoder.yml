@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.string_decoder.StringDecoder
+    name: StringDecoder
+    fullName: StringDecoder
+    children:
+      - tslib.string_decoder.StringDecoder.end
+      - tslib.string_decoder.StringDecoder.constructor
+      - tslib.string_decoder.StringDecoder.write
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: tslib
+  - uid: tslib.string_decoder.StringDecoder.end
+    name: end(Buffer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(buffer?: Buffer)'
+      parameters:
+        - id: buffer
+          type:
+            - tslib.Buffer
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.string_decoder.StringDecoder.constructor
+    name: StringDecoder(undefined | string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new StringDecoder(encoding?: undefined | string)'
+      parameters:
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.string_decoder.StringDecoder.write
+    name: write(Buffer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function write(buffer: Buffer)'
+      parameters:
+        - id: buffer
+          type:
+            - Buffer
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.Buffer
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: tslib.Buffer

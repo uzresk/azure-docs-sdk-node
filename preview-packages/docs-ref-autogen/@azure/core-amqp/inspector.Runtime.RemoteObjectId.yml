@@ -1,0 +1,945 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.inspector.Runtime.RemoteObjectId
+    name: RemoteObjectId
+    fullName: RemoteObjectId
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: Unique object identifier.
+    syntax:
+      content: type RemoteObjectId = string
+    package: tslib
+references:
+  - uid: tslib.inspector.Console.ConsoleMessage
+    name: ConsoleMessage
+    spec.typeScript:
+      - name: ConsoleMessage
+        fullName: ConsoleMessage
+        uid: tslib.inspector.Console.ConsoleMessage
+  - uid: tslib.inspector.Runtime.ScriptId
+    name: ScriptId
+    spec.typeScript:
+      - name: ScriptId
+        fullName: ScriptId
+        uid: tslib.inspector.Runtime.ScriptId
+  - uid: tslib.inspector.Debugger.BreakpointId
+    name: BreakpointId
+    spec.typeScript:
+      - name: BreakpointId
+        fullName: BreakpointId
+        uid: tslib.inspector.Debugger.BreakpointId
+  - uid: tslib.inspector.Debugger.Location
+    name: Location
+    spec.typeScript:
+      - name: Location
+        fullName: Location
+        uid: tslib.inspector.Debugger.Location
+  - uid: tslib.inspector.Debugger.CallFrameId
+    name: CallFrameId
+    spec.typeScript:
+      - name: CallFrameId
+        fullName: CallFrameId
+        uid: tslib.inspector.Debugger.CallFrameId
+  - uid: tslib.inspector.Runtime.RemoteObject
+    name: RemoteObject
+    spec.typeScript:
+      - name: RemoteObject
+        fullName: RemoteObject
+        uid: tslib.inspector.Runtime.RemoteObject
+  - uid: 'tslib.inspector.Debugger.Scope[]'
+    name: 'Scope[]'
+    spec.typeScript:
+      - name: Scope
+        fullName: Scope
+        uid: tslib.inspector.Debugger.Scope
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.inspector.Runtime.UniqueDebuggerId
+    name: UniqueDebuggerId
+    spec.typeScript:
+      - name: UniqueDebuggerId
+        fullName: UniqueDebuggerId
+        uid: tslib.inspector.Runtime.UniqueDebuggerId
+  - uid: tslib.inspector.Runtime.ExceptionDetails
+    name: ExceptionDetails
+    spec.typeScript:
+      - name: ExceptionDetails
+        fullName: ExceptionDetails
+        uid: tslib.inspector.Runtime.ExceptionDetails
+  - uid: 'tslib.inspector.Debugger.BreakLocation[]'
+    name: 'BreakLocation[]'
+    spec.typeScript:
+      - name: BreakLocation
+        fullName: BreakLocation
+        uid: tslib.inspector.Debugger.BreakLocation
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.inspector.Runtime.StackTraceId
+    name: StackTraceId
+    spec.typeScript:
+      - name: StackTraceId
+        fullName: StackTraceId
+        uid: tslib.inspector.Runtime.StackTraceId
+  - uid: tslib.inspector.Runtime.StackTrace
+    name: StackTrace
+    spec.typeScript:
+      - name: StackTrace
+        fullName: StackTrace
+        uid: tslib.inspector.Runtime.StackTrace
+  - uid: 'tslib.inspector.Debugger.CallFrame[]'
+    name: 'CallFrame[]'
+    spec.typeScript:
+      - name: CallFrame
+        fullName: CallFrame
+        uid: tslib.inspector.Debugger.CallFrame
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.inspector.Runtime.ExecutionContextId
+    name: ExecutionContextId
+    spec.typeScript:
+      - name: ExecutionContextId
+        fullName: ExecutionContextId
+        uid: tslib.inspector.Runtime.ExecutionContextId
+  - uid: 'tslib.inspector.Debugger.SearchMatch[]'
+    name: 'SearchMatch[]'
+    spec.typeScript:
+      - name: SearchMatch
+        fullName: SearchMatch
+        uid: tslib.inspector.Debugger.SearchMatch
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.inspector.Debugger.ScriptPosition[]'
+    name: 'ScriptPosition[]'
+    spec.typeScript:
+      - name: ScriptPosition
+        fullName: ScriptPosition
+        uid: tslib.inspector.Debugger.ScriptPosition
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.inspector.Debugger.Location[]'
+    name: 'Location[]'
+    spec.typeScript:
+      - name: Location
+        fullName: Location
+        uid: tslib.inspector.Debugger.Location
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.inspector.Runtime.CallArgument
+    name: CallArgument
+    spec.typeScript:
+      - name: CallArgument
+        fullName: CallArgument
+        uid: tslib.inspector.Runtime.CallArgument
+  - uid: tslib.inspector.HeapProfiler.HeapSnapshotObjectId
+    name: HeapSnapshotObjectId
+    spec.typeScript:
+      - name: HeapSnapshotObjectId
+        fullName: HeapSnapshotObjectId
+        uid: tslib.inspector.HeapProfiler.HeapSnapshotObjectId
+  - uid: tslib.inspector.Runtime.RemoteObjectId
+    name: RemoteObjectId
+    spec.typeScript:
+      - name: RemoteObjectId
+        fullName: RemoteObjectId
+        uid: tslib.inspector.Runtime.RemoteObjectId
+  - uid: tslib.inspector.HeapProfiler.SamplingHeapProfile
+    name: SamplingHeapProfile
+    spec.typeScript:
+      - name: SamplingHeapProfile
+        fullName: SamplingHeapProfile
+        uid: tslib.inspector.HeapProfiler.SamplingHeapProfile
+  - uid: tslib.inspector.HeapProfiler.SamplingHeapProfileNode
+    name: SamplingHeapProfileNode
+    spec.typeScript:
+      - name: SamplingHeapProfileNode
+        fullName: SamplingHeapProfileNode
+        uid: tslib.inspector.HeapProfiler.SamplingHeapProfileNode
+  - uid: tslib.inspector.Runtime.CallFrame
+    name: CallFrame
+    spec.typeScript:
+      - name: CallFrame
+        fullName: CallFrame
+        uid: tslib.inspector.Runtime.CallFrame
+  - uid: 'tslib.inspector.HeapProfiler.SamplingHeapProfileNode[]'
+    name: 'SamplingHeapProfileNode[]'
+    spec.typeScript:
+      - name: SamplingHeapProfileNode
+        fullName: SamplingHeapProfileNode
+        uid: tslib.inspector.HeapProfiler.SamplingHeapProfileNode
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.inspector.NodeTracing.TraceConfig
+    name: TraceConfig
+    spec.typeScript:
+      - name: TraceConfig
+        fullName: TraceConfig
+        uid: tslib.inspector.NodeTracing.TraceConfig
+  - uid: tslib.inspector.NodeWorker.SessionID
+    name: SessionID
+    spec.typeScript:
+      - name: SessionID
+        fullName: SessionID
+        uid: tslib.inspector.NodeWorker.SessionID
+  - uid: tslib.inspector.NodeWorker.WorkerInfo
+    name: WorkerInfo
+    spec.typeScript:
+      - name: WorkerInfo
+        fullName: WorkerInfo
+        uid: tslib.inspector.NodeWorker.WorkerInfo
+  - uid: tslib.inspector.NodeWorker.WorkerID
+    name: WorkerID
+    spec.typeScript:
+      - name: WorkerID
+        fullName: WorkerID
+        uid: tslib.inspector.NodeWorker.WorkerID
+  - uid: tslib.inspector.Profiler.Profile
+    name: Profile
+    spec.typeScript:
+      - name: Profile
+        fullName: Profile
+        uid: tslib.inspector.Profiler.Profile
+  - uid: 'tslib.inspector.Profiler.CoverageRange[]'
+    name: 'CoverageRange[]'
+    spec.typeScript:
+      - name: CoverageRange
+        fullName: CoverageRange
+        uid: tslib.inspector.Profiler.CoverageRange
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.inspector.Profiler.ScriptCoverage[]'
+    name: 'ScriptCoverage[]'
+    spec.typeScript:
+      - name: ScriptCoverage
+        fullName: ScriptCoverage
+        uid: tslib.inspector.Profiler.ScriptCoverage
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.inspector.Profiler.ProfileNode[]'
+    name: 'ProfileNode[]'
+    spec.typeScript:
+      - name: ProfileNode
+        fullName: ProfileNode
+        uid: tslib.inspector.Profiler.ProfileNode
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.inspector.Profiler.PositionTickInfo[]'
+    name: 'PositionTickInfo[]'
+    spec.typeScript:
+      - name: PositionTickInfo
+        fullName: PositionTickInfo
+        uid: tslib.inspector.Profiler.PositionTickInfo
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.inspector.Profiler.FunctionCoverage[]'
+    name: 'FunctionCoverage[]'
+    spec.typeScript:
+      - name: FunctionCoverage
+        fullName: FunctionCoverage
+        uid: tslib.inspector.Profiler.FunctionCoverage
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.inspector.Profiler.TypeProfileEntry[]'
+    name: 'TypeProfileEntry[]'
+    spec.typeScript:
+      - name: TypeProfileEntry
+        fullName: TypeProfileEntry
+        uid: tslib.inspector.Profiler.TypeProfileEntry
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.inspector.Profiler.ScriptTypeProfile[]'
+    name: 'ScriptTypeProfile[]'
+    spec.typeScript:
+      - name: ScriptTypeProfile
+        fullName: ScriptTypeProfile
+        uid: tslib.inspector.Profiler.ScriptTypeProfile
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.inspector.Profiler.TypeObject[]'
+    name: 'TypeObject[]'
+    spec.typeScript:
+      - name: TypeObject
+        fullName: TypeObject
+        uid: tslib.inspector.Profiler.TypeObject
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.inspector.Runtime.UnserializableValue
+    name: UnserializableValue
+    spec.typeScript:
+      - name: UnserializableValue
+        fullName: UnserializableValue
+        uid: tslib.inspector.Runtime.UnserializableValue
+  - uid: 'tslib.inspector.Runtime.CallArgument[]'
+    name: 'CallArgument[]'
+    spec.typeScript:
+      - name: CallArgument
+        fullName: CallArgument
+        uid: tslib.inspector.Runtime.CallArgument
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.inspector.Runtime.RemoteObject[]'
+    name: 'RemoteObject[]'
+    spec.typeScript:
+      - name: RemoteObject
+        fullName: RemoteObject
+        uid: tslib.inspector.Runtime.RemoteObject
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.inspector.Runtime.Timestamp
+    name: Timestamp
+    spec.typeScript:
+      - name: Timestamp
+        fullName: Timestamp
+        uid: tslib.inspector.Runtime.Timestamp
+  - uid: tslib.inspector.Runtime.ObjectPreview
+    name: ObjectPreview
+    spec.typeScript:
+      - name: ObjectPreview
+        fullName: ObjectPreview
+        uid: tslib.inspector.Runtime.ObjectPreview
+  - uid: tslib.inspector.Runtime.ExecutionContextDescription
+    name: ExecutionContextDescription
+    spec.typeScript:
+      - name: ExecutionContextDescription
+        fullName: ExecutionContextDescription
+        uid: tslib.inspector.Runtime.ExecutionContextDescription
+  - uid: 'tslib.inspector.Runtime.InternalPropertyDescriptor[]'
+    name: 'InternalPropertyDescriptor[]'
+    spec.typeScript:
+      - name: InternalPropertyDescriptor
+        fullName: InternalPropertyDescriptor
+        uid: tslib.inspector.Runtime.InternalPropertyDescriptor
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.inspector.Runtime.PropertyDescriptor[]'
+    name: 'PropertyDescriptor[]'
+    spec.typeScript:
+      - name: PropertyDescriptor
+        fullName: PropertyDescriptor
+        uid: tslib.inspector.Runtime.PropertyDescriptor
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.inspector.Runtime.EntryPreview[]'
+    name: 'EntryPreview[]'
+    spec.typeScript:
+      - name: EntryPreview
+        fullName: EntryPreview
+        uid: tslib.inspector.Runtime.EntryPreview
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.inspector.Runtime.PropertyPreview[]'
+    name: 'PropertyPreview[]'
+    spec.typeScript:
+      - name: PropertyPreview
+        fullName: PropertyPreview
+        uid: tslib.inspector.Runtime.PropertyPreview
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.inspector.Runtime.CustomPreview
+    name: CustomPreview
+    spec.typeScript:
+      - name: CustomPreview
+        fullName: CustomPreview
+        uid: tslib.inspector.Runtime.CustomPreview
+  - uid: 'tslib.inspector.Runtime.CallFrame[]'
+    name: 'CallFrame[]'
+    spec.typeScript:
+      - name: CallFrame
+        fullName: CallFrame
+        uid: tslib.inspector.Runtime.CallFrame
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.inspector.Schema.Domain[]'
+    name: 'Domain[]'
+    spec.typeScript:
+      - name: Domain
+        fullName: Domain
+        uid: tslib.inspector.Schema.Domain
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.inspector.InspectorNotification<__type>
+    name: InspectorNotification<__type>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <__type>
+        fullName: <__type>
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.Runtime.ExecutionContextCreatedEventDataType>
+    name: ExecutionContextCreatedEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: ExecutionContextCreatedEventDataType
+        fullName: ExecutionContextCreatedEventDataType
+        uid: tslib.inspector.Runtime.ExecutionContextCreatedEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.Runtime.ExecutionContextDestroyedEventDataType>
+    name: ExecutionContextDestroyedEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: ExecutionContextDestroyedEventDataType
+        fullName: ExecutionContextDestroyedEventDataType
+        uid: tslib.inspector.Runtime.ExecutionContextDestroyedEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.Runtime.ExceptionThrownEventDataType>
+    name: ExceptionThrownEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: ExceptionThrownEventDataType
+        fullName: ExceptionThrownEventDataType
+        uid: tslib.inspector.Runtime.ExceptionThrownEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.Runtime.ExceptionRevokedEventDataType>
+    name: ExceptionRevokedEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: ExceptionRevokedEventDataType
+        fullName: ExceptionRevokedEventDataType
+        uid: tslib.inspector.Runtime.ExceptionRevokedEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.Runtime.ConsoleAPICalledEventDataType>
+    name: ConsoleAPICalledEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: ConsoleAPICalledEventDataType
+        fullName: ConsoleAPICalledEventDataType
+        uid: tslib.inspector.Runtime.ConsoleAPICalledEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.Runtime.InspectRequestedEventDataType>
+    name: InspectRequestedEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: InspectRequestedEventDataType
+        fullName: InspectRequestedEventDataType
+        uid: tslib.inspector.Runtime.InspectRequestedEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.Debugger.ScriptParsedEventDataType>
+    name: ScriptParsedEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: ScriptParsedEventDataType
+        fullName: ScriptParsedEventDataType
+        uid: tslib.inspector.Debugger.ScriptParsedEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.Debugger.ScriptFailedToParseEventDataType>
+    name: ScriptFailedToParseEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: ScriptFailedToParseEventDataType
+        fullName: ScriptFailedToParseEventDataType
+        uid: tslib.inspector.Debugger.ScriptFailedToParseEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.Debugger.BreakpointResolvedEventDataType>
+    name: BreakpointResolvedEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: BreakpointResolvedEventDataType
+        fullName: BreakpointResolvedEventDataType
+        uid: tslib.inspector.Debugger.BreakpointResolvedEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.Debugger.PausedEventDataType>
+    name: PausedEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: PausedEventDataType
+        fullName: PausedEventDataType
+        uid: tslib.inspector.Debugger.PausedEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.Console.MessageAddedEventDataType>
+    name: MessageAddedEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: MessageAddedEventDataType
+        fullName: MessageAddedEventDataType
+        uid: tslib.inspector.Console.MessageAddedEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.Profiler.ConsoleProfileStartedEventDataType>
+    name: ConsoleProfileStartedEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: ConsoleProfileStartedEventDataType
+        fullName: ConsoleProfileStartedEventDataType
+        uid: tslib.inspector.Profiler.ConsoleProfileStartedEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.Profiler.ConsoleProfileFinishedEventDataType>
+    name: ConsoleProfileFinishedEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: ConsoleProfileFinishedEventDataType
+        fullName: ConsoleProfileFinishedEventDataType
+        uid: tslib.inspector.Profiler.ConsoleProfileFinishedEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.HeapProfiler.AddHeapSnapshotChunkEventDataType>
+    name: AddHeapSnapshotChunkEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: AddHeapSnapshotChunkEventDataType
+        fullName: AddHeapSnapshotChunkEventDataType
+        uid: tslib.inspector.HeapProfiler.AddHeapSnapshotChunkEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.HeapProfiler.ReportHeapSnapshotProgressEventDataType>
+    name: ReportHeapSnapshotProgressEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: ReportHeapSnapshotProgressEventDataType
+        fullName: ReportHeapSnapshotProgressEventDataType
+        uid: tslib.inspector.HeapProfiler.ReportHeapSnapshotProgressEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.HeapProfiler.LastSeenObjectIdEventDataType>
+    name: LastSeenObjectIdEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: LastSeenObjectIdEventDataType
+        fullName: LastSeenObjectIdEventDataType
+        uid: tslib.inspector.HeapProfiler.LastSeenObjectIdEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.HeapProfiler.HeapStatsUpdateEventDataType>
+    name: HeapStatsUpdateEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: HeapStatsUpdateEventDataType
+        fullName: HeapStatsUpdateEventDataType
+        uid: tslib.inspector.HeapProfiler.HeapStatsUpdateEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.NodeTracing.DataCollectedEventDataType>
+    name: DataCollectedEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: DataCollectedEventDataType
+        fullName: DataCollectedEventDataType
+        uid: tslib.inspector.NodeTracing.DataCollectedEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.NodeWorker.AttachedToWorkerEventDataType>
+    name: AttachedToWorkerEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: AttachedToWorkerEventDataType
+        fullName: AttachedToWorkerEventDataType
+        uid: tslib.inspector.NodeWorker.AttachedToWorkerEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.NodeWorker.DetachedFromWorkerEventDataType>
+    name: DetachedFromWorkerEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: DetachedFromWorkerEventDataType
+        fullName: DetachedFromWorkerEventDataType
+        uid: tslib.inspector.NodeWorker.DetachedFromWorkerEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.inspector.InspectorNotification<tslib.inspector.NodeWorker.ReceivedMessageFromWorkerEventDataType>
+    name: ReceivedMessageFromWorkerEventDataType>
+    spec.typeScript:
+      - name: InspectorNotification
+        fullName: InspectorNotification
+        uid: tslib.inspector.InspectorNotification
+      - name: <
+        fullName: <
+      - name: ReceivedMessageFromWorkerEventDataType
+        fullName: ReceivedMessageFromWorkerEventDataType
+        uid: tslib.inspector.NodeWorker.ReceivedMessageFromWorkerEventDataType
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.inspector.Runtime.EvaluateParameterType
+    name: EvaluateParameterType
+    spec.typeScript:
+      - name: EvaluateParameterType
+        fullName: EvaluateParameterType
+        uid: tslib.inspector.Runtime.EvaluateParameterType
+  - uid: tslib.inspector.Runtime.AwaitPromiseParameterType
+    name: AwaitPromiseParameterType
+    spec.typeScript:
+      - name: AwaitPromiseParameterType
+        fullName: AwaitPromiseParameterType
+        uid: tslib.inspector.Runtime.AwaitPromiseParameterType
+  - uid: tslib.inspector.Runtime.CallFunctionOnParameterType
+    name: CallFunctionOnParameterType
+    spec.typeScript:
+      - name: CallFunctionOnParameterType
+        fullName: CallFunctionOnParameterType
+        uid: tslib.inspector.Runtime.CallFunctionOnParameterType
+  - uid: tslib.inspector.Runtime.GetPropertiesParameterType
+    name: GetPropertiesParameterType
+    spec.typeScript:
+      - name: GetPropertiesParameterType
+        fullName: GetPropertiesParameterType
+        uid: tslib.inspector.Runtime.GetPropertiesParameterType
+  - uid: tslib.inspector.Runtime.ReleaseObjectParameterType
+    name: ReleaseObjectParameterType
+    spec.typeScript:
+      - name: ReleaseObjectParameterType
+        fullName: ReleaseObjectParameterType
+        uid: tslib.inspector.Runtime.ReleaseObjectParameterType
+  - uid: tslib.inspector.Runtime.ReleaseObjectGroupParameterType
+    name: ReleaseObjectGroupParameterType
+    spec.typeScript:
+      - name: ReleaseObjectGroupParameterType
+        fullName: ReleaseObjectGroupParameterType
+        uid: tslib.inspector.Runtime.ReleaseObjectGroupParameterType
+  - uid: tslib.inspector.Runtime.SetCustomObjectFormatterEnabledParameterType
+    name: SetCustomObjectFormatterEnabledParameterType
+    spec.typeScript:
+      - name: SetCustomObjectFormatterEnabledParameterType
+        fullName: SetCustomObjectFormatterEnabledParameterType
+        uid: tslib.inspector.Runtime.SetCustomObjectFormatterEnabledParameterType
+  - uid: tslib.inspector.Runtime.CompileScriptParameterType
+    name: CompileScriptParameterType
+    spec.typeScript:
+      - name: CompileScriptParameterType
+        fullName: CompileScriptParameterType
+        uid: tslib.inspector.Runtime.CompileScriptParameterType
+  - uid: tslib.inspector.Runtime.RunScriptParameterType
+    name: RunScriptParameterType
+    spec.typeScript:
+      - name: RunScriptParameterType
+        fullName: RunScriptParameterType
+        uid: tslib.inspector.Runtime.RunScriptParameterType
+  - uid: tslib.inspector.Runtime.QueryObjectsParameterType
+    name: QueryObjectsParameterType
+    spec.typeScript:
+      - name: QueryObjectsParameterType
+        fullName: QueryObjectsParameterType
+        uid: tslib.inspector.Runtime.QueryObjectsParameterType
+  - uid: tslib.inspector.Runtime.GlobalLexicalScopeNamesParameterType
+    name: GlobalLexicalScopeNamesParameterType
+    spec.typeScript:
+      - name: GlobalLexicalScopeNamesParameterType
+        fullName: GlobalLexicalScopeNamesParameterType
+        uid: tslib.inspector.Runtime.GlobalLexicalScopeNamesParameterType
+  - uid: tslib.inspector.Debugger.SetBreakpointsActiveParameterType
+    name: SetBreakpointsActiveParameterType
+    spec.typeScript:
+      - name: SetBreakpointsActiveParameterType
+        fullName: SetBreakpointsActiveParameterType
+        uid: tslib.inspector.Debugger.SetBreakpointsActiveParameterType
+  - uid: tslib.inspector.Debugger.SetSkipAllPausesParameterType
+    name: SetSkipAllPausesParameterType
+    spec.typeScript:
+      - name: SetSkipAllPausesParameterType
+        fullName: SetSkipAllPausesParameterType
+        uid: tslib.inspector.Debugger.SetSkipAllPausesParameterType
+  - uid: tslib.inspector.Debugger.SetBreakpointByUrlParameterType
+    name: SetBreakpointByUrlParameterType
+    spec.typeScript:
+      - name: SetBreakpointByUrlParameterType
+        fullName: SetBreakpointByUrlParameterType
+        uid: tslib.inspector.Debugger.SetBreakpointByUrlParameterType
+  - uid: tslib.inspector.Debugger.SetBreakpointParameterType
+    name: SetBreakpointParameterType
+    spec.typeScript:
+      - name: SetBreakpointParameterType
+        fullName: SetBreakpointParameterType
+        uid: tslib.inspector.Debugger.SetBreakpointParameterType
+  - uid: tslib.inspector.Debugger.RemoveBreakpointParameterType
+    name: RemoveBreakpointParameterType
+    spec.typeScript:
+      - name: RemoveBreakpointParameterType
+        fullName: RemoveBreakpointParameterType
+        uid: tslib.inspector.Debugger.RemoveBreakpointParameterType
+  - uid: tslib.inspector.Debugger.GetPossibleBreakpointsParameterType
+    name: GetPossibleBreakpointsParameterType
+    spec.typeScript:
+      - name: GetPossibleBreakpointsParameterType
+        fullName: GetPossibleBreakpointsParameterType
+        uid: tslib.inspector.Debugger.GetPossibleBreakpointsParameterType
+  - uid: tslib.inspector.Debugger.ContinueToLocationParameterType
+    name: ContinueToLocationParameterType
+    spec.typeScript:
+      - name: ContinueToLocationParameterType
+        fullName: ContinueToLocationParameterType
+        uid: tslib.inspector.Debugger.ContinueToLocationParameterType
+  - uid: tslib.inspector.Debugger.PauseOnAsyncCallParameterType
+    name: PauseOnAsyncCallParameterType
+    spec.typeScript:
+      - name: PauseOnAsyncCallParameterType
+        fullName: PauseOnAsyncCallParameterType
+        uid: tslib.inspector.Debugger.PauseOnAsyncCallParameterType
+  - uid: tslib.inspector.Debugger.StepIntoParameterType
+    name: StepIntoParameterType
+    spec.typeScript:
+      - name: StepIntoParameterType
+        fullName: StepIntoParameterType
+        uid: tslib.inspector.Debugger.StepIntoParameterType
+  - uid: tslib.inspector.Debugger.GetStackTraceParameterType
+    name: GetStackTraceParameterType
+    spec.typeScript:
+      - name: GetStackTraceParameterType
+        fullName: GetStackTraceParameterType
+        uid: tslib.inspector.Debugger.GetStackTraceParameterType
+  - uid: tslib.inspector.Debugger.SearchInContentParameterType
+    name: SearchInContentParameterType
+    spec.typeScript:
+      - name: SearchInContentParameterType
+        fullName: SearchInContentParameterType
+        uid: tslib.inspector.Debugger.SearchInContentParameterType
+  - uid: tslib.inspector.Debugger.SetScriptSourceParameterType
+    name: SetScriptSourceParameterType
+    spec.typeScript:
+      - name: SetScriptSourceParameterType
+        fullName: SetScriptSourceParameterType
+        uid: tslib.inspector.Debugger.SetScriptSourceParameterType
+  - uid: tslib.inspector.Debugger.RestartFrameParameterType
+    name: RestartFrameParameterType
+    spec.typeScript:
+      - name: RestartFrameParameterType
+        fullName: RestartFrameParameterType
+        uid: tslib.inspector.Debugger.RestartFrameParameterType
+  - uid: tslib.inspector.Debugger.GetScriptSourceParameterType
+    name: GetScriptSourceParameterType
+    spec.typeScript:
+      - name: GetScriptSourceParameterType
+        fullName: GetScriptSourceParameterType
+        uid: tslib.inspector.Debugger.GetScriptSourceParameterType
+  - uid: tslib.inspector.Debugger.SetPauseOnExceptionsParameterType
+    name: SetPauseOnExceptionsParameterType
+    spec.typeScript:
+      - name: SetPauseOnExceptionsParameterType
+        fullName: SetPauseOnExceptionsParameterType
+        uid: tslib.inspector.Debugger.SetPauseOnExceptionsParameterType
+  - uid: tslib.inspector.Debugger.EvaluateOnCallFrameParameterType
+    name: EvaluateOnCallFrameParameterType
+    spec.typeScript:
+      - name: EvaluateOnCallFrameParameterType
+        fullName: EvaluateOnCallFrameParameterType
+        uid: tslib.inspector.Debugger.EvaluateOnCallFrameParameterType
+  - uid: tslib.inspector.Debugger.SetVariableValueParameterType
+    name: SetVariableValueParameterType
+    spec.typeScript:
+      - name: SetVariableValueParameterType
+        fullName: SetVariableValueParameterType
+        uid: tslib.inspector.Debugger.SetVariableValueParameterType
+  - uid: tslib.inspector.Debugger.SetReturnValueParameterType
+    name: SetReturnValueParameterType
+    spec.typeScript:
+      - name: SetReturnValueParameterType
+        fullName: SetReturnValueParameterType
+        uid: tslib.inspector.Debugger.SetReturnValueParameterType
+  - uid: tslib.inspector.Debugger.SetAsyncCallStackDepthParameterType
+    name: SetAsyncCallStackDepthParameterType
+    spec.typeScript:
+      - name: SetAsyncCallStackDepthParameterType
+        fullName: SetAsyncCallStackDepthParameterType
+        uid: tslib.inspector.Debugger.SetAsyncCallStackDepthParameterType
+  - uid: tslib.inspector.Debugger.SetBlackboxPatternsParameterType
+    name: SetBlackboxPatternsParameterType
+    spec.typeScript:
+      - name: SetBlackboxPatternsParameterType
+        fullName: SetBlackboxPatternsParameterType
+        uid: tslib.inspector.Debugger.SetBlackboxPatternsParameterType
+  - uid: tslib.inspector.Debugger.SetBlackboxedRangesParameterType
+    name: SetBlackboxedRangesParameterType
+    spec.typeScript:
+      - name: SetBlackboxedRangesParameterType
+        fullName: SetBlackboxedRangesParameterType
+        uid: tslib.inspector.Debugger.SetBlackboxedRangesParameterType
+  - uid: tslib.inspector.Profiler.SetSamplingIntervalParameterType
+    name: SetSamplingIntervalParameterType
+    spec.typeScript:
+      - name: SetSamplingIntervalParameterType
+        fullName: SetSamplingIntervalParameterType
+        uid: tslib.inspector.Profiler.SetSamplingIntervalParameterType
+  - uid: tslib.inspector.Profiler.StartPreciseCoverageParameterType
+    name: StartPreciseCoverageParameterType
+    spec.typeScript:
+      - name: StartPreciseCoverageParameterType
+        fullName: StartPreciseCoverageParameterType
+        uid: tslib.inspector.Profiler.StartPreciseCoverageParameterType
+  - uid: tslib.inspector.HeapProfiler.StartTrackingHeapObjectsParameterType
+    name: StartTrackingHeapObjectsParameterType
+    spec.typeScript:
+      - name: StartTrackingHeapObjectsParameterType
+        fullName: StartTrackingHeapObjectsParameterType
+        uid: tslib.inspector.HeapProfiler.StartTrackingHeapObjectsParameterType
+  - uid: tslib.inspector.HeapProfiler.StopTrackingHeapObjectsParameterType
+    name: StopTrackingHeapObjectsParameterType
+    spec.typeScript:
+      - name: StopTrackingHeapObjectsParameterType
+        fullName: StopTrackingHeapObjectsParameterType
+        uid: tslib.inspector.HeapProfiler.StopTrackingHeapObjectsParameterType
+  - uid: tslib.inspector.HeapProfiler.TakeHeapSnapshotParameterType
+    name: TakeHeapSnapshotParameterType
+    spec.typeScript:
+      - name: TakeHeapSnapshotParameterType
+        fullName: TakeHeapSnapshotParameterType
+        uid: tslib.inspector.HeapProfiler.TakeHeapSnapshotParameterType
+  - uid: tslib.inspector.HeapProfiler.GetObjectByHeapObjectIdParameterType
+    name: GetObjectByHeapObjectIdParameterType
+    spec.typeScript:
+      - name: GetObjectByHeapObjectIdParameterType
+        fullName: GetObjectByHeapObjectIdParameterType
+        uid: tslib.inspector.HeapProfiler.GetObjectByHeapObjectIdParameterType
+  - uid: tslib.inspector.HeapProfiler.AddInspectedHeapObjectParameterType
+    name: AddInspectedHeapObjectParameterType
+    spec.typeScript:
+      - name: AddInspectedHeapObjectParameterType
+        fullName: AddInspectedHeapObjectParameterType
+        uid: tslib.inspector.HeapProfiler.AddInspectedHeapObjectParameterType
+  - uid: tslib.inspector.HeapProfiler.GetHeapObjectIdParameterType
+    name: GetHeapObjectIdParameterType
+    spec.typeScript:
+      - name: GetHeapObjectIdParameterType
+        fullName: GetHeapObjectIdParameterType
+        uid: tslib.inspector.HeapProfiler.GetHeapObjectIdParameterType
+  - uid: tslib.inspector.HeapProfiler.StartSamplingParameterType
+    name: StartSamplingParameterType
+    spec.typeScript:
+      - name: StartSamplingParameterType
+        fullName: StartSamplingParameterType
+        uid: tslib.inspector.HeapProfiler.StartSamplingParameterType
+  - uid: tslib.inspector.NodeTracing.StartParameterType
+    name: StartParameterType
+    spec.typeScript:
+      - name: StartParameterType
+        fullName: StartParameterType
+        uid: tslib.inspector.NodeTracing.StartParameterType
+  - uid: tslib.inspector.NodeWorker.SendMessageToWorkerParameterType
+    name: SendMessageToWorkerParameterType
+    spec.typeScript:
+      - name: SendMessageToWorkerParameterType
+        fullName: SendMessageToWorkerParameterType
+        uid: tslib.inspector.NodeWorker.SendMessageToWorkerParameterType
+  - uid: tslib.inspector.NodeWorker.EnableParameterType
+    name: EnableParameterType
+    spec.typeScript:
+      - name: EnableParameterType
+        fullName: EnableParameterType
+        uid: tslib.inspector.NodeWorker.EnableParameterType
+  - uid: tslib.inspector.NodeWorker.DetachParameterType
+    name: DetachParameterType
+    spec.typeScript:
+      - name: DetachParameterType
+        fullName: DetachParameterType
+        uid: tslib.inspector.NodeWorker.DetachParameterType
+  - uid: tslib.inspector.NodeRuntime.NotifyWhenWaitingForDisconnectParameterType
+    name: NotifyWhenWaitingForDisconnectParameterType
+    spec.typeScript:
+      - name: NotifyWhenWaitingForDisconnectParameterType
+        fullName: NotifyWhenWaitingForDisconnectParameterType
+        uid: >-
+          tslib.inspector.NodeRuntime.NotifyWhenWaitingForDisconnectParameterType

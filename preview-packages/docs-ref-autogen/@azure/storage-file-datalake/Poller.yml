@@ -1,0 +1,220 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Poller'
+    name: Poller
+    fullName: Poller<TState>
+    children:
+      - '@azure/abort-controller.Poller.cancelOperation'
+      - '@azure/abort-controller.Poller.getOperationState'
+      - '@azure/abort-controller.Poller.getResult'
+      - '@azure/abort-controller.Poller.isDone'
+      - '@azure/abort-controller.Poller.isStopped'
+      - '@azure/abort-controller.Poller.onProgress'
+      - '@azure/abort-controller.Poller.poll'
+      - '@azure/abort-controller.Poller.constructor'
+      - '@azure/abort-controller.Poller.pollUntilDone'
+      - '@azure/abort-controller.Poller.stopPolling'
+      - '@azure/abort-controller.Poller.toString'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Poller.cancelOperation'
+    name: cancelOperation(undefined | Object)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function cancelOperation(options?: undefined | Object)'
+      parameters:
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Poller.getOperationState'
+    name: getOperationState()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getOperationState()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.PollOperationState<TResult>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Poller.getResult'
+    name: getResult()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getResult()
+      parameters: []
+      return:
+        type:
+          - TResult | undefined
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Poller.isDone'
+    name: isDone()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDone()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Poller.isStopped'
+    name: isStopped()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isStopped()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Poller.onProgress'
+    name: 'onProgress((state: TState) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function onProgress(callback: (state: TState) => void)'
+      parameters:
+        - id: callback
+          type:
+            - '(state: TState) => void'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.CancelOnProgress'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Poller.poll'
+    name: poll(undefined | Object)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function poll(options?: undefined | Object)'
+      parameters:
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Poller.constructor'
+    name: 'Poller(PollOperation<TState, TResult>)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Poller(operation: PollOperation<TState, TResult>)'
+      parameters:
+        - id: operation
+          type:
+            - '@azure/abort-controller.PollOperation<TState, TResult>'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Poller.pollUntilDone'
+    name: pollUntilDone()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function pollUntilDone()
+      parameters: []
+      return:
+        type:
+          - Promise<TResult>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Poller.stopPolling'
+    name: stopPolling()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function stopPolling()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Poller.toString'
+    name: toString()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toString()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.PollOperation<TState, TResult>'
+    name: 'PollOperation<TState, TResult>'
+    spec.typeScript:
+      - name: PollOperation
+        fullName: PollOperation
+        uid: '@azure/abort-controller.PollOperation'
+      - name: '<TState, TResult>'
+        fullName: '<TState, TResult>'
+  - uid: '@azure/abort-controller.PollOperationState<TResult>'
+    name: PollOperationState<TResult>
+    spec.typeScript:
+      - name: PollOperationState
+        fullName: PollOperationState
+        uid: '@azure/abort-controller.PollOperationState'
+      - name: <TResult>
+        fullName: <TResult>
+  - uid: '@azure/abort-controller.CancelOnProgress'
+    name: CancelOnProgress
+    spec.typeScript:
+      - name: CancelOnProgress
+        fullName: CancelOnProgress
+        uid: '@azure/abort-controller.CancelOnProgress'

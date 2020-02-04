@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesResponse'
+  - uid: '@azure/abort-controller.PathGetPropertiesResponse'
     name: PathGetPropertiesResponse
     fullName: PathGetPropertiesResponse
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type PathGetPropertiesResponse = PathGetPropertiesHeaders & { _response:
         Object }
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

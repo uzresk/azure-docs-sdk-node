@@ -1,0 +1,136 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.AxiosPromise'
+    name: AxiosPromise
+    fullName: AxiosPromise<T>
+    children:
+      - '@azure/ms-rest-azure-env.AxiosPromise.catch'
+      - '@azure/ms-rest-azure-env.AxiosPromise.finally'
+      - '@azure/ms-rest-azure-env.AxiosPromise.Promise'
+      - '@azure/ms-rest-azure-env.AxiosPromise.then'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: Promise<@azure/ms-rest-azure-env.AxiosResponse<T>>
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosPromise.catch'
+    name: 'catch((reason: any) => TResult | PromiseLike<TResult> | undefined | null)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Attaches a callback for only the rejection of the Promise.
+    syntax:
+      content: >-
+        function catch<TResult>(onrejected?: (reason: any) => TResult |
+        PromiseLike<TResult> | undefined | null)
+      parameters:
+        - id: onrejected
+          type:
+            - '(reason: any) => TResult | PromiseLike<TResult> | undefined | null'
+          description: The callback to execute when the Promise is rejected.
+          optional: true
+      return:
+        type:
+          - Promise<@azure/ms-rest-azure-env.AxiosResponse<T> | TResult>
+        description: A Promise for the completion of the callback.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosPromise.finally'
+    name: finally(() => void | undefined | null)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Attaches a callback that is invoked when the Promise is settled (fulfilled
+      or rejected). The
+
+      resolved value cannot be modified from the callback.
+    syntax:
+      content: 'function finally(onfinally?: () => void | undefined | null)'
+      parameters:
+        - id: onfinally
+          type:
+            - () => void | undefined | null
+          description: >-
+            The callback to execute when the Promise is settled (fulfilled or
+            rejected).
+          optional: true
+      return:
+        type:
+          - Promise<@azure/ms-rest-azure-env.AxiosResponse<T>>
+        description: A Promise for the completion of the callback.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosPromise.Promise'
+    name: Promise
+    fullName: Promise
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Promise: PromiseConstructor'
+      return:
+        type:
+          - PromiseConstructor
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosPromise.then'
+    name: >-
+      then((value: AxiosResponse<T>) => TResult1 | PromiseLike<TResult1> |
+      undefined | null, (reason: any) => TResult2 | PromiseLike<TResult2> |
+      undefined | null)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Attaches callbacks for the resolution and/or rejection of the Promise.
+    syntax:
+      content: >-
+        function then<TResult1>(onfulfilled?: (value: AxiosResponse<T>) =>
+        TResult1 | PromiseLike<TResult1> | undefined | null, onrejected?:
+        (reason: any) => TResult2 | PromiseLike<TResult2> | undefined | null)
+      parameters:
+        - id: onfulfilled
+          type:
+            - >-
+              (value: AxiosResponse<T>) => TResult1 | PromiseLike<TResult1> |
+              undefined | null
+          description: The callback to execute when the Promise is resolved.
+          optional: true
+        - id: onrejected
+          type:
+            - >-
+              (reason: any) => TResult2 | PromiseLike<TResult2> | undefined |
+              null
+          description: The callback to execute when the Promise is rejected.
+          optional: true
+      return:
+        type:
+          - Promise<TResult1 | TResult2>
+        description: A Promise for the completion of which ever callback is executed.
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: Promise<@azure/ms-rest-azure-env.AxiosResponse<T>>
+    name: AxiosResponse<T>>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: AxiosResponse
+        fullName: AxiosResponse
+        uid: '@azure/ms-rest-azure-env.AxiosResponse'
+      - name: <T>>
+        fullName: <T>>
+  - uid: Promise<@azure/ms-rest-azure-env.AxiosResponse<T> | TResult>
+    name: AxiosResponse<T> | TResult>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: AxiosResponse
+        fullName: AxiosResponse
+        uid: '@azure/ms-rest-azure-env.AxiosResponse'
+      - name: <T> | TResult>
+        fullName: <T> | TResult>

@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.NoOpBinaryFormat'
+    name: NoOpBinaryFormat
+    fullName: NoOpBinaryFormat
+    children:
+      - '@opentelemetry/types.NoOpBinaryFormat.fromBytes'
+      - '@opentelemetry/types.NoOpBinaryFormat.toBytes'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      A no-op implementation of BinaryFormat to be used when tracing is
+      disabled.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.NoOpBinaryFormat.fromBytes'
+    name: fromBytes(ArrayBuffer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Deserialize a SpanContext from binary encoding.
+      Returns null if the buffer does not contain a valid SpanContext.
+    syntax:
+      content: 'function fromBytes(_buffer: ArrayBuffer)'
+      parameters:
+        - id: _buffer
+          type:
+            - ArrayBuffer
+          description: ''
+      return:
+        type:
+          - '@opentelemetry/types.SpanContext | null'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.NoOpBinaryFormat.toBytes'
+    name: toBytes(SpanContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Serialize the given SpanContext to a buffer
+    syntax:
+      content: 'function toBytes(_spanContext: SpanContext)'
+      parameters:
+        - id: _spanContext
+          type:
+            - '@opentelemetry/types.SpanContext'
+          description: ''
+      return:
+        type:
+          - ArrayBuffer
+        description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.SpanContext | null'
+    name: SpanContext | null
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@opentelemetry/types.SpanContext'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@opentelemetry/types.SpanContext'
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@opentelemetry/types.SpanContext'

@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.MeasureType
+    name: MeasureType
+    fullName: MeasureType
+    children:
+      - tslib.MeasureType.DOUBLE
+      - tslib.MeasureType.INT64
+    langs:
+      - typeScript
+    type: enum
+    summary: Describes the types of a Measure. It can be Int64 or a Double type.
+    package: tslib
+  - uid: tslib.MeasureType.DOUBLE
+    name: DOUBLE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: tslib
+  - uid: tslib.MeasureType.INT64
+    name: INT64
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: tslib

@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.Measurement
+    name: Measurement
+    fullName: Measurement
+    children:
+      - tslib.Measurement.measure
+      - tslib.Measurement.value
+    langs:
+      - typeScript
+    type: interface
+    summary: Describes a data point to be collected for a Measure.
+    package: tslib
+  - uid: tslib.Measurement.measure
+    name: measure
+    fullName: measure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The measure to which the value is applied
+    syntax:
+      content: 'measure: Measure'
+      return:
+        type:
+          - tslib.Measure
+        description: ''
+    package: tslib
+  - uid: tslib.Measurement.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The recorded value. If the measure has type INT64, value must be an
+      integer
+
+      up to Number.MAX_SAFE_INTERGER.
+    syntax:
+      content: 'value: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.Measure
+    name: Measure
+    spec.typeScript:
+      - name: Measure
+        fullName: Measure
+        uid: tslib.Measure

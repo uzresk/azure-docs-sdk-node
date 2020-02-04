@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.Func'
+  - uid: '@azure/ms-rest-azure-env.Func'
     name: Func
     fullName: Func<T>
     children: []
@@ -14,4 +14,4 @@ items:
       of the function.
     syntax:
       content: 'type Func<T,V> = (a: T) => V'
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'

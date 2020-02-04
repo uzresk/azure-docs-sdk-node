@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.util.CustomInspectFunction
+    name: CustomInspectFunction
+    fullName: CustomInspectFunction
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: >-
+        type CustomInspectFunction = (depth: number, options:
+        InspectOptionsStylized) => string
+    package: tslib
+references:
+  - uid: tslib.util.EncodeIntoResult
+    name: EncodeIntoResult
+    spec.typeScript:
+      - name: EncodeIntoResult
+        fullName: EncodeIntoResult
+        uid: tslib.util.EncodeIntoResult
+  - uid: tslib.NodeJS.InspectOptions
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: tslib.NodeJS.InspectOptions
+  - uid: tslib.util.InspectOptions
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: tslib.util.InspectOptions
+  - uid: tslib.util.Style
+    name: Style
+    spec.typeScript:
+      - name: Style
+        fullName: Style
+        uid: tslib.util.Style

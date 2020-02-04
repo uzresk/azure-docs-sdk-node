@@ -1,0 +1,118 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.fs.readlink'
+    name: readlink
+    langs:
+      - typeScript
+    fullName: readlink
+    children: []
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.WritableOptions'
+    name: WritableOptions
+    spec.typeScript:
+      - name: WritableOptions
+        fullName: WritableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.WritableOptions'
+  - uid: '@azure/ms-rest-azure-env.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.Error'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+  - uid: '@azure/ms-rest-azure-env.fs.PathLike'
+    name: PathLike
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/ms-rest-azure-env.fs.PathLike'
+  - uid: '@azure/ms-rest-azure-env.fs.PathLike | number'
+    name: PathLike | number
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/ms-rest-azure-env.fs.PathLike'
+      - name: ' | number'
+        fullName: ' | number'
+  - uid: '@azure/ms-rest-azure-env.fs.ReadStream'
+    name: ReadStream
+    spec.typeScript:
+      - name: ReadStream
+        fullName: ReadStream
+        uid: '@azure/ms-rest-azure-env.fs.ReadStream'
+  - uid: '@azure/ms-rest-azure-env.fs.WriteStream'
+    name: WriteStream
+    spec.typeScript:
+      - name: WriteStream
+        fullName: WriteStream
+        uid: '@azure/ms-rest-azure-env.fs.WriteStream'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats'
+    name: Stats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: '@azure/ms-rest-azure-env.fs.Stats'
+  - uid: Object | @azure/ms-rest-azure-env.BufferEncoding | null
+    name: BufferEncoding | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: Object | @azure/ms-rest-azure-env.BufferEncoding | undefined | null
+    name: BufferEncoding | undefined | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+      - name: ' | undefined | null'
+        fullName: ' | undefined | null'

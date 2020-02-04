@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.toAccessControlItemString'
+  - uid: '@azure/abort-controller.toAccessControlItemString'
     name: toAccessControlItemString(PathAccessControlItem)
     children: []
     type: function
@@ -12,17 +12,17 @@ items:
       parameters:
         - id: item
           type:
-            - '@azure/storage-file-datalake.PathAccessControlItem'
+            - '@azure/abort-controller.PathAccessControlItem'
           description: ''
       return:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.PathAccessControlItem'
+  - uid: '@azure/abort-controller.PathAccessControlItem'
     name: PathAccessControlItem
     spec.typeScript:
       - name: PathAccessControlItem
         fullName: PathAccessControlItem
-        uid: '@azure/storage-file-datalake.PathAccessControlItem'
+        uid: '@azure/abort-controller.PathAccessControlItem'

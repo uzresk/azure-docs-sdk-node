@@ -1,0 +1,142 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.v8.HeapSpaceInfo
+    name: HeapSpaceInfo
+    fullName: HeapSpaceInfo
+    children:
+      - tslib.v8.HeapSpaceInfo.physical_space_size
+      - tslib.v8.HeapSpaceInfo.space_available_size
+      - tslib.v8.HeapSpaceInfo.space_name
+      - tslib.v8.HeapSpaceInfo.space_size
+      - tslib.v8.HeapSpaceInfo.space_used_size
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.v8.HeapSpaceInfo.physical_space_size
+    name: physical_space_size
+    fullName: physical_space_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'physical_space_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.v8.HeapSpaceInfo.space_available_size
+    name: space_available_size
+    fullName: space_available_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'space_available_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.v8.HeapSpaceInfo.space_name
+    name: space_name
+    fullName: space_name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'space_name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.v8.HeapSpaceInfo.space_size
+    name: space_size
+    fullName: space_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'space_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.v8.HeapSpaceInfo.space_used_size
+    name: space_used_size
+    fullName: space_used_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'space_used_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.v8.Deserializer
+    name: Deserializer
+    spec.typeScript:
+      - name: Deserializer
+        fullName: Deserializer
+        uid: tslib.v8.Deserializer
+  - uid: tslib.NodeJS.TypedArray
+    name: TypedArray
+    spec.typeScript:
+      - name: TypedArray
+        fullName: TypedArray
+        uid: tslib.NodeJS.TypedArray
+  - uid: tslib.v8.Serializer
+    name: Serializer
+    spec.typeScript:
+      - name: Serializer
+        fullName: Serializer
+        uid: tslib.v8.Serializer
+  - uid: tslib.v8.DoesZapCodeSpaceFlag
+    name: DoesZapCodeSpaceFlag
+    spec.typeScript:
+      - name: DoesZapCodeSpaceFlag
+        fullName: DoesZapCodeSpaceFlag
+        uid: tslib.v8.DoesZapCodeSpaceFlag
+  - uid: tslib.v8.HeapCodeStatistics
+    name: HeapCodeStatistics
+    spec.typeScript:
+      - name: HeapCodeStatistics
+        fullName: HeapCodeStatistics
+        uid: tslib.v8.HeapCodeStatistics
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: 'tslib.v8.HeapSpaceInfo[]'
+    name: 'HeapSpaceInfo[]'
+    spec.typeScript:
+      - name: HeapSpaceInfo
+        fullName: HeapSpaceInfo
+        uid: tslib.v8.HeapSpaceInfo
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.v8.HeapInfo
+    name: HeapInfo
+    spec.typeScript:
+      - name: HeapInfo
+        fullName: HeapInfo
+        uid: tslib.v8.HeapInfo

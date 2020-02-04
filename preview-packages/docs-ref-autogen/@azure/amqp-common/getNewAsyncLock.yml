@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.getNewAsyncLock'
+  - uid: '@azure/ms-rest-azure-env.getNewAsyncLock'
     name: getNewAsyncLock(AsyncLockOptions)
     children: []
     type: function
@@ -12,18 +12,24 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/amqp-common.AsyncLockOptions'
+            - '@azure/ms-rest-azure-env.AsyncLockOptions'
           description: ''
           optional: true
       return:
         type:
-          - AsyncLock
+          - '@azure/ms-rest-azure-env.AsyncLock'
         description: AsyncLock
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'
 references:
-  - uid: '@azure/amqp-common.AsyncLockOptions'
+  - uid: '@azure/ms-rest-azure-env.AsyncLockOptions'
     name: AsyncLockOptions
     spec.typeScript:
       - name: AsyncLockOptions
         fullName: AsyncLockOptions
-        uid: '@azure/amqp-common.AsyncLockOptions'
+        uid: '@azure/ms-rest-azure-env.AsyncLockOptions'
+  - uid: '@azure/ms-rest-azure-env.AsyncLock'
+    name: AsyncLock
+    spec.typeScript:
+      - name: AsyncLock
+        fullName: AsyncLock
+        uid: '@azure/ms-rest-azure-env.AsyncLock'

@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.keyPair'
+    name: keyPair
+    fullName: keyPair
+    children:
+      - '@azure/ms-rest-azure-env.nacl.sign.keyPair.fromSecretKey'
+      - '@azure/ms-rest-azure-env.nacl.sign.keyPair.fromSeed'
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'keyPair: keyPair'
+      return:
+        type:
+          - keyPair
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.keyPair.fromSecretKey'
+    name: fromSecretKey(Uint8Array)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fromSecretKey(secretKey: Uint8Array)'
+      parameters:
+        - id: secretKey
+          type:
+            - Uint8Array
+          description: ''
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.nacl.SignKeyPair'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.nacl.sign.keyPair.fromSeed'
+    name: fromSeed(Uint8Array)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fromSeed(secretKey: Uint8Array)'
+      parameters:
+        - id: secretKey
+          type:
+            - Uint8Array
+          description: ''
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.nacl.SignKeyPair'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.nacl.BoxKeyPair'
+    name: BoxKeyPair
+    spec.typeScript:
+      - name: BoxKeyPair
+        fullName: BoxKeyPair
+        uid: '@azure/ms-rest-azure-env.nacl.BoxKeyPair'
+  - uid: '@azure/ms-rest-azure-env.nacl.SignKeyPair'
+    name: SignKeyPair
+    spec.typeScript:
+      - name: SignKeyPair
+        fullName: SignKeyPair
+        uid: '@azure/ms-rest-azure-env.nacl.SignKeyPair'

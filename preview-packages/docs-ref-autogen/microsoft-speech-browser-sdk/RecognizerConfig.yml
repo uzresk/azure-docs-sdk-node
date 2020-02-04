@@ -25,7 +25,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Format: SpeechResultFormat'
+      content: SpeechResultFormat Format
       return:
         type:
           - microsoft-speech-browser-sdk.SpeechResultFormat
@@ -40,7 +40,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'IsContinuousRecognition: boolean'
+      content: boolean IsContinuousRecognition
       return:
         type:
           - boolean
@@ -55,7 +55,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Language: string'
+      content: string Language
       return:
         type:
           - string
@@ -70,7 +70,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'RecognitionActivityTimeout: number'
+      content: number RecognitionActivityTimeout
       return:
         type:
           - number
@@ -85,7 +85,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'RecognitionMode: RecognitionMode'
+      content: RecognitionMode RecognitionMode
       return:
         type:
           - microsoft-speech-browser-sdk.RecognitionMode
@@ -102,8 +102,8 @@ items:
     summary: ''
     syntax:
       content: >-
-        new RecognizerConfig(platformConfig: SpeechConfig, recognitionMode?:
-        RecognitionMode, language?: string, format?: SpeechResultFormat)
+        new RecognizerConfig(platformConfig: SpeechConfig, recognitionMode:
+        RecognitionMode, language: string, format: SpeechResultFormat)
       parameters:
         - id: platformConfig
           type:
@@ -113,17 +113,14 @@ items:
           type:
             - microsoft-speech-browser-sdk.RecognitionMode
           description: ''
-          optional: true
         - id: language
           type:
             - string
           description: ''
-          optional: true
         - id: format
           type:
             - microsoft-speech-browser-sdk.SpeechResultFormat
           description: ''
-          optional: true
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.RecognizerConfig.SpeechConfig
     name: SpeechConfig
@@ -134,7 +131,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'SpeechConfig: SpeechConfig'
+      content: SpeechConfig SpeechConfig
       return:
         type:
           - microsoft-speech-browser-sdk.SpeechConfig

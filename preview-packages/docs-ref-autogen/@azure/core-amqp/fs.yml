@@ -1,0 +1,110 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.fs
+    name: fs
+    langs:
+      - typeScript
+    fullName: fs
+    children:
+      - tslib.fs.BigIntOptions
+      - tslib.fs.BigIntStats
+      - tslib.fs.StatOptions
+      - tslib.fs.statSync
+      - tslib.fs.statSync_1
+    type: module
+    summary: ''
+    package: tslib
+  - uid: tslib.fs.statSync
+    name: 'statSync(PathLike, BigIntOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function statSync(path: PathLike, options: BigIntOptions)'
+      parameters:
+        - id: path
+          type:
+            - tslib.fs.PathLike
+          description: ''
+        - id: options
+          type:
+            - tslib.fs.BigIntOptions
+          description: ''
+      return:
+        type:
+          - tslib.fs.BigIntStats
+        description: ''
+    package: tslib
+  - uid: tslib.fs.statSync_1
+    name: 'statSync(PathLike, StatOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function statSync(path: PathLike, options: StatOptions)'
+      parameters:
+        - id: path
+          type:
+            - tslib.fs.PathLike
+          description: ''
+        - id: options
+          type:
+            - tslib.fs.StatOptions
+          description: ''
+      return:
+        type:
+          - tslib.fs.Stats | tslib.fs.BigIntStats
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.fs.StatsBase<BigInt>
+    name: StatsBase<BigInt>
+    spec.typeScript:
+      - name: StatsBase
+        fullName: StatsBase
+        uid: tslib.fs.StatsBase
+      - name: <BigInt>
+        fullName: <BigInt>
+  - uid: tslib.fs.PathLike
+    name: PathLike
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: tslib.fs.PathLike
+  - uid: tslib.fs.BigIntOptions
+    name: BigIntOptions
+    spec.typeScript:
+      - name: BigIntOptions
+        fullName: BigIntOptions
+        uid: tslib.fs.BigIntOptions
+  - uid: tslib.fs.BigIntStats
+    name: BigIntStats
+    spec.typeScript:
+      - name: BigIntStats
+        fullName: BigIntStats
+        uid: tslib.fs.BigIntStats
+  - uid: tslib.fs.StatOptions
+    name: StatOptions
+    spec.typeScript:
+      - name: StatOptions
+        fullName: StatOptions
+        uid: tslib.fs.StatOptions
+  - uid: tslib.fs.Stats | tslib.fs.BigIntStats
+    name: BigIntStats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: tslib.fs.Stats
+      - name: ' | '
+        fullName: ' | '
+      - name: BigIntStats
+        fullName: BigIntStats
+        uid: tslib.fs.BigIntStats
+  - uid: tslib.fs.statSync
+    name: statSync
+  - uid: tslib.fs.statSync_1
+    name: statSync_1

@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.toRolePermissions'
+  - uid: '@azure/abort-controller.toRolePermissions'
     name: 'toRolePermissions(string, undefined | false | true)'
     children: []
     type: function
@@ -23,13 +23,13 @@ items:
           optional: true
       return:
         type:
-          - '@azure/storage-file-datalake.RolePermissions'
+          - '@azure/abort-controller.RolePermissions'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.RolePermissions'
+  - uid: '@azure/abort-controller.RolePermissions'
     name: RolePermissions
     spec.typeScript:
       - name: RolePermissions
         fullName: RolePermissions
-        uid: '@azure/storage-file-datalake.RolePermissions'
+        uid: '@azure/abort-controller.RolePermissions'

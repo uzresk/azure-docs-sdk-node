@@ -1,51 +1,50 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection'
     name: RecognizeEntitiesResultCollection
     fullName: RecognizeEntitiesResultCollection
     children:
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.Array'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.concat'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.concat_1'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.copyWithin'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.entries'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.every'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.fill'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.filter'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.filter_1'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.find'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.find_1'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.findIndex'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.forEach'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.includes'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.indexOf'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.join'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.keys'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.lastIndexOf'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.length'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.map'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.modelVersion'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.pop'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.push'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.reduce'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.reduce_1'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.reduce_2'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.reduceRight'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.reduceRight_1'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.reduceRight_2'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.reverse'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.shift'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.slice'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.some'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.sort'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.splice'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.splice_1'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.statistics'
-      - >-
-        @azure/ai-text-analytics.RecognizeEntitiesResultCollection.toLocaleString
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.toString'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.unshift'
-      - '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.values'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.Array'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.concat'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.concat_1'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.copyWithin'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.entries'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.every'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.fill'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.filter'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.filter_1'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.find'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.find_1'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.findIndex'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.forEach'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.includes'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.indexOf'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.join'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.keys'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.lastIndexOf'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.length'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.map'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.modelVersion'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.pop'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.push'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.reduce'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.reduce_1'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.reduce_2'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.reduceRight'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.reduceRight_1'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.reduceRight_2'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.reverse'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.shift'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.slice'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.some'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.sort'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.splice'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.splice_1'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.statistics'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.toLocaleString'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.toString'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.unshift'
+      - '@azure/abort-controller.RecognizeEntitiesResultCollection.values'
     langs:
       - typeScript
     type: interface
@@ -55,9 +54,9 @@ items:
 
       annotated with information about the batch operation.
     extends:
-      name: Array<@azure/ai-text-analytics.RecognizeEntitiesResult>
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.Array'
+      name: Array<@azure/abort-controller.RecognizeEntitiesResult>
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.Array'
     name: Array
     fullName: Array
     children: []
@@ -71,8 +70,8 @@ items:
         type:
           - ArrayConstructor
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.concat'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.concat'
     name: 'concat(ConcatArray<RecognizeEntitiesResult>[])'
     children: []
     type: method
@@ -84,15 +83,15 @@ items:
       parameters:
         - id: items
           type:
-            - 'ConcatArray<@azure/ai-text-analytics.RecognizeEntitiesResult>[]'
+            - 'ConcatArray<@azure/abort-controller.RecognizeEntitiesResult>[]'
           description: |
             Additional items to add to the end of array1.
       return:
         type:
-          - '@azure/ai-text-analytics.RecognizeEntitiesResult[]'
+          - '@azure/abort-controller.RecognizeEntitiesResult[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.concat_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.concat_1'
     name: 'concat(T | ConcatArray<T>[])'
     children: []
     type: method
@@ -109,10 +108,10 @@ items:
             Additional items to add to the end of array1.
       return:
         type:
-          - '@azure/ai-text-analytics.RecognizeEntitiesResult[]'
+          - '@azure/abort-controller.RecognizeEntitiesResult[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.copyWithin'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.copyWithin'
     name: 'copyWithin(number, number, number)'
     children: []
     type: method
@@ -153,8 +152,8 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.entries'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.entries'
     name: entries()
     children: []
     type: method
@@ -168,8 +167,8 @@ items:
         type:
           - IterableIterator<Object>
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.every'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.every'
     name: >-
       every((value: RecognizeEntitiesResult, index: number, array:
       RecognizeEntitiesResult[]) => unknown, any)
@@ -204,8 +203,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.fill'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.fill'
     name: 'fill(RecognizeEntitiesResult, number, number)'
     children: []
     type: method
@@ -221,7 +220,7 @@ items:
       parameters:
         - id: value
           type:
-            - '@azure/ai-text-analytics.RecognizeEntitiesResult'
+            - '@azure/abort-controller.RecognizeEntitiesResult'
           description: value to fill array section with
         - id: start
           type:
@@ -245,8 +244,8 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.filter'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.filter'
     name: >-
       filter((value: RecognizeEntitiesResult, index: number, array:
       RecognizeEntitiesResult[]) => boolean, any)
@@ -283,8 +282,8 @@ items:
         type:
           - 'S[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.filter_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.filter_1'
     name: >-
       filter((value: RecognizeEntitiesResult, index: number, array:
       RecognizeEntitiesResult[]) => unknown, any)
@@ -319,10 +318,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/ai-text-analytics.RecognizeEntitiesResult[]'
+          - '@azure/abort-controller.RecognizeEntitiesResult[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.find'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.find'
     name: >-
       find((this: void, value: RecognizeEntitiesResult, index: number, obj:
       RecognizeEntitiesResult[]) => boolean, any)
@@ -368,8 +367,8 @@ items:
         type:
           - S | undefined
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.find_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.find_1'
     name: >-
       find((value: RecognizeEntitiesResult, index: number, obj:
       RecognizeEntitiesResult[]) => unknown, any)
@@ -396,10 +395,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/ai-text-analytics.RecognizeEntitiesResult | undefined'
+          - '@azure/abort-controller.RecognizeEntitiesResult | undefined'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.findIndex'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.findIndex'
     name: >-
       findIndex((value: RecognizeEntitiesResult, index: number, obj:
       RecognizeEntitiesResult[]) => unknown, any)
@@ -444,8 +443,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.forEach'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.forEach'
     name: >-
       forEach((value: RecognizeEntitiesResult, index: number, array:
       RecognizeEntitiesResult[]) => void, any)
@@ -475,8 +474,8 @@ items:
             function. If thisArg is omitted, undefined is used as the this
             value.
           optional: true
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.includes'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.includes'
     name: 'includes(RecognizeEntitiesResult, number)'
     children: []
     type: method
@@ -492,7 +491,7 @@ items:
       parameters:
         - id: searchElement
           type:
-            - '@azure/ai-text-analytics.RecognizeEntitiesResult'
+            - '@azure/abort-controller.RecognizeEntitiesResult'
           description: The element to search for.
         - id: fromIndex
           type:
@@ -505,8 +504,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.indexOf'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.indexOf'
     name: 'indexOf(RecognizeEntitiesResult, number)'
     children: []
     type: method
@@ -520,7 +519,7 @@ items:
       parameters:
         - id: searchElement
           type:
-            - '@azure/ai-text-analytics.RecognizeEntitiesResult'
+            - '@azure/abort-controller.RecognizeEntitiesResult'
           description: The value to locate in the array.
         - id: fromIndex
           type:
@@ -533,8 +532,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.join'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.join'
     name: join(string)
     children: []
     type: method
@@ -558,8 +557,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.keys'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.keys'
     name: keys()
     children: []
     type: method
@@ -573,8 +572,8 @@ items:
         type:
           - IterableIterator<number>
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.lastIndexOf'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.lastIndexOf'
     name: 'lastIndexOf(RecognizeEntitiesResult, number)'
     children: []
     type: method
@@ -588,7 +587,7 @@ items:
       parameters:
         - id: searchElement
           type:
-            - '@azure/ai-text-analytics.RecognizeEntitiesResult'
+            - '@azure/abort-controller.RecognizeEntitiesResult'
           description: The value to locate in the array.
         - id: fromIndex
           type:
@@ -601,8 +600,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.length'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.length'
     name: length
     fullName: length
     children: []
@@ -618,8 +617,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.map'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.map'
     name: >-
       map((value: RecognizeEntitiesResult, index: number, array:
       RecognizeEntitiesResult[]) => U, any)
@@ -655,8 +654,8 @@ items:
         type:
           - 'U[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.modelVersion'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.modelVersion'
     name: modelVersion
     fullName: modelVersion
     children: []
@@ -672,8 +671,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.pop'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.pop'
     name: pop()
     children: []
     type: method
@@ -685,10 +684,10 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/ai-text-analytics.RecognizeEntitiesResult | undefined'
+          - '@azure/abort-controller.RecognizeEntitiesResult | undefined'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.push'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.push'
     name: 'push(RecognizeEntitiesResult[])'
     children: []
     type: method
@@ -700,15 +699,15 @@ items:
       parameters:
         - id: items
           type:
-            - '@azure/ai-text-analytics.RecognizeEntitiesResult[]'
+            - '@azure/abort-controller.RecognizeEntitiesResult[]'
           description: |
             New elements of the Array.
       return:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.reduce'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.reduce'
     name: >-
       reduce((previousValue: RecognizeEntitiesResult, currentValue:
       RecognizeEntitiesResult, currentIndex: number, array:
@@ -739,10 +738,10 @@ items:
             array.
       return:
         type:
-          - '@azure/ai-text-analytics.RecognizeEntitiesResult'
+          - '@azure/abort-controller.RecognizeEntitiesResult'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.reduce_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.reduce_1'
     name: >-
       reduce((previousValue: RecognizeEntitiesResult, currentValue:
       RecognizeEntitiesResult, currentIndex: number, array:
@@ -769,14 +768,14 @@ items:
           description: ''
         - id: initialValue
           type:
-            - '@azure/ai-text-analytics.RecognizeEntitiesResult'
+            - '@azure/abort-controller.RecognizeEntitiesResult'
           description: ''
       return:
         type:
-          - '@azure/ai-text-analytics.RecognizeEntitiesResult'
+          - '@azure/abort-controller.RecognizeEntitiesResult'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.reduce_2'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.reduce_2'
     name: >-
       reduce((previousValue: U, currentValue: RecognizeEntitiesResult,
       currentIndex: number, array: RecognizeEntitiesResult[]) => U, U)
@@ -814,8 +813,8 @@ items:
         type:
           - U
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.reduceRight'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.reduceRight'
     name: >-
       reduceRight((previousValue: RecognizeEntitiesResult, currentValue:
       RecognizeEntitiesResult, currentIndex: number, array:
@@ -848,10 +847,10 @@ items:
             array.
       return:
         type:
-          - '@azure/ai-text-analytics.RecognizeEntitiesResult'
+          - '@azure/abort-controller.RecognizeEntitiesResult'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.reduceRight_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.reduceRight_1'
     name: >-
       reduceRight((previousValue: RecognizeEntitiesResult, currentValue:
       RecognizeEntitiesResult, currentIndex: number, array:
@@ -878,14 +877,14 @@ items:
           description: ''
         - id: initialValue
           type:
-            - '@azure/ai-text-analytics.RecognizeEntitiesResult'
+            - '@azure/abort-controller.RecognizeEntitiesResult'
           description: ''
       return:
         type:
-          - '@azure/ai-text-analytics.RecognizeEntitiesResult'
+          - '@azure/abort-controller.RecognizeEntitiesResult'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.reduceRight_2'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.reduceRight_2'
     name: >-
       reduceRight((previousValue: U, currentValue: RecognizeEntitiesResult,
       currentIndex: number, array: RecognizeEntitiesResult[]) => U, U)
@@ -924,8 +923,8 @@ items:
         type:
           - U
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.reverse'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.reverse'
     name: reverse()
     children: []
     type: method
@@ -937,10 +936,10 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/ai-text-analytics.RecognizeEntitiesResult[]'
+          - '@azure/abort-controller.RecognizeEntitiesResult[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.shift'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.shift'
     name: shift()
     children: []
     type: method
@@ -952,10 +951,10 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/ai-text-analytics.RecognizeEntitiesResult | undefined'
+          - '@azure/abort-controller.RecognizeEntitiesResult | undefined'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.slice'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.slice'
     name: 'slice(number, number)'
     children: []
     type: method
@@ -978,10 +977,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/ai-text-analytics.RecognizeEntitiesResult[]'
+          - '@azure/abort-controller.RecognizeEntitiesResult[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.some'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.some'
     name: >-
       some((value: RecognizeEntitiesResult, index: number, array:
       RecognizeEntitiesResult[]) => unknown, any)
@@ -1018,8 +1017,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.sort'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.sort'
     name: 'sort((a: RecognizeEntitiesResult, b: RecognizeEntitiesResult) => number)'
     children: []
     type: method
@@ -1043,8 +1042,8 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.splice'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.splice'
     name: 'splice(number, number)'
     children: []
     type: method
@@ -1070,10 +1069,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/ai-text-analytics.RecognizeEntitiesResult[]'
+          - '@azure/abort-controller.RecognizeEntitiesResult[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.splice_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.splice_1'
     name: 'splice(number, number, RecognizeEntitiesResult[])'
     children: []
     type: method
@@ -1099,15 +1098,15 @@ items:
           description: The number of elements to remove.
         - id: items
           type:
-            - '@azure/ai-text-analytics.RecognizeEntitiesResult[]'
+            - '@azure/abort-controller.RecognizeEntitiesResult[]'
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
         type:
-          - '@azure/ai-text-analytics.RecognizeEntitiesResult[]'
+          - '@azure/abort-controller.RecognizeEntitiesResult[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.statistics'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.statistics'
     name: statistics
     fullName: statistics
     children: []
@@ -1126,10 +1125,10 @@ items:
       content: 'statistics?: TextDocumentBatchStatistics'
       return:
         type:
-          - '@azure/ai-text-analytics.TextDocumentBatchStatistics'
+          - '@azure/abort-controller.TextDocumentBatchStatistics'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.toLocaleString'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.toLocaleString'
     name: toLocaleString()
     children: []
     type: method
@@ -1145,8 +1144,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.toString'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.toString'
     name: toString()
     children: []
     type: method
@@ -1160,8 +1159,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.unshift'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.unshift'
     name: 'unshift(RecognizeEntitiesResult[])'
     children: []
     type: method
@@ -1173,15 +1172,15 @@ items:
       parameters:
         - id: items
           type:
-            - '@azure/ai-text-analytics.RecognizeEntitiesResult[]'
+            - '@azure/abort-controller.RecognizeEntitiesResult[]'
           description: |
             Elements to insert at the start of the Array.
       return:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection.values'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResultCollection.values'
     name: values()
     children: []
     type: method
@@ -1193,65 +1192,65 @@ items:
       parameters: []
       return:
         type:
-          - IterableIterator<@azure/ai-text-analytics.RecognizeEntitiesResult>
+          - IterableIterator<@azure/abort-controller.RecognizeEntitiesResult>
         description: ''
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'
 references:
-  - uid: Array<@azure/ai-text-analytics.RecognizeEntitiesResult>
+  - uid: Array<@azure/abort-controller.RecognizeEntitiesResult>
     name: RecognizeEntitiesResult>
     spec.typeScript:
       - name: Array<
         fullName: Array<
       - name: RecognizeEntitiesResult
         fullName: RecognizeEntitiesResult
-        uid: '@azure/ai-text-analytics.RecognizeEntitiesResult'
+        uid: '@azure/abort-controller.RecognizeEntitiesResult'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics'
+  - uid: '@azure/abort-controller.TextDocumentBatchStatistics'
     name: TextDocumentBatchStatistics
     spec.typeScript:
       - name: TextDocumentBatchStatistics
         fullName: TextDocumentBatchStatistics
-        uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics'
-  - uid: 'ConcatArray<@azure/ai-text-analytics.RecognizeEntitiesResult>[]'
+        uid: '@azure/abort-controller.TextDocumentBatchStatistics'
+  - uid: 'ConcatArray<@azure/abort-controller.RecognizeEntitiesResult>[]'
     name: 'RecognizeEntitiesResult>[]'
     spec.typeScript:
       - name: ConcatArray<
         fullName: ConcatArray<
       - name: RecognizeEntitiesResult
         fullName: RecognizeEntitiesResult
-        uid: '@azure/ai-text-analytics.RecognizeEntitiesResult'
+        uid: '@azure/abort-controller.RecognizeEntitiesResult'
       - name: '>[]'
         fullName: '>[]'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResult[]'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResult[]'
     name: 'RecognizeEntitiesResult[]'
     spec.typeScript:
       - name: RecognizeEntitiesResult
         fullName: RecognizeEntitiesResult
-        uid: '@azure/ai-text-analytics.RecognizeEntitiesResult'
+        uid: '@azure/abort-controller.RecognizeEntitiesResult'
       - name: '[]'
         fullName: '[]'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResult'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResult'
     name: RecognizeEntitiesResult
     spec.typeScript:
       - name: RecognizeEntitiesResult
         fullName: RecognizeEntitiesResult
-        uid: '@azure/ai-text-analytics.RecognizeEntitiesResult'
-  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResult | undefined'
+        uid: '@azure/abort-controller.RecognizeEntitiesResult'
+  - uid: '@azure/abort-controller.RecognizeEntitiesResult | undefined'
     name: RecognizeEntitiesResult | undefined
     spec.typeScript:
       - name: RecognizeEntitiesResult
         fullName: RecognizeEntitiesResult
-        uid: '@azure/ai-text-analytics.RecognizeEntitiesResult'
+        uid: '@azure/abort-controller.RecognizeEntitiesResult'
       - name: ' | undefined'
         fullName: ' | undefined'
-  - uid: IterableIterator<@azure/ai-text-analytics.RecognizeEntitiesResult>
+  - uid: IterableIterator<@azure/abort-controller.RecognizeEntitiesResult>
     name: RecognizeEntitiesResult>
     spec.typeScript:
       - name: IterableIterator<
         fullName: IterableIterator<
       - name: RecognizeEntitiesResult
         fullName: RecognizeEntitiesResult
-        uid: '@azure/ai-text-analytics.RecognizeEntitiesResult'
+        uid: '@azure/abort-controller.RecognizeEntitiesResult'
       - name: '>'
         fullName: '>'

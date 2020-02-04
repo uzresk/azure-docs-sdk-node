@@ -1,22 +1,20 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.FileSystemSetAccessPolicyOptions'
+  - uid: '@azure/abort-controller.FileSystemSetAccessPolicyOptions'
     name: FileSystemSetAccessPolicyOptions
     fullName: FileSystemSetAccessPolicyOptions
     children:
-      - >-
-        @azure/storage-file-datalake.FileSystemSetAccessPolicyOptions.abortSignal
-      - '@azure/storage-file-datalake.FileSystemSetAccessPolicyOptions.conditions'
-      - >-
-        @azure/storage-file-datalake.FileSystemSetAccessPolicyOptions.tracingOptions
+      - '@azure/abort-controller.FileSystemSetAccessPolicyOptions.abortSignal'
+      - '@azure/abort-controller.FileSystemSetAccessPolicyOptions.conditions'
+      - '@azure/abort-controller.FileSystemSetAccessPolicyOptions.tracingOptions'
     langs:
       - typeScript
     type: interface
     summary: ''
     extends:
-      name: '@azure/storage-file-datalake.CommonOptions'
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemSetAccessPolicyOptions.abortSignal'
+      name: '@azure/abort-controller.CommonOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSetAccessPolicyOptions.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -29,10 +27,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - AbortSignalLike
+          - '@azure/abort-controller.AbortSignalLike'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemSetAccessPolicyOptions.conditions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSetAccessPolicyOptions.conditions'
     name: conditions
     fullName: conditions
     children: []
@@ -45,11 +43,10 @@ items:
       content: 'conditions?: DataLakeRequestConditions'
       return:
         type:
-          - '@azure/storage-file-datalake.DataLakeRequestConditions'
+          - '@azure/abort-controller.DataLakeRequestConditions'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.FileSystemSetAccessPolicyOptions.tracingOptions
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSetAccessPolicyOptions.tracingOptions'
     name: tracingOptions
     fullName: tracingOptions
     children: []
@@ -62,25 +59,31 @@ items:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         type:
-          - '@azure/storage-file-datalake.OperationTracingOptions'
+          - '@azure/abort-controller.OperationTracingOptions'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.CommonOptions'
+  - uid: '@azure/abort-controller.CommonOptions'
     name: CommonOptions
     spec.typeScript:
       - name: CommonOptions
         fullName: CommonOptions
-        uid: '@azure/storage-file-datalake.CommonOptions'
-  - uid: '@azure/storage-file-datalake.DataLakeRequestConditions'
+        uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.DataLakeRequestConditions'
     name: DataLakeRequestConditions
     spec.typeScript:
       - name: DataLakeRequestConditions
         fullName: DataLakeRequestConditions
-        uid: '@azure/storage-file-datalake.DataLakeRequestConditions'
-  - uid: '@azure/storage-file-datalake.OperationTracingOptions'
+        uid: '@azure/abort-controller.DataLakeRequestConditions'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
     name: OperationTracingOptions
     spec.typeScript:
       - name: OperationTracingOptions
         fullName: OperationTracingOptions
-        uid: '@azure/storage-file-datalake.OperationTracingOptions'
+        uid: '@azure/abort-controller.OperationTracingOptions'

@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.SentenceSentimentValue'
+  - uid: '@azure/abort-controller.SentenceSentimentValue'
     name: SentenceSentimentValue
     fullName: SentenceSentimentValue
     children: []
@@ -12,4 +12,4 @@ items:
       Possible values include: 'positive', 'neutral', 'negative'
     syntax:
       content: type SentenceSentimentValue = "positive" | "neutral" | "negative"
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'

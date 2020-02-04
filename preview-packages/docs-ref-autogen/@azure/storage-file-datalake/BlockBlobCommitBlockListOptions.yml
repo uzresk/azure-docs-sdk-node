@@ -1,0 +1,196 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlockBlobCommitBlockListOptions'
+    name: BlockBlobCommitBlockListOptions
+    fullName: BlockBlobCommitBlockListOptions
+    children:
+      - '@azure/abort-controller.BlockBlobCommitBlockListOptions.abortSignal'
+      - '@azure/abort-controller.BlockBlobCommitBlockListOptions.blobHTTPHeaders'
+      - '@azure/abort-controller.BlockBlobCommitBlockListOptions.conditions'
+      - >-
+        @azure/abort-controller.BlockBlobCommitBlockListOptions.customerProvidedKey
+      - '@azure/abort-controller.BlockBlobCommitBlockListOptions.metadata'
+      - '@azure/abort-controller.BlockBlobCommitBlockListOptions.tier'
+      - '@azure/abort-controller.BlockBlobCommitBlockListOptions.tracingOptions'
+    langs:
+      - typeScript
+    type: interface
+    summary: 'Options to configure <xref:BlockBlobClient.commitBlockList> operation.'
+    extends:
+      name: '@azure/abort-controller.CommonOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlockBlobCommitBlockListOptions.abortSignal'
+    name: abortSignal
+    fullName: abortSignal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    optional: true
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type:
+          - '@azure/abort-controller.AbortSignalLike'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlockBlobCommitBlockListOptions.blobHTTPHeaders'
+    name: blobHTTPHeaders
+    fullName: blobHTTPHeaders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: HTTP headers to set when committing block list.
+    optional: true
+    syntax:
+      content: 'blobHTTPHeaders?: BlobHTTPHeaders'
+      return:
+        type:
+          - '@azure/abort-controller.BlobHTTPHeaders'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlockBlobCommitBlockListOptions.conditions'
+    name: conditions
+    fullName: conditions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Conditions to meet when committing the block list.
+    optional: true
+    syntax:
+      content: 'conditions?: BlobRequestConditions'
+      return:
+        type:
+          - '@azure/abort-controller.BlobRequestConditions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: >-
+      @azure/abort-controller.BlockBlobCommitBlockListOptions.customerProvidedKey
+    name: customerProvidedKey
+    fullName: customerProvidedKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Customer Provided Key Info.
+    optional: true
+    syntax:
+      content: 'customerProvidedKey?: CpkInfo'
+      return:
+        type:
+          - '@azure/abort-controller.CpkInfo'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlockBlobCommitBlockListOptions.metadata'
+    name: metadata
+    fullName: metadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      A collection of key-value string pair to associate with the blob when
+      committing block list.
+    optional: true
+    syntax:
+      content: 'metadata?: Metadata'
+      return:
+        type:
+          - '@azure/abort-controller.Metadata'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlockBlobCommitBlockListOptions.tier'
+    name: tier
+    fullName: tier
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Access tier.
+
+      More Details -
+      https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers
+    optional: true
+    syntax:
+      content: 'tier?: BlockBlobTier | string'
+      return:
+        type:
+          - '@azure/abort-controller.BlockBlobTier | string'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlockBlobCommitBlockListOptions.tracingOptions'
+    name: tracingOptions
+    fullName: tracingOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options to configure spans created when tracing is enabled.
+    optional: true
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type:
+          - '@azure/abort-controller.OperationTracingOptions'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.CommonOptions'
+    name: CommonOptions
+    spec.typeScript:
+      - name: CommonOptions
+        fullName: CommonOptions
+        uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.BlobHTTPHeaders'
+    name: BlobHTTPHeaders
+    spec.typeScript:
+      - name: BlobHTTPHeaders
+        fullName: BlobHTTPHeaders
+        uid: '@azure/abort-controller.BlobHTTPHeaders'
+  - uid: '@azure/abort-controller.BlobRequestConditions'
+    name: BlobRequestConditions
+    spec.typeScript:
+      - name: BlobRequestConditions
+        fullName: BlobRequestConditions
+        uid: '@azure/abort-controller.BlobRequestConditions'
+  - uid: '@azure/abort-controller.CpkInfo'
+    name: CpkInfo
+    spec.typeScript:
+      - name: CpkInfo
+        fullName: CpkInfo
+        uid: '@azure/abort-controller.CpkInfo'
+  - uid: '@azure/abort-controller.Metadata'
+    name: Metadata
+    spec.typeScript:
+      - name: Metadata
+        fullName: Metadata
+        uid: '@azure/abort-controller.Metadata'
+  - uid: '@azure/abort-controller.BlockBlobTier | string'
+    name: BlockBlobTier | string
+    spec.typeScript:
+      - name: BlockBlobTier
+        fullName: BlockBlobTier
+        uid: '@azure/abort-controller.BlockBlobTier'
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
+    name: OperationTracingOptions
+    spec.typeScript:
+      - name: OperationTracingOptions
+        fullName: OperationTracingOptions
+        uid: '@azure/abort-controller.OperationTracingOptions'

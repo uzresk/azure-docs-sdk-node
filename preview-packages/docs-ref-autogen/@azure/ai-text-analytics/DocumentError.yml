@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.DocumentError'
+    name: DocumentError
+    fullName: DocumentError
+    children:
+      - '@azure/abort-controller.DocumentError.error'
+      - '@azure/abort-controller.DocumentError.id'
+    langs:
+      - typeScript
+    type: interface
+    summary: An interface representing DocumentError.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DocumentError.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Document Error.
+    syntax:
+      content: 'error: TextAnalyticsError'
+      return:
+        type:
+          - '@azure/abort-controller.TextAnalyticsError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DocumentError.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Document Id.
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.TextAnalyticsError'
+    name: TextAnalyticsError
+    spec.typeScript:
+      - name: TextAnalyticsError
+        fullName: TextAnalyticsError
+        uid: '@azure/abort-controller.TextAnalyticsError'

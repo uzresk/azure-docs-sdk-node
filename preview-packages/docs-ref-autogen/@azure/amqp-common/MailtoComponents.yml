@@ -1,0 +1,246 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.MailtoComponents'
+    name: MailtoComponents
+    fullName: MailtoComponents
+    children:
+      - '@azure/ms-rest-azure-env.MailtoComponents.body'
+      - '@azure/ms-rest-azure-env.MailtoComponents.error'
+      - '@azure/ms-rest-azure-env.MailtoComponents.fragment'
+      - '@azure/ms-rest-azure-env.MailtoComponents.headers'
+      - '@azure/ms-rest-azure-env.MailtoComponents.host'
+      - '@azure/ms-rest-azure-env.MailtoComponents.path'
+      - '@azure/ms-rest-azure-env.MailtoComponents.port'
+      - '@azure/ms-rest-azure-env.MailtoComponents.query'
+      - '@azure/ms-rest-azure-env.MailtoComponents.reference'
+      - '@azure/ms-rest-azure-env.MailtoComponents.scheme'
+      - '@azure/ms-rest-azure-env.MailtoComponents.subject'
+      - '@azure/ms-rest-azure-env.MailtoComponents.to'
+      - '@azure/ms-rest-azure-env.MailtoComponents.userinfo'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@azure/ms-rest-azure-env.URIComponents'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MailtoComponents.body'
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'body?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MailtoComponents.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'error?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MailtoComponents.fragment'
+    name: fragment
+    fullName: fragment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'fragment?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MailtoComponents.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'headers?: MailtoHeaders'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.MailtoHeaders'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MailtoComponents.host'
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'host?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MailtoComponents.path'
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'path?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MailtoComponents.port'
+    name: port
+    fullName: port
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'port?: number | string'
+      return:
+        type:
+          - number | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MailtoComponents.query'
+    name: query
+    fullName: query
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'query?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MailtoComponents.reference'
+    name: reference
+    fullName: reference
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'reference?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MailtoComponents.scheme'
+    name: scheme
+    fullName: scheme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'scheme?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MailtoComponents.subject'
+    name: subject
+    fullName: subject
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'subject?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MailtoComponents.to'
+    name: to
+    fullName: to
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'to: Array<string>'
+      return:
+        type:
+          - Array<string>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MailtoComponents.userinfo'
+    name: userinfo
+    fullName: userinfo
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'userinfo?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.URIComponents'
+    name: URIComponents
+    spec.typeScript:
+      - name: URIComponents
+        fullName: URIComponents
+        uid: '@azure/ms-rest-azure-env.URIComponents'
+  - uid: '@azure/ms-rest-azure-env.MailtoHeaders'
+    name: MailtoHeaders
+    spec.typeScript:
+      - name: MailtoHeaders
+        fullName: MailtoHeaders
+        uid: '@azure/ms-rest-azure-env.MailtoHeaders'

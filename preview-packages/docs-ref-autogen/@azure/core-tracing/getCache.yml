@@ -1,0 +1,24 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.getCache'
+    name: getCache()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCache()
+      parameters: []
+      return:
+        type:
+          - '@opentelemetry/types.TracerCache'
+        description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.TracerCache'
+    name: TracerCache
+    spec.typeScript:
+      - name: TracerCache
+        fullName: TracerCache
+        uid: '@opentelemetry/types.TracerCache'

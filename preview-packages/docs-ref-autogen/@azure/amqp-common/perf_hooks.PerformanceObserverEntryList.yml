@@ -1,0 +1,96 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserverEntryList'
+    name: PerformanceObserverEntryList
+    fullName: PerformanceObserverEntryList
+    children:
+      - >-
+        @azure/ms-rest-azure-env.perf_hooks.PerformanceObserverEntryList.getEntries
+      - >-
+        @azure/ms-rest-azure-env.perf_hooks.PerformanceObserverEntryList.getEntriesByName
+      - >-
+        @azure/ms-rest-azure-env.perf_hooks.PerformanceObserverEntryList.getEntriesByType
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.perf_hooks.PerformanceObserverEntryList.getEntries
+    name: getEntries()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getEntries()
+      parameters: []
+      return:
+        type:
+          - 'PerformanceEntry[]'
+        description: >-
+          a list of PerformanceEntry objects in chronological order with respect
+          to performanceEntry.startTime.
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.perf_hooks.PerformanceObserverEntryList.getEntriesByName
+    name: 'getEntriesByName(string, undefined | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getEntriesByName(name: string, type?: undefined | string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: type
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - 'PerformanceEntry[]'
+        description: >-
+          a list of PerformanceEntry objects in chronological order with respect
+          to performanceEntry.startTime
+
+          whose performanceEntry.name is equal to name, and optionally, whose
+          performanceEntry.entryType is equal to type.
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.perf_hooks.PerformanceObserverEntryList.getEntriesByType
+    name: getEntriesByType(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getEntriesByType(type: string)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'PerformanceEntry[]'
+        description: >-
+          Returns a list of PerformanceEntry objects in chronological order with
+          respect to performanceEntry.startTime
+
+          whose performanceEntry.entryType is equal to type.
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserverCallback'
+    name: PerformanceObserverCallback
+    spec.typeScript:
+      - name: PerformanceObserverCallback
+        fullName: PerformanceObserverCallback
+        uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserverCallback'

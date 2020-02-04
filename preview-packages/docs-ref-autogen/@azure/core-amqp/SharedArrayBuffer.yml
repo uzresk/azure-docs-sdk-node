@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.SharedArrayBuffer
+    name: SharedArrayBuffer
+    fullName: SharedArrayBuffer
+    children:
+      - tslib.SharedArrayBuffer.byteLength
+      - tslib.SharedArrayBuffer.slice
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.SharedArrayBuffer.byteLength
+    name: byteLength
+    fullName: byteLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'byteLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.SharedArrayBuffer.slice
+    name: 'slice(undefined | number, undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function slice(begin?: undefined | number, end?: undefined | number)'
+      parameters:
+        - id: begin
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: end
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - SharedArrayBuffer
+        description: ''
+    package: tslib

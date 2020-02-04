@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.CompletedEvents'
+    name: CompletedEvents
+    fullName: CompletedEvents
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'

@@ -1,61 +1,60 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper'
+  - uid: tslib.ErrorNameConditionMapper
     name: ErrorNameConditionMapper
     fullName: ErrorNameConditionMapper
     children:
-      - '@azure/core-amqp.ErrorNameConditionMapper.AddressAlreadyInUseError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.UnauthorizedError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.ArgumentOutOfRangeError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.ConnectionForcedError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.ConnectionRedirectError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.DecodeError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.DetachForcedError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.ErrantLinkError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.FrameSizeTooSmallError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.FramingError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.HandleInUseError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.IllegalStateError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.InternalServerError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.InvalidFieldError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.InvalidOperationError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.LinkRedirectError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.MessageLockLostError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.MessageNotFoundError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.MessageTooLargeError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.MessageWaitTimeout'
-      - >-
-        @azure/core-amqp.ErrorNameConditionMapper.MessagingEntityAlreadyExistsError
-      - '@azure/core-amqp.ErrorNameConditionMapper.MessagingEntityDisabledError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.ArgumentError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.NotImplementedError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.OperationCancelledError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.PartitionNotOwnedError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.PreconditionFailedError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.PublisherRevokedError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.QuotaExceededError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.ReceiverDisconnectedError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.RelayNotFoundError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.ResourceDeletedError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.ResourceLockedError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.SenderBusyError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.ServerBusyError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.ServiceCommunicationError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.ServiceUnavailableError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.SessionCannotBeLockedError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.SessionLockLostError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.SessionWindowViolationError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.StoreLockLostError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.SystemError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.TransferLimitExceededError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.UnattachedHandleError'
-      - '@azure/core-amqp.ErrorNameConditionMapper.NoMatchingSubscriptionError'
+      - tslib.ErrorNameConditionMapper.AddressAlreadyInUseError
+      - tslib.ErrorNameConditionMapper.UnauthorizedError
+      - tslib.ErrorNameConditionMapper.ArgumentOutOfRangeError
+      - tslib.ErrorNameConditionMapper.ConnectionForcedError
+      - tslib.ErrorNameConditionMapper.ConnectionRedirectError
+      - tslib.ErrorNameConditionMapper.DecodeError
+      - tslib.ErrorNameConditionMapper.DetachForcedError
+      - tslib.ErrorNameConditionMapper.ErrantLinkError
+      - tslib.ErrorNameConditionMapper.FrameSizeTooSmallError
+      - tslib.ErrorNameConditionMapper.FramingError
+      - tslib.ErrorNameConditionMapper.HandleInUseError
+      - tslib.ErrorNameConditionMapper.IllegalStateError
+      - tslib.ErrorNameConditionMapper.InternalServerError
+      - tslib.ErrorNameConditionMapper.InvalidFieldError
+      - tslib.ErrorNameConditionMapper.InvalidOperationError
+      - tslib.ErrorNameConditionMapper.LinkRedirectError
+      - tslib.ErrorNameConditionMapper.MessageLockLostError
+      - tslib.ErrorNameConditionMapper.MessageNotFoundError
+      - tslib.ErrorNameConditionMapper.MessageTooLargeError
+      - tslib.ErrorNameConditionMapper.MessageWaitTimeout
+      - tslib.ErrorNameConditionMapper.MessagingEntityAlreadyExistsError
+      - tslib.ErrorNameConditionMapper.MessagingEntityDisabledError
+      - tslib.ErrorNameConditionMapper.ArgumentError
+      - tslib.ErrorNameConditionMapper.NotImplementedError
+      - tslib.ErrorNameConditionMapper.OperationCancelledError
+      - tslib.ErrorNameConditionMapper.PartitionNotOwnedError
+      - tslib.ErrorNameConditionMapper.PreconditionFailedError
+      - tslib.ErrorNameConditionMapper.PublisherRevokedError
+      - tslib.ErrorNameConditionMapper.QuotaExceededError
+      - tslib.ErrorNameConditionMapper.ReceiverDisconnectedError
+      - tslib.ErrorNameConditionMapper.RelayNotFoundError
+      - tslib.ErrorNameConditionMapper.ResourceDeletedError
+      - tslib.ErrorNameConditionMapper.ResourceLockedError
+      - tslib.ErrorNameConditionMapper.SenderBusyError
+      - tslib.ErrorNameConditionMapper.ServerBusyError
+      - tslib.ErrorNameConditionMapper.ServiceCommunicationError
+      - tslib.ErrorNameConditionMapper.ServiceUnavailableError
+      - tslib.ErrorNameConditionMapper.SessionCannotBeLockedError
+      - tslib.ErrorNameConditionMapper.SessionLockLostError
+      - tslib.ErrorNameConditionMapper.SessionWindowViolationError
+      - tslib.ErrorNameConditionMapper.StoreLockLostError
+      - tslib.ErrorNameConditionMapper.SystemError
+      - tslib.ErrorNameConditionMapper.TransferLimitExceededError
+      - tslib.ErrorNameConditionMapper.UnattachedHandleError
+      - tslib.ErrorNameConditionMapper.NoMatchingSubscriptionError
     langs:
       - typeScript
     type: enum
     summary: Maps the Error names to the amqp error conditions.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.AddressAlreadyInUseError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.AddressAlreadyInUseError
     name: AddressAlreadyInUseError
     children: []
     langs:
@@ -63,8 +62,8 @@ items:
     summary: Error is thrown when the address is already in use.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.UnauthorizedError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.UnauthorizedError
     name: UnauthorizedError
     children: []
     langs:
@@ -74,8 +73,8 @@ items:
       refused the connection.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.ArgumentOutOfRangeError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.ArgumentOutOfRangeError
     name: ArgumentOutOfRangeError
     children: []
     langs:
@@ -85,8 +84,8 @@ items:
       range.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.ConnectionForcedError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.ConnectionForcedError
     name: ConnectionForcedError
     children: []
     langs:
@@ -96,8 +95,8 @@ items:
       some reason.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.ConnectionRedirectError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.ConnectionRedirectError
     name: ConnectionRedirectError
     children: []
     langs:
@@ -107,8 +106,8 @@ items:
       connection.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.DecodeError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.DecodeError
     name: DecodeError
     children: []
     langs:
@@ -116,8 +115,8 @@ items:
     summary: Error is thrown when data could not be decoded.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.DetachForcedError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.DetachForcedError
     name: DetachForcedError
     children: []
     langs:
@@ -125,8 +124,8 @@ items:
     summary: Error is thrown when an operator intervened to detach for some reason.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.ErrantLinkError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.ErrantLinkError
     name: ErrantLinkError
     children: []
     langs:
@@ -136,8 +135,8 @@ items:
       an error.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.FrameSizeTooSmallError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.FrameSizeTooSmallError
     name: FrameSizeTooSmallError
     children: []
     langs:
@@ -152,8 +151,8 @@ items:
       a frame of the agreed maximum frame size.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.FramingError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.FramingError
     name: FramingError
     children: []
     langs:
@@ -163,8 +162,8 @@ items:
       incoming byte stream.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.HandleInUseError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.HandleInUseError
     name: HandleInUseError
     children: []
     langs:
@@ -174,8 +173,8 @@ items:
       in use for an attached link.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.IllegalStateError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.IllegalStateError
     name: IllegalStateError
     children: []
     langs:
@@ -185,8 +184,8 @@ items:
       current state.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.InternalServerError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.InternalServerError
     name: InternalServerError
     children: []
     langs:
@@ -196,8 +195,8 @@ items:
       a bug?
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.InvalidFieldError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.InvalidFieldError
     name: InvalidFieldError
     children: []
     langs:
@@ -207,8 +206,8 @@ items:
       operation could not proceed.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.InvalidOperationError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.InvalidOperationError
     name: InvalidOperationError
     children: []
     langs:
@@ -216,8 +215,8 @@ items:
     summary: Error is thrown when an operation is attempted but is not allowed.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.LinkRedirectError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.LinkRedirectError
     name: LinkRedirectError
     children: []
     langs:
@@ -227,8 +226,8 @@ items:
       at the current container.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.MessageLockLostError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.MessageLockLostError
     name: MessageLockLostError
     children: []
     langs:
@@ -236,8 +235,8 @@ items:
     summary: Error is thrown when the lock on the message is lost.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.MessageNotFoundError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.MessageNotFoundError
     name: MessageNotFoundError
     children: []
     langs:
@@ -245,8 +244,8 @@ items:
     summary: Error is thrown when message is not found.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.MessageTooLargeError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.MessageTooLargeError
     name: MessageTooLargeError
     children: []
     langs:
@@ -256,8 +255,8 @@ items:
       256Kb.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.MessageWaitTimeout'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.MessageWaitTimeout
     name: MessageWaitTimeout
     children: []
     langs:
@@ -265,9 +264,8 @@ items:
     summary: Error is thrown when no new messages are received for the specified time.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: >-
-      @azure/core-amqp.ErrorNameConditionMapper.MessagingEntityAlreadyExistsError
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.MessagingEntityAlreadyExistsError
     name: MessagingEntityAlreadyExistsError
     children: []
     langs:
@@ -277,8 +275,8 @@ items:
       exists.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.MessagingEntityDisabledError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.MessagingEntityDisabledError
     name: MessagingEntityDisabledError
     children: []
     langs:
@@ -288,8 +286,8 @@ items:
       entity.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.ArgumentError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.ArgumentError
     name: ArgumentError
     children: []
     langs:
@@ -297,8 +295,8 @@ items:
     summary: Error is thrown when an incorrect argument was received.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.NotImplementedError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.NotImplementedError
     name: NotImplementedError
     children: []
     langs:
@@ -308,8 +306,8 @@ items:
       is present.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.OperationCancelledError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.OperationCancelledError
     name: OperationCancelledError
     children: []
     langs:
@@ -319,8 +317,8 @@ items:
       issue.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.PartitionNotOwnedError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.PartitionNotOwnedError
     name: PartitionNotOwnedError
     children: []
     langs:
@@ -332,8 +330,8 @@ items:
       requesting entity.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.PreconditionFailedError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.PreconditionFailedError
     name: PreconditionFailedError
     children: []
     langs:
@@ -343,8 +341,8 @@ items:
       execute an operation was not.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.PublisherRevokedError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.PublisherRevokedError
     name: PublisherRevokedError
     children: []
     langs:
@@ -352,8 +350,8 @@ items:
     summary: Error is thrown when access to publisher has been revoked.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.QuotaExceededError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.QuotaExceededError
     name: QuotaExceededError
     children: []
     langs:
@@ -372,8 +370,8 @@ items:
       been opened on a per-consumer group level.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.ReceiverDisconnectedError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.ReceiverDisconnectedError
     name: ReceiverDisconnectedError
     children: []
     langs:
@@ -383,8 +381,8 @@ items:
       with different epoch values.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.RelayNotFoundError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.RelayNotFoundError
     name: RelayNotFoundError
     children: []
     langs:
@@ -392,8 +390,8 @@ items:
     summary: Error is thrown when relay is not found.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.ResourceDeletedError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.ResourceDeletedError
     name: ResourceDeletedError
     children: []
     langs:
@@ -403,8 +401,8 @@ items:
       deleted.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.ResourceLockedError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.ResourceLockedError
     name: ResourceLockedError
     children: []
     langs:
@@ -416,8 +414,8 @@ items:
       has no access because another client is working with it.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.SenderBusyError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.SenderBusyError
     name: SenderBusyError
     children: []
     langs:
@@ -427,8 +425,8 @@ items:
       to send the message.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.ServerBusyError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.ServerBusyError
     name: ServerBusyError
     children: []
     langs:
@@ -438,8 +436,8 @@ items:
       retry the operation.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.ServiceCommunicationError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.ServiceCommunicationError
     name: ServiceCommunicationError
     children: []
     langs:
@@ -449,8 +447,8 @@ items:
       operations.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.ServiceUnavailableError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.ServiceUnavailableError
     name: ServiceUnavailableError
     children: []
     langs:
@@ -460,8 +458,8 @@ items:
       retried.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.SessionCannotBeLockedError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.SessionCannotBeLockedError
     name: SessionCannotBeLockedError
     children: []
     langs:
@@ -469,8 +467,8 @@ items:
     summary: Error is thrown when the Azure ServiceBus session cannot be locked.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.SessionLockLostError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.SessionLockLostError
     name: SessionLockLostError
     children: []
     langs:
@@ -478,8 +476,8 @@ items:
     summary: Error is thrown when the lock on the Azure ServiceBus session is lost.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.SessionWindowViolationError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.SessionWindowViolationError
     name: SessionWindowViolationError
     children: []
     langs:
@@ -487,8 +485,8 @@ items:
     summary: Error is thrown when the peer violated incoming window for the session.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.StoreLockLostError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.StoreLockLostError
     name: StoreLockLostError
     children: []
     langs:
@@ -496,8 +494,8 @@ items:
     summary: Error is thrown when the store lock is lost.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.SystemError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.SystemError
     name: SystemError
     children: []
     langs:
@@ -508,8 +506,8 @@ items:
       <xref:https%3A%2F%2Fnodejs.org%2Fapi%2Ferrors.html%23errors_class_systemerror>
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.TransferLimitExceededError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.TransferLimitExceededError
     name: TransferLimitExceededError
     children: []
     langs:
@@ -519,8 +517,8 @@ items:
       allowed on the link.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.UnattachedHandleError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.UnattachedHandleError
     name: UnattachedHandleError
     children: []
     langs:
@@ -532,8 +530,8 @@ items:
       currently in use of an attached link.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ErrorNameConditionMapper.NoMatchingSubscriptionError'
+    package: tslib
+  - uid: tslib.ErrorNameConditionMapper.NoMatchingSubscriptionError
     name: NoMatchingSubscriptionError
     children: []
     langs:
@@ -541,4 +539,4 @@ items:
     summary: Error is thrown when a matching subscription is not found.
     type: field
     numericValue: null
-    package: '@azure/core-amqp'
+    package: tslib

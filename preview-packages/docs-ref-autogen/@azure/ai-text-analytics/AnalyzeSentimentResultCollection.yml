@@ -1,50 +1,50 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection'
     name: AnalyzeSentimentResultCollection
     fullName: AnalyzeSentimentResultCollection
     children:
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.Array'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.concat'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.concat_1'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.copyWithin'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.entries'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.every'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.fill'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.filter'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.filter_1'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.find'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.find_1'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.findIndex'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.forEach'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.includes'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.indexOf'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.join'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.keys'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.lastIndexOf'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.length'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.map'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.modelVersion'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.pop'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.push'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.reduce'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.reduce_1'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.reduce_2'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.reduceRight'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.reduceRight_1'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.reduceRight_2'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.reverse'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.shift'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.slice'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.some'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.sort'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.splice'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.splice_1'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.statistics'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.toLocaleString'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.toString'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.unshift'
-      - '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.values'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.Array'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.concat'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.concat_1'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.copyWithin'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.entries'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.every'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.fill'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.filter'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.filter_1'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.find'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.find_1'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.findIndex'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.forEach'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.includes'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.indexOf'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.join'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.keys'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.lastIndexOf'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.length'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.map'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.modelVersion'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.pop'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.push'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.reduce'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.reduce_1'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.reduce_2'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.reduceRight'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.reduceRight_1'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.reduceRight_2'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.reverse'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.shift'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.slice'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.some'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.sort'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.splice'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.splice_1'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.statistics'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.toLocaleString'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.toString'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.unshift'
+      - '@azure/abort-controller.AnalyzeSentimentResultCollection.values'
     langs:
       - typeScript
     type: interface
@@ -54,9 +54,9 @@ items:
 
       annotated with information about the batch operation.
     extends:
-      name: Array<@azure/ai-text-analytics.AnalyzeSentimentResult>
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.Array'
+      name: Array<@azure/abort-controller.AnalyzeSentimentResult>
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.Array'
     name: Array
     fullName: Array
     children: []
@@ -70,8 +70,8 @@ items:
         type:
           - ArrayConstructor
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.concat'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.concat'
     name: 'concat(ConcatArray<AnalyzeSentimentResult>[])'
     children: []
     type: method
@@ -83,15 +83,15 @@ items:
       parameters:
         - id: items
           type:
-            - 'ConcatArray<@azure/ai-text-analytics.AnalyzeSentimentResult>[]'
+            - 'ConcatArray<@azure/abort-controller.AnalyzeSentimentResult>[]'
           description: |
             Additional items to add to the end of array1.
       return:
         type:
-          - '@azure/ai-text-analytics.AnalyzeSentimentResult[]'
+          - '@azure/abort-controller.AnalyzeSentimentResult[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.concat_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.concat_1'
     name: 'concat(T | ConcatArray<T>[])'
     children: []
     type: method
@@ -108,10 +108,10 @@ items:
             Additional items to add to the end of array1.
       return:
         type:
-          - '@azure/ai-text-analytics.AnalyzeSentimentResult[]'
+          - '@azure/abort-controller.AnalyzeSentimentResult[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.copyWithin'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.copyWithin'
     name: 'copyWithin(number, number, number)'
     children: []
     type: method
@@ -152,8 +152,8 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.entries'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.entries'
     name: entries()
     children: []
     type: method
@@ -167,8 +167,8 @@ items:
         type:
           - IterableIterator<Object>
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.every'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.every'
     name: >-
       every((value: AnalyzeSentimentResult, index: number, array:
       AnalyzeSentimentResult[]) => unknown, any)
@@ -203,8 +203,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.fill'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.fill'
     name: 'fill(AnalyzeSentimentResult, number, number)'
     children: []
     type: method
@@ -220,7 +220,7 @@ items:
       parameters:
         - id: value
           type:
-            - '@azure/ai-text-analytics.AnalyzeSentimentResult'
+            - '@azure/abort-controller.AnalyzeSentimentResult'
           description: value to fill array section with
         - id: start
           type:
@@ -244,8 +244,8 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.filter'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.filter'
     name: >-
       filter((value: AnalyzeSentimentResult, index: number, array:
       AnalyzeSentimentResult[]) => boolean, any)
@@ -282,8 +282,8 @@ items:
         type:
           - 'S[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.filter_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.filter_1'
     name: >-
       filter((value: AnalyzeSentimentResult, index: number, array:
       AnalyzeSentimentResult[]) => unknown, any)
@@ -318,10 +318,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/ai-text-analytics.AnalyzeSentimentResult[]'
+          - '@azure/abort-controller.AnalyzeSentimentResult[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.find'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.find'
     name: >-
       find((this: void, value: AnalyzeSentimentResult, index: number, obj:
       AnalyzeSentimentResult[]) => boolean, any)
@@ -366,8 +366,8 @@ items:
         type:
           - S | undefined
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.find_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.find_1'
     name: >-
       find((value: AnalyzeSentimentResult, index: number, obj:
       AnalyzeSentimentResult[]) => unknown, any)
@@ -394,10 +394,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/ai-text-analytics.AnalyzeSentimentResult | undefined'
+          - '@azure/abort-controller.AnalyzeSentimentResult | undefined'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.findIndex'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.findIndex'
     name: >-
       findIndex((value: AnalyzeSentimentResult, index: number, obj:
       AnalyzeSentimentResult[]) => unknown, any)
@@ -442,8 +442,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.forEach'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.forEach'
     name: >-
       forEach((value: AnalyzeSentimentResult, index: number, array:
       AnalyzeSentimentResult[]) => void, any)
@@ -473,8 +473,8 @@ items:
             function. If thisArg is omitted, undefined is used as the this
             value.
           optional: true
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.includes'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.includes'
     name: 'includes(AnalyzeSentimentResult, number)'
     children: []
     type: method
@@ -490,7 +490,7 @@ items:
       parameters:
         - id: searchElement
           type:
-            - '@azure/ai-text-analytics.AnalyzeSentimentResult'
+            - '@azure/abort-controller.AnalyzeSentimentResult'
           description: The element to search for.
         - id: fromIndex
           type:
@@ -503,8 +503,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.indexOf'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.indexOf'
     name: 'indexOf(AnalyzeSentimentResult, number)'
     children: []
     type: method
@@ -518,7 +518,7 @@ items:
       parameters:
         - id: searchElement
           type:
-            - '@azure/ai-text-analytics.AnalyzeSentimentResult'
+            - '@azure/abort-controller.AnalyzeSentimentResult'
           description: The value to locate in the array.
         - id: fromIndex
           type:
@@ -531,8 +531,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.join'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.join'
     name: join(string)
     children: []
     type: method
@@ -556,8 +556,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.keys'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.keys'
     name: keys()
     children: []
     type: method
@@ -571,8 +571,8 @@ items:
         type:
           - IterableIterator<number>
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.lastIndexOf'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.lastIndexOf'
     name: 'lastIndexOf(AnalyzeSentimentResult, number)'
     children: []
     type: method
@@ -586,7 +586,7 @@ items:
       parameters:
         - id: searchElement
           type:
-            - '@azure/ai-text-analytics.AnalyzeSentimentResult'
+            - '@azure/abort-controller.AnalyzeSentimentResult'
           description: The value to locate in the array.
         - id: fromIndex
           type:
@@ -599,8 +599,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.length'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.length'
     name: length
     fullName: length
     children: []
@@ -616,8 +616,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.map'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.map'
     name: >-
       map((value: AnalyzeSentimentResult, index: number, array:
       AnalyzeSentimentResult[]) => U, any)
@@ -653,8 +653,8 @@ items:
         type:
           - 'U[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.modelVersion'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.modelVersion'
     name: modelVersion
     fullName: modelVersion
     children: []
@@ -670,8 +670,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.pop'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.pop'
     name: pop()
     children: []
     type: method
@@ -683,10 +683,10 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/ai-text-analytics.AnalyzeSentimentResult | undefined'
+          - '@azure/abort-controller.AnalyzeSentimentResult | undefined'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.push'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.push'
     name: 'push(AnalyzeSentimentResult[])'
     children: []
     type: method
@@ -698,15 +698,15 @@ items:
       parameters:
         - id: items
           type:
-            - '@azure/ai-text-analytics.AnalyzeSentimentResult[]'
+            - '@azure/abort-controller.AnalyzeSentimentResult[]'
           description: |
             New elements of the Array.
       return:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.reduce'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.reduce'
     name: >-
       reduce((previousValue: AnalyzeSentimentResult, currentValue:
       AnalyzeSentimentResult, currentIndex: number, array:
@@ -737,10 +737,10 @@ items:
             array.
       return:
         type:
-          - '@azure/ai-text-analytics.AnalyzeSentimentResult'
+          - '@azure/abort-controller.AnalyzeSentimentResult'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.reduce_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.reduce_1'
     name: >-
       reduce((previousValue: AnalyzeSentimentResult, currentValue:
       AnalyzeSentimentResult, currentIndex: number, array:
@@ -767,14 +767,14 @@ items:
           description: ''
         - id: initialValue
           type:
-            - '@azure/ai-text-analytics.AnalyzeSentimentResult'
+            - '@azure/abort-controller.AnalyzeSentimentResult'
           description: ''
       return:
         type:
-          - '@azure/ai-text-analytics.AnalyzeSentimentResult'
+          - '@azure/abort-controller.AnalyzeSentimentResult'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.reduce_2'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.reduce_2'
     name: >-
       reduce((previousValue: U, currentValue: AnalyzeSentimentResult,
       currentIndex: number, array: AnalyzeSentimentResult[]) => U, U)
@@ -812,8 +812,8 @@ items:
         type:
           - U
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.reduceRight'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.reduceRight'
     name: >-
       reduceRight((previousValue: AnalyzeSentimentResult, currentValue:
       AnalyzeSentimentResult, currentIndex: number, array:
@@ -845,10 +845,10 @@ items:
             array.
       return:
         type:
-          - '@azure/ai-text-analytics.AnalyzeSentimentResult'
+          - '@azure/abort-controller.AnalyzeSentimentResult'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.reduceRight_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.reduceRight_1'
     name: >-
       reduceRight((previousValue: AnalyzeSentimentResult, currentValue:
       AnalyzeSentimentResult, currentIndex: number, array:
@@ -875,14 +875,14 @@ items:
           description: ''
         - id: initialValue
           type:
-            - '@azure/ai-text-analytics.AnalyzeSentimentResult'
+            - '@azure/abort-controller.AnalyzeSentimentResult'
           description: ''
       return:
         type:
-          - '@azure/ai-text-analytics.AnalyzeSentimentResult'
+          - '@azure/abort-controller.AnalyzeSentimentResult'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.reduceRight_2'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.reduceRight_2'
     name: >-
       reduceRight((previousValue: U, currentValue: AnalyzeSentimentResult,
       currentIndex: number, array: AnalyzeSentimentResult[]) => U, U)
@@ -921,8 +921,8 @@ items:
         type:
           - U
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.reverse'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.reverse'
     name: reverse()
     children: []
     type: method
@@ -934,10 +934,10 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/ai-text-analytics.AnalyzeSentimentResult[]'
+          - '@azure/abort-controller.AnalyzeSentimentResult[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.shift'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.shift'
     name: shift()
     children: []
     type: method
@@ -949,10 +949,10 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/ai-text-analytics.AnalyzeSentimentResult | undefined'
+          - '@azure/abort-controller.AnalyzeSentimentResult | undefined'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.slice'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.slice'
     name: 'slice(number, number)'
     children: []
     type: method
@@ -975,10 +975,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/ai-text-analytics.AnalyzeSentimentResult[]'
+          - '@azure/abort-controller.AnalyzeSentimentResult[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.some'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.some'
     name: >-
       some((value: AnalyzeSentimentResult, index: number, array:
       AnalyzeSentimentResult[]) => unknown, any)
@@ -1015,8 +1015,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.sort'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.sort'
     name: 'sort((a: AnalyzeSentimentResult, b: AnalyzeSentimentResult) => number)'
     children: []
     type: method
@@ -1040,8 +1040,8 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.splice'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.splice'
     name: 'splice(number, number)'
     children: []
     type: method
@@ -1067,10 +1067,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/ai-text-analytics.AnalyzeSentimentResult[]'
+          - '@azure/abort-controller.AnalyzeSentimentResult[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.splice_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.splice_1'
     name: 'splice(number, number, AnalyzeSentimentResult[])'
     children: []
     type: method
@@ -1096,15 +1096,15 @@ items:
           description: The number of elements to remove.
         - id: items
           type:
-            - '@azure/ai-text-analytics.AnalyzeSentimentResult[]'
+            - '@azure/abort-controller.AnalyzeSentimentResult[]'
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
         type:
-          - '@azure/ai-text-analytics.AnalyzeSentimentResult[]'
+          - '@azure/abort-controller.AnalyzeSentimentResult[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.statistics'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.statistics'
     name: statistics
     fullName: statistics
     children: []
@@ -1123,10 +1123,10 @@ items:
       content: 'statistics?: TextDocumentBatchStatistics'
       return:
         type:
-          - '@azure/ai-text-analytics.TextDocumentBatchStatistics'
+          - '@azure/abort-controller.TextDocumentBatchStatistics'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.toLocaleString'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.toLocaleString'
     name: toLocaleString()
     children: []
     type: method
@@ -1142,8 +1142,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.toString'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.toString'
     name: toString()
     children: []
     type: method
@@ -1157,8 +1157,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.unshift'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.unshift'
     name: 'unshift(AnalyzeSentimentResult[])'
     children: []
     type: method
@@ -1170,15 +1170,15 @@ items:
       parameters:
         - id: items
           type:
-            - '@azure/ai-text-analytics.AnalyzeSentimentResult[]'
+            - '@azure/abort-controller.AnalyzeSentimentResult[]'
           description: |
             Elements to insert at the start of the Array.
       return:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection.values'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResultCollection.values'
     name: values()
     children: []
     type: method
@@ -1190,65 +1190,65 @@ items:
       parameters: []
       return:
         type:
-          - IterableIterator<@azure/ai-text-analytics.AnalyzeSentimentResult>
+          - IterableIterator<@azure/abort-controller.AnalyzeSentimentResult>
         description: ''
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'
 references:
-  - uid: Array<@azure/ai-text-analytics.AnalyzeSentimentResult>
+  - uid: Array<@azure/abort-controller.AnalyzeSentimentResult>
     name: AnalyzeSentimentResult>
     spec.typeScript:
       - name: Array<
         fullName: Array<
       - name: AnalyzeSentimentResult
         fullName: AnalyzeSentimentResult
-        uid: '@azure/ai-text-analytics.AnalyzeSentimentResult'
+        uid: '@azure/abort-controller.AnalyzeSentimentResult'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics'
+  - uid: '@azure/abort-controller.TextDocumentBatchStatistics'
     name: TextDocumentBatchStatistics
     spec.typeScript:
       - name: TextDocumentBatchStatistics
         fullName: TextDocumentBatchStatistics
-        uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics'
-  - uid: 'ConcatArray<@azure/ai-text-analytics.AnalyzeSentimentResult>[]'
+        uid: '@azure/abort-controller.TextDocumentBatchStatistics'
+  - uid: 'ConcatArray<@azure/abort-controller.AnalyzeSentimentResult>[]'
     name: 'AnalyzeSentimentResult>[]'
     spec.typeScript:
       - name: ConcatArray<
         fullName: ConcatArray<
       - name: AnalyzeSentimentResult
         fullName: AnalyzeSentimentResult
-        uid: '@azure/ai-text-analytics.AnalyzeSentimentResult'
+        uid: '@azure/abort-controller.AnalyzeSentimentResult'
       - name: '>[]'
         fullName: '>[]'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResult[]'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResult[]'
     name: 'AnalyzeSentimentResult[]'
     spec.typeScript:
       - name: AnalyzeSentimentResult
         fullName: AnalyzeSentimentResult
-        uid: '@azure/ai-text-analytics.AnalyzeSentimentResult'
+        uid: '@azure/abort-controller.AnalyzeSentimentResult'
       - name: '[]'
         fullName: '[]'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResult'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResult'
     name: AnalyzeSentimentResult
     spec.typeScript:
       - name: AnalyzeSentimentResult
         fullName: AnalyzeSentimentResult
-        uid: '@azure/ai-text-analytics.AnalyzeSentimentResult'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResult | undefined'
+        uid: '@azure/abort-controller.AnalyzeSentimentResult'
+  - uid: '@azure/abort-controller.AnalyzeSentimentResult | undefined'
     name: AnalyzeSentimentResult | undefined
     spec.typeScript:
       - name: AnalyzeSentimentResult
         fullName: AnalyzeSentimentResult
-        uid: '@azure/ai-text-analytics.AnalyzeSentimentResult'
+        uid: '@azure/abort-controller.AnalyzeSentimentResult'
       - name: ' | undefined'
         fullName: ' | undefined'
-  - uid: IterableIterator<@azure/ai-text-analytics.AnalyzeSentimentResult>
+  - uid: IterableIterator<@azure/abort-controller.AnalyzeSentimentResult>
     name: AnalyzeSentimentResult>
     spec.typeScript:
       - name: IterableIterator<
         fullName: IterableIterator<
       - name: AnalyzeSentimentResult
         fullName: AnalyzeSentimentResult
-        uid: '@azure/ai-text-analytics.AnalyzeSentimentResult'
+        uid: '@azure/abort-controller.AnalyzeSentimentResult'
       - name: '>'
         fullName: '>'

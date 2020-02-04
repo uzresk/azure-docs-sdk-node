@@ -19,127 +19,135 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Queue.Dequeue
-    name: Dequeue
-    fullName: Dequeue
+    name: Dequeue()
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Dequeue: () => Promise<TItem>'
+      content: function Dequeue()
+      parameters: []
       return:
         type:
-          - () => Promise<TItem>
+          - microsoft-speech-browser-sdk.Promise<TItem>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Queue.Dispose
-    name: Dispose
-    fullName: Dispose
+    name: Dispose(string)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Dispose: (reason?: string) => void'
-      return:
-        type:
-          - '(reason?: string) => void'
-        description: ''
+      content: 'function Dispose(reason?: string)'
+      parameters:
+        - id: reason
+          type:
+            - string
+          description: ''
+          optional: true
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Queue.DrainAndDispose
-    name: DrainAndDispose
-    fullName: DrainAndDispose
+    name: 'DrainAndDispose((pendingItemInQueue: TItem) => void, string)'
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
       content: >-
-        DrainAndDispose: (pendingItemProcessor: (pendingItemInQueue: TItem) =>
-        void, reason?: string) => Promise<boolean>
+        function DrainAndDispose(pendingItemProcessor: (pendingItemInQueue:
+        TItem) => void, reason?: string)
+      parameters:
+        - id: pendingItemProcessor
+          type:
+            - '(pendingItemInQueue: TItem) => void'
+          description: ''
+        - id: reason
+          type:
+            - string
+          description: ''
+          optional: true
       return:
         type:
-          - >-
-            (pendingItemProcessor: (pendingItemInQueue: TItem) => void, reason?:
-            string) => Promise<boolean>
+          - microsoft-speech-browser-sdk.Promise<boolean>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Queue.Enqueue
-    name: Enqueue
-    fullName: Enqueue
+    name: Enqueue(TItem)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Enqueue: (item: TItem) => void'
-      return:
-        type:
-          - '(item: TItem) => void'
-        description: ''
+      content: 'function Enqueue(item: TItem)'
+      parameters:
+        - id: item
+          type:
+            - TItem
+          description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Queue.EnqueueFromPromise
-    name: EnqueueFromPromise
-    fullName: EnqueueFromPromise
+    name: EnqueueFromPromise(Promise<TItem>)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'EnqueueFromPromise: (promise: Promise<TItem>) => void'
-      return:
-        type:
-          - '(promise: Promise<TItem>) => void'
-        description: ''
+      content: 'function EnqueueFromPromise(promise: Promise<TItem>)'
+      parameters:
+        - id: promise
+          type:
+            - microsoft-speech-browser-sdk.Promise<TItem>
+          description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Queue.IsDisposed
-    name: IsDisposed
-    fullName: IsDisposed
+    name: IsDisposed()
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'IsDisposed: () => boolean'
+      content: function IsDisposed()
+      parameters: []
       return:
         type:
-          - () => boolean
+          - boolean
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Queue.Length
-    name: Length
-    fullName: Length
+    name: Length()
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Length: () => number'
+      content: function Length()
+      parameters: []
       return:
         type:
-          - () => number
+          - number
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Queue.Peek
-    name: Peek
-    fullName: Peek
+    name: Peek()
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Peek: () => Promise<TItem>'
+      content: function Peek()
+      parameters: []
       return:
         type:
-          - () => Promise<TItem>
+          - microsoft-speech-browser-sdk.Promise<TItem>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Queue.constructor
@@ -167,3 +175,19 @@ references:
         uid: microsoft-speech-browser-sdk.List
       - name: <TItem>
         fullName: <TItem>
+  - uid: microsoft-speech-browser-sdk.Promise<TItem>
+    name: Promise<TItem>
+    spec.typeScript:
+      - name: Promise
+        fullName: Promise
+        uid: microsoft-speech-browser-sdk.Promise
+      - name: <TItem>
+        fullName: <TItem>
+  - uid: microsoft-speech-browser-sdk.Promise<boolean>
+    name: Promise<boolean>
+    spec.typeScript:
+      - name: Promise
+        fullName: Promise
+        uid: microsoft-speech-browser-sdk.Promise
+      - name: <boolean>
+        fullName: <boolean>

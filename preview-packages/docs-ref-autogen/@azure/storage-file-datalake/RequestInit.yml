@@ -1,0 +1,216 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.RequestInit'
+    name: RequestInit
+    fullName: RequestInit
+    children:
+      - '@azure/abort-controller.RequestInit.agent'
+      - '@azure/abort-controller.RequestInit.body'
+      - '@azure/abort-controller.RequestInit.compress'
+      - '@azure/abort-controller.RequestInit.follow'
+      - '@azure/abort-controller.RequestInit.headers'
+      - '@azure/abort-controller.RequestInit.method'
+      - '@azure/abort-controller.RequestInit.redirect'
+      - '@azure/abort-controller.RequestInit.signal'
+      - '@azure/abort-controller.RequestInit.size'
+      - '@azure/abort-controller.RequestInit.timeout'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RequestInit.agent'
+    name: agent
+    fullName: agent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'agent?: Agent | (parsedUrl: URL) => Agent'
+      return:
+        type:
+          - '@azure/abort-controller.http.Agent | (parsedUrl: URL) => Agent'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RequestInit.body'
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'body?: BodyInit'
+      return:
+        type:
+          - '@azure/abort-controller.BodyInit'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RequestInit.compress'
+    name: compress
+    fullName: compress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'compress?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RequestInit.follow'
+    name: follow
+    fullName: follow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'follow?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RequestInit.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'headers?: HeadersInit'
+      return:
+        type:
+          - '@azure/abort-controller.HeadersInit'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RequestInit.method'
+    name: method
+    fullName: method
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'method?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RequestInit.redirect'
+    name: redirect
+    fullName: redirect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'redirect?: RequestRedirect'
+      return:
+        type:
+          - '@azure/abort-controller.RequestRedirect'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RequestInit.signal'
+    name: signal
+    fullName: signal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'signal?: AbortSignal | null'
+      return:
+        type:
+          - '@azure/abort-controller.AbortSignal | null'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RequestInit.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'size?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RequestInit.timeout'
+    name: timeout
+    fullName: timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'timeout?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.http.Agent | (parsedUrl: URL) => Agent'
+    name: 'Agent | (parsedUrl: URL) => Agent'
+    spec.typeScript:
+      - name: Agent
+        fullName: Agent
+        uid: '@azure/abort-controller.http.Agent'
+      - name: ' | (parsedUrl: URL) => Agent'
+        fullName: ' | (parsedUrl: URL) => Agent'
+  - uid: '@azure/abort-controller.BodyInit'
+    name: BodyInit
+    spec.typeScript:
+      - name: BodyInit
+        fullName: BodyInit
+        uid: '@azure/abort-controller.BodyInit'
+  - uid: '@azure/abort-controller.HeadersInit'
+    name: HeadersInit
+    spec.typeScript:
+      - name: HeadersInit
+        fullName: HeadersInit
+        uid: '@azure/abort-controller.HeadersInit'
+  - uid: '@azure/abort-controller.RequestRedirect'
+    name: RequestRedirect
+    spec.typeScript:
+      - name: RequestRedirect
+        fullName: RequestRedirect
+        uid: '@azure/abort-controller.RequestRedirect'
+  - uid: '@azure/abort-controller.AbortSignal | null'
+    name: AbortSignal | null
+    spec.typeScript:
+      - name: AbortSignal
+        fullName: AbortSignal
+        uid: '@azure/abort-controller.AbortSignal'
+      - name: ' | null'
+        fullName: ' | null'

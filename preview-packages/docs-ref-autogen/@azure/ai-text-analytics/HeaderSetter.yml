@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.HeaderSetter'
+    name: HeaderSetter
+    fullName: HeaderSetter
+    children:
+      - '@azure/abort-controller.HeaderSetter.setHeader'
+    langs:
+      - typeScript
+    type: interface
+    summary: A transport and environment neutral API for setting headers.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HeaderSetter.setHeader'
+    name: 'setHeader(string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setHeader(name: string, value: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
+    package: '@azure/abort-controller'

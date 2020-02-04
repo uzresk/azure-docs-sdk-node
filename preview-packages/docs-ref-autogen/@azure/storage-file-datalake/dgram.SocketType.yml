@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.dgram.SocketType'
+    name: SocketType
+    fullName: SocketType
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type SocketType = "udp4" | "udp6"
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: '@azure/abort-controller.net.AddressInfo'
+    name: AddressInfo
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: '@azure/abort-controller.net.AddressInfo'
+  - uid: '@azure/abort-controller.dgram.BindOptions'
+    name: BindOptions
+    spec.typeScript:
+      - name: BindOptions
+        fullName: BindOptions
+        uid: '@azure/abort-controller.dgram.BindOptions'
+  - uid: '@azure/abort-controller.dgram.RemoteInfo'
+    name: RemoteInfo
+    spec.typeScript:
+      - name: RemoteInfo
+        fullName: RemoteInfo
+        uid: '@azure/abort-controller.dgram.RemoteInfo'
+  - uid: '@azure/abort-controller.dgram.SocketType'
+    name: SocketType
+    spec.typeScript:
+      - name: SocketType
+        fullName: SocketType
+        uid: '@azure/abort-controller.dgram.SocketType'
+  - uid: '@azure/abort-controller.dgram.Socket'
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/abort-controller.dgram.Socket'
+  - uid: '@azure/abort-controller.dgram.SocketOptions'
+    name: SocketOptions
+    spec.typeScript:
+      - name: SocketOptions
+        fullName: SocketOptions
+        uid: '@azure/abort-controller.dgram.SocketOptions'

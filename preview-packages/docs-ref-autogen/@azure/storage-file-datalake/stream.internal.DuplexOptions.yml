@@ -1,0 +1,548 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions'
+    name: DuplexOptions
+    fullName: DuplexOptions
+    children:
+      - '@azure/abort-controller.stream.internal.DuplexOptions.allowHalfOpen'
+      - '@azure/abort-controller.stream.internal.DuplexOptions.autoDestroy'
+      - '@azure/abort-controller.stream.internal.DuplexOptions.decodeStrings'
+      - '@azure/abort-controller.stream.internal.DuplexOptions.defaultEncoding'
+      - '@azure/abort-controller.stream.internal.DuplexOptions.destroy'
+      - '@azure/abort-controller.stream.internal.DuplexOptions.emitClose'
+      - '@azure/abort-controller.stream.internal.DuplexOptions.encoding'
+      - '@azure/abort-controller.stream.internal.DuplexOptions.final'
+      - '@azure/abort-controller.stream.internal.DuplexOptions.highWaterMark'
+      - '@azure/abort-controller.stream.internal.DuplexOptions.objectMode'
+      - '@azure/abort-controller.stream.internal.DuplexOptions.read'
+      - >-
+        @azure/abort-controller.stream.internal.DuplexOptions.readableHighWaterMark
+      - '@azure/abort-controller.stream.internal.DuplexOptions.readableObjectMode'
+      - '@azure/abort-controller.stream.internal.DuplexOptions.writableCorked'
+      - >-
+        @azure/abort-controller.stream.internal.DuplexOptions.writableHighWaterMark
+      - '@azure/abort-controller.stream.internal.DuplexOptions.writableObjectMode'
+      - '@azure/abort-controller.stream.internal.DuplexOptions.write'
+      - '@azure/abort-controller.stream.internal.DuplexOptions.writev'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.stream.internal.ReadableOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.allowHalfOpen'
+    name: allowHalfOpen
+    fullName: allowHalfOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'allowHalfOpen?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.autoDestroy'
+    name: autoDestroy
+    fullName: autoDestroy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'autoDestroy?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.decodeStrings'
+    name: decodeStrings
+    fullName: decodeStrings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'decodeStrings?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.defaultEncoding'
+    name: defaultEncoding
+    fullName: defaultEncoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'defaultEncoding?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.destroy'
+    name: 'destroy(Duplex, Error | null, (error: Error | null) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function destroy(this: Duplex, error: Error | null, callback: (error:
+        Error | null) => void)
+      parameters:
+        - id: this
+          type:
+            - '@azure/abort-controller.stream.internal.Duplex'
+          description: ''
+        - id: error
+          type:
+            - Error | null
+          description: ''
+        - id: callback
+          type:
+            - '(error: Error | null) => void'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.emitClose'
+    name: emitClose
+    fullName: emitClose
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'emitClose?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.encoding'
+    name: encoding
+    fullName: encoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'encoding?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.final'
+    name: 'final(Duplex, (error?: Error | null) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function final(this: Duplex, callback: (error?: Error | null) => void)'
+      parameters:
+        - id: this
+          type:
+            - '@azure/abort-controller.stream.internal.Duplex'
+          description: ''
+        - id: callback
+          type:
+            - '(error?: Error | null) => void'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.highWaterMark'
+    name: highWaterMark
+    fullName: highWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'highWaterMark?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.objectMode'
+    name: objectMode
+    fullName: objectMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'objectMode?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.read'
+    name: 'read(Duplex, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function read(this: Duplex, size: number)'
+      parameters:
+        - id: this
+          type:
+            - '@azure/abort-controller.stream.internal.Duplex'
+          description: ''
+        - id: size
+          type:
+            - number
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: >-
+      @azure/abort-controller.stream.internal.DuplexOptions.readableHighWaterMark
+    name: readableHighWaterMark
+    fullName: readableHighWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'readableHighWaterMark?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.readableObjectMode'
+    name: readableObjectMode
+    fullName: readableObjectMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'readableObjectMode?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.writableCorked'
+    name: writableCorked
+    fullName: writableCorked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'writableCorked?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: >-
+      @azure/abort-controller.stream.internal.DuplexOptions.writableHighWaterMark
+    name: writableHighWaterMark
+    fullName: writableHighWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'writableHighWaterMark?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.writableObjectMode'
+    name: writableObjectMode
+    fullName: writableObjectMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'writableObjectMode?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.write'
+    name: 'write(Duplex, any, string, (error?: Error | null) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function write(this: Duplex, chunk: any, encoding: string, callback:
+        (error?: Error | null) => void)
+      parameters:
+        - id: this
+          type:
+            - '@azure/abort-controller.stream.internal.Duplex'
+          description: ''
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - string
+          description: ''
+        - id: callback
+          type:
+            - '(error?: Error | null) => void'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions.writev'
+    name: 'writev(Duplex, Array<Object>, (error?: Error | null) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writev(this: Duplex, chunks: Array<Object>, callback: (error?:
+        Error | null) => void)
+      parameters:
+        - id: this
+          type:
+            - '@azure/abort-controller.stream.internal.Duplex'
+          description: ''
+        - id: chunks
+          type:
+            - Array<Object>
+          description: ''
+        - id: callback
+          type:
+            - '(error?: Error | null) => void'
+          description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: '@azure/abort-controller.stream.internal.DuplexOptions'
+    name: DuplexOptions
+    spec.typeScript:
+      - name: DuplexOptions
+        fullName: DuplexOptions
+        uid: '@azure/abort-controller.stream.internal.DuplexOptions'
+  - uid: '@azure/abort-controller.AbortError.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/abort-controller.AbortError.Error'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+  - uid: '@azure/abort-controller.stream.internal.Transform'
+    name: Transform
+    spec.typeScript:
+      - name: Transform
+        fullName: Transform
+        uid: '@azure/abort-controller.stream.internal.Transform'
+  - uid: '@azure/abort-controller.stream.internal.TransformOptions'
+    name: TransformOptions
+    spec.typeScript:
+      - name: TransformOptions
+        fullName: TransformOptions
+        uid: '@azure/abort-controller.stream.internal.TransformOptions'
+  - uid: '@azure/abort-controller.stream.internal.Stream'
+    name: Stream
+    spec.typeScript:
+      - name: Stream
+        fullName: Stream
+        uid: '@azure/abort-controller.stream.internal.Stream'
+  - uid: '@azure/abort-controller.stream.internal'
+    name: internal
+    spec.typeScript:
+      - name: internal
+        fullName: internal
+        uid: '@azure/abort-controller.stream.internal'
+  - uid: '@azure/abort-controller.stream.internal.Duplex'
+    name: Duplex
+    spec.typeScript:
+      - name: Duplex
+        fullName: Duplex
+        uid: '@azure/abort-controller.stream.internal.Duplex'
+  - uid: '@azure/abort-controller.stream.internal.WritableOptions'
+    name: WritableOptions
+    spec.typeScript:
+      - name: WritableOptions
+        fullName: WritableOptions
+        uid: '@azure/abort-controller.stream.internal.WritableOptions'
+  - uid: '@azure/abort-controller.stream.internal.TransformCallback'
+    name: TransformCallback
+    spec.typeScript:
+      - name: TransformCallback
+        fullName: TransformCallback
+        uid: '@azure/abort-controller.stream.internal.TransformCallback'
+  - uid: '@azure/abort-controller.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: >-
+      @azure/abort-controller.NodeJS.ReadableStream |
+      @azure/abort-controller.NodeJS.WritableStream |
+      @azure/abort-controller.NodeJS.ReadWriteStream
+    name: ReadWriteStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+      - name: ' | '
+        fullName: ' | '
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+      - name: ' | '
+        fullName: ' | '
+      - name: ReadWriteStream
+        fullName: ReadWriteStream
+        uid: '@azure/abort-controller.NodeJS.ReadWriteStream'
+  - uid: '@azure/abort-controller.stream.internal.FinishedOptions'
+    name: FinishedOptions
+    spec.typeScript:
+      - name: FinishedOptions
+        fullName: FinishedOptions
+        uid: '@azure/abort-controller.stream.internal.FinishedOptions'
+  - uid: '@azure/abort-controller.NodeJS.ReadWriteStream'
+    name: ReadWriteStream
+    spec.typeScript:
+      - name: ReadWriteStream
+        fullName: ReadWriteStream
+        uid: '@azure/abort-controller.NodeJS.ReadWriteStream'
+  - uid: >-
+      Array<@azure/abort-controller.NodeJS.ReadableStream |
+      @azure/abort-controller.NodeJS.WritableStream |
+      @azure/abort-controller.NodeJS.ReadWriteStream>
+    name: ReadWriteStream>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+      - name: ' | '
+        fullName: ' | '
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+      - name: ' | '
+        fullName: ' | '
+      - name: ReadWriteStream
+        fullName: ReadWriteStream
+        uid: '@azure/abort-controller.NodeJS.ReadWriteStream'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.NodeJS.ReadWriteStream |
+      @azure/abort-controller.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: ReadWriteStream
+        fullName: ReadWriteStream
+        uid: '@azure/abort-controller.NodeJS.ReadWriteStream'
+      - name: ' | '
+        fullName: ' | '
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: >-
+      Array<@azure/abort-controller.NodeJS.ReadWriteStream |
+      @azure/abort-controller.NodeJS.WritableStream | (err: ErrnoException |
+      null) => void>
+    name: 'WritableStream | (err: ErrnoException | null) => void>'
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: ReadWriteStream
+        fullName: ReadWriteStream
+        uid: '@azure/abort-controller.NodeJS.ReadWriteStream'
+      - name: ' | '
+        fullName: ' | '
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+      - name: ' | (err: ErrnoException | null) => void>'
+        fullName: ' | (err: ErrnoException | null) => void>'

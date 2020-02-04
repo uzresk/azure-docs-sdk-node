@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.userAgentPolicy'
+    name: userAgentPolicy(TelemetryInfo)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function userAgentPolicy(userAgentData?: TelemetryInfo)'
+      parameters:
+        - id: userAgentData
+          type:
+            - '@azure/ms-rest-azure-env.TelemetryInfo'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.RequestPolicyFactory'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.TelemetryInfo'
+    name: TelemetryInfo
+    spec.typeScript:
+      - name: TelemetryInfo
+        fullName: TelemetryInfo
+        uid: '@azure/ms-rest-azure-env.TelemetryInfo'
+  - uid: '@azure/ms-rest-azure-env.RequestPolicyFactory'
+    name: RequestPolicyFactory
+    spec.typeScript:
+      - name: RequestPolicyFactory
+        fullName: RequestPolicyFactory
+        uid: '@azure/ms-rest-azure-env.RequestPolicyFactory'

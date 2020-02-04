@@ -1,0 +1,125 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.DistributionValue'
+    name: DistributionValue
+    fullName: DistributionValue
+    children:
+      - '@opentelemetry/types.DistributionValue.bucketOptions'
+      - '@opentelemetry/types.DistributionValue.buckets'
+      - '@opentelemetry/types.DistributionValue.count'
+      - '@opentelemetry/types.DistributionValue.sum'
+      - '@opentelemetry/types.DistributionValue.sumOfSquaredDeviation'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Distribution contains summary statistics for a population of values. It
+      optionally contains a histogram representing the distribution of those
+      values across a set of buckets.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionValue.bucketOptions'
+    name: bucketOptions
+    fullName: bucketOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Don't change bucket boundaries within a TimeSeries if your backend doesn't
+      support this. To save network bandwidth this field can be sent only the
+      first time a metric is sent when using a streaming RPC.
+    syntax:
+      content: 'bucketOptions: BucketOptions'
+      return:
+        type:
+          - '@opentelemetry/types.BucketOptions'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionValue.buckets'
+    name: buckets
+    fullName: buckets
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: DistributionValue buckets
+    syntax:
+      content: 'buckets: Bucket[]'
+      return:
+        type:
+          - '@opentelemetry/types.Bucket[]'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionValue.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The number of values in the population. Must be non-negative. This value
+      must equal the sum of the values in bucket_counts if a histogram is
+      provided.
+    syntax:
+      content: 'count: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionValue.sum'
+    name: sum
+    fullName: sum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The sum of the values in the population. If count is zero then this field
+      must be zero.
+    syntax:
+      content: 'sum: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionValue.sumOfSquaredDeviation'
+    name: sumOfSquaredDeviation
+    fullName: sumOfSquaredDeviation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      The sum of squared deviations from the mean of the values in the
+      population. For values x_i this is:
+          Sum[i=1..n]((x_i - mean)^2)
+
+      Knuth, "The Art of Computer Programming", Vol. 2, page 323, 3rd edition
+      describes Welford's method for accumulating this sum in one pass.
+
+      If count is zero then this field must be zero.
+    syntax:
+      content: 'sumOfSquaredDeviation: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.BucketOptions'
+    name: BucketOptions
+    spec.typeScript:
+      - name: BucketOptions
+        fullName: BucketOptions
+        uid: '@opentelemetry/types.BucketOptions'
+  - uid: '@opentelemetry/types.Bucket[]'
+    name: 'Bucket[]'
+    spec.typeScript:
+      - name: Bucket
+        fullName: Bucket
+        uid: '@opentelemetry/types.Bucket'
+      - name: '[]'
+        fullName: '[]'

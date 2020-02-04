@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.rangeToString'
+    name: rangeToString(Range)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |
+      Generate a range string. For example:
+      "bytes=255-" or "bytes=0-511"
+    syntax:
+      content: 'function rangeToString(iRange: Range)'
+      parameters:
+        - id: iRange
+          type:
+            - '@azure/abort-controller.Range'
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Range'
+    name: Range
+    spec.typeScript:
+      - name: Range
+        fullName: Range
+        uid: '@azure/abort-controller.Range'

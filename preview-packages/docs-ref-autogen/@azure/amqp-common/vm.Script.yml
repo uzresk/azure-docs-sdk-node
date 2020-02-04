@@ -1,0 +1,133 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.vm.Script'
+    name: Script
+    fullName: Script
+    children:
+      - '@azure/ms-rest-azure-env.vm.Script.runInContext'
+      - '@azure/ms-rest-azure-env.vm.Script.runInNewContext'
+      - '@azure/ms-rest-azure-env.vm.Script.runInThisContext'
+      - '@azure/ms-rest-azure-env.vm.Script.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.vm.Script.runInContext'
+    name: 'runInContext(Context, RunningScriptOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function runInContext(contextifiedSandbox: Context, options?:
+        RunningScriptOptions)
+      parameters:
+        - id: contextifiedSandbox
+          type:
+            - Context
+          description: ''
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.vm.RunningScriptOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.vm.Script.runInNewContext'
+    name: 'runInNewContext(Context, RunningScriptOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function runInNewContext(sandbox?: Context, options?:
+        RunningScriptOptions)
+      parameters:
+        - id: sandbox
+          type:
+            - '@azure/ms-rest-azure-env.vm.Context'
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.vm.RunningScriptOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.vm.Script.runInThisContext'
+    name: runInThisContext(RunningScriptOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function runInThisContext(options?: RunningScriptOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.vm.RunningScriptOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.vm.Script.constructor'
+    name: 'Script(string, ScriptOptions)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Script(code: string, options?: ScriptOptions)'
+      parameters:
+        - id: code
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.vm.ScriptOptions'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.vm.ScriptOptions'
+    name: ScriptOptions
+    spec.typeScript:
+      - name: ScriptOptions
+        fullName: ScriptOptions
+        uid: '@azure/ms-rest-azure-env.vm.ScriptOptions'
+  - uid: '@azure/ms-rest-azure-env.vm.RunningScriptOptions'
+    name: RunningScriptOptions
+    spec.typeScript:
+      - name: RunningScriptOptions
+        fullName: RunningScriptOptions
+        uid: '@azure/ms-rest-azure-env.vm.RunningScriptOptions'
+  - uid: '@azure/ms-rest-azure-env.vm.Context'
+    name: Context
+    spec.typeScript:
+      - name: Context
+        fullName: Context
+        uid: '@azure/ms-rest-azure-env.vm.Context'
+  - uid: '@azure/ms-rest-azure-env.Buffer'
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: '@azure/ms-rest-azure-env.Buffer'

@@ -1,0 +1,11 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.AsyncIterableIterator
+    name: AsyncIterableIterator
+    fullName: AsyncIterableIterator<T>
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib

@@ -1,0 +1,331 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.url.URLSearchParams
+    name: URLSearchParams
+    fullName: URLSearchParams
+    children:
+      - tslib.url.URLSearchParams.append
+      - tslib.url.URLSearchParams.delete
+      - tslib.url.URLSearchParams.entries
+      - tslib.url.URLSearchParams.forEach
+      - tslib.url.URLSearchParams.get
+      - tslib.url.URLSearchParams.getAll
+      - tslib.url.URLSearchParams.has
+      - tslib.url.URLSearchParams.keys
+      - tslib.url.URLSearchParams.set
+      - tslib.url.URLSearchParams.sort
+      - tslib.url.URLSearchParams.toString
+      - tslib.url.URLSearchParams.constructor
+      - tslib.url.URLSearchParams.values
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: tslib
+  - uid: tslib.url.URLSearchParams.append
+    name: 'append(string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function append(name: string, value: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
+    package: tslib
+  - uid: tslib.url.URLSearchParams.delete
+    name: delete(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function delete(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+    package: tslib
+  - uid: tslib.url.URLSearchParams.entries
+    name: entries()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function entries()
+      parameters: []
+      return:
+        type:
+          - IterableIterator<Object>
+        description: ''
+    package: tslib
+  - uid: tslib.url.URLSearchParams.forEach
+    name: 'forEach((value: string, name: string, searchParams: this) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function forEach(callback: (value: string, name: string, searchParams:
+        this) => void)
+      parameters:
+        - id: callback
+          type:
+            - '(value: string, name: string, searchParams: this) => void'
+          description: ''
+    package: tslib
+  - uid: tslib.url.URLSearchParams.get
+    name: get(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string | null
+        description: ''
+    package: tslib
+  - uid: tslib.url.URLSearchParams.getAll
+    name: getAll(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getAll(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: tslib
+  - uid: tslib.url.URLSearchParams.has
+    name: has(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function has(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.url.URLSearchParams.keys
+    name: keys()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function keys()
+      parameters: []
+      return:
+        type:
+          - IterableIterator<string>
+        description: ''
+    package: tslib
+  - uid: tslib.url.URLSearchParams.set
+    name: 'set(string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function set(name: string, value: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
+    package: tslib
+  - uid: tslib.url.URLSearchParams.sort
+    name: sort()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function sort()
+      parameters: []
+    package: tslib
+  - uid: tslib.url.URLSearchParams.toString
+    name: toString()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function toString()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.url.URLSearchParams.constructor
+    name: >-
+      URLSearchParams(URLSearchParams | string | [key: string]: function |
+      Iterable<Object> | Array<Object>)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new URLSearchParams(init?: URLSearchParams | string | [key: string]:
+        function | Iterable<Object> | Array<Object>)
+      parameters:
+        - id: init
+          type:
+            - >-
+              tslib.url.URLSearchParams | string | [key: string]: function |
+              Iterable<Object> | Array<Object>
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.url.URLSearchParams.values
+    name: values()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function values()
+      parameters: []
+      return:
+        type:
+          - IterableIterator<string>
+        description: ''
+    package: tslib
+references:
+  - uid: string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.url.URLSearchParams
+    name: URLSearchParams
+    spec.typeScript:
+      - name: URLSearchParams
+        fullName: URLSearchParams
+        uid: tslib.url.URLSearchParams
+  - uid: >-
+      tslib.url.URLSearchParams | string | [key: string]: function |
+      Iterable<Object> | Array<Object>
+    name: >-
+      URLSearchParams | string | [key: string]: function | Iterable<Object> |
+      Array<Object>
+    spec.typeScript:
+      - name: URLSearchParams
+        fullName: URLSearchParams
+        uid: tslib.url.URLSearchParams
+      - name: ' | string | [key: string]: function | Iterable<Object> | Array<Object>'
+        fullName: ' | string | [key: string]: function | Iterable<Object> | Array<Object>'
+  - uid: string | null | tslib.querystring.ParsedUrlQuery
+    name: ParsedUrlQuery
+    spec.typeScript:
+      - name: 'string | null | '
+        fullName: 'string | null | '
+      - name: ParsedUrlQuery
+        fullName: ParsedUrlQuery
+        uid: tslib.querystring.ParsedUrlQuery
+  - uid: string | null | tslib.querystring.ParsedUrlQueryInput
+    name: ParsedUrlQueryInput
+    spec.typeScript:
+      - name: 'string | null | '
+        fullName: 'string | null | '
+      - name: ParsedUrlQueryInput
+        fullName: ParsedUrlQueryInput
+        uid: tslib.querystring.ParsedUrlQueryInput
+  - uid: tslib.url.Url
+    name: Url
+    spec.typeScript:
+      - name: Url
+        fullName: Url
+        uid: tslib.url.Url
+  - uid: tslib.querystring.ParsedUrlQuery
+    name: ParsedUrlQuery
+    spec.typeScript:
+      - name: ParsedUrlQuery
+        fullName: ParsedUrlQuery
+        uid: tslib.querystring.ParsedUrlQuery
+  - uid: tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.url.URLFormatOptions
+    name: URLFormatOptions
+    spec.typeScript:
+      - name: URLFormatOptions
+        fullName: URLFormatOptions
+        uid: tslib.url.URLFormatOptions
+  - uid: tslib.url.UrlObject | string
+    name: UrlObject | string
+    spec.typeScript:
+      - name: UrlObject
+        fullName: UrlObject
+        uid: tslib.url.UrlObject
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: tslib.url.UrlWithStringQuery
+    name: UrlWithStringQuery
+    spec.typeScript:
+      - name: UrlWithStringQuery
+        fullName: UrlWithStringQuery
+        uid: tslib.url.UrlWithStringQuery
+  - uid: tslib.url.UrlWithParsedQuery
+    name: UrlWithParsedQuery
+    spec.typeScript:
+      - name: UrlWithParsedQuery
+        fullName: UrlWithParsedQuery
+        uid: tslib.url.UrlWithParsedQuery

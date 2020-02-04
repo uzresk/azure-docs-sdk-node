@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.DocumentSentimentValue'
+  - uid: '@azure/abort-controller.DocumentSentimentValue'
     name: DocumentSentimentValue
     fullName: DocumentSentimentValue
     children: []
@@ -14,4 +14,4 @@ items:
       content: >-
         type DocumentSentimentValue = "positive" | "neutral" | "negative" |
         "mixed"
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'

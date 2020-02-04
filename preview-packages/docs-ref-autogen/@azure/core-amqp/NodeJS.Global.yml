@@ -1,0 +1,1426 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.NodeJS.Global
+    name: Global
+    fullName: Global
+    children:
+      - tslib.NodeJS.Global.Array
+      - tslib.NodeJS.Global.ArrayBuffer
+      - tslib.NodeJS.Global.Boolean
+      - tslib.NodeJS.Global.Buffer
+      - tslib.NodeJS.Global.clearImmediate
+      - tslib.NodeJS.Global.clearInterval
+      - tslib.NodeJS.Global.clearTimeout
+      - tslib.NodeJS.Global.console
+      - tslib.NodeJS.Global.DataView
+      - tslib.NodeJS.Global.Date
+      - tslib.NodeJS.Global.decodeURI
+      - tslib.NodeJS.Global.decodeURIComponent
+      - tslib.NodeJS.Global.encodeURI
+      - tslib.NodeJS.Global.encodeURIComponent
+      - tslib.NodeJS.Global.Error
+      - tslib.NodeJS.Global.escape
+      - tslib.NodeJS.Global.eval
+      - tslib.NodeJS.Global.EvalError
+      - tslib.NodeJS.Global.Float32Array
+      - tslib.NodeJS.Global.Float64Array
+      - tslib.NodeJS.Global.Function
+      - tslib.NodeJS.Global.gc
+      - tslib.NodeJS.Global.global
+      - tslib.NodeJS.Global.GLOBAL
+      - tslib.NodeJS.Global.Infinity
+      - tslib.NodeJS.Global.Int16Array
+      - tslib.NodeJS.Global.Int32Array
+      - tslib.NodeJS.Global.Int8Array
+      - tslib.NodeJS.Global.Intl
+      - tslib.NodeJS.Global.isFinite
+      - tslib.NodeJS.Global.isNaN
+      - tslib.NodeJS.Global.JSON
+      - tslib.NodeJS.Global.Map
+      - tslib.NodeJS.Global.Math
+      - tslib.NodeJS.Global.NaN
+      - tslib.NodeJS.Global.Number
+      - tslib.NodeJS.Global.Object
+      - tslib.NodeJS.Global.parseFloat
+      - tslib.NodeJS.Global.parseInt
+      - tslib.NodeJS.Global.process
+      - tslib.NodeJS.Global.Promise
+      - tslib.NodeJS.Global.queueMicrotask
+      - tslib.NodeJS.Global.RangeError
+      - tslib.NodeJS.Global.ReferenceError
+      - tslib.NodeJS.Global.RegExp
+      - tslib.NodeJS.Global.root
+      - tslib.NodeJS.Global.Set
+      - tslib.NodeJS.Global.setImmediate
+      - tslib.NodeJS.Global.setInterval
+      - tslib.NodeJS.Global.setTimeout
+      - tslib.NodeJS.Global.String
+      - tslib.NodeJS.Global.Symbol
+      - tslib.NodeJS.Global.SyntaxError
+      - tslib.NodeJS.Global.TypeError
+      - tslib.NodeJS.Global.Uint16Array
+      - tslib.NodeJS.Global.Uint32Array
+      - tslib.NodeJS.Global.Uint8Array
+      - tslib.NodeJS.Global.Uint8ClampedArray
+      - tslib.NodeJS.Global.undefined
+      - tslib.NodeJS.Global.unescape
+      - tslib.NodeJS.Global.URIError
+      - tslib.NodeJS.Global.v8debug
+      - tslib.NodeJS.Global.WeakMap
+      - tslib.NodeJS.Global.WeakSet
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Array
+    name: Array
+    fullName: Array
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Array: ArrayConstructor'
+      return:
+        type:
+          - ArrayConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.ArrayBuffer
+    name: ArrayBuffer
+    fullName: ArrayBuffer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ArrayBuffer: ArrayBufferConstructor'
+      return:
+        type:
+          - ArrayBufferConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Boolean
+    name: Boolean
+    fullName: Boolean
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Boolean: BooleanConstructor'
+      return:
+        type:
+          - BooleanConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Buffer
+    name: Buffer
+    fullName: Buffer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Buffer: Buffer'
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.clearImmediate
+    name: clearImmediate
+    fullName: clearImmediate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'clearImmediate: (immediateId: Immediate) => void'
+      return:
+        type:
+          - '(immediateId: Immediate) => void'
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.clearInterval
+    name: clearInterval
+    fullName: clearInterval
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'clearInterval: (intervalId: Timeout) => void'
+      return:
+        type:
+          - '(intervalId: Timeout) => void'
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.clearTimeout
+    name: clearTimeout
+    fullName: clearTimeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'clearTimeout: (timeoutId: Timeout) => void'
+      return:
+        type:
+          - '(timeoutId: Timeout) => void'
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.console
+    name: console
+    fullName: console
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'console: Console'
+      return:
+        type:
+          - Console
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.DataView
+    name: DataView
+    fullName: DataView
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'DataView: DataViewConstructor'
+      return:
+        type:
+          - DataViewConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Date
+    name: Date
+    fullName: Date
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Date: DateConstructor'
+      return:
+        type:
+          - DateConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.decodeURI
+    name: decodeURI
+    fullName: decodeURI
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'decodeURI: decodeURI'
+      return:
+        type:
+          - decodeURI
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.decodeURIComponent
+    name: decodeURIComponent
+    fullName: decodeURIComponent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'decodeURIComponent: decodeURIComponent'
+      return:
+        type:
+          - decodeURIComponent
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.encodeURI
+    name: encodeURI
+    fullName: encodeURI
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'encodeURI: encodeURI'
+      return:
+        type:
+          - encodeURI
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.encodeURIComponent
+    name: encodeURIComponent
+    fullName: encodeURIComponent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'encodeURIComponent: encodeURIComponent'
+      return:
+        type:
+          - encodeURIComponent
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Error
+    name: Error
+    fullName: Error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Error: ErrorConstructor'
+      return:
+        type:
+          - ErrorConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.escape
+    name: escape
+    fullName: escape
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'escape: (str: string) => string'
+      return:
+        type:
+          - '(str: string) => string'
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.eval
+    name: eval
+    fullName: eval
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'eval: eval'
+      return:
+        type:
+          - eval
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.EvalError
+    name: EvalError
+    fullName: EvalError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'EvalError: EvalErrorConstructor'
+      return:
+        type:
+          - EvalErrorConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Float32Array
+    name: Float32Array
+    fullName: Float32Array
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Float32Array: Float32ArrayConstructor'
+      return:
+        type:
+          - Float32ArrayConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Float64Array
+    name: Float64Array
+    fullName: Float64Array
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Float64Array: Float64ArrayConstructor'
+      return:
+        type:
+          - Float64ArrayConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Function
+    name: Function
+    fullName: Function
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Function: FunctionConstructor'
+      return:
+        type:
+          - FunctionConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.gc
+    name: gc
+    fullName: gc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'gc: () => void'
+      return:
+        type:
+          - () => void
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.global
+    name: global
+    fullName: global
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'global: Global'
+      return:
+        type:
+          - tslib.NodeJS.Global
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.GLOBAL
+    name: GLOBAL
+    fullName: GLOBAL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'GLOBAL: Global'
+      return:
+        type:
+          - tslib.NodeJS.Global
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Infinity
+    name: Infinity
+    fullName: Infinity
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Infinity: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Int16Array
+    name: Int16Array
+    fullName: Int16Array
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Int16Array: Int16ArrayConstructor'
+      return:
+        type:
+          - Int16ArrayConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Int32Array
+    name: Int32Array
+    fullName: Int32Array
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Int32Array: Int32ArrayConstructor'
+      return:
+        type:
+          - Int32ArrayConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Int8Array
+    name: Int8Array
+    fullName: Int8Array
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Int8Array: Int8ArrayConstructor'
+      return:
+        type:
+          - Int8ArrayConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Intl
+    name: Intl
+    fullName: Intl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Intl: Intl'
+      return:
+        type:
+          - Intl
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.isFinite
+    name: isFinite
+    fullName: isFinite
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isFinite: isFinite'
+      return:
+        type:
+          - isFinite
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.isNaN
+    name: isNaN
+    fullName: isNaN
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isNaN: isNaN'
+      return:
+        type:
+          - isNaN
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.JSON
+    name: JSON
+    fullName: JSON
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'JSON: JSON'
+      return:
+        type:
+          - JSON
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Map
+    name: Map
+    fullName: Map
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Map: MapConstructor'
+      return:
+        type:
+          - MapConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Math
+    name: Math
+    fullName: Math
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Math: Math'
+      return:
+        type:
+          - Math
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.NaN
+    name: NaN
+    fullName: NaN
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'NaN: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Number
+    name: Number
+    fullName: Number
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Number: NumberConstructor'
+      return:
+        type:
+          - NumberConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Object
+    name: Object
+    fullName: Object
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Object: ObjectConstructor'
+      return:
+        type:
+          - ObjectConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.parseFloat
+    name: parseFloat
+    fullName: parseFloat
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'parseFloat: parseFloat'
+      return:
+        type:
+          - parseFloat
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.parseInt
+    name: parseInt
+    fullName: parseInt
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'parseInt: parseInt'
+      return:
+        type:
+          - parseInt
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.process
+    name: process
+    fullName: process
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'process: Process'
+      return:
+        type:
+          - tslib.NodeJS.Process
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Promise
+    name: Promise
+    fullName: Promise
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Promise: PromiseConstructor'
+      return:
+        type:
+          - PromiseConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.queueMicrotask
+    name: queueMicrotask
+    fullName: queueMicrotask
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'queueMicrotask: queueMicrotask'
+      return:
+        type:
+          - queueMicrotask
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.RangeError
+    name: RangeError
+    fullName: RangeError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'RangeError: RangeErrorConstructor'
+      return:
+        type:
+          - RangeErrorConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.ReferenceError
+    name: ReferenceError
+    fullName: ReferenceError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ReferenceError: ReferenceErrorConstructor'
+      return:
+        type:
+          - ReferenceErrorConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.RegExp
+    name: RegExp
+    fullName: RegExp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'RegExp: RegExpConstructor'
+      return:
+        type:
+          - RegExpConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.root
+    name: root
+    fullName: root
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'root: Global'
+      return:
+        type:
+          - tslib.NodeJS.Global
+        description: ''
+    package: tslib
+    deprecated:
+      content: Use `global`.
+  - uid: tslib.NodeJS.Global.Set
+    name: Set
+    fullName: Set
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Set: SetConstructor'
+      return:
+        type:
+          - SetConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.setImmediate
+    name: setImmediate
+    fullName: setImmediate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        setImmediate: (callback: (args: any[]) => void, args: any[]) =>
+        Immediate
+      return:
+        type:
+          - '(callback: (args: any[]) => void, args: any[]) => Immediate'
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.setInterval
+    name: setInterval
+    fullName: setInterval
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        setInterval: (callback: (args: any[]) => void, ms: number, args: any[])
+        => Timeout
+      return:
+        type:
+          - >-
+            (callback: (args: any[]) => void, ms: number, args: any[]) =>
+            Timeout
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.setTimeout
+    name: setTimeout
+    fullName: setTimeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        setTimeout: (callback: (args: any[]) => void, ms: number, args: any[])
+        => Timeout
+      return:
+        type:
+          - >-
+            (callback: (args: any[]) => void, ms: number, args: any[]) =>
+            Timeout
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.String
+    name: String
+    fullName: String
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'String: StringConstructor'
+      return:
+        type:
+          - StringConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Symbol
+    name: Symbol
+    fullName: Symbol
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Symbol: Function'
+      return:
+        type:
+          - Function
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.SyntaxError
+    name: SyntaxError
+    fullName: SyntaxError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'SyntaxError: SyntaxErrorConstructor'
+      return:
+        type:
+          - SyntaxErrorConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.TypeError
+    name: TypeError
+    fullName: TypeError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'TypeError: TypeErrorConstructor'
+      return:
+        type:
+          - TypeErrorConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Uint16Array
+    name: Uint16Array
+    fullName: Uint16Array
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Uint16Array: Uint16ArrayConstructor'
+      return:
+        type:
+          - Uint16ArrayConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Uint32Array
+    name: Uint32Array
+    fullName: Uint32Array
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Uint32Array: Uint32ArrayConstructor'
+      return:
+        type:
+          - Uint32ArrayConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Uint8Array
+    name: Uint8Array
+    fullName: Uint8Array
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Uint8Array: Uint8ArrayConstructor'
+      return:
+        type:
+          - Uint8ArrayConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.Uint8ClampedArray
+    name: Uint8ClampedArray
+    fullName: Uint8ClampedArray
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Uint8ClampedArray: Uint8ClampedArrayConstructor'
+      return:
+        type:
+          - Uint8ClampedArrayConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.undefined
+    name: undefined
+    fullName: undefined
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'undefined: undefined'
+      return:
+        type:
+          - undefined
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.unescape
+    name: unescape
+    fullName: unescape
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'unescape: (str: string) => string'
+      return:
+        type:
+          - '(str: string) => string'
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.URIError
+    name: URIError
+    fullName: URIError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'URIError: URIErrorConstructor'
+      return:
+        type:
+          - URIErrorConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.v8debug
+    name: v8debug
+    fullName: v8debug
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'v8debug?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.WeakMap
+    name: WeakMap
+    fullName: WeakMap
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'WeakMap: WeakMapConstructor'
+      return:
+        type:
+          - WeakMapConstructor
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Global.WeakSet
+    name: WeakSet
+    fullName: WeakSet
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'WeakSet: WeakSetConstructor'
+      return:
+        type:
+          - WeakSetConstructor
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.NodeJS.ConsoleConstructorOptions
+    name: ConsoleConstructorOptions
+    spec.typeScript:
+      - name: ConsoleConstructorOptions
+        fullName: ConsoleConstructorOptions
+        uid: tslib.NodeJS.ConsoleConstructorOptions
+  - uid: tslib.NodeJS.InspectOptions
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: tslib.NodeJS.InspectOptions
+  - uid: tslib.NodeJS.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.NodeJS.EventEmitter
+  - uid: tslib.NodeJS.EventEmitter | tslib.NodeJS.Timer
+    name: Timer
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.NodeJS.EventEmitter
+      - name: ' | '
+        fullName: ' | '
+      - name: Timer
+        fullName: Timer
+        uid: tslib.NodeJS.Timer
+  - uid: tslib.NodeJS.Global
+    name: Global
+    spec.typeScript:
+      - name: Global
+        fullName: Global
+        uid: tslib.NodeJS.Global
+  - uid: tslib.NodeJS.Process
+    name: Process
+    spec.typeScript:
+      - name: Process
+        fullName: Process
+        uid: tslib.NodeJS.Process
+  - uid: tslib.NodeJS.RefCounted
+    name: RefCounted
+    spec.typeScript:
+      - name: RefCounted
+        fullName: RefCounted
+        uid: tslib.NodeJS.RefCounted
+  - uid: 'tslib.NodeJS.Module[]'
+    name: 'Module[]'
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: tslib.NodeJS.Module
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.NodeJS.Module | null
+    name: Module | null
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: tslib.NodeJS.Module
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.NodeJS.Require
+    name: Require
+    spec.typeScript:
+      - name: Require
+        fullName: Require
+        uid: tslib.NodeJS.Require
+  - uid: tslib.NodeJS.Domain
+    name: Domain
+    spec.typeScript:
+      - name: Domain
+        fullName: Domain
+        uid: tslib.NodeJS.Domain
+  - uid: tslib.NodeJS.ProcessEnv
+    name: ProcessEnv
+    spec.typeScript:
+      - name: ProcessEnv
+        fullName: ProcessEnv
+        uid: tslib.NodeJS.ProcessEnv
+  - uid: tslib.NodeJS.Module
+    name: Module
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: tslib.NodeJS.Module
+  - uid: tslib.NodeJS.Platform
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: tslib.NodeJS.Platform
+  - uid: tslib.NodeJS.ProcessRelease
+    name: ProcessRelease
+    spec.typeScript:
+      - name: ProcessRelease
+        fullName: ProcessRelease
+        uid: tslib.NodeJS.ProcessRelease
+  - uid: tslib.NodeJS.ProcessReport
+    name: ProcessReport
+    spec.typeScript:
+      - name: ProcessReport
+        fullName: ProcessReport
+        uid: tslib.NodeJS.ProcessReport
+  - uid: tslib.NodeJS.ProcessVersions
+    name: ProcessVersions
+    spec.typeScript:
+      - name: ProcessVersions
+        fullName: ProcessVersions
+        uid: tslib.NodeJS.ProcessVersions
+  - uid: tslib.NodeJS.BeforeExitListener
+    name: BeforeExitListener
+    spec.typeScript:
+      - name: BeforeExitListener
+        fullName: BeforeExitListener
+        uid: tslib.NodeJS.BeforeExitListener
+  - uid: tslib.NodeJS.DisconnectListener
+    name: DisconnectListener
+    spec.typeScript:
+      - name: DisconnectListener
+        fullName: DisconnectListener
+        uid: tslib.NodeJS.DisconnectListener
+  - uid: tslib.NodeJS.ExitListener
+    name: ExitListener
+    spec.typeScript:
+      - name: ExitListener
+        fullName: ExitListener
+        uid: tslib.NodeJS.ExitListener
+  - uid: tslib.NodeJS.RejectionHandledListener
+    name: RejectionHandledListener
+    spec.typeScript:
+      - name: RejectionHandledListener
+        fullName: RejectionHandledListener
+        uid: tslib.NodeJS.RejectionHandledListener
+  - uid: tslib.NodeJS.UncaughtExceptionListener
+    name: UncaughtExceptionListener
+    spec.typeScript:
+      - name: UncaughtExceptionListener
+        fullName: UncaughtExceptionListener
+        uid: tslib.NodeJS.UncaughtExceptionListener
+  - uid: tslib.NodeJS.UnhandledRejectionListener
+    name: UnhandledRejectionListener
+    spec.typeScript:
+      - name: UnhandledRejectionListener
+        fullName: UnhandledRejectionListener
+        uid: tslib.NodeJS.UnhandledRejectionListener
+  - uid: tslib.NodeJS.WarningListener
+    name: WarningListener
+    spec.typeScript:
+      - name: WarningListener
+        fullName: WarningListener
+        uid: tslib.NodeJS.WarningListener
+  - uid: tslib.NodeJS.MessageListener
+    name: MessageListener
+    spec.typeScript:
+      - name: MessageListener
+        fullName: MessageListener
+        uid: tslib.NodeJS.MessageListener
+  - uid: tslib.NodeJS.Signals
+    name: Signals
+    spec.typeScript:
+      - name: Signals
+        fullName: Signals
+        uid: tslib.NodeJS.Signals
+  - uid: tslib.NodeJS.SignalsListener
+    name: SignalsListener
+    spec.typeScript:
+      - name: SignalsListener
+        fullName: SignalsListener
+        uid: tslib.NodeJS.SignalsListener
+  - uid: tslib.NodeJS.NewListenerListener
+    name: NewListenerListener
+    spec.typeScript:
+      - name: NewListenerListener
+        fullName: NewListenerListener
+        uid: tslib.NodeJS.NewListenerListener
+  - uid: tslib.NodeJS.RemoveListenerListener
+    name: RemoveListenerListener
+    spec.typeScript:
+      - name: RemoveListenerListener
+        fullName: RemoveListenerListener
+        uid: tslib.NodeJS.RemoveListenerListener
+  - uid: tslib.NodeJS.MultipleResolveListener
+    name: MultipleResolveListener
+    spec.typeScript:
+      - name: MultipleResolveListener
+        fullName: MultipleResolveListener
+        uid: tslib.NodeJS.MultipleResolveListener
+  - uid: tslib.NodeJS.CpuUsage
+    name: CpuUsage
+    spec.typeScript:
+      - name: CpuUsage
+        fullName: CpuUsage
+        uid: tslib.NodeJS.CpuUsage
+  - uid: tslib.NodeJS.Global.Function
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: tslib.NodeJS.Global.Function
+  - uid: 'tslib.NodeJS.BeforeExitListener[]'
+    name: 'BeforeExitListener[]'
+    spec.typeScript:
+      - name: BeforeExitListener
+        fullName: BeforeExitListener
+        uid: tslib.NodeJS.BeforeExitListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.DisconnectListener[]'
+    name: 'DisconnectListener[]'
+    spec.typeScript:
+      - name: DisconnectListener
+        fullName: DisconnectListener
+        uid: tslib.NodeJS.DisconnectListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.ExitListener[]'
+    name: 'ExitListener[]'
+    spec.typeScript:
+      - name: ExitListener
+        fullName: ExitListener
+        uid: tslib.NodeJS.ExitListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.RejectionHandledListener[]'
+    name: 'RejectionHandledListener[]'
+    spec.typeScript:
+      - name: RejectionHandledListener
+        fullName: RejectionHandledListener
+        uid: tslib.NodeJS.RejectionHandledListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.UncaughtExceptionListener[]'
+    name: 'UncaughtExceptionListener[]'
+    spec.typeScript:
+      - name: UncaughtExceptionListener
+        fullName: UncaughtExceptionListener
+        uid: tslib.NodeJS.UncaughtExceptionListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.UnhandledRejectionListener[]'
+    name: 'UnhandledRejectionListener[]'
+    spec.typeScript:
+      - name: UnhandledRejectionListener
+        fullName: UnhandledRejectionListener
+        uid: tslib.NodeJS.UnhandledRejectionListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.WarningListener[]'
+    name: 'WarningListener[]'
+    spec.typeScript:
+      - name: WarningListener
+        fullName: WarningListener
+        uid: tslib.NodeJS.WarningListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.MessageListener[]'
+    name: 'MessageListener[]'
+    spec.typeScript:
+      - name: MessageListener
+        fullName: MessageListener
+        uid: tslib.NodeJS.MessageListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.SignalsListener[]'
+    name: 'SignalsListener[]'
+    spec.typeScript:
+      - name: SignalsListener
+        fullName: SignalsListener
+        uid: tslib.NodeJS.SignalsListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.NewListenerListener[]'
+    name: 'NewListenerListener[]'
+    spec.typeScript:
+      - name: NewListenerListener
+        fullName: NewListenerListener
+        uid: tslib.NodeJS.NewListenerListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.RemoveListenerListener[]'
+    name: 'RemoveListenerListener[]'
+    spec.typeScript:
+      - name: RemoveListenerListener
+        fullName: RemoveListenerListener
+        uid: tslib.NodeJS.RemoveListenerListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.MultipleResolveListener[]'
+    name: 'MultipleResolveListener[]'
+    spec.typeScript:
+      - name: MultipleResolveListener
+        fullName: MultipleResolveListener
+        uid: tslib.NodeJS.MultipleResolveListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.NodeJS.MemoryUsage
+    name: MemoryUsage
+    spec.typeScript:
+      - name: MemoryUsage
+        fullName: MemoryUsage
+        uid: tslib.NodeJS.MemoryUsage
+  - uid: tslib.NodeJS.Socket
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.NodeJS.Socket
+  - uid: tslib.NodeJS.ResourceUsage
+    name: ResourceUsage
+    spec.typeScript:
+      - name: ResourceUsage
+        fullName: ResourceUsage
+        uid: tslib.NodeJS.ResourceUsage
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.NodeJS.NodeRequireCache
+    name: NodeRequireCache
+    spec.typeScript:
+      - name: NodeRequireCache
+        fullName: NodeRequireCache
+        uid: tslib.NodeJS.NodeRequireCache
+  - uid: tslib.NodeJS.RequireExtensions
+    name: RequireExtensions
+    spec.typeScript:
+      - name: RequireExtensions
+        fullName: RequireExtensions
+        uid: tslib.NodeJS.RequireExtensions
+  - uid: tslib.NodeJS.Module | undefined
+    name: Module | undefined
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: tslib.NodeJS.Module
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: tslib.NodeJS.RequireResolve
+    name: RequireResolve
+    spec.typeScript:
+      - name: RequireResolve
+        fullName: RequireResolve
+        uid: tslib.NodeJS.RequireResolve
+  - uid: tslib.NodeJS.ReadWriteStream
+    name: ReadWriteStream
+    spec.typeScript:
+      - name: ReadWriteStream
+        fullName: ReadWriteStream
+        uid: tslib.NodeJS.ReadWriteStream
+  - uid: tslib.NodeJS.Timer
+    name: Timer
+    spec.typeScript:
+      - name: Timer
+        fullName: Timer
+        uid: tslib.NodeJS.Timer

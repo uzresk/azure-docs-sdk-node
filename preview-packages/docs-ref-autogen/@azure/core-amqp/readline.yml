@@ -1,0 +1,318 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.readline
+    name: readline
+    langs:
+      - typeScript
+    fullName: readline
+    children:
+      - tslib.readline.AsyncCompleter
+      - tslib.readline.clearLine
+      - tslib.readline.clearScreenDown
+      - tslib.readline.Completer
+      - tslib.readline.CompleterResult
+      - tslib.readline.createInterface
+      - tslib.readline.createInterface_1
+      - tslib.readline.CursorPos
+      - tslib.readline.cursorTo
+      - tslib.readline.Direction
+      - tslib.readline.emitKeypressEvents
+      - tslib.readline.Interface
+      - tslib.readline.Key
+      - tslib.readline.moveCursor
+      - tslib.readline.ReadLine
+      - tslib.readline.ReadLineOptions
+    type: module
+    summary: ''
+    package: tslib
+  - uid: tslib.readline.clearLine
+    name: 'clearLine(WritableStream, Direction, undefined | () => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Clears the current line of this WriteStream in a direction identified by
+      `dir`.
+    syntax:
+      content: >-
+        function clearLine(stream: WritableStream, dir: Direction, callback?:
+        undefined | () => void)
+      parameters:
+        - id: stream
+          type:
+            - tslib.NodeJS.WritableStream
+          description: ''
+        - id: dir
+          type:
+            - tslib.readline.Direction
+          description: ''
+        - id: callback
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.readline.clearScreenDown
+    name: 'clearScreenDown(WritableStream, undefined | () => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Clears this `WriteStream` from the current cursor down.
+    syntax:
+      content: >-
+        function clearScreenDown(stream: WritableStream, callback?: undefined |
+        () => void)
+      parameters:
+        - id: stream
+          type:
+            - tslib.NodeJS.WritableStream
+          description: ''
+        - id: callback
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.readline.createInterface
+    name: >-
+      createInterface(ReadableStream, NodeJS.WritableStream, Completer |
+      AsyncCompleter, undefined | false | true)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createInterface(input: ReadableStream, output?:
+        NodeJS.WritableStream, completer?: Completer | AsyncCompleter,
+        terminal?: undefined | false | true)
+      parameters:
+        - id: input
+          type:
+            - tslib.NodeJS.ReadableStream
+          description: ''
+        - id: output
+          type:
+            - tslib.NodeJS.WritableStream
+          description: ''
+          optional: true
+        - id: completer
+          type:
+            - tslib.readline.Completer | tslib.readline.AsyncCompleter
+          description: ''
+          optional: true
+        - id: terminal
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - tslib.readline.Interface
+        description: ''
+    package: tslib
+  - uid: tslib.readline.createInterface_1
+    name: createInterface(ReadLineOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createInterface(options: ReadLineOptions)'
+      parameters:
+        - id: options
+          type:
+            - tslib.readline.ReadLineOptions
+          description: ''
+      return:
+        type:
+          - tslib.readline.Interface
+        description: ''
+    package: tslib
+  - uid: tslib.readline.cursorTo
+    name: >-
+      cursorTo(WritableStream, number, undefined | number, undefined | () =>
+      void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Moves this WriteStream's cursor to the specified position.
+    syntax:
+      content: >-
+        function cursorTo(stream: WritableStream, x: number, y?: undefined |
+        number, callback?: undefined | () => void)
+      parameters:
+        - id: stream
+          type:
+            - tslib.NodeJS.WritableStream
+          description: ''
+        - id: x
+          type:
+            - number
+          description: ''
+        - id: 'y'
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: callback
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.readline.emitKeypressEvents
+    name: 'emitKeypressEvents(ReadableStream, Interface)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function emitKeypressEvents(stream: ReadableStream, readlineInterface?:
+        Interface)
+      parameters:
+        - id: stream
+          type:
+            - tslib.NodeJS.ReadableStream
+          description: ''
+        - id: readlineInterface
+          type:
+            - tslib.readline.Interface
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.readline.moveCursor
+    name: 'moveCursor(WritableStream, number, number, undefined | () => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Moves this WriteStream's cursor relative to its current position.
+    syntax:
+      content: >-
+        function moveCursor(stream: WritableStream, dx: number, dy: number,
+        callback?: undefined | () => void)
+      parameters:
+        - id: stream
+          type:
+            - tslib.NodeJS.WritableStream
+          description: ''
+        - id: dx
+          type:
+            - number
+          description: ''
+        - id: dy
+          type:
+            - number
+          description: ''
+        - id: callback
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.readline.CursorPos
+    name: CursorPos
+    spec.typeScript:
+      - name: CursorPos
+        fullName: CursorPos
+        uid: tslib.readline.CursorPos
+  - uid: tslib.readline.Key
+    name: Key
+    spec.typeScript:
+      - name: Key
+        fullName: Key
+        uid: tslib.readline.Key
+  - uid: tslib.readline.Completer | tslib.readline.AsyncCompleter
+    name: AsyncCompleter
+    spec.typeScript:
+      - name: Completer
+        fullName: Completer
+        uid: tslib.readline.Completer
+      - name: ' | '
+        fullName: ' | '
+      - name: AsyncCompleter
+        fullName: AsyncCompleter
+        uid: tslib.readline.AsyncCompleter
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.readline.Direction
+    name: Direction
+    spec.typeScript:
+      - name: Direction
+        fullName: Direction
+        uid: tslib.readline.Direction
+  - uid: tslib.readline.Interface
+    name: Interface
+    spec.typeScript:
+      - name: Interface
+        fullName: Interface
+        uid: tslib.readline.Interface
+  - uid: tslib.readline.ReadLineOptions
+    name: ReadLineOptions
+    spec.typeScript:
+      - name: ReadLineOptions
+        fullName: ReadLineOptions
+        uid: tslib.readline.ReadLineOptions
+  - uid: tslib.readline.AsyncCompleter
+    name: AsyncCompleter
+  - uid: tslib.readline.clearLine
+    name: clearLine
+  - uid: tslib.readline.clearScreenDown
+    name: clearScreenDown
+  - uid: tslib.readline.Completer
+    name: Completer
+  - uid: tslib.readline.CompleterResult
+    name: CompleterResult
+  - uid: tslib.readline.createInterface
+    name: createInterface
+  - uid: tslib.readline.createInterface_1
+    name: createInterface_1
+  - uid: tslib.readline.cursorTo
+    name: cursorTo
+  - uid: tslib.readline.emitKeypressEvents
+    name: emitKeypressEvents
+  - uid: tslib.readline.moveCursor
+    name: moveCursor
+  - uid: tslib.readline.ReadLine
+    name: ReadLine

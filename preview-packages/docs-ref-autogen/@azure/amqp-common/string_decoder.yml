@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.string_decoder'
+    name: string_decoder
+    langs:
+      - typeScript
+    fullName: string_decoder
+    children:
+      - '@azure/ms-rest-azure-env.string_decoder.NodeStringDecoder'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.Buffer'
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: '@azure/ms-rest-azure-env.Buffer'
+  - uid: '@azure/ms-rest-azure-env.string_decoder.NodeStringDecoder'
+    name: NodeStringDecoder

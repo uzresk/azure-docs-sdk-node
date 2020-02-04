@@ -1,0 +1,229 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobBeginCopyFromUrlPollState'
+    name: BlobBeginCopyFromUrlPollState
+    fullName: BlobBeginCopyFromUrlPollState
+    children:
+      - '@azure/abort-controller.BlobBeginCopyFromUrlPollState.blobClient'
+      - '@azure/abort-controller.BlobBeginCopyFromUrlPollState.copyId'
+      - '@azure/abort-controller.BlobBeginCopyFromUrlPollState.copyProgress'
+      - '@azure/abort-controller.BlobBeginCopyFromUrlPollState.copySource'
+      - '@azure/abort-controller.BlobBeginCopyFromUrlPollState.error'
+      - '@azure/abort-controller.BlobBeginCopyFromUrlPollState.isCancelled'
+      - '@azure/abort-controller.BlobBeginCopyFromUrlPollState.isCompleted'
+      - '@azure/abort-controller.BlobBeginCopyFromUrlPollState.isStarted'
+      - '@azure/abort-controller.BlobBeginCopyFromUrlPollState.result'
+      - >-
+        @azure/abort-controller.BlobBeginCopyFromUrlPollState.startCopyFromURLOptions
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      The state used by the poller returned from
+      <xref:BlobClient.beginCopyFromURL>.
+
+      This state is passed into the user-specified `onProgress` callback
+
+      whenever copy progress is detected.
+    extends:
+      name: >-
+        @azure/abort-controller.PollOperationState<@azure/abort-controller.BlobBeginCopyFromURLResponse>
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromUrlPollState.blobClient'
+    name: blobClient
+    fullName: blobClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The instance of <xref:BlobClient> that was used when calling
+      <xref:BlobClient.beginCopyFromURL>.
+    syntax:
+      content: 'blobClient: CopyPollerBlobClient'
+      return:
+        type:
+          - '@azure/abort-controller.CopyPollerBlobClient'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromUrlPollState.copyId'
+    name: copyId
+    fullName: copyId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The copyId that identifies the in-progress blob copy.
+    optional: true
+    syntax:
+      content: 'copyId?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromUrlPollState.copyProgress'
+    name: copyProgress
+    fullName: copyProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: the progress of the blob copy as reported by the service.
+    optional: true
+    syntax:
+      content: 'copyProgress?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromUrlPollState.copySource'
+    name: copySource
+    fullName: copySource
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The source URL provided in <xref:BlobClient.beginCopyFromURL>.'
+    syntax:
+      content: 'copySource: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromUrlPollState.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'error?: Error'
+      return:
+        type:
+          - '@azure/abort-controller.AbortError.Error'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromUrlPollState.isCancelled'
+    name: isCancelled
+    fullName: isCancelled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isCancelled?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromUrlPollState.isCompleted'
+    name: isCompleted
+    fullName: isCompleted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isCompleted?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromUrlPollState.isStarted'
+    name: isStarted
+    fullName: isStarted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isStarted?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBeginCopyFromUrlPollState.result'
+    name: result
+    fullName: result
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'result?: TResult'
+      return:
+        type:
+          - TResult
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: >-
+      @azure/abort-controller.BlobBeginCopyFromUrlPollState.startCopyFromURLOptions
+    name: startCopyFromURLOptions
+    fullName: startCopyFromURLOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The options that were passed to the initial
+      <xref:BlobClient.beginCopyFromURL> call.
+
+      This is exposed for the poller and should not be modified directly.
+    optional: true
+    syntax:
+      content: 'startCopyFromURLOptions?: BlobStartCopyFromURLOptions'
+      return:
+        type:
+          - '@azure/abort-controller.BlobStartCopyFromURLOptions'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: >-
+      @azure/abort-controller.PollOperationState<@azure/abort-controller.BlobBeginCopyFromURLResponse>
+    name: BlobBeginCopyFromURLResponse>
+    spec.typeScript:
+      - name: PollOperationState
+        fullName: PollOperationState
+        uid: '@azure/abort-controller.PollOperationState'
+      - name: <
+        fullName: <
+      - name: BlobBeginCopyFromURLResponse
+        fullName: BlobBeginCopyFromURLResponse
+        uid: '@azure/abort-controller.BlobBeginCopyFromURLResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.CopyPollerBlobClient'
+    name: CopyPollerBlobClient
+    spec.typeScript:
+      - name: CopyPollerBlobClient
+        fullName: CopyPollerBlobClient
+        uid: '@azure/abort-controller.CopyPollerBlobClient'
+  - uid: '@azure/abort-controller.AbortError.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/abort-controller.AbortError.Error'
+  - uid: '@azure/abort-controller.BlobStartCopyFromURLOptions'
+    name: BlobStartCopyFromURLOptions
+    spec.typeScript:
+      - name: BlobStartCopyFromURLOptions
+        fullName: BlobStartCopyFromURLOptions
+        uid: '@azure/abort-controller.BlobStartCopyFromURLOptions'

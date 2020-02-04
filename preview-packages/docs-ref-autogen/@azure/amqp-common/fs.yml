@@ -1,0 +1,1920 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.fs'
+    name: fs
+    langs:
+      - typeScript
+    fullName: fs
+    children:
+      - '@azure/ms-rest-azure-env.fs.accessSync'
+      - '@azure/ms-rest-azure-env.fs.appendFileSync'
+      - '@azure/ms-rest-azure-env.fs.chmodSync'
+      - '@azure/ms-rest-azure-env.fs.chownSync'
+      - '@azure/ms-rest-azure-env.fs.closeSync'
+      - '@azure/ms-rest-azure-env.fs.copyFileSync'
+      - '@azure/ms-rest-azure-env.fs.createReadStream'
+      - '@azure/ms-rest-azure-env.fs.createWriteStream'
+      - '@azure/ms-rest-azure-env.fs.existsSync'
+      - '@azure/ms-rest-azure-env.fs.fchmodSync'
+      - '@azure/ms-rest-azure-env.fs.fchownSync'
+      - '@azure/ms-rest-azure-env.fs.fdatasyncSync'
+      - '@azure/ms-rest-azure-env.fs.fstatSync'
+      - '@azure/ms-rest-azure-env.fs.FSWatcher'
+      - '@azure/ms-rest-azure-env.fs.fsyncSync'
+      - '@azure/ms-rest-azure-env.fs.ftruncateSync'
+      - '@azure/ms-rest-azure-env.fs.futimesSync'
+      - '@azure/ms-rest-azure-env.fs.lchmodSync'
+      - '@azure/ms-rest-azure-env.fs.lchownSync'
+      - '@azure/ms-rest-azure-env.fs.linkSync'
+      - '@azure/ms-rest-azure-env.fs.lstatSync'
+      - '@azure/ms-rest-azure-env.fs.mkdirSync'
+      - '@azure/ms-rest-azure-env.fs.mkdtempSync_1'
+      - '@azure/ms-rest-azure-env.fs.mkdtempSync'
+      - '@azure/ms-rest-azure-env.fs.mkdtempSync_2'
+      - '@azure/ms-rest-azure-env.fs.openSync'
+      - '@azure/ms-rest-azure-env.fs.PathLike'
+      - '@azure/ms-rest-azure-env.fs.readdirSync_1'
+      - '@azure/ms-rest-azure-env.fs.readdirSync'
+      - '@azure/ms-rest-azure-env.fs.readdirSync_2'
+      - '@azure/ms-rest-azure-env.fs.readFileSync'
+      - '@azure/ms-rest-azure-env.fs.readFileSync_2'
+      - '@azure/ms-rest-azure-env.fs.readFileSync_1'
+      - '@azure/ms-rest-azure-env.fs.readlinkSync_1'
+      - '@azure/ms-rest-azure-env.fs.readlinkSync'
+      - '@azure/ms-rest-azure-env.fs.readlinkSync_2'
+      - '@azure/ms-rest-azure-env.fs.ReadStream'
+      - '@azure/ms-rest-azure-env.fs.readSync'
+      - '@azure/ms-rest-azure-env.fs.realpathSync_1'
+      - '@azure/ms-rest-azure-env.fs.realpathSync'
+      - '@azure/ms-rest-azure-env.fs.realpathSync_2'
+      - '@azure/ms-rest-azure-env.fs.renameSync'
+      - '@azure/ms-rest-azure-env.fs.rmdirSync'
+      - '@azure/ms-rest-azure-env.fs.Stats'
+      - '@azure/ms-rest-azure-env.fs.statSync'
+      - '@azure/ms-rest-azure-env.fs.symlinkSync'
+      - '@azure/ms-rest-azure-env.fs.truncateSync'
+      - '@azure/ms-rest-azure-env.fs.unlinkSync'
+      - '@azure/ms-rest-azure-env.fs.unwatchFile'
+      - '@azure/ms-rest-azure-env.fs.utimesSync'
+      - '@azure/ms-rest-azure-env.fs.watch_1'
+      - '@azure/ms-rest-azure-env.fs.watch'
+      - '@azure/ms-rest-azure-env.fs.watch_2'
+      - '@azure/ms-rest-azure-env.fs.watch_3'
+      - '@azure/ms-rest-azure-env.fs.watchFile_1'
+      - '@azure/ms-rest-azure-env.fs.watchFile'
+      - '@azure/ms-rest-azure-env.fs.writeFileSync'
+      - '@azure/ms-rest-azure-env.fs.WriteStream'
+      - '@azure/ms-rest-azure-env.fs.writeSync_1'
+      - '@azure/ms-rest-azure-env.fs.writeSync'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.accessSync'
+    name: 'accessSync(PathLike, undefined | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronously tests a user's permissions for the file specified by path.
+    syntax:
+      content: 'function accessSync(path: PathLike, mode?: undefined | number)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file or directory. If a URL is provided, it must use the
+            `file:` protocol.
+
+            URL support is _experimental_.
+        - id: mode
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.appendFileSync'
+    name: 'appendFileSync(PathLike | number, any, Object | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronously append data to a file, creating the file if it does not
+      exist.
+    syntax:
+      content: >-
+        function appendFileSync(file: PathLike | number, data: any, options?:
+        Object | string | null)
+      parameters:
+        - id: file
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike | number'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            URL support is _experimental_.
+
+            If a file descriptor is provided, the underlying file will _not_ be
+            closed automatically.
+        - id: data
+          type:
+            - any
+          description: >-
+            The data to write. If something other than a Buffer or Uint8Array is
+            provided, the value is coerced to a string.
+        - id: options
+          type:
+            - Object | string | null
+          description: >
+            Either the encoding for the file, or an object optionally specifying
+            the encoding, file mode, and flag.
+
+            If `encoding` is not supplied, the default of `'utf8'` is used.
+
+            If `mode` is not supplied, the default of `0o666` is used.
+
+            If `mode` is a string, it is parsed as an octal integer.
+
+            If `flag` is not supplied, the default of `'a'` is used.
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.chmodSync'
+    name: 'chmodSync(PathLike, string | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous chmod(2) - Change permissions of a file.
+    syntax:
+      content: 'function chmodSync(path: PathLike, mode: string | number)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: mode
+          type:
+            - string | number
+          description: >
+            A file mode. If a string is passed, it is parsed as an octal
+            integer.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.chownSync'
+    name: 'chownSync(PathLike, number, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous chown(2) - Change ownership of a file.
+    syntax:
+      content: 'function chownSync(path: PathLike, uid: number, gid: number)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: uid
+          type:
+            - number
+          description: ''
+        - id: gid
+          type:
+            - number
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.closeSync'
+    name: closeSync(number)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous close(2) - close a file descriptor.
+    syntax:
+      content: 'function closeSync(fd: number)'
+      parameters:
+        - id: fd
+          type:
+            - number
+          description: |
+            A file descriptor.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.copyFileSync'
+    name: 'copyFileSync(PathLike, PathLike, undefined | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronously copies src to dest. By default, dest is overwritten if it
+      already exists.
+
+      Node.js makes no guarantees about the atomicity of the copy operation.
+
+      If an error occurs after the destination file has been opened for writing,
+      Node.js will attempt
+
+      to remove the destination.
+    syntax:
+      content: >-
+        function copyFileSync(src: PathLike, dest: PathLike, flags?: undefined |
+        number)
+      parameters:
+        - id: src
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: A path to the source file.
+        - id: dest
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: A path to the destination file.
+        - id: flags
+          type:
+            - undefined | number
+          description: >
+            An optional integer that specifies the behavior of the copy
+            operation. The only supported flag is fs.constants.COPYFILE_EXCL,
+            which causes the copy operation to fail if dest already exists.
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.createReadStream'
+    name: 'createReadStream(PathLike, string | Object)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Returns a new `ReadStream` object.
+    syntax:
+      content: 'function createReadStream(path: PathLike, options?: string | Object)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            URL support is _experimental_.
+        - id: options
+          type:
+            - string | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.fs.ReadStream'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.createWriteStream'
+    name: 'createWriteStream(PathLike, string | Object)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Returns a new `WriteStream` object.
+    syntax:
+      content: 'function createWriteStream(path: PathLike, options?: string | Object)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            URL support is _experimental_.
+        - id: options
+          type:
+            - string | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.fs.WriteStream'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.existsSync'
+    name: existsSync(PathLike)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronously tests whether or not the given path exists by checking with
+      the file system.
+    syntax:
+      content: 'function existsSync(path: PathLike)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file or directory. If a URL is provided, it must use the
+            `file:` protocol.
+
+            URL support is _experimental_.
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.fchmodSync'
+    name: 'fchmodSync(number, string | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous fchmod(2) - Change permissions of a file.
+    syntax:
+      content: 'function fchmodSync(fd: number, mode: string | number)'
+      parameters:
+        - id: fd
+          type:
+            - number
+          description: A file descriptor.
+        - id: mode
+          type:
+            - string | number
+          description: >
+            A file mode. If a string is passed, it is parsed as an octal
+            integer.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.fchownSync'
+    name: 'fchownSync(number, number, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous fchown(2) - Change ownership of a file.
+    syntax:
+      content: 'function fchownSync(fd: number, uid: number, gid: number)'
+      parameters:
+        - id: fd
+          type:
+            - number
+          description: |
+            A file descriptor.
+        - id: uid
+          type:
+            - number
+          description: ''
+        - id: gid
+          type:
+            - number
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.fdatasyncSync'
+    name: fdatasyncSync(number)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronous fdatasync(2) - synchronize a file's in-core state with storage
+      device.
+    syntax:
+      content: 'function fdatasyncSync(fd: number)'
+      parameters:
+        - id: fd
+          type:
+            - number
+          description: |
+            A file descriptor.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.fstatSync'
+    name: fstatSync(number)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous fstat(2) - Get file status.
+    syntax:
+      content: 'function fstatSync(fd: number)'
+      parameters:
+        - id: fd
+          type:
+            - number
+          description: |
+            A file descriptor.
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.fs.Stats'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.fsyncSync'
+    name: fsyncSync(number)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronous fsync(2) - synchronize a file's in-core state with the
+      underlying storage device.
+    syntax:
+      content: 'function fsyncSync(fd: number)'
+      parameters:
+        - id: fd
+          type:
+            - number
+          description: |
+            A file descriptor.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.ftruncateSync'
+    name: 'ftruncateSync(number, number | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous ftruncate(2) - Truncate a file to a specified length.
+    syntax:
+      content: 'function ftruncateSync(fd: number, len?: number | null)'
+      parameters:
+        - id: fd
+          type:
+            - number
+          description: A file descriptor.
+        - id: len
+          type:
+            - number | null
+          description: |
+            If not specified, defaults to `0`.
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.futimesSync'
+    name: 'futimesSync(number, string | number | Date, string | number | Date)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronously change file timestamps of the file referenced by the
+      supplied file descriptor.
+    syntax:
+      content: >-
+        function futimesSync(fd: number, atime: string | number | Date, mtime:
+        string | number | Date)
+      parameters:
+        - id: fd
+          type:
+            - number
+          description: A file descriptor.
+        - id: atime
+          type:
+            - string | number | Date
+          description: >-
+            The last access time. If a string is provided, it will be coerced to
+            number.
+        - id: mtime
+          type:
+            - string | number | Date
+          description: >
+            The last modified time. If a string is provided, it will be coerced
+            to number.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.lchmodSync'
+    name: 'lchmodSync(PathLike, string | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronous lchmod(2) - Change permissions of a file. Does not dereference
+      symbolic links.
+    syntax:
+      content: 'function lchmodSync(path: PathLike, mode: string | number)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: mode
+          type:
+            - string | number
+          description: >
+            A file mode. If a string is passed, it is parsed as an octal
+            integer.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.lchownSync'
+    name: 'lchownSync(PathLike, number, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronous lchown(2) - Change ownership of a file. Does not dereference
+      symbolic links.
+    syntax:
+      content: 'function lchownSync(path: PathLike, uid: number, gid: number)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: uid
+          type:
+            - number
+          description: ''
+        - id: gid
+          type:
+            - number
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.linkSync'
+    name: 'linkSync(PathLike, PathLike)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronous link(2) - Create a new link (also known as a hard link) to an
+      existing file.
+    syntax:
+      content: 'function linkSync(existingPath: PathLike, newPath: PathLike)'
+      parameters:
+        - id: existingPath
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: newPath
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.lstatSync'
+    name: lstatSync(PathLike)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronous lstat(2) - Get file status. Does not dereference symbolic
+      links.
+    syntax:
+      content: 'function lstatSync(path: PathLike)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.fs.Stats'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.mkdirSync'
+    name: 'mkdirSync(PathLike, number | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous mkdir(2) - create a directory.
+    syntax:
+      content: 'function mkdirSync(path: PathLike, mode?: number | string | null)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: mode
+          type:
+            - number | string | null
+          description: >
+            A file mode. If a string is passed, it is parsed as an octal
+            integer. If not specified, defaults to `0o777`.
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.mkdtempSync_1'
+    name: 'mkdtempSync(string, Object | "buffer")'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronously creates a unique temporary directory.
+
+      Generates six random characters to be appended behind a required prefix to
+      create a unique temporary directory.
+    syntax:
+      content: 'function mkdtempSync(prefix: string, options: Object | "buffer")'
+      parameters:
+        - id: prefix
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - Object | "buffer"
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.mkdtempSync'
+    name: 'mkdtempSync(string, Object | BufferEncoding | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronously creates a unique temporary directory.
+
+      Generates six random characters to be appended behind a required prefix to
+      create a unique temporary directory.
+    syntax:
+      content: >-
+        function mkdtempSync(prefix: string, options?: Object | BufferEncoding |
+        null)
+      parameters:
+        - id: prefix
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - Object | @azure/ms-rest-azure-env.BufferEncoding | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.mkdtempSync_2'
+    name: 'mkdtempSync(string, Object | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronously creates a unique temporary directory.
+
+      Generates six random characters to be appended behind a required prefix to
+      create a unique temporary directory.
+    syntax:
+      content: 'function mkdtempSync(prefix: string, options?: Object | string | null)'
+      parameters:
+        - id: prefix
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - Object | string | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - string | Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.openSync'
+    name: 'openSync(PathLike, string | number, string | number | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronous open(2) - open and possibly create a file, returning a file
+      descriptor..
+    syntax:
+      content: >-
+        function openSync(path: PathLike, flags: string | number, mode?: string
+        | number | null)
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: flags
+          type:
+            - string | number
+          description: ''
+        - id: mode
+          type:
+            - string | number | null
+          description: >
+            A file mode. If a string is passed, it is parsed as an octal
+            integer. If not supplied, defaults to `0o666`.
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.readdirSync_1'
+    name: 'readdirSync(PathLike, Object | "buffer")'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous readdir(3) - read a directory.
+    syntax:
+      content: 'function readdirSync(path: PathLike, options: Object | "buffer")'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | "buffer"
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+      return:
+        type:
+          - 'Buffer[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.readdirSync'
+    name: 'readdirSync(PathLike, Object | BufferEncoding | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous readdir(3) - read a directory.
+    syntax:
+      content: >-
+        function readdirSync(path: PathLike, options?: Object | BufferEncoding |
+        null)
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | @azure/ms-rest-azure-env.BufferEncoding | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.readdirSync_2'
+    name: 'readdirSync(PathLike, Object | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous readdir(3) - read a directory.
+    syntax:
+      content: 'function readdirSync(path: PathLike, options?: Object | string | null)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | string | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - 'string[] | Buffer[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.readFileSync'
+    name: 'readFileSync(PathLike | number, Object | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronously reads the entire contents of a file.
+    syntax:
+      content: 'function readFileSync(path: PathLike | number, options?: Object | null)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike | number'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            URL support is _experimental_.
+
+            If a file descriptor is provided, the underlying file will _not_ be
+            closed automatically.
+        - id: options
+          type:
+            - Object | null
+          description: >
+            An object that may contain an optional flag. If a flag is not
+            provided, it defaults to `'r'`.
+          optional: true
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.readFileSync_2'
+    name: 'readFileSync(PathLike | number, Object | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronously reads the entire contents of a file.
+    syntax:
+      content: >-
+        function readFileSync(path: PathLike | number, options?: Object | string
+        | null)
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike | number'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            URL support is _experimental_.
+
+            If a file descriptor is provided, the underlying file will _not_ be
+            closed automatically.
+        - id: options
+          type:
+            - Object | string | null
+          description: >
+            Either the encoding for the result, or an object that contains the
+            encoding and an optional flag.
+
+            If a flag is not provided, it defaults to `'r'`.
+          optional: true
+      return:
+        type:
+          - string | Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.readFileSync_1'
+    name: 'readFileSync(PathLike | number, Object | string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronously reads the entire contents of a file.
+    syntax:
+      content: 'function readFileSync(path: PathLike | number, options: Object | string)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike | number'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            URL support is _experimental_.
+
+            If a file descriptor is provided, the underlying file will _not_ be
+            closed automatically.
+        - id: options
+          type:
+            - Object | string
+          description: >
+            Either the encoding for the result, or an object that contains the
+            encoding and an optional flag.
+
+            If a flag is not provided, it defaults to `'r'`.
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.readlinkSync_1'
+    name: 'readlinkSync(PathLike, Object | "buffer")'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous readlink(2) - read value of a symbolic link.
+    syntax:
+      content: 'function readlinkSync(path: PathLike, options: Object | "buffer")'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | "buffer"
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.readlinkSync'
+    name: 'readlinkSync(PathLike, Object | BufferEncoding | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous readlink(2) - read value of a symbolic link.
+    syntax:
+      content: >-
+        function readlinkSync(path: PathLike, options?: Object | BufferEncoding
+        | null)
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | @azure/ms-rest-azure-env.BufferEncoding | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.readlinkSync_2'
+    name: 'readlinkSync(PathLike, Object | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous readlink(2) - read value of a symbolic link.
+    syntax:
+      content: 'function readlinkSync(path: PathLike, options?: Object | string | null)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | string | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - string | Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.readSync'
+    name: 'readSync(number, Buffer | Uint8Array, number, number, number | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronously reads data from the file referenced by the supplied file
+      descriptor, returning the number of bytes read.
+    syntax:
+      content: >-
+        function readSync(fd: number, buffer: Buffer | Uint8Array, offset:
+        number, length: number, position: number | null)
+      parameters:
+        - id: fd
+          type:
+            - number
+          description: A file descriptor.
+        - id: buffer
+          type:
+            - Buffer | Uint8Array
+          description: The buffer that the data will be written to.
+        - id: offset
+          type:
+            - number
+          description: The offset in the buffer at which to start writing.
+        - id: length
+          type:
+            - number
+          description: The number of bytes to read.
+        - id: position
+          type:
+            - number | null
+          description: >
+            The offset from the beginning of the file from which data should be
+            read. If `null`, data will be read from the current position.
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.realpathSync_1'
+    name: 'realpathSync(PathLike, Object | "buffer")'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous realpath(3) - return the canonicalized absolute pathname.
+    syntax:
+      content: 'function realpathSync(path: PathLike, options: Object | "buffer")'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | "buffer"
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.realpathSync'
+    name: 'realpathSync(PathLike, Object | BufferEncoding | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous realpath(3) - return the canonicalized absolute pathname.
+    syntax:
+      content: >-
+        function realpathSync(path: PathLike, options?: Object | BufferEncoding
+        | null)
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | @azure/ms-rest-azure-env.BufferEncoding | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.realpathSync_2'
+    name: 'realpathSync(PathLike, Object | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous realpath(3) - return the canonicalized absolute pathname.
+    syntax:
+      content: 'function realpathSync(path: PathLike, options?: Object | string | null)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | string | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - string | Buffer
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.renameSync'
+    name: 'renameSync(PathLike, PathLike)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronous rename(2) - Change the name or location of a file or
+      directory.
+    syntax:
+      content: 'function renameSync(oldPath: PathLike, newPath: PathLike)'
+      parameters:
+        - id: oldPath
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            URL support is _experimental_.
+        - id: newPath
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            URL support is _experimental_.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.rmdirSync'
+    name: rmdirSync(PathLike)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous rmdir(2) - delete a directory.
+    syntax:
+      content: 'function rmdirSync(path: PathLike)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.statSync'
+    name: statSync(PathLike)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous stat(2) - Get file status.
+    syntax:
+      content: 'function statSync(path: PathLike)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.fs.Stats'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.symlinkSync'
+    name: 'symlinkSync(PathLike, PathLike, symlink)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous symlink(2) - Create a new symbolic link to an existing file.
+    syntax:
+      content: 'function symlinkSync(target: PathLike, path: PathLike, type?: symlink)'
+      parameters:
+        - id: target
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to an existing file. If a URL is provided, it must use the
+            `file:` protocol.
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to the new symlink. If a URL is provided, it must use the
+            `file:` protocol.
+        - id: type
+          type:
+            - symlink
+          description: >
+            May be set to `'dir'`, `'file'`, or `'junction'` (default is
+            `'file'`) and is only available on Windows (ignored on other
+            platforms).
+
+            When using `'junction'`, the `target` argument will automatically be
+            normalized to an absolute path.
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.truncateSync'
+    name: 'truncateSync(PathLike, number | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous truncate(2) - Truncate a file to a specified length.
+    syntax:
+      content: 'function truncateSync(path: PathLike, len?: number | null)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: len
+          type:
+            - number | null
+          description: |
+            If not specified, defaults to `0`.
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.unlinkSync'
+    name: unlinkSync(PathLike)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Synchronous unlink(2) - delete a name and possibly the file it refers to.
+    syntax:
+      content: 'function unlinkSync(path: PathLike)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.unwatchFile'
+    name: 'unwatchFile(PathLike, undefined | (curr: Stats, prev: Stats) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Stop watching for changes on `filename`.
+    syntax:
+      content: >-
+        function unwatchFile(filename: PathLike, listener?: undefined | (curr:
+        Stats, prev: Stats) => void)
+      parameters:
+        - id: filename
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file or directory. If a URL is provided, it must use the
+            `file:` protocol.
+
+            URL support is _experimental_.
+        - id: listener
+          type:
+            - 'undefined | (curr: Stats, prev: Stats) => void'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.utimesSync'
+    name: 'utimesSync(PathLike, string | number | Date, string | number | Date)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronously change file timestamps of the file referenced by the
+      supplied path.
+    syntax:
+      content: >-
+        function utimesSync(path: PathLike, atime: string | number | Date,
+        mtime: string | number | Date)
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: atime
+          type:
+            - string | number | Date
+          description: >-
+            The last access time. If a string is provided, it will be coerced to
+            number.
+        - id: mtime
+          type:
+            - string | number | Date
+          description: >
+            The last modified time. If a string is provided, it will be coerced
+            to number.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.watch_1'
+    name: >-
+      watch(PathLike, Object | "buffer", undefined | (event: string, filename:
+      Buffer) => void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Watch for changes on `filename`, where `filename` is either a file or a
+      directory, returning an `FSWatcher`.
+    syntax:
+      content: >-
+        function watch(filename: PathLike, options: Object | "buffer",
+        listener?: undefined | (event: string, filename: Buffer) => void)
+      parameters:
+        - id: filename
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file or directory. If a URL is provided, it must use the
+            `file:` protocol.
+
+            URL support is _experimental_.
+        - id: options
+          type:
+            - Object | "buffer"
+          description: >
+            Either the encoding for the filename provided to the listener, or an
+            object optionally specifying encoding, persistent, and recursive
+            options.
+
+            If `encoding` is not supplied, the default of `'utf8'` is used.
+
+            If `persistent` is not supplied, the default of `true` is used.
+
+            If `recursive` is not supplied, the default of `false` is used.
+        - id: listener
+          type:
+            - 'undefined | (event: string, filename: Buffer) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - FSWatcher
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.watch'
+    name: >-
+      watch(PathLike, Object | BufferEncoding | undefined | null, undefined |
+      (event: string, filename: string) => void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Watch for changes on `filename`, where `filename` is either a file or a
+      directory, returning an `FSWatcher`.
+    syntax:
+      content: >-
+        function watch(filename: PathLike, options: Object | BufferEncoding |
+        undefined | null, listener?: undefined | (event: string, filename:
+        string) => void)
+      parameters:
+        - id: filename
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file or directory. If a URL is provided, it must use the
+            `file:` protocol.
+
+            URL support is _experimental_.
+        - id: options
+          type:
+            - >-
+              Object | @azure/ms-rest-azure-env.BufferEncoding | undefined |
+              null
+          description: >
+            Either the encoding for the filename provided to the listener, or an
+            object optionally specifying encoding, persistent, and recursive
+            options.
+
+            If `encoding` is not supplied, the default of `'utf8'` is used.
+
+            If `persistent` is not supplied, the default of `true` is used.
+
+            If `recursive` is not supplied, the default of `false` is used.
+        - id: listener
+          type:
+            - 'undefined | (event: string, filename: string) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - FSWatcher
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.watch_2'
+    name: >-
+      watch(PathLike, Object | string | null, undefined | (event: string,
+      filename: string | Buffer) => void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Watch for changes on `filename`, where `filename` is either a file or a
+      directory, returning an `FSWatcher`.
+    syntax:
+      content: >-
+        function watch(filename: PathLike, options: Object | string | null,
+        listener?: undefined | (event: string, filename: string | Buffer) =>
+        void)
+      parameters:
+        - id: filename
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >-
+            A path to a file or directory. If a URL is provided, it must use the
+            `file:` protocol.
+
+            URL support is _experimental_.
+        - id: options
+          type:
+            - Object | string | null
+          description: >
+            Either the encoding for the filename provided to the listener, or an
+            object optionally specifying encoding, persistent, and recursive
+            options.
+
+            If `encoding` is not supplied, the default of `'utf8'` is used.
+
+            If `persistent` is not supplied, the default of `true` is used.
+
+            If `recursive` is not supplied, the default of `false` is used.
+        - id: listener
+          type:
+            - 'undefined | (event: string, filename: string | Buffer) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - FSWatcher
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.watch_3'
+    name: 'watch(PathLike, undefined | (event: string, filename: string) => any)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Watch for changes on `filename`, where `filename` is either a file or a
+      directory, returning an `FSWatcher`.
+    syntax:
+      content: >-
+        function watch(filename: PathLike, listener?: undefined | (event:
+        string, filename: string) => any)
+      parameters:
+        - id: filename
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file or directory. If a URL is provided, it must use the
+            `file:` protocol.
+
+            URL support is _experimental_.
+        - id: listener
+          type:
+            - 'undefined | (event: string, filename: string) => any'
+          description: ''
+          optional: true
+      return:
+        type:
+          - FSWatcher
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.watchFile_1'
+    name: 'watchFile(PathLike, (curr: Stats, prev: Stats) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Watch for changes on `filename`. The callback `listener` will be called
+      each time the file is accessed.
+    syntax:
+      content: >-
+        function watchFile(filename: PathLike, listener: (curr: Stats, prev:
+        Stats) => void)
+      parameters:
+        - id: filename
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: >
+            A path to a file or directory. If a URL is provided, it must use the
+            `file:` protocol.
+
+            URL support is _experimental_.
+        - id: listener
+          type:
+            - '(curr: Stats, prev: Stats) => void'
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.watchFile'
+    name: >-
+      watchFile(PathLike, Object | undefined, (curr: Stats, prev: Stats) =>
+      void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Watch for changes on `filename`. The callback `listener` will be called
+      each time the file is accessed.
+    syntax:
+      content: >-
+        function watchFile(filename: PathLike, options: Object | undefined,
+        listener: (curr: Stats, prev: Stats) => void)
+      parameters:
+        - id: filename
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike'
+          description: ''
+        - id: options
+          type:
+            - Object | undefined
+          description: ''
+        - id: listener
+          type:
+            - '(curr: Stats, prev: Stats) => void'
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.writeFileSync'
+    name: 'writeFileSync(PathLike | number, any, Object | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronously writes data to a file, replacing the file if it already
+      exists.
+    syntax:
+      content: >-
+        function writeFileSync(path: PathLike | number, data: any, options?:
+        Object | string | null)
+      parameters:
+        - id: path
+          type:
+            - '@azure/ms-rest-azure-env.fs.PathLike | number'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            URL support is _experimental_.
+
+            If a file descriptor is provided, the underlying file will _not_ be
+            closed automatically.
+        - id: data
+          type:
+            - any
+          description: >-
+            The data to write. If something other than a Buffer or Uint8Array is
+            provided, the value is coerced to a string.
+        - id: options
+          type:
+            - Object | string | null
+          description: >
+            Either the encoding for the file, or an object optionally specifying
+            the encoding, file mode, and flag.
+
+            If `encoding` is not supplied, the default of `'utf8'` is used.
+
+            If `mode` is not supplied, the default of `0o666` is used.
+
+            If `mode` is a string, it is parsed as an octal integer.
+
+            If `flag` is not supplied, the default of `'w'` is used.
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.writeSync_1'
+    name: 'writeSync(number, any, number | null, string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronously writes `string` to the file referenced by the supplied file
+      descriptor, returning the number of bytes written.
+    syntax:
+      content: >-
+        function writeSync(fd: number, string: any, position?: number | null,
+        encoding?: string | null)
+      parameters:
+        - id: fd
+          type:
+            - number
+          description: A file descriptor.
+        - id: string
+          type:
+            - any
+          description: >-
+            A string to write. If something other than a string is supplied it
+            will be coerced to a string.
+        - id: position
+          type:
+            - number | null
+          description: >-
+            The offset from the beginning of the file where this data should be
+            written. If not supplied, defaults to the current position.
+          optional: true
+        - id: encoding
+          type:
+            - string | null
+          description: |
+            The expected string encoding.
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.writeSync'
+    name: >-
+      writeSync(number, Buffer | Uint8Array, number | null, number | null,
+      number | null)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Synchronously writes `buffer` to the file referenced by the supplied file
+      descriptor, returning the number of bytes written.
+    syntax:
+      content: >-
+        function writeSync(fd: number, buffer: Buffer | Uint8Array, offset?:
+        number | null, length?: number | null, position?: number | null)
+      parameters:
+        - id: fd
+          type:
+            - number
+          description: A file descriptor.
+        - id: buffer
+          type:
+            - Buffer | Uint8Array
+          description: ''
+        - id: offset
+          type:
+            - number | null
+          description: >-
+            The part of the buffer to be written. If not supplied, defaults to
+            `0`.
+          optional: true
+        - id: length
+          type:
+            - number | null
+          description: >-
+            The number of bytes to write. If not supplied, defaults to
+            `buffer.length - offset`.
+          optional: true
+        - id: position
+          type:
+            - number | null
+          description: >
+            The offset from the beginning of the file where this data should be
+            written. If not supplied, defaults to the current position.
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.WritableOptions'
+    name: WritableOptions
+    spec.typeScript:
+      - name: WritableOptions
+        fullName: WritableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.WritableOptions'
+  - uid: '@azure/ms-rest-azure-env.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.Error'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+  - uid: '@azure/ms-rest-azure-env.fs.PathLike'
+    name: PathLike
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/ms-rest-azure-env.fs.PathLike'
+  - uid: '@azure/ms-rest-azure-env.fs.PathLike | number'
+    name: PathLike | number
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/ms-rest-azure-env.fs.PathLike'
+      - name: ' | number'
+        fullName: ' | number'
+  - uid: '@azure/ms-rest-azure-env.fs.ReadStream'
+    name: ReadStream
+    spec.typeScript:
+      - name: ReadStream
+        fullName: ReadStream
+        uid: '@azure/ms-rest-azure-env.fs.ReadStream'
+  - uid: '@azure/ms-rest-azure-env.fs.WriteStream'
+    name: WriteStream
+    spec.typeScript:
+      - name: WriteStream
+        fullName: WriteStream
+        uid: '@azure/ms-rest-azure-env.fs.WriteStream'
+  - uid: '@azure/ms-rest-azure-env.fs.Stats'
+    name: Stats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: '@azure/ms-rest-azure-env.fs.Stats'
+  - uid: Object | @azure/ms-rest-azure-env.BufferEncoding | null
+    name: BufferEncoding | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: Object | @azure/ms-rest-azure-env.BufferEncoding | undefined | null
+    name: BufferEncoding | undefined | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+      - name: ' | undefined | null'
+        fullName: ' | undefined | null'
+  - uid: '@azure/ms-rest-azure-env.fs.accessSync'
+    name: accessSync
+  - uid: '@azure/ms-rest-azure-env.fs.appendFileSync'
+    name: appendFileSync
+  - uid: '@azure/ms-rest-azure-env.fs.chmodSync'
+    name: chmodSync
+  - uid: '@azure/ms-rest-azure-env.fs.chownSync'
+    name: chownSync
+  - uid: '@azure/ms-rest-azure-env.fs.closeSync'
+    name: closeSync
+  - uid: '@azure/ms-rest-azure-env.fs.copyFileSync'
+    name: copyFileSync
+  - uid: '@azure/ms-rest-azure-env.fs.createReadStream'
+    name: createReadStream
+  - uid: '@azure/ms-rest-azure-env.fs.createWriteStream'
+    name: createWriteStream
+  - uid: '@azure/ms-rest-azure-env.fs.existsSync'
+    name: existsSync
+  - uid: '@azure/ms-rest-azure-env.fs.fchmodSync'
+    name: fchmodSync
+  - uid: '@azure/ms-rest-azure-env.fs.fchownSync'
+    name: fchownSync
+  - uid: '@azure/ms-rest-azure-env.fs.fdatasyncSync'
+    name: fdatasyncSync
+  - uid: '@azure/ms-rest-azure-env.fs.fstatSync'
+    name: fstatSync
+  - uid: '@azure/ms-rest-azure-env.fs.FSWatcher'
+    name: FSWatcher
+  - uid: '@azure/ms-rest-azure-env.fs.fsyncSync'
+    name: fsyncSync
+  - uid: '@azure/ms-rest-azure-env.fs.ftruncateSync'
+    name: ftruncateSync
+  - uid: '@azure/ms-rest-azure-env.fs.futimesSync'
+    name: futimesSync
+  - uid: '@azure/ms-rest-azure-env.fs.lchmodSync'
+    name: lchmodSync
+  - uid: '@azure/ms-rest-azure-env.fs.lchownSync'
+    name: lchownSync
+  - uid: '@azure/ms-rest-azure-env.fs.linkSync'
+    name: linkSync
+  - uid: '@azure/ms-rest-azure-env.fs.lstatSync'
+    name: lstatSync
+  - uid: '@azure/ms-rest-azure-env.fs.mkdirSync'
+    name: mkdirSync
+  - uid: '@azure/ms-rest-azure-env.fs.mkdtempSync_1'
+    name: mkdtempSync_1
+  - uid: '@azure/ms-rest-azure-env.fs.mkdtempSync'
+    name: mkdtempSync
+  - uid: '@azure/ms-rest-azure-env.fs.mkdtempSync_2'
+    name: mkdtempSync_2
+  - uid: '@azure/ms-rest-azure-env.fs.openSync'
+    name: openSync
+  - uid: '@azure/ms-rest-azure-env.fs.readdirSync_1'
+    name: readdirSync_1
+  - uid: '@azure/ms-rest-azure-env.fs.readdirSync'
+    name: readdirSync
+  - uid: '@azure/ms-rest-azure-env.fs.readdirSync_2'
+    name: readdirSync_2
+  - uid: '@azure/ms-rest-azure-env.fs.readFileSync'
+    name: readFileSync
+  - uid: '@azure/ms-rest-azure-env.fs.readFileSync_2'
+    name: readFileSync_2
+  - uid: '@azure/ms-rest-azure-env.fs.readFileSync_1'
+    name: readFileSync_1
+  - uid: '@azure/ms-rest-azure-env.fs.readlinkSync_1'
+    name: readlinkSync_1
+  - uid: '@azure/ms-rest-azure-env.fs.readlinkSync'
+    name: readlinkSync
+  - uid: '@azure/ms-rest-azure-env.fs.readlinkSync_2'
+    name: readlinkSync_2
+  - uid: '@azure/ms-rest-azure-env.fs.readSync'
+    name: readSync
+  - uid: '@azure/ms-rest-azure-env.fs.realpathSync_1'
+    name: realpathSync_1
+  - uid: '@azure/ms-rest-azure-env.fs.realpathSync'
+    name: realpathSync
+  - uid: '@azure/ms-rest-azure-env.fs.realpathSync_2'
+    name: realpathSync_2
+  - uid: '@azure/ms-rest-azure-env.fs.renameSync'
+    name: renameSync
+  - uid: '@azure/ms-rest-azure-env.fs.rmdirSync'
+    name: rmdirSync
+  - uid: '@azure/ms-rest-azure-env.fs.statSync'
+    name: statSync
+  - uid: '@azure/ms-rest-azure-env.fs.symlinkSync'
+    name: symlinkSync
+  - uid: '@azure/ms-rest-azure-env.fs.truncateSync'
+    name: truncateSync
+  - uid: '@azure/ms-rest-azure-env.fs.unlinkSync'
+    name: unlinkSync
+  - uid: '@azure/ms-rest-azure-env.fs.unwatchFile'
+    name: unwatchFile
+  - uid: '@azure/ms-rest-azure-env.fs.utimesSync'
+    name: utimesSync
+  - uid: '@azure/ms-rest-azure-env.fs.watch_1'
+    name: watch_1
+  - uid: '@azure/ms-rest-azure-env.fs.watch'
+    name: watch
+  - uid: '@azure/ms-rest-azure-env.fs.watch_2'
+    name: watch_2
+  - uid: '@azure/ms-rest-azure-env.fs.watch_3'
+    name: watch_3
+  - uid: '@azure/ms-rest-azure-env.fs.watchFile_1'
+    name: watchFile_1
+  - uid: '@azure/ms-rest-azure-env.fs.watchFile'
+    name: watchFile
+  - uid: '@azure/ms-rest-azure-env.fs.writeFileSync'
+    name: writeFileSync
+  - uid: '@azure/ms-rest-azure-env.fs.writeSync_1'
+    name: writeSync_1
+  - uid: '@azure/ms-rest-azure-env.fs.writeSync'
+    name: writeSync

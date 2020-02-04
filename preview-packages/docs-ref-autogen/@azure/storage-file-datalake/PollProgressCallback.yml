@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.PollProgressCallback'
+    name: PollProgressCallback
+    fullName: PollProgressCallback<TState>
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type PollProgressCallback<TState> = (state: TState) => void'
+    package: '@azure/abort-controller'

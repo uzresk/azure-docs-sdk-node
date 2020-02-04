@@ -1,0 +1,138 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.xmlbuilder.WriterState'
+    name: WriterState
+    fullName: WriterState
+    children:
+      - '@azure/abort-controller.xmlbuilder.WriterState.None'
+      - '@azure/abort-controller.xmlbuilder.WriterState.OpenTag'
+      - '@azure/abort-controller.xmlbuilder.WriterState.InsideTag'
+      - '@azure/abort-controller.xmlbuilder.WriterState.CloseTag'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.xmlbuilder.WriterState.None'
+    name: None
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.xmlbuilder.WriterState.OpenTag'
+    name: OpenTag
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.xmlbuilder.WriterState.InsideTag'
+    name: InsideTag
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.xmlbuilder.WriterState.CloseTag'
+    name: CloseTag
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.xmlbuilder.XMLDocType'
+    name: XMLDocType
+    spec.typeScript:
+      - name: XMLDocType
+        fullName: XMLDocType
+        uid: '@azure/abort-controller.xmlbuilder.XMLDocType'
+  - uid: '@azure/abort-controller.NodeJS.Global.Object'
+    name: Object
+    spec.typeScript:
+      - name: Object
+        fullName: Object
+        uid: '@azure/abort-controller.NodeJS.Global.Object'
+  - uid: '@azure/abort-controller.xmlbuilder.XMLToStringOptions'
+    name: XMLToStringOptions
+    spec.typeScript:
+      - name: XMLToStringOptions
+        fullName: XMLToStringOptions
+        uid: '@azure/abort-controller.xmlbuilder.XMLToStringOptions'
+  - uid: '@azure/abort-controller.NodeJS.Global.Number'
+    name: Number
+    spec.typeScript:
+      - name: Number
+        fullName: Number
+        uid: '@azure/abort-controller.NodeJS.Global.Number'
+  - uid: '@azure/abort-controller.xmlbuilder.XMLElementOrXMLNode'
+    name: XMLElementOrXMLNode
+    spec.typeScript:
+      - name: XMLElementOrXMLNode
+        fullName: XMLElementOrXMLNode
+        uid: '@azure/abort-controller.xmlbuilder.XMLElementOrXMLNode'
+  - uid: '@azure/abort-controller.xmlbuilder.XMLEndOptions'
+    name: XMLEndOptions
+    spec.typeScript:
+      - name: XMLEndOptions
+        fullName: XMLEndOptions
+        uid: '@azure/abort-controller.xmlbuilder.XMLEndOptions'
+  - uid: '@azure/abort-controller.xmlbuilder.WriterState'
+    name: WriterState
+    spec.typeScript:
+      - name: WriterState
+        fullName: WriterState
+        uid: '@azure/abort-controller.xmlbuilder.WriterState'
+  - uid: '@azure/abort-controller.xmlbuilder.XMLStringifier'
+    name: XMLStringifier
+    spec.typeScript:
+      - name: XMLStringifier
+        fullName: XMLStringifier
+        uid: '@azure/abort-controller.xmlbuilder.XMLStringifier'
+  - uid: '@azure/abort-controller.xmlbuilder.XMLWriter'
+    name: XMLWriter
+    spec.typeScript:
+      - name: XMLWriter
+        fullName: XMLWriter
+        uid: '@azure/abort-controller.xmlbuilder.XMLWriter'
+  - uid: >-
+      @azure/abort-controller.xmlbuilder.XMLDec |
+      @azure/abort-controller.xmlbuilder.XMLCreateOptions
+    name: XMLCreateOptions
+    spec.typeScript:
+      - name: XMLDec
+        fullName: XMLDec
+        uid: '@azure/abort-controller.xmlbuilder.XMLDec'
+      - name: ' | '
+        fullName: ' | '
+      - name: XMLCreateOptions
+        fullName: XMLCreateOptions
+        uid: '@azure/abort-controller.xmlbuilder.XMLCreateOptions'
+  - uid: >-
+      @azure/abort-controller.xmlbuilder.XMLDtd |
+      @azure/abort-controller.xmlbuilder.XMLCreateOptions
+    name: XMLCreateOptions
+    spec.typeScript:
+      - name: XMLDtd
+        fullName: XMLDtd
+        uid: '@azure/abort-controller.xmlbuilder.XMLDtd'
+      - name: ' | '
+        fullName: ' | '
+      - name: XMLCreateOptions
+        fullName: XMLCreateOptions
+        uid: '@azure/abort-controller.xmlbuilder.XMLCreateOptions'
+  - uid: '@azure/abort-controller.xmlbuilder.XMLCreateOptions'
+    name: XMLCreateOptions
+    spec.typeScript:
+      - name: XMLCreateOptions
+        fullName: XMLCreateOptions
+        uid: '@azure/abort-controller.xmlbuilder.XMLCreateOptions'

@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.TelemetryPlatform'
+    name: TelemetryPlatform
+    fullName: TelemetryPlatform
+    children:
+      - '@azure/abort-controller.TelemetryPlatform.applicationName'
+      - '@azure/abort-controller.TelemetryPlatform.applicationVersion'
+      - '@azure/abort-controller.TelemetryPlatform.sdk'
+      - '@azure/abort-controller.TelemetryPlatform.sdkVersion'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TelemetryPlatform.applicationName'
+    name: applicationName
+    fullName: applicationName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'applicationName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TelemetryPlatform.applicationVersion'
+    name: applicationVersion
+    fullName: applicationVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'applicationVersion: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TelemetryPlatform.sdk'
+    name: sdk
+    fullName: sdk
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'sdk: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TelemetryPlatform.sdkVersion'
+    name: sdkVersion
+    fullName: sdkVersion
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'sdkVersion: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'

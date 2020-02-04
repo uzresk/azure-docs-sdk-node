@@ -1,0 +1,464 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding'
+    name: SpawnSyncOptionsWithBufferEncoding
+    fullName: SpawnSyncOptionsWithBufferEncoding
+    children:
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.argv0
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.cwd
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.encoding
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.env
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.gid
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.input
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.killSignal
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.maxBuffer
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.serialization
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.shell
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.stdio
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.timeout
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.uid
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.windowsHide
+      - >-
+        @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.windowsVerbatimArguments
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: SpawnSyncOptions
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.argv0
+    name: argv0
+    fullName: argv0
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'argv0?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.cwd
+    name: cwd
+    fullName: cwd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'cwd?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.encoding
+    name: encoding
+    fullName: encoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'encoding: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.env
+    name: env
+    fullName: env
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'env?: NodeJS.ProcessEnv'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.NodeJS.ProcessEnv'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.gid
+    name: gid
+    fullName: gid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'gid?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.input
+    name: input
+    fullName: input
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'input?: string | NodeJS.ArrayBufferView'
+      return:
+        type:
+          - string | @azure/ms-rest-azure-env.NodeJS.ArrayBufferView
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.killSignal
+    name: killSignal
+    fullName: killSignal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'killSignal?: NodeJS'
+      return:
+        type:
+          - NodeJS
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.maxBuffer
+    name: maxBuffer
+    fullName: maxBuffer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxBuffer?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.serialization
+    name: serialization
+    fullName: serialization
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Specify the kind of serialization used for sending messages between
+      processes.
+    optional: true
+    syntax:
+      content: 'serialization?: SerializationType'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.child_process.SerializationType'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.shell
+    name: shell
+    fullName: shell
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'shell?: boolean | string'
+      return:
+        type:
+          - boolean | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.stdio
+    name: stdio
+    fullName: stdio
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'stdio?: StdioOptions'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.child_process.StdioOptions'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.timeout
+    name: timeout
+    fullName: timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'timeout?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.uid
+    name: uid
+    fullName: uid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'uid?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.windowsHide
+    name: windowsHide
+    fullName: windowsHide
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'windowsHide?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding.windowsVerbatimArguments
+    name: windowsVerbatimArguments
+    fullName: windowsVerbatimArguments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'windowsVerbatimArguments?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams'
+    name: StdioStreams
+    spec.typeScript:
+      - name: StdioStreams
+        fullName: StdioStreams
+        uid: '@azure/ms-rest-azure-env.child_process.StdioStreams'
+  - uid: '@azure/ms-rest-azure-env.net.Socket | @azure/ms-rest-azure-env.net.Server'
+    name: Server
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/ms-rest-azure-env.net.Socket'
+      - name: ' | '
+        fullName: ' | '
+      - name: Server
+        fullName: Server
+        uid: '@azure/ms-rest-azure-env.net.Server'
+  - uid: '@azure/ms-rest-azure-env.child_process.MessageOptions'
+    name: MessageOptions
+    spec.typeScript:
+      - name: MessageOptions
+        fullName: MessageOptions
+        uid: '@azure/ms-rest-azure-env.child_process.MessageOptions'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ProcessEnv'
+    name: ProcessEnv
+    spec.typeScript:
+      - name: ProcessEnv
+        fullName: ProcessEnv
+        uid: '@azure/ms-rest-azure-env.NodeJS.ProcessEnv'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+  - uid: >-
+      undefined | "pipe" | "ignore" | "inherit" | undefined | null | number |
+      "pipe" | "ignore" | "inherit" | "ipc" |
+      @azure/ms-rest-azure-env.stream.internal.Stream[]
+    name: 'Stream[]'
+    spec.typeScript:
+      - name: >-
+          undefined | "pipe" | "ignore" | "inherit" | undefined | null | number
+          | "pipe" | "ignore" | "inherit" | "ipc" | 
+        fullName: >-
+          undefined | "pipe" | "ignore" | "inherit" | undefined | null | number
+          | "pipe" | "ignore" | "inherit" | "ipc" | 
+      - name: Stream
+        fullName: Stream
+        uid: '@azure/ms-rest-azure-env.stream.internal.Stream'
+      - name: '[]'
+        fullName: '[]'
+  - uid: string | @azure/ms-rest-azure-env.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/ms-rest-azure-env.NodeJS.ArrayBufferView'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioOptions'
+    name: StdioOptions
+    spec.typeScript:
+      - name: StdioOptions
+        fullName: StdioOptions
+        uid: '@azure/ms-rest-azure-env.child_process.StdioOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.SerializationType'
+    name: SerializationType
+    spec.typeScript:
+      - name: SerializationType
+        fullName: SerializationType
+        uid: '@azure/ms-rest-azure-env.child_process.SerializationType'
+  - uid: '@azure/ms-rest-azure-env.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.Error'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.ExecFileSyncOptionsWithStringEncoding
+    name: ExecFileSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: ExecFileSyncOptionsWithStringEncoding
+        fullName: ExecFileSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.ExecFileSyncOptionsWithStringEncoding
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.ExecFileSyncOptionsWithBufferEncoding
+    name: ExecFileSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: ExecFileSyncOptionsWithBufferEncoding
+        fullName: ExecFileSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.ExecFileSyncOptionsWithBufferEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.ExecFileSyncOptions'
+    name: ExecFileSyncOptions
+    spec.typeScript:
+      - name: ExecFileSyncOptions
+        fullName: ExecFileSyncOptions
+        uid: '@azure/ms-rest-azure-env.child_process.ExecFileSyncOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.ExecSyncOptionsWithStringEncoding'
+    name: ExecSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: ExecSyncOptionsWithStringEncoding
+        fullName: ExecSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.ExecSyncOptionsWithStringEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.ExecSyncOptionsWithBufferEncoding'
+    name: ExecSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: ExecSyncOptionsWithBufferEncoding
+        fullName: ExecSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.ExecSyncOptionsWithBufferEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.ExecSyncOptions'
+    name: ExecSyncOptions
+    spec.typeScript:
+      - name: ExecSyncOptions
+        fullName: ExecSyncOptions
+        uid: '@azure/ms-rest-azure-env.child_process.ExecSyncOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.ForkOptions'
+    name: ForkOptions
+    spec.typeScript:
+      - name: ForkOptions
+        fullName: ForkOptions
+        uid: '@azure/ms-rest-azure-env.child_process.ForkOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.SpawnOptions'
+    name: SpawnOptions
+    spec.typeScript:
+      - name: SpawnOptions
+        fullName: SpawnOptions
+        uid: '@azure/ms-rest-azure-env.child_process.SpawnOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithStringEncoding'
+    name: SpawnSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: SpawnSyncOptionsWithStringEncoding
+        fullName: SpawnSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithStringEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding'
+    name: SpawnSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: SpawnSyncOptionsWithBufferEncoding
+        fullName: SpawnSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.SpawnSyncOptions'
+    name: SpawnSyncOptions
+    spec.typeScript:
+      - name: SpawnSyncOptions
+        fullName: SpawnSyncOptions
+        uid: '@azure/ms-rest-azure-env.child_process.SpawnSyncOptions'

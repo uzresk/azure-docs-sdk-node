@@ -1,0 +1,90 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.MetricProducerManager
+    name: MetricProducerManager
+    fullName: MetricProducerManager
+    children:
+      - tslib.MetricProducerManager.add
+      - tslib.MetricProducerManager.getAllMetricProducer
+      - tslib.MetricProducerManager.remove
+      - tslib.MetricProducerManager.removeAll
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Keeps a set of MetricProducer that is used by exporters to determine the
+      metrics that need to be exported.
+    package: tslib
+  - uid: tslib.MetricProducerManager.add
+    name: add(MetricProducer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds the MetricProducer to the manager
+    syntax:
+      content: 'function add(metricProducer: MetricProducer)'
+      parameters:
+        - id: metricProducer
+          type:
+            - tslib.MetricProducer
+          description: ''
+    package: tslib
+  - uid: tslib.MetricProducerManager.getAllMetricProducer
+    name: getAllMetricProducer()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets all registered MetricProducers that should be exported
+    syntax:
+      content: function getAllMetricProducer()
+      parameters: []
+      return:
+        type:
+          - Set<tslib.MetricProducer>
+        description: ''
+    package: tslib
+  - uid: tslib.MetricProducerManager.remove
+    name: remove(MetricProducer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes the MetricProducer to the manager
+    syntax:
+      content: 'function remove(metricProducer: MetricProducer)'
+      parameters:
+        - id: metricProducer
+          type:
+            - tslib.MetricProducer
+          description: ''
+    package: tslib
+  - uid: tslib.MetricProducerManager.removeAll
+    name: removeAll()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Clears all MetricProducers
+    syntax:
+      content: function removeAll()
+      parameters: []
+    package: tslib
+references:
+  - uid: tslib.MetricProducer
+    name: MetricProducer
+    spec.typeScript:
+      - name: MetricProducer
+        fullName: MetricProducer
+        uid: tslib.MetricProducer
+  - uid: Set<tslib.MetricProducer>
+    name: MetricProducer>
+    spec.typeScript:
+      - name: Set<
+        fullName: Set<
+      - name: MetricProducer
+        fullName: MetricProducer
+        uid: tslib.MetricProducer
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.async_hooks.AsyncHook'
+    name: AsyncHook
+    fullName: AsyncHook
+    children:
+      - '@azure/abort-controller.async_hooks.AsyncHook.disable'
+      - '@azure/abort-controller.async_hooks.AsyncHook.enable'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.async_hooks.AsyncHook.disable'
+    name: disable()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Disable the callbacks for a given AsyncHook instance from the global pool
+      of AsyncHook callbacks to be executed. Once a hook has been disabled it
+      will not be called again until enabled.
+    syntax:
+      content: function disable()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.async_hooks.AsyncHook.enable'
+    name: enable()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Enable the callbacks for a given AsyncHook instance. If no callbacks are
+      provided enabling is a noop.
+    syntax:
+      content: function enable()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: number | @azure/abort-controller.async_hooks.AsyncResourceOptions
+    name: AsyncResourceOptions
+    spec.typeScript:
+      - name: 'number | '
+        fullName: 'number | '
+      - name: AsyncResourceOptions
+        fullName: AsyncResourceOptions
+        uid: '@azure/abort-controller.async_hooks.AsyncResourceOptions'
+  - uid: '@azure/abort-controller.async_hooks.HookCallbacks'
+    name: HookCallbacks
+    spec.typeScript:
+      - name: HookCallbacks
+        fullName: HookCallbacks
+        uid: '@azure/abort-controller.async_hooks.HookCallbacks'
+  - uid: '@azure/abort-controller.async_hooks.AsyncHook'
+    name: AsyncHook
+    spec.typeScript:
+      - name: AsyncHook
+        fullName: AsyncHook
+        uid: '@azure/abort-controller.async_hooks.AsyncHook'

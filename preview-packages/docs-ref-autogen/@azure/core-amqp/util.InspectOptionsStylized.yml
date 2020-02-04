@@ -1,0 +1,257 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.util.InspectOptionsStylized
+    name: InspectOptionsStylized
+    fullName: InspectOptionsStylized
+    children:
+      - tslib.util.InspectOptionsStylized.breakLength
+      - tslib.util.InspectOptionsStylized.colors
+      - tslib.util.InspectOptionsStylized.compact
+      - tslib.util.InspectOptionsStylized.customInspect
+      - tslib.util.InspectOptionsStylized.depth
+      - tslib.util.InspectOptionsStylized.getters
+      - tslib.util.InspectOptionsStylized.maxArrayLength
+      - tslib.util.InspectOptionsStylized.showHidden
+      - tslib.util.InspectOptionsStylized.showProxy
+      - tslib.util.InspectOptionsStylized.sorted
+      - tslib.util.InspectOptionsStylized.stylize
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: tslib.util.InspectOptions
+    package: tslib
+  - uid: tslib.util.InspectOptionsStylized.breakLength
+    name: breakLength
+    fullName: breakLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'breakLength?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.util.InspectOptionsStylized.colors
+    name: colors
+    fullName: colors
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'colors?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.util.InspectOptionsStylized.compact
+    name: compact
+    fullName: compact
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Setting this to `false` causes each object key
+
+      to be displayed on a new line. It will also add new lines to text that is
+
+      longer than `breakLength`. If set to a number, the most `n` inner elements
+
+      are united on a single line as long as all properties fit into
+
+      `breakLength`. Short array elements are also grouped together. Note that
+      no
+
+      text will be reduced below 16 characters, no matter the `breakLength`
+      size.
+
+      For more information, see the example below.
+    optional: true
+    syntax:
+      content: 'compact?: boolean | number'
+      return:
+        type:
+          - boolean | number
+        description: ''
+    package: tslib
+  - uid: tslib.util.InspectOptionsStylized.customInspect
+    name: customInspect
+    fullName: customInspect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'customInspect?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.util.InspectOptionsStylized.depth
+    name: depth
+    fullName: depth
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'depth?: number | null'
+      return:
+        type:
+          - number | null
+        description: ''
+    package: tslib
+  - uid: tslib.util.InspectOptionsStylized.getters
+    name: getters
+    fullName: getters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If set to `true`, getters are going to be
+
+      inspected as well. If set to `'get'` only getters without setter are going
+
+      to be inspected. If set to `'set'` only getters having a corresponding
+
+      setter are going to be inspected. This might cause side effects depending
+      on
+
+      the getter function.
+    optional: true
+    syntax:
+      content: 'getters?: "get" | "set" | boolean'
+      return:
+        type:
+          - '"get" | "set" | boolean'
+        description: ''
+    package: tslib
+  - uid: tslib.util.InspectOptionsStylized.maxArrayLength
+    name: maxArrayLength
+    fullName: maxArrayLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxArrayLength?: number | null'
+      return:
+        type:
+          - number | null
+        description: ''
+    package: tslib
+  - uid: tslib.util.InspectOptionsStylized.showHidden
+    name: showHidden
+    fullName: showHidden
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'showHidden?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.util.InspectOptionsStylized.showProxy
+    name: showProxy
+    fullName: showProxy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'showProxy?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.util.InspectOptionsStylized.sorted
+    name: sorted
+    fullName: sorted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'sorted?: boolean | (a: string, b: string) => number'
+      return:
+        type:
+          - 'boolean | (a: string, b: string) => number'
+        description: ''
+    package: tslib
+  - uid: tslib.util.InspectOptionsStylized.stylize
+    name: 'stylize(string, Style)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function stylize(text: string, styleType: Style)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+        - id: styleType
+          type:
+            - tslib.util.Style
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.util.EncodeIntoResult
+    name: EncodeIntoResult
+    spec.typeScript:
+      - name: EncodeIntoResult
+        fullName: EncodeIntoResult
+        uid: tslib.util.EncodeIntoResult
+  - uid: tslib.NodeJS.InspectOptions
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: tslib.NodeJS.InspectOptions
+  - uid: tslib.util.InspectOptions
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: tslib.util.InspectOptions
+  - uid: tslib.util.Style
+    name: Style
+    spec.typeScript:
+      - name: Style
+        fullName: Style
+        uid: tslib.util.Style

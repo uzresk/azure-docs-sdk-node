@@ -1,0 +1,431 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.os
+    name: os
+    langs:
+      - typeScript
+    fullName: os
+    children:
+      - tslib.os.arch
+      - tslib.os.CpuInfo
+      - tslib.os.cpus
+      - tslib.os.endianness
+      - tslib.os.freemem
+      - tslib.os.getPriority
+      - tslib.os.homedir
+      - tslib.os.hostname
+      - tslib.os.loadavg
+      - tslib.os.NetworkInterfaceBase
+      - tslib.os.NetworkInterfaceInfo
+      - tslib.os.NetworkInterfaceInfoIPv4
+      - tslib.os.NetworkInterfaceInfoIPv6
+      - tslib.os.networkInterfaces
+      - tslib.os.platform
+      - tslib.os.release
+      - tslib.os.setPriority
+      - tslib.os.setPriority_1
+      - tslib.os.SignalConstants
+      - tslib.os.tmpdir
+      - tslib.os.totalmem
+      - tslib.os.type
+      - tslib.os.uptime
+      - tslib.os.UserInfo
+      - tslib.os.userInfo
+      - tslib.os.userInfo_1
+    type: module
+    summary: ''
+    package: tslib
+  - uid: tslib.os.arch
+    name: arch()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function arch()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.os.cpus
+    name: cpus()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function cpus()
+      parameters: []
+      return:
+        type:
+          - 'tslib.os.CpuInfo[]'
+        description: ''
+    package: tslib
+  - uid: tslib.os.endianness
+    name: endianness()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function endianness()
+      parameters: []
+      return:
+        type:
+          - '"BE" | "LE"'
+        description: ''
+    package: tslib
+  - uid: tslib.os.freemem
+    name: freemem()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function freemem()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.os.getPriority
+    name: getPriority(undefined | number)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |-
+      Gets the priority of a process.
+      Defaults to current process.
+    syntax:
+      content: 'function getPriority(pid?: undefined | number)'
+      parameters:
+        - id: pid
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.os.homedir
+    name: homedir()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function homedir()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.os.hostname
+    name: hostname()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function hostname()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.os.loadavg
+    name: loadavg()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function loadavg()
+      parameters: []
+      return:
+        type:
+          - 'number[]'
+        description: ''
+    package: tslib
+  - uid: tslib.os.networkInterfaces
+    name: networkInterfaces()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function networkInterfaces()
+      parameters: []
+      return:
+        type:
+          - '[key: string]: function'
+        description: ''
+    package: tslib
+  - uid: tslib.os.platform
+    name: platform()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function platform()
+      parameters: []
+      return:
+        type:
+          - tslib.NodeJS.Platform
+        description: ''
+    package: tslib
+  - uid: tslib.os.release
+    name: release()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function release()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.os.setPriority
+    name: setPriority(number)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Sets the priority of the current process.
+    syntax:
+      content: 'function setPriority(priority: number)'
+      parameters:
+        - id: priority
+          type:
+            - number
+          description: |
+            Must be in range of -20 to 19
+    package: tslib
+  - uid: tslib.os.setPriority_1
+    name: 'setPriority(number, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Sets the priority of the process specified process.
+    syntax:
+      content: 'function setPriority(pid: number, priority: number)'
+      parameters:
+        - id: pid
+          type:
+            - number
+          description: ''
+        - id: priority
+          type:
+            - number
+          description: |
+            Must be in range of -20 to 19
+    package: tslib
+  - uid: tslib.os.tmpdir
+    name: tmpdir()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function tmpdir()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.os.totalmem
+    name: totalmem()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function totalmem()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.os.type
+    name: type()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function type()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.os.uptime
+    name: uptime()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function uptime()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.os.userInfo
+    name: userInfo(Object)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function userInfo(options: Object)'
+      parameters:
+        - id: options
+          type:
+            - Object
+          description: ''
+      return:
+        type:
+          - tslib.os.UserInfo<Buffer>
+        description: ''
+    package: tslib
+  - uid: tslib.os.userInfo_1
+    name: userInfo(undefined | Object)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function userInfo(options?: undefined | Object)'
+      parameters:
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - tslib.os.UserInfo<string>
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.os.NetworkInterfaceBase
+    name: NetworkInterfaceBase
+    spec.typeScript:
+      - name: NetworkInterfaceBase
+        fullName: NetworkInterfaceBase
+        uid: tslib.os.NetworkInterfaceBase
+  - uid: 'tslib.os.CpuInfo[]'
+    name: 'CpuInfo[]'
+    spec.typeScript:
+      - name: CpuInfo
+        fullName: CpuInfo
+        uid: tslib.os.CpuInfo
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.NodeJS.Platform
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: tslib.NodeJS.Platform
+  - uid: tslib.os.UserInfo<Buffer>
+    name: UserInfo<Buffer>
+    spec.typeScript:
+      - name: UserInfo
+        fullName: UserInfo
+        uid: tslib.os.UserInfo
+      - name: <Buffer>
+        fullName: <Buffer>
+  - uid: tslib.os.UserInfo<string>
+    name: UserInfo<string>
+    spec.typeScript:
+      - name: UserInfo
+        fullName: UserInfo
+        uid: tslib.os.UserInfo
+      - name: <string>
+        fullName: <string>
+  - uid: tslib.os.arch
+    name: arch
+  - uid: tslib.os.CpuInfo
+    name: CpuInfo
+  - uid: tslib.os.cpus
+    name: cpus
+  - uid: tslib.os.endianness
+    name: endianness
+  - uid: tslib.os.freemem
+    name: freemem
+  - uid: tslib.os.getPriority
+    name: getPriority
+  - uid: tslib.os.homedir
+    name: homedir
+  - uid: tslib.os.hostname
+    name: hostname
+  - uid: tslib.os.loadavg
+    name: loadavg
+  - uid: tslib.os.NetworkInterfaceInfo
+    name: NetworkInterfaceInfo
+  - uid: tslib.os.NetworkInterfaceInfoIPv4
+    name: NetworkInterfaceInfoIPv4
+  - uid: tslib.os.NetworkInterfaceInfoIPv6
+    name: NetworkInterfaceInfoIPv6
+  - uid: tslib.os.networkInterfaces
+    name: networkInterfaces
+  - uid: tslib.os.platform
+    name: platform
+  - uid: tslib.os.release
+    name: release
+  - uid: tslib.os.setPriority
+    name: setPriority
+  - uid: tslib.os.setPriority_1
+    name: setPriority_1
+  - uid: tslib.os.SignalConstants
+    name: SignalConstants
+  - uid: tslib.os.tmpdir
+    name: tmpdir
+  - uid: tslib.os.totalmem
+    name: totalmem
+  - uid: tslib.os.type
+    name: type
+  - uid: tslib.os.uptime
+    name: uptime
+  - uid: tslib.os.UserInfo
+    name: UserInfo
+  - uid: tslib.os.userInfo
+    name: userInfo
+  - uid: tslib.os.userInfo_1
+    name: userInfo_1

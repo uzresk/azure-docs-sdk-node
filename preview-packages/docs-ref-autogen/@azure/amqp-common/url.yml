@@ -1,0 +1,312 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.url'
+    name: url
+    langs:
+      - typeScript
+    fullName: url
+    children:
+      - '@azure/ms-rest-azure-env.url.domainToASCII'
+      - '@azure/ms-rest-azure-env.url.domainToUnicode'
+      - '@azure/ms-rest-azure-env.url.format'
+      - '@azure/ms-rest-azure-env.url.format_1'
+      - '@azure/ms-rest-azure-env.url.parse'
+      - '@azure/ms-rest-azure-env.url.parse_3'
+      - '@azure/ms-rest-azure-env.url.parse_1'
+      - '@azure/ms-rest-azure-env.url.parse_2'
+      - '@azure/ms-rest-azure-env.url.resolve'
+      - '@azure/ms-rest-azure-env.url.Url'
+      - '@azure/ms-rest-azure-env.url.URL'
+      - '@azure/ms-rest-azure-env.url.URLFormatOptions'
+      - '@azure/ms-rest-azure-env.url.UrlObject'
+      - '@azure/ms-rest-azure-env.url.UrlObjectCommon'
+      - '@azure/ms-rest-azure-env.url.URLSearchParams'
+      - '@azure/ms-rest-azure-env.url.UrlWithParsedQuery'
+      - '@azure/ms-rest-azure-env.url.UrlWithStringQuery'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.url.domainToASCII'
+    name: domainToASCII(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function domainToASCII(domain: string)'
+      parameters:
+        - id: domain
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.url.domainToUnicode'
+    name: domainToUnicode(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function domainToUnicode(domain: string)'
+      parameters:
+        - id: domain
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.url.format'
+    name: 'format(URL, URLFormatOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function format(URL: URL, options?: URLFormatOptions)'
+      parameters:
+        - id: URL
+          type:
+            - '@azure/ms-rest-azure-env.url.URL'
+          description: ''
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.url.URLFormatOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.url.format_1'
+    name: format(UrlObject | string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function format(urlObject: UrlObject | string)'
+      parameters:
+        - id: urlObject
+          type:
+            - UrlObject | string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.url.parse'
+    name: parse(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parse(urlStr: string)'
+      parameters:
+        - id: urlStr
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - UrlWithStringQuery
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.url.parse_3'
+    name: 'parse(string, boolean, undefined | false | true)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parse(urlStr: string, parseQueryString: boolean,
+        slashesDenoteHost?: undefined | false | true)
+      parameters:
+        - id: urlStr
+          type:
+            - string
+          description: ''
+        - id: parseQueryString
+          type:
+            - boolean
+          description: ''
+        - id: slashesDenoteHost
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - Url
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.url.parse_1'
+    name: 'parse(string, false | undefined, undefined | false | true)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parse(urlStr: string, parseQueryString: false | undefined,
+        slashesDenoteHost?: undefined | false | true)
+      parameters:
+        - id: urlStr
+          type:
+            - string
+          description: ''
+        - id: parseQueryString
+          type:
+            - false | undefined
+          description: ''
+        - id: slashesDenoteHost
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - UrlWithStringQuery
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.url.parse_2'
+    name: 'parse(string, true, undefined | false | true)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function parse(urlStr: string, parseQueryString: true,
+        slashesDenoteHost?: undefined | false | true)
+      parameters:
+        - id: urlStr
+          type:
+            - string
+          description: ''
+        - id: parseQueryString
+          type:
+            - 'true'
+          description: ''
+        - id: slashesDenoteHost
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - UrlWithParsedQuery
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.url.resolve'
+    name: 'resolve(string, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function resolve(from: string, to: string)'
+      parameters:
+        - id: from
+          type:
+            - string
+          description: ''
+        - id: to
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: string | @azure/ms-rest-azure-env.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: '@azure/ms-rest-azure-env.url.URL'
+  - uid: '@azure/ms-rest-azure-env.url.URLSearchParams'
+    name: URLSearchParams
+    spec.typeScript:
+      - name: URLSearchParams
+        fullName: URLSearchParams
+        uid: '@azure/ms-rest-azure-env.url.URLSearchParams'
+  - uid: >-
+      @azure/ms-rest-azure-env.url.URLSearchParams | string | [key: string]:
+      function | Iterable<Object> | Array<Object>
+    name: >-
+      URLSearchParams | string | [key: string]: function | Iterable<Object> |
+      Array<Object>
+    spec.typeScript:
+      - name: URLSearchParams
+        fullName: URLSearchParams
+        uid: '@azure/ms-rest-azure-env.url.URLSearchParams'
+      - name: ' | string | [key: string]: function | Iterable<Object> | Array<Object>'
+        fullName: ' | string | [key: string]: function | Iterable<Object> | Array<Object>'
+  - uid: '@azure/ms-rest-azure-env.url.UrlObjectCommon'
+    name: UrlObjectCommon
+    spec.typeScript:
+      - name: UrlObjectCommon
+        fullName: UrlObjectCommon
+        uid: '@azure/ms-rest-azure-env.url.UrlObjectCommon'
+  - uid: '@azure/ms-rest-azure-env.url.URL'
+    name: URL
+    spec.typeScript:
+      - name: URL
+        fullName: URL
+        uid: '@azure/ms-rest-azure-env.url.URL'
+  - uid: '@azure/ms-rest-azure-env.url.URLFormatOptions'
+    name: URLFormatOptions
+    spec.typeScript:
+      - name: URLFormatOptions
+        fullName: URLFormatOptions
+        uid: '@azure/ms-rest-azure-env.url.URLFormatOptions'
+  - uid: '@azure/ms-rest-azure-env.url.domainToASCII'
+    name: domainToASCII
+  - uid: '@azure/ms-rest-azure-env.url.domainToUnicode'
+    name: domainToUnicode
+  - uid: '@azure/ms-rest-azure-env.url.format'
+    name: format
+  - uid: '@azure/ms-rest-azure-env.url.format_1'
+    name: format_1
+  - uid: '@azure/ms-rest-azure-env.url.parse'
+    name: parse
+  - uid: '@azure/ms-rest-azure-env.url.parse_3'
+    name: parse_3
+  - uid: '@azure/ms-rest-azure-env.url.parse_1'
+    name: parse_1
+  - uid: '@azure/ms-rest-azure-env.url.parse_2'
+    name: parse_2
+  - uid: '@azure/ms-rest-azure-env.url.resolve'
+    name: resolve
+  - uid: '@azure/ms-rest-azure-env.url.Url'
+    name: Url
+  - uid: '@azure/ms-rest-azure-env.url.UrlObject'
+    name: UrlObject
+  - uid: '@azure/ms-rest-azure-env.url.UrlWithParsedQuery'
+    name: UrlWithParsedQuery
+  - uid: '@azure/ms-rest-azure-env.url.UrlWithStringQuery'
+    name: UrlWithStringQuery

@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.AsyncLockDoneCallback
+    name: AsyncLockDoneCallback
+    fullName: AsyncLockDoneCallback<T>
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type AsyncLockDoneCallback<T> = (err?: Error, ret?: T) => void'
+    package: tslib

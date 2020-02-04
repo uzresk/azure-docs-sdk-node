@@ -32,33 +32,58 @@ items:
           description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.CognitiveSubscriptionKeyAuthentication.Fetch
-    name: Fetch
-    fullName: Fetch
+    name: Fetch(string)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Fetch: (authFetchEventId: string) => Promise<AuthInfo>'
+      content: 'function Fetch(authFetchEventId: string)'
+      parameters:
+        - id: authFetchEventId
+          type:
+            - string
+          description: ''
       return:
         type:
-          - '(authFetchEventId: string) => Promise<AuthInfo>'
+          - >-
+            microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.AuthInfo>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: >-
       microsoft-speech-browser-sdk.CognitiveSubscriptionKeyAuthentication.FetchOnExpiry
-    name: FetchOnExpiry
-    fullName: FetchOnExpiry
+    name: FetchOnExpiry(string)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'FetchOnExpiry: (authFetchEventId: string) => Promise<AuthInfo>'
+      content: 'function FetchOnExpiry(authFetchEventId: string)'
+      parameters:
+        - id: authFetchEventId
+          type:
+            - string
+          description: ''
       return:
         type:
-          - '(authFetchEventId: string) => Promise<AuthInfo>'
+          - >-
+            microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.AuthInfo>
         description: ''
     package: microsoft-speech-browser-sdk
+references:
+  - uid: >-
+      microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.AuthInfo>
+    name: AuthInfo>
+    spec.typeScript:
+      - name: Promise
+        fullName: Promise
+        uid: microsoft-speech-browser-sdk.Promise
+      - name: <
+        fullName: <
+      - name: AuthInfo
+        fullName: AuthInfo
+        uid: microsoft-speech-browser-sdk.AuthInfo
+      - name: '>'
+        fullName: '>'

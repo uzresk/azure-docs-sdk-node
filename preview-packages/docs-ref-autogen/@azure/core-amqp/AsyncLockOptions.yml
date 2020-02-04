@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.AsyncLockOptions'
+  - uid: tslib.AsyncLockOptions
     name: AsyncLockOptions
     fullName: AsyncLockOptions
     children:
-      - '@azure/core-amqp.AsyncLockOptions.domainReentrant'
-      - '@azure/core-amqp.AsyncLockOptions.maxPending'
-      - '@azure/core-amqp.AsyncLockOptions.Promise'
-      - '@azure/core-amqp.AsyncLockOptions.timeout'
+      - tslib.AsyncLockOptions.domainReentrant
+      - tslib.AsyncLockOptions.maxPending
+      - tslib.AsyncLockOptions.Promise
+      - tslib.AsyncLockOptions.timeout
     langs:
       - typeScript
     type: interface
     summary: Describes the options that can be provided to create an async lock.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.AsyncLockOptions.domainReentrant'
+    package: tslib
+  - uid: tslib.AsyncLockOptions.domainReentrant
     name: domainReentrant
     fullName: domainReentrant
     children: []
@@ -30,8 +30,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.AsyncLockOptions.maxPending'
+    package: tslib
+  - uid: tslib.AsyncLockOptions.maxPending
     name: maxPending
     fullName: maxPending
     children: []
@@ -46,8 +46,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.AsyncLockOptions.Promise'
+    package: tslib
+  - uid: tslib.AsyncLockOptions.Promise
     name: Promise
     fullName: Promise
     children: []
@@ -64,8 +64,8 @@ items:
         type:
           - any
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.AsyncLockOptions.timeout'
+    package: tslib
+  - uid: tslib.AsyncLockOptions.timeout
     name: timeout
     fullName: timeout
     children: []
@@ -80,4 +80,4 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/core-amqp'
+    package: tslib

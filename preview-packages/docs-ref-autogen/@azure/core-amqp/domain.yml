@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.domain
+    name: domain
+    langs:
+      - typeScript
+    fullName: domain
+    children:
+      - tslib.domain.create
+      - tslib.domain.Domain
+    type: module
+    summary: ''
+    package: tslib
+  - uid: tslib.domain.create
+    name: create()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function create()
+      parameters: []
+      return:
+        type:
+          - tslib.domain.Domain
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.events.EventEmitterOptions
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: tslib.events.EventEmitterOptions
+  - uid: Array<tslib.events.EventEmitter.EventEmitter | tslib.NodeJS.Timer>
+    name: Timer>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+      - name: ' | '
+        fullName: ' | '
+      - name: Timer
+        fullName: Timer
+        uid: tslib.NodeJS.Timer
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.events.EventEmitter.EventEmitter | tslib.NodeJS.Timer
+    name: Timer
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+      - name: ' | '
+        fullName: ' | '
+      - name: Timer
+        fullName: Timer
+        uid: tslib.NodeJS.Timer
+  - uid: tslib.domain.Domain
+    name: Domain
+    spec.typeScript:
+      - name: Domain
+        fullName: Domain
+        uid: tslib.domain.Domain
+  - uid: tslib.domain.create
+    name: create

@@ -1,0 +1,29 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.keepAlivePolicy'
+    name: keepAlivePolicy(KeepAliveOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function keepAlivePolicy(keepAliveOptions?: KeepAliveOptions)'
+      parameters:
+        - id: keepAliveOptions
+          type:
+            - '@azure/abort-controller.KeepAliveOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Object
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.KeepAliveOptions'
+    name: KeepAliveOptions
+    spec.typeScript:
+      - name: KeepAliveOptions
+        fullName: KeepAliveOptions
+        uid: '@azure/abort-controller.KeepAliveOptions'

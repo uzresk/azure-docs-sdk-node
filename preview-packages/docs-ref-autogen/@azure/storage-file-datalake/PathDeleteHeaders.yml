@@ -1,20 +1,20 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathDeleteHeaders'
+  - uid: '@azure/abort-controller.PathDeleteHeaders'
     name: PathDeleteHeaders
     fullName: PathDeleteHeaders
     children:
-      - '@azure/storage-file-datalake.PathDeleteHeaders.continuation'
-      - '@azure/storage-file-datalake.PathDeleteHeaders.date'
-      - '@azure/storage-file-datalake.PathDeleteHeaders.errorCode'
-      - '@azure/storage-file-datalake.PathDeleteHeaders.requestId'
-      - '@azure/storage-file-datalake.PathDeleteHeaders.version'
+      - '@azure/abort-controller.PathDeleteHeaders.continuation'
+      - '@azure/abort-controller.PathDeleteHeaders.date'
+      - '@azure/abort-controller.PathDeleteHeaders.errorCode'
+      - '@azure/abort-controller.PathDeleteHeaders.requestId'
+      - '@azure/abort-controller.PathDeleteHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: Defines headers for Delete operation.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathDeleteHeaders.continuation'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathDeleteHeaders.continuation'
     name: continuation
     fullName: continuation
     children: []
@@ -42,8 +42,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathDeleteHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathDeleteHeaders.date'
     name: date
     fullName: date
     children: []
@@ -60,10 +60,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathDeleteHeaders.errorCode'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathDeleteHeaders.errorCode'
     name: errorCode
     fullName: errorCode
     children: []
@@ -78,8 +78,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathDeleteHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathDeleteHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -96,8 +96,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathDeleteHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathDeleteHeaders.version'
     name: version
     fullName: version
     children: []
@@ -112,4 +112,11 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'

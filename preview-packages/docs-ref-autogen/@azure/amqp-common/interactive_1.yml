@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.interactive_1'
+    name: interactive(InteractiveLoginOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function interactive(options: InteractiveLoginOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.InteractiveLoginOptions'
+          description: ''
+      return:
+        type:
+          - Promise<@azure/ms-rest-azure-env.DeviceTokenCredentials>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.InteractiveLoginOptions'
+    name: InteractiveLoginOptions
+    spec.typeScript:
+      - name: InteractiveLoginOptions
+        fullName: InteractiveLoginOptions
+        uid: '@azure/ms-rest-azure-env.InteractiveLoginOptions'
+  - uid: Promise<@azure/ms-rest-azure-env.DeviceTokenCredentials>
+    name: DeviceTokenCredentials>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: DeviceTokenCredentials
+        fullName: DeviceTokenCredentials
+        uid: '@azure/ms-rest-azure-env.DeviceTokenCredentials'
+      - name: '>'
+        fullName: '>'

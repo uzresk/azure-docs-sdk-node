@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.TraceOptions'
+    name: TraceOptions
+    fullName: TraceOptions
+    children:
+      - '@azure/abort-controller.TraceOptions.kind'
+      - '@azure/abort-controller.TraceOptions.name'
+      - '@azure/abort-controller.TraceOptions.samplingRate'
+      - '@azure/abort-controller.TraceOptions.spanContext'
+    langs:
+      - typeScript
+    type: interface
+    summary: Defines the trace options
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TraceOptions.kind'
+    name: kind
+    fullName: kind
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Span kind
+    optional: true
+    syntax:
+      content: 'kind?: SpanKind'
+      return:
+        type:
+          - '@azure/abort-controller.SpanKind'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TraceOptions.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Root span name
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TraceOptions.samplingRate'
+    name: samplingRate
+    fullName: samplingRate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Determines the sampling rate. Ranges from 0.0 to 1.0
+    optional: true
+    syntax:
+      content: 'samplingRate?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TraceOptions.spanContext'
+    name: spanContext
+    fullName: spanContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Trace context
+    optional: true
+    syntax:
+      content: 'spanContext?: SpanContext'
+      return:
+        type:
+          - '@azure/abort-controller.SpanContext'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.SpanKind'
+    name: SpanKind
+    spec.typeScript:
+      - name: SpanKind
+        fullName: SpanKind
+        uid: '@azure/abort-controller.SpanKind'
+  - uid: '@azure/abort-controller.SpanContext'
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@azure/abort-controller.SpanContext'

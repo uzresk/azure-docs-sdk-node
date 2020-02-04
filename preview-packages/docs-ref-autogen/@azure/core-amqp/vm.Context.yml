@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.vm.Context
+    name: Context
+    fullName: Context
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+references:
+  - uid: tslib.vm.ScriptOptions
+    name: ScriptOptions
+    spec.typeScript:
+      - name: ScriptOptions
+        fullName: ScriptOptions
+        uid: tslib.vm.ScriptOptions
+  - uid: tslib.vm.Context
+    name: Context
+    spec.typeScript:
+      - name: Context
+        fullName: Context
+        uid: tslib.vm.Context
+  - uid: tslib.vm.RunningScriptOptions
+    name: RunningScriptOptions
+    spec.typeScript:
+      - name: RunningScriptOptions
+        fullName: RunningScriptOptions
+        uid: tslib.vm.RunningScriptOptions
+  - uid: tslib.vm.BaseOptions
+    name: BaseOptions
+    spec.typeScript:
+      - name: BaseOptions
+        fullName: BaseOptions
+        uid: tslib.vm.BaseOptions
+  - uid: tslib.Buffer
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: tslib.Buffer
+  - uid: tslib.vm.CompileFunctionOptions
+    name: CompileFunctionOptions
+    spec.typeScript:
+      - name: CompileFunctionOptions
+        fullName: CompileFunctionOptions
+        uid: tslib.vm.CompileFunctionOptions
+  - uid: tslib.vm.CreateContextOptions
+    name: CreateContextOptions
+    spec.typeScript:
+      - name: CreateContextOptions
+        fullName: CreateContextOptions
+        uid: tslib.vm.CreateContextOptions
+  - uid: tslib.vm.RunningScriptOptions | string
+    name: RunningScriptOptions | string
+    spec.typeScript:
+      - name: RunningScriptOptions
+        fullName: RunningScriptOptions
+        uid: tslib.vm.RunningScriptOptions
+      - name: ' | string'
+        fullName: ' | string'

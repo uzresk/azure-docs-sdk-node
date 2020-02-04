@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.perf_hooks.constants
+    name: constants
+    langs:
+      - typeScript
+    fullName: constants
+    children: []
+    type: module
+    summary: ''
+    package: tslib
+references:
+  - uid: tslib.async_hooks.AsyncResource
+    name: AsyncResource
+    spec.typeScript:
+      - name: AsyncResource
+        fullName: AsyncResource
+        uid: tslib.async_hooks.AsyncResource
+  - uid: tslib.perf_hooks.PerformanceObserverCallback
+    name: PerformanceObserverCallback
+    spec.typeScript:
+      - name: PerformanceObserverCallback
+        fullName: PerformanceObserverCallback
+        uid: tslib.perf_hooks.PerformanceObserverCallback
+  - uid: tslib.perf_hooks.PerformanceNodeTiming
+    name: PerformanceNodeTiming
+    spec.typeScript:
+      - name: PerformanceNodeTiming
+        fullName: PerformanceNodeTiming
+        uid: tslib.perf_hooks.PerformanceNodeTiming
+  - uid: 'tslib.perf_hooks.PerformanceEntry[]'
+    name: 'PerformanceEntry[]'
+    spec.typeScript:
+      - name: PerformanceEntry
+        fullName: PerformanceEntry
+        uid: tslib.perf_hooks.PerformanceEntry
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.perf_hooks.PerformanceEntry
+    name: PerformanceEntry
+    spec.typeScript:
+      - name: PerformanceEntry
+        fullName: PerformanceEntry
+        uid: tslib.perf_hooks.PerformanceEntry
+  - uid: tslib.perf_hooks.EventLoopMonitorOptions
+    name: EventLoopMonitorOptions
+    spec.typeScript:
+      - name: EventLoopMonitorOptions
+        fullName: EventLoopMonitorOptions
+        uid: tslib.perf_hooks.EventLoopMonitorOptions
+  - uid: tslib.perf_hooks.EventLoopDelayMonitor
+    name: EventLoopDelayMonitor
+    spec.typeScript:
+      - name: EventLoopDelayMonitor
+        fullName: EventLoopDelayMonitor
+        uid: tslib.perf_hooks.EventLoopDelayMonitor

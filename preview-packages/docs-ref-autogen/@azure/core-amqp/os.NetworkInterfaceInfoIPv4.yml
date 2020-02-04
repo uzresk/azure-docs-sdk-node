@@ -1,0 +1,146 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.os.NetworkInterfaceInfoIPv4
+    name: NetworkInterfaceInfoIPv4
+    fullName: NetworkInterfaceInfoIPv4
+    children:
+      - tslib.os.NetworkInterfaceInfoIPv4.address
+      - tslib.os.NetworkInterfaceInfoIPv4.cidr
+      - tslib.os.NetworkInterfaceInfoIPv4.family
+      - tslib.os.NetworkInterfaceInfoIPv4.internal
+      - tslib.os.NetworkInterfaceInfoIPv4.mac
+      - tslib.os.NetworkInterfaceInfoIPv4.netmask
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: tslib.os.NetworkInterfaceBase
+    package: tslib
+  - uid: tslib.os.NetworkInterfaceInfoIPv4.address
+    name: address
+    fullName: address
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'address: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.os.NetworkInterfaceInfoIPv4.cidr
+    name: cidr
+    fullName: cidr
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cidr: string | null'
+      return:
+        type:
+          - string | null
+        description: ''
+    package: tslib
+  - uid: tslib.os.NetworkInterfaceInfoIPv4.family
+    name: family
+    fullName: family
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'family: "IPv4"'
+      return:
+        type:
+          - '"IPv4"'
+        description: ''
+    package: tslib
+  - uid: tslib.os.NetworkInterfaceInfoIPv4.internal
+    name: internal
+    fullName: internal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'internal: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.os.NetworkInterfaceInfoIPv4.mac
+    name: mac
+    fullName: mac
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mac: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.os.NetworkInterfaceInfoIPv4.netmask
+    name: netmask
+    fullName: netmask
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'netmask: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.os.NetworkInterfaceBase
+    name: NetworkInterfaceBase
+    spec.typeScript:
+      - name: NetworkInterfaceBase
+        fullName: NetworkInterfaceBase
+        uid: tslib.os.NetworkInterfaceBase
+  - uid: 'tslib.os.CpuInfo[]'
+    name: 'CpuInfo[]'
+    spec.typeScript:
+      - name: CpuInfo
+        fullName: CpuInfo
+        uid: tslib.os.CpuInfo
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.NodeJS.Platform
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: tslib.NodeJS.Platform
+  - uid: tslib.os.UserInfo<Buffer>
+    name: UserInfo<Buffer>
+    spec.typeScript:
+      - name: UserInfo
+        fullName: UserInfo
+        uid: tslib.os.UserInfo
+      - name: <Buffer>
+        fullName: <Buffer>
+  - uid: tslib.os.UserInfo<string>
+    name: UserInfo<string>
+    spec.typeScript:
+      - name: UserInfo
+        fullName: UserInfo
+        uid: tslib.os.UserInfo
+      - name: <string>
+        fullName: <string>

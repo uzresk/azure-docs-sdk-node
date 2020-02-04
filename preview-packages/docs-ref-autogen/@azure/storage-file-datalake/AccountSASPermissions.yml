@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.AccountSASPermissions'
+  - uid: '@azure/abort-controller.AccountSASPermissions'
     name: AccountSASPermissions
     fullName: AccountSASPermissions
     children:
-      - '@azure/storage-file-datalake.AccountSASPermissions.add'
-      - '@azure/storage-file-datalake.AccountSASPermissions.create'
-      - '@azure/storage-file-datalake.AccountSASPermissions.delete'
-      - '@azure/storage-file-datalake.AccountSASPermissions.list'
-      - '@azure/storage-file-datalake.AccountSASPermissions.parse'
-      - '@azure/storage-file-datalake.AccountSASPermissions.process'
-      - '@azure/storage-file-datalake.AccountSASPermissions.read'
-      - '@azure/storage-file-datalake.AccountSASPermissions.toString'
-      - '@azure/storage-file-datalake.AccountSASPermissions.update'
-      - '@azure/storage-file-datalake.AccountSASPermissions.write'
+      - '@azure/abort-controller.AccountSASPermissions.add'
+      - '@azure/abort-controller.AccountSASPermissions.create'
+      - '@azure/abort-controller.AccountSASPermissions.delete'
+      - '@azure/abort-controller.AccountSASPermissions.list'
+      - '@azure/abort-controller.AccountSASPermissions.parse'
+      - '@azure/abort-controller.AccountSASPermissions.process'
+      - '@azure/abort-controller.AccountSASPermissions.read'
+      - '@azure/abort-controller.AccountSASPermissions.toString'
+      - '@azure/abort-controller.AccountSASPermissions.update'
+      - '@azure/abort-controller.AccountSASPermissions.write'
     langs:
       - typeScript
     type: class
@@ -34,8 +34,8 @@ items:
 
       the order of the permissions is particular and this class guarantees
       correctness.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.AccountSASPermissions.add'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AccountSASPermissions.add'
     name: add
     fullName: add
     children: []
@@ -49,8 +49,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.AccountSASPermissions.create'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AccountSASPermissions.create'
     name: create
     fullName: create
     children: []
@@ -64,8 +64,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.AccountSASPermissions.delete'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AccountSASPermissions.delete'
     name: delete
     fullName: delete
     children: []
@@ -79,8 +79,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.AccountSASPermissions.list'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AccountSASPermissions.list'
     name: list
     fullName: list
     children: []
@@ -96,8 +96,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.AccountSASPermissions.parse'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AccountSASPermissions.parse'
     name: parse(string)
     children: []
     type: method
@@ -113,10 +113,10 @@ items:
           description: ''
       return:
         type:
-          - '@azure/storage-file-datalake.AccountSASPermissions'
+          - '@azure/abort-controller.AccountSASPermissions'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.AccountSASPermissions.process'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AccountSASPermissions.process'
     name: process
     fullName: process
     children: []
@@ -130,8 +130,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.AccountSASPermissions.read'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AccountSASPermissions.read'
     name: read
     fullName: read
     children: []
@@ -145,8 +145,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.AccountSASPermissions.toString'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AccountSASPermissions.toString'
     name: toString()
     children: []
     type: method
@@ -164,8 +164,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.AccountSASPermissions.update'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AccountSASPermissions.update'
     name: update
     fullName: update
     children: []
@@ -179,8 +179,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.AccountSASPermissions.write'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AccountSASPermissions.write'
     name: write
     fullName: write
     children: []
@@ -194,11 +194,11 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.AccountSASPermissions'
+  - uid: '@azure/abort-controller.AccountSASPermissions'
     name: AccountSASPermissions
     spec.typeScript:
       - name: AccountSASPermissions
         fullName: AccountSASPermissions
-        uid: '@azure/storage-file-datalake.AccountSASPermissions'
+        uid: '@azure/abort-controller.AccountSASPermissions'

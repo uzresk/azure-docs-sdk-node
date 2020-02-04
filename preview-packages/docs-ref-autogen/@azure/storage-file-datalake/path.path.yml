@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.path.path'
+    name: path
+    langs:
+      - typeScript
+    fullName: path
+    children:
+      - '@azure/abort-controller.path.path.FormatInputPathObject'
+      - '@azure/abort-controller.path.path.ParsedPath'
+      - '@azure/abort-controller.path.path.PlatformPath'
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.path.path.PlatformPath'
+    name: PlatformPath
+    spec.typeScript:
+      - name: PlatformPath
+        fullName: PlatformPath
+        uid: '@azure/abort-controller.path.path.PlatformPath'
+  - uid: '@azure/abort-controller.path.path.FormatInputPathObject'
+    name: FormatInputPathObject
+    spec.typeScript:
+      - name: FormatInputPathObject
+        fullName: FormatInputPathObject
+        uid: '@azure/abort-controller.path.path.FormatInputPathObject'
+  - uid: '@azure/abort-controller.path.path.ParsedPath'
+    name: ParsedPath
+    spec.typeScript:
+      - name: ParsedPath
+        fullName: ParsedPath
+        uid: '@azure/abort-controller.path.path.ParsedPath'

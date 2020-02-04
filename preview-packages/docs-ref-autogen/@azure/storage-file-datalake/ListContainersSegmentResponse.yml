@@ -1,0 +1,120 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.ListContainersSegmentResponse'
+    name: ListContainersSegmentResponse
+    fullName: ListContainersSegmentResponse
+    children:
+      - '@azure/abort-controller.ListContainersSegmentResponse.containerItems'
+      - '@azure/abort-controller.ListContainersSegmentResponse.continuationToken'
+      - '@azure/abort-controller.ListContainersSegmentResponse.marker'
+      - '@azure/abort-controller.ListContainersSegmentResponse.maxPageSize'
+      - '@azure/abort-controller.ListContainersSegmentResponse.prefix'
+      - '@azure/abort-controller.ListContainersSegmentResponse.serviceEndpoint'
+    langs:
+      - typeScript
+    type: interface
+    summary: An enumeration of containers
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ListContainersSegmentResponse.containerItems'
+    name: containerItems
+    fullName: containerItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'containerItems: ContainerItem[]'
+      return:
+        type:
+          - '@azure/abort-controller.ContainerItem[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ListContainersSegmentResponse.continuationToken'
+    name: continuationToken
+    fullName: continuationToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'continuationToken?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ListContainersSegmentResponse.marker'
+    name: marker
+    fullName: marker
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'marker?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ListContainersSegmentResponse.maxPageSize'
+    name: maxPageSize
+    fullName: maxPageSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxPageSize?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ListContainersSegmentResponse.prefix'
+    name: prefix
+    fullName: prefix
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'prefix?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ListContainersSegmentResponse.serviceEndpoint'
+    name: serviceEndpoint
+    fullName: serviceEndpoint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'serviceEndpoint: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.ContainerItem[]'
+    name: 'ContainerItem[]'
+    spec.typeScript:
+      - name: ContainerItem
+        fullName: ContainerItem
+        uid: '@azure/abort-controller.ContainerItem'
+      - name: '[]'
+        fullName: '[]'

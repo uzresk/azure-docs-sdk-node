@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.ExporterConfig'
+    name: ExporterConfig
+    fullName: ExporterConfig
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type ExporterConfig = BufferConfig
+    package: '@azure/abort-controller'

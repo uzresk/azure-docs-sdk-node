@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathRenameMode'
+  - uid: '@azure/abort-controller.PathRenameMode'
     name: PathRenameMode
     fullName: PathRenameMode
     children:
-      - '@azure/storage-file-datalake.PathRenameMode.Legacy'
-      - '@azure/storage-file-datalake.PathRenameMode.Posix'
+      - '@azure/abort-controller.PathRenameMode.Legacy'
+      - '@azure/abort-controller.PathRenameMode.Posix'
     langs:
       - typeScript
     type: enum
     summary: |-
       Defines values for PathRenameMode.
       Possible values include: 'legacy', 'posix'
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathRenameMode.Legacy'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathRenameMode.Legacy'
     name: Legacy
     children: []
     langs:
@@ -21,8 +21,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathRenameMode.Posix'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathRenameMode.Posix'
     name: Posix
     children: []
     langs:
@@ -30,4 +30,4 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

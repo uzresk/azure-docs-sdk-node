@@ -1,0 +1,609 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.ClientAuthError'
+    name: ClientAuthError
+    fullName: ClientAuthError
+    children:
+      - '@azure/abort-controller.ClientAuthError.constructor'
+      - >-
+        @azure/abort-controller.ClientAuthError.createAcquireTokenInProgressError
+      - >-
+        @azure/abort-controller.ClientAuthError.createBlockTokenRequestsInHiddenIframeError
+      - '@azure/abort-controller.ClientAuthError.createCacheParseError'
+      - '@azure/abort-controller.ClientAuthError.createClientInfoDecodingError'
+      - >-
+        @azure/abort-controller.ClientAuthError.createClientInfoNotPopulatedError
+      - '@azure/abort-controller.ClientAuthError.createEndpointResolutionError'
+      - '@azure/abort-controller.ClientAuthError.createErrorInCallbackFunction'
+      - '@azure/abort-controller.ClientAuthError.createIdTokenNullOrEmptyError'
+      - '@azure/abort-controller.ClientAuthError.createIdTokenParsingError'
+      - '@azure/abort-controller.ClientAuthError.createInvalidIdTokenError'
+      - >-
+        @azure/abort-controller.ClientAuthError.createInvalidInteractionTypeError
+      - '@azure/abort-controller.ClientAuthError.createInvalidStateError'
+      - '@azure/abort-controller.ClientAuthError.createLoginInProgressError'
+      - >-
+        @azure/abort-controller.ClientAuthError.createMultipleAuthoritiesInCacheError
+      - >-
+        @azure/abort-controller.ClientAuthError.createMultipleMatchingTokensInCacheError
+      - '@azure/abort-controller.ClientAuthError.createNonceMismatchError'
+      - '@azure/abort-controller.ClientAuthError.createNoWindowObjectError'
+      - '@azure/abort-controller.ClientAuthError.createPopupWindowError'
+      - '@azure/abort-controller.ClientAuthError.createTokenEncodingError'
+      - '@azure/abort-controller.ClientAuthError.createTokenRenewalTimeoutError'
+      - '@azure/abort-controller.ClientAuthError.createUnexpectedError'
+      - '@azure/abort-controller.ClientAuthError.createUserCancelledError'
+      - '@azure/abort-controller.ClientAuthError.createUserDoesNotExistError'
+      - '@azure/abort-controller.ClientAuthError.createUserLoginRequiredError'
+      - '@azure/abort-controller.ClientAuthError.errorCode'
+      - '@azure/abort-controller.ClientAuthError.errorMessage'
+      - '@azure/abort-controller.ClientAuthError.message'
+      - '@azure/abort-controller.ClientAuthError.name'
+      - '@azure/abort-controller.ClientAuthError.stack'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      Error thrown when there is an error in the client code running on the
+      browser.
+    extends:
+      name: '@azure/abort-controller.AuthError'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.constructor'
+    name: 'ClientAuthError(string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ClientAuthError(errorCode: string, errorMessage?: string)'
+      parameters:
+        - id: errorCode
+          type:
+            - string
+          description: ''
+        - id: errorMessage
+          type:
+            - string
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createAcquireTokenInProgressError'
+    name: createAcquireTokenInProgressError()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function createAcquireTokenInProgressError()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: >-
+      @azure/abort-controller.ClientAuthError.createBlockTokenRequestsInHiddenIframeError
+    name: createBlockTokenRequestsInHiddenIframeError()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function createBlockTokenRequestsInHiddenIframeError()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createCacheParseError'
+    name: createCacheParseError(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createCacheParseError(key: string)'
+      parameters:
+        - id: key
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createClientInfoDecodingError'
+    name: createClientInfoDecodingError(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createClientInfoDecodingError(caughtError: string)'
+      parameters:
+        - id: caughtError
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createClientInfoNotPopulatedError'
+    name: createClientInfoNotPopulatedError(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createClientInfoNotPopulatedError(caughtError: string)'
+      parameters:
+        - id: caughtError
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createEndpointResolutionError'
+    name: createEndpointResolutionError(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createEndpointResolutionError(errDetail?: string)'
+      parameters:
+        - id: errDetail
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createErrorInCallbackFunction'
+    name: createErrorInCallbackFunction(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createErrorInCallbackFunction(errorDesc: string)'
+      parameters:
+        - id: errorDesc
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createIdTokenNullOrEmptyError'
+    name: createIdTokenNullOrEmptyError(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function createIdTokenNullOrEmptyError(invalidRawTokenString:
+        string)
+      parameters:
+        - id: invalidRawTokenString
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createIdTokenParsingError'
+    name: createIdTokenParsingError(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createIdTokenParsingError(caughtParsingError: string)'
+      parameters:
+        - id: caughtParsingError
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createInvalidIdTokenError'
+    name: createInvalidIdTokenError(IdToken)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createInvalidIdTokenError(idToken: IdToken)'
+      parameters:
+        - id: idToken
+          type:
+            - IdToken
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createInvalidInteractionTypeError'
+    name: createInvalidInteractionTypeError()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function createInvalidInteractionTypeError()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createInvalidStateError'
+    name: 'createInvalidStateError(string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function createInvalidStateError(invalidState: string,
+        actualState: string)
+      parameters:
+        - id: invalidState
+          type:
+            - string
+          description: ''
+        - id: actualState
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createLoginInProgressError'
+    name: createLoginInProgressError()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function createLoginInProgressError()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: >-
+      @azure/abort-controller.ClientAuthError.createMultipleAuthoritiesInCacheError
+    name: createMultipleAuthoritiesInCacheError(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createMultipleAuthoritiesInCacheError(scope: string)'
+      parameters:
+        - id: scope
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: >-
+      @azure/abort-controller.ClientAuthError.createMultipleMatchingTokensInCacheError
+    name: createMultipleMatchingTokensInCacheError(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createMultipleMatchingTokensInCacheError(scope: string)'
+      parameters:
+        - id: scope
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createNonceMismatchError'
+    name: 'createNonceMismatchError(string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function createNonceMismatchError(invalidNonce: string,
+        actualNonce: string)
+      parameters:
+        - id: invalidNonce
+          type:
+            - string
+          description: ''
+        - id: actualNonce
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createNoWindowObjectError'
+    name: createNoWindowObjectError(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createNoWindowObjectError(errDesc: string)'
+      parameters:
+        - id: errDesc
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.AuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createPopupWindowError'
+    name: createPopupWindowError(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createPopupWindowError(errDetail?: string)'
+      parameters:
+        - id: errDetail
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createTokenEncodingError'
+    name: createTokenEncodingError(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function createTokenEncodingError(incorrectlyEncodedToken:
+        string)
+      parameters:
+        - id: incorrectlyEncodedToken
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createTokenRenewalTimeoutError'
+    name: createTokenRenewalTimeoutError(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createTokenRenewalTimeoutError(urlNavigate: string)'
+      parameters:
+        - id: urlNavigate
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createUnexpectedError'
+    name: createUnexpectedError(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function createUnexpectedError(errDesc: string)'
+      parameters:
+        - id: errDesc
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.AuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createUserCancelledError'
+    name: createUserCancelledError()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function createUserCancelledError()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createUserDoesNotExistError'
+    name: createUserDoesNotExistError()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function createUserDoesNotExistError()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.createUserLoginRequiredError'
+    name: createUserLoginRequiredError()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: static function createUserLoginRequiredError()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.ClientAuthError'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.errorCode'
+    name: errorCode
+    fullName: errorCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'errorCode: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.errorMessage'
+    name: errorMessage
+    fullName: errorMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'errorMessage: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.message'
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'message: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ClientAuthError.stack'
+    name: stack
+    fullName: stack
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'stack?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.AuthError'
+    name: AuthError
+    spec.typeScript:
+      - name: AuthError
+        fullName: AuthError
+        uid: '@azure/abort-controller.AuthError'
+  - uid: '@azure/abort-controller.ClientAuthError'
+    name: ClientAuthError
+    spec.typeScript:
+      - name: ClientAuthError
+        fullName: ClientAuthError
+        uid: '@azure/abort-controller.ClientAuthError'

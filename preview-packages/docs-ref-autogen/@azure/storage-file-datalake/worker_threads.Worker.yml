@@ -1,0 +1,1483 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.worker_threads.Worker'
+    name: Worker
+    fullName: Worker
+    children:
+      - '@azure/abort-controller.worker_threads.Worker.addListener'
+      - '@azure/abort-controller.worker_threads.Worker.addListener_1'
+      - '@azure/abort-controller.worker_threads.Worker.addListener_2'
+      - '@azure/abort-controller.worker_threads.Worker.addListener_3'
+      - '@azure/abort-controller.worker_threads.Worker.addListener_4'
+      - '@azure/abort-controller.worker_threads.Worker.defaultMaxListeners'
+      - '@azure/abort-controller.worker_threads.Worker.emit'
+      - '@azure/abort-controller.worker_threads.Worker.emit_1'
+      - '@azure/abort-controller.worker_threads.Worker.emit_2'
+      - '@azure/abort-controller.worker_threads.Worker.emit_3'
+      - '@azure/abort-controller.worker_threads.Worker.emit_4'
+      - '@azure/abort-controller.worker_threads.Worker.eventNames'
+      - '@azure/abort-controller.worker_threads.Worker.getMaxListeners'
+      - '@azure/abort-controller.worker_threads.Worker.listenerCount'
+      - '@azure/abort-controller.worker_threads.Worker.listenerCount'
+      - '@azure/abort-controller.worker_threads.Worker.listeners'
+      - '@azure/abort-controller.worker_threads.Worker.moveMessagePortToContext'
+      - '@azure/abort-controller.worker_threads.Worker.off'
+      - '@azure/abort-controller.worker_threads.Worker.off_1'
+      - '@azure/abort-controller.worker_threads.Worker.off_2'
+      - '@azure/abort-controller.worker_threads.Worker.off_3'
+      - '@azure/abort-controller.worker_threads.Worker.off_4'
+      - '@azure/abort-controller.worker_threads.Worker.on'
+      - '@azure/abort-controller.worker_threads.Worker.on_1'
+      - '@azure/abort-controller.worker_threads.Worker.on_2'
+      - '@azure/abort-controller.worker_threads.Worker.on_3'
+      - '@azure/abort-controller.worker_threads.Worker.on_4'
+      - '@azure/abort-controller.worker_threads.Worker.once'
+      - '@azure/abort-controller.worker_threads.Worker.once_1'
+      - '@azure/abort-controller.worker_threads.Worker.once_2'
+      - '@azure/abort-controller.worker_threads.Worker.once_3'
+      - '@azure/abort-controller.worker_threads.Worker.once_4'
+      - '@azure/abort-controller.worker_threads.Worker.postMessage'
+      - '@azure/abort-controller.worker_threads.Worker.prependListener'
+      - '@azure/abort-controller.worker_threads.Worker.prependListener_1'
+      - '@azure/abort-controller.worker_threads.Worker.prependListener_2'
+      - '@azure/abort-controller.worker_threads.Worker.prependListener_3'
+      - '@azure/abort-controller.worker_threads.Worker.prependListener_4'
+      - '@azure/abort-controller.worker_threads.Worker.prependOnceListener'
+      - '@azure/abort-controller.worker_threads.Worker.prependOnceListener_1'
+      - '@azure/abort-controller.worker_threads.Worker.prependOnceListener_2'
+      - '@azure/abort-controller.worker_threads.Worker.prependOnceListener_3'
+      - '@azure/abort-controller.worker_threads.Worker.prependOnceListener_4'
+      - '@azure/abort-controller.worker_threads.Worker.rawListeners'
+      - '@azure/abort-controller.worker_threads.Worker.receiveMessageOnPort'
+      - '@azure/abort-controller.worker_threads.Worker.ref'
+      - '@azure/abort-controller.worker_threads.Worker.removeAllListeners'
+      - '@azure/abort-controller.worker_threads.Worker.removeListener'
+      - '@azure/abort-controller.worker_threads.Worker.removeListener_1'
+      - '@azure/abort-controller.worker_threads.Worker.removeListener_2'
+      - '@azure/abort-controller.worker_threads.Worker.removeListener_3'
+      - '@azure/abort-controller.worker_threads.Worker.removeListener_4'
+      - '@azure/abort-controller.worker_threads.Worker.resourceLimits'
+      - '@azure/abort-controller.worker_threads.Worker.setMaxListeners'
+      - '@azure/abort-controller.worker_threads.Worker.stderr'
+      - '@azure/abort-controller.worker_threads.Worker.stdin'
+      - '@azure/abort-controller.worker_threads.Worker.stdout'
+      - '@azure/abort-controller.worker_threads.Worker.terminate'
+      - '@azure/abort-controller.worker_threads.Worker.threadId'
+      - '@azure/abort-controller.worker_threads.Worker.unref'
+      - '@azure/abort-controller.worker_threads.Worker.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.addListener'
+    name: 'addListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.addListener_1'
+    name: 'addListener("exit", (exitCode: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "exit", listener: (exitCode: number) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(exitCode: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.addListener_2'
+    name: 'addListener("message", (value: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "message", listener: (value: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(value: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.addListener_3'
+    name: 'addListener("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.addListener_4'
+    name: 'addListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: string | symbol, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.defaultMaxListeners'
+    name: defaultMaxListeners
+    fullName: defaultMaxListeners
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultMaxListeners: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.emit'
+    name: 'emit("error", Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "error", err: Error)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: err
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.emit_1'
+    name: 'emit("exit", number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "exit", exitCode: number)'
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: exitCode
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.emit_2'
+    name: 'emit("message", any)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "message", value: any)'
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: value
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.emit_3'
+    name: emit("online")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "online")'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.emit_4'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.listenerCount'
+    name: 'listenerCount(EventEmitter, string | symbol)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function listenerCount(emitter: EventEmitter, event: string |
+        symbol)
+      parameters:
+        - id: emitter
+          type:
+            - '@azure/abort-controller.events.EventEmitter.EventEmitter'
+          description: ''
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+    deprecated:
+      content: since v4.0.0
+  - uid: '@azure/abort-controller.worker_threads.Worker.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.moveMessagePortToContext'
+    name: 'moveMessagePortToContext(MessagePort, Context)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      Transfer a `MessagePort` to a different `vm` Context. The original `port`
+
+      object will be rendered unusable, and the returned `MessagePort` instance
+      will
+
+      take its place.
+
+      The returned `MessagePort` will be an object in the target context, and
+      will
+
+      inherit from its global `Object` class. Objects passed to the
+
+      `port.onmessage()` listener will also be created in the target context
+
+      and inherit from its global `Object` class.
+
+
+      However, the created `MessagePort` will no longer inherit from
+
+      `EventEmitter`, and only `port.onmessage()` can be used to receive
+
+      events using it.
+    syntax:
+      content: 'function moveMessagePortToContext(port: MessagePort, context: Context)'
+      parameters:
+        - id: port
+          type:
+            - '@azure/abort-controller.worker_threads.MessagePort'
+          description: ''
+        - id: context
+          type:
+            - '@azure/abort-controller.vm.Context'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.worker_threads.MessagePort'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.off'
+    name: 'off("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.off_1'
+    name: 'off("exit", (exitCode: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: "exit", listener: (exitCode: number) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(exitCode: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.off_2'
+    name: 'off("message", (value: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: "message", listener: (value: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(value: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.off_3'
+    name: 'off("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.off_4'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.on'
+    name: 'on("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.on_1'
+    name: 'on("exit", (exitCode: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "exit", listener: (exitCode: number) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(exitCode: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.on_2'
+    name: 'on("message", (value: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "message", listener: (value: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(value: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.on_3'
+    name: 'on("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.on_4'
+    name: 'on(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.once'
+    name: 'once("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.once_1'
+    name: 'once("exit", (exitCode: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "exit", listener: (exitCode: number) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(exitCode: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.once_2'
+    name: 'once("message", (value: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "message", listener: (value: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(value: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.once_3'
+    name: 'once("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.once_4'
+    name: 'once(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.postMessage'
+    name: 'postMessage(any, Array<ArrayBuffer | MessagePort>)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function postMessage(value: any, transferList?: Array<ArrayBuffer |
+        MessagePort>)
+      parameters:
+        - id: value
+          type:
+            - any
+          description: ''
+        - id: transferList
+          type:
+            - >-
+              @azure/abort-controller.NodeJS.Global.Array<ArrayBuffer |
+              @azure/abort-controller.worker_threads.MessagePort>
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.prependListener'
+    name: 'prependListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.prependListener_1'
+    name: 'prependListener("exit", (exitCode: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "exit", listener: (exitCode: number) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(exitCode: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.prependListener_2'
+    name: 'prependListener("message", (value: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "message", listener: (value: any) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(value: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.prependListener_3'
+    name: 'prependListener("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.prependListener_4'
+    name: 'prependListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.prependOnceListener'
+    name: 'prependOnceListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "error", listener: (err: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.prependOnceListener_1'
+    name: 'prependOnceListener("exit", (exitCode: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "exit", listener: (exitCode: number)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(exitCode: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.prependOnceListener_2'
+    name: 'prependOnceListener("message", (value: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "message", listener: (value: any) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(value: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.prependOnceListener_3'
+    name: 'prependOnceListener("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.prependOnceListener_4'
+    name: 'prependOnceListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string | symbol, listener: (args:
+        any[]) => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.receiveMessageOnPort'
+    name: receiveMessageOnPort(MessagePort)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Receive a single message from a given `MessagePort`. If no message is
+      available,
+
+      `undefined` is returned, otherwise an object with a single `message`
+      property
+
+      that contains the message payload, corresponding to the oldest message in
+      the
+
+      `MessagePort`’s queue.
+    syntax:
+      content: 'function receiveMessageOnPort(port: MessagePort)'
+      parameters:
+        - id: port
+          type:
+            - '@azure/abort-controller.worker_threads.MessagePort'
+          description: ''
+      return:
+        type:
+          - __type | undefined
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.ref'
+    name: ref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ref()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.removeListener'
+    name: 'removeListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.removeListener_1'
+    name: 'removeListener("exit", (exitCode: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: "exit", listener: (exitCode: number) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(exitCode: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.removeListener_2'
+    name: 'removeListener("message", (value: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: "message", listener: (value: any) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(value: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.removeListener_3'
+    name: 'removeListener("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.removeListener_4'
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.resourceLimits'
+    name: resourceLimits
+    fullName: resourceLimits
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'resourceLimits?: ResourceLimits'
+      return:
+        type:
+          - '@azure/abort-controller.worker_threads.ResourceLimits'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.stderr'
+    name: stderr
+    fullName: stderr
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'stderr: Readable'
+      return:
+        type:
+          - '@azure/abort-controller.stream.internal.Readable'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.stdin'
+    name: stdin
+    fullName: stdin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'stdin: Writable | null'
+      return:
+        type:
+          - '@azure/abort-controller.stream.internal.Writable | null'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.stdout'
+    name: stdout
+    fullName: stdout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'stdout: Readable'
+      return:
+        type:
+          - '@azure/abort-controller.stream.internal.Readable'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.terminate'
+    name: terminate()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Stop all JavaScript execution in the worker thread as soon as possible.
+
+      Returns a Promise for the exit code that is fulfilled when the `exit`
+      event is emitted.
+    syntax:
+      content: function terminate()
+      parameters: []
+      return:
+        type:
+          - Promise<number>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.threadId'
+    name: threadId
+    fullName: threadId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'threadId: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.unref'
+    name: unref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unref()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.worker_threads.Worker.constructor'
+    name: 'Worker(string, WorkerOptions)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Worker(filename: string, options?: WorkerOptions)'
+      parameters:
+        - id: filename
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.worker_threads.WorkerOptions'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.worker_threads.MessagePort'
+    name: MessagePort
+    spec.typeScript:
+      - name: MessagePort
+        fullName: MessagePort
+        uid: '@azure/abort-controller.worker_threads.MessagePort'
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: >-
+      @azure/abort-controller.NodeJS.Global.Array<ArrayBuffer |
+      @azure/abort-controller.worker_threads.MessagePort>
+    name: MessagePort>
+    spec.typeScript:
+      - name: Array
+        fullName: Array
+        uid: '@azure/abort-controller.NodeJS.Global.Array'
+      - name: '<ArrayBuffer | '
+        fullName: '<ArrayBuffer | '
+      - name: MessagePort
+        fullName: MessagePort
+        uid: '@azure/abort-controller.worker_threads.MessagePort'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.worker_threads.WorkerOptions'
+    name: WorkerOptions
+    spec.typeScript:
+      - name: WorkerOptions
+        fullName: WorkerOptions
+        uid: '@azure/abort-controller.worker_threads.WorkerOptions'
+  - uid: '@azure/abort-controller.worker_threads.ResourceLimits'
+    name: ResourceLimits
+    spec.typeScript:
+      - name: ResourceLimits
+        fullName: ResourceLimits
+        uid: '@azure/abort-controller.worker_threads.ResourceLimits'
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: '@azure/abort-controller.stream.internal.Writable | null'
+    name: Writable | null
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.vm.Context'
+    name: Context
+    spec.typeScript:
+      - name: Context
+        fullName: Context
+        uid: '@azure/abort-controller.vm.Context'

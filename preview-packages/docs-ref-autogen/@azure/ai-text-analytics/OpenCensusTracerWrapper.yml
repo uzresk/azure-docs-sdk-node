@@ -1,0 +1,225 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.OpenCensusTracerWrapper'
+    name: OpenCensusTracerWrapper
+    fullName: OpenCensusTracerWrapper
+    children:
+      - '@azure/abort-controller.OpenCensusTracerWrapper.bind'
+      - '@azure/abort-controller.OpenCensusTracerWrapper.getBinaryFormat'
+      - '@azure/abort-controller.OpenCensusTracerWrapper.getCurrentSpan'
+      - '@azure/abort-controller.OpenCensusTracerWrapper.getHttpTextFormat'
+      - '@azure/abort-controller.OpenCensusTracerWrapper.getWrappedTracer'
+      - '@azure/abort-controller.OpenCensusTracerWrapper.constructor'
+      - '@azure/abort-controller.OpenCensusTracerWrapper.recordSpanData'
+      - '@azure/abort-controller.OpenCensusTracerWrapper.startSpan'
+      - '@azure/abort-controller.OpenCensusTracerWrapper.withSpan'
+    langs:
+      - typeScript
+    type: class
+    summary: An implementation of OpenTelemetry Tracer that wraps an OpenCensus Tracer.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OpenCensusTracerWrapper.bind'
+    name: 'bind(T, Span)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Bind a Span as the target's scope
+    syntax:
+      content: 'function bind<T>(_target: T, _span?: Span)'
+      parameters:
+        - id: _target
+          type:
+            - T
+          description: ''
+        - id: _span
+          type:
+            - '@azure/abort-controller.Span'
+          description: |
+            A specific Span to use. Otherwise, use the current one.
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OpenCensusTracerWrapper.getBinaryFormat'
+    name: getBinaryFormat()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the BinaryFormat interface for serializing/deserializing Spans.
+    syntax:
+      content: function getBinaryFormat()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.BinaryFormat'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OpenCensusTracerWrapper.getCurrentSpan'
+    name: getCurrentSpan()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Returns the current Span from the current context, if available.'
+    syntax:
+      content: function getCurrentSpan()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.Span | null'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OpenCensusTracerWrapper.getHttpTextFormat'
+    name: getHttpTextFormat()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the HttpTextFormat interface for injecting/extracting Spans.
+    syntax:
+      content: function getHttpTextFormat()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.HttpTextFormat'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OpenCensusTracerWrapper.getWrappedTracer'
+    name: getWrappedTracer()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: The wrapped OpenCensus Tracer
+    syntax:
+      content: function getWrappedTracer()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.TracerBase'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OpenCensusTracerWrapper.constructor'
+    name: OpenCensusTracerWrapper(TracerBase)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Create a new wrapper around a given OpenCensus Tracer.
+    syntax:
+      content: 'new OpenCensusTracerWrapper(tracer: TracerBase)'
+      parameters:
+        - id: tracer
+          type:
+            - '@azure/abort-controller.TracerBase'
+          description: |
+            The OpenCensus Tracer to wrap.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OpenCensusTracerWrapper.recordSpanData'
+    name: recordSpanData(Span)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Send a pre-populated Span object to the exporter.
+    syntax:
+      content: 'function recordSpanData(_span: Span)'
+      parameters:
+        - id: _span
+          type:
+            - '@azure/abort-controller.Span'
+          description: |
+            The span to pass along.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OpenCensusTracerWrapper.startSpan'
+    name: 'startSpan(string, SpanOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Starts a new Span.
+    syntax:
+      content: 'function startSpan(name: string, options?: SpanOptions)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: The name of the span.
+        - id: options
+          type:
+            - '@azure/abort-controller.SpanOptions'
+          description: |
+            The SpanOptions used during Span creation.
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.Span'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OpenCensusTracerWrapper.withSpan'
+    name: 'withSpan(Span, T)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Executes the given function within the context provided by a Span.
+    syntax:
+      content: 'function withSpan<T>(_span: Span, _fn: T)'
+      parameters:
+        - id: _span
+          type:
+            - '@azure/abort-controller.Span'
+          description: The span that provides the context.
+        - id: _fn
+          type:
+            - T
+          description: |
+            The function to be executed.
+      return:
+        type:
+          - ReturnType<T>
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.TracerBase'
+    name: TracerBase
+    spec.typeScript:
+      - name: TracerBase
+        fullName: TracerBase
+        uid: '@azure/abort-controller.TracerBase'
+  - uid: '@azure/abort-controller.Span'
+    name: Span
+    spec.typeScript:
+      - name: Span
+        fullName: Span
+        uid: '@azure/abort-controller.Span'
+  - uid: '@azure/abort-controller.BinaryFormat'
+    name: BinaryFormat
+    spec.typeScript:
+      - name: BinaryFormat
+        fullName: BinaryFormat
+        uid: '@azure/abort-controller.BinaryFormat'
+  - uid: '@azure/abort-controller.Span | null'
+    name: Span | null
+    spec.typeScript:
+      - name: Span
+        fullName: Span
+        uid: '@azure/abort-controller.Span'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.HttpTextFormat'
+    name: HttpTextFormat
+    spec.typeScript:
+      - name: HttpTextFormat
+        fullName: HttpTextFormat
+        uid: '@azure/abort-controller.HttpTextFormat'
+  - uid: '@azure/abort-controller.SpanOptions'
+    name: SpanOptions
+    spec.typeScript:
+      - name: SpanOptions
+        fullName: SpanOptions
+        uid: '@azure/abort-controller.SpanOptions'

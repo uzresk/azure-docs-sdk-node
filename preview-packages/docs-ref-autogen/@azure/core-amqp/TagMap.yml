@@ -1,0 +1,137 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.TagMap
+    name: TagMap
+    fullName: TagMap
+    children:
+      - tslib.TagMap.delete
+      - tslib.TagMap.set
+      - tslib.TagMap.tags
+      - tslib.TagMap.tagsWithMetadata
+    langs:
+      - typeScript
+    type: class
+    summary: TagMap is maps of TagKey -> TagValueWithMetadata
+    package: tslib
+  - uid: tslib.TagMap.delete
+    name: delete(TagKey)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Deletes a tag from the map if the key is in the map.
+    syntax:
+      content: 'function delete(tagKey: TagKey)'
+      parameters:
+        - id: tagKey
+          type:
+            - tslib.TagKey
+          description: |
+            The TagKey which will be removed.
+    package: tslib
+  - uid: tslib.TagMap.set
+    name: 'set(TagKey, TagValue, TagMetadata)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds the key/value pair regardless of whether the key is present.
+    syntax:
+      content: >-
+        function set(tagKey: TagKey, tagValue: TagValue, tagMetadata?:
+        TagMetadata)
+      parameters:
+        - id: tagKey
+          type:
+            - tslib.TagKey
+          description: The TagKey which will be set.
+        - id: tagValue
+          type:
+            - tslib.TagValue
+          description: The TagValue to set for the given key.
+        - id: tagMetadata
+          type:
+            - tslib.TagMetadata
+          description: |
+            The TagMetadata associated with this Tag.
+          optional: true
+    package: tslib
+  - uid: tslib.TagMap.tags
+    name: tags
+    fullName: tags
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the tags map without metadata.
+    syntax:
+      content: 'tags: Map<TagKey, TagValue>'
+      return:
+        type:
+          - 'Map<tslib.TagKey, tslib.TagValue>'
+        description: ''
+    package: tslib
+  - uid: tslib.TagMap.tagsWithMetadata
+    name: tagsWithMetadata
+    fullName: tagsWithMetadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Gets the tags map with metadata.
+    syntax:
+      content: 'tagsWithMetadata: Map<TagKey, TagValueWithMetadata>'
+      return:
+        type:
+          - 'Map<tslib.TagKey, tslib.TagValueWithMetadata>'
+        description: ''
+    package: tslib
+references:
+  - uid: 'Map<tslib.TagKey, tslib.TagValue>'
+    name: TagValue>
+    spec.typeScript:
+      - name: Map<
+        fullName: Map<
+      - name: TagKey
+        fullName: TagKey
+        uid: tslib.TagKey
+      - name: ', '
+        fullName: ', '
+      - name: TagValue
+        fullName: TagValue
+        uid: tslib.TagValue
+      - name: '>'
+        fullName: '>'
+  - uid: 'Map<tslib.TagKey, tslib.TagValueWithMetadata>'
+    name: TagValueWithMetadata>
+    spec.typeScript:
+      - name: Map<
+        fullName: Map<
+      - name: TagKey
+        fullName: TagKey
+        uid: tslib.TagKey
+      - name: ', '
+        fullName: ', '
+      - name: TagValueWithMetadata
+        fullName: TagValueWithMetadata
+        uid: tslib.TagValueWithMetadata
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.TagKey
+    name: TagKey
+    spec.typeScript:
+      - name: TagKey
+        fullName: TagKey
+        uid: tslib.TagKey
+  - uid: tslib.TagValue
+    name: TagValue
+    spec.typeScript:
+      - name: TagValue
+        fullName: TagValue
+        uid: tslib.TagValue
+  - uid: tslib.TagMetadata
+    name: TagMetadata
+    spec.typeScript:
+      - name: TagMetadata
+        fullName: TagMetadata
+        uid: tslib.TagMetadata

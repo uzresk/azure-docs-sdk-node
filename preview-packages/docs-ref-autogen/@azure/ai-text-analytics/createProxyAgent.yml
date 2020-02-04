@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.createProxyAgent'
+    name: 'createProxyAgent(string, ProxySettings, HttpHeaders)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createProxyAgent(requestUrl: string, proxySettings:
+        ProxySettings, headers?: HttpHeaders)
+      parameters:
+        - id: requestUrl
+          type:
+            - string
+          description: ''
+        - id: proxySettings
+          type:
+            - '@azure/abort-controller.ProxySettings'
+          description: ''
+        - id: headers
+          type:
+            - '@azure/abort-controller.HttpHeaders'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.ProxyAgent'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.ProxySettings'
+    name: ProxySettings
+    spec.typeScript:
+      - name: ProxySettings
+        fullName: ProxySettings
+        uid: '@azure/abort-controller.ProxySettings'
+  - uid: '@azure/abort-controller.HttpHeaders'
+    name: HttpHeaders
+    spec.typeScript:
+      - name: HttpHeaders
+        fullName: HttpHeaders
+        uid: '@azure/abort-controller.HttpHeaders'
+  - uid: '@azure/abort-controller.ProxyAgent'
+    name: ProxyAgent
+    spec.typeScript:
+      - name: ProxyAgent
+        fullName: ProxyAgent
+        uid: '@azure/abort-controller.ProxyAgent'

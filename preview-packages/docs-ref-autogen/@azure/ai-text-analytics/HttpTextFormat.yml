@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.HttpTextFormat'
+    name: HttpTextFormat
+    fullName: HttpTextFormat
+    children:
+      - '@azure/abort-controller.HttpTextFormat.extract'
+      - '@azure/abort-controller.HttpTextFormat.inject'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      Injects and extracts a value as text into carriers that travel in-band
+
+      across process boundaries. Encoding is expected to conform to the HTTP
+
+      Header Field semantics. Values are often encoded as RPC/HTTP request
+      headers.
+
+      The carrier of propagated data on both the client (injector) and server
+
+      (extractor) side is usually an http request. Propagation is usually
+
+      implemented via library- specific request interceptors, where the
+
+      client-side injects values and the server-side extracts them.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpTextFormat.extract'
+    name: 'extract(string, unknown)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns a <xref:SpanContext> instance extracted from `carrier` in the
+      given format from upstream.
+    syntax:
+      content: 'function extract(format: string, carrier: unknown)'
+      parameters:
+        - id: format
+          type:
+            - string
+          description: the format of the carrier.
+        - id: carrier
+          type:
+            - unknown
+          description: 'the carrier of propagation fields, such as an http request.'
+      return:
+        type:
+          - '@azure/abort-controller.SpanContext | null'
+        description: |-
+          SpanContext The extracted SpanContext, or null if no such
+              SpanContext could be found in carrier.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.HttpTextFormat.inject'
+    name: 'inject(SpanContext, string, unknown)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Injects the given <xref:SpanContext> instance to transmit over the wire.
+      OpenTelemetry defines a common set of format values (BinaryFormat and
+      HTTPTextFormat), and each has an expected `carrier` type.
+    syntax:
+      content: >-
+        function inject(spanContext: SpanContext, format: string, carrier:
+        unknown)
+      parameters:
+        - id: spanContext
+          type:
+            - '@azure/abort-controller.SpanContext'
+          description: the SpanContext to transmit over the wire.
+        - id: format
+          type:
+            - string
+          description: the format of the carrier.
+        - id: carrier
+          type:
+            - unknown
+          description: |
+            the carrier of propagation fields, such as an http request.
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.SpanContext | null'
+    name: SpanContext | null
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@azure/abort-controller.SpanContext'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.SpanContext'
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@azure/abort-controller.SpanContext'

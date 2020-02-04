@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.isValidTagValue'
+    name: isValidTagValue(TagValue)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Determines whether the given String is a valid tag value.
+    syntax:
+      content: 'function isValidTagValue(tagValue: TagValue)'
+      parameters:
+        - id: tagValue
+          type:
+            - '@opentelemetry/types.TagValue'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.TagValue'
+    name: TagValue
+    spec.typeScript:
+      - name: TagValue
+        fullName: TagValue
+        uid: '@opentelemetry/types.TagValue'

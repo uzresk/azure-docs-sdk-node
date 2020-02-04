@@ -1,0 +1,300 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.OperationSpec'
+    name: OperationSpec
+    fullName: OperationSpec
+    children:
+      - '@azure/abort-controller.OperationSpec.baseUrl'
+      - '@azure/abort-controller.OperationSpec.contentType'
+      - '@azure/abort-controller.OperationSpec.formDataParameters'
+      - '@azure/abort-controller.OperationSpec.headerParameters'
+      - '@azure/abort-controller.OperationSpec.httpMethod'
+      - '@azure/abort-controller.OperationSpec.isXML'
+      - '@azure/abort-controller.OperationSpec.path'
+      - '@azure/abort-controller.OperationSpec.queryParameters'
+      - '@azure/abort-controller.OperationSpec.requestBody'
+      - '@azure/abort-controller.OperationSpec.responses'
+      - '@azure/abort-controller.OperationSpec.serializer'
+      - '@azure/abort-controller.OperationSpec.urlParameters'
+    langs:
+      - typeScript
+    type: interface
+    summary: A specification that defines an operation.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OperationSpec.baseUrl'
+    name: baseUrl
+    fullName: baseUrl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The URL that was provided in the service's specification. This will still
+      have all of the URL
+
+      template variables in it. If this is not provided when the OperationSpec
+      is created, then it
+
+      will be populated by a "baseUri" property on the ServiceClient.
+    optional: true
+    syntax:
+      content: 'baseUrl?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OperationSpec.contentType'
+    name: contentType
+    fullName: contentType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The content type of the request body. This value will be used as the
+      "Content-Type" header if
+
+      it is provided.
+    optional: true
+    syntax:
+      content: 'contentType?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OperationSpec.formDataParameters'
+    name: formDataParameters
+    fullName: formDataParameters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The parameters to the operation method that will be used to create a
+      formdata body for the
+
+      operation's HTTP request.
+    optional: true
+    syntax:
+      content: 'formDataParameters?: ReadonlyArray<OperationParameter>'
+      return:
+        type:
+          - ReadonlyArray<@azure/abort-controller.OperationParameter>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OperationSpec.headerParameters'
+    name: headerParameters
+    fullName: headerParameters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The parameters to the operation method that will be converted to headers
+      on the operation's
+
+      HTTP request.
+    optional: true
+    syntax:
+      content: 'headerParameters?: ReadonlyArray<OperationParameter>'
+      return:
+        type:
+          - ReadonlyArray<@azure/abort-controller.OperationParameter>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OperationSpec.httpMethod'
+    name: httpMethod
+    fullName: httpMethod
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The HTTP method that should be used by requests for this operation.
+    syntax:
+      content: 'httpMethod: HttpMethods'
+      return:
+        type:
+          - '@azure/abort-controller.HttpMethods'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OperationSpec.isXML'
+    name: isXML
+    fullName: isXML
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Whether or not this operation uses XML request and response bodies.
+    optional: true
+    syntax:
+      content: 'isXML?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OperationSpec.path'
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The fixed path for this operation's URL. This will still have all of the
+      URL template variables
+
+      in it.
+    optional: true
+    syntax:
+      content: 'path?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OperationSpec.queryParameters'
+    name: queryParameters
+    fullName: queryParameters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The parameters to the operation method that will be added to the
+      constructed URL's query.
+    optional: true
+    syntax:
+      content: 'queryParameters?: ReadonlyArray<OperationQueryParameter>'
+      return:
+        type:
+          - ReadonlyArray<@azure/abort-controller.OperationQueryParameter>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OperationSpec.requestBody'
+    name: requestBody
+    fullName: requestBody
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The parameter that will be used to construct the HTTP request's body.
+    optional: true
+    syntax:
+      content: 'requestBody?: OperationParameter'
+      return:
+        type:
+          - '@azure/abort-controller.OperationParameter'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OperationSpec.responses'
+    name: responses
+    fullName: responses
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The different types of responses that this operation can return based on
+      what status code is
+
+      returned.
+    syntax:
+      content: 'responses: [key: string]: OperationResponse'
+      return:
+        type:
+          - '[key: string]: @azure/abort-controller.OperationResponse'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OperationSpec.serializer'
+    name: serializer
+    fullName: serializer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The serializer to use in this operation.
+    syntax:
+      content: 'serializer: Serializer'
+      return:
+        type:
+          - '@azure/abort-controller.Serializer'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OperationSpec.urlParameters'
+    name: urlParameters
+    fullName: urlParameters
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The parameters to the operation method that will be substituted into the
+      constructed URL.
+    optional: true
+    syntax:
+      content: 'urlParameters?: ReadonlyArray<OperationURLParameter>'
+      return:
+        type:
+          - ReadonlyArray<@azure/abort-controller.OperationURLParameter>
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: ReadonlyArray<@azure/abort-controller.OperationParameter>
+    name: OperationParameter>
+    spec.typeScript:
+      - name: ReadonlyArray<
+        fullName: ReadonlyArray<
+      - name: OperationParameter
+        fullName: OperationParameter
+        uid: '@azure/abort-controller.OperationParameter'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.HttpMethods'
+    name: HttpMethods
+    spec.typeScript:
+      - name: HttpMethods
+        fullName: HttpMethods
+        uid: '@azure/abort-controller.HttpMethods'
+  - uid: ReadonlyArray<@azure/abort-controller.OperationQueryParameter>
+    name: OperationQueryParameter>
+    spec.typeScript:
+      - name: ReadonlyArray<
+        fullName: ReadonlyArray<
+      - name: OperationQueryParameter
+        fullName: OperationQueryParameter
+        uid: '@azure/abort-controller.OperationQueryParameter'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.OperationParameter'
+    name: OperationParameter
+    spec.typeScript:
+      - name: OperationParameter
+        fullName: OperationParameter
+        uid: '@azure/abort-controller.OperationParameter'
+  - uid: '[key: string]: @azure/abort-controller.OperationResponse'
+    name: OperationResponse
+    spec.typeScript:
+      - name: '[key: string]: '
+        fullName: '[key: string]: '
+      - name: OperationResponse
+        fullName: OperationResponse
+        uid: '@azure/abort-controller.OperationResponse'
+  - uid: '@azure/abort-controller.Serializer'
+    name: Serializer
+    spec.typeScript:
+      - name: Serializer
+        fullName: Serializer
+        uid: '@azure/abort-controller.Serializer'
+  - uid: ReadonlyArray<@azure/abort-controller.OperationURLParameter>
+    name: OperationURLParameter>
+    spec.typeScript:
+      - name: ReadonlyArray<
+        fullName: ReadonlyArray<
+      - name: OperationURLParameter
+        fullName: OperationURLParameter
+        uid: '@azure/abort-controller.OperationURLParameter'
+      - name: '>'
+        fullName: '>'

@@ -1,0 +1,149 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.SpanOptions'
+    name: SpanOptions
+    fullName: SpanOptions
+    children:
+      - '@azure/abort-controller.SpanOptions.attributes'
+      - '@azure/abort-controller.SpanOptions.isRecording'
+      - '@azure/abort-controller.SpanOptions.kind'
+      - '@azure/abort-controller.SpanOptions.links'
+      - '@azure/abort-controller.SpanOptions.parent'
+      - '@azure/abort-controller.SpanOptions.startTime'
+    langs:
+      - typeScript
+    type: interface
+    summary: Options needed for span creation
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SpanOptions.attributes'
+    name: attributes
+    fullName: attributes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A spans attributes
+    optional: true
+    syntax:
+      content: 'attributes?: Attributes'
+      return:
+        type:
+          - '@azure/abort-controller.Attributes'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SpanOptions.isRecording'
+    name: isRecording
+    fullName: isRecording
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Indicates that if this Span is active and recording information like
+      events with the `AddEvent` operation and attributes using `setAttributes`.
+    optional: true
+    syntax:
+      content: 'isRecording?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SpanOptions.kind'
+    name: kind
+    fullName: kind
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The SpanKind of a span
+    optional: true
+    syntax:
+      content: 'kind?: SpanKind'
+      return:
+        type:
+          - '@azure/abort-controller.SpanKind'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SpanOptions.links'
+    name: links
+    fullName: links
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A spans links
+    optional: true
+    syntax:
+      content: 'links?: Link[]'
+      return:
+        type:
+          - '@azure/abort-controller.Link[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SpanOptions.parent'
+    name: parent
+    fullName: parent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A parent `SpanContext` (or `Span`, for convenience) that the newly-started
+      span will be the child of.
+    optional: true
+    syntax:
+      content: 'parent?: Span | SpanContext'
+      return:
+        type:
+          - '@azure/abort-controller.Span | @azure/abort-controller.SpanContext'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SpanOptions.startTime'
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A manually specified start time for the created `Span` object.
+    optional: true
+    syntax:
+      content: 'startTime?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Attributes'
+    name: Attributes
+    spec.typeScript:
+      - name: Attributes
+        fullName: Attributes
+        uid: '@azure/abort-controller.Attributes'
+  - uid: '@azure/abort-controller.SpanKind'
+    name: SpanKind
+    spec.typeScript:
+      - name: SpanKind
+        fullName: SpanKind
+        uid: '@azure/abort-controller.SpanKind'
+  - uid: '@azure/abort-controller.Link[]'
+    name: 'Link[]'
+    spec.typeScript:
+      - name: Link
+        fullName: Link
+        uid: '@azure/abort-controller.Link'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.Span | @azure/abort-controller.SpanContext'
+    name: SpanContext
+    spec.typeScript:
+      - name: Span
+        fullName: Span
+        uid: '@azure/abort-controller.Span'
+      - name: ' | '
+        fullName: ' | '
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@azure/abort-controller.SpanContext'

@@ -1,0 +1,95 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.trace_events.Tracing'
+    name: Tracing
+    fullName: Tracing
+    children:
+      - '@azure/abort-controller.trace_events.Tracing.categories'
+      - '@azure/abort-controller.trace_events.Tracing.disable'
+      - '@azure/abort-controller.trace_events.Tracing.enable'
+      - '@azure/abort-controller.trace_events.Tracing.enabled'
+    langs:
+      - typeScript
+    type: interface
+    summary: |
+      The `Tracing` object is used to enable or disable tracing for sets of
+      categories. Instances are created using the
+      `trace_events.createTracing()` method.
+      When created, the `Tracing` object is disabled. Calling the
+      `tracing.enable()` method adds the categories to the set of enabled trace
+      event categories. Calling `tracing.disable()` will remove the categories
+      from the set of enabled trace event categories.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.trace_events.Tracing.categories'
+    name: categories
+    fullName: categories
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A comma-separated list of the trace event categories covered by this
+      `Tracing` object.
+    syntax:
+      content: 'categories: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.trace_events.Tracing.disable'
+    name: disable()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |
+      Disables this `Tracing` object.
+      Only trace event categories _not_ covered by other enabled `Tracing`
+      objects and _not_ specified by the `--trace-event-categories` flag
+      will be disabled.
+    syntax:
+      content: function disable()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.trace_events.Tracing.enable'
+    name: enable()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Enables this `Tracing` object for the set of categories covered by
+      the `Tracing` object.
+    syntax:
+      content: function enable()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.trace_events.Tracing.enabled'
+    name: enabled
+    fullName: enabled
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: '`true` only if the `Tracing` object has been enabled.'
+    syntax:
+      content: 'enabled: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.trace_events.CreateTracingOptions'
+    name: CreateTracingOptions
+    spec.typeScript:
+      - name: CreateTracingOptions
+        fullName: CreateTracingOptions
+        uid: '@azure/abort-controller.trace_events.CreateTracingOptions'
+  - uid: '@azure/abort-controller.trace_events.Tracing'
+    name: Tracing
+    spec.typeScript:
+      - name: Tracing
+        fullName: Tracing
+        uid: '@azure/abort-controller.trace_events.Tracing'

@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.FileReadResponse'
+  - uid: '@azure/abort-controller.FileReadResponse'
     name: FileReadResponse
     fullName: FileReadResponse
     children: []
@@ -13,4 +13,4 @@ items:
         type FileReadResponse = FileReadHeaders & { _response: Object,
         contentAsBlob: Promise<Blob>, readableStreamBody: NodeJS.ReadableStream
         }
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

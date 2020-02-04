@@ -1,0 +1,1951 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.child_process'
+    name: child_process
+    langs:
+      - typeScript
+    fullName: child_process
+    children:
+      - '@azure/abort-controller.child_process.ChildProcess'
+      - '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - '@azure/abort-controller.child_process.ChildProcessWithoutNullStreams'
+      - '@azure/abort-controller.child_process.CommonOptions'
+      - '@azure/abort-controller.child_process.CommonSpawnOptions'
+      - '@azure/abort-controller.child_process.ExecException'
+      - '@azure/abort-controller.child_process.ExecFileOptions'
+      - '@azure/abort-controller.child_process.ExecFileOptionsWithBufferEncoding'
+      - '@azure/abort-controller.child_process.ExecFileOptionsWithOtherEncoding'
+      - '@azure/abort-controller.child_process.ExecFileOptionsWithStringEncoding'
+      - '@azure/abort-controller.child_process.execFileSync'
+      - '@azure/abort-controller.child_process.execFileSync_3'
+      - '@azure/abort-controller.child_process.execFileSync_2'
+      - '@azure/abort-controller.child_process.execFileSync_1'
+      - '@azure/abort-controller.child_process.execFileSync_6'
+      - '@azure/abort-controller.child_process.execFileSync_5'
+      - '@azure/abort-controller.child_process.execFileSync_4'
+      - '@azure/abort-controller.child_process.ExecFileSyncOptions'
+      - >-
+        @azure/abort-controller.child_process.ExecFileSyncOptionsWithBufferEncoding
+      - >-
+        @azure/abort-controller.child_process.ExecFileSyncOptionsWithStringEncoding
+      - '@azure/abort-controller.child_process.ExecOptions'
+      - '@azure/abort-controller.child_process.ExecOptionsWithBufferEncoding'
+      - '@azure/abort-controller.child_process.ExecOptionsWithStringEncoding'
+      - '@azure/abort-controller.child_process.execSync'
+      - '@azure/abort-controller.child_process.execSync_3'
+      - '@azure/abort-controller.child_process.execSync_2'
+      - '@azure/abort-controller.child_process.execSync_1'
+      - '@azure/abort-controller.child_process.ExecSyncOptions'
+      - '@azure/abort-controller.child_process.ExecSyncOptionsWithBufferEncoding'
+      - '@azure/abort-controller.child_process.ExecSyncOptionsWithStringEncoding'
+      - '@azure/abort-controller.child_process.fork'
+      - '@azure/abort-controller.child_process.ForkOptions'
+      - '@azure/abort-controller.child_process.MessageOptions'
+      - '@azure/abort-controller.child_process.MessagingOptions'
+      - '@azure/abort-controller.child_process.ProcessEnvOptions'
+      - '@azure/abort-controller.child_process.PromiseWithChild'
+      - '@azure/abort-controller.child_process.SendHandle'
+      - '@azure/abort-controller.child_process.Serializable'
+      - '@azure/abort-controller.child_process.SerializationType'
+      - '@azure/abort-controller.child_process.spawn_19'
+      - '@azure/abort-controller.child_process.spawn_10'
+      - '@azure/abort-controller.child_process.spawn_18'
+      - '@azure/abort-controller.child_process.spawn_17'
+      - '@azure/abort-controller.child_process.spawn_16'
+      - '@azure/abort-controller.child_process.spawn_14'
+      - '@azure/abort-controller.child_process.spawn_15'
+      - '@azure/abort-controller.child_process.spawn_13'
+      - '@azure/abort-controller.child_process.spawn_12'
+      - '@azure/abort-controller.child_process.spawn_11'
+      - '@azure/abort-controller.child_process.spawn_9'
+      - '@azure/abort-controller.child_process.spawn'
+      - '@azure/abort-controller.child_process.spawn_8'
+      - '@azure/abort-controller.child_process.spawn_7'
+      - '@azure/abort-controller.child_process.spawn_6'
+      - '@azure/abort-controller.child_process.spawn_4'
+      - '@azure/abort-controller.child_process.spawn_5'
+      - '@azure/abort-controller.child_process.spawn_3'
+      - '@azure/abort-controller.child_process.spawn_2'
+      - '@azure/abort-controller.child_process.spawn_1'
+      - '@azure/abort-controller.child_process.SpawnOptions'
+      - '@azure/abort-controller.child_process.SpawnOptionsWithoutStdio'
+      - '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - '@azure/abort-controller.child_process.spawnSync'
+      - '@azure/abort-controller.child_process.spawnSync_6'
+      - '@azure/abort-controller.child_process.spawnSync_5'
+      - '@azure/abort-controller.child_process.spawnSync_4'
+      - '@azure/abort-controller.child_process.spawnSync_3'
+      - '@azure/abort-controller.child_process.spawnSync_2'
+      - '@azure/abort-controller.child_process.spawnSync_1'
+      - '@azure/abort-controller.child_process.SpawnSyncOptions'
+      - '@azure/abort-controller.child_process.SpawnSyncOptionsWithBufferEncoding'
+      - '@azure/abort-controller.child_process.SpawnSyncOptionsWithStringEncoding'
+      - '@azure/abort-controller.child_process.SpawnSyncReturns'
+      - '@azure/abort-controller.child_process.StdioNull'
+      - '@azure/abort-controller.child_process.StdioOptions'
+      - '@azure/abort-controller.child_process.StdioPipe'
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.execFileSync'
+    name: execFileSync(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function execFileSync(command: string)'
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.execFileSync_3'
+    name: 'execFileSync(string, ExecFileSyncOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function execFileSync(command: string, options?: ExecFileSyncOptions)'
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.child_process.ExecFileSyncOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.execFileSync_2'
+    name: 'execFileSync(string, ExecFileSyncOptionsWithBufferEncoding)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function execFileSync(command: string, options?:
+        ExecFileSyncOptionsWithBufferEncoding)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.ExecFileSyncOptionsWithBufferEncoding
+          description: ''
+          optional: true
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.execFileSync_1'
+    name: 'execFileSync(string, ExecFileSyncOptionsWithStringEncoding)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function execFileSync(command: string, options?:
+        ExecFileSyncOptionsWithStringEncoding)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.ExecFileSyncOptionsWithStringEncoding
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.execFileSync_6'
+    name: 'execFileSync(string, ReadonlyArray<string>, ExecFileSyncOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function execFileSync(command: string, args?: ReadonlyArray<string>,
+        options?: ExecFileSyncOptions)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.child_process.ExecFileSyncOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.execFileSync_5'
+    name: >-
+      execFileSync(string, ReadonlyArray<string>,
+      ExecFileSyncOptionsWithBufferEncoding)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function execFileSync(command: string, args?: ReadonlyArray<string>,
+        options?: ExecFileSyncOptionsWithBufferEncoding)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.ExecFileSyncOptionsWithBufferEncoding
+          description: ''
+          optional: true
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.execFileSync_4'
+    name: >-
+      execFileSync(string, ReadonlyArray<string>,
+      ExecFileSyncOptionsWithStringEncoding)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function execFileSync(command: string, args?: ReadonlyArray<string>,
+        options?: ExecFileSyncOptionsWithStringEncoding)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.ExecFileSyncOptionsWithStringEncoding
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.execSync'
+    name: execSync(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function execSync(command: string)'
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.execSync_3'
+    name: 'execSync(string, ExecSyncOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function execSync(command: string, options?: ExecSyncOptions)'
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.child_process.ExecSyncOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.execSync_2'
+    name: 'execSync(string, ExecSyncOptionsWithBufferEncoding)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function execSync(command: string, options?:
+        ExecSyncOptionsWithBufferEncoding)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.ExecSyncOptionsWithBufferEncoding
+          description: ''
+          optional: true
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.execSync_1'
+    name: 'execSync(string, ExecSyncOptionsWithStringEncoding)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function execSync(command: string, options?:
+        ExecSyncOptionsWithStringEncoding)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.ExecSyncOptionsWithStringEncoding
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.fork'
+    name: 'fork(string, ReadonlyArray<string>, ForkOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function fork(modulePath: string, args?: ReadonlyArray<string>,
+        options?: ForkOptions)
+      parameters:
+        - id: modulePath
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.child_process.ForkOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.child_process.ChildProcess'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_19'
+    name: 'spawn(string, ReadonlyArray<string>, SpawnOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, args: ReadonlyArray<string>, options:
+        SpawnOptions)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.child_process.SpawnOptions'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.child_process.ChildProcess'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_10'
+    name: 'spawn(string, ReadonlyArray<string>, SpawnOptionsWithoutStdio)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, args?: ReadonlyArray<string>, options?:
+        SpawnOptionsWithoutStdio)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.child_process.SpawnOptionsWithoutStdio'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.child_process.ChildProcessWithoutNullStreams'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_18'
+    name: >-
+      spawn(string, ReadonlyArray<string>, SpawnOptionsWithStdioTuple<StdioNull,
+      StdioNull, StdioNull>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, args: ReadonlyArray<string>, options:
+        SpawnOptionsWithStdioTuple<StdioNull, StdioNull, StdioNull>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioNull>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<null,
+            null, null>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_17'
+    name: >-
+      spawn(string, ReadonlyArray<string>, SpawnOptionsWithStdioTuple<StdioNull,
+      StdioNull, StdioPipe>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, args: ReadonlyArray<string>, options:
+        SpawnOptionsWithStdioTuple<StdioNull, StdioNull, StdioPipe>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioPipe>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<null,
+            null, @azure/abort-controller.stream.internal.Readable>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_16'
+    name: >-
+      spawn(string, ReadonlyArray<string>, SpawnOptionsWithStdioTuple<StdioNull,
+      StdioPipe, StdioNull>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, args: ReadonlyArray<string>, options:
+        SpawnOptionsWithStdioTuple<StdioNull, StdioPipe, StdioNull>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioNull>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<null,
+            @azure/abort-controller.stream.internal.Readable, null>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_14'
+    name: >-
+      spawn(string, ReadonlyArray<string>, SpawnOptionsWithStdioTuple<StdioNull,
+      StdioPipe, StdioPipe>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, args: ReadonlyArray<string>, options:
+        SpawnOptionsWithStdioTuple<StdioNull, StdioPipe, StdioPipe>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioPipe>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<null,
+            @azure/abort-controller.stream.internal.Readable,
+            @azure/abort-controller.stream.internal.Readable>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_15'
+    name: >-
+      spawn(string, ReadonlyArray<string>, SpawnOptionsWithStdioTuple<StdioPipe,
+      StdioNull, StdioNull>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, args: ReadonlyArray<string>, options:
+        SpawnOptionsWithStdioTuple<StdioPipe, StdioNull, StdioNull>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioNull>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+            null, null>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_13'
+    name: >-
+      spawn(string, ReadonlyArray<string>, SpawnOptionsWithStdioTuple<StdioPipe,
+      StdioNull, StdioPipe>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, args: ReadonlyArray<string>, options:
+        SpawnOptionsWithStdioTuple<StdioPipe, StdioNull, StdioPipe>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioPipe>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+            null, @azure/abort-controller.stream.internal.Readable>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_12'
+    name: >-
+      spawn(string, ReadonlyArray<string>, SpawnOptionsWithStdioTuple<StdioPipe,
+      StdioPipe, StdioNull>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, args: ReadonlyArray<string>, options:
+        SpawnOptionsWithStdioTuple<StdioPipe, StdioPipe, StdioNull>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioNull>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+            @azure/abort-controller.stream.internal.Readable, null>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_11'
+    name: >-
+      spawn(string, ReadonlyArray<string>, SpawnOptionsWithStdioTuple<StdioPipe,
+      StdioPipe, StdioPipe>)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, args: ReadonlyArray<string>, options:
+        SpawnOptionsWithStdioTuple<StdioPipe, StdioPipe, StdioPipe>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioPipe>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+            @azure/abort-controller.stream.internal.Readable,
+            @azure/abort-controller.stream.internal.Readable>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_9'
+    name: 'spawn(string, SpawnOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function spawn(command: string, options: SpawnOptions)'
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.child_process.SpawnOptions'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.child_process.ChildProcess'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn'
+    name: 'spawn(string, SpawnOptionsWithoutStdio)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function spawn(command: string, options?: SpawnOptionsWithoutStdio)'
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.child_process.SpawnOptionsWithoutStdio'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.child_process.ChildProcessWithoutNullStreams'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_8'
+    name: 'spawn(string, SpawnOptionsWithStdioTuple<StdioNull, StdioNull, StdioNull>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, options:
+        SpawnOptionsWithStdioTuple<StdioNull, StdioNull, StdioNull>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioNull>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<null,
+            null, null>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_7'
+    name: 'spawn(string, SpawnOptionsWithStdioTuple<StdioNull, StdioNull, StdioPipe>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, options:
+        SpawnOptionsWithStdioTuple<StdioNull, StdioNull, StdioPipe>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioPipe>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<null,
+            null, @azure/abort-controller.stream.internal.Readable>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_6'
+    name: 'spawn(string, SpawnOptionsWithStdioTuple<StdioNull, StdioPipe, StdioNull>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, options:
+        SpawnOptionsWithStdioTuple<StdioNull, StdioPipe, StdioNull>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioNull>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<null,
+            @azure/abort-controller.stream.internal.Readable, null>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_4'
+    name: 'spawn(string, SpawnOptionsWithStdioTuple<StdioNull, StdioPipe, StdioPipe>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, options:
+        SpawnOptionsWithStdioTuple<StdioNull, StdioPipe, StdioPipe>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioPipe>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<null,
+            @azure/abort-controller.stream.internal.Readable,
+            @azure/abort-controller.stream.internal.Readable>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_5'
+    name: 'spawn(string, SpawnOptionsWithStdioTuple<StdioPipe, StdioNull, StdioNull>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, options:
+        SpawnOptionsWithStdioTuple<StdioPipe, StdioNull, StdioNull>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioNull>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+            null, null>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_3'
+    name: 'spawn(string, SpawnOptionsWithStdioTuple<StdioPipe, StdioNull, StdioPipe>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, options:
+        SpawnOptionsWithStdioTuple<StdioPipe, StdioNull, StdioPipe>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioNull,
+              @azure/abort-controller.child_process.StdioPipe>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+            null, @azure/abort-controller.stream.internal.Readable>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_2'
+    name: 'spawn(string, SpawnOptionsWithStdioTuple<StdioPipe, StdioPipe, StdioNull>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, options:
+        SpawnOptionsWithStdioTuple<StdioPipe, StdioPipe, StdioNull>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioNull>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+            @azure/abort-controller.stream.internal.Readable, null>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawn_1'
+    name: 'spawn(string, SpawnOptionsWithStdioTuple<StdioPipe, StdioPipe, StdioPipe>)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawn(command: string, options:
+        SpawnOptionsWithStdioTuple<StdioPipe, StdioPipe, StdioPipe>)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioPipe,
+              @azure/abort-controller.child_process.StdioPipe>
+          description: ''
+      return:
+        type:
+          - >-
+            @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+            @azure/abort-controller.stream.internal.Readable,
+            @azure/abort-controller.stream.internal.Readable>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawnSync'
+    name: spawnSync(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function spawnSync(command: string)'
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.child_process.SpawnSyncReturns<Buffer>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawnSync_6'
+    name: 'spawnSync(string, ReadonlyArray<string>, SpawnSyncOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawnSync(command: string, args?: ReadonlyArray<string>,
+        options?: SpawnSyncOptions)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - '@azure/abort-controller.child_process.SpawnSyncOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.child_process.SpawnSyncReturns<Buffer>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawnSync_5'
+    name: >-
+      spawnSync(string, ReadonlyArray<string>,
+      SpawnSyncOptionsWithBufferEncoding)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawnSync(command: string, args?: ReadonlyArray<string>,
+        options?: SpawnSyncOptionsWithBufferEncoding)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnSyncOptionsWithBufferEncoding
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.child_process.SpawnSyncReturns<Buffer>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawnSync_4'
+    name: >-
+      spawnSync(string, ReadonlyArray<string>,
+      SpawnSyncOptionsWithStringEncoding)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawnSync(command: string, args?: ReadonlyArray<string>,
+        options?: SpawnSyncOptionsWithStringEncoding)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: args
+          type:
+            - ReadonlyArray<string>
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnSyncOptionsWithStringEncoding
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.child_process.SpawnSyncReturns<string>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawnSync_3'
+    name: 'spawnSync(string, SpawnSyncOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function spawnSync(command: string, options?: SpawnSyncOptions)'
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.child_process.SpawnSyncOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.child_process.SpawnSyncReturns<Buffer>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawnSync_2'
+    name: 'spawnSync(string, SpawnSyncOptionsWithBufferEncoding)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawnSync(command: string, options?:
+        SpawnSyncOptionsWithBufferEncoding)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnSyncOptionsWithBufferEncoding
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.child_process.SpawnSyncReturns<Buffer>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.child_process.spawnSync_1'
+    name: 'spawnSync(string, SpawnSyncOptionsWithStringEncoding)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function spawnSync(command: string, options?:
+        SpawnSyncOptionsWithStringEncoding)
+      parameters:
+        - id: command
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - >-
+              @azure/abort-controller.child_process.SpawnSyncOptionsWithStringEncoding
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.child_process.SpawnSyncReturns<string>'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: '@azure/abort-controller.stream.internal.Pipe | null'
+    name: Pipe | null
+    spec.typeScript:
+      - name: Pipe
+        fullName: Pipe
+        uid: '@azure/abort-controller.stream.internal.Pipe'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.stream.internal.Readable | null'
+    name: Readable | null
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.stream.internal.Writable | null'
+    name: Writable | null
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.NodeJS.Signals'
+    name: Signals
+    spec.typeScript:
+      - name: Signals
+        fullName: Signals
+        uid: '@azure/abort-controller.NodeJS.Signals'
+  - uid: '@azure/abort-controller.child_process.Serializable'
+    name: Serializable
+    spec.typeScript:
+      - name: Serializable
+        fullName: Serializable
+        uid: '@azure/abort-controller.child_process.Serializable'
+  - uid: '@azure/abort-controller.child_process.SendHandle'
+    name: SendHandle
+    spec.typeScript:
+      - name: SendHandle
+        fullName: SendHandle
+        uid: '@azure/abort-controller.child_process.SendHandle'
+  - uid: '@azure/abort-controller.child_process.MessageOptions'
+    name: MessageOptions
+    spec.typeScript:
+      - name: MessageOptions
+        fullName: MessageOptions
+        uid: '@azure/abort-controller.child_process.MessageOptions'
+  - uid: '@azure/abort-controller.child_process.ChildProcess'
+    name: ChildProcess
+    spec.typeScript:
+      - name: ChildProcess
+        fullName: ChildProcess
+        uid: '@azure/abort-controller.child_process.ChildProcess'
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: '@azure/abort-controller.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+  - uid: '@azure/abort-controller.child_process.ProcessEnvOptions'
+    name: ProcessEnvOptions
+    spec.typeScript:
+      - name: ProcessEnvOptions
+        fullName: ProcessEnvOptions
+        uid: '@azure/abort-controller.child_process.ProcessEnvOptions'
+  - uid: '@azure/abort-controller.NodeJS.ProcessEnv'
+    name: ProcessEnv
+    spec.typeScript:
+      - name: ProcessEnv
+        fullName: ProcessEnv
+        uid: '@azure/abort-controller.NodeJS.ProcessEnv'
+  - uid: '@azure/abort-controller.child_process.CommonOptions'
+    name: CommonOptions
+    spec.typeScript:
+      - name: CommonOptions
+        fullName: CommonOptions
+        uid: '@azure/abort-controller.child_process.CommonOptions'
+  - uid: '@azure/abort-controller.child_process.SerializationType'
+    name: SerializationType
+    spec.typeScript:
+      - name: SerializationType
+        fullName: SerializationType
+        uid: '@azure/abort-controller.child_process.SerializationType'
+  - uid: '@azure/abort-controller.child_process.StdioOptions'
+    name: StdioOptions
+    spec.typeScript:
+      - name: StdioOptions
+        fullName: StdioOptions
+        uid: '@azure/abort-controller.child_process.StdioOptions'
+  - uid: '@azure/abort-controller.child_process.ExecFileOptions'
+    name: ExecFileOptions
+    spec.typeScript:
+      - name: ExecFileOptions
+        fullName: ExecFileOptions
+        uid: '@azure/abort-controller.child_process.ExecFileOptions'
+  - uid: '@azure/abort-controller.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: string | @azure/abort-controller.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+  - uid: '@azure/abort-controller.child_process.ExecFileSyncOptions'
+    name: ExecFileSyncOptions
+    spec.typeScript:
+      - name: ExecFileSyncOptions
+        fullName: ExecFileSyncOptions
+        uid: '@azure/abort-controller.child_process.ExecFileSyncOptions'
+  - uid: '@azure/abort-controller.child_process.ExecOptions'
+    name: ExecOptions
+    spec.typeScript:
+      - name: ExecOptions
+        fullName: ExecOptions
+        uid: '@azure/abort-controller.child_process.ExecOptions'
+  - uid: '@azure/abort-controller.child_process.ExecSyncOptions'
+    name: ExecSyncOptions
+    spec.typeScript:
+      - name: ExecSyncOptions
+        fullName: ExecSyncOptions
+        uid: '@azure/abort-controller.child_process.ExecSyncOptions'
+  - uid: '@azure/abort-controller.child_process.CommonSpawnOptions'
+    name: CommonSpawnOptions
+    spec.typeScript:
+      - name: CommonSpawnOptions
+        fullName: CommonSpawnOptions
+        uid: '@azure/abort-controller.child_process.CommonSpawnOptions'
+  - uid: '@azure/abort-controller.child_process.SpawnOptions'
+    name: SpawnOptions
+    spec.typeScript:
+      - name: SpawnOptions
+        fullName: SpawnOptions
+        uid: '@azure/abort-controller.child_process.SpawnOptions'
+  - uid: '@azure/abort-controller.child_process.SpawnSyncOptions'
+    name: SpawnSyncOptions
+    spec.typeScript:
+      - name: SpawnSyncOptions
+        fullName: SpawnSyncOptions
+        uid: '@azure/abort-controller.child_process.SpawnSyncOptions'
+  - uid: '@azure/abort-controller.AbortError.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/abort-controller.AbortError.Error'
+  - uid: >-
+      @azure/abort-controller.child_process.ExecFileSyncOptionsWithStringEncoding
+    name: ExecFileSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: ExecFileSyncOptionsWithStringEncoding
+        fullName: ExecFileSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/abort-controller.child_process.ExecFileSyncOptionsWithStringEncoding
+  - uid: >-
+      @azure/abort-controller.child_process.ExecFileSyncOptionsWithBufferEncoding
+    name: ExecFileSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: ExecFileSyncOptionsWithBufferEncoding
+        fullName: ExecFileSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/abort-controller.child_process.ExecFileSyncOptionsWithBufferEncoding
+  - uid: '@azure/abort-controller.child_process.ExecSyncOptionsWithStringEncoding'
+    name: ExecSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: ExecSyncOptionsWithStringEncoding
+        fullName: ExecSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/abort-controller.child_process.ExecSyncOptionsWithStringEncoding
+  - uid: '@azure/abort-controller.child_process.ExecSyncOptionsWithBufferEncoding'
+    name: ExecSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: ExecSyncOptionsWithBufferEncoding
+        fullName: ExecSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/abort-controller.child_process.ExecSyncOptionsWithBufferEncoding
+  - uid: '@azure/abort-controller.child_process.ForkOptions'
+    name: ForkOptions
+    spec.typeScript:
+      - name: ForkOptions
+        fullName: ForkOptions
+        uid: '@azure/abort-controller.child_process.ForkOptions'
+  - uid: '@azure/abort-controller.child_process.SpawnOptionsWithoutStdio'
+    name: SpawnOptionsWithoutStdio
+    spec.typeScript:
+      - name: SpawnOptionsWithoutStdio
+        fullName: SpawnOptionsWithoutStdio
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithoutStdio'
+  - uid: '@azure/abort-controller.child_process.ChildProcessWithoutNullStreams'
+    name: ChildProcessWithoutNullStreams
+    spec.typeScript:
+      - name: ChildProcessWithoutNullStreams
+        fullName: ChildProcessWithoutNullStreams
+        uid: '@azure/abort-controller.child_process.ChildProcessWithoutNullStreams'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+      @azure/abort-controller.stream.internal.Readable,
+      @azure/abort-controller.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+      @azure/abort-controller.stream.internal.Readable, null>
+    name: 'Readable, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: ', null>'
+        fullName: ', null>'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+      null, @azure/abort-controller.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+      - name: ', null, '
+        fullName: ', null, '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<null,
+      @azure/abort-controller.stream.internal.Readable,
+      @azure/abort-controller.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: '<null, '
+        fullName: '<null, '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<@azure/abort-controller.stream.internal.Writable,
+      null, null>
+    name: 'Writable, null, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+      - name: ', null, null>'
+        fullName: ', null, null>'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioPipe,
+      @azure/abort-controller.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<null,
+      @azure/abort-controller.stream.internal.Readable, null>
+    name: 'Readable, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: '<null, '
+        fullName: '<null, '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: ', null>'
+        fullName: ', null>'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: '@azure/abort-controller.child_process.StdioPipe'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<null, null,
+      @azure/abort-controller.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: '<null, null, '
+        fullName: '<null, null, '
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.SpawnOptionsWithStdioTuple<@azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioNull,
+      @azure/abort-controller.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: '@azure/abort-controller.child_process.StdioNull'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.child_process.ChildProcessByStdio<null, null,
+      null>
+    name: 'ChildProcessByStdio<null, null, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+      - name: '<null, null, null>'
+        fullName: '<null, null, null>'
+  - uid: '@azure/abort-controller.child_process.SpawnSyncReturns<Buffer>'
+    name: SpawnSyncReturns<Buffer>
+    spec.typeScript:
+      - name: SpawnSyncReturns
+        fullName: SpawnSyncReturns
+        uid: '@azure/abort-controller.child_process.SpawnSyncReturns'
+      - name: <Buffer>
+        fullName: <Buffer>
+  - uid: '@azure/abort-controller.child_process.SpawnSyncOptionsWithStringEncoding'
+    name: SpawnSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: SpawnSyncOptionsWithStringEncoding
+        fullName: SpawnSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/abort-controller.child_process.SpawnSyncOptionsWithStringEncoding
+  - uid: '@azure/abort-controller.child_process.SpawnSyncReturns<string>'
+    name: SpawnSyncReturns<string>
+    spec.typeScript:
+      - name: SpawnSyncReturns
+        fullName: SpawnSyncReturns
+        uid: '@azure/abort-controller.child_process.SpawnSyncReturns'
+      - name: <string>
+        fullName: <string>
+  - uid: '@azure/abort-controller.child_process.SpawnSyncOptionsWithBufferEncoding'
+    name: SpawnSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: SpawnSyncOptionsWithBufferEncoding
+        fullName: SpawnSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/abort-controller.child_process.SpawnSyncOptionsWithBufferEncoding
+  - uid: '@azure/abort-controller.child_process.ChildProcessByStdio'
+    name: ChildProcessByStdio
+  - uid: '@azure/abort-controller.child_process.ExecException'
+    name: ExecException
+  - uid: '@azure/abort-controller.child_process.ExecFileOptionsWithBufferEncoding'
+    name: ExecFileOptionsWithBufferEncoding
+  - uid: '@azure/abort-controller.child_process.ExecFileOptionsWithOtherEncoding'
+    name: ExecFileOptionsWithOtherEncoding
+  - uid: '@azure/abort-controller.child_process.ExecFileOptionsWithStringEncoding'
+    name: ExecFileOptionsWithStringEncoding
+  - uid: '@azure/abort-controller.child_process.execFileSync'
+    name: execFileSync
+  - uid: '@azure/abort-controller.child_process.execFileSync_3'
+    name: execFileSync_3
+  - uid: '@azure/abort-controller.child_process.execFileSync_2'
+    name: execFileSync_2
+  - uid: '@azure/abort-controller.child_process.execFileSync_1'
+    name: execFileSync_1
+  - uid: '@azure/abort-controller.child_process.execFileSync_6'
+    name: execFileSync_6
+  - uid: '@azure/abort-controller.child_process.execFileSync_5'
+    name: execFileSync_5
+  - uid: '@azure/abort-controller.child_process.execFileSync_4'
+    name: execFileSync_4
+  - uid: '@azure/abort-controller.child_process.ExecOptionsWithBufferEncoding'
+    name: ExecOptionsWithBufferEncoding
+  - uid: '@azure/abort-controller.child_process.ExecOptionsWithStringEncoding'
+    name: ExecOptionsWithStringEncoding
+  - uid: '@azure/abort-controller.child_process.execSync'
+    name: execSync
+  - uid: '@azure/abort-controller.child_process.execSync_3'
+    name: execSync_3
+  - uid: '@azure/abort-controller.child_process.execSync_2'
+    name: execSync_2
+  - uid: '@azure/abort-controller.child_process.execSync_1'
+    name: execSync_1
+  - uid: '@azure/abort-controller.child_process.fork'
+    name: fork
+  - uid: '@azure/abort-controller.child_process.MessagingOptions'
+    name: MessagingOptions
+  - uid: '@azure/abort-controller.child_process.PromiseWithChild'
+    name: PromiseWithChild
+  - uid: '@azure/abort-controller.child_process.spawn_19'
+    name: spawn_19
+  - uid: '@azure/abort-controller.child_process.spawn_10'
+    name: spawn_10
+  - uid: '@azure/abort-controller.child_process.spawn_18'
+    name: spawn_18
+  - uid: '@azure/abort-controller.child_process.spawn_17'
+    name: spawn_17
+  - uid: '@azure/abort-controller.child_process.spawn_16'
+    name: spawn_16
+  - uid: '@azure/abort-controller.child_process.spawn_14'
+    name: spawn_14
+  - uid: '@azure/abort-controller.child_process.spawn_15'
+    name: spawn_15
+  - uid: '@azure/abort-controller.child_process.spawn_13'
+    name: spawn_13
+  - uid: '@azure/abort-controller.child_process.spawn_12'
+    name: spawn_12
+  - uid: '@azure/abort-controller.child_process.spawn_11'
+    name: spawn_11
+  - uid: '@azure/abort-controller.child_process.spawn_9'
+    name: spawn_9
+  - uid: '@azure/abort-controller.child_process.spawn'
+    name: spawn
+  - uid: '@azure/abort-controller.child_process.spawn_8'
+    name: spawn_8
+  - uid: '@azure/abort-controller.child_process.spawn_7'
+    name: spawn_7
+  - uid: '@azure/abort-controller.child_process.spawn_6'
+    name: spawn_6
+  - uid: '@azure/abort-controller.child_process.spawn_4'
+    name: spawn_4
+  - uid: '@azure/abort-controller.child_process.spawn_5'
+    name: spawn_5
+  - uid: '@azure/abort-controller.child_process.spawn_3'
+    name: spawn_3
+  - uid: '@azure/abort-controller.child_process.spawn_2'
+    name: spawn_2
+  - uid: '@azure/abort-controller.child_process.spawn_1'
+    name: spawn_1
+  - uid: '@azure/abort-controller.child_process.SpawnOptionsWithStdioTuple'
+    name: SpawnOptionsWithStdioTuple
+  - uid: '@azure/abort-controller.child_process.spawnSync'
+    name: spawnSync
+  - uid: '@azure/abort-controller.child_process.spawnSync_6'
+    name: spawnSync_6
+  - uid: '@azure/abort-controller.child_process.spawnSync_5'
+    name: spawnSync_5
+  - uid: '@azure/abort-controller.child_process.spawnSync_4'
+    name: spawnSync_4
+  - uid: '@azure/abort-controller.child_process.spawnSync_3'
+    name: spawnSync_3
+  - uid: '@azure/abort-controller.child_process.spawnSync_2'
+    name: spawnSync_2
+  - uid: '@azure/abort-controller.child_process.spawnSync_1'
+    name: spawnSync_1
+  - uid: '@azure/abort-controller.child_process.SpawnSyncReturns'
+    name: SpawnSyncReturns
+  - uid: '@azure/abort-controller.child_process.StdioNull'
+    name: StdioNull
+  - uid: '@azure/abort-controller.child_process.StdioPipe'
+    name: StdioPipe

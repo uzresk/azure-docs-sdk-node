@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.ValueType
+    name: ValueType
+    fullName: ValueType
+    children:
+      - tslib.ValueType.INT
+      - tslib.ValueType.DOUBLE
+    langs:
+      - typeScript
+    type: enum
+    summary: The Type of value. It describes how the data is reported.
+    package: tslib
+  - uid: tslib.ValueType.INT
+    name: INT
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: tslib
+  - uid: tslib.ValueType.DOUBLE
+    name: DOUBLE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: tslib

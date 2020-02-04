@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.BinaryFormat
+    name: BinaryFormat
+    fullName: BinaryFormat
+    children:
+      - tslib.BinaryFormat.fromBytes
+      - tslib.BinaryFormat.toBytes
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Formatter to serializing and deserializing a value with into a binary
+      format.
+    package: tslib
+  - uid: tslib.BinaryFormat.fromBytes
+    name: fromBytes(ArrayBuffer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Deseralize the given span context from binary encoding. If the input is a
+      Buffer of incorrect size or unexpected fields, then this function will
+      return `null`.
+    syntax:
+      content: 'function fromBytes(buffer: ArrayBuffer)'
+      parameters:
+        - id: buffer
+          type:
+            - ArrayBuffer
+          description: |
+            The span context to deserialize.
+      return:
+        type:
+          - tslib.SpanContext | null
+        description: ''
+    package: tslib
+  - uid: tslib.BinaryFormat.toBytes
+    name: toBytes(SpanContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Serialize the given span context into a Buffer.
+    syntax:
+      content: 'function toBytes(spanContext: SpanContext)'
+      parameters:
+        - id: spanContext
+          type:
+            - tslib.SpanContext
+          description: |
+            The span context to serialize.
+      return:
+        type:
+          - ArrayBuffer
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.SpanContext | null
+    name: SpanContext | null
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: tslib.SpanContext
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.SpanContext
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: tslib.SpanContext

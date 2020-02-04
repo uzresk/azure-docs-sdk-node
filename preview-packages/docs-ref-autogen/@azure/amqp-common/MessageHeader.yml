@@ -1,23 +1,23 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.MessageHeader'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader'
     name: MessageHeader
     langs:
       - typeScript
     fullName: MessageHeader
     children:
-      - '@azure/amqp-common.MessageHeader.deliveryCount'
-      - '@azure/amqp-common.MessageHeader.durable'
-      - '@azure/amqp-common.MessageHeader.firstAcquirer'
-      - '@azure/amqp-common.MessageHeader.fromAmqpMessageHeader'
-      - '@azure/amqp-common.MessageHeader.priority'
-      - '@azure/amqp-common.MessageHeader.toAmqpMessageHeader'
-      - '@azure/amqp-common.MessageHeader.ttl'
+      - '@azure/ms-rest-azure-env.MessageHeader.deliveryCount'
+      - '@azure/ms-rest-azure-env.MessageHeader.durable'
+      - '@azure/ms-rest-azure-env.MessageHeader.firstAcquirer'
+      - '@azure/ms-rest-azure-env.MessageHeader.fromAmqpMessageHeader'
+      - '@azure/ms-rest-azure-env.MessageHeader.priority'
+      - '@azure/ms-rest-azure-env.MessageHeader.toAmqpMessageHeader'
+      - '@azure/ms-rest-azure-env.MessageHeader.ttl'
     type: module
     summary: Describes the operations that can be performed on the message header.
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'
     module: MessageHeader
-  - uid: '@azure/amqp-common.MessageHeader.deliveryCount'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader.deliveryCount'
     name: deliveryCount
     fullName: deliveryCount
     children: []
@@ -34,8 +34,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.MessageHeader.durable'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader.durable'
     name: durable
     fullName: durable
     children: []
@@ -50,8 +50,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.MessageHeader.firstAcquirer'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader.firstAcquirer'
     name: firstAcquirer
     fullName: firstAcquirer
     children: []
@@ -73,8 +73,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.MessageHeader.fromAmqpMessageHeader'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader.fromAmqpMessageHeader'
     name: fromAmqpMessageHeader(AmqpMessageHeader)
     children: []
     type: function
@@ -90,10 +90,10 @@ items:
           description: Amqp Message Header
       return:
         type:
-          - '@azure/amqp-common.MessageHeader'
+          - '@azure/ms-rest-azure-env.MessageHeader'
         description: MessageHeader.
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.MessageHeader.priority'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader.priority'
     name: priority
     fullName: priority
     children: []
@@ -112,8 +112,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.MessageHeader.toAmqpMessageHeader'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader.toAmqpMessageHeader'
     name: toAmqpMessageHeader(MessageHeader)
     children: []
     type: function
@@ -125,14 +125,14 @@ items:
       parameters:
         - id: props
           type:
-            - '@azure/amqp-common.MessageHeader'
+            - '@azure/ms-rest-azure-env.MessageHeader'
           description: Message header.
       return:
         type:
           - AmqpMessageHeader
         description: AmqpMessageHeader
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.MessageHeader.ttl'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader.ttl'
     name: ttl
     fullName: ttl
     children: []
@@ -147,25 +147,25 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'
 references:
-  - uid: '@azure/amqp-common.MessageHeader'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader'
     name: MessageHeader
     spec.typeScript:
       - name: MessageHeader
         fullName: MessageHeader
-        uid: '@azure/amqp-common.MessageHeader'
-  - uid: '@azure/amqp-common.MessageHeader.deliveryCount'
+        uid: '@azure/ms-rest-azure-env.MessageHeader'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader.deliveryCount'
     name: deliveryCount
-  - uid: '@azure/amqp-common.MessageHeader.durable'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader.durable'
     name: durable
-  - uid: '@azure/amqp-common.MessageHeader.firstAcquirer'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader.firstAcquirer'
     name: firstAcquirer
-  - uid: '@azure/amqp-common.MessageHeader.fromAmqpMessageHeader'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader.fromAmqpMessageHeader'
     name: fromAmqpMessageHeader
-  - uid: '@azure/amqp-common.MessageHeader.priority'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader.priority'
     name: priority
-  - uid: '@azure/amqp-common.MessageHeader.toAmqpMessageHeader'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader.toAmqpMessageHeader'
     name: toAmqpMessageHeader
-  - uid: '@azure/amqp-common.MessageHeader.ttl'
+  - uid: '@azure/ms-rest-azure-env.MessageHeader.ttl'
     name: ttl

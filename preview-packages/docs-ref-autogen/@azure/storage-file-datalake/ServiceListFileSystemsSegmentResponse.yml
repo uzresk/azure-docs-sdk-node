@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsSegmentResponse'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsSegmentResponse'
     name: ServiceListFileSystemsSegmentResponse
     fullName: ServiceListFileSystemsSegmentResponse
     children: []
@@ -13,4 +13,4 @@ items:
         type ServiceListFileSystemsSegmentResponse =
         ListFileSystemsSegmentResponse & ServiceListFileSystemsSegmentHeaders &
         { _response: Object }
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

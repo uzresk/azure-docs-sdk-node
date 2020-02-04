@@ -1,0 +1,190 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.HttpOperationResponse'
+    name: HttpOperationResponse
+    fullName: HttpOperationResponse
+    children:
+      - '@azure/ms-rest-azure-env.HttpOperationResponse.blobBody'
+      - '@azure/ms-rest-azure-env.HttpOperationResponse.bodyAsText'
+      - '@azure/ms-rest-azure-env.HttpOperationResponse.headers'
+      - '@azure/ms-rest-azure-env.HttpOperationResponse.parsedBody'
+      - '@azure/ms-rest-azure-env.HttpOperationResponse.parsedHeaders'
+      - '@azure/ms-rest-azure-env.HttpOperationResponse.readableStreamBody'
+      - '@azure/ms-rest-azure-env.HttpOperationResponse.request'
+      - '@azure/ms-rest-azure-env.HttpOperationResponse.status'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Wrapper object for http request and response. Deserialized object is
+      stored in
+
+      the `parsedBody` property when the response body is received in JSON or
+      XML.
+    extends:
+      name: '@azure/ms-rest-azure-env.HttpResponse'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.HttpOperationResponse.blobBody'
+    name: blobBody
+    fullName: blobBody
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      BROWSER ONLY
+      The response body as a browser Blob.
+      Always undefined in node.js.
+    optional: true
+    syntax:
+      content: 'blobBody?: Promise<Blob>'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.NodeJS.Global.Promise<Blob>'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.HttpOperationResponse.bodyAsText'
+    name: bodyAsText
+    fullName: bodyAsText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The response body as text (string format)
+    optional: true
+    syntax:
+      content: 'bodyAsText?: string | null'
+      return:
+        type:
+          - string | null
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.HttpOperationResponse.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The HTTP response headers.
+    syntax:
+      content: 'headers: HttpHeaders'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.HttpHeaders'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.HttpOperationResponse.parsedBody'
+    name: parsedBody
+    fullName: parsedBody
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The response body as parsed JSON or XML
+    optional: true
+    syntax:
+      content: 'parsedBody?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.HttpOperationResponse.parsedHeaders'
+    name: parsedHeaders
+    fullName: parsedHeaders
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The parsed HTTP response headers.
+    optional: true
+    syntax:
+      content: 'parsedHeaders?: undefined | [key: string]: any'
+      return:
+        type:
+          - 'undefined | [key: string]: any'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.HttpOperationResponse.readableStreamBody'
+    name: readableStreamBody
+    fullName: readableStreamBody
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |
+      NODEJS ONLY
+      The response body as a node.js Readable stream.
+      Always undefined in the browser.
+    optional: true
+    syntax:
+      content: 'readableStreamBody?: NodeJS.ReadableStream'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.NodeJS.ReadableStream'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.HttpOperationResponse.request'
+    name: request
+    fullName: request
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The raw request
+    syntax:
+      content: 'request: WebResource'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.WebResource'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.HttpOperationResponse.status'
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The HTTP response status (e.g. 200)
+    syntax:
+      content: 'status: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.HttpResponse'
+    name: HttpResponse
+    spec.typeScript:
+      - name: HttpResponse
+        fullName: HttpResponse
+        uid: '@azure/ms-rest-azure-env.HttpResponse'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Promise<Blob>'
+    name: Promise<Blob>
+    spec.typeScript:
+      - name: Promise
+        fullName: Promise
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Promise'
+      - name: <Blob>
+        fullName: <Blob>
+  - uid: '@azure/ms-rest-azure-env.HttpHeaders'
+    name: HttpHeaders
+    spec.typeScript:
+      - name: HttpHeaders
+        fullName: HttpHeaders
+        uid: '@azure/ms-rest-azure-env.HttpHeaders'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream'
+  - uid: '@azure/ms-rest-azure-env.WebResource'
+    name: WebResource
+    spec.typeScript:
+      - name: WebResource
+        fullName: WebResource
+        uid: '@azure/ms-rest-azure-env.WebResource'

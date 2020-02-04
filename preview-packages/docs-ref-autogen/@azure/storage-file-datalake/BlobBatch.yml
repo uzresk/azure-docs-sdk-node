@@ -1,0 +1,350 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobBatch'
+    name: BlobBatch
+    fullName: BlobBatch
+    children:
+      - '@azure/abort-controller.BlobBatch.constructor'
+      - '@azure/abort-controller.BlobBatch.deleteBlob_1'
+      - '@azure/abort-controller.BlobBatch.deleteBlob'
+      - '@azure/abort-controller.BlobBatch.getHttpRequestBody'
+      - '@azure/abort-controller.BlobBatch.getMultiPartContentType'
+      - '@azure/abort-controller.BlobBatch.getSubRequests'
+      - '@azure/abort-controller.BlobBatch.setBlobAccessTier_1'
+      - '@azure/abort-controller.BlobBatch.setBlobAccessTier'
+    langs:
+      - typeScript
+    type: class
+    summary: |-
+      A BlobBatch represents an aggregated set of operations on blobs.
+      Currently, only `delete` and `setAccessTier` are supported.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBatch.constructor'
+    name: BlobBatch()
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: new BlobBatch()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBatch.deleteBlob_1'
+    name: 'deleteBlob(BlobClient, BlobDeleteOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      The deleteBlob operation marks the specified blob or snapshot for
+      deletion.
+
+      The blob is later deleted during garbage collection.
+
+      Only one kind of operation is allowed per batch request.
+
+      Note that in order to delete a blob, you must delete all of its snapshots.
+
+      You can delete both at the same time. See [delete operation
+      details](https://docs.microsoft.com/en-us/rest/api/storageservices/delete-blob).
+
+      The operation will be authenticated and authorized with specified
+      credential.
+
+      See [blob batch authorization
+      details](https://docs.microsoft.com/en-us/rest/api/storageservices/blob-batch#authorization).
+    syntax:
+      content: 'function deleteBlob(blobClient: BlobClient, options?: BlobDeleteOptions)'
+      parameters:
+        - id: blobClient
+          type:
+            - '@azure/abort-controller.BlobClient'
+          description: The BlobClient.
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobDeleteOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBatch.deleteBlob'
+    name: >-
+      deleteBlob(string, StorageSharedKeyCredential | AnonymousCredential |
+      TokenCredential, BlobDeleteOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      The deleteBlob operation marks the specified blob or snapshot for
+      deletion.
+
+      The blob is later deleted during garbage collection.
+
+      Only one kind of operation is allowed per batch request.
+
+      Note that in order to delete a blob, you must delete all of its snapshots.
+
+      You can delete both at the same time. See [delete operation
+      details](https://docs.microsoft.com/en-us/rest/api/storageservices/delete-blob).
+
+      The operation will be authenticated and authorized with specified
+      credential.
+
+      See [blob batch authorization
+      details](https://docs.microsoft.com/en-us/rest/api/storageservices/blob-batch#authorization).
+    syntax:
+      content: >-
+        function deleteBlob(url: string, credential: StorageSharedKeyCredential
+        | AnonymousCredential | TokenCredential, options?: BlobDeleteOptions)
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The url of the blob resource to delete.
+        - id: credential
+          type:
+            - >-
+              @azure/abort-controller.StorageSharedKeyCredential |
+              @azure/abort-controller.AnonymousCredential |
+              @azure/abort-controller.TokenCredential
+          description: >-
+            Such as AnonymousCredential, StorageSharedKeyCredential or any
+            credential from the @azure/identity package to authenticate requests
+            to the service. You can also provide an object that implements the
+            TokenCredential interface. If not specified, AnonymousCredential is
+            used.
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobDeleteOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBatch.getHttpRequestBody'
+    name: getHttpRequestBody()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get assembled HTTP request body for sub requests.
+    syntax:
+      content: function getHttpRequestBody()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBatch.getMultiPartContentType'
+    name: getMultiPartContentType()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Get the value of Content-Type for a batch request.
+
+      The value must be multipart/mixed with a batch boundary.
+
+      Example: multipart/mixed;
+      boundary=batch_a81786c8-e301-4e42-a729-a32ca24ae252
+    syntax:
+      content: function getMultiPartContentType()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBatch.getSubRequests'
+    name: getSubRequests()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Get sub requests that are added into the batch request.
+    syntax:
+      content: function getSubRequests()
+      parameters: []
+      return:
+        type:
+          - 'Map<number, @azure/abort-controller.BatchSubRequest>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBatch.setBlobAccessTier_1'
+    name: 'setBlobAccessTier(BlobClient, AccessTier, BlobSetTierOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      The setBlobAccessTier operation sets the tier on a blob.
+
+      The operation is allowed on block blobs in a blob storage or general
+      purpose v2 account.
+
+      Only one kind of operation is allowed per batch request.
+
+      A block blob's tier determines Hot/Cool/Archive storage type.
+
+      This operation does not update the blob's ETag.
+
+      For detailed information about block blob level tiering
+
+      see [hot, cool, and archive access
+      tiers](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers).
+
+      The operation will be authenticated and authorized
+
+      with specified credential. See [blob batch authorization
+      details](https://docs.microsoft.com/en-us/rest/api/storageservices/blob-batch#authorization).
+    syntax:
+      content: >-
+        function setBlobAccessTier(blobClient: BlobClient, tier: AccessTier,
+        options?: BlobSetTierOptions)
+      parameters:
+        - id: blobClient
+          type:
+            - '@azure/abort-controller.BlobClient'
+          description: The BlobClient.
+        - id: tier
+          type:
+            - '@azure/abort-controller.AccessTier'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobSetTierOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobBatch.setBlobAccessTier'
+    name: >-
+      setBlobAccessTier(string, StorageSharedKeyCredential | AnonymousCredential
+      | TokenCredential, AccessTier, BlobSetTierOptions)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >
+      The setBlobAccessTier operation sets the tier on a blob.
+
+      The operation is allowed on block blobs in a blob storage or general
+      purpose v2 account.
+
+      Only one kind of operation is allowed per batch request.
+
+      A block blob's tier determines Hot/Cool/Archive storage type.
+
+      This operation does not update the blob's ETag.
+
+      For detailed information about block blob level tiering
+
+      see [hot, cool, and archive access
+      tiers](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers).
+
+      The operation will be authenticated and authorized
+
+      with specified credential. See [blob batch authorization
+      details](https://docs.microsoft.com/en-us/rest/api/storageservices/blob-batch#authorization).
+    syntax:
+      content: >-
+        function setBlobAccessTier(url: string, credential:
+        StorageSharedKeyCredential | AnonymousCredential | TokenCredential,
+        tier: AccessTier, options?: BlobSetTierOptions)
+      parameters:
+        - id: url
+          type:
+            - string
+          description: The url of the blob resource to delete.
+        - id: credential
+          type:
+            - >-
+              @azure/abort-controller.StorageSharedKeyCredential |
+              @azure/abort-controller.AnonymousCredential |
+              @azure/abort-controller.TokenCredential
+          description: >-
+            Such as AnonymousCredential, StorageSharedKeyCredential or any
+            credential from the @azure/identity package to authenticate requests
+            to the service. You can also provide an object that implements the
+            TokenCredential interface. If not specified, AnonymousCredential is
+            used.
+        - id: tier
+          type:
+            - '@azure/abort-controller.AccessTier'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.BlobSetTierOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: >-
+      @azure/abort-controller.StorageSharedKeyCredential |
+      @azure/abort-controller.AnonymousCredential |
+      @azure/abort-controller.TokenCredential
+    name: TokenCredential
+    spec.typeScript:
+      - name: StorageSharedKeyCredential
+        fullName: StorageSharedKeyCredential
+        uid: '@azure/abort-controller.StorageSharedKeyCredential'
+      - name: ' | '
+        fullName: ' | '
+      - name: AnonymousCredential
+        fullName: AnonymousCredential
+        uid: '@azure/abort-controller.AnonymousCredential'
+      - name: ' | '
+        fullName: ' | '
+      - name: TokenCredential
+        fullName: TokenCredential
+        uid: '@azure/abort-controller.TokenCredential'
+  - uid: '@azure/abort-controller.BlobDeleteOptions'
+    name: BlobDeleteOptions
+    spec.typeScript:
+      - name: BlobDeleteOptions
+        fullName: BlobDeleteOptions
+        uid: '@azure/abort-controller.BlobDeleteOptions'
+  - uid: '@azure/abort-controller.BlobClient'
+    name: BlobClient
+    spec.typeScript:
+      - name: BlobClient
+        fullName: BlobClient
+        uid: '@azure/abort-controller.BlobClient'
+  - uid: 'Map<number, @azure/abort-controller.BatchSubRequest>'
+    name: BatchSubRequest>
+    spec.typeScript:
+      - name: 'Map<number, '
+        fullName: 'Map<number, '
+      - name: BatchSubRequest
+        fullName: BatchSubRequest
+        uid: '@azure/abort-controller.BatchSubRequest'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.AccessTier'
+    name: AccessTier
+    spec.typeScript:
+      - name: AccessTier
+        fullName: AccessTier
+        uid: '@azure/abort-controller.AccessTier'
+  - uid: '@azure/abort-controller.BlobSetTierOptions'
+    name: BlobSetTierOptions
+    spec.typeScript:
+      - name: BlobSetTierOptions
+        fullName: BlobSetTierOptions
+        uid: '@azure/abort-controller.BlobSetTierOptions'

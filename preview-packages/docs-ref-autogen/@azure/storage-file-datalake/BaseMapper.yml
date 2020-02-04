@@ -1,0 +1,227 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BaseMapper'
+    name: BaseMapper
+    fullName: BaseMapper
+    children:
+      - '@azure/abort-controller.BaseMapper.constraints'
+      - '@azure/abort-controller.BaseMapper.defaultValue'
+      - '@azure/abort-controller.BaseMapper.isConstant'
+      - '@azure/abort-controller.BaseMapper.nullable'
+      - '@azure/abort-controller.BaseMapper.readOnly'
+      - '@azure/abort-controller.BaseMapper.required'
+      - '@azure/abort-controller.BaseMapper.serializedName'
+      - '@azure/abort-controller.BaseMapper.type'
+      - '@azure/abort-controller.BaseMapper.xmlElementName'
+      - '@azure/abort-controller.BaseMapper.xmlIsAttribute'
+      - '@azure/abort-controller.BaseMapper.xmlIsWrapped'
+      - '@azure/abort-controller.BaseMapper.xmlName'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BaseMapper.constraints'
+    name: constraints
+    fullName: constraints
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'constraints?: MapperConstraints'
+      return:
+        type:
+          - '@azure/abort-controller.MapperConstraints'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BaseMapper.defaultValue'
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'defaultValue?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BaseMapper.isConstant'
+    name: isConstant
+    fullName: isConstant
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isConstant?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BaseMapper.nullable'
+    name: nullable
+    fullName: nullable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'nullable?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BaseMapper.readOnly'
+    name: readOnly
+    fullName: readOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'readOnly?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BaseMapper.required'
+    name: required
+    fullName: required
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'required?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BaseMapper.serializedName'
+    name: serializedName
+    fullName: serializedName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'serializedName?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BaseMapper.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: MapperType'
+      return:
+        type:
+          - '@azure/abort-controller.MapperType'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BaseMapper.xmlElementName'
+    name: xmlElementName
+    fullName: xmlElementName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'xmlElementName?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BaseMapper.xmlIsAttribute'
+    name: xmlIsAttribute
+    fullName: xmlIsAttribute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'xmlIsAttribute?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BaseMapper.xmlIsWrapped'
+    name: xmlIsWrapped
+    fullName: xmlIsWrapped
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'xmlIsWrapped?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BaseMapper.xmlName'
+    name: xmlName
+    fullName: xmlName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'xmlName?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.MapperConstraints'
+    name: MapperConstraints
+    spec.typeScript:
+      - name: MapperConstraints
+        fullName: MapperConstraints
+        uid: '@azure/abort-controller.MapperConstraints'
+  - uid: '@azure/abort-controller.MapperType'
+    name: MapperType
+    spec.typeScript:
+      - name: MapperType
+        fullName: MapperType
+        uid: '@azure/abort-controller.MapperType'

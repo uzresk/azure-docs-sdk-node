@@ -1,0 +1,252 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.repl.ReplOptions'
+    name: ReplOptions
+    fullName: ReplOptions
+    children:
+      - '@azure/ms-rest-azure-env.repl.ReplOptions.breakEvalOnSigint'
+      - '@azure/ms-rest-azure-env.repl.ReplOptions.completer'
+      - '@azure/ms-rest-azure-env.repl.ReplOptions.eval'
+      - '@azure/ms-rest-azure-env.repl.ReplOptions.ignoreUndefined'
+      - '@azure/ms-rest-azure-env.repl.ReplOptions.input'
+      - '@azure/ms-rest-azure-env.repl.ReplOptions.output'
+      - '@azure/ms-rest-azure-env.repl.ReplOptions.prompt'
+      - '@azure/ms-rest-azure-env.repl.ReplOptions.replMode'
+      - '@azure/ms-rest-azure-env.repl.ReplOptions.terminal'
+      - '@azure/ms-rest-azure-env.repl.ReplOptions.useColors'
+      - '@azure/ms-rest-azure-env.repl.ReplOptions.useGlobal'
+      - '@azure/ms-rest-azure-env.repl.ReplOptions.writer'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.ReplOptions.breakEvalOnSigint'
+    name: breakEvalOnSigint
+    fullName: breakEvalOnSigint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'breakEvalOnSigint?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.ReplOptions.completer'
+    name: completer
+    fullName: completer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'completer?: Function'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.ReplOptions.eval'
+    name: eval
+    fullName: eval
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'eval?: Function'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.ReplOptions.ignoreUndefined'
+    name: ignoreUndefined
+    fullName: ignoreUndefined
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'ignoreUndefined?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.ReplOptions.input'
+    name: input
+    fullName: input
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'input?: NodeJS.ReadableStream'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.NodeJS.ReadableStream'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.ReplOptions.output'
+    name: output
+    fullName: output
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'output?: NodeJS.WritableStream'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.ReplOptions.prompt'
+    name: prompt
+    fullName: prompt
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'prompt?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.ReplOptions.replMode'
+    name: replMode
+    fullName: replMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'replMode?: undefined | unique symbol | unique symbol'
+      return:
+        type:
+          - undefined | unique symbol | unique symbol
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.ReplOptions.terminal'
+    name: terminal
+    fullName: terminal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'terminal?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.ReplOptions.useColors'
+    name: useColors
+    fullName: useColors
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'useColors?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.ReplOptions.useGlobal'
+    name: useGlobal
+    fullName: useGlobal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'useGlobal?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.repl.ReplOptions.writer'
+    name: writer
+    fullName: writer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'writer?: Function'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.readline.Interface'
+    name: Interface
+    spec.typeScript:
+      - name: Interface
+        fullName: Interface
+        uid: '@azure/ms-rest-azure-env.readline.Interface'
+  - uid: '@azure/ms-rest-azure-env.readline.CursorPos'
+    name: CursorPos
+    spec.typeScript:
+      - name: CursorPos
+        fullName: CursorPos
+        uid: '@azure/ms-rest-azure-env.readline.CursorPos'
+  - uid: '@azure/ms-rest-azure-env.readline.Key'
+    name: Key
+    spec.typeScript:
+      - name: Key
+        fullName: Key
+        uid: '@azure/ms-rest-azure-env.readline.Key'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.ReadableStream'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'

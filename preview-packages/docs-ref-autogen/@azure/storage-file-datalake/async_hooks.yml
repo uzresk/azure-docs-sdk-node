@@ -1,0 +1,102 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.async_hooks'
+    name: async_hooks
+    langs:
+      - typeScript
+    fullName: async_hooks
+    children:
+      - '@azure/abort-controller.async_hooks.AsyncHook'
+      - '@azure/abort-controller.async_hooks.AsyncResource'
+      - '@azure/abort-controller.async_hooks.AsyncResourceOptions'
+      - '@azure/abort-controller.async_hooks.createHook'
+      - '@azure/abort-controller.async_hooks.executionAsyncId'
+      - '@azure/abort-controller.async_hooks.HookCallbacks'
+      - '@azure/abort-controller.async_hooks.triggerAsyncId'
+    type: module
+    summary: 'Async Hooks module: https://nodejs.org/api/async_hooks.html'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.async_hooks.createHook'
+    name: createHook(HookCallbacks)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Registers functions to be called for different lifetime events of each
+      async operation.
+    syntax:
+      content: 'function createHook(options: HookCallbacks)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.async_hooks.HookCallbacks'
+          description: the callbacks to register
+      return:
+        type:
+          - '@azure/abort-controller.async_hooks.AsyncHook'
+        description: an AsyncHooks instance used for disabling and enabling hooks
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.async_hooks.executionAsyncId'
+    name: executionAsyncId()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Returns the asyncId of the current execution context.
+    syntax:
+      content: function executionAsyncId()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.async_hooks.triggerAsyncId'
+    name: triggerAsyncId()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Returns the ID of the resource responsible for calling the callback that
+      is currently being executed.
+    syntax:
+      content: function triggerAsyncId()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: number | @azure/abort-controller.async_hooks.AsyncResourceOptions
+    name: AsyncResourceOptions
+    spec.typeScript:
+      - name: 'number | '
+        fullName: 'number | '
+      - name: AsyncResourceOptions
+        fullName: AsyncResourceOptions
+        uid: '@azure/abort-controller.async_hooks.AsyncResourceOptions'
+  - uid: '@azure/abort-controller.async_hooks.HookCallbacks'
+    name: HookCallbacks
+    spec.typeScript:
+      - name: HookCallbacks
+        fullName: HookCallbacks
+        uid: '@azure/abort-controller.async_hooks.HookCallbacks'
+  - uid: '@azure/abort-controller.async_hooks.AsyncHook'
+    name: AsyncHook
+    spec.typeScript:
+      - name: AsyncHook
+        fullName: AsyncHook
+        uid: '@azure/abort-controller.async_hooks.AsyncHook'
+  - uid: '@azure/abort-controller.async_hooks.AsyncResource'
+    name: AsyncResource
+  - uid: '@azure/abort-controller.async_hooks.AsyncResourceOptions'
+    name: AsyncResourceOptions
+  - uid: '@azure/abort-controller.async_hooks.createHook'
+    name: createHook
+  - uid: '@azure/abort-controller.async_hooks.executionAsyncId'
+    name: executionAsyncId
+  - uid: '@azure/abort-controller.async_hooks.triggerAsyncId'
+    name: triggerAsyncId

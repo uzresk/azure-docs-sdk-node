@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.isValidTagValue'
+    name: isValidTagValue(TagValue)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Determines whether the given String is a valid tag value.
+    syntax:
+      content: 'function isValidTagValue(tagValue: TagValue)'
+      parameters:
+        - id: tagValue
+          type:
+            - '@azure/abort-controller.TagValue'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.TagValue'
+    name: TagValue
+    spec.typeScript:
+      - name: TagValue
+        fullName: TagValue
+        uid: '@azure/abort-controller.TagValue'

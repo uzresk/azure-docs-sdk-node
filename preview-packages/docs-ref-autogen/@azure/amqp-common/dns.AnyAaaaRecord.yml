@@ -1,0 +1,61 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.dns.AnyAaaaRecord'
+    name: AnyAaaaRecord
+    fullName: AnyAaaaRecord
+    children:
+      - '@azure/ms-rest-azure-env.dns.AnyAaaaRecord.address'
+      - '@azure/ms-rest-azure-env.dns.AnyAaaaRecord.ttl'
+      - '@azure/ms-rest-azure-env.dns.AnyAaaaRecord.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: RecordWithTtl
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dns.AnyAaaaRecord.address'
+    name: address
+    fullName: address
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'address: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dns.AnyAaaaRecord.ttl'
+    name: ttl
+    fullName: ttl
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ttl: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dns.AnyAaaaRecord.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: "AAAA"'
+      return:
+        type:
+          - '"AAAA"'
+        description: ''
+    package: '@azure/ms-rest-azure-env'

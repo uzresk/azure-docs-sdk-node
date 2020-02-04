@@ -1,52 +1,48 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders'
     name: PathGetPropertiesHeaders
     fullName: PathGetPropertiesHeaders
     children:
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.acceptRanges'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.accessTier'
-      - >-
-        @azure/storage-file-datalake.PathGetPropertiesHeaders.accessTierChangedOn
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.accessTierInferred'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.archiveStatus'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.cacheControl'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.clientRequestId'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.contentDisposition'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.contentEncoding'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.contentLanguage'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.contentLength'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.contentMD5'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.contentType'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.copyCompletedOn'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.copyId'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.copyProgress'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.copySource'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.copyStatus'
-      - >-
-        @azure/storage-file-datalake.PathGetPropertiesHeaders.copyStatusDescription
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.createdOn'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.date'
-      - >-
-        @azure/storage-file-datalake.PathGetPropertiesHeaders.destinationSnapshot
-      - >-
-        @azure/storage-file-datalake.PathGetPropertiesHeaders.encryptionKeySha256
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.etag'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.isIncrementalCopy'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.isServerEncrypted'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.lastModified'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.leaseDuration'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.leaseState'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.leaseStatus'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.metadata'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.requestId'
-      - '@azure/storage-file-datalake.PathGetPropertiesHeaders.version'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.acceptRanges'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.accessTier'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.accessTierChangedOn'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.accessTierInferred'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.archiveStatus'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.cacheControl'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.clientRequestId'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.contentDisposition'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.contentEncoding'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.contentLanguage'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.contentLength'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.contentMD5'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.contentType'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.copyCompletedOn'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.copyId'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.copyProgress'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.copySource'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.copyStatus'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.copyStatusDescription'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.createdOn'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.date'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.destinationSnapshot'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.encryptionKeySha256'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.etag'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.isIncrementalCopy'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.isServerEncrypted'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.lastModified'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.leaseDuration'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.leaseState'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.leaseStatus'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.metadata'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.requestId'
+      - '@azure/abort-controller.PathGetPropertiesHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.acceptRanges'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.acceptRanges'
     name: acceptRanges
     fullName: acceptRanges
     children: []
@@ -61,8 +57,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.accessTier'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.accessTier'
     name: accessTier
     fullName: accessTier
     children: []
@@ -77,8 +73,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.accessTierChangedOn'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.accessTierChangedOn'
     name: accessTierChangedOn
     fullName: accessTierChangedOn
     children: []
@@ -91,10 +87,10 @@ items:
       content: 'accessTierChangedOn?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.accessTierInferred'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.accessTierInferred'
     name: accessTierInferred
     fullName: accessTierInferred
     children: []
@@ -109,8 +105,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.archiveStatus'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.archiveStatus'
     name: archiveStatus
     fullName: archiveStatus
     children: []
@@ -125,8 +121,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.cacheControl'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.cacheControl'
     name: cacheControl
     fullName: cacheControl
     children: []
@@ -141,8 +137,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.clientRequestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.clientRequestId'
     name: clientRequestId
     fullName: clientRequestId
     children: []
@@ -157,8 +153,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.contentDisposition'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.contentDisposition'
     name: contentDisposition
     fullName: contentDisposition
     children: []
@@ -173,8 +169,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.contentEncoding'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.contentEncoding'
     name: contentEncoding
     fullName: contentEncoding
     children: []
@@ -189,8 +185,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.contentLanguage'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.contentLanguage'
     name: contentLanguage
     fullName: contentLanguage
     children: []
@@ -205,8 +201,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.contentLength'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.contentLength'
     name: contentLength
     fullName: contentLength
     children: []
@@ -221,8 +217,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.contentMD5'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.contentMD5'
     name: contentMD5
     fullName: contentMD5
     children: []
@@ -235,10 +231,10 @@ items:
       content: 'contentMD5?: Uint8Array'
       return:
         type:
-          - Uint8Array
+          - '@azure/abort-controller.Buffer.Uint8Array'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.contentType'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.contentType'
     name: contentType
     fullName: contentType
     children: []
@@ -253,8 +249,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.copyCompletedOn'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.copyCompletedOn'
     name: copyCompletedOn
     fullName: copyCompletedOn
     children: []
@@ -267,10 +263,10 @@ items:
       content: 'copyCompletedOn?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.copyId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.copyId'
     name: copyId
     fullName: copyId
     children: []
@@ -285,8 +281,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.copyProgress'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.copyProgress'
     name: copyProgress
     fullName: copyProgress
     children: []
@@ -301,8 +297,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.copySource'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.copySource'
     name: copySource
     fullName: copySource
     children: []
@@ -317,8 +313,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.copyStatus'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.copyStatus'
     name: copyStatus
     fullName: copyStatus
     children: []
@@ -331,11 +327,10 @@ items:
       content: 'copyStatus?: CopyStatusType'
       return:
         type:
-          - '@azure/storage-file-datalake.CopyStatusType'
+          - '@azure/abort-controller.CopyStatusType'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.PathGetPropertiesHeaders.copyStatusDescription
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.copyStatusDescription'
     name: copyStatusDescription
     fullName: copyStatusDescription
     children: []
@@ -350,8 +345,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.createdOn'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.createdOn'
     name: createdOn
     fullName: createdOn
     children: []
@@ -364,10 +359,10 @@ items:
       content: 'createdOn?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.date'
     name: date
     fullName: date
     children: []
@@ -380,10 +375,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.destinationSnapshot'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.destinationSnapshot'
     name: destinationSnapshot
     fullName: destinationSnapshot
     children: []
@@ -398,8 +393,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.encryptionKeySha256'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.encryptionKeySha256'
     name: encryptionKeySha256
     fullName: encryptionKeySha256
     children: []
@@ -414,8 +409,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.etag'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.etag'
     name: etag
     fullName: etag
     children: []
@@ -430,8 +425,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.isIncrementalCopy'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.isIncrementalCopy'
     name: isIncrementalCopy
     fullName: isIncrementalCopy
     children: []
@@ -446,8 +441,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.isServerEncrypted'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.isServerEncrypted'
     name: isServerEncrypted
     fullName: isServerEncrypted
     children: []
@@ -462,8 +457,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.lastModified'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -476,10 +471,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.leaseDuration'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.leaseDuration'
     name: leaseDuration
     fullName: leaseDuration
     children: []
@@ -492,10 +487,10 @@ items:
       content: 'leaseDuration?: LeaseDurationType'
       return:
         type:
-          - '@azure/storage-file-datalake.LeaseDurationType'
+          - '@azure/abort-controller.LeaseDurationType'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.leaseState'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.leaseState'
     name: leaseState
     fullName: leaseState
     children: []
@@ -508,10 +503,10 @@ items:
       content: 'leaseState?: LeaseStateType'
       return:
         type:
-          - '@azure/storage-file-datalake.LeaseStateType'
+          - '@azure/abort-controller.LeaseStateType'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.leaseStatus'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.leaseStatus'
     name: leaseStatus
     fullName: leaseStatus
     children: []
@@ -524,10 +519,10 @@ items:
       content: 'leaseStatus?: LeaseStatusType'
       return:
         type:
-          - '@azure/storage-file-datalake.LeaseStatusType'
+          - '@azure/abort-controller.LeaseStatusType'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.metadata'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.metadata'
     name: metadata
     fullName: metadata
     children: []
@@ -540,10 +535,10 @@ items:
       content: 'metadata?: Metadata'
       return:
         type:
-          - '@azure/storage-file-datalake.Metadata'
+          - '@azure/abort-controller.Metadata'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -558,8 +553,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathGetPropertiesHeaders.version'
     name: version
     fullName: version
     children: []
@@ -574,35 +569,47 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.CopyStatusType'
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'
+  - uid: '@azure/abort-controller.Buffer.Uint8Array'
+    name: Uint8Array
+    spec.typeScript:
+      - name: Uint8Array
+        fullName: Uint8Array
+        uid: '@azure/abort-controller.Buffer.Uint8Array'
+  - uid: '@azure/abort-controller.CopyStatusType'
     name: CopyStatusType
     spec.typeScript:
       - name: CopyStatusType
         fullName: CopyStatusType
-        uid: '@azure/storage-file-datalake.CopyStatusType'
-  - uid: '@azure/storage-file-datalake.LeaseDurationType'
+        uid: '@azure/abort-controller.CopyStatusType'
+  - uid: '@azure/abort-controller.LeaseDurationType'
     name: LeaseDurationType
     spec.typeScript:
       - name: LeaseDurationType
         fullName: LeaseDurationType
-        uid: '@azure/storage-file-datalake.LeaseDurationType'
-  - uid: '@azure/storage-file-datalake.LeaseStateType'
+        uid: '@azure/abort-controller.LeaseDurationType'
+  - uid: '@azure/abort-controller.LeaseStateType'
     name: LeaseStateType
     spec.typeScript:
       - name: LeaseStateType
         fullName: LeaseStateType
-        uid: '@azure/storage-file-datalake.LeaseStateType'
-  - uid: '@azure/storage-file-datalake.LeaseStatusType'
+        uid: '@azure/abort-controller.LeaseStateType'
+  - uid: '@azure/abort-controller.LeaseStatusType'
     name: LeaseStatusType
     spec.typeScript:
       - name: LeaseStatusType
         fullName: LeaseStatusType
-        uid: '@azure/storage-file-datalake.LeaseStatusType'
-  - uid: '@azure/storage-file-datalake.Metadata'
+        uid: '@azure/abort-controller.LeaseStatusType'
+  - uid: '@azure/abort-controller.Metadata'
     name: Metadata
     spec.typeScript:
       - name: Metadata
         fullName: Metadata
-        uid: '@azure/storage-file-datalake.Metadata'
+        uid: '@azure/abort-controller.Metadata'

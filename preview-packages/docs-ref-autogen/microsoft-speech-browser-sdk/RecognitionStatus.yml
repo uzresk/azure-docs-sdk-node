@@ -4,43 +4,16 @@ items:
     name: RecognitionStatus
     fullName: RecognitionStatus
     children:
-      - microsoft-speech-browser-sdk.RecognitionStatus.Success
-      - microsoft-speech-browser-sdk.RecognitionStatus.NoMatch
-      - microsoft-speech-browser-sdk.RecognitionStatus.InitialSilenceTimeout
       - microsoft-speech-browser-sdk.RecognitionStatus.BabbleTimeout
-      - microsoft-speech-browser-sdk.RecognitionStatus.Error
       - microsoft-speech-browser-sdk.RecognitionStatus.EndOfDictation
+      - microsoft-speech-browser-sdk.RecognitionStatus.Error
+      - microsoft-speech-browser-sdk.RecognitionStatus.InitialSilenceTimeout
+      - microsoft-speech-browser-sdk.RecognitionStatus.NoMatch
+      - microsoft-speech-browser-sdk.RecognitionStatus.Success
     langs:
       - typeScript
     type: enum
     summary: ''
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.RecognitionStatus.Success
-    name: Success
-    children: []
-    langs:
-      - typeScript
-    summary: ''
-    type: field
-    numericValue: 0
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.RecognitionStatus.NoMatch
-    name: NoMatch
-    children: []
-    langs:
-      - typeScript
-    summary: ''
-    type: field
-    numericValue: 1
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.RecognitionStatus.InitialSilenceTimeout
-    name: InitialSilenceTimeout
-    children: []
-    langs:
-      - typeScript
-    summary: ''
-    type: field
-    numericValue: 2
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.RecognitionStatus.BabbleTimeout
     name: BabbleTimeout
@@ -49,16 +22,6 @@ items:
       - typeScript
     summary: ''
     type: field
-    numericValue: 3
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.RecognitionStatus.Error
-    name: Error
-    children: []
-    langs:
-      - typeScript
-    summary: ''
-    type: field
-    numericValue: 4
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.RecognitionStatus.EndOfDictation
     name: EndOfDictation
@@ -67,5 +30,36 @@ items:
       - typeScript
     summary: ''
     type: field
-    numericValue: 5
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.RecognitionStatus.Error
+    name: Error
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.RecognitionStatus.InitialSilenceTimeout
+    name: InitialSilenceTimeout
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.RecognitionStatus.NoMatch
+    name: NoMatch
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.RecognitionStatus.Success
+    name: Success
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
     package: microsoft-speech-browser-sdk

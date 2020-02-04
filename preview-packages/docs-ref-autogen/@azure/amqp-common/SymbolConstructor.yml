@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.SymbolConstructor'
+    name: SymbolConstructor
+    fullName: SymbolConstructor
+    children:
+      - '@azure/ms-rest-azure-env.SymbolConstructor.iterator'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SymbolConstructor.iterator'
+    name: iterator
+    fullName: iterator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'iterator: symbol'
+      return:
+        type:
+          - symbol
+        description: ''
+    package: '@azure/ms-rest-azure-env'

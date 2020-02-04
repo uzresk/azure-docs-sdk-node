@@ -1,0 +1,66 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.Annotation
+    name: Annotation
+    fullName: Annotation
+    children:
+      - tslib.Annotation.attributes
+      - tslib.Annotation.description
+      - tslib.Annotation.timestamp
+    langs:
+      - typeScript
+    type: interface
+    summary: A text annotation with a set of attributes.
+    package: tslib
+  - uid: tslib.Annotation.attributes
+    name: attributes
+    fullName: attributes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A set of attributes on the annotation.
+    syntax:
+      content: 'attributes: Attributes'
+      return:
+        type:
+          - tslib.Attributes
+        description: ''
+    package: tslib
+  - uid: tslib.Annotation.description
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A user-supplied message describing the event.
+    syntax:
+      content: 'description: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.Annotation.timestamp
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A timestamp for the event event.
+    syntax:
+      content: 'timestamp: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.Attributes
+    name: Attributes
+    spec.typeScript:
+      - name: Attributes
+        fullName: Attributes
+        uid: tslib.Attributes

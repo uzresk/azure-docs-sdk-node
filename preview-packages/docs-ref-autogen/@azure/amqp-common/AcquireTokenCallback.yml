@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.AcquireTokenCallback'
+    name: AcquireTokenCallback
+    fullName: AcquireTokenCallback
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: This is the callback that is passed to all acquireToken variants below.
+    syntax:
+      content: >-
+        type AcquireTokenCallback = (error: Error, response: TokenResponse |
+        ErrorResponse) => void
+    package: '@azure/ms-rest-azure-env'

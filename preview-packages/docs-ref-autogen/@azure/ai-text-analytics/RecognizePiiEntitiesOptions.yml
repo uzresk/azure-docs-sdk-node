@@ -1,22 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesOptions'
+  - uid: '@azure/abort-controller.RecognizePiiEntitiesOptions'
     name: RecognizePiiEntitiesOptions
     fullName: RecognizePiiEntitiesOptions
     children:
-      - '@azure/ai-text-analytics.RecognizePiiEntitiesOptions.abortSignal'
-      - '@azure/ai-text-analytics.RecognizePiiEntitiesOptions.includeStatistics'
-      - '@azure/ai-text-analytics.RecognizePiiEntitiesOptions.modelVersion'
-      - '@azure/ai-text-analytics.RecognizePiiEntitiesOptions.requestOptions'
-      - '@azure/ai-text-analytics.RecognizePiiEntitiesOptions.tracingOptions'
+      - '@azure/abort-controller.RecognizePiiEntitiesOptions.abortSignal'
+      - '@azure/abort-controller.RecognizePiiEntitiesOptions.includeStatistics'
+      - '@azure/abort-controller.RecognizePiiEntitiesOptions.modelVersion'
+      - '@azure/abort-controller.RecognizePiiEntitiesOptions.requestOptions'
+      - '@azure/abort-controller.RecognizePiiEntitiesOptions.tracingOptions'
     langs:
       - typeScript
     type: interface
     summary: Options for the recognize PII entities operation.
     extends:
-      name: '@azure/ai-text-analytics.TextAnalyticsOperationOptions'
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesOptions.abortSignal'
+      name: '@azure/abort-controller.TextAnalyticsOperationOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizePiiEntitiesOptions.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -29,10 +29,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - AbortSignalLike
+          - '@azure/abort-controller.AbortSignalLike'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesOptions.includeStatistics'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizePiiEntitiesOptions.includeStatistics'
     name: includeStatistics
     fullName: includeStatistics
     children: []
@@ -47,8 +47,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesOptions.modelVersion'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizePiiEntitiesOptions.modelVersion'
     name: modelVersion
     fullName: modelVersion
     children: []
@@ -72,8 +72,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesOptions.requestOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizePiiEntitiesOptions.requestOptions'
     name: requestOptions
     fullName: requestOptions
     children: []
@@ -86,10 +86,10 @@ items:
       content: 'requestOptions?: OperationRequestOptions'
       return:
         type:
-          - OperationRequestOptions
+          - '@azure/abort-controller.OperationRequestOptions'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesOptions.tracingOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizePiiEntitiesOptions.tracingOptions'
     name: tracingOptions
     fullName: tracingOptions
     children: []
@@ -102,13 +102,31 @@ items:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         type:
-          - OperationTracingOptions
+          - '@azure/abort-controller.OperationTracingOptions'
         description: ''
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions'
+  - uid: '@azure/abort-controller.TextAnalyticsOperationOptions'
     name: TextAnalyticsOperationOptions
     spec.typeScript:
       - name: TextAnalyticsOperationOptions
         fullName: TextAnalyticsOperationOptions
-        uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions'
+        uid: '@azure/abort-controller.TextAnalyticsOperationOptions'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.OperationRequestOptions'
+    name: OperationRequestOptions
+    spec.typeScript:
+      - name: OperationRequestOptions
+        fullName: OperationRequestOptions
+        uid: '@azure/abort-controller.OperationRequestOptions'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
+    name: OperationTracingOptions
+    spec.typeScript:
+      - name: OperationTracingOptions
+        fullName: OperationTracingOptions
+        uid: '@azure/abort-controller.OperationTracingOptions'

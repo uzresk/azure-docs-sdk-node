@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.RawAccessPolicy'
+  - uid: '@azure/abort-controller.RawAccessPolicy'
     name: RawAccessPolicy
     fullName: RawAccessPolicy
     children:
-      - '@azure/storage-file-datalake.RawAccessPolicy.expiresOn'
-      - '@azure/storage-file-datalake.RawAccessPolicy.permissions'
-      - '@azure/storage-file-datalake.RawAccessPolicy.startsOn'
+      - '@azure/abort-controller.RawAccessPolicy.expiresOn'
+      - '@azure/abort-controller.RawAccessPolicy.permissions'
+      - '@azure/abort-controller.RawAccessPolicy.startsOn'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.RawAccessPolicy.expiresOn'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RawAccessPolicy.expiresOn'
     name: expiresOn
     fullName: expiresOn
     children: []
@@ -27,8 +27,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.RawAccessPolicy.permissions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RawAccessPolicy.permissions'
     name: permissions
     fullName: permissions
     children: []
@@ -42,8 +42,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.RawAccessPolicy.startsOn'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RawAccessPolicy.startsOn'
     name: startsOn
     fullName: startsOn
     children: []
@@ -58,4 +58,4 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

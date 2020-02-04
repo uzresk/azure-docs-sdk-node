@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.NewRetryPolicyFactory'
+  - uid: '@azure/abort-controller.NewRetryPolicyFactory'
     name: NewRetryPolicyFactory(StorageRetryOptions)
     children: []
     type: function
@@ -12,18 +12,24 @@ items:
       parameters:
         - id: retryOptions
           type:
-            - '@azure/storage-file-datalake.StorageRetryOptions'
+            - '@azure/abort-controller.StorageRetryOptions'
           description: ''
           optional: true
       return:
         type:
-          - RequestPolicyFactory
+          - '@azure/abort-controller.RequestPolicyFactory'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.StorageRetryOptions'
+  - uid: '@azure/abort-controller.StorageRetryOptions'
     name: StorageRetryOptions
     spec.typeScript:
       - name: StorageRetryOptions
         fullName: StorageRetryOptions
-        uid: '@azure/storage-file-datalake.StorageRetryOptions'
+        uid: '@azure/abort-controller.StorageRetryOptions'
+  - uid: '@azure/abort-controller.RequestPolicyFactory'
+    name: RequestPolicyFactory
+    spec.typeScript:
+      - name: RequestPolicyFactory
+        fullName: RequestPolicyFactory
+        uid: '@azure/abort-controller.RequestPolicyFactory'

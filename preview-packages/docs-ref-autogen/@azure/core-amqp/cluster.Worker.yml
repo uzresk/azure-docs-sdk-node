@@ -1,0 +1,1528 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.cluster.Worker
+    name: Worker
+    fullName: Worker
+    children:
+      - tslib.cluster.Worker.addListener_1
+      - tslib.cluster.Worker.addListener_2
+      - tslib.cluster.Worker.addListener_3
+      - tslib.cluster.Worker.addListener_4
+      - tslib.cluster.Worker.addListener_5
+      - tslib.cluster.Worker.addListener_6
+      - tslib.cluster.Worker.addListener
+      - tslib.cluster.Worker.defaultMaxListeners
+      - tslib.cluster.Worker.destroy
+      - tslib.cluster.Worker.disconnect
+      - tslib.cluster.Worker.emit_1
+      - tslib.cluster.Worker.emit_2
+      - tslib.cluster.Worker.emit_3
+      - tslib.cluster.Worker.emit_4
+      - tslib.cluster.Worker.emit_5
+      - tslib.cluster.Worker.emit_6
+      - tslib.cluster.Worker.emit
+      - tslib.cluster.Worker.eventNames
+      - tslib.cluster.Worker.exitedAfterDisconnect
+      - tslib.cluster.Worker.getMaxListeners
+      - tslib.cluster.Worker.id
+      - tslib.cluster.Worker.isConnected
+      - tslib.cluster.Worker.isDead
+      - tslib.cluster.Worker.kill
+      - tslib.cluster.Worker.listenerCount
+      - tslib.cluster.Worker.listenerCount
+      - tslib.cluster.Worker.listeners
+      - tslib.cluster.Worker.off
+      - tslib.cluster.Worker.on_1
+      - tslib.cluster.Worker.on_2
+      - tslib.cluster.Worker.on_3
+      - tslib.cluster.Worker.on_4
+      - tslib.cluster.Worker.on_5
+      - tslib.cluster.Worker.on_6
+      - tslib.cluster.Worker.on
+      - tslib.cluster.Worker.once_1
+      - tslib.cluster.Worker.once_2
+      - tslib.cluster.Worker.once_3
+      - tslib.cluster.Worker.once_4
+      - tslib.cluster.Worker.once_5
+      - tslib.cluster.Worker.once_6
+      - tslib.cluster.Worker.once
+      - tslib.cluster.Worker.prependListener_1
+      - tslib.cluster.Worker.prependListener_2
+      - tslib.cluster.Worker.prependListener_3
+      - tslib.cluster.Worker.prependListener_4
+      - tslib.cluster.Worker.prependListener_5
+      - tslib.cluster.Worker.prependListener_6
+      - tslib.cluster.Worker.prependListener
+      - tslib.cluster.Worker.prependOnceListener_1
+      - tslib.cluster.Worker.prependOnceListener_2
+      - tslib.cluster.Worker.prependOnceListener_3
+      - tslib.cluster.Worker.prependOnceListener_4
+      - tslib.cluster.Worker.prependOnceListener_5
+      - tslib.cluster.Worker.prependOnceListener_6
+      - tslib.cluster.Worker.prependOnceListener
+      - tslib.cluster.Worker.process
+      - tslib.cluster.Worker.rawListeners
+      - tslib.cluster.Worker.removeAllListeners
+      - tslib.cluster.Worker.removeListener
+      - tslib.cluster.Worker.send
+      - tslib.cluster.Worker.setMaxListeners
+      - tslib.cluster.Worker.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: tslib.events.EventEmitter.EventEmitter
+    package: tslib
+  - uid: tslib.cluster.Worker.addListener_1
+    name: 'addListener("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.addListener_2
+    name: 'addListener("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "error", listener: (error: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.addListener_3
+    name: 'addListener("exit", (code: number, signal: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "exit", listener: (code: number, signal:
+        string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.addListener_4
+    name: 'addListener("listening", (address: Address) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "listening", listener: (address: Address) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(address: Address) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.addListener_5
+    name: 'addListener("message", (message: any, handle: Socket | Server) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "message", listener: (message: any, handle:
+        Socket | Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.addListener_6
+    name: 'addListener("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.addListener
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      events.EventEmitter
+        1. disconnect
+        2. error
+        3. exit
+        4. listening
+        5. message
+        6. online
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.defaultMaxListeners
+    name: defaultMaxListeners
+    fullName: defaultMaxListeners
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultMaxListeners: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.destroy
+    name: destroy(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function destroy(signal?: undefined | string)'
+      parameters:
+        - id: signal
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.cluster.Worker.disconnect
+    name: disconnect()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function disconnect()
+      parameters: []
+    package: tslib
+  - uid: tslib.cluster.Worker.emit_1
+    name: emit("disconnect")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "disconnect")'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.emit_2
+    name: 'emit("error", Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "error", error: Error)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: error
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.emit_3
+    name: 'emit("exit", number, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "exit", code: number, signal: string)'
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: code
+          type:
+            - number
+          description: ''
+        - id: signal
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.emit_4
+    name: 'emit("listening", Address)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "listening", address: Address)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: address
+          type:
+            - tslib.cluster.Address
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.emit_5
+    name: 'emit("message", any, Socket | Server)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "message", message: any, handle: Socket | Server)'
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: handle
+          type:
+            - tslib.net.Socket | tslib.net.Server
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.emit_6
+    name: emit("online")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "online")'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.emit
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.eventNames
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.exitedAfterDisconnect
+    name: exitedAfterDisconnect
+    fullName: exitedAfterDisconnect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'exitedAfterDisconnect: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.getMaxListeners
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.id
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.isConnected
+    name: isConnected()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isConnected()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.isDead
+    name: isDead()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isDead()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.kill
+    name: kill(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function kill(signal?: undefined | string)'
+      parameters:
+        - id: signal
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.cluster.Worker.listenerCount
+    name: 'listenerCount(EventEmitter, string | symbol)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function listenerCount(emitter: EventEmitter, event: string |
+        symbol)
+      parameters:
+        - id: emitter
+          type:
+            - tslib.events.EventEmitter.EventEmitter
+          description: ''
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0
+  - uid: tslib.cluster.Worker.listenerCount
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.listeners
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.off
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.on_1
+    name: 'on("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.on_2
+    name: 'on("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "error", listener: (error: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.on_3
+    name: 'on("exit", (code: number, signal: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "exit", listener: (code: number, signal: string) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.on_4
+    name: 'on("listening", (address: Address) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "listening", listener: (address: Address) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(address: Address) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.on_5
+    name: 'on("message", (message: any, handle: Socket | Server) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "message", listener: (message: any, handle: Socket |
+        Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.on_6
+    name: 'on("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.on
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.once_1
+    name: 'once("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.once_2
+    name: 'once("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "error", listener: (error: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.once_3
+    name: 'once("exit", (code: number, signal: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "exit", listener: (code: number, signal: string) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.once_4
+    name: 'once("listening", (address: Address) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "listening", listener: (address: Address) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(address: Address) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.once_5
+    name: 'once("message", (message: any, handle: Socket | Server) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "message", listener: (message: any, handle: Socket
+        | Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.once_6
+    name: 'once("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.once
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.prependListener_1
+    name: 'prependListener("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.prependListener_2
+    name: 'prependListener("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "error", listener: (error: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.prependListener_3
+    name: 'prependListener("exit", (code: number, signal: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "exit", listener: (code: number, signal:
+        string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.prependListener_4
+    name: 'prependListener("listening", (address: Address) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "listening", listener: (address:
+        Address) => void)
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(address: Address) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.prependListener_5
+    name: >-
+      prependListener("message", (message: any, handle: Socket | Server) =>
+      void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "message", listener: (message: any,
+        handle: Socket | Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.prependListener_6
+    name: 'prependListener("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.prependListener
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.prependOnceListener_1
+    name: 'prependOnceListener("disconnect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "disconnect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.prependOnceListener_2
+    name: 'prependOnceListener("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "error", listener: (error: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.prependOnceListener_3
+    name: 'prependOnceListener("exit", (code: number, signal: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "exit", listener: (code: number,
+        signal: string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.prependOnceListener_4
+    name: 'prependOnceListener("listening", (address: Address) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "listening", listener: (address:
+        Address) => void)
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(address: Address) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.prependOnceListener_5
+    name: >-
+      prependOnceListener("message", (message: any, handle: Socket | Server) =>
+      void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "message", listener: (message: any,
+        handle: Socket | Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.prependOnceListener_6
+    name: 'prependOnceListener("online", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "online", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.prependOnceListener
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.process
+    name: process
+    fullName: process
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'process: ChildProcess'
+      return:
+        type:
+          - tslib.child_process.ChildProcess
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.rawListeners
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.removeAllListeners
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.removeListener
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.send
+    name: >-
+      send(child.Serializable, child.SendHandle, undefined | (error: Error |
+      null) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function send(message: child.Serializable, sendHandle?:
+        child.SendHandle, callback?: undefined | (error: Error | null) => void)
+      parameters:
+        - id: message
+          type:
+            - child.Serializable
+          description: ''
+        - id: sendHandle
+          type:
+            - child.SendHandle
+          description: ''
+          optional: true
+        - id: callback
+          type:
+            - 'undefined | (error: Error | null) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.setMaxListeners
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.Worker.constructor
+    name: Worker(EventEmitterOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Worker(options?: EventEmitterOptions)'
+      parameters:
+        - id: options
+          type:
+            - tslib.events.EventEmitterOptions
+          description: ''
+          optional: true
+    package: tslib
+references:
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.events.EventEmitterOptions
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: tslib.events.EventEmitterOptions
+  - uid: tslib.child_process.ChildProcess
+    name: ChildProcess
+    spec.typeScript:
+      - name: ChildProcess
+        fullName: ChildProcess
+        uid: tslib.child_process.ChildProcess
+  - uid: tslib.cluster.Address
+    name: Address
+    spec.typeScript:
+      - name: Address
+        fullName: Address
+        uid: tslib.cluster.Address
+  - uid: tslib.net.Socket | tslib.net.Server
+    name: Server
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.net.Socket
+      - name: ' | '
+        fullName: ' | '
+      - name: Server
+        fullName: Server
+        uid: tslib.net.Server
+  - uid: tslib.cluster.Worker
+    name: Worker
+    spec.typeScript:
+      - name: Worker
+        fullName: Worker
+        uid: tslib.cluster.Worker
+  - uid: tslib.cluster.ClusterSettings
+    name: ClusterSettings
+    spec.typeScript:
+      - name: ClusterSettings
+        fullName: ClusterSettings
+        uid: tslib.cluster.ClusterSettings
+  - uid: tslib.cluster.Cluster.Worker
+    name: Worker
+    spec.typeScript:
+      - name: Worker
+        fullName: Worker
+        uid: tslib.cluster.Cluster.Worker
+  - uid: tslib.cluster.Cluster
+    name: Cluster
+    spec.typeScript:
+      - name: Cluster
+        fullName: Cluster
+        uid: tslib.cluster.Cluster

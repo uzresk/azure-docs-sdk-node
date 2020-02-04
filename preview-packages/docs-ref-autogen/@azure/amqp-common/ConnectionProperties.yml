@@ -1,20 +1,20 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.ConnectionProperties'
+  - uid: '@azure/ms-rest-azure-env.ConnectionProperties'
     name: ConnectionProperties
     fullName: ConnectionProperties
     children:
-      - '@azure/amqp-common.ConnectionProperties.product'
-      - '@azure/amqp-common.ConnectionProperties.userAgent'
-      - '@azure/amqp-common.ConnectionProperties.version'
+      - '@azure/ms-rest-azure-env.ConnectionProperties.product'
+      - '@azure/ms-rest-azure-env.ConnectionProperties.userAgent'
+      - '@azure/ms-rest-azure-env.ConnectionProperties.version'
     langs:
       - typeScript
     type: interface
     summary: >-
       Defines the properties that need to be set while establishing the AMQP
       connection.
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.ConnectionProperties.product'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ConnectionProperties.product'
     name: product
     fullName: product
     children: []
@@ -32,8 +32,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.ConnectionProperties.userAgent'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ConnectionProperties.userAgent'
     name: userAgent
     fullName: userAgent
     children: []
@@ -52,8 +52,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.ConnectionProperties.version'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ConnectionProperties.version'
     name: version
     fullName: version
     children: []
@@ -69,4 +69,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'

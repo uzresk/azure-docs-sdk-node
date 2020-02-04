@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.TagValue
+    name: TagValue
+    fullName: TagValue
+    children:
+      - tslib.TagValue.value
+    langs:
+      - typeScript
+    type: interface
+    summary: TagValue represents a tag value
+    package: tslib
+  - uid: tslib.TagValue.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The value of a tag.
+    syntax:
+      content: 'value: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib

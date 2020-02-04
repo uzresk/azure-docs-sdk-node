@@ -1,0 +1,1453 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket'
+    name: Socket
+    fullName: Socket
+    children:
+      - '@azure/ms-rest-azure-env.dgram.Socket.addListener_1'
+      - '@azure/ms-rest-azure-env.dgram.Socket.addListener_2'
+      - '@azure/ms-rest-azure-env.dgram.Socket.addListener_3'
+      - '@azure/ms-rest-azure-env.dgram.Socket.addListener_4'
+      - '@azure/ms-rest-azure-env.dgram.Socket.addListener'
+      - '@azure/ms-rest-azure-env.dgram.Socket.addMembership'
+      - '@azure/ms-rest-azure-env.dgram.Socket.address'
+      - '@azure/ms-rest-azure-env.dgram.Socket.bind_3'
+      - '@azure/ms-rest-azure-env.dgram.Socket.bind_2'
+      - '@azure/ms-rest-azure-env.dgram.Socket.bind_1'
+      - '@azure/ms-rest-azure-env.dgram.Socket.bind'
+      - '@azure/ms-rest-azure-env.dgram.Socket.close'
+      - '@azure/ms-rest-azure-env.dgram.Socket.defaultMaxListeners'
+      - '@azure/ms-rest-azure-env.dgram.Socket.dropMembership'
+      - '@azure/ms-rest-azure-env.dgram.Socket.emit_1'
+      - '@azure/ms-rest-azure-env.dgram.Socket.emit_2'
+      - '@azure/ms-rest-azure-env.dgram.Socket.emit_3'
+      - '@azure/ms-rest-azure-env.dgram.Socket.emit_4'
+      - '@azure/ms-rest-azure-env.dgram.Socket.emit'
+      - '@azure/ms-rest-azure-env.dgram.Socket.eventNames'
+      - '@azure/ms-rest-azure-env.dgram.Socket.getMaxListeners'
+      - '@azure/ms-rest-azure-env.dgram.Socket.getRecvBufferSize'
+      - '@azure/ms-rest-azure-env.dgram.Socket.getSendBufferSize'
+      - '@azure/ms-rest-azure-env.dgram.Socket.listenerCount'
+      - '@azure/ms-rest-azure-env.dgram.Socket.listenerCount'
+      - '@azure/ms-rest-azure-env.dgram.Socket.listeners'
+      - '@azure/ms-rest-azure-env.dgram.Socket.off'
+      - '@azure/ms-rest-azure-env.dgram.Socket.on_1'
+      - '@azure/ms-rest-azure-env.dgram.Socket.on_2'
+      - '@azure/ms-rest-azure-env.dgram.Socket.on_3'
+      - '@azure/ms-rest-azure-env.dgram.Socket.on_4'
+      - '@azure/ms-rest-azure-env.dgram.Socket.on'
+      - '@azure/ms-rest-azure-env.dgram.Socket.once_1'
+      - '@azure/ms-rest-azure-env.dgram.Socket.once_2'
+      - '@azure/ms-rest-azure-env.dgram.Socket.once_3'
+      - '@azure/ms-rest-azure-env.dgram.Socket.once_4'
+      - '@azure/ms-rest-azure-env.dgram.Socket.once'
+      - '@azure/ms-rest-azure-env.dgram.Socket.prependListener_1'
+      - '@azure/ms-rest-azure-env.dgram.Socket.prependListener_2'
+      - '@azure/ms-rest-azure-env.dgram.Socket.prependListener_3'
+      - '@azure/ms-rest-azure-env.dgram.Socket.prependListener_4'
+      - '@azure/ms-rest-azure-env.dgram.Socket.prependListener'
+      - '@azure/ms-rest-azure-env.dgram.Socket.prependOnceListener_1'
+      - '@azure/ms-rest-azure-env.dgram.Socket.prependOnceListener_2'
+      - '@azure/ms-rest-azure-env.dgram.Socket.prependOnceListener_3'
+      - '@azure/ms-rest-azure-env.dgram.Socket.prependOnceListener_4'
+      - '@azure/ms-rest-azure-env.dgram.Socket.prependOnceListener'
+      - '@azure/ms-rest-azure-env.dgram.Socket.rawListeners'
+      - '@azure/ms-rest-azure-env.dgram.Socket.ref'
+      - '@azure/ms-rest-azure-env.dgram.Socket.removeAllListeners'
+      - '@azure/ms-rest-azure-env.dgram.Socket.removeListener'
+      - '@azure/ms-rest-azure-env.dgram.Socket.send'
+      - '@azure/ms-rest-azure-env.dgram.Socket.send_1'
+      - '@azure/ms-rest-azure-env.dgram.Socket.setBroadcast'
+      - '@azure/ms-rest-azure-env.dgram.Socket.setMaxListeners'
+      - '@azure/ms-rest-azure-env.dgram.Socket.setMulticastInterface'
+      - '@azure/ms-rest-azure-env.dgram.Socket.setMulticastLoopback'
+      - '@azure/ms-rest-azure-env.dgram.Socket.setMulticastTTL'
+      - '@azure/ms-rest-azure-env.dgram.Socket.setRecvBufferSize'
+      - '@azure/ms-rest-azure-env.dgram.Socket.setSendBufferSize'
+      - '@azure/ms-rest-azure-env.dgram.Socket.setTTL'
+      - '@azure/ms-rest-azure-env.dgram.Socket.constructor'
+      - '@azure/ms-rest-azure-env.dgram.Socket.unref'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.addListener_1'
+    name: 'addListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.addListener_2'
+    name: 'addListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.addListener_3'
+    name: 'addListener("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.addListener_4'
+    name: 'addListener("message", (msg: Buffer, rinfo: AddressInfo) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "message", listener: (msg: Buffer, rinfo:
+        AddressInfo) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(msg: Buffer, rinfo: AddressInfo) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.addListener'
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      events.EventEmitter
+      1. close
+      2. error
+      3. listening
+      4. message
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.addMembership'
+    name: 'addMembership(string, undefined | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addMembership(multicastAddress: string, multicastInterface?:
+        undefined | string)
+      parameters:
+        - id: multicastAddress
+          type:
+            - string
+          description: ''
+        - id: multicastInterface
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.address'
+    name: address()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function address()
+      parameters: []
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.dgram.AddressInfo'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.bind_3'
+    name: 'bind(BindOptions, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function bind(options: BindOptions, callback?: Function)'
+      parameters:
+        - id: options
+          type:
+            - BindOptions
+          description: ''
+        - id: callback
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.bind_2'
+    name: bind(undefined | () => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function bind(callback?: undefined | () => void)'
+      parameters:
+        - id: callback
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.bind_1'
+    name: 'bind(undefined | number, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function bind(port?: undefined | number, callback?: undefined | () =>
+        void)
+      parameters:
+        - id: port
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: callback
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.bind'
+    name: 'bind(undefined | number, undefined | string, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function bind(port?: undefined | number, address?: undefined | string,
+        callback?: undefined | () => void)
+      parameters:
+        - id: port
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: address
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: callback
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.close'
+    name: close(undefined | () => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function close(callback?: undefined | () => void)'
+      parameters:
+        - id: callback
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.defaultMaxListeners'
+    name: defaultMaxListeners
+    fullName: defaultMaxListeners
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultMaxListeners: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.dropMembership'
+    name: 'dropMembership(string, undefined | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function dropMembership(multicastAddress: string, multicastInterface?:
+        undefined | string)
+      parameters:
+        - id: multicastAddress
+          type:
+            - string
+          description: ''
+        - id: multicastInterface
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.emit_1'
+    name: emit("close")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "close")'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.emit_2'
+    name: 'emit("error", Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "error", err: Error)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: err
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.emit_3'
+    name: emit("listening")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "listening")'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.emit_4'
+    name: 'emit("message", Buffer, AddressInfo)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "message", msg: Buffer, rinfo: AddressInfo)'
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: msg
+          type:
+            - Buffer
+          description: ''
+        - id: rinfo
+          type:
+            - '@azure/ms-rest-azure-env.dgram.AddressInfo'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.getRecvBufferSize'
+    name: getRecvBufferSize()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getRecvBufferSize()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.getSendBufferSize'
+    name: getSendBufferSize()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getSendBufferSize()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.listenerCount'
+    name: 'listenerCount(EventEmitter, string | symbol)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function listenerCount(emitter: EventEmitter, event: string |
+        symbol)
+      parameters:
+        - id: emitter
+          type:
+            - '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+          description: ''
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+    deprecated:
+      content: since v4.0.0
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.on_1'
+    name: 'on("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.on_2'
+    name: 'on("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.on_3'
+    name: 'on("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.on_4'
+    name: 'on("message", (msg: Buffer, rinfo: AddressInfo) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "message", listener: (msg: Buffer, rinfo:
+        AddressInfo) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(msg: Buffer, rinfo: AddressInfo) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.on'
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.once_1'
+    name: 'once("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.once_2'
+    name: 'once("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.once_3'
+    name: 'once("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.once_4'
+    name: 'once("message", (msg: Buffer, rinfo: AddressInfo) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "message", listener: (msg: Buffer, rinfo:
+        AddressInfo) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(msg: Buffer, rinfo: AddressInfo) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.once'
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.prependListener_1'
+    name: 'prependListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.prependListener_2'
+    name: 'prependListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.prependListener_3'
+    name: 'prependListener("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.prependListener_4'
+    name: 'prependListener("message", (msg: Buffer, rinfo: AddressInfo) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "message", listener: (msg: Buffer,
+        rinfo: AddressInfo) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(msg: Buffer, rinfo: AddressInfo) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.prependListener'
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.prependOnceListener_1'
+    name: 'prependOnceListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.prependOnceListener_2'
+    name: 'prependOnceListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "error", listener: (err: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.prependOnceListener_3'
+    name: 'prependOnceListener("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.prependOnceListener_4'
+    name: 'prependOnceListener("message", (msg: Buffer, rinfo: AddressInfo) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "message", listener: (msg: Buffer,
+        rinfo: AddressInfo) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(msg: Buffer, rinfo: AddressInfo) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.prependOnceListener'
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.ref'
+    name: ref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ref()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.removeListener'
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.send'
+    name: >-
+      send(Buffer | string | Uint8Array | any[], number, undefined | string,
+      undefined | (error: Error | null, bytes: number) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function send(msg: Buffer | string | Uint8Array | any[], port: number,
+        address?: undefined | string, callback?: undefined | (error: Error |
+        null, bytes: number) => void)
+      parameters:
+        - id: msg
+          type:
+            - 'Buffer | string | Uint8Array | any[]'
+          description: ''
+        - id: port
+          type:
+            - number
+          description: ''
+        - id: address
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: callback
+          type:
+            - 'undefined | (error: Error | null, bytes: number) => void'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.send_1'
+    name: >-
+      send(Buffer | string | Uint8Array, number, number, number, undefined |
+      string, undefined | (error: Error | null, bytes: number) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function send(msg: Buffer | string | Uint8Array, offset: number, length:
+        number, port: number, address?: undefined | string, callback?: undefined
+        | (error: Error | null, bytes: number) => void)
+      parameters:
+        - id: msg
+          type:
+            - Buffer | string | Uint8Array
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: length
+          type:
+            - number
+          description: ''
+        - id: port
+          type:
+            - number
+          description: ''
+        - id: address
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: callback
+          type:
+            - 'undefined | (error: Error | null, bytes: number) => void'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.setBroadcast'
+    name: setBroadcast(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setBroadcast(flag: boolean)'
+      parameters:
+        - id: flag
+          type:
+            - boolean
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.setMulticastInterface'
+    name: setMulticastInterface(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMulticastInterface(multicastInterface: string)'
+      parameters:
+        - id: multicastInterface
+          type:
+            - string
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.setMulticastLoopback'
+    name: setMulticastLoopback(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMulticastLoopback(flag: boolean)'
+      parameters:
+        - id: flag
+          type:
+            - boolean
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.setMulticastTTL'
+    name: setMulticastTTL(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMulticastTTL(ttl: number)'
+      parameters:
+        - id: ttl
+          type:
+            - number
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.setRecvBufferSize'
+    name: setRecvBufferSize(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setRecvBufferSize(size: number)'
+      parameters:
+        - id: size
+          type:
+            - number
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.setSendBufferSize'
+    name: setSendBufferSize(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setSendBufferSize(size: number)'
+      parameters:
+        - id: size
+          type:
+            - number
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.setTTL'
+    name: setTTL(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setTTL(ttl: number)'
+      parameters:
+        - id: ttl
+          type:
+            - number
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.constructor'
+    name: Socket(EventEmitterOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Socket(options?: EventEmitterOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket.unref'
+    name: unref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unref()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+  - uid: '@azure/ms-rest-azure-env.dgram.AddressInfo'
+    name: AddressInfo
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: '@azure/ms-rest-azure-env.dgram.AddressInfo'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+  - uid: '@azure/ms-rest-azure-env.dgram.SocketType'
+    name: SocketType
+    spec.typeScript:
+      - name: SocketType
+        fullName: SocketType
+        uid: '@azure/ms-rest-azure-env.dgram.SocketType'
+  - uid: '@azure/ms-rest-azure-env.dgram.Socket'
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/ms-rest-azure-env.dgram.Socket'

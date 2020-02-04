@@ -1,13 +1,13 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.DetectLanguageSuccessResult'
+  - uid: '@azure/abort-controller.DetectLanguageSuccessResult'
     name: DetectLanguageSuccessResult
     fullName: DetectLanguageSuccessResult
     children:
-      - '@azure/ai-text-analytics.DetectLanguageSuccessResult.detectedLanguages'
-      - '@azure/ai-text-analytics.DetectLanguageSuccessResult.id'
-      - '@azure/ai-text-analytics.DetectLanguageSuccessResult.primaryLanguage'
-      - '@azure/ai-text-analytics.DetectLanguageSuccessResult.statistics'
+      - '@azure/abort-controller.DetectLanguageSuccessResult.detectedLanguages'
+      - '@azure/abort-controller.DetectLanguageSuccessResult.id'
+      - '@azure/abort-controller.DetectLanguageSuccessResult.primaryLanguage'
+      - '@azure/abort-controller.DetectLanguageSuccessResult.statistics'
     langs:
       - typeScript
     type: interface
@@ -15,9 +15,9 @@ items:
       The result of the detect language operation on a single document,
       containing a prediction of what language the document is written in.
     extends:
-      name: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.DetectLanguageSuccessResult.detectedLanguages'
+      name: '@azure/abort-controller.TextAnalyticsSuccessResult'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DetectLanguageSuccessResult.detectedLanguages'
     name: detectedLanguages
     fullName: detectedLanguages
     children: []
@@ -29,10 +29,10 @@ items:
       content: 'detectedLanguages: DetectedLanguage[]'
       return:
         type:
-          - '@azure/ai-text-analytics.DetectedLanguage[]'
+          - '@azure/abort-controller.DetectedLanguage[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.DetectLanguageSuccessResult.id'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DetectLanguageSuccessResult.id'
     name: id
     fullName: id
     children: []
@@ -46,8 +46,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.DetectLanguageSuccessResult.primaryLanguage'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DetectLanguageSuccessResult.primaryLanguage'
     name: primaryLanguage
     fullName: primaryLanguage
     children: []
@@ -59,10 +59,10 @@ items:
       content: 'primaryLanguage: DetectedLanguage'
       return:
         type:
-          - '@azure/ai-text-analytics.DetectedLanguage'
+          - '@azure/abort-controller.DetectedLanguage'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.DetectLanguageSuccessResult.statistics'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DetectLanguageSuccessResult.statistics'
     name: statistics
     fullName: statistics
     children: []
@@ -81,33 +81,33 @@ items:
       content: 'statistics?: TextDocumentStatistics'
       return:
         type:
-          - '@azure/ai-text-analytics.TextDocumentStatistics'
+          - '@azure/abort-controller.TextDocumentStatistics'
         description: ''
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
+  - uid: '@azure/abort-controller.TextAnalyticsSuccessResult'
     name: TextAnalyticsSuccessResult
     spec.typeScript:
       - name: TextAnalyticsSuccessResult
         fullName: TextAnalyticsSuccessResult
-        uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
-  - uid: '@azure/ai-text-analytics.DetectedLanguage[]'
+        uid: '@azure/abort-controller.TextAnalyticsSuccessResult'
+  - uid: '@azure/abort-controller.DetectedLanguage[]'
     name: 'DetectedLanguage[]'
     spec.typeScript:
       - name: DetectedLanguage
         fullName: DetectedLanguage
-        uid: '@azure/ai-text-analytics.DetectedLanguage'
+        uid: '@azure/abort-controller.DetectedLanguage'
       - name: '[]'
         fullName: '[]'
-  - uid: '@azure/ai-text-analytics.DetectedLanguage'
+  - uid: '@azure/abort-controller.DetectedLanguage'
     name: DetectedLanguage
     spec.typeScript:
       - name: DetectedLanguage
         fullName: DetectedLanguage
-        uid: '@azure/ai-text-analytics.DetectedLanguage'
-  - uid: '@azure/ai-text-analytics.TextDocumentStatistics'
+        uid: '@azure/abort-controller.DetectedLanguage'
+  - uid: '@azure/abort-controller.TextDocumentStatistics'
     name: TextDocumentStatistics
     spec.typeScript:
       - name: TextDocumentStatistics
         fullName: TextDocumentStatistics
-        uid: '@azure/ai-text-analytics.TextDocumentStatistics'
+        uid: '@azure/abort-controller.TextDocumentStatistics'

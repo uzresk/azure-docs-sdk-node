@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.stringifyXML'
+    name: 'stringifyXML(any, undefined | Object)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function stringifyXML(obj: any, opts?: undefined | Object)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+        - id: opts
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'

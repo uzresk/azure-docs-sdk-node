@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.toProperties'
+  - uid: '@azure/abort-controller.toProperties'
     name: toProperties(Metadata)
     children: []
     type: function
@@ -12,18 +12,18 @@ items:
       parameters:
         - id: metadata
           type:
-            - '@azure/storage-file-datalake.Metadata'
+            - '@azure/abort-controller.Metadata'
           description: ''
           optional: true
       return:
         type:
           - string | undefined
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.Metadata'
+  - uid: '@azure/abort-controller.Metadata'
     name: Metadata
     spec.typeScript:
       - name: Metadata
         fullName: Metadata
-        uid: '@azure/storage-file-datalake.Metadata'
+        uid: '@azure/abort-controller.Metadata'

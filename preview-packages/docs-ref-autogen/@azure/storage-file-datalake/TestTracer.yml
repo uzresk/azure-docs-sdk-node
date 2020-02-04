@@ -1,0 +1,277 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.TestTracer'
+    name: TestTracer
+    fullName: TestTracer
+    children:
+      - '@azure/abort-controller.TestTracer.bind'
+      - '@azure/abort-controller.TestTracer.getActiveSpans'
+      - '@azure/abort-controller.TestTracer.getBinaryFormat'
+      - '@azure/abort-controller.TestTracer.getCurrentSpan'
+      - '@azure/abort-controller.TestTracer.getHttpTextFormat'
+      - '@azure/abort-controller.TestTracer.getKnownSpans'
+      - '@azure/abort-controller.TestTracer.getRootSpans'
+      - '@azure/abort-controller.TestTracer.getSpanGraph'
+      - '@azure/abort-controller.TestTracer.recordSpanData'
+      - '@azure/abort-controller.TestTracer.startSpan'
+      - '@azure/abort-controller.TestTracer.withSpan'
+    langs:
+      - typeScript
+    type: class
+    summary: A mock tracer useful for testing
+    extends:
+      name: '@azure/abort-controller.NoOpTracer'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TestTracer.bind'
+    name: 'bind(T, Span)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Bind a Span as the target's scope
+    syntax:
+      content: 'function bind<T>(target: T, _span?: Span)'
+      parameters:
+        - id: target
+          type:
+            - T
+          description: An object to bind the scope.
+        - id: _span
+          type:
+            - '@azure/abort-controller.Span'
+          description: |
+            A specific Span to use. Otherwise, use the current one.
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TestTracer.getActiveSpans'
+    name: getActiveSpans()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns all Spans where end() has not been called
+    syntax:
+      content: function getActiveSpans()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.TestSpan[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TestTracer.getBinaryFormat'
+    name: getBinaryFormat()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the BinaryFormat interface for serializing/deserializing Spans.
+    syntax:
+      content: function getBinaryFormat()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.BinaryFormat'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TestTracer.getCurrentSpan'
+    name: getCurrentSpan()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Returns the current Span from the current context, if available.'
+    syntax:
+      content: function getCurrentSpan()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.Span'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TestTracer.getHttpTextFormat'
+    name: getHttpTextFormat()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the HttpTextFormat interface for injecting/extracting Spans.
+    syntax:
+      content: function getHttpTextFormat()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.HttpTextFormat'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TestTracer.getKnownSpans'
+    name: getKnownSpans()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns all Spans this Tracer knows about
+    syntax:
+      content: function getKnownSpans()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.TestSpan[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TestTracer.getRootSpans'
+    name: getRootSpans()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns all Spans that were created without a parent
+    syntax:
+      content: function getRootSpans()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.TestSpan[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TestTracer.getSpanGraph'
+    name: getSpanGraph(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Return all Spans for a particular trace, grouped by their
+      parent Span in a tree-like structure
+    syntax:
+      content: 'function getSpanGraph(traceId: string)'
+      parameters:
+        - id: traceId
+          type:
+            - string
+          description: |
+            The traceId to return the graph for
+      return:
+        type:
+          - '@azure/abort-controller.SpanGraph'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TestTracer.recordSpanData'
+    name: recordSpanData(Span)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Send a pre-populated Span object to the exporter.
+    syntax:
+      content: 'function recordSpanData(_span: Span)'
+      parameters:
+        - id: _span
+          type:
+            - '@azure/abort-controller.Span'
+          description: |
+            The span to pass along.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TestTracer.startSpan'
+    name: 'startSpan(string, SpanOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Starts a new Span.
+    syntax:
+      content: 'function startSpan(name: string, options?: SpanOptions)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: The name of the span.
+        - id: options
+          type:
+            - '@azure/abort-controller.SpanOptions'
+          description: |
+            The SpanOptions used during Span creation.
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.TestSpan'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TestTracer.withSpan'
+    name: 'withSpan(Span, T)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Executes the given function within the context provided by a Span.
+    syntax:
+      content: 'function withSpan<T>(_span: Span, fn: T)'
+      parameters:
+        - id: _span
+          type:
+            - '@azure/abort-controller.Span'
+          description: The span that provides the context.
+        - id: fn
+          type:
+            - T
+          description: |
+            The function to be executed.
+      return:
+        type:
+          - ReturnType<T>
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NoOpTracer'
+    name: NoOpTracer
+    spec.typeScript:
+      - name: NoOpTracer
+        fullName: NoOpTracer
+        uid: '@azure/abort-controller.NoOpTracer'
+  - uid: '@azure/abort-controller.Span'
+    name: Span
+    spec.typeScript:
+      - name: Span
+        fullName: Span
+        uid: '@azure/abort-controller.Span'
+  - uid: '@azure/abort-controller.TestSpan[]'
+    name: 'TestSpan[]'
+    spec.typeScript:
+      - name: TestSpan
+        fullName: TestSpan
+        uid: '@azure/abort-controller.TestSpan'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.BinaryFormat'
+    name: BinaryFormat
+    spec.typeScript:
+      - name: BinaryFormat
+        fullName: BinaryFormat
+        uid: '@azure/abort-controller.BinaryFormat'
+  - uid: '@azure/abort-controller.HttpTextFormat'
+    name: HttpTextFormat
+    spec.typeScript:
+      - name: HttpTextFormat
+        fullName: HttpTextFormat
+        uid: '@azure/abort-controller.HttpTextFormat'
+  - uid: '@azure/abort-controller.SpanGraph'
+    name: SpanGraph
+    spec.typeScript:
+      - name: SpanGraph
+        fullName: SpanGraph
+        uid: '@azure/abort-controller.SpanGraph'
+  - uid: '@azure/abort-controller.SpanOptions'
+    name: SpanOptions
+    spec.typeScript:
+      - name: SpanOptions
+        fullName: SpanOptions
+        uid: '@azure/abort-controller.SpanOptions'
+  - uid: '@azure/abort-controller.TestSpan'
+    name: TestSpan
+    spec.typeScript:
+      - name: TestSpan
+        fullName: TestSpan
+        uid: '@azure/abort-controller.TestSpan'

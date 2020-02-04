@@ -1,0 +1,59 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.serializeRequestBody'
+    name: >-
+      serializeRequestBody(ServiceClient, WebResource, OperationArguments,
+      OperationSpec)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function serializeRequestBody(serviceClient: ServiceClient, httpRequest:
+        WebResource, operationArguments: OperationArguments, operationSpec:
+        OperationSpec)
+      parameters:
+        - id: serviceClient
+          type:
+            - '@azure/ms-rest-azure-env.ServiceClient'
+          description: ''
+        - id: httpRequest
+          type:
+            - '@azure/ms-rest-azure-env.WebResource'
+          description: ''
+        - id: operationArguments
+          type:
+            - '@azure/ms-rest-azure-env.OperationArguments'
+          description: ''
+        - id: operationSpec
+          type:
+            - '@azure/ms-rest-azure-env.OperationSpec'
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.ServiceClient'
+    name: ServiceClient
+    spec.typeScript:
+      - name: ServiceClient
+        fullName: ServiceClient
+        uid: '@azure/ms-rest-azure-env.ServiceClient'
+  - uid: '@azure/ms-rest-azure-env.WebResource'
+    name: WebResource
+    spec.typeScript:
+      - name: WebResource
+        fullName: WebResource
+        uid: '@azure/ms-rest-azure-env.WebResource'
+  - uid: '@azure/ms-rest-azure-env.OperationArguments'
+    name: OperationArguments
+    spec.typeScript:
+      - name: OperationArguments
+        fullName: OperationArguments
+        uid: '@azure/ms-rest-azure-env.OperationArguments'
+  - uid: '@azure/ms-rest-azure-env.OperationSpec'
+    name: OperationSpec
+    spec.typeScript:
+      - name: OperationSpec
+        fullName: OperationSpec
+        uid: '@azure/ms-rest-azure-env.OperationSpec'

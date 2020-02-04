@@ -1,0 +1,79 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.URLTokenizer'
+    name: URLTokenizer
+    fullName: URLTokenizer
+    children:
+      - '@azure/abort-controller.URLTokenizer.current'
+      - '@azure/abort-controller.URLTokenizer.next'
+      - '@azure/abort-controller.URLTokenizer.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: A class that tokenizes URL strings.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.URLTokenizer.current'
+    name: current()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Get the current URLToken this URLTokenizer is pointing at, or undefined if
+      the URLTokenizer
+
+      hasn't started or has finished tokenizing.
+    syntax:
+      content: function current()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.URLToken | undefined'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.URLTokenizer.next'
+    name: next()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Advance to the next URLToken and return whether or not a URLToken was
+      found.
+    syntax:
+      content: function next()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.URLTokenizer.constructor'
+    name: 'URLTokenizer(string, URLTokenizerState)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new URLTokenizer(_text: string, state?: URLTokenizerState)'
+      parameters:
+        - id: _text
+          type:
+            - string
+          description: ''
+        - id: state
+          type:
+            - URLTokenizerState
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.URLToken | undefined'
+    name: URLToken | undefined
+    spec.typeScript:
+      - name: URLToken
+        fullName: URLToken
+        uid: '@azure/abort-controller.URLToken'
+      - name: ' | undefined'
+        fullName: ' | undefined'

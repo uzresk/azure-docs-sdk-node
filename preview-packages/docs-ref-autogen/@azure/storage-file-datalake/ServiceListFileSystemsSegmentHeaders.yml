@@ -1,22 +1,20 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsSegmentHeaders'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsSegmentHeaders'
     name: ServiceListFileSystemsSegmentHeaders
     fullName: ServiceListFileSystemsSegmentHeaders
     children:
       - >-
-        @azure/storage-file-datalake.ServiceListFileSystemsSegmentHeaders.clientRequestId
-      - >-
-        @azure/storage-file-datalake.ServiceListFileSystemsSegmentHeaders.requestId
-      - >-
-        @azure/storage-file-datalake.ServiceListFileSystemsSegmentHeaders.version
+        @azure/abort-controller.ServiceListFileSystemsSegmentHeaders.clientRequestId
+      - '@azure/abort-controller.ServiceListFileSystemsSegmentHeaders.requestId'
+      - '@azure/abort-controller.ServiceListFileSystemsSegmentHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
   - uid: >-
-      @azure/storage-file-datalake.ServiceListFileSystemsSegmentHeaders.clientRequestId
+      @azure/abort-controller.ServiceListFileSystemsSegmentHeaders.clientRequestId
     name: clientRequestId
     fullName: clientRequestId
     children: []
@@ -31,9 +29,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.ServiceListFileSystemsSegmentHeaders.requestId
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsSegmentHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -48,8 +45,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsSegmentHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceListFileSystemsSegmentHeaders.version'
     name: version
     fullName: version
     children: []
@@ -64,4 +61,4 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

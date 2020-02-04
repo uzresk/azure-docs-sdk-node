@@ -1,0 +1,282 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.ApiEvent'
+    name: ApiEvent
+    fullName: ApiEvent
+    children:
+      - '@azure/abort-controller.ApiEvent.accountId'
+      - '@azure/abort-controller.ApiEvent.apiCode'
+      - '@azure/abort-controller.ApiEvent.apiErrorCode'
+      - '@azure/abort-controller.ApiEvent.constructor'
+      - '@azure/abort-controller.ApiEvent.apiEventIdentifier'
+      - '@azure/abort-controller.ApiEvent.authority'
+      - '@azure/abort-controller.ApiEvent.authorityType'
+      - '@azure/abort-controller.ApiEvent.eventId'
+      - '@azure/abort-controller.ApiEvent.eventName'
+      - '@azure/abort-controller.ApiEvent.get'
+      - '@azure/abort-controller.ApiEvent.loginHint'
+      - '@azure/abort-controller.ApiEvent.promptType'
+      - '@azure/abort-controller.ApiEvent.stop'
+      - '@azure/abort-controller.ApiEvent.telemetryCorrelationId'
+      - '@azure/abort-controller.ApiEvent.tenantId'
+      - '@azure/abort-controller.ApiEvent.wasSuccessful'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.TelemetryEvent'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.accountId'
+    name: accountId
+    fullName: accountId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void accountId
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.apiCode'
+    name: apiCode
+    fullName: apiCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void apiCode
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.apiErrorCode'
+    name: apiErrorCode
+    fullName: apiErrorCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void apiErrorCode
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.constructor'
+    name: 'ApiEvent(string, Logger)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ApiEvent(correlationId: string, logger: Logger)'
+      parameters:
+        - id: correlationId
+          type:
+            - string
+          description: ''
+        - id: logger
+          type:
+            - '@azure/abort-controller.Logger'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.apiEventIdentifier'
+    name: apiEventIdentifier
+    fullName: apiEventIdentifier
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void apiEventIdentifier
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.authority'
+    name: authority
+    fullName: authority
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void authority
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.authorityType'
+    name: authorityType
+    fullName: authorityType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void authorityType
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.eventId'
+    name: eventId
+    fullName: eventId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public eventId: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.eventName'
+    name: eventName
+    fullName: eventName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string eventName
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.get'
+    name: get()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function get()
+      parameters: []
+      return:
+        type:
+          - object
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.loginHint'
+    name: loginHint
+    fullName: loginHint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void loginHint
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.promptType'
+    name: promptType
+    fullName: promptType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void promptType
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.stop'
+    name: stop()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function stop()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.telemetryCorrelationId'
+    name: telemetryCorrelationId
+    fullName: telemetryCorrelationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: string telemetryCorrelationId
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.tenantId'
+    name: tenantId
+    fullName: tenantId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: void tenantId
+      return:
+        type:
+          - void
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ApiEvent.wasSuccessful'
+    name: wasSuccessful
+    fullName: wasSuccessful
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: boolean wasSuccessful
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.TelemetryEvent'
+    name: TelemetryEvent
+    spec.typeScript:
+      - name: TelemetryEvent
+        fullName: TelemetryEvent
+        uid: '@azure/abort-controller.TelemetryEvent'
+  - uid: '@azure/abort-controller.Logger'
+    name: Logger
+    spec.typeScript:
+      - name: Logger
+        fullName: Logger
+        uid: '@azure/abort-controller.Logger'

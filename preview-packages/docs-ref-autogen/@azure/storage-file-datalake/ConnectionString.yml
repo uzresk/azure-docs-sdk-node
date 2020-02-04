@@ -1,21 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.ConnectionString'
+  - uid: '@azure/abort-controller.ConnectionString'
     name: ConnectionString
     fullName: ConnectionString
     children:
-      - '@azure/storage-file-datalake.ConnectionString.accountKey'
-      - '@azure/storage-file-datalake.ConnectionString.accountName'
-      - '@azure/storage-file-datalake.ConnectionString.accountSas'
-      - '@azure/storage-file-datalake.ConnectionString.kind'
-      - '@azure/storage-file-datalake.ConnectionString.proxyUri'
-      - '@azure/storage-file-datalake.ConnectionString.url'
+      - '@azure/abort-controller.ConnectionString.accountKey'
+      - '@azure/abort-controller.ConnectionString.accountName'
+      - '@azure/abort-controller.ConnectionString.accountSas'
+      - '@azure/abort-controller.ConnectionString.kind'
+      - '@azure/abort-controller.ConnectionString.proxyUri'
+      - '@azure/abort-controller.ConnectionString.url'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ConnectionString.accountKey'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ConnectionString.accountKey'
     name: accountKey
     fullName: accountKey
     children: []
@@ -30,8 +30,8 @@ items:
         type:
           - any
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ConnectionString.accountName'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ConnectionString.accountName'
     name: accountName
     fullName: accountName
     children: []
@@ -45,8 +45,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ConnectionString.accountSas'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ConnectionString.accountSas'
     name: accountSas
     fullName: accountSas
     children: []
@@ -61,8 +61,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ConnectionString.kind'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ConnectionString.kind'
     name: kind
     fullName: kind
     children: []
@@ -76,8 +76,8 @@ items:
         type:
           - '"AccountConnString" | "SASConnString"'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ConnectionString.proxyUri'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ConnectionString.proxyUri'
     name: proxyUri
     fullName: proxyUri
     children: []
@@ -92,8 +92,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.ConnectionString.url'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ConnectionString.url'
     name: url
     fullName: url
     children: []
@@ -107,4 +107,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

@@ -1,0 +1,139 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.NodeFetchHttpClient'
+    name: NodeFetchHttpClient
+    fullName: NodeFetchHttpClient
+    children:
+      - '@azure/abort-controller.NodeFetchHttpClient.fetch'
+      - '@azure/abort-controller.NodeFetchHttpClient.prepareRequest'
+      - '@azure/abort-controller.NodeFetchHttpClient.processRequest'
+      - '@azure/abort-controller.NodeFetchHttpClient.sendRequest'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.FetchHttpClient'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.NodeFetchHttpClient.fetch'
+    name: 'fetch(RequestInfo, RequestInit)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fetch(input: RequestInfo, init?: RequestInit)'
+      parameters:
+        - id: input
+          type:
+            - '@azure/abort-controller.RequestInfo'
+          description: ''
+        - id: init
+          type:
+            - '@azure/abort-controller.RequestInit'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<Response>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.NodeFetchHttpClient.prepareRequest'
+    name: prepareRequest(WebResource)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prepareRequest(httpRequest: WebResource)'
+      parameters:
+        - id: httpRequest
+          type:
+            - '@azure/abort-controller.WebResource'
+          description: ''
+      return:
+        type:
+          - Promise<Partial<RequestInit>>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.NodeFetchHttpClient.processRequest'
+    name: processRequest(HttpOperationResponse)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function processRequest(operationResponse: HttpOperationResponse)'
+      parameters:
+        - id: operationResponse
+          type:
+            - '@azure/abort-controller.HttpOperationResponse'
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.NodeFetchHttpClient.sendRequest'
+    name: sendRequest(WebResource)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function sendRequest(httpRequest: WebResource)'
+      parameters:
+        - id: httpRequest
+          type:
+            - '@azure/abort-controller.WebResource'
+          description: ''
+      return:
+        type:
+          - Promise<@azure/abort-controller.HttpOperationResponse>
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.FetchHttpClient'
+    name: FetchHttpClient
+    spec.typeScript:
+      - name: FetchHttpClient
+        fullName: FetchHttpClient
+        uid: '@azure/abort-controller.FetchHttpClient'
+  - uid: '@azure/abort-controller.RequestInfo'
+    name: RequestInfo
+    spec.typeScript:
+      - name: RequestInfo
+        fullName: RequestInfo
+        uid: '@azure/abort-controller.RequestInfo'
+  - uid: '@azure/abort-controller.RequestInit'
+    name: RequestInit
+    spec.typeScript:
+      - name: RequestInit
+        fullName: RequestInit
+        uid: '@azure/abort-controller.RequestInit'
+  - uid: '@azure/abort-controller.WebResource'
+    name: WebResource
+    spec.typeScript:
+      - name: WebResource
+        fullName: WebResource
+        uid: '@azure/abort-controller.WebResource'
+  - uid: '@azure/abort-controller.HttpOperationResponse'
+    name: HttpOperationResponse
+    spec.typeScript:
+      - name: HttpOperationResponse
+        fullName: HttpOperationResponse
+        uid: '@azure/abort-controller.HttpOperationResponse'
+  - uid: Promise<@azure/abort-controller.HttpOperationResponse>
+    name: HttpOperationResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: HttpOperationResponse
+        fullName: HttpOperationResponse
+        uid: '@azure/abort-controller.HttpOperationResponse'
+      - name: '>'
+        fullName: '>'

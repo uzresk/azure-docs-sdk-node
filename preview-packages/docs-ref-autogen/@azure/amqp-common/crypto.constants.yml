@@ -1,0 +1,510 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.crypto.constants'
+    name: constants
+    langs:
+      - typeScript
+    fullName: constants
+    children: []
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Transform'
+    name: Transform
+    spec.typeScript:
+      - name: Transform
+        fullName: Transform
+        uid: '@azure/ms-rest-azure-env.stream.internal.Transform'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ErrnoException.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.NodeJS.ErrnoException.Error'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+  - uid: '@azure/ms-rest-azure-env.crypto.BinaryLike'
+    name: BinaryLike
+    spec.typeScript:
+      - name: BinaryLike
+        fullName: BinaryLike
+        uid: '@azure/ms-rest-azure-env.crypto.BinaryLike'
+  - uid: '@azure/ms-rest-azure-env.crypto.Utf8AsciiBinaryEncoding'
+    name: Utf8AsciiBinaryEncoding
+    spec.typeScript:
+      - name: Utf8AsciiBinaryEncoding
+        fullName: Utf8AsciiBinaryEncoding
+        uid: '@azure/ms-rest-azure-env.crypto.Utf8AsciiBinaryEncoding'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ArrayBufferView'
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/ms-rest-azure-env.NodeJS.ArrayBufferView'
+  - uid: '@azure/ms-rest-azure-env.crypto.HexBase64BinaryEncoding'
+    name: HexBase64BinaryEncoding
+    spec.typeScript:
+      - name: HexBase64BinaryEncoding
+        fullName: HexBase64BinaryEncoding
+        uid: '@azure/ms-rest-azure-env.crypto.HexBase64BinaryEncoding'
+  - uid: '@azure/ms-rest-azure-env.crypto.Utf8AsciiBinaryEncoding | undefined'
+    name: Utf8AsciiBinaryEncoding | undefined
+    spec.typeScript:
+      - name: Utf8AsciiBinaryEncoding
+        fullName: Utf8AsciiBinaryEncoding
+        uid: '@azure/ms-rest-azure-env.crypto.Utf8AsciiBinaryEncoding'
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+  - uid: '@azure/ms-rest-azure-env.crypto.HexBase64BinaryEncoding | undefined'
+    name: HexBase64BinaryEncoding | undefined
+    spec.typeScript:
+      - name: HexBase64BinaryEncoding
+        fullName: HexBase64BinaryEncoding
+        uid: '@azure/ms-rest-azure-env.crypto.HexBase64BinaryEncoding'
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: '@azure/ms-rest-azure-env.crypto.HexBase64Latin1Encoding'
+    name: HexBase64Latin1Encoding
+    spec.typeScript:
+      - name: HexBase64Latin1Encoding
+        fullName: HexBase64Latin1Encoding
+        uid: '@azure/ms-rest-azure-env.crypto.HexBase64Latin1Encoding'
+  - uid: '@azure/ms-rest-azure-env.crypto.ECDHKeyFormat'
+    name: ECDHKeyFormat
+    spec.typeScript:
+      - name: ECDHKeyFormat
+        fullName: ECDHKeyFormat
+        uid: '@azure/ms-rest-azure-env.crypto.ECDHKeyFormat'
+  - uid: '@azure/ms-rest-azure-env.crypto.Utf8AsciiLatin1Encoding'
+    name: Utf8AsciiLatin1Encoding
+    spec.typeScript:
+      - name: Utf8AsciiLatin1Encoding
+        fullName: Utf8AsciiLatin1Encoding
+        uid: '@azure/ms-rest-azure-env.crypto.Utf8AsciiLatin1Encoding'
+  - uid: '@azure/ms-rest-azure-env.crypto.KeyType'
+    name: KeyType
+    spec.typeScript:
+      - name: KeyType
+        fullName: KeyType
+        uid: '@azure/ms-rest-azure-env.crypto.KeyType'
+  - uid: '@azure/ms-rest-azure-env.crypto.KeyObjectType'
+    name: KeyObjectType
+    spec.typeScript:
+      - name: KeyObjectType
+        fullName: KeyObjectType
+        uid: '@azure/ms-rest-azure-env.crypto.KeyObjectType'
+  - uid: '@azure/ms-rest-azure-env.crypto.KeyExportOptions<"pem">'
+    name: KeyExportOptions<"pem">
+    spec.typeScript:
+      - name: KeyExportOptions
+        fullName: KeyExportOptions
+        uid: '@azure/ms-rest-azure-env.crypto.KeyExportOptions'
+      - name: <"pem">
+        fullName: <"pem">
+  - uid: '@azure/ms-rest-azure-env.crypto.KeyExportOptions<"der">'
+    name: KeyExportOptions<"der">
+    spec.typeScript:
+      - name: KeyExportOptions
+        fullName: KeyExportOptions
+        uid: '@azure/ms-rest-azure-env.crypto.KeyExportOptions'
+      - name: <"der">
+        fullName: <"der">
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Writable'
+  - uid: >-
+      @azure/ms-rest-azure-env.crypto.SignPrivateKeyInput |
+      @azure/ms-rest-azure-env.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: SignPrivateKeyInput
+        fullName: SignPrivateKeyInput
+        uid: '@azure/ms-rest-azure-env.crypto.SignPrivateKeyInput'
+      - name: ' | '
+        fullName: ' | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/ms-rest-azure-env.crypto.KeyLike'
+  - uid: object | @azure/ms-rest-azure-env.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: 'object | '
+        fullName: 'object | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/ms-rest-azure-env.crypto.KeyLike'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.TransformOptions'
+    name: TransformOptions
+    spec.typeScript:
+      - name: TransformOptions
+        fullName: TransformOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.TransformOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.TransformCallback'
+    name: TransformCallback
+    spec.typeScript:
+      - name: TransformCallback
+        fullName: TransformCallback
+        uid: '@azure/ms-rest-azure-env.stream.internal.TransformCallback'
+  - uid: >-
+      @azure/ms-rest-azure-env.crypto.BasePrivateKeyEncodingOptions<PrivF> &
+      Object
+    name: BasePrivateKeyEncodingOptions<PrivF> & Object
+    spec.typeScript:
+      - name: BasePrivateKeyEncodingOptions
+        fullName: BasePrivateKeyEncodingOptions
+        uid: '@azure/ms-rest-azure-env.crypto.BasePrivateKeyEncodingOptions'
+      - name: <PrivF> & Object
+        fullName: <PrivF> & Object
+  - uid: '@azure/ms-rest-azure-env.crypto.KeyObject'
+    name: KeyObject
+    spec.typeScript:
+      - name: KeyObject
+        fullName: KeyObject
+        uid: '@azure/ms-rest-azure-env.crypto.KeyObject'
+  - uid: '@azure/ms-rest-azure-env.crypto.KeyFormat'
+    name: KeyFormat
+    spec.typeScript:
+      - name: KeyFormat
+        fullName: KeyFormat
+        uid: '@azure/ms-rest-azure-env.crypto.KeyFormat'
+  - uid: '@azure/ms-rest-azure-env.crypto.KeyLike'
+    name: KeyLike
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/ms-rest-azure-env.crypto.KeyLike'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.TypedArray'
+    name: TypedArray
+    spec.typeScript:
+      - name: TypedArray
+        fullName: TypedArray
+        uid: '@azure/ms-rest-azure-env.NodeJS.TypedArray'
+  - uid: '@azure/ms-rest-azure-env.crypto.PrivateKeyInput'
+    name: PrivateKeyInput
+    spec.typeScript:
+      - name: PrivateKeyInput
+        fullName: PrivateKeyInput
+        uid: '@azure/ms-rest-azure-env.crypto.PrivateKeyInput'
+  - uid: '@azure/ms-rest-azure-env.crypto.CipherCCMTypes'
+    name: CipherCCMTypes
+    spec.typeScript:
+      - name: CipherCCMTypes
+        fullName: CipherCCMTypes
+        uid: '@azure/ms-rest-azure-env.crypto.CipherCCMTypes'
+  - uid: '@azure/ms-rest-azure-env.crypto.CipherCCMOptions'
+    name: CipherCCMOptions
+    spec.typeScript:
+      - name: CipherCCMOptions
+        fullName: CipherCCMOptions
+        uid: '@azure/ms-rest-azure-env.crypto.CipherCCMOptions'
+  - uid: '@azure/ms-rest-azure-env.crypto.CipherCCM'
+    name: CipherCCM
+    spec.typeScript:
+      - name: CipherCCM
+        fullName: CipherCCM
+        uid: '@azure/ms-rest-azure-env.crypto.CipherCCM'
+  - uid: '@azure/ms-rest-azure-env.crypto.CipherGCMTypes'
+    name: CipherGCMTypes
+    spec.typeScript:
+      - name: CipherGCMTypes
+        fullName: CipherGCMTypes
+        uid: '@azure/ms-rest-azure-env.crypto.CipherGCMTypes'
+  - uid: '@azure/ms-rest-azure-env.crypto.CipherGCMOptions'
+    name: CipherGCMOptions
+    spec.typeScript:
+      - name: CipherGCMOptions
+        fullName: CipherGCMOptions
+        uid: '@azure/ms-rest-azure-env.crypto.CipherGCMOptions'
+  - uid: '@azure/ms-rest-azure-env.crypto.CipherGCM'
+    name: CipherGCM
+    spec.typeScript:
+      - name: CipherGCM
+        fullName: CipherGCM
+        uid: '@azure/ms-rest-azure-env.crypto.CipherGCM'
+  - uid: '@azure/ms-rest-azure-env.crypto.CipherKey'
+    name: CipherKey
+    spec.typeScript:
+      - name: CipherKey
+        fullName: CipherKey
+        uid: '@azure/ms-rest-azure-env.crypto.CipherKey'
+  - uid: '@azure/ms-rest-azure-env.crypto.BinaryLike | null'
+    name: BinaryLike | null
+    spec.typeScript:
+      - name: BinaryLike
+        fullName: BinaryLike
+        uid: '@azure/ms-rest-azure-env.crypto.BinaryLike'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/ms-rest-azure-env.crypto.DecipherCCM'
+    name: DecipherCCM
+    spec.typeScript:
+      - name: DecipherCCM
+        fullName: DecipherCCM
+        uid: '@azure/ms-rest-azure-env.crypto.DecipherCCM'
+  - uid: '@azure/ms-rest-azure-env.crypto.DecipherGCM'
+    name: DecipherGCM
+    spec.typeScript:
+      - name: DecipherGCM
+        fullName: DecipherGCM
+        uid: '@azure/ms-rest-azure-env.crypto.DecipherGCM'
+  - uid: number | @azure/ms-rest-azure-env.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: 'number | '
+        fullName: 'number | '
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/ms-rest-azure-env.NodeJS.ArrayBufferView'
+  - uid: '@azure/ms-rest-azure-env.crypto.HashOptions'
+    name: HashOptions
+    spec.typeScript:
+      - name: HashOptions
+        fullName: HashOptions
+        uid: '@azure/ms-rest-azure-env.crypto.HashOptions'
+  - uid: '@azure/ms-rest-azure-env.crypto.PrivateKeyInput | string | Buffer'
+    name: PrivateKeyInput | string | Buffer
+    spec.typeScript:
+      - name: PrivateKeyInput
+        fullName: PrivateKeyInput
+        uid: '@azure/ms-rest-azure-env.crypto.PrivateKeyInput'
+      - name: ' | string | Buffer'
+        fullName: ' | string | Buffer'
+  - uid: >-
+      @azure/ms-rest-azure-env.crypto.PublicKeyInput | string | Buffer |
+      @azure/ms-rest-azure-env.crypto.KeyObject
+    name: KeyObject
+    spec.typeScript:
+      - name: PublicKeyInput
+        fullName: PublicKeyInput
+        uid: '@azure/ms-rest-azure-env.crypto.PublicKeyInput'
+      - name: ' | string | Buffer | '
+        fullName: ' | string | Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: '@azure/ms-rest-azure-env.crypto.KeyObject'
+  - uid: '@azure/ms-rest-azure-env.crypto.RSAKeyPairOptions<"pem", "pem">'
+    name: 'RSAKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: '@azure/ms-rest-azure-env.crypto.RSAKeyPairOptions'
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: '@azure/ms-rest-azure-env.crypto.KeyPairSyncResult<string, string>'
+    name: 'KeyPairSyncResult<string, string>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: '@azure/ms-rest-azure-env.crypto.KeyPairSyncResult'
+      - name: '<string, string>'
+        fullName: '<string, string>'
+  - uid: '@azure/ms-rest-azure-env.crypto.RSAKeyPairOptions<"pem", "der">'
+    name: 'RSAKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: '@azure/ms-rest-azure-env.crypto.RSAKeyPairOptions'
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: '@azure/ms-rest-azure-env.crypto.KeyPairSyncResult<string, Buffer>'
+    name: 'KeyPairSyncResult<string, Buffer>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: '@azure/ms-rest-azure-env.crypto.KeyPairSyncResult'
+      - name: '<string, Buffer>'
+        fullName: '<string, Buffer>'
+  - uid: '@azure/ms-rest-azure-env.crypto.RSAKeyPairOptions<"der", "pem">'
+    name: 'RSAKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: '@azure/ms-rest-azure-env.crypto.RSAKeyPairOptions'
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: '@azure/ms-rest-azure-env.crypto.KeyPairSyncResult<Buffer, string>'
+    name: 'KeyPairSyncResult<Buffer, string>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: '@azure/ms-rest-azure-env.crypto.KeyPairSyncResult'
+      - name: '<Buffer, string>'
+        fullName: '<Buffer, string>'
+  - uid: '@azure/ms-rest-azure-env.crypto.RSAKeyPairOptions<"der", "der">'
+    name: 'RSAKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: '@azure/ms-rest-azure-env.crypto.RSAKeyPairOptions'
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: '@azure/ms-rest-azure-env.crypto.KeyPairSyncResult<Buffer, Buffer>'
+    name: 'KeyPairSyncResult<Buffer, Buffer>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: '@azure/ms-rest-azure-env.crypto.KeyPairSyncResult'
+      - name: '<Buffer, Buffer>'
+        fullName: '<Buffer, Buffer>'
+  - uid: '@azure/ms-rest-azure-env.crypto.RSAKeyPairKeyObjectOptions'
+    name: RSAKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: RSAKeyPairKeyObjectOptions
+        fullName: RSAKeyPairKeyObjectOptions
+        uid: '@azure/ms-rest-azure-env.crypto.RSAKeyPairKeyObjectOptions'
+  - uid: '@azure/ms-rest-azure-env.crypto.KeyPairKeyObjectResult'
+    name: KeyPairKeyObjectResult
+    spec.typeScript:
+      - name: KeyPairKeyObjectResult
+        fullName: KeyPairKeyObjectResult
+        uid: '@azure/ms-rest-azure-env.crypto.KeyPairKeyObjectResult'
+  - uid: '@azure/ms-rest-azure-env.crypto.DSAKeyPairOptions<"pem", "pem">'
+    name: 'DSAKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: '@azure/ms-rest-azure-env.crypto.DSAKeyPairOptions'
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: '@azure/ms-rest-azure-env.crypto.DSAKeyPairOptions<"pem", "der">'
+    name: 'DSAKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: '@azure/ms-rest-azure-env.crypto.DSAKeyPairOptions'
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: '@azure/ms-rest-azure-env.crypto.DSAKeyPairOptions<"der", "pem">'
+    name: 'DSAKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: '@azure/ms-rest-azure-env.crypto.DSAKeyPairOptions'
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: '@azure/ms-rest-azure-env.crypto.DSAKeyPairOptions<"der", "der">'
+    name: 'DSAKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: '@azure/ms-rest-azure-env.crypto.DSAKeyPairOptions'
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: '@azure/ms-rest-azure-env.crypto.DSAKeyPairKeyObjectOptions'
+    name: DSAKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: DSAKeyPairKeyObjectOptions
+        fullName: DSAKeyPairKeyObjectOptions
+        uid: '@azure/ms-rest-azure-env.crypto.DSAKeyPairKeyObjectOptions'
+  - uid: '@azure/ms-rest-azure-env.crypto.ECKeyPairOptions<"pem", "pem">'
+    name: 'ECKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: '@azure/ms-rest-azure-env.crypto.ECKeyPairOptions'
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: '@azure/ms-rest-azure-env.crypto.ECKeyPairOptions<"pem", "der">'
+    name: 'ECKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: '@azure/ms-rest-azure-env.crypto.ECKeyPairOptions'
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: '@azure/ms-rest-azure-env.crypto.ECKeyPairOptions<"der", "pem">'
+    name: 'ECKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: '@azure/ms-rest-azure-env.crypto.ECKeyPairOptions'
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: '@azure/ms-rest-azure-env.crypto.ECKeyPairOptions<"der", "der">'
+    name: 'ECKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: '@azure/ms-rest-azure-env.crypto.ECKeyPairOptions'
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: '@azure/ms-rest-azure-env.crypto.ECKeyPairKeyObjectOptions'
+    name: ECKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: ECKeyPairKeyObjectOptions
+        fullName: ECKeyPairKeyObjectOptions
+        uid: '@azure/ms-rest-azure-env.crypto.ECKeyPairKeyObjectOptions'
+  - uid: RsaPrivateKey | @azure/ms-rest-azure-env.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: 'RsaPrivateKey | '
+        fullName: 'RsaPrivateKey | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/ms-rest-azure-env.crypto.KeyLike'
+  - uid: RsaPublicKey | RsaPrivateKey | @azure/ms-rest-azure-env.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: 'RsaPublicKey | RsaPrivateKey | '
+        fullName: 'RsaPublicKey | RsaPrivateKey | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/ms-rest-azure-env.crypto.KeyLike'
+  - uid: '@azure/ms-rest-azure-env.crypto.ScryptOptions'
+    name: ScryptOptions
+    spec.typeScript:
+      - name: ScryptOptions
+        fullName: ScryptOptions
+        uid: '@azure/ms-rest-azure-env.crypto.ScryptOptions'
+  - uid: >-
+      @azure/ms-rest-azure-env.crypto.KeyLike |
+      @azure/ms-rest-azure-env.crypto.SignPrivateKeyInput
+    name: SignPrivateKeyInput
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/ms-rest-azure-env.crypto.KeyLike'
+      - name: ' | '
+        fullName: ' | '
+      - name: SignPrivateKeyInput
+        fullName: SignPrivateKeyInput
+        uid: '@azure/ms-rest-azure-env.crypto.SignPrivateKeyInput'
+  - uid: >-
+      @azure/ms-rest-azure-env.crypto.KeyLike |
+      @azure/ms-rest-azure-env.crypto.VerifyKeyWithOptions
+    name: VerifyKeyWithOptions
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/ms-rest-azure-env.crypto.KeyLike'
+      - name: ' | '
+        fullName: ' | '
+      - name: VerifyKeyWithOptions
+        fullName: VerifyKeyWithOptions
+        uid: '@azure/ms-rest-azure-env.crypto.VerifyKeyWithOptions'

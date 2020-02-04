@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.HrTime'
+    name: HrTime
+    fullName: HrTime
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: 'High resolution HrTime: [seconds: number, nanoseconds: number]'
+    syntax:
+      content: 'type HrTime = [ number, number ]'
+    package: '@azure/abort-controller'

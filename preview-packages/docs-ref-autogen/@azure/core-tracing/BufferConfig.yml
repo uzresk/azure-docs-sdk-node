@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.BufferConfig'
+    name: BufferConfig
+    fullName: BufferConfig
+    children:
+      - '@opentelemetry/types.BufferConfig.bufferSize'
+      - '@opentelemetry/types.BufferConfig.bufferTimeout'
+      - '@opentelemetry/types.BufferConfig.logger'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface configuration for a buffer.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.BufferConfig.bufferSize'
+    name: bufferSize
+    fullName: bufferSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Maximum size of a buffer.
+    optional: true
+    syntax:
+      content: 'bufferSize?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.BufferConfig.bufferTimeout'
+    name: bufferTimeout
+    fullName: bufferTimeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Max time for a buffer can wait before being sent
+    optional: true
+    syntax:
+      content: 'bufferTimeout?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.BufferConfig.logger'
+    name: logger
+    fullName: logger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A logger object
+    optional: true
+    syntax:
+      content: 'logger?: Logger'
+      return:
+        type:
+          - '@opentelemetry/types.Logger'
+        description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.Logger'
+    name: Logger
+    spec.typeScript:
+      - name: Logger
+        fullName: Logger
+        uid: '@opentelemetry/types.Logger'

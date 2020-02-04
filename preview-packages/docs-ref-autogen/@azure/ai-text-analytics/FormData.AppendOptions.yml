@@ -1,0 +1,189 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.FormData.AppendOptions'
+    name: AppendOptions
+    fullName: AppendOptions
+    children:
+      - '@azure/abort-controller.FormData.AppendOptions.contentType'
+      - '@azure/abort-controller.FormData.AppendOptions.filename'
+      - '@azure/abort-controller.FormData.AppendOptions.filepath'
+      - '@azure/abort-controller.FormData.AppendOptions.header'
+      - '@azure/abort-controller.FormData.AppendOptions.knownLength'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FormData.AppendOptions.contentType'
+    name: contentType
+    fullName: contentType
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'contentType?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FormData.AppendOptions.filename'
+    name: filename
+    fullName: filename
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'filename?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FormData.AppendOptions.filepath'
+    name: filepath
+    fullName: filepath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'filepath?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FormData.AppendOptions.header'
+    name: header
+    fullName: header
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'header?: string | Headers'
+      return:
+        type:
+          - string | @azure/abort-controller.FormData.Headers
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FormData.AppendOptions.knownLength'
+    name: knownLength
+    fullName: knownLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'knownLength?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: string | @azure/abort-controller.FormData.Headers
+    name: Headers
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: Headers
+        fullName: Headers
+        uid: '@azure/abort-controller.FormData.Headers'
+  - uid: '@azure/abort-controller.http.RequestOptions'
+    name: RequestOptions
+    spec.typeScript:
+      - name: RequestOptions
+        fullName: RequestOptions
+        uid: '@azure/abort-controller.http.RequestOptions'
+  - uid: '@azure/abort-controller.http.Agent | boolean'
+    name: Agent | boolean
+    spec.typeScript:
+      - name: Agent
+        fullName: Agent
+        uid: '@azure/abort-controller.http.Agent'
+      - name: ' | boolean'
+        fullName: ' | boolean'
+  - uid: '@azure/abort-controller.http.OutgoingHttpHeaders'
+    name: OutgoingHttpHeaders
+    spec.typeScript:
+      - name: OutgoingHttpHeaders
+        fullName: OutgoingHttpHeaders
+        uid: '@azure/abort-controller.http.OutgoingHttpHeaders'
+  - uid: '@azure/abort-controller.Options'
+    name: Options
+    spec.typeScript:
+      - name: Options
+        fullName: Options
+        uid: '@azure/abort-controller.Options'
+  - uid: '@azure/abort-controller.FormData.AppendOptions | string'
+    name: AppendOptions | string
+    spec.typeScript:
+      - name: AppendOptions
+        fullName: AppendOptions
+        uid: '@azure/abort-controller.FormData.AppendOptions'
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: '@azure/abort-controller.FormData.Headers'
+    name: Headers
+    spec.typeScript:
+      - name: Headers
+        fullName: Headers
+        uid: '@azure/abort-controller.FormData.Headers'
+  - uid: string | @azure/abort-controller.FormData.SubmitOptions
+    name: SubmitOptions
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: SubmitOptions
+        fullName: SubmitOptions
+        uid: '@azure/abort-controller.FormData.SubmitOptions'
+  - uid: '@azure/abort-controller.http.ClientRequest'
+    name: ClientRequest
+    spec.typeScript:
+      - name: ClientRequest
+        fullName: ClientRequest
+        uid: '@azure/abort-controller.http.ClientRequest'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/abort-controller.stream.internal.ReadableOptions'

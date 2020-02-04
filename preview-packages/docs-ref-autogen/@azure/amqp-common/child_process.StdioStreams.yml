@@ -1,0 +1,1061 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams'
+    name: StdioStreams
+    fullName: StdioStreams
+    children:
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.0'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.1'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.2'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.concat'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.concat_1'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.entries'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.every'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.filter'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.filter_1'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.find'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.find_1'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.findIndex'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.forEach'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.includes'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.indexOf'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.join'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.keys'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.lastIndexOf'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.length'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.map'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.reduce'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.reduce_1'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.reduce_2'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.reduceRight'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.reduceRight_1'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.reduceRight_2'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.slice'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.some'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.toLocaleString'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.toString'
+      - '@azure/ms-rest-azure-env.child_process.StdioStreams.values'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: ReadonlyArray<stream>
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.0'
+    name: '0'
+    fullName: '0'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '0: stream.Writable'
+      return:
+        type:
+          - stream.Writable
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.1'
+    name: '1'
+    fullName: '1'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '1: stream.Readable'
+      return:
+        type:
+          - stream.Readable
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.2'
+    name: '2'
+    fullName: '2'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: '2: stream.Readable'
+      return:
+        type:
+          - stream.Readable
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.concat'
+    name: 'concat(ConcatArray<stream>[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Combines two or more arrays.
+    syntax:
+      content: 'function concat(items: ConcatArray<stream>[])'
+      parameters:
+        - id: items
+          type:
+            - 'ConcatArray<stream>[]'
+          description: |
+            Additional items to add to the end of array1.
+      return:
+        type:
+          - 'stream[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.concat_1'
+    name: 'concat(T | ConcatArray<T>[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Combines two or more arrays.
+    syntax:
+      content: 'function concat(items: T | ConcatArray<T>[])'
+      parameters:
+        - id: items
+          type:
+            - 'T | ConcatArray<T>[]'
+          description: |
+            Additional items to add to the end of array1.
+      return:
+        type:
+          - 'stream[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.entries'
+    name: entries()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Returns an iterable of key, value pairs for every entry in the array'
+    syntax:
+      content: function entries()
+      parameters: []
+      return:
+        type:
+          - IterableIterator<Object>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.every'
+    name: >-
+      every((value: stream, index: number, array: ReadonlyArray<stream>) =>
+      unknown, any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Determines whether all the members of an array satisfy the specified test.
+    syntax:
+      content: >-
+        function every(callbackfn: (value: stream, index: number, array:
+        ReadonlyArray<stream>) => unknown, thisArg?: any)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (value: stream, index: number, array: ReadonlyArray<stream>) =>
+              unknown
+          description: >-
+            A function that accepts up to three arguments. The every method
+            calls the callbackfn function for each element in array1 until the
+            callbackfn returns false, or until the end of the array.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            An object to which the this keyword can refer in the callbackfn
+            function. If thisArg is omitted, undefined is used as the this
+            value.
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.filter'
+    name: >-
+      filter((value: stream, index: number, array: ReadonlyArray<stream>) =>
+      boolean, any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the elements of an array that meet the condition specified in a
+      callback function.
+    syntax:
+      content: >-
+        function filter<S>(callbackfn: (value: stream, index: number, array:
+        ReadonlyArray<stream>) => boolean, thisArg?: any)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (value: stream, index: number, array: ReadonlyArray<stream>) =>
+              boolean
+          description: >-
+            A function that accepts up to three arguments. The filter method
+            calls the callbackfn function one time for each element in the
+            array.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            An object to which the this keyword can refer in the callbackfn
+            function. If thisArg is omitted, undefined is used as the this
+            value.
+          optional: true
+      return:
+        type:
+          - 'S[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.filter_1'
+    name: >-
+      filter((value: stream, index: number, array: ReadonlyArray<stream>) =>
+      unknown, any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the elements of an array that meet the condition specified in a
+      callback function.
+    syntax:
+      content: >-
+        function filter(callbackfn: (value: stream, index: number, array:
+        ReadonlyArray<stream>) => unknown, thisArg?: any)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (value: stream, index: number, array: ReadonlyArray<stream>) =>
+              unknown
+          description: >-
+            A function that accepts up to three arguments. The filter method
+            calls the callbackfn function one time for each element in the
+            array.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            An object to which the this keyword can refer in the callbackfn
+            function. If thisArg is omitted, undefined is used as the this
+            value.
+          optional: true
+      return:
+        type:
+          - 'stream[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.find'
+    name: >-
+      find((this: void, value: stream, index: number, obj:
+      ReadonlyArray<stream>) => boolean, any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the value of the first element in the array where predicate is
+      true, and undefined
+
+      otherwise.
+    syntax:
+      content: >-
+        function find<S>(predicate: (this: void, value: stream, index: number,
+        obj: ReadonlyArray<stream>) => boolean, thisArg?: any)
+      parameters:
+        - id: predicate
+          type:
+            - >-
+              (this: void, value: stream, index: number, obj:
+              ReadonlyArray<stream>) => boolean
+          description: >-
+            find calls predicate once for each element of the array, in
+            ascending
+
+            order, until it finds one where predicate returns true. If such an
+            element is found, find
+
+            immediately returns that element value. Otherwise, find returns
+            undefined.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            If provided, it will be used as the this value for each invocation
+            of
+
+            predicate. If it is not provided, undefined is used instead.
+          optional: true
+      return:
+        type:
+          - S | undefined
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.find_1'
+    name: >-
+      find((value: stream, index: number, obj: ReadonlyArray<stream>) =>
+      unknown, any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function find(predicate: (value: stream, index: number, obj:
+        ReadonlyArray<stream>) => unknown, thisArg?: any)
+      parameters:
+        - id: predicate
+          type:
+            - >-
+              (value: stream, index: number, obj: ReadonlyArray<stream>) =>
+              unknown
+          description: ''
+        - id: thisArg
+          type:
+            - any
+          description: ''
+          optional: true
+      return:
+        type:
+          - stream | undefined
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.findIndex'
+    name: >-
+      findIndex((value: stream, index: number, obj: ReadonlyArray<stream>) =>
+      unknown, any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the index of the first element in the array where predicate is
+      true, and -1
+
+      otherwise.
+    syntax:
+      content: >-
+        function findIndex(predicate: (value: stream, index: number, obj:
+        ReadonlyArray<stream>) => unknown, thisArg?: any)
+      parameters:
+        - id: predicate
+          type:
+            - >-
+              (value: stream, index: number, obj: ReadonlyArray<stream>) =>
+              unknown
+          description: >-
+            find calls predicate once for each element of the array, in
+            ascending
+
+            order, until it finds one where predicate returns true. If such an
+            element is found,
+
+            findIndex immediately returns that element index. Otherwise,
+            findIndex returns -1.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            If provided, it will be used as the this value for each invocation
+            of
+
+            predicate. If it is not provided, undefined is used instead.
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.forEach'
+    name: >-
+      forEach((value: stream, index: number, array: ReadonlyArray<stream>) =>
+      void, any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Performs the specified action for each element in an array.
+    syntax:
+      content: >-
+        function forEach(callbackfn: (value: stream, index: number, array:
+        ReadonlyArray<stream>) => void, thisArg?: any)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (value: stream, index: number, array: ReadonlyArray<stream>) =>
+              void
+          description: >-
+            A function that accepts up to three arguments. forEach calls the
+            callbackfn function one time for each element in the array.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            An object to which the this keyword can refer in the callbackfn
+            function. If thisArg is omitted, undefined is used as the this
+            value.
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.includes'
+    name: 'includes(stream, undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Determines whether an array includes a certain element, returning true or
+      false as appropriate.
+    syntax:
+      content: 'function includes(searchElement: stream, fromIndex?: undefined | number)'
+      parameters:
+        - id: searchElement
+          type:
+            - stream
+          description: The element to search for.
+        - id: fromIndex
+          type:
+            - undefined | number
+          description: >
+            The position in this array at which to begin searching for
+            searchElement.
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.indexOf'
+    name: 'indexOf(stream, undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the index of the first occurrence of a value in an array.
+    syntax:
+      content: 'function indexOf(searchElement: stream, fromIndex?: undefined | number)'
+      parameters:
+        - id: searchElement
+          type:
+            - stream
+          description: The value to locate in the array.
+        - id: fromIndex
+          type:
+            - undefined | number
+          description: >
+            The array index at which to begin the search. If fromIndex is
+            omitted, the search starts at index 0.
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.join'
+    name: join(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Adds all the elements of an array separated by the specified separator
+      string.
+    syntax:
+      content: 'function join(separator?: undefined | string)'
+      parameters:
+        - id: separator
+          type:
+            - undefined | string
+          description: >
+            A string used to separate one element of an array from the next in
+            the resulting String. If omitted, the array elements are separated
+            with a comma.
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.keys'
+    name: keys()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns an iterable of keys in the array
+    syntax:
+      content: function keys()
+      parameters: []
+      return:
+        type:
+          - IterableIterator<number>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.lastIndexOf'
+    name: 'lastIndexOf(stream, undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns the index of the last occurrence of a specified value in an array.
+    syntax:
+      content: >-
+        function lastIndexOf(searchElement: stream, fromIndex?: undefined |
+        number)
+      parameters:
+        - id: searchElement
+          type:
+            - stream
+          description: The value to locate in the array.
+        - id: fromIndex
+          type:
+            - undefined | number
+          description: >
+            The array index at which to begin the search. If fromIndex is
+            omitted, the search starts at the last index in the array.
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.length'
+    name: length
+    fullName: length
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets the length of the array. This is a number one higher than the highest
+      element defined in an array.
+    syntax:
+      content: 'length: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.map'
+    name: >-
+      map((value: stream, index: number, array: ReadonlyArray<stream>) => U,
+      any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Calls a defined callback function on each element of an array, and returns
+      an array that contains the results.
+    syntax:
+      content: >-
+        function map<U>(callbackfn: (value: stream, index: number, array:
+        ReadonlyArray<stream>) => U, thisArg?: any)
+      parameters:
+        - id: callbackfn
+          type:
+            - '(value: stream, index: number, array: ReadonlyArray<stream>) => U'
+          description: >-
+            A function that accepts up to three arguments. The map method calls
+            the callbackfn function one time for each element in the array.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            An object to which the this keyword can refer in the callbackfn
+            function. If thisArg is omitted, undefined is used as the this
+            value.
+          optional: true
+      return:
+        type:
+          - 'U[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.reduce'
+    name: >-
+      reduce((previousValue: stream, currentValue: stream, currentIndex: number,
+      array: ReadonlyArray<stream>) => stream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Calls the specified callback function for all the elements in an array.
+      The return value of the callback function is the accumulated result, and
+      is provided as an argument in the next call to the callback function.
+    syntax:
+      content: >-
+        function reduce(callbackfn: (previousValue: stream, currentValue:
+        stream, currentIndex: number, array: ReadonlyArray<stream>) => stream)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (previousValue: stream, currentValue: stream, currentIndex:
+              number, array: ReadonlyArray<stream>) => stream
+          description: >-
+            A function that accepts up to four arguments. The reduce method
+            calls the callbackfn function one time for each element in the
+            array.
+      return:
+        type:
+          - stream
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.reduce_1'
+    name: >-
+      reduce((previousValue: stream, currentValue: stream, currentIndex: number,
+      array: ReadonlyArray<stream>) => stream, stream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function reduce(callbackfn: (previousValue: stream, currentValue:
+        stream, currentIndex: number, array: ReadonlyArray<stream>) => stream,
+        initialValue: stream)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (previousValue: stream, currentValue: stream, currentIndex:
+              number, array: ReadonlyArray<stream>) => stream
+          description: ''
+        - id: initialValue
+          type:
+            - stream
+          description: ''
+      return:
+        type:
+          - stream
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.reduce_2'
+    name: >-
+      reduce((previousValue: U, currentValue: stream, currentIndex: number,
+      array: ReadonlyArray<stream>) => U, U)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Calls the specified callback function for all the elements in an array.
+      The return value of the callback function is the accumulated result, and
+      is provided as an argument in the next call to the callback function.
+    syntax:
+      content: >-
+        function reduce<U>(callbackfn: (previousValue: U, currentValue: stream,
+        currentIndex: number, array: ReadonlyArray<stream>) => U, initialValue:
+        U)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (previousValue: U, currentValue: stream, currentIndex: number,
+              array: ReadonlyArray<stream>) => U
+          description: >-
+            A function that accepts up to four arguments. The reduce method
+            calls the callbackfn function one time for each element in the
+            array.
+        - id: initialValue
+          type:
+            - U
+          description: >
+            If initialValue is specified, it is used as the initial value to
+            start the accumulation. The first call to the callbackfn function
+            provides this value as an argument instead of an array value.
+      return:
+        type:
+          - U
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.reduceRight'
+    name: >-
+      reduceRight((previousValue: stream, currentValue: stream, currentIndex:
+      number, array: ReadonlyArray<stream>) => stream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Calls the specified callback function for all the elements in an array, in
+      descending order. The return value of the callback function is the
+      accumulated result, and is provided as an argument in the next call to the
+      callback function.
+    syntax:
+      content: >-
+        function reduceRight(callbackfn: (previousValue: stream, currentValue:
+        stream, currentIndex: number, array: ReadonlyArray<stream>) => stream)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (previousValue: stream, currentValue: stream, currentIndex:
+              number, array: ReadonlyArray<stream>) => stream
+          description: >-
+            A function that accepts up to four arguments. The reduceRight method
+            calls the callbackfn function one time for each element in the
+            array.
+      return:
+        type:
+          - stream
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.reduceRight_1'
+    name: >-
+      reduceRight((previousValue: stream, currentValue: stream, currentIndex:
+      number, array: ReadonlyArray<stream>) => stream, stream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function reduceRight(callbackfn: (previousValue: stream, currentValue:
+        stream, currentIndex: number, array: ReadonlyArray<stream>) => stream,
+        initialValue: stream)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (previousValue: stream, currentValue: stream, currentIndex:
+              number, array: ReadonlyArray<stream>) => stream
+          description: ''
+        - id: initialValue
+          type:
+            - stream
+          description: ''
+      return:
+        type:
+          - stream
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.reduceRight_2'
+    name: >-
+      reduceRight((previousValue: U, currentValue: stream, currentIndex: number,
+      array: ReadonlyArray<stream>) => U, U)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Calls the specified callback function for all the elements in an array, in
+      descending order. The return value of the callback function is the
+      accumulated result, and is provided as an argument in the next call to the
+      callback function.
+    syntax:
+      content: >-
+        function reduceRight<U>(callbackfn: (previousValue: U, currentValue:
+        stream, currentIndex: number, array: ReadonlyArray<stream>) => U,
+        initialValue: U)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (previousValue: U, currentValue: stream, currentIndex: number,
+              array: ReadonlyArray<stream>) => U
+          description: >-
+            A function that accepts up to four arguments. The reduceRight method
+            calls the callbackfn function one time for each element in the
+            array.
+        - id: initialValue
+          type:
+            - U
+          description: >
+            If initialValue is specified, it is used as the initial value to
+            start the accumulation. The first call to the callbackfn function
+            provides this value as an argument instead of an array value.
+      return:
+        type:
+          - U
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.slice'
+    name: 'slice(undefined | number, undefined | number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a section of an array.
+    syntax:
+      content: 'function slice(start?: undefined | number, end?: undefined | number)'
+      parameters:
+        - id: start
+          type:
+            - undefined | number
+          description: The beginning of the specified portion of the array.
+          optional: true
+        - id: end
+          type:
+            - undefined | number
+          description: |
+            The end of the specified portion of the array.
+          optional: true
+      return:
+        type:
+          - 'stream[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.some'
+    name: >-
+      some((value: stream, index: number, array: ReadonlyArray<stream>) =>
+      unknown, any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Determines whether the specified callback function returns true for any
+      element of an array.
+    syntax:
+      content: >-
+        function some(callbackfn: (value: stream, index: number, array:
+        ReadonlyArray<stream>) => unknown, thisArg?: any)
+      parameters:
+        - id: callbackfn
+          type:
+            - >-
+              (value: stream, index: number, array: ReadonlyArray<stream>) =>
+              unknown
+          description: >-
+            A function that accepts up to three arguments. The some method calls
+            the callbackfn function for each element in array1 until the
+            callbackfn returns true, or until the end of the array.
+        - id: thisArg
+          type:
+            - any
+          description: >
+            An object to which the this keyword can refer in the callbackfn
+            function. If thisArg is omitted, undefined is used as the this
+            value.
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.toLocaleString'
+    name: toLocaleString()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns a string representation of an array. The elements are converted to
+      string using their toLocalString methods.
+    syntax:
+      content: function toLocaleString()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.toString'
+    name: toString()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a string representation of an array.
+    syntax:
+      content: function toString()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams.values'
+    name: values()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns an iterable of values in the array
+    syntax:
+      content: function values()
+      parameters: []
+      return:
+        type:
+          - IterableIterator<stream>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioStreams'
+    name: StdioStreams
+    spec.typeScript:
+      - name: StdioStreams
+        fullName: StdioStreams
+        uid: '@azure/ms-rest-azure-env.child_process.StdioStreams'
+  - uid: '@azure/ms-rest-azure-env.net.Socket | @azure/ms-rest-azure-env.net.Server'
+    name: Server
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/ms-rest-azure-env.net.Socket'
+      - name: ' | '
+        fullName: ' | '
+      - name: Server
+        fullName: Server
+        uid: '@azure/ms-rest-azure-env.net.Server'
+  - uid: '@azure/ms-rest-azure-env.child_process.MessageOptions'
+    name: MessageOptions
+    spec.typeScript:
+      - name: MessageOptions
+        fullName: MessageOptions
+        uid: '@azure/ms-rest-azure-env.child_process.MessageOptions'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ProcessEnv'
+    name: ProcessEnv
+    spec.typeScript:
+      - name: ProcessEnv
+        fullName: ProcessEnv
+        uid: '@azure/ms-rest-azure-env.NodeJS.ProcessEnv'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+  - uid: >-
+      undefined | "pipe" | "ignore" | "inherit" | undefined | null | number |
+      "pipe" | "ignore" | "inherit" | "ipc" |
+      @azure/ms-rest-azure-env.stream.internal.Stream[]
+    name: 'Stream[]'
+    spec.typeScript:
+      - name: >-
+          undefined | "pipe" | "ignore" | "inherit" | undefined | null | number
+          | "pipe" | "ignore" | "inherit" | "ipc" | 
+        fullName: >-
+          undefined | "pipe" | "ignore" | "inherit" | undefined | null | number
+          | "pipe" | "ignore" | "inherit" | "ipc" | 
+      - name: Stream
+        fullName: Stream
+        uid: '@azure/ms-rest-azure-env.stream.internal.Stream'
+      - name: '[]'
+        fullName: '[]'
+  - uid: string | @azure/ms-rest-azure-env.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/ms-rest-azure-env.NodeJS.ArrayBufferView'
+  - uid: '@azure/ms-rest-azure-env.child_process.StdioOptions'
+    name: StdioOptions
+    spec.typeScript:
+      - name: StdioOptions
+        fullName: StdioOptions
+        uid: '@azure/ms-rest-azure-env.child_process.StdioOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.SerializationType'
+    name: SerializationType
+    spec.typeScript:
+      - name: SerializationType
+        fullName: SerializationType
+        uid: '@azure/ms-rest-azure-env.child_process.SerializationType'
+  - uid: '@azure/ms-rest-azure-env.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.Error'
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.ExecFileSyncOptionsWithStringEncoding
+    name: ExecFileSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: ExecFileSyncOptionsWithStringEncoding
+        fullName: ExecFileSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.ExecFileSyncOptionsWithStringEncoding
+  - uid: >-
+      @azure/ms-rest-azure-env.child_process.ExecFileSyncOptionsWithBufferEncoding
+    name: ExecFileSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: ExecFileSyncOptionsWithBufferEncoding
+        fullName: ExecFileSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.ExecFileSyncOptionsWithBufferEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.ExecFileSyncOptions'
+    name: ExecFileSyncOptions
+    spec.typeScript:
+      - name: ExecFileSyncOptions
+        fullName: ExecFileSyncOptions
+        uid: '@azure/ms-rest-azure-env.child_process.ExecFileSyncOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.ExecSyncOptionsWithStringEncoding'
+    name: ExecSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: ExecSyncOptionsWithStringEncoding
+        fullName: ExecSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.ExecSyncOptionsWithStringEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.ExecSyncOptionsWithBufferEncoding'
+    name: ExecSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: ExecSyncOptionsWithBufferEncoding
+        fullName: ExecSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.ExecSyncOptionsWithBufferEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.ExecSyncOptions'
+    name: ExecSyncOptions
+    spec.typeScript:
+      - name: ExecSyncOptions
+        fullName: ExecSyncOptions
+        uid: '@azure/ms-rest-azure-env.child_process.ExecSyncOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.ForkOptions'
+    name: ForkOptions
+    spec.typeScript:
+      - name: ForkOptions
+        fullName: ForkOptions
+        uid: '@azure/ms-rest-azure-env.child_process.ForkOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.SpawnOptions'
+    name: SpawnOptions
+    spec.typeScript:
+      - name: SpawnOptions
+        fullName: SpawnOptions
+        uid: '@azure/ms-rest-azure-env.child_process.SpawnOptions'
+  - uid: '@azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithStringEncoding'
+    name: SpawnSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: SpawnSyncOptionsWithStringEncoding
+        fullName: SpawnSyncOptionsWithStringEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithStringEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding'
+    name: SpawnSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: SpawnSyncOptionsWithBufferEncoding
+        fullName: SpawnSyncOptionsWithBufferEncoding
+        uid: >-
+          @azure/ms-rest-azure-env.child_process.SpawnSyncOptionsWithBufferEncoding
+  - uid: '@azure/ms-rest-azure-env.child_process.SpawnSyncOptions'
+    name: SpawnSyncOptions
+    spec.typeScript:
+      - name: SpawnSyncOptions
+        fullName: SpawnSyncOptions
+        uid: '@azure/ms-rest-azure-env.child_process.SpawnSyncOptions'

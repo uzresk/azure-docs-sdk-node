@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Link'
+    name: Link
+    fullName: Link
+    children:
+      - '@azure/abort-controller.Link.attributes'
+      - '@azure/abort-controller.Link.spanContext'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      A pointer from the current <xref:Span> to another span in the same trace
+      or
+
+      in a different trace. Used (for example) in batching operations, where a
+
+      single batch handler processes multiple requests from different traces.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Link.attributes'
+    name: attributes
+    fullName: attributes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'A set of <xref:Attributes> on the link.'
+    optional: true
+    syntax:
+      content: 'attributes?: Attributes'
+      return:
+        type:
+          - '@azure/abort-controller.Attributes'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Link.spanContext'
+    name: spanContext
+    fullName: spanContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The <xref:SpanContext> of a linked span.'
+    syntax:
+      content: 'spanContext: SpanContext'
+      return:
+        type:
+          - '@azure/abort-controller.SpanContext'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Attributes'
+    name: Attributes
+    spec.typeScript:
+      - name: Attributes
+        fullName: Attributes
+        uid: '@azure/abort-controller.Attributes'
+  - uid: '@azure/abort-controller.SpanContext'
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@azure/abort-controller.SpanContext'

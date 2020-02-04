@@ -16,53 +16,55 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Sink.on
-    name: 'on'
-    fullName: 'on'
+    name: 'on((result: T) => void, (error: string) => void)'
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
       content: >-
-        on: (successCallback: (result: T) => void, errorCallback: (error:
-        string) => void) => void
-      return:
-        type:
-          - >-
-            (successCallback: (result: T) => void, errorCallback: (error:
-            string) => void) => void
-        description: ''
+        function on(successCallback: (result: T) => void, errorCallback: (error:
+        string) => void)
+      parameters:
+        - id: successCallback
+          type:
+            - '(result: T) => void'
+          description: ''
+        - id: errorCallback
+          type:
+            - '(error: string) => void'
+          description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Sink.Reject
-    name: Reject
-    fullName: Reject
+    name: Reject(string)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Reject: (error: string) => void'
-      return:
-        type:
-          - '(error: string) => void'
-        description: ''
+      content: 'function Reject(error: string)'
+      parameters:
+        - id: error
+          type:
+            - string
+          description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Sink.Resolve
-    name: Resolve
-    fullName: Resolve
+    name: Resolve(T)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Resolve: (result: T) => void'
-      return:
-        type:
-          - '(result: T) => void'
-        description: ''
+      content: 'function Resolve(result: T)'
+      parameters:
+        - id: result
+          type:
+            - T
+          description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Sink.Result
     name: Result
@@ -73,7 +75,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Result: PromiseResult<T>'
+      content: PromiseResult<T> Result
       return:
         type:
           - microsoft-speech-browser-sdk.PromiseResult<T>
@@ -99,7 +101,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'State: PromiseState'
+      content: PromiseState State
       return:
         type:
           - microsoft-speech-browser-sdk.PromiseState

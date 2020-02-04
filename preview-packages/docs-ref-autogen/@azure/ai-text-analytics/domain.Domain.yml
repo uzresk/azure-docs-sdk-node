@@ -1,0 +1,598 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.domain.Domain'
+    name: Domain
+    fullName: Domain
+    children:
+      - '@azure/abort-controller.domain.Domain.add'
+      - '@azure/abort-controller.domain.Domain.addListener'
+      - '@azure/abort-controller.domain.Domain.bind'
+      - '@azure/abort-controller.domain.Domain.defaultMaxListeners'
+      - '@azure/abort-controller.domain.Domain.constructor'
+      - '@azure/abort-controller.domain.Domain.emit'
+      - '@azure/abort-controller.domain.Domain.enter'
+      - '@azure/abort-controller.domain.Domain.eventNames'
+      - '@azure/abort-controller.domain.Domain.exit'
+      - '@azure/abort-controller.domain.Domain.getMaxListeners'
+      - '@azure/abort-controller.domain.Domain.intercept'
+      - '@azure/abort-controller.domain.Domain.listenerCount'
+      - '@azure/abort-controller.domain.Domain.listenerCount'
+      - '@azure/abort-controller.domain.Domain.listeners'
+      - '@azure/abort-controller.domain.Domain.members'
+      - '@azure/abort-controller.domain.Domain.off'
+      - '@azure/abort-controller.domain.Domain.on'
+      - '@azure/abort-controller.domain.Domain.once'
+      - '@azure/abort-controller.domain.Domain.prependListener'
+      - '@azure/abort-controller.domain.Domain.prependOnceListener'
+      - '@azure/abort-controller.domain.Domain.rawListeners'
+      - '@azure/abort-controller.domain.Domain.remove'
+      - '@azure/abort-controller.domain.Domain.removeAllListeners'
+      - '@azure/abort-controller.domain.Domain.removeListener'
+      - '@azure/abort-controller.domain.Domain.run'
+      - '@azure/abort-controller.domain.Domain.setMaxListeners'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.add'
+    name: add(EventEmitter | Timer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function add(emitter: EventEmitter | Timer)'
+      parameters:
+        - id: emitter
+          type:
+            - >-
+              @azure/abort-controller.events.EventEmitter.EventEmitter |
+              @azure/abort-controller.NodeJS.Timer
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.addListener'
+    name: 'addListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: string | symbol, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.bind'
+    name: bind(T)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function bind<T>(cb: T)'
+      parameters:
+        - id: cb
+          type:
+            - T
+          description: ''
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.defaultMaxListeners'
+    name: defaultMaxListeners
+    fullName: defaultMaxListeners
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultMaxListeners: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.constructor'
+    name: Domain(EventEmitterOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Domain(options?: EventEmitterOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.events.EventEmitterOptions'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.enter'
+    name: enter()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function enter()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.exit'
+    name: exit()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function exit()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.intercept'
+    name: intercept(T)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function intercept<T>(cb: T)'
+      parameters:
+        - id: cb
+          type:
+            - T
+          description: ''
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.listenerCount'
+    name: 'listenerCount(EventEmitter, string | symbol)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function listenerCount(emitter: EventEmitter, event: string |
+        symbol)
+      parameters:
+        - id: emitter
+          type:
+            - '@azure/abort-controller.events.EventEmitter.EventEmitter'
+          description: ''
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+    deprecated:
+      content: since v4.0.0
+  - uid: '@azure/abort-controller.domain.Domain.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.members'
+    name: members
+    fullName: members
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'members: Array<EventEmitter | Timer>'
+      return:
+        type:
+          - >-
+            Array<@azure/abort-controller.events.EventEmitter.EventEmitter |
+            @azure/abort-controller.NodeJS.Timer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.on'
+    name: 'on(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.once'
+    name: 'once(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.prependListener'
+    name: 'prependListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.prependOnceListener'
+    name: 'prependOnceListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string | symbol, listener: (args:
+        any[]) => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.remove'
+    name: remove(EventEmitter | Timer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function remove(emitter: EventEmitter | Timer)'
+      parameters:
+        - id: emitter
+          type:
+            - >-
+              @azure/abort-controller.events.EventEmitter.EventEmitter |
+              @azure/abort-controller.NodeJS.Timer
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.removeListener'
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.run'
+    name: 'run((args: any[]) => T, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function run<T>(fn: (args: any[]) => T, args: any[])'
+      parameters:
+        - id: fn
+          type:
+            - '(args: any[]) => T'
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.domain.Domain.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: >-
+      Array<@azure/abort-controller.events.EventEmitter.EventEmitter |
+      @azure/abort-controller.NodeJS.Timer>
+    name: Timer>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+      - name: ' | '
+        fullName: ' | '
+      - name: Timer
+        fullName: Timer
+        uid: '@azure/abort-controller.NodeJS.Timer'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.events.EventEmitter.EventEmitter |
+      @azure/abort-controller.NodeJS.Timer
+    name: Timer
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+      - name: ' | '
+        fullName: ' | '
+      - name: Timer
+        fullName: Timer
+        uid: '@azure/abort-controller.NodeJS.Timer'
+  - uid: '@azure/abort-controller.domain.Domain'
+    name: Domain
+    spec.typeScript:
+      - name: Domain
+        fullName: Domain
+        uid: '@azure/abort-controller.domain.Domain'

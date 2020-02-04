@@ -1,0 +1,49 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.domain'
+    name: domain
+    langs:
+      - typeScript
+    fullName: domain
+    children:
+      - '@azure/ms-rest-azure-env.domain.create'
+      - '@azure/ms-rest-azure-env.domain.Domain'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.domain.create'
+    name: create()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function create()
+      parameters: []
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.domain.Domain'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+  - uid: '@azure/ms-rest-azure-env.domain.Domain'
+    name: Domain
+    spec.typeScript:
+      - name: Domain
+        fullName: Domain
+        uid: '@azure/ms-rest-azure-env.domain.Domain'
+  - uid: '@azure/ms-rest-azure-env.domain.create'
+    name: create

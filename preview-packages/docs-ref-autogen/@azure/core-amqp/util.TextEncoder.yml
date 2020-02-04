@@ -1,0 +1,97 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.util.TextEncoder
+    name: TextEncoder
+    fullName: TextEncoder
+    children:
+      - tslib.util.TextEncoder.encode
+      - tslib.util.TextEncoder.encodeInto
+      - tslib.util.TextEncoder.encoding
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: tslib
+  - uid: tslib.util.TextEncoder.encode
+    name: encode(undefined | string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function encode(input?: undefined | string)'
+      parameters:
+        - id: input
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - Uint8Array
+        description: ''
+    package: tslib
+  - uid: tslib.util.TextEncoder.encodeInto
+    name: 'encodeInto(string, Uint8Array)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function encodeInto(input: string, output: Uint8Array)'
+      parameters:
+        - id: input
+          type:
+            - string
+          description: ''
+        - id: output
+          type:
+            - Uint8Array
+          description: ''
+      return:
+        type:
+          - tslib.util.EncodeIntoResult
+        description: ''
+    package: tslib
+  - uid: tslib.util.TextEncoder.encoding
+    name: encoding
+    fullName: encoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'encoding: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.util.EncodeIntoResult
+    name: EncodeIntoResult
+    spec.typeScript:
+      - name: EncodeIntoResult
+        fullName: EncodeIntoResult
+        uid: tslib.util.EncodeIntoResult
+  - uid: tslib.NodeJS.InspectOptions
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: tslib.NodeJS.InspectOptions
+  - uid: tslib.util.InspectOptions
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: tslib.util.InspectOptions
+  - uid: tslib.util.Style
+    name: Style
+    spec.typeScript:
+      - name: Style
+        fullName: Style
+        uid: tslib.util.Style

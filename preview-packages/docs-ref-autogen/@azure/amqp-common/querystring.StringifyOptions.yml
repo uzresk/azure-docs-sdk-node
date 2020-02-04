@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.querystring.StringifyOptions'
+    name: StringifyOptions
+    fullName: StringifyOptions
+    children:
+      - '@azure/ms-rest-azure-env.querystring.StringifyOptions.encodeURIComponent'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.querystring.StringifyOptions.encodeURIComponent'
+    name: encodeURIComponent
+    fullName: encodeURIComponent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'encodeURIComponent?: Function'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+  - uid: '@azure/ms-rest-azure-env.querystring.ParseOptions'
+    name: ParseOptions
+    spec.typeScript:
+      - name: ParseOptions
+        fullName: ParseOptions
+        uid: '@azure/ms-rest-azure-env.querystring.ParseOptions'
+  - uid: '@azure/ms-rest-azure-env.querystring.StringifyOptions'
+    name: StringifyOptions
+    spec.typeScript:
+      - name: StringifyOptions
+        fullName: StringifyOptions
+        uid: '@azure/ms-rest-azure-env.querystring.StringifyOptions'

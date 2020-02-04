@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.PersistentCacheKeys'
+    name: PersistentCacheKeys
+    fullName: PersistentCacheKeys
+    children:
+      - '@azure/abort-controller.PersistentCacheKeys.CLIENT_INFO'
+      - '@azure/abort-controller.PersistentCacheKeys.IDTOKEN'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PersistentCacheKeys.CLIENT_INFO'
+    name: CLIENT_INFO
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PersistentCacheKeys.IDTOKEN'
+    name: IDTOKEN
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'

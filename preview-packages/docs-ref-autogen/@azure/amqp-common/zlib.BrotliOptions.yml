@@ -1,0 +1,158 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.zlib.BrotliOptions'
+    name: BrotliOptions
+    fullName: BrotliOptions
+    children:
+      - '@azure/ms-rest-azure-env.zlib.BrotliOptions.chunkSize'
+      - '@azure/ms-rest-azure-env.zlib.BrotliOptions.finishFlush'
+      - '@azure/ms-rest-azure-env.zlib.BrotliOptions.flush'
+      - '@azure/ms-rest-azure-env.zlib.BrotliOptions.params'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.zlib.BrotliOptions.chunkSize'
+    name: chunkSize
+    fullName: chunkSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'chunkSize?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.zlib.BrotliOptions.finishFlush'
+    name: finishFlush
+    fullName: finishFlush
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'finishFlush?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.zlib.BrotliOptions.flush'
+    name: flush
+    fullName: flush
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'flush?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.zlib.BrotliOptions.params'
+    name: params
+    fullName: params
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'params?: undefined | [key: number]: function'
+      return:
+        type:
+          - 'undefined | [key: number]: function'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Transform'
+    name: Transform
+    spec.typeScript:
+      - name: Transform
+        fullName: Transform
+        uid: '@azure/ms-rest-azure-env.stream.internal.Transform'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.TransformOptions'
+    name: TransformOptions
+    spec.typeScript:
+      - name: TransformOptions
+        fullName: TransformOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.TransformOptions'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.ErrnoException.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/ms-rest-azure-env.NodeJS.ErrnoException.Error'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+  - uid: '@azure/ms-rest-azure-env.zlib.InputType'
+    name: InputType
+    spec.typeScript:
+      - name: InputType
+        fullName: InputType
+        uid: '@azure/ms-rest-azure-env.zlib.InputType'
+  - uid: '@azure/ms-rest-azure-env.zlib.BrotliOptions'
+    name: BrotliOptions
+    spec.typeScript:
+      - name: BrotliOptions
+        fullName: BrotliOptions
+        uid: '@azure/ms-rest-azure-env.zlib.BrotliOptions'
+  - uid: '@azure/ms-rest-azure-env.zlib.CompressCallback'
+    name: CompressCallback
+    spec.typeScript:
+      - name: CompressCallback
+        fullName: CompressCallback
+        uid: '@azure/ms-rest-azure-env.zlib.CompressCallback'
+  - uid: '@azure/ms-rest-azure-env.zlib.BrotliCompress'
+    name: BrotliCompress
+    spec.typeScript:
+      - name: BrotliCompress
+        fullName: BrotliCompress
+        uid: '@azure/ms-rest-azure-env.zlib.BrotliCompress'
+  - uid: '@azure/ms-rest-azure-env.zlib.BrotliDecompress'
+    name: BrotliDecompress
+    spec.typeScript:
+      - name: BrotliDecompress
+        fullName: BrotliDecompress
+        uid: '@azure/ms-rest-azure-env.zlib.BrotliDecompress'
+  - uid: '@azure/ms-rest-azure-env.zlib.ZlibOptions'
+    name: ZlibOptions
+    spec.typeScript:
+      - name: ZlibOptions
+        fullName: ZlibOptions
+        uid: '@azure/ms-rest-azure-env.zlib.ZlibOptions'

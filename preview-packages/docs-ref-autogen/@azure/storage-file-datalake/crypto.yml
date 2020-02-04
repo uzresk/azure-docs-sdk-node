@@ -1,0 +1,2606 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.crypto'
+    name: crypto
+    langs:
+      - typeScript
+    fullName: crypto
+    children:
+      - '@azure/abort-controller.crypto.BasePrivateKeyEncodingOptions'
+      - '@azure/abort-controller.crypto.BinaryLike'
+      - '@azure/abort-controller.crypto.Certificate'
+      - '@azure/abort-controller.crypto.Cipher'
+      - '@azure/abort-controller.crypto.CipherCCM'
+      - '@azure/abort-controller.crypto.CipherCCMOptions'
+      - '@azure/abort-controller.crypto.CipherCCMTypes'
+      - '@azure/abort-controller.crypto.CipherGCM'
+      - '@azure/abort-controller.crypto.CipherGCMOptions'
+      - '@azure/abort-controller.crypto.CipherGCMTypes'
+      - '@azure/abort-controller.crypto.CipherKey'
+      - '@azure/abort-controller.crypto.createCipher'
+      - '@azure/abort-controller.crypto.createCipher_1'
+      - '@azure/abort-controller.crypto.createCipher_2'
+      - '@azure/abort-controller.crypto.createCipheriv'
+      - '@azure/abort-controller.crypto.createCipheriv_1'
+      - '@azure/abort-controller.crypto.createCipheriv_2'
+      - '@azure/abort-controller.crypto.createDecipher'
+      - '@azure/abort-controller.crypto.createDecipher_1'
+      - '@azure/abort-controller.crypto.createDecipher_2'
+      - '@azure/abort-controller.crypto.createDecipheriv'
+      - '@azure/abort-controller.crypto.createDecipheriv_1'
+      - '@azure/abort-controller.crypto.createDecipheriv_2'
+      - '@azure/abort-controller.crypto.createDiffieHellman_1'
+      - '@azure/abort-controller.crypto.createDiffieHellman'
+      - '@azure/abort-controller.crypto.createDiffieHellman_2'
+      - '@azure/abort-controller.crypto.createDiffieHellman_3'
+      - '@azure/abort-controller.crypto.createDiffieHellman_4'
+      - '@azure/abort-controller.crypto.createECDH'
+      - '@azure/abort-controller.crypto.createHash'
+      - '@azure/abort-controller.crypto.createHmac'
+      - '@azure/abort-controller.crypto.createPrivateKey'
+      - '@azure/abort-controller.crypto.createPublicKey'
+      - '@azure/abort-controller.crypto.createSecretKey'
+      - '@azure/abort-controller.crypto.createSign'
+      - '@azure/abort-controller.crypto.createVerify'
+      - '@azure/abort-controller.crypto.Decipher'
+      - '@azure/abort-controller.crypto.DecipherCCM'
+      - '@azure/abort-controller.crypto.DecipherGCM'
+      - '@azure/abort-controller.crypto.DiffieHellman'
+      - '@azure/abort-controller.crypto.DSAKeyPairKeyObjectOptions'
+      - '@azure/abort-controller.crypto.DSAKeyPairOptions'
+      - '@azure/abort-controller.crypto.ECDH'
+      - '@azure/abort-controller.crypto.ECDHKeyFormat'
+      - '@azure/abort-controller.crypto.ECKeyPairKeyObjectOptions'
+      - '@azure/abort-controller.crypto.ECKeyPairOptions'
+      - '@azure/abort-controller.crypto.generateKeyPairSync_9'
+      - '@azure/abort-controller.crypto.generateKeyPairSync_8'
+      - '@azure/abort-controller.crypto.generateKeyPairSync_7'
+      - '@azure/abort-controller.crypto.generateKeyPairSync_6'
+      - '@azure/abort-controller.crypto.generateKeyPairSync_5'
+      - '@azure/abort-controller.crypto.generateKeyPairSync_14'
+      - '@azure/abort-controller.crypto.generateKeyPairSync_13'
+      - '@azure/abort-controller.crypto.generateKeyPairSync_12'
+      - '@azure/abort-controller.crypto.generateKeyPairSync_11'
+      - '@azure/abort-controller.crypto.generateKeyPairSync_10'
+      - '@azure/abort-controller.crypto.generateKeyPairSync_4'
+      - '@azure/abort-controller.crypto.generateKeyPairSync_3'
+      - '@azure/abort-controller.crypto.generateKeyPairSync_2'
+      - '@azure/abort-controller.crypto.generateKeyPairSync_1'
+      - '@azure/abort-controller.crypto.generateKeyPairSync'
+      - '@azure/abort-controller.crypto.getCiphers'
+      - '@azure/abort-controller.crypto.getCurves'
+      - '@azure/abort-controller.crypto.getDiffieHellman'
+      - '@azure/abort-controller.crypto.getHashes'
+      - '@azure/abort-controller.crypto.Hash'
+      - '@azure/abort-controller.crypto.HashOptions'
+      - '@azure/abort-controller.crypto.HexBase64BinaryEncoding'
+      - '@azure/abort-controller.crypto.HexBase64Latin1Encoding'
+      - '@azure/abort-controller.crypto.Hmac'
+      - '@azure/abort-controller.crypto.KeyExportOptions'
+      - '@azure/abort-controller.crypto.KeyFormat'
+      - '@azure/abort-controller.crypto.KeyLike'
+      - '@azure/abort-controller.crypto.KeyObject'
+      - '@azure/abort-controller.crypto.KeyObjectType'
+      - '@azure/abort-controller.crypto.KeyPairKeyObjectResult'
+      - '@azure/abort-controller.crypto.KeyPairSyncResult'
+      - '@azure/abort-controller.crypto.KeyType'
+      - '@azure/abort-controller.crypto.pbkdf2'
+      - '@azure/abort-controller.crypto.pbkdf2Sync'
+      - '@azure/abort-controller.crypto.privateDecrypt'
+      - '@azure/abort-controller.crypto.privateEncrypt'
+      - '@azure/abort-controller.crypto.PrivateKeyInput'
+      - '@azure/abort-controller.crypto.pseudoRandomBytes'
+      - '@azure/abort-controller.crypto.pseudoRandomBytes_1'
+      - '@azure/abort-controller.crypto.publicDecrypt'
+      - '@azure/abort-controller.crypto.publicEncrypt'
+      - '@azure/abort-controller.crypto.PublicKeyInput'
+      - '@azure/abort-controller.crypto.randomBytes'
+      - '@azure/abort-controller.crypto.randomBytes_1'
+      - '@azure/abort-controller.crypto.randomFill'
+      - '@azure/abort-controller.crypto.randomFill_1'
+      - '@azure/abort-controller.crypto.randomFill_2'
+      - '@azure/abort-controller.crypto.randomFillSync'
+      - '@azure/abort-controller.crypto.RSAKeyPairKeyObjectOptions'
+      - '@azure/abort-controller.crypto.RSAKeyPairOptions'
+      - '@azure/abort-controller.crypto.RsaPrivateKey'
+      - '@azure/abort-controller.crypto.RsaPublicKey'
+      - '@azure/abort-controller.crypto.scrypt'
+      - '@azure/abort-controller.crypto.scrypt_1'
+      - '@azure/abort-controller.crypto.ScryptOptions'
+      - '@azure/abort-controller.crypto.scryptSync'
+      - '@azure/abort-controller.crypto.sign'
+      - '@azure/abort-controller.crypto.Signer'
+      - '@azure/abort-controller.crypto.SigningOptions'
+      - '@azure/abort-controller.crypto.SignPrivateKeyInput'
+      - '@azure/abort-controller.crypto.timingSafeEqual'
+      - '@azure/abort-controller.crypto.Utf8AsciiBinaryEncoding'
+      - '@azure/abort-controller.crypto.Utf8AsciiLatin1Encoding'
+      - '@azure/abort-controller.crypto.Verify'
+      - '@azure/abort-controller.crypto.verify'
+      - '@azure/abort-controller.crypto.VerifyKeyWithOptions'
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createCipher'
+    name: 'createCipher(CipherCCMTypes, BinaryLike, CipherCCMOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createCipher(algorithm: CipherCCMTypes, password: BinaryLike,
+        options: CipherCCMOptions)
+      parameters:
+        - id: algorithm
+          type:
+            - '@azure/abort-controller.crypto.CipherCCMTypes'
+          description: ''
+        - id: password
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.CipherCCMOptions'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.CipherCCM'
+        description: ''
+    package: '@azure/abort-controller'
+    deprecated:
+      content: since v10.0.0 use createCipheriv()
+  - uid: '@azure/abort-controller.crypto.createCipher_1'
+    name: 'createCipher(CipherGCMTypes, BinaryLike, CipherGCMOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createCipher(algorithm: CipherGCMTypes, password: BinaryLike,
+        options?: CipherGCMOptions)
+      parameters:
+        - id: algorithm
+          type:
+            - '@azure/abort-controller.crypto.CipherGCMTypes'
+          description: ''
+        - id: password
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.CipherGCMOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.crypto.CipherGCM'
+        description: ''
+    package: '@azure/abort-controller'
+    deprecated:
+      content: since v10.0.0 use createCipheriv()
+  - uid: '@azure/abort-controller.crypto.createCipher_2'
+    name: 'createCipher(string, BinaryLike, stream.TransformOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createCipher(algorithm: string, password: BinaryLike, options?:
+        stream.TransformOptions)
+      parameters:
+        - id: algorithm
+          type:
+            - string
+          description: ''
+        - id: password
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: options
+          type:
+            - stream.TransformOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.crypto.Cipher'
+        description: ''
+    package: '@azure/abort-controller'
+    deprecated:
+      content: since v10.0.0 use createCipheriv()
+  - uid: '@azure/abort-controller.crypto.createCipheriv'
+    name: >-
+      createCipheriv(CipherCCMTypes, CipherKey, BinaryLike | null,
+      CipherCCMOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createCipheriv(algorithm: CipherCCMTypes, key: CipherKey, iv:
+        BinaryLike | null, options: CipherCCMOptions)
+      parameters:
+        - id: algorithm
+          type:
+            - '@azure/abort-controller.crypto.CipherCCMTypes'
+          description: ''
+        - id: key
+          type:
+            - '@azure/abort-controller.crypto.CipherKey'
+          description: ''
+        - id: iv
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike | null'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.CipherCCMOptions'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.CipherCCM'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createCipheriv_1'
+    name: >-
+      createCipheriv(CipherGCMTypes, CipherKey, BinaryLike | null,
+      CipherGCMOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createCipheriv(algorithm: CipherGCMTypes, key: CipherKey, iv:
+        BinaryLike | null, options?: CipherGCMOptions)
+      parameters:
+        - id: algorithm
+          type:
+            - '@azure/abort-controller.crypto.CipherGCMTypes'
+          description: ''
+        - id: key
+          type:
+            - '@azure/abort-controller.crypto.CipherKey'
+          description: ''
+        - id: iv
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike | null'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.CipherGCMOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.crypto.CipherGCM'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createCipheriv_2'
+    name: >-
+      createCipheriv(string, CipherKey, BinaryLike | null,
+      stream.TransformOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createCipheriv(algorithm: string, key: CipherKey, iv:
+        BinaryLike | null, options?: stream.TransformOptions)
+      parameters:
+        - id: algorithm
+          type:
+            - string
+          description: ''
+        - id: key
+          type:
+            - '@azure/abort-controller.crypto.CipherKey'
+          description: ''
+        - id: iv
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike | null'
+          description: ''
+        - id: options
+          type:
+            - stream.TransformOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.crypto.Cipher'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createDecipher'
+    name: 'createDecipher(CipherCCMTypes, BinaryLike, CipherCCMOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createDecipher(algorithm: CipherCCMTypes, password: BinaryLike,
+        options: CipherCCMOptions)
+      parameters:
+        - id: algorithm
+          type:
+            - '@azure/abort-controller.crypto.CipherCCMTypes'
+          description: ''
+        - id: password
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.CipherCCMOptions'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.DecipherCCM'
+        description: ''
+    package: '@azure/abort-controller'
+    deprecated:
+      content: since v10.0.0 use createDecipheriv()
+  - uid: '@azure/abort-controller.crypto.createDecipher_1'
+    name: 'createDecipher(CipherGCMTypes, BinaryLike, CipherGCMOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createDecipher(algorithm: CipherGCMTypes, password: BinaryLike,
+        options?: CipherGCMOptions)
+      parameters:
+        - id: algorithm
+          type:
+            - '@azure/abort-controller.crypto.CipherGCMTypes'
+          description: ''
+        - id: password
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.CipherGCMOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.crypto.DecipherGCM'
+        description: ''
+    package: '@azure/abort-controller'
+    deprecated:
+      content: since v10.0.0 use createDecipheriv()
+  - uid: '@azure/abort-controller.crypto.createDecipher_2'
+    name: 'createDecipher(string, BinaryLike, stream.TransformOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createDecipher(algorithm: string, password: BinaryLike,
+        options?: stream.TransformOptions)
+      parameters:
+        - id: algorithm
+          type:
+            - string
+          description: ''
+        - id: password
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: options
+          type:
+            - stream.TransformOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.crypto.Decipher'
+        description: ''
+    package: '@azure/abort-controller'
+    deprecated:
+      content: since v10.0.0 use createDecipheriv()
+  - uid: '@azure/abort-controller.crypto.createDecipheriv'
+    name: >-
+      createDecipheriv(CipherCCMTypes, BinaryLike, BinaryLike | null,
+      CipherCCMOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createDecipheriv(algorithm: CipherCCMTypes, key: BinaryLike,
+        iv: BinaryLike | null, options: CipherCCMOptions)
+      parameters:
+        - id: algorithm
+          type:
+            - '@azure/abort-controller.crypto.CipherCCMTypes'
+          description: ''
+        - id: key
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: iv
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike | null'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.CipherCCMOptions'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.DecipherCCM'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createDecipheriv_1'
+    name: >-
+      createDecipheriv(CipherGCMTypes, BinaryLike, BinaryLike | null,
+      CipherGCMOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createDecipheriv(algorithm: CipherGCMTypes, key: BinaryLike,
+        iv: BinaryLike | null, options?: CipherGCMOptions)
+      parameters:
+        - id: algorithm
+          type:
+            - '@azure/abort-controller.crypto.CipherGCMTypes'
+          description: ''
+        - id: key
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: iv
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike | null'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.CipherGCMOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.crypto.DecipherGCM'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createDecipheriv_2'
+    name: >-
+      createDecipheriv(string, BinaryLike, BinaryLike | null,
+      stream.TransformOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createDecipheriv(algorithm: string, key: BinaryLike, iv:
+        BinaryLike | null, options?: stream.TransformOptions)
+      parameters:
+        - id: algorithm
+          type:
+            - string
+          description: ''
+        - id: key
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: iv
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike | null'
+          description: ''
+        - id: options
+          type:
+            - stream.TransformOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.crypto.Decipher'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createDiffieHellman_1'
+    name: createDiffieHellman(NodeJS.ArrayBufferView)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createDiffieHellman(prime: NodeJS.ArrayBufferView)'
+      parameters:
+        - id: prime
+          type:
+            - '@azure/abort-controller.NodeJS.ArrayBufferView'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.DiffieHellman'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createDiffieHellman'
+    name: 'createDiffieHellman(number, number | NodeJS.ArrayBufferView)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createDiffieHellman(prime_length: number, generator?: number |
+        NodeJS.ArrayBufferView)
+      parameters:
+        - id: prime_length
+          type:
+            - number
+          description: ''
+        - id: generator
+          type:
+            - number | @azure/abort-controller.NodeJS.ArrayBufferView
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.crypto.DiffieHellman'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createDiffieHellman_2'
+    name: 'createDiffieHellman(string, HexBase64Latin1Encoding)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createDiffieHellman(prime: string, prime_encoding:
+        HexBase64Latin1Encoding)
+      parameters:
+        - id: prime
+          type:
+            - string
+          description: ''
+        - id: prime_encoding
+          type:
+            - '@azure/abort-controller.crypto.HexBase64Latin1Encoding'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.DiffieHellman'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createDiffieHellman_3'
+    name: >-
+      createDiffieHellman(string, HexBase64Latin1Encoding, number |
+      NodeJS.ArrayBufferView)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createDiffieHellman(prime: string, prime_encoding:
+        HexBase64Latin1Encoding, generator: number | NodeJS.ArrayBufferView)
+      parameters:
+        - id: prime
+          type:
+            - string
+          description: ''
+        - id: prime_encoding
+          type:
+            - '@azure/abort-controller.crypto.HexBase64Latin1Encoding'
+          description: ''
+        - id: generator
+          type:
+            - number | @azure/abort-controller.NodeJS.ArrayBufferView
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.DiffieHellman'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createDiffieHellman_4'
+    name: >-
+      createDiffieHellman(string, HexBase64Latin1Encoding, string,
+      HexBase64Latin1Encoding)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createDiffieHellman(prime: string, prime_encoding:
+        HexBase64Latin1Encoding, generator: string, generator_encoding:
+        HexBase64Latin1Encoding)
+      parameters:
+        - id: prime
+          type:
+            - string
+          description: ''
+        - id: prime_encoding
+          type:
+            - '@azure/abort-controller.crypto.HexBase64Latin1Encoding'
+          description: ''
+        - id: generator
+          type:
+            - string
+          description: ''
+        - id: generator_encoding
+          type:
+            - '@azure/abort-controller.crypto.HexBase64Latin1Encoding'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.DiffieHellman'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createECDH'
+    name: createECDH(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createECDH(curve_name: string)'
+      parameters:
+        - id: curve_name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.ECDH'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createHash'
+    name: 'createHash(string, HashOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createHash(algorithm: string, options?: HashOptions)'
+      parameters:
+        - id: algorithm
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.HashOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.crypto.Hash'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createHmac'
+    name: 'createHmac(string, BinaryLike, stream.TransformOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createHmac(algorithm: string, key: BinaryLike, options?:
+        stream.TransformOptions)
+      parameters:
+        - id: algorithm
+          type:
+            - string
+          description: ''
+        - id: key
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: options
+          type:
+            - stream.TransformOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.crypto.Hmac'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createPrivateKey'
+    name: createPrivateKey(PrivateKeyInput | string | Buffer)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createPrivateKey(key: PrivateKeyInput | string | Buffer)'
+      parameters:
+        - id: key
+          type:
+            - '@azure/abort-controller.crypto.PrivateKeyInput | string | Buffer'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyObject'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createPublicKey'
+    name: createPublicKey(PublicKeyInput | string | Buffer | KeyObject)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createPublicKey(key: PublicKeyInput | string | Buffer |
+        KeyObject)
+      parameters:
+        - id: key
+          type:
+            - >-
+              @azure/abort-controller.crypto.PublicKeyInput | string | Buffer |
+              @azure/abort-controller.crypto.KeyObject
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyObject'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createSecretKey'
+    name: createSecretKey(Buffer)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createSecretKey(key: Buffer)'
+      parameters:
+        - id: key
+          type:
+            - Buffer
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyObject'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createSign'
+    name: 'createSign(string, stream.WritableOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createSign(algorithm: string, options?: stream.WritableOptions)'
+      parameters:
+        - id: algorithm
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - stream.WritableOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.crypto.Signer'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.createVerify'
+    name: 'createVerify(string, stream.WritableOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createVerify(algorithm: string, options?:
+        stream.WritableOptions)
+      parameters:
+        - id: algorithm
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - stream.WritableOptions
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.crypto.Verify'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_9'
+    name: 'generateKeyPairSync("dsa", DSAKeyPairKeyObjectOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "dsa", options:
+        DSAKeyPairKeyObjectOptions)
+      parameters:
+        - id: type
+          type:
+            - '"dsa"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.DSAKeyPairKeyObjectOptions'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairKeyObjectResult'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_8'
+    name: 'generateKeyPairSync("dsa", DSAKeyPairOptions<"der", "der">)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "dsa", options:
+        DSAKeyPairOptions<"der", "der">)
+      parameters:
+        - id: type
+          type:
+            - '"dsa"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.DSAKeyPairOptions<"der", "der">'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairSyncResult<Buffer, Buffer>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_7'
+    name: 'generateKeyPairSync("dsa", DSAKeyPairOptions<"der", "pem">)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "dsa", options:
+        DSAKeyPairOptions<"der", "pem">)
+      parameters:
+        - id: type
+          type:
+            - '"dsa"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.DSAKeyPairOptions<"der", "pem">'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairSyncResult<Buffer, string>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_6'
+    name: 'generateKeyPairSync("dsa", DSAKeyPairOptions<"pem", "der">)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "dsa", options:
+        DSAKeyPairOptions<"pem", "der">)
+      parameters:
+        - id: type
+          type:
+            - '"dsa"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.DSAKeyPairOptions<"pem", "der">'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairSyncResult<string, Buffer>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_5'
+    name: 'generateKeyPairSync("dsa", DSAKeyPairOptions<"pem", "pem">)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "dsa", options:
+        DSAKeyPairOptions<"pem", "pem">)
+      parameters:
+        - id: type
+          type:
+            - '"dsa"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.DSAKeyPairOptions<"pem", "pem">'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairSyncResult<string, string>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_14'
+    name: 'generateKeyPairSync("ec", ECKeyPairKeyObjectOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "ec", options:
+        ECKeyPairKeyObjectOptions)
+      parameters:
+        - id: type
+          type:
+            - '"ec"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.ECKeyPairKeyObjectOptions'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairKeyObjectResult'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_13'
+    name: 'generateKeyPairSync("ec", ECKeyPairOptions<"der", "der">)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "ec", options:
+        ECKeyPairOptions<"der", "der">)
+      parameters:
+        - id: type
+          type:
+            - '"ec"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.ECKeyPairOptions<"der", "der">'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairSyncResult<Buffer, Buffer>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_12'
+    name: 'generateKeyPairSync("ec", ECKeyPairOptions<"der", "pem">)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "ec", options:
+        ECKeyPairOptions<"der", "pem">)
+      parameters:
+        - id: type
+          type:
+            - '"ec"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.ECKeyPairOptions<"der", "pem">'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairSyncResult<Buffer, string>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_11'
+    name: 'generateKeyPairSync("ec", ECKeyPairOptions<"pem", "der">)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "ec", options:
+        ECKeyPairOptions<"pem", "der">)
+      parameters:
+        - id: type
+          type:
+            - '"ec"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.ECKeyPairOptions<"pem", "der">'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairSyncResult<string, Buffer>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_10'
+    name: 'generateKeyPairSync("ec", ECKeyPairOptions<"pem", "pem">)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "ec", options:
+        ECKeyPairOptions<"pem", "pem">)
+      parameters:
+        - id: type
+          type:
+            - '"ec"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.ECKeyPairOptions<"pem", "pem">'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairSyncResult<string, string>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_4'
+    name: 'generateKeyPairSync("rsa", RSAKeyPairKeyObjectOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "rsa", options:
+        RSAKeyPairKeyObjectOptions)
+      parameters:
+        - id: type
+          type:
+            - '"rsa"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.RSAKeyPairKeyObjectOptions'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairKeyObjectResult'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_3'
+    name: 'generateKeyPairSync("rsa", RSAKeyPairOptions<"der", "der">)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "rsa", options:
+        RSAKeyPairOptions<"der", "der">)
+      parameters:
+        - id: type
+          type:
+            - '"rsa"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.RSAKeyPairOptions<"der", "der">'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairSyncResult<Buffer, Buffer>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_2'
+    name: 'generateKeyPairSync("rsa", RSAKeyPairOptions<"der", "pem">)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "rsa", options:
+        RSAKeyPairOptions<"der", "pem">)
+      parameters:
+        - id: type
+          type:
+            - '"rsa"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.RSAKeyPairOptions<"der", "pem">'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairSyncResult<Buffer, string>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_1'
+    name: 'generateKeyPairSync("rsa", RSAKeyPairOptions<"pem", "der">)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "rsa", options:
+        RSAKeyPairOptions<"pem", "der">)
+      parameters:
+        - id: type
+          type:
+            - '"rsa"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.RSAKeyPairOptions<"pem", "der">'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairSyncResult<string, Buffer>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync'
+    name: 'generateKeyPairSync("rsa", RSAKeyPairOptions<"pem", "pem">)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function generateKeyPairSync(type: "rsa", options:
+        RSAKeyPairOptions<"pem", "pem">)
+      parameters:
+        - id: type
+          type:
+            - '"rsa"'
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.RSAKeyPairOptions<"pem", "pem">'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.KeyPairSyncResult<string, string>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.getCiphers'
+    name: getCiphers()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCiphers()
+      parameters: []
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.getCurves'
+    name: getCurves()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getCurves()
+      parameters: []
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.getDiffieHellman'
+    name: getDiffieHellman(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getDiffieHellman(group_name: string)'
+      parameters:
+        - id: group_name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.crypto.DiffieHellman'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.getHashes'
+    name: getHashes()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getHashes()
+      parameters: []
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.pbkdf2'
+    name: >-
+      pbkdf2(BinaryLike, BinaryLike, number, number, string, (err: Error | null,
+      derivedKey: Buffer) => any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function pbkdf2(password: BinaryLike, salt: BinaryLike, iterations:
+        number, keylen: number, digest: string, callback: (err: Error | null,
+        derivedKey: Buffer) => any)
+      parameters:
+        - id: password
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: salt
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: iterations
+          type:
+            - number
+          description: ''
+        - id: keylen
+          type:
+            - number
+          description: ''
+        - id: digest
+          type:
+            - string
+          description: ''
+        - id: callback
+          type:
+            - '(err: Error | null, derivedKey: Buffer) => any'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.pbkdf2Sync'
+    name: 'pbkdf2Sync(BinaryLike, BinaryLike, number, number, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function pbkdf2Sync(password: BinaryLike, salt: BinaryLike, iterations:
+        number, keylen: number, digest: string)
+      parameters:
+        - id: password
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: salt
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: iterations
+          type:
+            - number
+          description: ''
+        - id: keylen
+          type:
+            - number
+          description: ''
+        - id: digest
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.privateDecrypt'
+    name: 'privateDecrypt(RsaPrivateKey | KeyLike, NodeJS.ArrayBufferView)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function privateDecrypt(private_key: RsaPrivateKey | KeyLike, buffer:
+        NodeJS.ArrayBufferView)
+      parameters:
+        - id: private_key
+          type:
+            - >-
+              @azure/abort-controller.crypto.RsaPrivateKey |
+              @azure/abort-controller.crypto.KeyLike
+          description: ''
+        - id: buffer
+          type:
+            - '@azure/abort-controller.NodeJS.ArrayBufferView'
+          description: ''
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.privateEncrypt'
+    name: 'privateEncrypt(RsaPrivateKey | KeyLike, NodeJS.ArrayBufferView)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function privateEncrypt(private_key: RsaPrivateKey | KeyLike, buffer:
+        NodeJS.ArrayBufferView)
+      parameters:
+        - id: private_key
+          type:
+            - >-
+              @azure/abort-controller.crypto.RsaPrivateKey |
+              @azure/abort-controller.crypto.KeyLike
+          description: ''
+        - id: buffer
+          type:
+            - '@azure/abort-controller.NodeJS.ArrayBufferView'
+          description: ''
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.pseudoRandomBytes'
+    name: pseudoRandomBytes(number)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pseudoRandomBytes(size: number)'
+      parameters:
+        - id: size
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.pseudoRandomBytes_1'
+    name: 'pseudoRandomBytes(number, (err: Error | null, buf: Buffer) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function pseudoRandomBytes(size: number, callback: (err: Error | null,
+        buf: Buffer) => void)
+      parameters:
+        - id: size
+          type:
+            - number
+          description: ''
+        - id: callback
+          type:
+            - '(err: Error | null, buf: Buffer) => void'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.publicDecrypt'
+    name: >-
+      publicDecrypt(RsaPublicKey | RsaPrivateKey | KeyLike,
+      NodeJS.ArrayBufferView)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function publicDecrypt(key: RsaPublicKey | RsaPrivateKey | KeyLike,
+        buffer: NodeJS.ArrayBufferView)
+      parameters:
+        - id: key
+          type:
+            - >-
+              @azure/abort-controller.crypto.RsaPublicKey |
+              @azure/abort-controller.crypto.RsaPrivateKey |
+              @azure/abort-controller.crypto.KeyLike
+          description: ''
+        - id: buffer
+          type:
+            - '@azure/abort-controller.NodeJS.ArrayBufferView'
+          description: ''
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.publicEncrypt'
+    name: >-
+      publicEncrypt(RsaPublicKey | RsaPrivateKey | KeyLike,
+      NodeJS.ArrayBufferView)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function publicEncrypt(key: RsaPublicKey | RsaPrivateKey | KeyLike,
+        buffer: NodeJS.ArrayBufferView)
+      parameters:
+        - id: key
+          type:
+            - >-
+              @azure/abort-controller.crypto.RsaPublicKey |
+              @azure/abort-controller.crypto.RsaPrivateKey |
+              @azure/abort-controller.crypto.KeyLike
+          description: ''
+        - id: buffer
+          type:
+            - '@azure/abort-controller.NodeJS.ArrayBufferView'
+          description: ''
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.randomBytes'
+    name: randomBytes(number)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function randomBytes(size: number)'
+      parameters:
+        - id: size
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.randomBytes_1'
+    name: 'randomBytes(number, (err: Error | null, buf: Buffer) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function randomBytes(size: number, callback: (err: Error | null, buf:
+        Buffer) => void)
+      parameters:
+        - id: size
+          type:
+            - number
+          description: ''
+        - id: callback
+          type:
+            - '(err: Error | null, buf: Buffer) => void'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.randomFill'
+    name: 'randomFill(T, (err: Error | null, buf: T) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function randomFill<T>(buffer: T, callback: (err: Error | null, buf: T)
+        => void)
+      parameters:
+        - id: buffer
+          type:
+            - T
+          description: ''
+        - id: callback
+          type:
+            - '(err: Error | null, buf: T) => void'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.randomFill_1'
+    name: 'randomFill(T, number, (err: Error | null, buf: T) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function randomFill<T>(buffer: T, offset: number, callback: (err: Error
+        | null, buf: T) => void)
+      parameters:
+        - id: buffer
+          type:
+            - T
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: callback
+          type:
+            - '(err: Error | null, buf: T) => void'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.randomFill_2'
+    name: 'randomFill(T, number, number, (err: Error | null, buf: T) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function randomFill<T>(buffer: T, offset: number, size: number,
+        callback: (err: Error | null, buf: T) => void)
+      parameters:
+        - id: buffer
+          type:
+            - T
+          description: ''
+        - id: offset
+          type:
+            - number
+          description: ''
+        - id: size
+          type:
+            - number
+          description: ''
+        - id: callback
+          type:
+            - '(err: Error | null, buf: T) => void'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.randomFillSync'
+    name: 'randomFillSync(T, undefined | number, undefined | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function randomFillSync<T>(buffer: T, offset?: undefined | number,
+        size?: undefined | number)
+      parameters:
+        - id: buffer
+          type:
+            - T
+          description: ''
+        - id: offset
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: size
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.scrypt'
+    name: >-
+      scrypt(BinaryLike, BinaryLike, number, (err: Error | null, derivedKey:
+      Buffer) => void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function scrypt(password: BinaryLike, salt: BinaryLike, keylen: number,
+        callback: (err: Error | null, derivedKey: Buffer) => void)
+      parameters:
+        - id: password
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: salt
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: keylen
+          type:
+            - number
+          description: ''
+        - id: callback
+          type:
+            - '(err: Error | null, derivedKey: Buffer) => void'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.scrypt_1'
+    name: >-
+      scrypt(BinaryLike, BinaryLike, number, ScryptOptions, (err: Error | null,
+      derivedKey: Buffer) => void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function scrypt(password: BinaryLike, salt: BinaryLike, keylen: number,
+        options: ScryptOptions, callback: (err: Error | null, derivedKey:
+        Buffer) => void)
+      parameters:
+        - id: password
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: salt
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: keylen
+          type:
+            - number
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.ScryptOptions'
+          description: ''
+        - id: callback
+          type:
+            - '(err: Error | null, derivedKey: Buffer) => void'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.scryptSync'
+    name: 'scryptSync(BinaryLike, BinaryLike, number, ScryptOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function scryptSync(password: BinaryLike, salt: BinaryLike, keylen:
+        number, options?: ScryptOptions)
+      parameters:
+        - id: password
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: salt
+          type:
+            - '@azure/abort-controller.crypto.BinaryLike'
+          description: ''
+        - id: keylen
+          type:
+            - number
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.crypto.ScryptOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.sign'
+    name: >-
+      sign(string | null | undefined, NodeJS.ArrayBufferView, KeyLike |
+      SignPrivateKeyInput)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Calculates and returns the signature for `data` using the given private
+      key and
+
+      algorithm. If `algorithm` is `null` or `undefined`, then the algorithm is
+
+      dependent upon the key type (especially Ed25519 and Ed448).
+
+      If `key` is not a [`KeyObject`][], this function behaves as if `key` had
+      been
+
+      passed to [`crypto.createPrivateKey()`][].
+    syntax:
+      content: >-
+        function sign(algorithm: string | null | undefined, data:
+        NodeJS.ArrayBufferView, key: KeyLike | SignPrivateKeyInput)
+      parameters:
+        - id: algorithm
+          type:
+            - string | null | undefined
+          description: ''
+        - id: data
+          type:
+            - '@azure/abort-controller.NodeJS.ArrayBufferView'
+          description: ''
+        - id: key
+          type:
+            - >-
+              @azure/abort-controller.crypto.KeyLike |
+              @azure/abort-controller.crypto.SignPrivateKeyInput
+          description: ''
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.timingSafeEqual'
+    name: 'timingSafeEqual(NodeJS.ArrayBufferView, NodeJS.ArrayBufferView)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function timingSafeEqual(a: NodeJS.ArrayBufferView, b:
+        NodeJS.ArrayBufferView)
+      parameters:
+        - id: a
+          type:
+            - '@azure/abort-controller.NodeJS.ArrayBufferView'
+          description: ''
+        - id: b
+          type:
+            - '@azure/abort-controller.NodeJS.ArrayBufferView'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.crypto.verify'
+    name: >-
+      verify(string | null | undefined, NodeJS.ArrayBufferView, KeyLike |
+      VerifyKeyWithOptions, NodeJS.ArrayBufferView)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >
+      Calculates and returns the signature for `data` using the given private
+      key and
+
+      algorithm. If `algorithm` is `null` or `undefined`, then the algorithm is
+
+      dependent upon the key type (especially Ed25519 and Ed448).
+
+      If `key` is not a [`KeyObject`][], this function behaves as if `key` had
+      been
+
+      passed to [`crypto.createPublicKey()`][].
+    syntax:
+      content: >-
+        function verify(algorithm: string | null | undefined, data:
+        NodeJS.ArrayBufferView, key: KeyLike | VerifyKeyWithOptions, signature:
+        NodeJS.ArrayBufferView)
+      parameters:
+        - id: algorithm
+          type:
+            - string | null | undefined
+          description: ''
+        - id: data
+          type:
+            - '@azure/abort-controller.NodeJS.ArrayBufferView'
+          description: ''
+        - id: key
+          type:
+            - >-
+              @azure/abort-controller.crypto.KeyLike |
+              @azure/abort-controller.crypto.VerifyKeyWithOptions
+          description: ''
+        - id: signature
+          type:
+            - '@azure/abort-controller.NodeJS.ArrayBufferView'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.stream.internal.Transform'
+    name: Transform
+    spec.typeScript:
+      - name: Transform
+        fullName: Transform
+        uid: '@azure/abort-controller.stream.internal.Transform'
+  - uid: '@azure/abort-controller.AbortError.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/abort-controller.AbortError.Error'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: '@azure/abort-controller.crypto.BinaryLike'
+    name: BinaryLike
+    spec.typeScript:
+      - name: BinaryLike
+        fullName: BinaryLike
+        uid: '@azure/abort-controller.crypto.BinaryLike'
+  - uid: '@azure/abort-controller.crypto.Utf8AsciiBinaryEncoding'
+    name: Utf8AsciiBinaryEncoding
+    spec.typeScript:
+      - name: Utf8AsciiBinaryEncoding
+        fullName: Utf8AsciiBinaryEncoding
+        uid: '@azure/abort-controller.crypto.Utf8AsciiBinaryEncoding'
+  - uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+  - uid: '@azure/abort-controller.crypto.HexBase64BinaryEncoding'
+    name: HexBase64BinaryEncoding
+    spec.typeScript:
+      - name: HexBase64BinaryEncoding
+        fullName: HexBase64BinaryEncoding
+        uid: '@azure/abort-controller.crypto.HexBase64BinaryEncoding'
+  - uid: '@azure/abort-controller.crypto.Utf8AsciiBinaryEncoding | undefined'
+    name: Utf8AsciiBinaryEncoding | undefined
+    spec.typeScript:
+      - name: Utf8AsciiBinaryEncoding
+        fullName: Utf8AsciiBinaryEncoding
+        uid: '@azure/abort-controller.crypto.Utf8AsciiBinaryEncoding'
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: '@azure/abort-controller.crypto.HexBase64BinaryEncoding | undefined'
+    name: HexBase64BinaryEncoding | undefined
+    spec.typeScript:
+      - name: HexBase64BinaryEncoding
+        fullName: HexBase64BinaryEncoding
+        uid: '@azure/abort-controller.crypto.HexBase64BinaryEncoding'
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: '@azure/abort-controller.crypto.HexBase64Latin1Encoding'
+    name: HexBase64Latin1Encoding
+    spec.typeScript:
+      - name: HexBase64Latin1Encoding
+        fullName: HexBase64Latin1Encoding
+        uid: '@azure/abort-controller.crypto.HexBase64Latin1Encoding'
+  - uid: '@azure/abort-controller.crypto.ECDHKeyFormat'
+    name: ECDHKeyFormat
+    spec.typeScript:
+      - name: ECDHKeyFormat
+        fullName: ECDHKeyFormat
+        uid: '@azure/abort-controller.crypto.ECDHKeyFormat'
+  - uid: '@azure/abort-controller.crypto.Hash'
+    name: Hash
+    spec.typeScript:
+      - name: Hash
+        fullName: Hash
+        uid: '@azure/abort-controller.crypto.Hash'
+  - uid: '@azure/abort-controller.crypto.Utf8AsciiLatin1Encoding'
+    name: Utf8AsciiLatin1Encoding
+    spec.typeScript:
+      - name: Utf8AsciiLatin1Encoding
+        fullName: Utf8AsciiLatin1Encoding
+        uid: '@azure/abort-controller.crypto.Utf8AsciiLatin1Encoding'
+  - uid: '@azure/abort-controller.crypto.Hmac'
+    name: Hmac
+    spec.typeScript:
+      - name: Hmac
+        fullName: Hmac
+        uid: '@azure/abort-controller.crypto.Hmac'
+  - uid: '@azure/abort-controller.crypto.KeyType'
+    name: KeyType
+    spec.typeScript:
+      - name: KeyType
+        fullName: KeyType
+        uid: '@azure/abort-controller.crypto.KeyType'
+  - uid: '@azure/abort-controller.crypto.KeyObjectType'
+    name: KeyObjectType
+    spec.typeScript:
+      - name: KeyObjectType
+        fullName: KeyObjectType
+        uid: '@azure/abort-controller.crypto.KeyObjectType'
+  - uid: '@azure/abort-controller.crypto.KeyExportOptions<"pem">'
+    name: KeyExportOptions<"pem">
+    spec.typeScript:
+      - name: KeyExportOptions
+        fullName: KeyExportOptions
+        uid: '@azure/abort-controller.crypto.KeyExportOptions'
+      - name: <"pem">
+        fullName: <"pem">
+  - uid: '@azure/abort-controller.crypto.KeyExportOptions<"der">'
+    name: KeyExportOptions<"der">
+    spec.typeScript:
+      - name: KeyExportOptions
+        fullName: KeyExportOptions
+        uid: '@azure/abort-controller.crypto.KeyExportOptions'
+      - name: <"der">
+        fullName: <"der">
+  - uid: '@azure/abort-controller.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+  - uid: >-
+      @azure/abort-controller.crypto.SignPrivateKeyInput |
+      @azure/abort-controller.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: SignPrivateKeyInput
+        fullName: SignPrivateKeyInput
+        uid: '@azure/abort-controller.crypto.SignPrivateKeyInput'
+      - name: ' | '
+        fullName: ' | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/abort-controller.crypto.KeyLike'
+  - uid: '@azure/abort-controller.crypto.Signer'
+    name: Signer
+    spec.typeScript:
+      - name: Signer
+        fullName: Signer
+        uid: '@azure/abort-controller.crypto.Signer'
+  - uid: '@azure/abort-controller.crypto.Verify'
+    name: Verify
+    spec.typeScript:
+      - name: Verify
+        fullName: Verify
+        uid: '@azure/abort-controller.crypto.Verify'
+  - uid: object | @azure/abort-controller.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: 'object | '
+        fullName: 'object | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/abort-controller.crypto.KeyLike'
+  - uid: '@azure/abort-controller.crypto.Cipher'
+    name: Cipher
+    spec.typeScript:
+      - name: Cipher
+        fullName: Cipher
+        uid: '@azure/abort-controller.crypto.Cipher'
+  - uid: '@azure/abort-controller.stream.internal.TransformOptions'
+    name: TransformOptions
+    spec.typeScript:
+      - name: TransformOptions
+        fullName: TransformOptions
+        uid: '@azure/abort-controller.stream.internal.TransformOptions'
+  - uid: '@azure/abort-controller.stream.internal.TransformCallback'
+    name: TransformCallback
+    spec.typeScript:
+      - name: TransformCallback
+        fullName: TransformCallback
+        uid: '@azure/abort-controller.stream.internal.TransformCallback'
+  - uid: >-
+      @azure/abort-controller.crypto.BasePrivateKeyEncodingOptions<PrivF> &
+      Object
+    name: BasePrivateKeyEncodingOptions<PrivF> & Object
+    spec.typeScript:
+      - name: BasePrivateKeyEncodingOptions
+        fullName: BasePrivateKeyEncodingOptions
+        uid: '@azure/abort-controller.crypto.BasePrivateKeyEncodingOptions'
+      - name: <PrivF> & Object
+        fullName: <PrivF> & Object
+  - uid: '@azure/abort-controller.crypto.Decipher'
+    name: Decipher
+    spec.typeScript:
+      - name: Decipher
+        fullName: Decipher
+        uid: '@azure/abort-controller.crypto.Decipher'
+  - uid: '@azure/abort-controller.crypto.KeyObject'
+    name: KeyObject
+    spec.typeScript:
+      - name: KeyObject
+        fullName: KeyObject
+        uid: '@azure/abort-controller.crypto.KeyObject'
+  - uid: '@azure/abort-controller.crypto.KeyFormat'
+    name: KeyFormat
+    spec.typeScript:
+      - name: KeyFormat
+        fullName: KeyFormat
+        uid: '@azure/abort-controller.crypto.KeyFormat'
+  - uid: '@azure/abort-controller.crypto.KeyLike'
+    name: KeyLike
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/abort-controller.crypto.KeyLike'
+  - uid: '@azure/abort-controller.NodeJS.TypedArray'
+    name: TypedArray
+    spec.typeScript:
+      - name: TypedArray
+        fullName: TypedArray
+        uid: '@azure/abort-controller.NodeJS.TypedArray'
+  - uid: '@azure/abort-controller.crypto.PrivateKeyInput'
+    name: PrivateKeyInput
+    spec.typeScript:
+      - name: PrivateKeyInput
+        fullName: PrivateKeyInput
+        uid: '@azure/abort-controller.crypto.PrivateKeyInput'
+  - uid: '@azure/abort-controller.crypto.CipherCCMTypes'
+    name: CipherCCMTypes
+    spec.typeScript:
+      - name: CipherCCMTypes
+        fullName: CipherCCMTypes
+        uid: '@azure/abort-controller.crypto.CipherCCMTypes'
+  - uid: '@azure/abort-controller.crypto.CipherCCMOptions'
+    name: CipherCCMOptions
+    spec.typeScript:
+      - name: CipherCCMOptions
+        fullName: CipherCCMOptions
+        uid: '@azure/abort-controller.crypto.CipherCCMOptions'
+  - uid: '@azure/abort-controller.crypto.CipherCCM'
+    name: CipherCCM
+    spec.typeScript:
+      - name: CipherCCM
+        fullName: CipherCCM
+        uid: '@azure/abort-controller.crypto.CipherCCM'
+  - uid: '@azure/abort-controller.crypto.CipherGCMTypes'
+    name: CipherGCMTypes
+    spec.typeScript:
+      - name: CipherGCMTypes
+        fullName: CipherGCMTypes
+        uid: '@azure/abort-controller.crypto.CipherGCMTypes'
+  - uid: '@azure/abort-controller.crypto.CipherGCMOptions'
+    name: CipherGCMOptions
+    spec.typeScript:
+      - name: CipherGCMOptions
+        fullName: CipherGCMOptions
+        uid: '@azure/abort-controller.crypto.CipherGCMOptions'
+  - uid: '@azure/abort-controller.crypto.CipherGCM'
+    name: CipherGCM
+    spec.typeScript:
+      - name: CipherGCM
+        fullName: CipherGCM
+        uid: '@azure/abort-controller.crypto.CipherGCM'
+  - uid: '@azure/abort-controller.crypto.CipherKey'
+    name: CipherKey
+    spec.typeScript:
+      - name: CipherKey
+        fullName: CipherKey
+        uid: '@azure/abort-controller.crypto.CipherKey'
+  - uid: '@azure/abort-controller.crypto.BinaryLike | null'
+    name: BinaryLike | null
+    spec.typeScript:
+      - name: BinaryLike
+        fullName: BinaryLike
+        uid: '@azure/abort-controller.crypto.BinaryLike'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.crypto.DecipherCCM'
+    name: DecipherCCM
+    spec.typeScript:
+      - name: DecipherCCM
+        fullName: DecipherCCM
+        uid: '@azure/abort-controller.crypto.DecipherCCM'
+  - uid: '@azure/abort-controller.crypto.DecipherGCM'
+    name: DecipherGCM
+    spec.typeScript:
+      - name: DecipherGCM
+        fullName: DecipherGCM
+        uid: '@azure/abort-controller.crypto.DecipherGCM'
+  - uid: number | @azure/abort-controller.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: 'number | '
+        fullName: 'number | '
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+  - uid: '@azure/abort-controller.crypto.DiffieHellman'
+    name: DiffieHellman
+    spec.typeScript:
+      - name: DiffieHellman
+        fullName: DiffieHellman
+        uid: '@azure/abort-controller.crypto.DiffieHellman'
+  - uid: '@azure/abort-controller.crypto.ECDH'
+    name: ECDH
+    spec.typeScript:
+      - name: ECDH
+        fullName: ECDH
+        uid: '@azure/abort-controller.crypto.ECDH'
+  - uid: '@azure/abort-controller.crypto.HashOptions'
+    name: HashOptions
+    spec.typeScript:
+      - name: HashOptions
+        fullName: HashOptions
+        uid: '@azure/abort-controller.crypto.HashOptions'
+  - uid: '@azure/abort-controller.crypto.PrivateKeyInput | string | Buffer'
+    name: PrivateKeyInput | string | Buffer
+    spec.typeScript:
+      - name: PrivateKeyInput
+        fullName: PrivateKeyInput
+        uid: '@azure/abort-controller.crypto.PrivateKeyInput'
+      - name: ' | string | Buffer'
+        fullName: ' | string | Buffer'
+  - uid: >-
+      @azure/abort-controller.crypto.PublicKeyInput | string | Buffer |
+      @azure/abort-controller.crypto.KeyObject
+    name: KeyObject
+    spec.typeScript:
+      - name: PublicKeyInput
+        fullName: PublicKeyInput
+        uid: '@azure/abort-controller.crypto.PublicKeyInput'
+      - name: ' | string | Buffer | '
+        fullName: ' | string | Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: '@azure/abort-controller.crypto.KeyObject'
+  - uid: '@azure/abort-controller.crypto.RSAKeyPairOptions<"pem", "pem">'
+    name: 'RSAKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.RSAKeyPairOptions'
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: '@azure/abort-controller.crypto.KeyPairSyncResult<string, string>'
+    name: 'KeyPairSyncResult<string, string>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: '@azure/abort-controller.crypto.KeyPairSyncResult'
+      - name: '<string, string>'
+        fullName: '<string, string>'
+  - uid: '@azure/abort-controller.crypto.RSAKeyPairOptions<"pem", "der">'
+    name: 'RSAKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.RSAKeyPairOptions'
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: '@azure/abort-controller.crypto.KeyPairSyncResult<string, Buffer>'
+    name: 'KeyPairSyncResult<string, Buffer>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: '@azure/abort-controller.crypto.KeyPairSyncResult'
+      - name: '<string, Buffer>'
+        fullName: '<string, Buffer>'
+  - uid: '@azure/abort-controller.crypto.RSAKeyPairOptions<"der", "pem">'
+    name: 'RSAKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.RSAKeyPairOptions'
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: '@azure/abort-controller.crypto.KeyPairSyncResult<Buffer, string>'
+    name: 'KeyPairSyncResult<Buffer, string>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: '@azure/abort-controller.crypto.KeyPairSyncResult'
+      - name: '<Buffer, string>'
+        fullName: '<Buffer, string>'
+  - uid: '@azure/abort-controller.crypto.RSAKeyPairOptions<"der", "der">'
+    name: 'RSAKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: RSAKeyPairOptions
+        fullName: RSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.RSAKeyPairOptions'
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: '@azure/abort-controller.crypto.KeyPairSyncResult<Buffer, Buffer>'
+    name: 'KeyPairSyncResult<Buffer, Buffer>'
+    spec.typeScript:
+      - name: KeyPairSyncResult
+        fullName: KeyPairSyncResult
+        uid: '@azure/abort-controller.crypto.KeyPairSyncResult'
+      - name: '<Buffer, Buffer>'
+        fullName: '<Buffer, Buffer>'
+  - uid: '@azure/abort-controller.crypto.RSAKeyPairKeyObjectOptions'
+    name: RSAKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: RSAKeyPairKeyObjectOptions
+        fullName: RSAKeyPairKeyObjectOptions
+        uid: '@azure/abort-controller.crypto.RSAKeyPairKeyObjectOptions'
+  - uid: '@azure/abort-controller.crypto.KeyPairKeyObjectResult'
+    name: KeyPairKeyObjectResult
+    spec.typeScript:
+      - name: KeyPairKeyObjectResult
+        fullName: KeyPairKeyObjectResult
+        uid: '@azure/abort-controller.crypto.KeyPairKeyObjectResult'
+  - uid: '@azure/abort-controller.crypto.DSAKeyPairOptions<"pem", "pem">'
+    name: 'DSAKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.DSAKeyPairOptions'
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: '@azure/abort-controller.crypto.DSAKeyPairOptions<"pem", "der">'
+    name: 'DSAKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.DSAKeyPairOptions'
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: '@azure/abort-controller.crypto.DSAKeyPairOptions<"der", "pem">'
+    name: 'DSAKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.DSAKeyPairOptions'
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: '@azure/abort-controller.crypto.DSAKeyPairOptions<"der", "der">'
+    name: 'DSAKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: DSAKeyPairOptions
+        fullName: DSAKeyPairOptions
+        uid: '@azure/abort-controller.crypto.DSAKeyPairOptions'
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: '@azure/abort-controller.crypto.DSAKeyPairKeyObjectOptions'
+    name: DSAKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: DSAKeyPairKeyObjectOptions
+        fullName: DSAKeyPairKeyObjectOptions
+        uid: '@azure/abort-controller.crypto.DSAKeyPairKeyObjectOptions'
+  - uid: '@azure/abort-controller.crypto.ECKeyPairOptions<"pem", "pem">'
+    name: 'ECKeyPairOptions<"pem", "pem">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: '@azure/abort-controller.crypto.ECKeyPairOptions'
+      - name: '<"pem", "pem">'
+        fullName: '<"pem", "pem">'
+  - uid: '@azure/abort-controller.crypto.ECKeyPairOptions<"pem", "der">'
+    name: 'ECKeyPairOptions<"pem", "der">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: '@azure/abort-controller.crypto.ECKeyPairOptions'
+      - name: '<"pem", "der">'
+        fullName: '<"pem", "der">'
+  - uid: '@azure/abort-controller.crypto.ECKeyPairOptions<"der", "pem">'
+    name: 'ECKeyPairOptions<"der", "pem">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: '@azure/abort-controller.crypto.ECKeyPairOptions'
+      - name: '<"der", "pem">'
+        fullName: '<"der", "pem">'
+  - uid: '@azure/abort-controller.crypto.ECKeyPairOptions<"der", "der">'
+    name: 'ECKeyPairOptions<"der", "der">'
+    spec.typeScript:
+      - name: ECKeyPairOptions
+        fullName: ECKeyPairOptions
+        uid: '@azure/abort-controller.crypto.ECKeyPairOptions'
+      - name: '<"der", "der">'
+        fullName: '<"der", "der">'
+  - uid: '@azure/abort-controller.crypto.ECKeyPairKeyObjectOptions'
+    name: ECKeyPairKeyObjectOptions
+    spec.typeScript:
+      - name: ECKeyPairKeyObjectOptions
+        fullName: ECKeyPairKeyObjectOptions
+        uid: '@azure/abort-controller.crypto.ECKeyPairKeyObjectOptions'
+  - uid: >-
+      @azure/abort-controller.crypto.RsaPrivateKey |
+      @azure/abort-controller.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: RsaPrivateKey
+        fullName: RsaPrivateKey
+        uid: '@azure/abort-controller.crypto.RsaPrivateKey'
+      - name: ' | '
+        fullName: ' | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/abort-controller.crypto.KeyLike'
+  - uid: >-
+      @azure/abort-controller.crypto.RsaPublicKey |
+      @azure/abort-controller.crypto.RsaPrivateKey |
+      @azure/abort-controller.crypto.KeyLike
+    name: KeyLike
+    spec.typeScript:
+      - name: RsaPublicKey
+        fullName: RsaPublicKey
+        uid: '@azure/abort-controller.crypto.RsaPublicKey'
+      - name: ' | '
+        fullName: ' | '
+      - name: RsaPrivateKey
+        fullName: RsaPrivateKey
+        uid: '@azure/abort-controller.crypto.RsaPrivateKey'
+      - name: ' | '
+        fullName: ' | '
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/abort-controller.crypto.KeyLike'
+  - uid: '@azure/abort-controller.crypto.ScryptOptions'
+    name: ScryptOptions
+    spec.typeScript:
+      - name: ScryptOptions
+        fullName: ScryptOptions
+        uid: '@azure/abort-controller.crypto.ScryptOptions'
+  - uid: >-
+      @azure/abort-controller.crypto.KeyLike |
+      @azure/abort-controller.crypto.SignPrivateKeyInput
+    name: SignPrivateKeyInput
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/abort-controller.crypto.KeyLike'
+      - name: ' | '
+        fullName: ' | '
+      - name: SignPrivateKeyInput
+        fullName: SignPrivateKeyInput
+        uid: '@azure/abort-controller.crypto.SignPrivateKeyInput'
+  - uid: >-
+      @azure/abort-controller.crypto.KeyLike |
+      @azure/abort-controller.crypto.VerifyKeyWithOptions
+    name: VerifyKeyWithOptions
+    spec.typeScript:
+      - name: KeyLike
+        fullName: KeyLike
+        uid: '@azure/abort-controller.crypto.KeyLike'
+      - name: ' | '
+        fullName: ' | '
+      - name: VerifyKeyWithOptions
+        fullName: VerifyKeyWithOptions
+        uid: '@azure/abort-controller.crypto.VerifyKeyWithOptions'
+  - uid: '@azure/abort-controller.crypto.BasePrivateKeyEncodingOptions'
+    name: BasePrivateKeyEncodingOptions
+  - uid: '@azure/abort-controller.crypto.Certificate'
+    name: Certificate
+  - uid: '@azure/abort-controller.crypto.createCipher'
+    name: createCipher
+  - uid: '@azure/abort-controller.crypto.createCipher_1'
+    name: createCipher_1
+  - uid: '@azure/abort-controller.crypto.createCipher_2'
+    name: createCipher_2
+  - uid: '@azure/abort-controller.crypto.createCipheriv'
+    name: createCipheriv
+  - uid: '@azure/abort-controller.crypto.createCipheriv_1'
+    name: createCipheriv_1
+  - uid: '@azure/abort-controller.crypto.createCipheriv_2'
+    name: createCipheriv_2
+  - uid: '@azure/abort-controller.crypto.createDecipher'
+    name: createDecipher
+  - uid: '@azure/abort-controller.crypto.createDecipher_1'
+    name: createDecipher_1
+  - uid: '@azure/abort-controller.crypto.createDecipher_2'
+    name: createDecipher_2
+  - uid: '@azure/abort-controller.crypto.createDecipheriv'
+    name: createDecipheriv
+  - uid: '@azure/abort-controller.crypto.createDecipheriv_1'
+    name: createDecipheriv_1
+  - uid: '@azure/abort-controller.crypto.createDecipheriv_2'
+    name: createDecipheriv_2
+  - uid: '@azure/abort-controller.crypto.createDiffieHellman_1'
+    name: createDiffieHellman_1
+  - uid: '@azure/abort-controller.crypto.createDiffieHellman'
+    name: createDiffieHellman
+  - uid: '@azure/abort-controller.crypto.createDiffieHellman_2'
+    name: createDiffieHellman_2
+  - uid: '@azure/abort-controller.crypto.createDiffieHellman_3'
+    name: createDiffieHellman_3
+  - uid: '@azure/abort-controller.crypto.createDiffieHellman_4'
+    name: createDiffieHellman_4
+  - uid: '@azure/abort-controller.crypto.createECDH'
+    name: createECDH
+  - uid: '@azure/abort-controller.crypto.createHash'
+    name: createHash
+  - uid: '@azure/abort-controller.crypto.createHmac'
+    name: createHmac
+  - uid: '@azure/abort-controller.crypto.createPrivateKey'
+    name: createPrivateKey
+  - uid: '@azure/abort-controller.crypto.createPublicKey'
+    name: createPublicKey
+  - uid: '@azure/abort-controller.crypto.createSecretKey'
+    name: createSecretKey
+  - uid: '@azure/abort-controller.crypto.createSign'
+    name: createSign
+  - uid: '@azure/abort-controller.crypto.createVerify'
+    name: createVerify
+  - uid: '@azure/abort-controller.crypto.DSAKeyPairOptions'
+    name: DSAKeyPairOptions
+  - uid: '@azure/abort-controller.crypto.ECKeyPairOptions'
+    name: ECKeyPairOptions
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_9'
+    name: generateKeyPairSync_9
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_8'
+    name: generateKeyPairSync_8
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_7'
+    name: generateKeyPairSync_7
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_6'
+    name: generateKeyPairSync_6
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_5'
+    name: generateKeyPairSync_5
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_14'
+    name: generateKeyPairSync_14
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_13'
+    name: generateKeyPairSync_13
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_12'
+    name: generateKeyPairSync_12
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_11'
+    name: generateKeyPairSync_11
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_10'
+    name: generateKeyPairSync_10
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_4'
+    name: generateKeyPairSync_4
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_3'
+    name: generateKeyPairSync_3
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_2'
+    name: generateKeyPairSync_2
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync_1'
+    name: generateKeyPairSync_1
+  - uid: '@azure/abort-controller.crypto.generateKeyPairSync'
+    name: generateKeyPairSync
+  - uid: '@azure/abort-controller.crypto.getCiphers'
+    name: getCiphers
+  - uid: '@azure/abort-controller.crypto.getCurves'
+    name: getCurves
+  - uid: '@azure/abort-controller.crypto.getDiffieHellman'
+    name: getDiffieHellman
+  - uid: '@azure/abort-controller.crypto.getHashes'
+    name: getHashes
+  - uid: '@azure/abort-controller.crypto.KeyExportOptions'
+    name: KeyExportOptions
+  - uid: '@azure/abort-controller.crypto.KeyPairSyncResult'
+    name: KeyPairSyncResult
+  - uid: '@azure/abort-controller.crypto.pbkdf2'
+    name: pbkdf2
+  - uid: '@azure/abort-controller.crypto.pbkdf2Sync'
+    name: pbkdf2Sync
+  - uid: '@azure/abort-controller.crypto.privateDecrypt'
+    name: privateDecrypt
+  - uid: '@azure/abort-controller.crypto.privateEncrypt'
+    name: privateEncrypt
+  - uid: '@azure/abort-controller.crypto.pseudoRandomBytes'
+    name: pseudoRandomBytes
+  - uid: '@azure/abort-controller.crypto.pseudoRandomBytes_1'
+    name: pseudoRandomBytes_1
+  - uid: '@azure/abort-controller.crypto.publicDecrypt'
+    name: publicDecrypt
+  - uid: '@azure/abort-controller.crypto.publicEncrypt'
+    name: publicEncrypt
+  - uid: '@azure/abort-controller.crypto.PublicKeyInput'
+    name: PublicKeyInput
+  - uid: '@azure/abort-controller.crypto.randomBytes'
+    name: randomBytes
+  - uid: '@azure/abort-controller.crypto.randomBytes_1'
+    name: randomBytes_1
+  - uid: '@azure/abort-controller.crypto.randomFill'
+    name: randomFill
+  - uid: '@azure/abort-controller.crypto.randomFill_1'
+    name: randomFill_1
+  - uid: '@azure/abort-controller.crypto.randomFill_2'
+    name: randomFill_2
+  - uid: '@azure/abort-controller.crypto.randomFillSync'
+    name: randomFillSync
+  - uid: '@azure/abort-controller.crypto.RSAKeyPairOptions'
+    name: RSAKeyPairOptions
+  - uid: '@azure/abort-controller.crypto.RsaPrivateKey'
+    name: RsaPrivateKey
+  - uid: '@azure/abort-controller.crypto.RsaPublicKey'
+    name: RsaPublicKey
+  - uid: '@azure/abort-controller.crypto.scrypt'
+    name: scrypt
+  - uid: '@azure/abort-controller.crypto.scrypt_1'
+    name: scrypt_1
+  - uid: '@azure/abort-controller.crypto.scryptSync'
+    name: scryptSync
+  - uid: '@azure/abort-controller.crypto.sign'
+    name: sign
+  - uid: '@azure/abort-controller.crypto.SigningOptions'
+    name: SigningOptions
+  - uid: '@azure/abort-controller.crypto.SignPrivateKeyInput'
+    name: SignPrivateKeyInput
+  - uid: '@azure/abort-controller.crypto.timingSafeEqual'
+    name: timingSafeEqual
+  - uid: '@azure/abort-controller.crypto.verify'
+    name: verify
+  - uid: '@azure/abort-controller.crypto.VerifyKeyWithOptions'
+    name: VerifyKeyWithOptions

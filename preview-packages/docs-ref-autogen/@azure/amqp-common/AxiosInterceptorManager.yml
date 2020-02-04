@@ -1,0 +1,57 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.AxiosInterceptorManager'
+    name: AxiosInterceptorManager
+    fullName: AxiosInterceptorManager<V>
+    children:
+      - '@azure/ms-rest-azure-env.AxiosInterceptorManager.eject'
+      - '@azure/ms-rest-azure-env.AxiosInterceptorManager.use'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosInterceptorManager.eject'
+    name: eject(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function eject(id: number)'
+      parameters:
+        - id: id
+          type:
+            - number
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosInterceptorManager.use'
+    name: >-
+      use(undefined | (value: V) => V | Promise<V>, undefined | (error: any) =>
+      any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function use(onFulfilled?: undefined | (value: V) => V | Promise<V>,
+        onRejected?: undefined | (error: any) => any)
+      parameters:
+        - id: onFulfilled
+          type:
+            - 'undefined | (value: V) => V | Promise<V>'
+          description: ''
+          optional: true
+        - id: onRejected
+          type:
+            - 'undefined | (error: any) => any'
+          description: ''
+          optional: true
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'

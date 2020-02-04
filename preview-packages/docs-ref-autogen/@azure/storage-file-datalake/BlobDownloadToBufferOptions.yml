@@ -1,0 +1,190 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobDownloadToBufferOptions'
+    name: BlobDownloadToBufferOptions
+    fullName: BlobDownloadToBufferOptions
+    children:
+      - '@azure/abort-controller.BlobDownloadToBufferOptions.abortSignal'
+      - '@azure/abort-controller.BlobDownloadToBufferOptions.blockSize'
+      - '@azure/abort-controller.BlobDownloadToBufferOptions.concurrency'
+      - '@azure/abort-controller.BlobDownloadToBufferOptions.conditions'
+      - >-
+        @azure/abort-controller.BlobDownloadToBufferOptions.maxRetryRequestsPerBlock
+      - '@azure/abort-controller.BlobDownloadToBufferOptions.onProgress'
+      - '@azure/abort-controller.BlobDownloadToBufferOptions.tracingOptions'
+    langs:
+      - typeScript
+    type: interface
+    summary: 'Option interface for the <xref:BlobClient.downloadToBuffer> operation.'
+    extends:
+      name: '@azure/abort-controller.CommonOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobDownloadToBufferOptions.abortSignal'
+    name: abortSignal
+    fullName: abortSignal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    optional: true
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type:
+          - '@azure/abort-controller.AbortSignalLike'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobDownloadToBufferOptions.blockSize'
+    name: blockSize
+    fullName: blockSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      blockSize is the data every request trying to download.
+
+      Must be >= 0, if set to 0 or undefined, blockSize will automatically
+      calculated according
+
+      to the blob size.
+    optional: true
+    syntax:
+      content: 'blockSize?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobDownloadToBufferOptions.concurrency'
+    name: concurrency
+    fullName: concurrency
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Concurrency of parallel download.
+    optional: true
+    syntax:
+      content: 'concurrency?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobDownloadToBufferOptions.conditions'
+    name: conditions
+    fullName: conditions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Access conditions headers.
+    optional: true
+    syntax:
+      content: 'conditions?: BlobRequestConditions'
+      return:
+        type:
+          - '@azure/abort-controller.BlobRequestConditions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: >-
+      @azure/abort-controller.BlobDownloadToBufferOptions.maxRetryRequestsPerBlock
+    name: maxRetryRequestsPerBlock
+    fullName: maxRetryRequestsPerBlock
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      Optional. ONLY AVAILABLE IN NODE.JS.
+
+      How many retries will perform when original block download stream
+      unexpected ends.
+
+      Above kind of ends will not trigger retry policy defined in a pipeline,
+
+      because they doesn't emit network errors.
+
+
+      With this option, every additional retry means an additional
+      FileClient.download() request will be made
+
+      from the broken point, until the requested block has been successfully
+      downloaded or
+
+      maxRetryRequestsPerBlock is reached.
+
+
+      Default value is 5, please set a larger value when in poor network.
+    optional: true
+    syntax:
+      content: 'maxRetryRequestsPerBlock?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobDownloadToBufferOptions.onProgress'
+    name: onProgress
+    fullName: onProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Progress updater.
+    optional: true
+    syntax:
+      content: 'onProgress?: undefined | (progress: TransferProgressEvent) => void'
+      return:
+        type:
+          - 'undefined | (progress: TransferProgressEvent) => void'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobDownloadToBufferOptions.tracingOptions'
+    name: tracingOptions
+    fullName: tracingOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options to configure spans created when tracing is enabled.
+    optional: true
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type:
+          - '@azure/abort-controller.OperationTracingOptions'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.CommonOptions'
+    name: CommonOptions
+    spec.typeScript:
+      - name: CommonOptions
+        fullName: CommonOptions
+        uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.BlobRequestConditions'
+    name: BlobRequestConditions
+    spec.typeScript:
+      - name: BlobRequestConditions
+        fullName: BlobRequestConditions
+        uid: '@azure/abort-controller.BlobRequestConditions'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
+    name: OperationTracingOptions
+    spec.typeScript:
+      - name: OperationTracingOptions
+        fullName: OperationTracingOptions
+        uid: '@azure/abort-controller.OperationTracingOptions'

@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.Link
+    name: Link
+    fullName: Link
+    children:
+      - tslib.Link.attributes
+      - tslib.Link.spanContext
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      A pointer from the current <xref:Span> to another span in the same trace
+      or
+
+      in a different trace. Used (for example) in batching operations, where a
+
+      single batch handler processes multiple requests from different traces.
+    package: tslib
+  - uid: tslib.Link.attributes
+    name: attributes
+    fullName: attributes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'A set of <xref:Attributes> on the link.'
+    optional: true
+    syntax:
+      content: 'attributes?: Attributes'
+      return:
+        type:
+          - tslib.Attributes
+        description: ''
+    package: tslib
+  - uid: tslib.Link.spanContext
+    name: spanContext
+    fullName: spanContext
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The <xref:SpanContext> of a linked span.'
+    syntax:
+      content: 'spanContext: SpanContext'
+      return:
+        type:
+          - tslib.SpanContext
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.Attributes
+    name: Attributes
+    spec.typeScript:
+      - name: Attributes
+        fullName: Attributes
+        uid: tslib.Attributes
+  - uid: tslib.SpanContext
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: tslib.SpanContext

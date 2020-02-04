@@ -1,0 +1,1545 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.fs.WriteStream'
+    name: WriteStream
+    fullName: WriteStream
+    children:
+      - '@azure/abort-controller.fs.WriteStream.addListener_2'
+      - '@azure/abort-controller.fs.WriteStream.addListener_1'
+      - '@azure/abort-controller.fs.WriteStream.addListener'
+      - '@azure/abort-controller.fs.WriteStream.bytesWritten'
+      - '@azure/abort-controller.fs.WriteStream.close'
+      - '@azure/abort-controller.fs.WriteStream.cork'
+      - '@azure/abort-controller.fs.WriteStream.destroy'
+      - '@azure/abort-controller.fs.WriteStream.destroyed'
+      - '@azure/abort-controller.fs.WriteStream.emit'
+      - '@azure/abort-controller.fs.WriteStream.emit_1'
+      - '@azure/abort-controller.fs.WriteStream.emit_2'
+      - '@azure/abort-controller.fs.WriteStream.emit_3'
+      - '@azure/abort-controller.fs.WriteStream.emit_4'
+      - '@azure/abort-controller.fs.WriteStream.emit_5'
+      - '@azure/abort-controller.fs.WriteStream.emit_6'
+      - '@azure/abort-controller.fs.WriteStream.end'
+      - '@azure/abort-controller.fs.WriteStream.end_1'
+      - '@azure/abort-controller.fs.WriteStream.end_2'
+      - '@azure/abort-controller.fs.WriteStream.eventNames'
+      - '@azure/abort-controller.fs.WriteStream.getMaxListeners'
+      - '@azure/abort-controller.fs.WriteStream.listenerCount'
+      - '@azure/abort-controller.fs.WriteStream.listeners'
+      - '@azure/abort-controller.fs.WriteStream.off'
+      - '@azure/abort-controller.fs.WriteStream.on_2'
+      - '@azure/abort-controller.fs.WriteStream.on_1'
+      - '@azure/abort-controller.fs.WriteStream.on'
+      - '@azure/abort-controller.fs.WriteStream.once_2'
+      - '@azure/abort-controller.fs.WriteStream.once_1'
+      - '@azure/abort-controller.fs.WriteStream.once'
+      - '@azure/abort-controller.fs.WriteStream.path'
+      - '@azure/abort-controller.fs.WriteStream.pipe'
+      - '@azure/abort-controller.fs.WriteStream.prependListener_2'
+      - '@azure/abort-controller.fs.WriteStream.prependListener_1'
+      - '@azure/abort-controller.fs.WriteStream.prependListener'
+      - '@azure/abort-controller.fs.WriteStream.prependOnceListener_2'
+      - '@azure/abort-controller.fs.WriteStream.prependOnceListener_1'
+      - '@azure/abort-controller.fs.WriteStream.prependOnceListener'
+      - '@azure/abort-controller.fs.WriteStream.rawListeners'
+      - '@azure/abort-controller.fs.WriteStream.removeAllListeners'
+      - '@azure/abort-controller.fs.WriteStream.removeListener'
+      - '@azure/abort-controller.fs.WriteStream.removeListener_1'
+      - '@azure/abort-controller.fs.WriteStream.removeListener_2'
+      - '@azure/abort-controller.fs.WriteStream.removeListener_3'
+      - '@azure/abort-controller.fs.WriteStream.removeListener_4'
+      - '@azure/abort-controller.fs.WriteStream.removeListener_5'
+      - '@azure/abort-controller.fs.WriteStream.removeListener_6'
+      - '@azure/abort-controller.fs.WriteStream.setDefaultEncoding'
+      - '@azure/abort-controller.fs.WriteStream.setMaxListeners'
+      - '@azure/abort-controller.fs.WriteStream.uncork'
+      - '@azure/abort-controller.fs.WriteStream.writable'
+      - '@azure/abort-controller.fs.WriteStream.writableCorked'
+      - '@azure/abort-controller.fs.WriteStream.writableEnded'
+      - '@azure/abort-controller.fs.WriteStream.writableFinished'
+      - '@azure/abort-controller.fs.WriteStream.writableHighWaterMark'
+      - '@azure/abort-controller.fs.WriteStream.writableLength'
+      - '@azure/abort-controller.fs.WriteStream.writableObjectMode'
+      - '@azure/abort-controller.fs.WriteStream.write'
+      - '@azure/abort-controller.fs.WriteStream.write_1'
+      - '@azure/abort-controller.fs.WriteStream.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.stream.internal.Writable'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.addListener_2'
+    name: 'addListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.addListener_1'
+    name: 'addListener("open", (fd: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "open", listener: (fd: number) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"open"'
+          description: ''
+        - id: listener
+          type:
+            - '(fd: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.addListener'
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      events.EventEmitter
+        1. open
+        2. close
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.bytesWritten'
+    name: bytesWritten
+    fullName: bytesWritten
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bytesWritten: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.close'
+    name: close()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function close()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.cork'
+    name: cork()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function cork()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.destroy'
+    name: destroy(Error)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function destroy(error?: Error)'
+      parameters:
+        - id: error
+          type:
+            - Error
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.destroyed'
+    name: destroyed
+    fullName: destroyed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'destroyed: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.emit'
+    name: emit("close")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "close")'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.emit_1'
+    name: emit("drain")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "drain")'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.emit_2'
+    name: 'emit("error", Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "error", err: Error)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: err
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.emit_3'
+    name: emit("finish")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "finish")'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.emit_4'
+    name: 'emit("pipe", Readable)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "pipe", src: Readable)'
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: src
+          type:
+            - '@azure/abort-controller.stream.internal.Readable'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.emit_5'
+    name: 'emit("unpipe", Readable)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "unpipe", src: Readable)'
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: src
+          type:
+            - '@azure/abort-controller.stream.internal.Readable'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.emit_6'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.end'
+    name: end(() => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(cb?: () => void)'
+      parameters:
+        - id: cb
+          type:
+            - () => void
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.end_1'
+    name: 'end(any, () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(chunk: any, cb?: () => void)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: cb
+          type:
+            - () => void
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.end_2'
+    name: 'end(any, string, () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(chunk: any, encoding: string, cb?: () => void)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - string
+          description: ''
+        - id: cb
+          type:
+            - () => void
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.on_2'
+    name: 'on("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.on_1'
+    name: 'on("open", (fd: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "open", listener: (fd: number) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"open"'
+          description: ''
+        - id: listener
+          type:
+            - '(fd: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.on'
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.once_2'
+    name: 'once("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.once_1'
+    name: 'once("open", (fd: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "open", listener: (fd: number) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"open"'
+          description: ''
+        - id: listener
+          type:
+            - '(fd: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.once'
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.path'
+    name: path
+    fullName: path
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'path: string | Buffer'
+      return:
+        type:
+          - string | Buffer
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.pipe'
+    name: 'pipe(T, Object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pipe<T>(destination: T, options?: Object)'
+      parameters:
+        - id: destination
+          type:
+            - T
+          description: ''
+        - id: options
+          type:
+            - Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.prependListener_2'
+    name: 'prependListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.prependListener_1'
+    name: 'prependListener("open", (fd: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "open", listener: (fd: number) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"open"'
+          description: ''
+        - id: listener
+          type:
+            - '(fd: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.prependListener'
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.prependOnceListener_2'
+    name: 'prependOnceListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.prependOnceListener_1'
+    name: 'prependOnceListener("open", (fd: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "open", listener: (fd: number) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"open"'
+          description: ''
+        - id: listener
+          type:
+            - '(fd: number) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.prependOnceListener'
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.removeListener'
+    name: 'removeListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.removeListener_1'
+    name: 'removeListener("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.removeListener_2'
+    name: 'removeListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.removeListener_3'
+    name: 'removeListener("finish", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "finish", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.removeListener_4'
+    name: 'removeListener("pipe", (src: Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: "pipe", listener: (src: Readable) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.removeListener_5'
+    name: 'removeListener("unpipe", (src: Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: "unpipe", listener: (src: Readable) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.removeListener_6'
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.setDefaultEncoding'
+    name: setDefaultEncoding(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setDefaultEncoding(encoding: string)'
+      parameters:
+        - id: encoding
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.uncork'
+    name: uncork()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function uncork()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.writable'
+    name: writable
+    fullName: writable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writable: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.writableCorked'
+    name: writableCorked
+    fullName: writableCorked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableCorked: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.writableEnded'
+    name: writableEnded
+    fullName: writableEnded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableEnded: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.writableFinished'
+    name: writableFinished
+    fullName: writableFinished
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableFinished: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.writableHighWaterMark'
+    name: writableHighWaterMark
+    fullName: writableHighWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableHighWaterMark: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.writableLength'
+    name: writableLength
+    fullName: writableLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.writableObjectMode'
+    name: writableObjectMode
+    fullName: writableObjectMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableObjectMode: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.write'
+    name: 'write(any, (error: Error | null | undefined) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function write(chunk: any, cb?: (error: Error | null | undefined) =>
+        void)
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: cb
+          type:
+            - '(error: Error | null | undefined) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.write_1'
+    name: 'write(any, string, (error: Error | null | undefined) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function write(chunk: any, encoding: string, cb?: (error: Error | null |
+        undefined) => void)
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - string
+          description: ''
+        - id: cb
+          type:
+            - '(error: Error | null | undefined) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.WriteStream.constructor'
+    name: WriteStream(WritableOptions)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new WriteStream(opts?: WritableOptions)'
+      parameters:
+        - id: opts
+          type:
+            - '@azure/abort-controller.stream.internal.WritableOptions'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+references:
+  - uid: Object | @azure/abort-controller.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: Promise<@azure/abort-controller.fs.Stats>
+    name: Stats>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Stats
+        fullName: Stats
+        uid: '@azure/abort-controller.fs.Stats'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.NodeJS.ArrayBufferView[]'
+    name: 'ArrayBufferView[]'
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+      - name: '[]'
+        fullName: '[]'
+  - uid: Promise<@azure/abort-controller.fs.WriteVResult>
+    name: WriteVResult>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: WriteVResult
+        fullName: WriteVResult
+        uid: '@azure/abort-controller.fs.WriteVResult'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.fs.PathLike'
+    name: PathLike
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/abort-controller.fs.PathLike'
+  - uid: >-
+      @azure/abort-controller.fs.PathLike |
+      @azure/abort-controller.fs.promises.FileHandle
+    name: FileHandle
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/abort-controller.fs.PathLike'
+      - name: ' | '
+        fullName: ' | '
+      - name: FileHandle
+        fullName: FileHandle
+        uid: '@azure/abort-controller.fs.promises.FileHandle'
+  - uid: '@azure/abort-controller.fs.promises.FileHandle'
+    name: FileHandle
+    spec.typeScript:
+      - name: FileHandle
+        fullName: FileHandle
+        uid: '@azure/abort-controller.fs.promises.FileHandle'
+  - uid: number | string | @azure/abort-controller.fs.MakeDirectoryOptions | null
+    name: MakeDirectoryOptions | null
+    spec.typeScript:
+      - name: 'number | string | '
+        fullName: 'number | string | '
+      - name: MakeDirectoryOptions
+        fullName: MakeDirectoryOptions
+        uid: '@azure/abort-controller.fs.MakeDirectoryOptions'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: Object | @azure/abort-controller.BufferEncoding | null
+    name: BufferEncoding | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: Promise<@azure/abort-controller.fs.promises.FileHandle>
+    name: FileHandle>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: FileHandle
+        fullName: FileHandle
+        uid: '@azure/abort-controller.fs.promises.FileHandle'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.fs.OpenDirOptions'
+    name: OpenDirOptions
+    spec.typeScript:
+      - name: OpenDirOptions
+        fullName: OpenDirOptions
+        uid: '@azure/abort-controller.fs.OpenDirOptions'
+  - uid: Promise<@azure/abort-controller.fs.Dir>
+    name: Dir>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dir
+        fullName: Dir
+        uid: '@azure/abort-controller.fs.Dir'
+      - name: '>'
+        fullName: '>'
+  - uid: 'Promise<@azure/abort-controller.fs.Dirent[]>'
+    name: 'Dirent[]>'
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dirent
+        fullName: Dirent
+        uid: '@azure/abort-controller.fs.Dirent'
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: '@azure/abort-controller.fs.RmDirAsyncOptions'
+    name: RmDirAsyncOptions
+    spec.typeScript:
+      - name: RmDirAsyncOptions
+        fullName: RmDirAsyncOptions
+        uid: '@azure/abort-controller.fs.RmDirAsyncOptions'
+  - uid: Object | @azure/abort-controller.BufferEncoding | undefined | null
+    name: BufferEncoding | undefined | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+      - name: ' | undefined | null'
+        fullName: ' | undefined | null'
+  - uid: '@azure/abort-controller.fs.NoParamCallback'
+    name: NoParamCallback
+    spec.typeScript:
+      - name: NoParamCallback
+        fullName: NoParamCallback
+        uid: '@azure/abort-controller.fs.NoParamCallback'
+  - uid: Promise<@azure/abort-controller.fs.Dirent | null>
+    name: Dirent | null>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dirent
+        fullName: Dirent
+        uid: '@azure/abort-controller.fs.Dirent'
+      - name: ' | null>'
+        fullName: ' | null>'
+  - uid: '@azure/abort-controller.fs.Dirent'
+    name: Dirent
+    spec.typeScript:
+      - name: Dirent
+        fullName: Dirent
+        uid: '@azure/abort-controller.fs.Dirent'
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.fs.StatsBase<number>'
+    name: StatsBase<number>
+    spec.typeScript:
+      - name: StatsBase
+        fullName: StatsBase
+        uid: '@azure/abort-controller.fs.StatsBase'
+      - name: <number>
+        fullName: <number>
+  - uid: '@azure/abort-controller.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+  - uid: '@azure/abort-controller.stream.internal.WritableOptions'
+    name: WritableOptions
+    spec.typeScript:
+      - name: WritableOptions
+        fullName: WritableOptions
+        uid: '@azure/abort-controller.stream.internal.WritableOptions'
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: '@azure/abort-controller.fs.RmDirOptions'
+    name: RmDirOptions
+    spec.typeScript:
+      - name: RmDirOptions
+        fullName: RmDirOptions
+        uid: '@azure/abort-controller.fs.RmDirOptions'
+  - uid: '@azure/abort-controller.fs.PathLike | number'
+    name: PathLike | number
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/abort-controller.fs.PathLike'
+      - name: ' | number'
+        fullName: ' | number'
+  - uid: '@azure/abort-controller.fs.WriteFileOptions'
+    name: WriteFileOptions
+    spec.typeScript:
+      - name: WriteFileOptions
+        fullName: WriteFileOptions
+        uid: '@azure/abort-controller.fs.WriteFileOptions'
+  - uid: '@azure/abort-controller.fs.ReadStream'
+    name: ReadStream
+    spec.typeScript:
+      - name: ReadStream
+        fullName: ReadStream
+        uid: '@azure/abort-controller.fs.ReadStream'
+  - uid: '@azure/abort-controller.fs.WriteStream'
+    name: WriteStream
+    spec.typeScript:
+      - name: WriteStream
+        fullName: WriteStream
+        uid: '@azure/abort-controller.fs.WriteStream'
+  - uid: '@azure/abort-controller.fs.Stats'
+    name: Stats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: '@azure/abort-controller.fs.Stats'
+  - uid: '@azure/abort-controller.fs.Dir'
+    name: Dir
+    spec.typeScript:
+      - name: Dir
+        fullName: Dir
+        uid: '@azure/abort-controller.fs.Dir'
+  - uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+  - uid: '@azure/abort-controller.fs.Dirent[]'
+    name: 'Dirent[]'
+    spec.typeScript:
+      - name: Dirent
+        fullName: Dirent
+        uid: '@azure/abort-controller.fs.Dirent'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.fs.FSWatcher'
+    name: FSWatcher
+    spec.typeScript:
+      - name: FSWatcher
+        fullName: FSWatcher
+        uid: '@azure/abort-controller.fs.FSWatcher'

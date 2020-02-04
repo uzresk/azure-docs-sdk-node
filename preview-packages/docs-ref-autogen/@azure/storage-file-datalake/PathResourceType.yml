@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathResourceType'
+  - uid: '@azure/abort-controller.PathResourceType'
     name: PathResourceType
     fullName: PathResourceType
     children:
-      - '@azure/storage-file-datalake.PathResourceType.Directory'
-      - '@azure/storage-file-datalake.PathResourceType.File'
+      - '@azure/abort-controller.PathResourceType.Directory'
+      - '@azure/abort-controller.PathResourceType.File'
     langs:
       - typeScript
     type: enum
     summary: |-
       Defines values for PathResourceType.
       Possible values include: 'directory', 'file'
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathResourceType.Directory'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathResourceType.Directory'
     name: Directory
     children: []
     langs:
@@ -21,8 +21,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathResourceType.File'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathResourceType.File'
     name: File
     children: []
     langs:
@@ -30,4 +30,4 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

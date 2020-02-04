@@ -1,0 +1,2775 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.tty.ReadStream'
+    name: ReadStream
+    fullName: ReadStream
+    children:
+      - '@azure/abort-controller.tty.ReadStream.addListener_1'
+      - '@azure/abort-controller.tty.ReadStream.addListener_2'
+      - '@azure/abort-controller.tty.ReadStream.addListener_3'
+      - '@azure/abort-controller.tty.ReadStream.addListener_4'
+      - '@azure/abort-controller.tty.ReadStream.addListener_5'
+      - '@azure/abort-controller.tty.ReadStream.addListener_6'
+      - '@azure/abort-controller.tty.ReadStream.addListener_7'
+      - '@azure/abort-controller.tty.ReadStream.addListener_8'
+      - '@azure/abort-controller.tty.ReadStream.addListener'
+      - '@azure/abort-controller.tty.ReadStream.address'
+      - '@azure/abort-controller.tty.ReadStream.bufferSize'
+      - '@azure/abort-controller.tty.ReadStream.bytesRead'
+      - '@azure/abort-controller.tty.ReadStream.bytesWritten'
+      - '@azure/abort-controller.tty.ReadStream.connect_2'
+      - '@azure/abort-controller.tty.ReadStream.connect_1'
+      - '@azure/abort-controller.tty.ReadStream.connect'
+      - '@azure/abort-controller.tty.ReadStream.connect_3'
+      - '@azure/abort-controller.tty.ReadStream.connecting'
+      - '@azure/abort-controller.tty.ReadStream.cork'
+      - '@azure/abort-controller.tty.ReadStream.destroy'
+      - '@azure/abort-controller.tty.ReadStream.destroyed'
+      - '@azure/abort-controller.tty.ReadStream.emit_1'
+      - '@azure/abort-controller.tty.ReadStream.emit_2'
+      - '@azure/abort-controller.tty.ReadStream.emit_3'
+      - '@azure/abort-controller.tty.ReadStream.emit_4'
+      - '@azure/abort-controller.tty.ReadStream.emit_5'
+      - '@azure/abort-controller.tty.ReadStream.emit_6'
+      - '@azure/abort-controller.tty.ReadStream.emit_7'
+      - '@azure/abort-controller.tty.ReadStream.emit_8'
+      - '@azure/abort-controller.tty.ReadStream.emit'
+      - '@azure/abort-controller.tty.ReadStream.end'
+      - '@azure/abort-controller.tty.ReadStream.end_1'
+      - '@azure/abort-controller.tty.ReadStream.end_2'
+      - '@azure/abort-controller.tty.ReadStream.eventNames'
+      - '@azure/abort-controller.tty.ReadStream.from'
+      - '@azure/abort-controller.tty.ReadStream.getMaxListeners'
+      - '@azure/abort-controller.tty.ReadStream.isPaused'
+      - '@azure/abort-controller.tty.ReadStream.isRaw'
+      - '@azure/abort-controller.tty.ReadStream.isTTY'
+      - '@azure/abort-controller.tty.ReadStream.listenerCount'
+      - '@azure/abort-controller.tty.ReadStream.listeners'
+      - '@azure/abort-controller.tty.ReadStream.localAddress'
+      - '@azure/abort-controller.tty.ReadStream.localPort'
+      - '@azure/abort-controller.tty.ReadStream.off'
+      - '@azure/abort-controller.tty.ReadStream.on_1'
+      - '@azure/abort-controller.tty.ReadStream.on_2'
+      - '@azure/abort-controller.tty.ReadStream.on_3'
+      - '@azure/abort-controller.tty.ReadStream.on_4'
+      - '@azure/abort-controller.tty.ReadStream.on_5'
+      - '@azure/abort-controller.tty.ReadStream.on_6'
+      - '@azure/abort-controller.tty.ReadStream.on_7'
+      - '@azure/abort-controller.tty.ReadStream.on_8'
+      - '@azure/abort-controller.tty.ReadStream.on'
+      - '@azure/abort-controller.tty.ReadStream.once_1'
+      - '@azure/abort-controller.tty.ReadStream.once_2'
+      - '@azure/abort-controller.tty.ReadStream.once_3'
+      - '@azure/abort-controller.tty.ReadStream.once_4'
+      - '@azure/abort-controller.tty.ReadStream.once_5'
+      - '@azure/abort-controller.tty.ReadStream.once_6'
+      - '@azure/abort-controller.tty.ReadStream.once_7'
+      - '@azure/abort-controller.tty.ReadStream.once_8'
+      - '@azure/abort-controller.tty.ReadStream.once'
+      - '@azure/abort-controller.tty.ReadStream.pause'
+      - '@azure/abort-controller.tty.ReadStream.pipe'
+      - '@azure/abort-controller.tty.ReadStream.prependListener_1'
+      - '@azure/abort-controller.tty.ReadStream.prependListener_2'
+      - '@azure/abort-controller.tty.ReadStream.prependListener_3'
+      - '@azure/abort-controller.tty.ReadStream.prependListener_4'
+      - '@azure/abort-controller.tty.ReadStream.prependListener_5'
+      - '@azure/abort-controller.tty.ReadStream.prependListener_6'
+      - '@azure/abort-controller.tty.ReadStream.prependListener_7'
+      - '@azure/abort-controller.tty.ReadStream.prependListener_8'
+      - '@azure/abort-controller.tty.ReadStream.prependListener'
+      - '@azure/abort-controller.tty.ReadStream.prependOnceListener_1'
+      - '@azure/abort-controller.tty.ReadStream.prependOnceListener_2'
+      - '@azure/abort-controller.tty.ReadStream.prependOnceListener_3'
+      - '@azure/abort-controller.tty.ReadStream.prependOnceListener_4'
+      - '@azure/abort-controller.tty.ReadStream.prependOnceListener_5'
+      - '@azure/abort-controller.tty.ReadStream.prependOnceListener_6'
+      - '@azure/abort-controller.tty.ReadStream.prependOnceListener_7'
+      - '@azure/abort-controller.tty.ReadStream.prependOnceListener_8'
+      - '@azure/abort-controller.tty.ReadStream.prependOnceListener'
+      - '@azure/abort-controller.tty.ReadStream.push'
+      - '@azure/abort-controller.tty.ReadStream.rawListeners'
+      - '@azure/abort-controller.tty.ReadStream.read'
+      - '@azure/abort-controller.tty.ReadStream.readable'
+      - '@azure/abort-controller.tty.ReadStream.readableHighWaterMark'
+      - '@azure/abort-controller.tty.ReadStream.readableLength'
+      - '@azure/abort-controller.tty.ReadStream.readableObjectMode'
+      - '@azure/abort-controller.tty.ReadStream.constructor'
+      - '@azure/abort-controller.tty.ReadStream.ref'
+      - '@azure/abort-controller.tty.ReadStream.remoteAddress'
+      - '@azure/abort-controller.tty.ReadStream.remoteFamily'
+      - '@azure/abort-controller.tty.ReadStream.remotePort'
+      - '@azure/abort-controller.tty.ReadStream.removeAllListeners'
+      - '@azure/abort-controller.tty.ReadStream.removeListener'
+      - '@azure/abort-controller.tty.ReadStream.removeListener_1'
+      - '@azure/abort-controller.tty.ReadStream.removeListener_2'
+      - '@azure/abort-controller.tty.ReadStream.removeListener_4'
+      - '@azure/abort-controller.tty.ReadStream.removeListener_3'
+      - '@azure/abort-controller.tty.ReadStream.removeListener_5'
+      - '@azure/abort-controller.tty.ReadStream.resume'
+      - '@azure/abort-controller.tty.ReadStream.setDefaultEncoding'
+      - '@azure/abort-controller.tty.ReadStream.setEncoding'
+      - '@azure/abort-controller.tty.ReadStream.setKeepAlive'
+      - '@azure/abort-controller.tty.ReadStream.setMaxListeners'
+      - '@azure/abort-controller.tty.ReadStream.setNoDelay'
+      - '@azure/abort-controller.tty.ReadStream.setRawMode'
+      - '@azure/abort-controller.tty.ReadStream.setTimeout'
+      - '@azure/abort-controller.tty.ReadStream.uncork'
+      - '@azure/abort-controller.tty.ReadStream.unpipe'
+      - '@azure/abort-controller.tty.ReadStream.unref'
+      - '@azure/abort-controller.tty.ReadStream.unshift'
+      - '@azure/abort-controller.tty.ReadStream.wrap'
+      - '@azure/abort-controller.tty.ReadStream.writable'
+      - '@azure/abort-controller.tty.ReadStream.writableCorked'
+      - '@azure/abort-controller.tty.ReadStream.writableEnded'
+      - '@azure/abort-controller.tty.ReadStream.writableFinished'
+      - '@azure/abort-controller.tty.ReadStream.writableHighWaterMark'
+      - '@azure/abort-controller.tty.ReadStream.writableLength'
+      - '@azure/abort-controller.tty.ReadStream.writableObjectMode'
+      - '@azure/abort-controller.tty.ReadStream.write'
+      - '@azure/abort-controller.tty.ReadStream.write_1'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.net.Socket'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.addListener_1'
+    name: 'addListener("close", (had_error: boolean) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "close", listener: (had_error: boolean) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - '(had_error: boolean) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.addListener_2'
+    name: 'addListener("connect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "connect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"connect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.addListener_3'
+    name: 'addListener("data", (data: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "data", listener: (data: Buffer) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(data: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.addListener_4'
+    name: 'addListener("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.addListener_5'
+    name: 'addListener("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.addListener_6'
+    name: 'addListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.addListener_7'
+    name: >-
+      addListener("lookup", (err: Error, address: string, family: string |
+      number, host: string) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "lookup", listener: (err: Error, address:
+        string, family: string | number, host: string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"lookup"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (err: Error, address: string, family: string | number, host:
+              string) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.addListener_8'
+    name: 'addListener("timeout", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "timeout", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"timeout"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.addListener'
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      events.EventEmitter
+        1. close
+        2. connect
+        3. data
+        4. drain
+        5. end
+        6. error
+        7. lookup
+        8. timeout
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.address'
+    name: address()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function address()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.net.AddressInfo | string'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.bufferSize'
+    name: bufferSize
+    fullName: bufferSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bufferSize: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.bytesRead'
+    name: bytesRead
+    fullName: bytesRead
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bytesRead: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.bytesWritten'
+    name: bytesWritten
+    fullName: bytesWritten
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bytesWritten: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.connect_2'
+    name: 'connect(number, () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function connect(port: number, connectionListener?: () => void)'
+      parameters:
+        - id: port
+          type:
+            - number
+          description: ''
+        - id: connectionListener
+          type:
+            - () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.connect_1'
+    name: 'connect(number, string, () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function connect(port: number, host: string, connectionListener?: () =>
+        void)
+      parameters:
+        - id: port
+          type:
+            - number
+          description: ''
+        - id: host
+          type:
+            - string
+          description: ''
+        - id: connectionListener
+          type:
+            - () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.connect'
+    name: 'connect(SocketConnectOpts, () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function connect(options: SocketConnectOpts, connectionListener?: () =>
+        void)
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.net.SocketConnectOpts'
+          description: ''
+        - id: connectionListener
+          type:
+            - () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.connect_3'
+    name: 'connect(string, () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function connect(path: string, connectionListener?: () => void)'
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+        - id: connectionListener
+          type:
+            - () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.connecting'
+    name: connecting
+    fullName: connecting
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'connecting: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.cork'
+    name: cork()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function cork()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.destroy'
+    name: destroy(Error)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function destroy(error?: Error)'
+      parameters:
+        - id: error
+          type:
+            - Error
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.destroyed'
+    name: destroyed
+    fullName: destroyed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'destroyed: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.emit_1'
+    name: 'emit("close", boolean)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "close", had_error: boolean)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: had_error
+          type:
+            - boolean
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.emit_2'
+    name: emit("connect")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "connect")'
+      parameters:
+        - id: event
+          type:
+            - '"connect"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.emit_3'
+    name: 'emit("data", Buffer)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "data", data: Buffer)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: data
+          type:
+            - Buffer
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.emit_4'
+    name: emit("drain")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "drain")'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.emit_5'
+    name: emit("end")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "end")'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.emit_6'
+    name: 'emit("error", Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "error", err: Error)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: err
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.emit_7'
+    name: 'emit("lookup", Error, string, string | number, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function emit(event: "lookup", err: Error, address: string, family:
+        string | number, host: string)
+      parameters:
+        - id: event
+          type:
+            - '"lookup"'
+          description: ''
+        - id: err
+          type:
+            - Error
+          description: ''
+        - id: address
+          type:
+            - string
+          description: ''
+        - id: family
+          type:
+            - string | number
+          description: ''
+        - id: host
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.emit_8'
+    name: emit("timeout")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "timeout")'
+      parameters:
+        - id: event
+          type:
+            - '"timeout"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.end'
+    name: end(() => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(cb?: () => void)'
+      parameters:
+        - id: cb
+          type:
+            - () => void
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.end_1'
+    name: 'end(Uint8Array | string, () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(buffer: Uint8Array | string, cb?: () => void)'
+      parameters:
+        - id: buffer
+          type:
+            - Uint8Array | string
+          description: ''
+        - id: cb
+          type:
+            - () => void
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.end_2'
+    name: 'end(Uint8Array | string, string, () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function end(str: Uint8Array | string, encoding?: string, cb?: () =>
+        void)
+      parameters:
+        - id: str
+          type:
+            - Uint8Array | string
+          description: ''
+        - id: encoding
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: cb
+          type:
+            - () => void
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.from'
+    name: 'from(Iterable<any> | AsyncIterable<any>, ReadableOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: A utility method for creating Readable Streams out of iterators.
+    syntax:
+      content: >-
+        static function from(iterable: Iterable<any> | AsyncIterable<any>,
+        options?: ReadableOptions)
+      parameters:
+        - id: iterable
+          type:
+            - Iterable<any> | AsyncIterable<any>
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.stream.internal.ReadableOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.stream.internal.Readable'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.isPaused'
+    name: isPaused()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function isPaused()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.isRaw'
+    name: isRaw
+    fullName: isRaw
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isRaw: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.isTTY'
+    name: isTTY
+    fullName: isTTY
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'isTTY: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.localAddress'
+    name: localAddress
+    fullName: localAddress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'localAddress: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.localPort'
+    name: localPort
+    fullName: localPort
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'localPort: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.on_1'
+    name: 'on("close", (had_error: boolean) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "close", listener: (had_error: boolean) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - '(had_error: boolean) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.on_2'
+    name: 'on("connect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "connect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"connect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.on_3'
+    name: 'on("data", (data: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "data", listener: (data: Buffer) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(data: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.on_4'
+    name: 'on("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.on_5'
+    name: 'on("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.on_6'
+    name: 'on("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.on_7'
+    name: >-
+      on("lookup", (err: Error, address: string, family: string | number, host:
+      string) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "lookup", listener: (err: Error, address: string,
+        family: string | number, host: string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"lookup"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (err: Error, address: string, family: string | number, host:
+              string) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.on_8'
+    name: 'on("timeout", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "timeout", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"timeout"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.on'
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.once_1'
+    name: 'once("close", (had_error: boolean) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "close", listener: (had_error: boolean) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - '(had_error: boolean) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.once_2'
+    name: 'once("connect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "connect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"connect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.once_3'
+    name: 'once("data", (data: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "data", listener: (data: Buffer) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(data: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.once_4'
+    name: 'once("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.once_5'
+    name: 'once("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.once_6'
+    name: 'once("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.once_7'
+    name: >-
+      once("lookup", (err: Error, address: string, family: string | number,
+      host: string) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "lookup", listener: (err: Error, address: string,
+        family: string | number, host: string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"lookup"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (err: Error, address: string, family: string | number, host:
+              string) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.once_8'
+    name: 'once("timeout", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "timeout", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"timeout"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.once'
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.pause'
+    name: pause()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function pause()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.pipe'
+    name: 'pipe(T, Object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pipe<T>(destination: T, options?: Object)'
+      parameters:
+        - id: destination
+          type:
+            - T
+          description: ''
+        - id: options
+          type:
+            - Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependListener_1'
+    name: 'prependListener("close", (had_error: boolean) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "close", listener: (had_error: boolean)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - '(had_error: boolean) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependListener_2'
+    name: 'prependListener("connect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "connect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"connect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependListener_3'
+    name: 'prependListener("data", (data: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "data", listener: (data: Buffer) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(data: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependListener_4'
+    name: 'prependListener("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependListener_5'
+    name: 'prependListener("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependListener_6'
+    name: 'prependListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependListener_7'
+    name: >-
+      prependListener("lookup", (err: Error, address: string, family: string |
+      number, host: string) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "lookup", listener: (err: Error,
+        address: string, family: string | number, host: string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"lookup"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (err: Error, address: string, family: string | number, host:
+              string) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependListener_8'
+    name: 'prependListener("timeout", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "timeout", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"timeout"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependListener'
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependOnceListener_1'
+    name: 'prependOnceListener("close", (had_error: boolean) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "close", listener: (had_error:
+        boolean) => void)
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - '(had_error: boolean) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependOnceListener_2'
+    name: 'prependOnceListener("connect", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "connect", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"connect"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependOnceListener_3'
+    name: 'prependOnceListener("data", (data: Buffer) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "data", listener: (data: Buffer) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(data: Buffer) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependOnceListener_4'
+    name: 'prependOnceListener("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependOnceListener_5'
+    name: 'prependOnceListener("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependOnceListener_6'
+    name: 'prependOnceListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "error", listener: (err: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependOnceListener_7'
+    name: >-
+      prependOnceListener("lookup", (err: Error, address: string, family: string
+      | number, host: string) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "lookup", listener: (err: Error,
+        address: string, family: string | number, host: string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"lookup"'
+          description: ''
+        - id: listener
+          type:
+            - >-
+              (err: Error, address: string, family: string | number, host:
+              string) => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependOnceListener_8'
+    name: 'prependOnceListener("timeout", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "timeout", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"timeout"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.prependOnceListener'
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.push'
+    name: 'push(any, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function push(chunk: any, encoding?: string)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.read'
+    name: read(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function read(size?: number)'
+      parameters:
+        - id: size
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.readable'
+    name: readable
+    fullName: readable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readable: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.readableHighWaterMark'
+    name: readableHighWaterMark
+    fullName: readableHighWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readableHighWaterMark: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.readableLength'
+    name: readableLength
+    fullName: readableLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readableLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.readableObjectMode'
+    name: readableObjectMode
+    fullName: readableObjectMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'readableObjectMode: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.constructor'
+    name: 'ReadStream(number, SocketConstructorOpts)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new ReadStream(fd: number, options?: SocketConstructorOpts)'
+      parameters:
+        - id: fd
+          type:
+            - number
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.net.SocketConstructorOpts'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.ref'
+    name: ref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ref()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.remoteAddress'
+    name: remoteAddress
+    fullName: remoteAddress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'remoteAddress?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.remoteFamily'
+    name: remoteFamily
+    fullName: remoteFamily
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'remoteFamily?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.remotePort'
+    name: remotePort
+    fullName: remotePort
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'remotePort?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.removeListener'
+    name: 'removeListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.removeListener_1'
+    name: 'removeListener("data", (chunk: any) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "data", listener: (chunk: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"data"'
+          description: ''
+        - id: listener
+          type:
+            - '(chunk: any) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.removeListener_2'
+    name: 'removeListener("end", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "end", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"end"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.removeListener_4'
+    name: 'removeListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.removeListener_3'
+    name: 'removeListener("readable", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: "readable", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"readable"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.removeListener_5'
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.resume'
+    name: resume()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resume()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.setDefaultEncoding'
+    name: setDefaultEncoding(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setDefaultEncoding(encoding: string)'
+      parameters:
+        - id: encoding
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.setEncoding'
+    name: setEncoding(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setEncoding(encoding?: string)'
+      parameters:
+        - id: encoding
+          type:
+            - string
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.setKeepAlive'
+    name: 'setKeepAlive(boolean, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setKeepAlive(enable?: boolean, initialDelay?: number)'
+      parameters:
+        - id: enable
+          type:
+            - boolean
+          description: ''
+          optional: true
+        - id: initialDelay
+          type:
+            - number
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.setNoDelay'
+    name: setNoDelay(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setNoDelay(noDelay?: boolean)'
+      parameters:
+        - id: noDelay
+          type:
+            - boolean
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.setRawMode'
+    name: setRawMode(boolean)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setRawMode(mode: boolean)'
+      parameters:
+        - id: mode
+          type:
+            - boolean
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.setTimeout'
+    name: 'setTimeout(number, () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setTimeout(timeout: number, callback?: () => void)'
+      parameters:
+        - id: timeout
+          type:
+            - number
+          description: ''
+        - id: callback
+          type:
+            - () => void
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.uncork'
+    name: uncork()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function uncork()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.unpipe'
+    name: unpipe(WritableStream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unpipe(destination?: WritableStream)'
+      parameters:
+        - id: destination
+          type:
+            - '@azure/abort-controller.NodeJS.WritableStream'
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.unref'
+    name: unref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unref()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.unshift'
+    name: 'unshift(any, BufferEncoding)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function unshift(chunk: any, encoding?: BufferEncoding)'
+      parameters:
+        - id: chunk
+          type:
+            - any
+          description: ''
+        - id: encoding
+          type:
+            - '@azure/abort-controller.BufferEncoding'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.wrap'
+    name: wrap(ReadableStream)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function wrap(oldStream: ReadableStream)'
+      parameters:
+        - id: oldStream
+          type:
+            - '@azure/abort-controller.NodeJS.ReadableStream'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.writable'
+    name: writable
+    fullName: writable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writable: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.writableCorked'
+    name: writableCorked
+    fullName: writableCorked
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableCorked: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.writableEnded'
+    name: writableEnded
+    fullName: writableEnded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableEnded: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.writableFinished'
+    name: writableFinished
+    fullName: writableFinished
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableFinished: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.writableHighWaterMark'
+    name: writableHighWaterMark
+    fullName: writableHighWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableHighWaterMark: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.writableLength'
+    name: writableLength
+    fullName: writableLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableLength: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.writableObjectMode'
+    name: writableObjectMode
+    fullName: writableObjectMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'writableObjectMode: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.write'
+    name: 'write(Uint8Array | string, (err?: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function write(buffer: Uint8Array | string, cb?: (err?: Error) => void)'
+      parameters:
+        - id: buffer
+          type:
+            - Uint8Array | string
+          description: ''
+        - id: cb
+          type:
+            - '(err?: Error) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.tty.ReadStream.write_1'
+    name: 'write(Uint8Array | string, string, (err?: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function write(str: Uint8Array | string, encoding?: string, cb?: (err?:
+        Error) => void)
+      parameters:
+        - id: str
+          type:
+            - Uint8Array | string
+          description: ''
+        - id: encoding
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: cb
+          type:
+            - '(err?: Error) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.net.Socket'
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/abort-controller.net.Socket'
+  - uid: '@azure/abort-controller.net.SocketConstructorOpts'
+    name: SocketConstructorOpts
+    spec.typeScript:
+      - name: SocketConstructorOpts
+        fullName: SocketConstructorOpts
+        uid: '@azure/abort-controller.net.SocketConstructorOpts'
+  - uid: '@azure/abort-controller.net.AddressInfo | string'
+    name: AddressInfo | string
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: '@azure/abort-controller.net.AddressInfo'
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: '@azure/abort-controller.net.SocketConnectOpts'
+    name: SocketConnectOpts
+    spec.typeScript:
+      - name: SocketConnectOpts
+        fullName: SocketConnectOpts
+        uid: '@azure/abort-controller.net.SocketConnectOpts'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: '@azure/abort-controller.tty.Direction'
+    name: Direction
+    spec.typeScript:
+      - name: Direction
+        fullName: Direction
+        uid: '@azure/abort-controller.tty.Direction'

@@ -1,21 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders'
+  - uid: '@azure/abort-controller.PathSetAccessControlHeaders'
     name: PathSetAccessControlHeaders
     fullName: PathSetAccessControlHeaders
     children:
-      - '@azure/storage-file-datalake.PathSetAccessControlHeaders.clientRequestId'
-      - '@azure/storage-file-datalake.PathSetAccessControlHeaders.date'
-      - '@azure/storage-file-datalake.PathSetAccessControlHeaders.eTag'
-      - '@azure/storage-file-datalake.PathSetAccessControlHeaders.lastModified'
-      - '@azure/storage-file-datalake.PathSetAccessControlHeaders.requestId'
-      - '@azure/storage-file-datalake.PathSetAccessControlHeaders.version'
+      - '@azure/abort-controller.PathSetAccessControlHeaders.clientRequestId'
+      - '@azure/abort-controller.PathSetAccessControlHeaders.date'
+      - '@azure/abort-controller.PathSetAccessControlHeaders.eTag'
+      - '@azure/abort-controller.PathSetAccessControlHeaders.lastModified'
+      - '@azure/abort-controller.PathSetAccessControlHeaders.requestId'
+      - '@azure/abort-controller.PathSetAccessControlHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: Defines headers for SetAccessControl operation.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders.clientRequestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetAccessControlHeaders.clientRequestId'
     name: clientRequestId
     fullName: clientRequestId
     children: []
@@ -34,8 +34,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetAccessControlHeaders.date'
     name: date
     fullName: date
     children: []
@@ -52,10 +52,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders.eTag'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetAccessControlHeaders.eTag'
     name: eTag
     fullName: eTag
     children: []
@@ -70,8 +70,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders.lastModified'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetAccessControlHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -88,10 +88,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetAccessControlHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -108,8 +108,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PathSetAccessControlHeaders.version'
     name: version
     fullName: version
     children: []
@@ -124,4 +124,11 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'

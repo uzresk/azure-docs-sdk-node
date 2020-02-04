@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.buildResponseStateOnly'
+    name: buildResponseStateOnly(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function buildResponseStateOnly(state: string)'
+      parameters:
+        - id: state
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.AuthResponse'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.AuthResponse'
+    name: AuthResponse
+    spec.typeScript:
+      - name: AuthResponse
+        fullName: AuthResponse
+        uid: '@azure/abort-controller.AuthResponse'

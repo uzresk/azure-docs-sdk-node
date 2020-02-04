@@ -1,0 +1,108 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.repl.REPLCommandAction'
+    name: REPLCommandAction
+    fullName: REPLCommandAction
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type REPLCommandAction = (this: REPLServer, text: string) => void'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.readline.Interface'
+    name: Interface
+    spec.typeScript:
+      - name: Interface
+        fullName: Interface
+        uid: '@azure/abort-controller.readline.Interface'
+  - uid: >-
+      @azure/abort-controller.readline.Completer |
+      @azure/abort-controller.readline.AsyncCompleter
+    name: AsyncCompleter
+    spec.typeScript:
+      - name: Completer
+        fullName: Completer
+        uid: '@azure/abort-controller.readline.Completer'
+      - name: ' | '
+        fullName: ' | '
+      - name: AsyncCompleter
+        fullName: AsyncCompleter
+        uid: '@azure/abort-controller.readline.AsyncCompleter'
+  - uid: '@azure/abort-controller.vm.Context'
+    name: Context
+    spec.typeScript:
+      - name: Context
+        fullName: Context
+        uid: '@azure/abort-controller.vm.Context'
+  - uid: '@azure/abort-controller.repl.REPLEval'
+    name: REPLEval
+    spec.typeScript:
+      - name: REPLEval
+        fullName: REPLEval
+        uid: '@azure/abort-controller.repl.REPLEval'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.repl.REPLWriter'
+    name: REPLWriter
+    spec.typeScript:
+      - name: REPLWriter
+        fullName: REPLWriter
+        uid: '@azure/abort-controller.repl.REPLWriter'
+  - uid: >-
+      @azure/abort-controller.repl.REPLCommandAction |
+      @azure/abort-controller.repl.REPLCommand
+    name: REPLCommand
+    spec.typeScript:
+      - name: REPLCommandAction
+        fullName: REPLCommandAction
+        uid: '@azure/abort-controller.repl.REPLCommandAction'
+      - name: ' | '
+        fullName: ' | '
+      - name: REPLCommand
+        fullName: REPLCommand
+        uid: '@azure/abort-controller.repl.REPLCommand'
+  - uid: '@azure/abort-controller.readline.CursorPos'
+    name: CursorPos
+    spec.typeScript:
+      - name: CursorPos
+        fullName: CursorPos
+        uid: '@azure/abort-controller.readline.CursorPos'
+  - uid: '@azure/abort-controller.readline.Key'
+    name: Key
+    spec.typeScript:
+      - name: Key
+        fullName: Key
+        uid: '@azure/abort-controller.readline.Key'
+  - uid: '@azure/abort-controller.repl.REPLCommandAction'
+    name: REPLCommandAction
+    spec.typeScript:
+      - name: REPLCommandAction
+        fullName: REPLCommandAction
+        uid: '@azure/abort-controller.repl.REPLCommandAction'
+  - uid: string | @azure/abort-controller.repl.ReplOptions
+    name: ReplOptions
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: ReplOptions
+        fullName: ReplOptions
+        uid: '@azure/abort-controller.repl.ReplOptions'
+  - uid: '@azure/abort-controller.repl.REPLServer'
+    name: REPLServer
+    spec.typeScript:
+      - name: REPLServer
+        fullName: REPLServer
+        uid: '@azure/abort-controller.repl.REPLServer'

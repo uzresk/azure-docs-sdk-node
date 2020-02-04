@@ -1,0 +1,149 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.SpanOptions'
+    name: SpanOptions
+    fullName: SpanOptions
+    children:
+      - '@opentelemetry/types.SpanOptions.attributes'
+      - '@opentelemetry/types.SpanOptions.isRecording'
+      - '@opentelemetry/types.SpanOptions.kind'
+      - '@opentelemetry/types.SpanOptions.links'
+      - '@opentelemetry/types.SpanOptions.parent'
+      - '@opentelemetry/types.SpanOptions.startTime'
+    langs:
+      - typeScript
+    type: interface
+    summary: Options needed for span creation
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.SpanOptions.attributes'
+    name: attributes
+    fullName: attributes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A spans attributes
+    optional: true
+    syntax:
+      content: 'attributes?: Attributes'
+      return:
+        type:
+          - '@opentelemetry/types.Attributes'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.SpanOptions.isRecording'
+    name: isRecording
+    fullName: isRecording
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Indicates that if this Span is active and recording information like
+      events with the `AddEvent` operation and attributes using `setAttributes`.
+    optional: true
+    syntax:
+      content: 'isRecording?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.SpanOptions.kind'
+    name: kind
+    fullName: kind
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The SpanKind of a span
+    optional: true
+    syntax:
+      content: 'kind?: SpanKind'
+      return:
+        type:
+          - '@opentelemetry/types.SpanKind'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.SpanOptions.links'
+    name: links
+    fullName: links
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A spans links
+    optional: true
+    syntax:
+      content: 'links?: Link[]'
+      return:
+        type:
+          - '@opentelemetry/types.Link[]'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.SpanOptions.parent'
+    name: parent
+    fullName: parent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A parent `SpanContext` (or `Span`, for convenience) that the newly-started
+      span will be the child of.
+    optional: true
+    syntax:
+      content: 'parent?: Span | SpanContext'
+      return:
+        type:
+          - '@opentelemetry/types.Span | @opentelemetry/types.SpanContext'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.SpanOptions.startTime'
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A manually specified start time for the created `Span` object.
+    optional: true
+    syntax:
+      content: 'startTime?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.Attributes'
+    name: Attributes
+    spec.typeScript:
+      - name: Attributes
+        fullName: Attributes
+        uid: '@opentelemetry/types.Attributes'
+  - uid: '@opentelemetry/types.SpanKind'
+    name: SpanKind
+    spec.typeScript:
+      - name: SpanKind
+        fullName: SpanKind
+        uid: '@opentelemetry/types.SpanKind'
+  - uid: '@opentelemetry/types.Link[]'
+    name: 'Link[]'
+    spec.typeScript:
+      - name: Link
+        fullName: Link
+        uid: '@opentelemetry/types.Link'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@opentelemetry/types.Span | @opentelemetry/types.SpanContext'
+    name: SpanContext
+    spec.typeScript:
+      - name: Span
+        fullName: Span
+        uid: '@opentelemetry/types.Span'
+      - name: ' | '
+        fullName: ' | '
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@opentelemetry/types.SpanContext'

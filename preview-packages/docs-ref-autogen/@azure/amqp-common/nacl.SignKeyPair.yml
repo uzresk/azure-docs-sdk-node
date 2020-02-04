@@ -1,0 +1,56 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.nacl.SignKeyPair'
+    name: SignKeyPair
+    fullName: SignKeyPair
+    children:
+      - '@azure/ms-rest-azure-env.nacl.SignKeyPair.publicKey'
+      - '@azure/ms-rest-azure-env.nacl.SignKeyPair.secretKey'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.nacl.SignKeyPair.publicKey'
+    name: publicKey
+    fullName: publicKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'publicKey: Uint8Array'
+      return:
+        type:
+          - Uint8Array
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.nacl.SignKeyPair.secretKey'
+    name: secretKey
+    fullName: secretKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'secretKey: Uint8Array'
+      return:
+        type:
+          - Uint8Array
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.nacl.BoxKeyPair'
+    name: BoxKeyPair
+    spec.typeScript:
+      - name: BoxKeyPair
+        fullName: BoxKeyPair
+        uid: '@azure/ms-rest-azure-env.nacl.BoxKeyPair'
+  - uid: '@azure/ms-rest-azure-env.nacl.SignKeyPair'
+    name: SignKeyPair
+    spec.typeScript:
+      - name: SignKeyPair
+        fullName: SignKeyPair
+        uid: '@azure/ms-rest-azure-env.nacl.SignKeyPair'

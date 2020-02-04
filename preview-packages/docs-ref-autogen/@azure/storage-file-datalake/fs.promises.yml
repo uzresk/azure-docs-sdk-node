@@ -1,0 +1,1880 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.fs.promises'
+    name: promises
+    langs:
+      - typeScript
+    fullName: promises
+    children:
+      - '@azure/abort-controller.fs.promises.access'
+      - '@azure/abort-controller.fs.promises.appendFile'
+      - '@azure/abort-controller.fs.promises.chmod'
+      - '@azure/abort-controller.fs.promises.chown'
+      - '@azure/abort-controller.fs.promises.copyFile'
+      - '@azure/abort-controller.fs.promises.fchmod'
+      - '@azure/abort-controller.fs.promises.fchown'
+      - '@azure/abort-controller.fs.promises.fdatasync'
+      - '@azure/abort-controller.fs.promises.FileHandle'
+      - '@azure/abort-controller.fs.promises.fstat'
+      - '@azure/abort-controller.fs.promises.fsync'
+      - '@azure/abort-controller.fs.promises.ftruncate'
+      - '@azure/abort-controller.fs.promises.futimes'
+      - '@azure/abort-controller.fs.promises.lchmod'
+      - '@azure/abort-controller.fs.promises.lchown'
+      - '@azure/abort-controller.fs.promises.link'
+      - '@azure/abort-controller.fs.promises.lstat'
+      - '@azure/abort-controller.fs.promises.mkdir'
+      - '@azure/abort-controller.fs.promises.mkdtemp_1'
+      - '@azure/abort-controller.fs.promises.mkdtemp'
+      - '@azure/abort-controller.fs.promises.mkdtemp_2'
+      - '@azure/abort-controller.fs.promises.open'
+      - '@azure/abort-controller.fs.promises.opendir'
+      - '@azure/abort-controller.fs.promises.read'
+      - '@azure/abort-controller.fs.promises.readdir_1'
+      - '@azure/abort-controller.fs.promises.readdir'
+      - '@azure/abort-controller.fs.promises.readdir_2'
+      - '@azure/abort-controller.fs.promises.readdir_3'
+      - '@azure/abort-controller.fs.promises.readFile_1'
+      - '@azure/abort-controller.fs.promises.readFile'
+      - '@azure/abort-controller.fs.promises.readFile_2'
+      - '@azure/abort-controller.fs.promises.readlink_1'
+      - '@azure/abort-controller.fs.promises.readlink'
+      - '@azure/abort-controller.fs.promises.readlink_2'
+      - '@azure/abort-controller.fs.promises.realpath_1'
+      - '@azure/abort-controller.fs.promises.realpath'
+      - '@azure/abort-controller.fs.promises.realpath_2'
+      - '@azure/abort-controller.fs.promises.rename'
+      - '@azure/abort-controller.fs.promises.rmdir'
+      - '@azure/abort-controller.fs.promises.stat'
+      - '@azure/abort-controller.fs.promises.symlink'
+      - '@azure/abort-controller.fs.promises.truncate'
+      - '@azure/abort-controller.fs.promises.unlink'
+      - '@azure/abort-controller.fs.promises.utimes'
+      - '@azure/abort-controller.fs.promises.write_1'
+      - '@azure/abort-controller.fs.promises.write'
+      - '@azure/abort-controller.fs.promises.writeFile'
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.access'
+    name: 'access(PathLike, undefined | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronously tests a user's permissions for the file specified by path.
+    syntax:
+      content: 'function access(path: PathLike, mode?: undefined | number)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >
+            A path to a file or directory. If a URL is provided, it must use the
+            `file:` protocol.
+
+            URL support is _experimental_.
+        - id: mode
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.appendFile'
+    name: 'appendFile(PathLike | FileHandle, any, Object | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronously append data to a file, creating the file if it does not
+      exist.
+    syntax:
+      content: >-
+        function appendFile(path: PathLike | FileHandle, data: any, options?:
+        Object | string | null)
+      parameters:
+        - id: path
+          type:
+            - >-
+              @azure/abort-controller.fs.PathLike |
+              @azure/abort-controller.fs.promises.FileHandle
+          description: ''
+        - id: data
+          type:
+            - any
+          description: >-
+            The data to write. If something other than a `Buffer` or
+            `Uint8Array` is provided, the value is coerced to a string.
+        - id: options
+          type:
+            - Object | string | null
+          description: >
+            Either the encoding for the file, or an object optionally specifying
+            the encoding, file mode, and flag.
+
+            If `encoding` is not supplied, the default of `'utf8'` is used.
+
+            If `mode` is not supplied, the default of `0o666` is used.
+
+            If `mode` is a string, it is parsed as an octal integer.
+
+            If `flag` is not supplied, the default of `'a'` is used.
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.chmod'
+    name: 'chmod(PathLike, string | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous chmod(2) - Change permissions of a file.
+    syntax:
+      content: 'function chmod(path: PathLike, mode: string | number)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: mode
+          type:
+            - string | number
+          description: >
+            A file mode. If a string is passed, it is parsed as an octal
+            integer.
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.chown'
+    name: 'chown(PathLike, number, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous chown(2) - Change ownership of a file.
+    syntax:
+      content: 'function chown(path: PathLike, uid: number, gid: number)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: uid
+          type:
+            - number
+          description: ''
+        - id: gid
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.copyFile'
+    name: 'copyFile(PathLike, PathLike, undefined | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronously copies `src` to `dest`. By default, `dest` is overwritten
+      if it already exists.
+
+      Node.js makes no guarantees about the atomicity of the copy operation.
+
+      If an error occurs after the destination file has been opened for writing,
+      Node.js will attempt
+
+      to remove the destination.
+    syntax:
+      content: >-
+        function copyFile(src: PathLike, dest: PathLike, flags?: undefined |
+        number)
+      parameters:
+        - id: src
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: A path to the source file.
+        - id: dest
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: A path to the destination file.
+        - id: flags
+          type:
+            - undefined | number
+          description: >
+            An optional integer that specifies the behavior of the copy
+            operation. The only
+
+            supported flag is `fs.constants.COPYFILE_EXCL`, which causes the
+            copy operation to fail if
+
+            `dest` already exists.
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.fchmod'
+    name: 'fchmod(FileHandle, string | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous fchmod(2) - Change permissions of a file.
+    syntax:
+      content: 'function fchmod(handle: FileHandle, mode: string | number)'
+      parameters:
+        - id: handle
+          type:
+            - '@azure/abort-controller.fs.promises.FileHandle'
+          description: A `FileHandle`.
+        - id: mode
+          type:
+            - string | number
+          description: >
+            A file mode. If a string is passed, it is parsed as an octal
+            integer.
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.fchown'
+    name: 'fchown(FileHandle, number, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous fchown(2) - Change ownership of a file.
+    syntax:
+      content: 'function fchown(handle: FileHandle, uid: number, gid: number)'
+      parameters:
+        - id: handle
+          type:
+            - '@azure/abort-controller.fs.promises.FileHandle'
+          description: |
+            A `FileHandle`.
+        - id: uid
+          type:
+            - number
+          description: ''
+        - id: gid
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.fdatasync'
+    name: fdatasync(FileHandle)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronous fdatasync(2) - synchronize a file's in-core state with
+      storage device.
+    syntax:
+      content: 'function fdatasync(handle: FileHandle)'
+      parameters:
+        - id: handle
+          type:
+            - '@azure/abort-controller.fs.promises.FileHandle'
+          description: |
+            A `FileHandle`.
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.fstat'
+    name: fstat(FileHandle)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous fstat(2) - Get file status.
+    syntax:
+      content: 'function fstat(handle: FileHandle)'
+      parameters:
+        - id: handle
+          type:
+            - '@azure/abort-controller.fs.promises.FileHandle'
+          description: |
+            A `FileHandle`.
+      return:
+        type:
+          - Promise<@azure/abort-controller.fs.Stats>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.fsync'
+    name: fsync(FileHandle)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronous fsync(2) - synchronize a file's in-core state with the
+      underlying storage device.
+    syntax:
+      content: 'function fsync(handle: FileHandle)'
+      parameters:
+        - id: handle
+          type:
+            - '@azure/abort-controller.fs.promises.FileHandle'
+          description: |
+            A `FileHandle`.
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.ftruncate'
+    name: 'ftruncate(FileHandle, undefined | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous ftruncate(2) - Truncate a file to a specified length.
+    syntax:
+      content: 'function ftruncate(handle: FileHandle, len?: undefined | number)'
+      parameters:
+        - id: handle
+          type:
+            - '@azure/abort-controller.fs.promises.FileHandle'
+          description: A `FileHandle`.
+        - id: len
+          type:
+            - undefined | number
+          description: |
+            If not specified, defaults to `0`.
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.futimes'
+    name: 'futimes(FileHandle, string | number | Date, string | number | Date)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronously change file timestamps of the file referenced by the
+      supplied `FileHandle`.
+    syntax:
+      content: >-
+        function futimes(handle: FileHandle, atime: string | number | Date,
+        mtime: string | number | Date)
+      parameters:
+        - id: handle
+          type:
+            - '@azure/abort-controller.fs.promises.FileHandle'
+          description: A `FileHandle`.
+        - id: atime
+          type:
+            - string | number | Date
+          description: >-
+            The last access time. If a string is provided, it will be coerced to
+            number.
+        - id: mtime
+          type:
+            - string | number | Date
+          description: >
+            The last modified time. If a string is provided, it will be coerced
+            to number.
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.lchmod'
+    name: 'lchmod(PathLike, string | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronous lchmod(2) - Change permissions of a file. Does not
+      dereference symbolic links.
+    syntax:
+      content: 'function lchmod(path: PathLike, mode: string | number)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: mode
+          type:
+            - string | number
+          description: >
+            A file mode. If a string is passed, it is parsed as an octal
+            integer.
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.lchown'
+    name: 'lchown(PathLike, number, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronous lchown(2) - Change ownership of a file. Does not dereference
+      symbolic links.
+    syntax:
+      content: 'function lchown(path: PathLike, uid: number, gid: number)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: uid
+          type:
+            - number
+          description: ''
+        - id: gid
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.link'
+    name: 'link(PathLike, PathLike)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronous link(2) - Create a new link (also known as a hard link) to an
+      existing file.
+    syntax:
+      content: 'function link(existingPath: PathLike, newPath: PathLike)'
+      parameters:
+        - id: existingPath
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: newPath
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.lstat'
+    name: lstat(PathLike)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronous lstat(2) - Get file status. Does not dereference symbolic
+      links.
+    syntax:
+      content: 'function lstat(path: PathLike)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+      return:
+        type:
+          - Promise<@azure/abort-controller.fs.Stats>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.mkdir'
+    name: 'mkdir(PathLike, number | string | MakeDirectoryOptions | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous mkdir(2) - create a directory.
+    syntax:
+      content: >-
+        function mkdir(path: PathLike, options?: number | string |
+        MakeDirectoryOptions | null)
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - >-
+              number | string | @azure/abort-controller.fs.MakeDirectoryOptions
+              | null
+          description: >
+            Either the file mode, or an object optionally specifying the file
+            mode and whether parent folders
+
+            should be created. If a string is passed, it is parsed as an octal
+            integer. If not specified, defaults to `0o777`.
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.mkdtemp_1'
+    name: 'mkdtemp(string, Object | "buffer")'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronously creates a unique temporary directory.
+
+      Generates six random characters to be appended behind a required `prefix`
+      to create a unique temporary directory.
+    syntax:
+      content: 'function mkdtemp(prefix: string, options: Object | "buffer")'
+      parameters:
+        - id: prefix
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - Object | "buffer"
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+      return:
+        type:
+          - Promise<Buffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.mkdtemp'
+    name: 'mkdtemp(string, Object | BufferEncoding | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronously creates a unique temporary directory.
+
+      Generates six random characters to be appended behind a required `prefix`
+      to create a unique temporary directory.
+    syntax:
+      content: >-
+        function mkdtemp(prefix: string, options?: Object | BufferEncoding |
+        null)
+      parameters:
+        - id: prefix
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - Object | @azure/abort-controller.BufferEncoding | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - Promise<string>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.mkdtemp_2'
+    name: 'mkdtemp(string, Object | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronously creates a unique temporary directory.
+
+      Generates six random characters to be appended behind a required `prefix`
+      to create a unique temporary directory.
+    syntax:
+      content: 'function mkdtemp(prefix: string, options?: Object | string | null)'
+      parameters:
+        - id: prefix
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - Object | string | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - Promise<string | Buffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.open'
+    name: 'open(PathLike, string | number, string | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous open(2) - open and possibly create a file.
+    syntax:
+      content: >-
+        function open(path: PathLike, flags: string | number, mode?: string |
+        number)
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: flags
+          type:
+            - string | number
+          description: ''
+        - id: mode
+          type:
+            - string | number
+          description: >
+            A file mode. If a string is passed, it is parsed as an octal
+            integer. If not
+
+            supplied, defaults to `0o666`.
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.fs.promises.FileHandle>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.opendir'
+    name: 'opendir(string, OpenDirOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function opendir(path: string, options?: OpenDirOptions)'
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.fs.OpenDirOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<@azure/abort-controller.fs.Dir>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.read'
+    name: 'read(FileHandle, TBuffer, number | null, number | null, number | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronously reads data from the file referenced by the supplied
+      `FileHandle`.
+    syntax:
+      content: >-
+        function read<TBuffer>(handle: FileHandle, buffer: TBuffer, offset?:
+        number | null, length?: number | null, position?: number | null)
+      parameters:
+        - id: handle
+          type:
+            - '@azure/abort-controller.fs.promises.FileHandle'
+          description: A `FileHandle`.
+        - id: buffer
+          type:
+            - TBuffer
+          description: The buffer that the data will be written to.
+        - id: offset
+          type:
+            - number | null
+          description: The offset in the buffer at which to start writing.
+          optional: true
+        - id: length
+          type:
+            - number | null
+          description: The number of bytes to read.
+          optional: true
+        - id: position
+          type:
+            - number | null
+          description: >
+            The offset from the beginning of the file from which data should be
+            read. If
+
+            `null`, data will be read from the current position.
+          optional: true
+      return:
+        type:
+          - Promise<Object>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.readdir_1'
+    name: 'readdir(PathLike, Object | "buffer")'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous readdir(3) - read a directory.
+    syntax:
+      content: 'function readdir(path: PathLike, options: Object | "buffer")'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | "buffer"
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+      return:
+        type:
+          - 'Promise<Buffer[]>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.readdir'
+    name: 'readdir(PathLike, Object | BufferEncoding | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous readdir(3) - read a directory.
+    syntax:
+      content: >-
+        function readdir(path: PathLike, options?: Object | BufferEncoding |
+        null)
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | @azure/abort-controller.BufferEncoding | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - 'Promise<string[]>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.readdir_2'
+    name: 'readdir(PathLike, Object | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous readdir(3) - read a directory.
+    syntax:
+      content: 'function readdir(path: PathLike, options?: Object | string | null)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | string | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - 'Promise<string[] | Buffer[]>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.readdir_3'
+    name: 'readdir(PathLike, Object)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous readdir(3) - read a directory.
+    syntax:
+      content: 'function readdir(path: PathLike, options: Object)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object
+          description: >
+            If called with `withFileTypes: true` the result data will be an
+            array of Dirent.
+      return:
+        type:
+          - 'Promise<@azure/abort-controller.fs.Dirent[]>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.readFile_1'
+    name: 'readFile(PathLike | FileHandle, Object | BufferEncoding)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronously reads the entire contents of a file.
+    syntax:
+      content: >-
+        function readFile(path: PathLike | FileHandle, options: Object |
+        BufferEncoding)
+      parameters:
+        - id: path
+          type:
+            - >-
+              @azure/abort-controller.fs.PathLike |
+              @azure/abort-controller.fs.promises.FileHandle
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            If a `FileHandle` is provided, the underlying file will _not_ be
+            closed automatically.
+        - id: options
+          type:
+            - Object | @azure/abort-controller.BufferEncoding
+          description: |
+            An object that may contain an optional flag.
+            If a flag is not provided, it defaults to `'r'`.
+      return:
+        type:
+          - Promise<string>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.readFile'
+    name: 'readFile(PathLike | FileHandle, Object | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronously reads the entire contents of a file.
+    syntax:
+      content: 'function readFile(path: PathLike | FileHandle, options?: Object | null)'
+      parameters:
+        - id: path
+          type:
+            - >-
+              @azure/abort-controller.fs.PathLike |
+              @azure/abort-controller.fs.promises.FileHandle
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            If a `FileHandle` is provided, the underlying file will _not_ be
+            closed automatically.
+        - id: options
+          type:
+            - Object | null
+          description: |
+            An object that may contain an optional flag.
+            If a flag is not provided, it defaults to `'r'`.
+          optional: true
+      return:
+        type:
+          - Promise<Buffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.readFile_2'
+    name: 'readFile(PathLike | FileHandle, Object | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronously reads the entire contents of a file.
+    syntax:
+      content: >-
+        function readFile(path: PathLike | FileHandle, options?: Object | string
+        | null)
+      parameters:
+        - id: path
+          type:
+            - >-
+              @azure/abort-controller.fs.PathLike |
+              @azure/abort-controller.fs.promises.FileHandle
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            If a `FileHandle` is provided, the underlying file will _not_ be
+            closed automatically.
+        - id: options
+          type:
+            - Object | string | null
+          description: |
+            An object that may contain an optional flag.
+            If a flag is not provided, it defaults to `'r'`.
+          optional: true
+      return:
+        type:
+          - Promise<string | Buffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.readlink_1'
+    name: 'readlink(PathLike, Object | "buffer")'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous readlink(2) - read value of a symbolic link.
+    syntax:
+      content: 'function readlink(path: PathLike, options: Object | "buffer")'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | "buffer"
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+      return:
+        type:
+          - Promise<Buffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.readlink'
+    name: 'readlink(PathLike, Object | BufferEncoding | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous readlink(2) - read value of a symbolic link.
+    syntax:
+      content: >-
+        function readlink(path: PathLike, options?: Object | BufferEncoding |
+        null)
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | @azure/abort-controller.BufferEncoding | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - Promise<string>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.readlink_2'
+    name: 'readlink(PathLike, Object | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous readlink(2) - read value of a symbolic link.
+    syntax:
+      content: 'function readlink(path: PathLike, options?: Object | string | null)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | string | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - Promise<string | Buffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.realpath_1'
+    name: 'realpath(PathLike, Object | "buffer")'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous realpath(3) - return the canonicalized absolute pathname.
+    syntax:
+      content: 'function realpath(path: PathLike, options: Object | "buffer")'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | "buffer"
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+      return:
+        type:
+          - Promise<Buffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.realpath'
+    name: 'realpath(PathLike, Object | BufferEncoding | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous realpath(3) - return the canonicalized absolute pathname.
+    syntax:
+      content: >-
+        function realpath(path: PathLike, options?: Object | BufferEncoding |
+        null)
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | @azure/abort-controller.BufferEncoding | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - Promise<string>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.realpath_2'
+    name: 'realpath(PathLike, Object | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous realpath(3) - return the canonicalized absolute pathname.
+    syntax:
+      content: 'function realpath(path: PathLike, options?: Object | string | null)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - Object | string | null
+          description: >
+            The encoding (or an object specifying the encoding), used as the
+            encoding of the result. If not provided, `'utf8'` is used.
+          optional: true
+      return:
+        type:
+          - Promise<string | Buffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.rename'
+    name: 'rename(PathLike, PathLike)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronous rename(2) - Change the name or location of a file or
+      directory.
+    syntax:
+      content: 'function rename(oldPath: PathLike, newPath: PathLike)'
+      parameters:
+        - id: oldPath
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            URL support is _experimental_.
+        - id: newPath
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            URL support is _experimental_.
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.rmdir'
+    name: 'rmdir(PathLike, RmDirAsyncOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous rmdir(2) - delete a directory.
+    syntax:
+      content: 'function rmdir(path: PathLike, options?: RmDirAsyncOptions)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: options
+          type:
+            - '@azure/abort-controller.fs.RmDirAsyncOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.stat'
+    name: stat(PathLike)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous stat(2) - Get file status.
+    syntax:
+      content: 'function stat(path: PathLike)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+      return:
+        type:
+          - Promise<@azure/abort-controller.fs.Stats>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.symlink'
+    name: 'symlink(PathLike, PathLike, string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous symlink(2) - Create a new symbolic link to an existing file.
+    syntax:
+      content: 'function symlink(target: PathLike, path: PathLike, type?: string | null)'
+      parameters:
+        - id: target
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to an existing file. If a URL is provided, it must use the
+            `file:` protocol.
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to the new symlink. If a URL is provided, it must use the
+            `file:` protocol.
+        - id: type
+          type:
+            - string | null
+          description: >
+            May be set to `'dir'`, `'file'`, or `'junction'` (default is
+            `'file'`) and is only available on Windows (ignored on other
+            platforms).
+
+            When using `'junction'`, the `target` argument will automatically be
+            normalized to an absolute path.
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.truncate'
+    name: 'truncate(PathLike, undefined | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous truncate(2) - Truncate a file to a specified length.
+    syntax:
+      content: 'function truncate(path: PathLike, len?: undefined | number)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: len
+          type:
+            - undefined | number
+          description: |
+            If not specified, defaults to `0`.
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.unlink'
+    name: unlink(PathLike)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Asynchronous unlink(2) - delete a name and possibly the file it refers to.
+    syntax:
+      content: 'function unlink(path: PathLike)'
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.utimes'
+    name: 'utimes(PathLike, string | number | Date, string | number | Date)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronously change file timestamps of the file referenced by the
+      supplied path.
+    syntax:
+      content: >-
+        function utimes(path: PathLike, atime: string | number | Date, mtime:
+        string | number | Date)
+      parameters:
+        - id: path
+          type:
+            - '@azure/abort-controller.fs.PathLike'
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+        - id: atime
+          type:
+            - string | number | Date
+          description: >-
+            The last access time. If a string is provided, it will be coerced to
+            number.
+        - id: mtime
+          type:
+            - string | number | Date
+          description: >
+            The last modified time. If a string is provided, it will be coerced
+            to number.
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.write_1'
+    name: 'write(FileHandle, any, number | null, string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronously writes `string` to the file referenced by the supplied
+      `FileHandle`.
+
+      It is unsafe to call `fsPromises.write()` multiple times on the same file
+      without waiting for the `Promise`
+
+      to be resolved (or rejected). For this scenario, `fs.createWriteStream` is
+      strongly recommended.
+    syntax:
+      content: >-
+        function write(handle: FileHandle, string: any, position?: number |
+        null, encoding?: string | null)
+      parameters:
+        - id: handle
+          type:
+            - '@azure/abort-controller.fs.promises.FileHandle'
+          description: A `FileHandle`.
+        - id: string
+          type:
+            - any
+          description: >-
+            A string to write. If something other than a string is supplied it
+            will be coerced to a string.
+        - id: position
+          type:
+            - number | null
+          description: >-
+            The offset from the beginning of the file where this data should be
+            written. If not supplied, defaults to the current position.
+          optional: true
+        - id: encoding
+          type:
+            - string | null
+          description: |
+            The expected string encoding.
+          optional: true
+      return:
+        type:
+          - Promise<Object>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.write'
+    name: 'write(FileHandle, TBuffer, number | null, number | null, number | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronously writes `buffer` to the file referenced by the supplied
+      `FileHandle`.
+
+      It is unsafe to call `fsPromises.write()` multiple times on the same file
+      without waiting for the `Promise`
+
+      to be resolved (or rejected). For this scenario, `fs.createWriteStream` is
+      strongly recommended.
+    syntax:
+      content: >-
+        function write<TBuffer>(handle: FileHandle, buffer: TBuffer, offset?:
+        number | null, length?: number | null, position?: number | null)
+      parameters:
+        - id: handle
+          type:
+            - '@azure/abort-controller.fs.promises.FileHandle'
+          description: A `FileHandle`.
+        - id: buffer
+          type:
+            - TBuffer
+          description: The buffer that the data will be written to.
+        - id: offset
+          type:
+            - number | null
+          description: >-
+            The part of the buffer to be written. If not supplied, defaults to
+            `0`.
+          optional: true
+        - id: length
+          type:
+            - number | null
+          description: >-
+            The number of bytes to write. If not supplied, defaults to
+            `buffer.length - offset`.
+          optional: true
+        - id: position
+          type:
+            - number | null
+          description: >
+            The offset from the beginning of the file where this data should be
+            written. If not supplied, defaults to the current position.
+          optional: true
+      return:
+        type:
+          - Promise<Object>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fs.promises.writeFile'
+    name: 'writeFile(PathLike | FileHandle, any, Object | string | null)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Asynchronously writes data to a file, replacing the file if it already
+      exists.
+
+      It is unsafe to call `fsPromises.writeFile()` multiple times on the same
+      file without waiting for the `Promise` to be resolved (or rejected).
+    syntax:
+      content: >-
+        function writeFile(path: PathLike | FileHandle, data: any, options?:
+        Object | string | null)
+      parameters:
+        - id: path
+          type:
+            - >-
+              @azure/abort-controller.fs.PathLike |
+              @azure/abort-controller.fs.promises.FileHandle
+          description: >-
+            A path to a file. If a URL is provided, it must use the `file:`
+            protocol.
+
+            URL support is _experimental_.
+
+            If a `FileHandle` is provided, the underlying file will _not_ be
+            closed automatically.
+        - id: data
+          type:
+            - any
+          description: >-
+            The data to write. If something other than a `Buffer` or
+            `Uint8Array` is provided, the value is coerced to a string.
+        - id: options
+          type:
+            - Object | string | null
+          description: >
+            Either the encoding for the file, or an object optionally specifying
+            the encoding, file mode, and flag.
+
+            If `encoding` is not supplied, the default of `'utf8'` is used.
+
+            If `mode` is not supplied, the default of `0o666` is used.
+
+            If `mode` is a string, it is parsed as an octal integer.
+
+            If `flag` is not supplied, the default of `'w'` is used.
+          optional: true
+      return:
+        type:
+          - Promise<void>
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: Object | @azure/abort-controller.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: Promise<@azure/abort-controller.fs.Stats>
+    name: Stats>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Stats
+        fullName: Stats
+        uid: '@azure/abort-controller.fs.Stats'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.NodeJS.ArrayBufferView[]'
+    name: 'ArrayBufferView[]'
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+      - name: '[]'
+        fullName: '[]'
+  - uid: Promise<@azure/abort-controller.fs.WriteVResult>
+    name: WriteVResult>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: WriteVResult
+        fullName: WriteVResult
+        uid: '@azure/abort-controller.fs.WriteVResult'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.fs.PathLike'
+    name: PathLike
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/abort-controller.fs.PathLike'
+  - uid: >-
+      @azure/abort-controller.fs.PathLike |
+      @azure/abort-controller.fs.promises.FileHandle
+    name: FileHandle
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/abort-controller.fs.PathLike'
+      - name: ' | '
+        fullName: ' | '
+      - name: FileHandle
+        fullName: FileHandle
+        uid: '@azure/abort-controller.fs.promises.FileHandle'
+  - uid: '@azure/abort-controller.fs.promises.FileHandle'
+    name: FileHandle
+    spec.typeScript:
+      - name: FileHandle
+        fullName: FileHandle
+        uid: '@azure/abort-controller.fs.promises.FileHandle'
+  - uid: number | string | @azure/abort-controller.fs.MakeDirectoryOptions | null
+    name: MakeDirectoryOptions | null
+    spec.typeScript:
+      - name: 'number | string | '
+        fullName: 'number | string | '
+      - name: MakeDirectoryOptions
+        fullName: MakeDirectoryOptions
+        uid: '@azure/abort-controller.fs.MakeDirectoryOptions'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: Object | @azure/abort-controller.BufferEncoding | null
+    name: BufferEncoding | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: Promise<@azure/abort-controller.fs.promises.FileHandle>
+    name: FileHandle>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: FileHandle
+        fullName: FileHandle
+        uid: '@azure/abort-controller.fs.promises.FileHandle'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.fs.OpenDirOptions'
+    name: OpenDirOptions
+    spec.typeScript:
+      - name: OpenDirOptions
+        fullName: OpenDirOptions
+        uid: '@azure/abort-controller.fs.OpenDirOptions'
+  - uid: Promise<@azure/abort-controller.fs.Dir>
+    name: Dir>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dir
+        fullName: Dir
+        uid: '@azure/abort-controller.fs.Dir'
+      - name: '>'
+        fullName: '>'
+  - uid: 'Promise<@azure/abort-controller.fs.Dirent[]>'
+    name: 'Dirent[]>'
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dirent
+        fullName: Dirent
+        uid: '@azure/abort-controller.fs.Dirent'
+      - name: '[]>'
+        fullName: '[]>'
+  - uid: '@azure/abort-controller.fs.RmDirAsyncOptions'
+    name: RmDirAsyncOptions
+    spec.typeScript:
+      - name: RmDirAsyncOptions
+        fullName: RmDirAsyncOptions
+        uid: '@azure/abort-controller.fs.RmDirAsyncOptions'
+  - uid: Object | @azure/abort-controller.BufferEncoding | undefined | null
+    name: BufferEncoding | undefined | null
+    spec.typeScript:
+      - name: 'Object | '
+        fullName: 'Object | '
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+      - name: ' | undefined | null'
+        fullName: ' | undefined | null'
+  - uid: '@azure/abort-controller.fs.NoParamCallback'
+    name: NoParamCallback
+    spec.typeScript:
+      - name: NoParamCallback
+        fullName: NoParamCallback
+        uid: '@azure/abort-controller.fs.NoParamCallback'
+  - uid: Promise<@azure/abort-controller.fs.Dirent | null>
+    name: Dirent | null>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: Dirent
+        fullName: Dirent
+        uid: '@azure/abort-controller.fs.Dirent'
+      - name: ' | null>'
+        fullName: ' | null>'
+  - uid: '@azure/abort-controller.fs.Dirent'
+    name: Dirent
+    spec.typeScript:
+      - name: Dirent
+        fullName: Dirent
+        uid: '@azure/abort-controller.fs.Dirent'
+  - uid: '@azure/abort-controller.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/abort-controller.stream.internal.Readable'
+  - uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/abort-controller.stream.internal.ReadableOptions'
+  - uid: '@azure/abort-controller.AbortError.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/abort-controller.AbortError.Error'
+  - uid: '@azure/abort-controller.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/abort-controller.NodeJS.WritableStream'
+  - uid: '@azure/abort-controller.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/abort-controller.BufferEncoding'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.fs.StatsBase<number>'
+    name: StatsBase<number>
+    spec.typeScript:
+      - name: StatsBase
+        fullName: StatsBase
+        uid: '@azure/abort-controller.fs.StatsBase'
+      - name: <number>
+        fullName: <number>
+  - uid: '@azure/abort-controller.stream.internal.Writable'
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: '@azure/abort-controller.stream.internal.Writable'
+  - uid: '@azure/abort-controller.stream.internal.WritableOptions'
+    name: WritableOptions
+    spec.typeScript:
+      - name: WritableOptions
+        fullName: WritableOptions
+        uid: '@azure/abort-controller.stream.internal.WritableOptions'
+  - uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/abort-controller.events.EventEmitter.EventEmitter'
+  - uid: '@azure/abort-controller.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/abort-controller.events.EventEmitterOptions'
+  - uid: '@azure/abort-controller.fs.RmDirOptions'
+    name: RmDirOptions
+    spec.typeScript:
+      - name: RmDirOptions
+        fullName: RmDirOptions
+        uid: '@azure/abort-controller.fs.RmDirOptions'
+  - uid: '@azure/abort-controller.fs.PathLike | number'
+    name: PathLike | number
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/abort-controller.fs.PathLike'
+      - name: ' | number'
+        fullName: ' | number'
+  - uid: '@azure/abort-controller.fs.WriteFileOptions'
+    name: WriteFileOptions
+    spec.typeScript:
+      - name: WriteFileOptions
+        fullName: WriteFileOptions
+        uid: '@azure/abort-controller.fs.WriteFileOptions'
+  - uid: '@azure/abort-controller.fs.ReadStream'
+    name: ReadStream
+    spec.typeScript:
+      - name: ReadStream
+        fullName: ReadStream
+        uid: '@azure/abort-controller.fs.ReadStream'
+  - uid: '@azure/abort-controller.fs.WriteStream'
+    name: WriteStream
+    spec.typeScript:
+      - name: WriteStream
+        fullName: WriteStream
+        uid: '@azure/abort-controller.fs.WriteStream'
+  - uid: '@azure/abort-controller.fs.Stats'
+    name: Stats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: '@azure/abort-controller.fs.Stats'
+  - uid: '@azure/abort-controller.fs.Dir'
+    name: Dir
+    spec.typeScript:
+      - name: Dir
+        fullName: Dir
+        uid: '@azure/abort-controller.fs.Dir'
+  - uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: '@azure/abort-controller.NodeJS.ArrayBufferView'
+  - uid: '@azure/abort-controller.fs.Dirent[]'
+    name: 'Dirent[]'
+    spec.typeScript:
+      - name: Dirent
+        fullName: Dirent
+        uid: '@azure/abort-controller.fs.Dirent'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.fs.FSWatcher'
+    name: FSWatcher
+    spec.typeScript:
+      - name: FSWatcher
+        fullName: FSWatcher
+        uid: '@azure/abort-controller.fs.FSWatcher'
+  - uid: '@azure/abort-controller.fs.promises.access'
+    name: access
+  - uid: '@azure/abort-controller.fs.promises.appendFile'
+    name: appendFile
+  - uid: '@azure/abort-controller.fs.promises.chmod'
+    name: chmod
+  - uid: '@azure/abort-controller.fs.promises.chown'
+    name: chown
+  - uid: '@azure/abort-controller.fs.promises.copyFile'
+    name: copyFile
+  - uid: '@azure/abort-controller.fs.promises.fchmod'
+    name: fchmod
+  - uid: '@azure/abort-controller.fs.promises.fchown'
+    name: fchown
+  - uid: '@azure/abort-controller.fs.promises.fdatasync'
+    name: fdatasync
+  - uid: '@azure/abort-controller.fs.promises.fstat'
+    name: fstat
+  - uid: '@azure/abort-controller.fs.promises.fsync'
+    name: fsync
+  - uid: '@azure/abort-controller.fs.promises.ftruncate'
+    name: ftruncate
+  - uid: '@azure/abort-controller.fs.promises.futimes'
+    name: futimes
+  - uid: '@azure/abort-controller.fs.promises.lchmod'
+    name: lchmod
+  - uid: '@azure/abort-controller.fs.promises.lchown'
+    name: lchown
+  - uid: '@azure/abort-controller.fs.promises.link'
+    name: link
+  - uid: '@azure/abort-controller.fs.promises.lstat'
+    name: lstat
+  - uid: '@azure/abort-controller.fs.promises.mkdir'
+    name: mkdir
+  - uid: '@azure/abort-controller.fs.promises.mkdtemp_1'
+    name: mkdtemp_1
+  - uid: '@azure/abort-controller.fs.promises.mkdtemp'
+    name: mkdtemp
+  - uid: '@azure/abort-controller.fs.promises.mkdtemp_2'
+    name: mkdtemp_2
+  - uid: '@azure/abort-controller.fs.promises.open'
+    name: open
+  - uid: '@azure/abort-controller.fs.promises.opendir'
+    name: opendir
+  - uid: '@azure/abort-controller.fs.promises.read'
+    name: read
+  - uid: '@azure/abort-controller.fs.promises.readdir_1'
+    name: readdir_1
+  - uid: '@azure/abort-controller.fs.promises.readdir'
+    name: readdir
+  - uid: '@azure/abort-controller.fs.promises.readdir_2'
+    name: readdir_2
+  - uid: '@azure/abort-controller.fs.promises.readdir_3'
+    name: readdir_3
+  - uid: '@azure/abort-controller.fs.promises.readFile_1'
+    name: readFile_1
+  - uid: '@azure/abort-controller.fs.promises.readFile'
+    name: readFile
+  - uid: '@azure/abort-controller.fs.promises.readFile_2'
+    name: readFile_2
+  - uid: '@azure/abort-controller.fs.promises.readlink_1'
+    name: readlink_1
+  - uid: '@azure/abort-controller.fs.promises.readlink'
+    name: readlink
+  - uid: '@azure/abort-controller.fs.promises.readlink_2'
+    name: readlink_2
+  - uid: '@azure/abort-controller.fs.promises.realpath_1'
+    name: realpath_1
+  - uid: '@azure/abort-controller.fs.promises.realpath'
+    name: realpath
+  - uid: '@azure/abort-controller.fs.promises.realpath_2'
+    name: realpath_2
+  - uid: '@azure/abort-controller.fs.promises.rename'
+    name: rename
+  - uid: '@azure/abort-controller.fs.promises.rmdir'
+    name: rmdir
+  - uid: '@azure/abort-controller.fs.promises.stat'
+    name: stat
+  - uid: '@azure/abort-controller.fs.promises.symlink'
+    name: symlink
+  - uid: '@azure/abort-controller.fs.promises.truncate'
+    name: truncate
+  - uid: '@azure/abort-controller.fs.promises.unlink'
+    name: unlink
+  - uid: '@azure/abort-controller.fs.promises.utimes'
+    name: utimes
+  - uid: '@azure/abort-controller.fs.promises.write_1'
+    name: write_1
+  - uid: '@azure/abort-controller.fs.promises.write'
+    name: write
+  - uid: '@azure/abort-controller.fs.promises.writeFile'
+    name: writeFile

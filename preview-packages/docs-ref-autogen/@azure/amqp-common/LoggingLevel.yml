@@ -1,0 +1,18 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.LoggingLevel'
+    name: LoggingLevel
+    fullName: LoggingLevel
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: |-
+      Describes the available logging levels.
+      ERROR: 0,
+      WARN: 1,
+      INFO: 2,
+      VERBOSE: 3
+    syntax:
+      content: type LoggingLevel = 0 | 1 | 2 | 3
+    package: '@azure/ms-rest-azure-env'

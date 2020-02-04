@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.LabelKey'
+    name: LabelKey
+    fullName: LabelKey
+    children:
+      - '@azure/abort-controller.LabelKey.description'
+      - '@azure/abort-controller.LabelKey.key'
+    langs:
+      - typeScript
+    type: interface
+    summary: Properties of a LabelKey associated with a MetricDescriptor.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.LabelKey.description'
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A human-readable description of what this label key represents.
+    syntax:
+      content: 'description: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.LabelKey.key'
+    name: key
+    fullName: key
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The key for the label.
+    syntax:
+      content: 'key: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'

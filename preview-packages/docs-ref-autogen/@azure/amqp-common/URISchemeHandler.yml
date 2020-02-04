@@ -1,0 +1,126 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.URISchemeHandler'
+    name: URISchemeHandler
+    fullName: URISchemeHandler<Components>
+    children:
+      - '@azure/ms-rest-azure-env.URISchemeHandler.absolutePath'
+      - '@azure/ms-rest-azure-env.URISchemeHandler.domainHost'
+      - '@azure/ms-rest-azure-env.URISchemeHandler.parse'
+      - '@azure/ms-rest-azure-env.URISchemeHandler.scheme'
+      - '@azure/ms-rest-azure-env.URISchemeHandler.serialize'
+      - '@azure/ms-rest-azure-env.URISchemeHandler.unicodeSupport'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URISchemeHandler.absolutePath'
+    name: absolutePath
+    fullName: absolutePath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'absolutePath?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URISchemeHandler.domainHost'
+    name: domainHost
+    fullName: domainHost
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'domainHost?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URISchemeHandler.parse'
+    name: 'parse(ParentComponents, Options)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function parse(components: ParentComponents, options: Options)'
+      parameters:
+        - id: components
+          type:
+            - ParentComponents
+          description: ''
+        - id: options
+          type:
+            - Options
+          description: ''
+      return:
+        type:
+          - Components
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URISchemeHandler.scheme'
+    name: scheme
+    fullName: scheme
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'scheme: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URISchemeHandler.serialize'
+    name: 'serialize(Components, Options)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function serialize(components: Components, options: Options)'
+      parameters:
+        - id: components
+          type:
+            - Components
+          description: ''
+        - id: options
+          type:
+            - Options
+          description: ''
+      return:
+        type:
+          - ParentComponents
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.URISchemeHandler.unicodeSupport'
+    name: unicodeSupport
+    fullName: unicodeSupport
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'unicodeSupport?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'

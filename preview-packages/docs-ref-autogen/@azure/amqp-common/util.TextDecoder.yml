@@ -1,0 +1,119 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.util.TextDecoder'
+    name: TextDecoder
+    fullName: TextDecoder
+    children:
+      - '@azure/ms-rest-azure-env.util.TextDecoder.decode'
+      - '@azure/ms-rest-azure-env.util.TextDecoder.encoding'
+      - '@azure/ms-rest-azure-env.util.TextDecoder.fatal'
+      - '@azure/ms-rest-azure-env.util.TextDecoder.ignoreBOM'
+      - '@azure/ms-rest-azure-env.util.TextDecoder.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.TextDecoder.decode'
+    name: >-
+      decode(Int8Array | Int16Array | Int32Array | Uint8Array | Uint16Array |
+      Uint32Array | Uint8ClampedArray | Float32Array | Float64Array | DataView |
+      ArrayBuffer | null, undefined | Object)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function decode(input?: Int8Array | Int16Array | Int32Array | Uint8Array
+        | Uint16Array | Uint32Array | Uint8ClampedArray | Float32Array |
+        Float64Array | DataView | ArrayBuffer | null, options?: undefined |
+        Object)
+      parameters:
+        - id: input
+          type:
+            - >-
+              Int8Array | Int16Array | Int32Array | Uint8Array | Uint16Array |
+              Uint32Array | Uint8ClampedArray | Float32Array | Float64Array |
+              DataView | ArrayBuffer | null
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.TextDecoder.encoding'
+    name: encoding
+    fullName: encoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'encoding: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.TextDecoder.fatal'
+    name: fatal
+    fullName: fatal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'fatal: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.TextDecoder.ignoreBOM'
+    name: ignoreBOM
+    fullName: ignoreBOM
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ignoreBOM: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.util.TextDecoder.constructor'
+    name: 'TextDecoder(undefined | string, undefined | Object)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new TextDecoder(encoding?: undefined | string, options?: undefined |
+        Object)
+      parameters:
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'

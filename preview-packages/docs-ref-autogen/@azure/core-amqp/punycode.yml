@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.punycode
+    name: punycode
+    langs:
+      - typeScript
+    fullName: punycode
+    children:
+      - tslib.punycode.decode
+      - tslib.punycode.encode
+      - tslib.punycode.toASCII
+      - tslib.punycode.toUnicode
+      - tslib.punycode.ucs2
+    type: module
+    summary: ''
+    package: tslib
+  - uid: tslib.punycode.decode
+    name: decode(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function decode(string: string)'
+      parameters:
+        - id: string
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.punycode.encode
+    name: encode(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function encode(string: string)'
+      parameters:
+        - id: string
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.punycode.toASCII
+    name: toASCII(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toASCII(domain: string)'
+      parameters:
+        - id: domain
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.punycode.toUnicode
+    name: toUnicode(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function toUnicode(domain: string)'
+      parameters:
+        - id: domain
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.punycode.decode
+    name: decode
+  - uid: tslib.punycode.encode
+    name: encode
+  - uid: tslib.punycode.toASCII
+    name: toASCII
+  - uid: tslib.punycode.toUnicode
+    name: toUnicode
+  - uid: tslib.punycode.ucs2
+    name: ucs2

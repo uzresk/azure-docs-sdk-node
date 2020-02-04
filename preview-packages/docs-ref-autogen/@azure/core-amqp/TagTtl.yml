@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.TagTtl
+    name: TagTtl
+    fullName: TagTtl
+    children:
+      - tslib.TagTtl.UNLIMITED_PROPAGATION
+      - tslib.TagTtl.NO_PROPAGATION
+    langs:
+      - typeScript
+    type: enum
+    summary: TagTtl is an integer that represents number of hops a tag can propagate
+    package: tslib
+  - uid: tslib.TagTtl.UNLIMITED_PROPAGATION
+    name: UNLIMITED_PROPAGATION
+    children: []
+    langs:
+      - typeScript
+    summary: UNLIMITED_PROPAGATION can propagate unlimited hops.
+    type: field
+    numericValue: -1
+    package: tslib
+  - uid: tslib.TagTtl.NO_PROPAGATION
+    name: NO_PROPAGATION
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      NO_PROPAGATION is considered to have local scope and is used within the
+      process it created.
+    type: field
+    numericValue: 0
+    package: tslib

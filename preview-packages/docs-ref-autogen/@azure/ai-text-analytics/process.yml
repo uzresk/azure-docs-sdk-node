@@ -1,0 +1,12 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.process'
+    name: process
+    langs:
+      - typeScript
+    fullName: process
+    children: []
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+references: []

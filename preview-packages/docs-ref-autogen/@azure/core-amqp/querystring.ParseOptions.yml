@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.querystring.ParseOptions
+    name: ParseOptions
+    fullName: ParseOptions
+    children:
+      - tslib.querystring.ParseOptions.decodeURIComponent
+      - tslib.querystring.ParseOptions.maxKeys
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.querystring.ParseOptions.decodeURIComponent
+    name: decodeURIComponent
+    fullName: decodeURIComponent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'decodeURIComponent?: undefined | (str: string) => string'
+      return:
+        type:
+          - 'undefined | (str: string) => string'
+        description: ''
+    package: tslib
+  - uid: tslib.querystring.ParseOptions.maxKeys
+    name: maxKeys
+    fullName: maxKeys
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxKeys?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.querystring.ParseOptions
+    name: ParseOptions
+    spec.typeScript:
+      - name: ParseOptions
+        fullName: ParseOptions
+        uid: tslib.querystring.ParseOptions
+  - uid: tslib.querystring.ParsedUrlQuery
+    name: ParsedUrlQuery
+    spec.typeScript:
+      - name: ParsedUrlQuery
+        fullName: ParsedUrlQuery
+        uid: tslib.querystring.ParsedUrlQuery
+  - uid: tslib.querystring.ParsedUrlQueryInput
+    name: ParsedUrlQueryInput
+    spec.typeScript:
+      - name: ParsedUrlQueryInput
+        fullName: ParsedUrlQueryInput
+        uid: tslib.querystring.ParsedUrlQueryInput
+  - uid: tslib.querystring.StringifyOptions
+    name: StringifyOptions
+    spec.typeScript:
+      - name: StringifyOptions
+        fullName: StringifyOptions
+        uid: tslib.querystring.StringifyOptions

@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.TokenResponse'
+    name: TokenResponse
+    fullName: TokenResponse
+    children:
+      - '@azure/abort-controller.TokenResponse.accessToken'
+      - '@azure/abort-controller.TokenResponse.refreshToken'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      An internal type used to communicate details of a token request's
+      response that should not be sent back as part of the access token.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TokenResponse.accessToken'
+    name: accessToken
+    fullName: accessToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The AccessToken to be returned from getToken.
+    syntax:
+      content: 'accessToken: AccessToken'
+      return:
+        type:
+          - '@azure/abort-controller.AccessToken'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TokenResponse.refreshToken'
+    name: refreshToken
+    fullName: refreshToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The refresh token if the 'offline_access' scope was used.
+    optional: true
+    syntax:
+      content: 'refreshToken?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.AccessToken'
+    name: AccessToken
+    spec.typeScript:
+      - name: AccessToken
+        fullName: AccessToken
+        uid: '@azure/abort-controller.AccessToken'

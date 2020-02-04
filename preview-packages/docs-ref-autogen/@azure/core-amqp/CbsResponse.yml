@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.CbsResponse'
+  - uid: tslib.CbsResponse
     name: CbsResponse
     fullName: CbsResponse
     children:
-      - '@azure/core-amqp.CbsResponse.correlationId'
-      - '@azure/core-amqp.CbsResponse.satusDescription'
-      - '@azure/core-amqp.CbsResponse.statusCode'
+      - tslib.CbsResponse.correlationId
+      - tslib.CbsResponse.satusDescription
+      - tslib.CbsResponse.statusCode
     langs:
       - typeScript
     type: interface
     summary: Describes the CBS Response.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.CbsResponse.correlationId'
+    package: tslib
+  - uid: tslib.CbsResponse.correlationId
     name: correlationId
     fullName: correlationId
     children: []
@@ -26,8 +26,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.CbsResponse.satusDescription'
+    package: tslib
+  - uid: tslib.CbsResponse.satusDescription
     name: satusDescription
     fullName: satusDescription
     children: []
@@ -41,8 +41,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.CbsResponse.statusCode'
+    package: tslib
+  - uid: tslib.CbsResponse.statusCode
     name: statusCode
     fullName: statusCode
     children: []
@@ -56,4 +56,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
+    package: tslib

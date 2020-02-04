@@ -1,0 +1,250 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.DistributionData'
+    name: DistributionData
+    fullName: DistributionData
+    children:
+      - '@opentelemetry/types.DistributionData.bucketCounts'
+      - '@opentelemetry/types.DistributionData.buckets'
+      - '@opentelemetry/types.DistributionData.count'
+      - '@opentelemetry/types.DistributionData.exemplars'
+      - '@opentelemetry/types.DistributionData.mean'
+      - '@opentelemetry/types.DistributionData.startTime'
+      - '@opentelemetry/types.DistributionData.stdDeviation'
+      - '@opentelemetry/types.DistributionData.sum'
+      - '@opentelemetry/types.DistributionData.sumOfSquaredDeviation'
+      - '@opentelemetry/types.DistributionData.tagValues'
+      - '@opentelemetry/types.DistributionData.timestamp'
+      - '@opentelemetry/types.DistributionData.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: This AggregationData contains a histogram of the collected values.
+    extends:
+      name: '@opentelemetry/types.AggregationMetadata'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionData.bucketCounts'
+    name: bucketCounts
+    fullName: bucketCounts
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Buckets count
+    optional: true
+    syntax:
+      content: 'bucketCounts?: number[]'
+      return:
+        type:
+          - 'number[]'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionData.buckets'
+    name: buckets
+    fullName: buckets
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Bucket distribution of the histogram
+    syntax:
+      content: 'buckets: Bucket[]'
+      return:
+        type:
+          - '@opentelemetry/types.Bucket[]'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionData.count'
+    name: count
+    fullName: count
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get the total count of all recorded values in the histogram
+    syntax:
+      content: 'count: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionData.exemplars'
+    name: exemplars
+    fullName: exemplars
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If the distribution does not have a histogram, then omit this field.'
+    optional: true
+    syntax:
+      content: 'exemplars?: StatsExemplar[]'
+      return:
+        type:
+          - '@opentelemetry/types.StatsExemplar[]'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionData.mean'
+    name: mean
+    fullName: mean
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Get the computed mean value of all recorded values in the histogram
+    syntax:
+      content: 'mean: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionData.startTime'
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The first timestamp a datapoint was added
+    syntax:
+      content: 'startTime: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionData.stdDeviation'
+    name: stdDeviation
+    fullName: stdDeviation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Get the computed standard deviation of all recorded values in the
+      histogram
+    syntax:
+      content: 'stdDeviation: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionData.sum'
+    name: sum
+    fullName: sum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Sum of all recorded values in the histogram
+    syntax:
+      content: 'sum: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionData.sumOfSquaredDeviation'
+    name: sumOfSquaredDeviation
+    fullName: sumOfSquaredDeviation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Get the computed sum of squared deviations of all recorded values in the
+      histogram.
+    syntax:
+      content: 'sumOfSquaredDeviation: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionData.tagValues'
+    name: tagValues
+    fullName: tagValues
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The tagValues that this AggregationData collects and aggregates
+    syntax:
+      content: 'tagValues: Array<TagValue | null>'
+      return:
+        type:
+          - Array<@opentelemetry/types.TagValue | null>
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionData.timestamp'
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The latest timestamp a new data point was recorded
+    syntax:
+      content: 'timestamp: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.DistributionData.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: DISTRIBUTION'
+      return:
+        type:
+          - '@opentelemetry/types.AggregationType.DISTRIBUTION'
+        description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.AggregationMetadata'
+    name: AggregationMetadata
+    spec.typeScript:
+      - name: AggregationMetadata
+        fullName: AggregationMetadata
+        uid: '@opentelemetry/types.AggregationMetadata'
+  - uid: '@opentelemetry/types.Bucket[]'
+    name: 'Bucket[]'
+    spec.typeScript:
+      - name: Bucket
+        fullName: Bucket
+        uid: '@opentelemetry/types.Bucket'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@opentelemetry/types.StatsExemplar[]'
+    name: 'StatsExemplar[]'
+    spec.typeScript:
+      - name: StatsExemplar
+        fullName: StatsExemplar
+        uid: '@opentelemetry/types.StatsExemplar'
+      - name: '[]'
+        fullName: '[]'
+  - uid: Array<@opentelemetry/types.TagValue | null>
+    name: TagValue | null>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: TagValue
+        fullName: TagValue
+        uid: '@opentelemetry/types.TagValue'
+      - name: ' | null>'
+        fullName: ' | null>'
+  - uid: '@opentelemetry/types.AggregationType.DISTRIBUTION'
+    name: DISTRIBUTION
+    spec.typeScript:
+      - name: DISTRIBUTION
+        fullName: DISTRIBUTION
+        uid: '@opentelemetry/types.AggregationType.DISTRIBUTION'

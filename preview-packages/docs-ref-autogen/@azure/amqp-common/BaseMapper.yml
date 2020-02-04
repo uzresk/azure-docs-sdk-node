@@ -1,0 +1,227 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.BaseMapper'
+    name: BaseMapper
+    fullName: BaseMapper
+    children:
+      - '@azure/ms-rest-azure-env.BaseMapper.constraints'
+      - '@azure/ms-rest-azure-env.BaseMapper.defaultValue'
+      - '@azure/ms-rest-azure-env.BaseMapper.isConstant'
+      - '@azure/ms-rest-azure-env.BaseMapper.nullable'
+      - '@azure/ms-rest-azure-env.BaseMapper.readOnly'
+      - '@azure/ms-rest-azure-env.BaseMapper.required'
+      - '@azure/ms-rest-azure-env.BaseMapper.serializedName'
+      - '@azure/ms-rest-azure-env.BaseMapper.type'
+      - '@azure/ms-rest-azure-env.BaseMapper.xmlElementName'
+      - '@azure/ms-rest-azure-env.BaseMapper.xmlIsAttribute'
+      - '@azure/ms-rest-azure-env.BaseMapper.xmlIsWrapped'
+      - '@azure/ms-rest-azure-env.BaseMapper.xmlName'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.BaseMapper.constraints'
+    name: constraints
+    fullName: constraints
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'constraints?: MapperConstraints'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.MapperConstraints'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.BaseMapper.defaultValue'
+    name: defaultValue
+    fullName: defaultValue
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'defaultValue?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.BaseMapper.isConstant'
+    name: isConstant
+    fullName: isConstant
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'isConstant?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.BaseMapper.nullable'
+    name: nullable
+    fullName: nullable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'nullable?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.BaseMapper.readOnly'
+    name: readOnly
+    fullName: readOnly
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'readOnly?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.BaseMapper.required'
+    name: required
+    fullName: required
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'required?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.BaseMapper.serializedName'
+    name: serializedName
+    fullName: serializedName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'serializedName?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.BaseMapper.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: MapperType'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.MapperType'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.BaseMapper.xmlElementName'
+    name: xmlElementName
+    fullName: xmlElementName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'xmlElementName?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.BaseMapper.xmlIsAttribute'
+    name: xmlIsAttribute
+    fullName: xmlIsAttribute
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'xmlIsAttribute?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.BaseMapper.xmlIsWrapped'
+    name: xmlIsWrapped
+    fullName: xmlIsWrapped
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'xmlIsWrapped?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.BaseMapper.xmlName'
+    name: xmlName
+    fullName: xmlName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'xmlName?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.MapperConstraints'
+    name: MapperConstraints
+    spec.typeScript:
+      - name: MapperConstraints
+        fullName: MapperConstraints
+        uid: '@azure/ms-rest-azure-env.MapperConstraints'
+  - uid: '@azure/ms-rest-azure-env.MapperType'
+    name: MapperType
+    spec.typeScript:
+      - name: MapperType
+        fullName: MapperType
+        uid: '@azure/ms-rest-azure-env.MapperType'

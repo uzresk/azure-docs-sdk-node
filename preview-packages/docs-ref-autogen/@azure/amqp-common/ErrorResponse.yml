@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.ErrorResponse'
+    name: ErrorResponse
+    fullName: ErrorResponse
+    children:
+      - '@azure/ms-rest-azure-env.ErrorResponse.error'
+      - '@azure/ms-rest-azure-env.ErrorResponse.errorDescription'
+    langs:
+      - typeScript
+    type: interface
+    summary: '{string} [errorDescription] A description of the error returned.'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ErrorResponse.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'error: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ErrorResponse.errorDescription'
+    name: errorDescription
+    fullName: errorDescription
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'errorDescription: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'

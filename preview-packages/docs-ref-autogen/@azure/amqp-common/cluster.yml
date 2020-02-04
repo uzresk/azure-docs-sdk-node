@@ -1,0 +1,1631 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.cluster'
+    name: cluster
+    langs:
+      - typeScript
+    fullName: cluster
+    children:
+      - '@azure/ms-rest-azure-env.cluster.addListener_1'
+      - '@azure/ms-rest-azure-env.cluster.addListener_2'
+      - '@azure/ms-rest-azure-env.cluster.addListener_3'
+      - '@azure/ms-rest-azure-env.cluster.addListener_4'
+      - '@azure/ms-rest-azure-env.cluster.addListener_5'
+      - '@azure/ms-rest-azure-env.cluster.addListener_6'
+      - '@azure/ms-rest-azure-env.cluster.addListener_7'
+      - '@azure/ms-rest-azure-env.cluster.addListener'
+      - '@azure/ms-rest-azure-env.cluster.Address'
+      - '@azure/ms-rest-azure-env.cluster.Cluster'
+      - '@azure/ms-rest-azure-env.cluster.ClusterSettings'
+      - '@azure/ms-rest-azure-env.cluster.disconnect'
+      - '@azure/ms-rest-azure-env.cluster.emit_1'
+      - '@azure/ms-rest-azure-env.cluster.emit_2'
+      - '@azure/ms-rest-azure-env.cluster.emit_3'
+      - '@azure/ms-rest-azure-env.cluster.emit_4'
+      - '@azure/ms-rest-azure-env.cluster.emit_5'
+      - '@azure/ms-rest-azure-env.cluster.emit_6'
+      - '@azure/ms-rest-azure-env.cluster.emit_7'
+      - '@azure/ms-rest-azure-env.cluster.emit'
+      - '@azure/ms-rest-azure-env.cluster.eventNames'
+      - '@azure/ms-rest-azure-env.cluster.fork'
+      - '@azure/ms-rest-azure-env.cluster.getMaxListeners'
+      - '@azure/ms-rest-azure-env.cluster.listenerCount'
+      - '@azure/ms-rest-azure-env.cluster.listeners'
+      - '@azure/ms-rest-azure-env.cluster.on_1'
+      - '@azure/ms-rest-azure-env.cluster.on_2'
+      - '@azure/ms-rest-azure-env.cluster.on_3'
+      - '@azure/ms-rest-azure-env.cluster.on_4'
+      - '@azure/ms-rest-azure-env.cluster.on_5'
+      - '@azure/ms-rest-azure-env.cluster.on_6'
+      - '@azure/ms-rest-azure-env.cluster.on_7'
+      - '@azure/ms-rest-azure-env.cluster.on'
+      - '@azure/ms-rest-azure-env.cluster.once_1'
+      - '@azure/ms-rest-azure-env.cluster.once_2'
+      - '@azure/ms-rest-azure-env.cluster.once_3'
+      - '@azure/ms-rest-azure-env.cluster.once_4'
+      - '@azure/ms-rest-azure-env.cluster.once_5'
+      - '@azure/ms-rest-azure-env.cluster.once_6'
+      - '@azure/ms-rest-azure-env.cluster.once_7'
+      - '@azure/ms-rest-azure-env.cluster.once'
+      - '@azure/ms-rest-azure-env.cluster.prependListener_1'
+      - '@azure/ms-rest-azure-env.cluster.prependListener_2'
+      - '@azure/ms-rest-azure-env.cluster.prependListener_3'
+      - '@azure/ms-rest-azure-env.cluster.prependListener_4'
+      - '@azure/ms-rest-azure-env.cluster.prependListener_5'
+      - '@azure/ms-rest-azure-env.cluster.prependListener_6'
+      - '@azure/ms-rest-azure-env.cluster.prependListener_7'
+      - '@azure/ms-rest-azure-env.cluster.prependListener'
+      - '@azure/ms-rest-azure-env.cluster.prependOnceListener_1'
+      - '@azure/ms-rest-azure-env.cluster.prependOnceListener_2'
+      - '@azure/ms-rest-azure-env.cluster.prependOnceListener_3'
+      - '@azure/ms-rest-azure-env.cluster.prependOnceListener_4'
+      - '@azure/ms-rest-azure-env.cluster.prependOnceListener_5'
+      - '@azure/ms-rest-azure-env.cluster.prependOnceListener_6'
+      - '@azure/ms-rest-azure-env.cluster.prependOnceListener_7'
+      - '@azure/ms-rest-azure-env.cluster.prependOnceListener'
+      - '@azure/ms-rest-azure-env.cluster.removeAllListeners'
+      - '@azure/ms-rest-azure-env.cluster.removeListener'
+      - '@azure/ms-rest-azure-env.cluster.setMaxListeners'
+      - '@azure/ms-rest-azure-env.cluster.setupMaster'
+      - '@azure/ms-rest-azure-env.cluster.Worker'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener_1'
+    name: 'addListener("disconnect", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "disconnect", listener: (worker: Worker) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener_2'
+    name: >-
+      addListener("exit", (worker: Worker, code: number, signal: string) =>
+      void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "exit", listener: (worker: Worker, code:
+        number, signal: string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener_3'
+    name: 'addListener("fork", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "fork", listener: (worker: Worker) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"fork"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener_4'
+    name: 'addListener("listening", (worker: Worker, address: Address) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "listening", listener: (worker: Worker,
+        address: Address) => void)
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, address: Address) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener_5'
+    name: >-
+      addListener("message", (worker: Worker, message: any, handle: Socket |
+      Server) => void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "message", listener: (worker: Worker,
+        message: any, handle: Socket | Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener_6'
+    name: 'addListener("online", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "online", listener: (worker: Worker) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener_7'
+    name: 'addListener("setup", (settings: any) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "setup", listener: (settings: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"setup"'
+          description: ''
+        - id: listener
+          type:
+            - '(settings: any) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener'
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |-
+      events.EventEmitter
+        1. disconnect
+        2. exit
+        3. fork
+        4. listening
+        5. message
+        6. online
+        7. setup
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.disconnect'
+    name: disconnect(Function)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function disconnect(callback?: Function)'
+      parameters:
+        - id: callback
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.emit_1'
+    name: 'emit("disconnect", Worker)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "disconnect", worker: Worker)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: worker
+          type:
+            - '@azure/ms-rest-azure-env.cluster.Worker'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.emit_2'
+    name: 'emit("exit", Worker, number, string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function emit(event: "exit", worker: Worker, code: number, signal:
+        string)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: worker
+          type:
+            - '@azure/ms-rest-azure-env.cluster.Worker'
+          description: ''
+        - id: code
+          type:
+            - number
+          description: ''
+        - id: signal
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.emit_3'
+    name: 'emit("fork", Worker)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "fork", worker: Worker)'
+      parameters:
+        - id: event
+          type:
+            - '"fork"'
+          description: ''
+        - id: worker
+          type:
+            - '@azure/ms-rest-azure-env.cluster.Worker'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.emit_4'
+    name: 'emit("listening", Worker, Address)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "listening", worker: Worker, address: Address)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: worker
+          type:
+            - '@azure/ms-rest-azure-env.cluster.Worker'
+          description: ''
+        - id: address
+          type:
+            - Address
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.emit_5'
+    name: 'emit("message", Worker, any, Socket | Server)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function emit(event: "message", worker: Worker, message: any, handle:
+        Socket | Server)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: worker
+          type:
+            - '@azure/ms-rest-azure-env.cluster.Worker'
+          description: ''
+        - id: message
+          type:
+            - any
+          description: ''
+        - id: handle
+          type:
+            - >-
+              @azure/ms-rest-azure-env.net.Socket |
+              @azure/ms-rest-azure-env.net.Server
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.emit_6'
+    name: 'emit("online", Worker)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "online", worker: Worker)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: worker
+          type:
+            - '@azure/ms-rest-azure-env.cluster.Worker'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.emit_7'
+    name: 'emit("setup", any)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "setup", settings: any)'
+      parameters:
+        - id: event
+          type:
+            - '"setup"'
+          description: ''
+        - id: settings
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.eventNames'
+    name: eventNames()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.fork'
+    name: fork(any)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function fork(env?: any)'
+      parameters:
+        - id: env
+          type:
+            - any
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.cluster.Worker'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.listenerCount'
+    name: listenerCount(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string)'
+      parameters:
+        - id: type
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.listeners'
+    name: listeners(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.on_1'
+    name: 'on("disconnect", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "disconnect", listener: (worker: Worker) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.on_2'
+    name: 'on("exit", (worker: Worker, code: number, signal: string) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "exit", listener: (worker: Worker, code: number,
+        signal: string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.on_3'
+    name: 'on("fork", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "fork", listener: (worker: Worker) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"fork"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.on_4'
+    name: 'on("listening", (worker: Worker, address: Address) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "listening", listener: (worker: Worker, address:
+        Address) => void)
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, address: Address) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.on_5'
+    name: >-
+      on("message", (worker: Worker, message: any, handle: Socket | Server) =>
+      void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function on(event: "message", listener: (worker: Worker, message: any,
+        handle: Socket | Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.on_6'
+    name: 'on("online", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "online", listener: (worker: Worker) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.on_7'
+    name: 'on("setup", (settings: any) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "setup", listener: (settings: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"setup"'
+          description: ''
+        - id: listener
+          type:
+            - '(settings: any) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.on'
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.once_1'
+    name: 'once("disconnect", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "disconnect", listener: (worker: Worker) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.once_2'
+    name: 'once("exit", (worker: Worker, code: number, signal: string) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "exit", listener: (worker: Worker, code: number,
+        signal: string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.once_3'
+    name: 'once("fork", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "fork", listener: (worker: Worker) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"fork"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.once_4'
+    name: 'once("listening", (worker: Worker, address: Address) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "listening", listener: (worker: Worker, address:
+        Address) => void)
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, address: Address) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.once_5'
+    name: >-
+      once("message", (worker: Worker, message: any, handle: Socket | Server) =>
+      void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function once(event: "message", listener: (worker: Worker, message: any,
+        handle: Socket | Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.once_6'
+    name: 'once("online", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "online", listener: (worker: Worker) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.once_7'
+    name: 'once("setup", (settings: any) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "setup", listener: (settings: any) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"setup"'
+          description: ''
+        - id: listener
+          type:
+            - '(settings: any) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.once'
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener_1'
+    name: 'prependListener("disconnect", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "disconnect", listener: (worker: Worker)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener_2'
+    name: >-
+      prependListener("exit", (worker: Worker, code: number, signal: string) =>
+      void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "exit", listener: (worker: Worker, code:
+        number, signal: string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener_3'
+    name: 'prependListener("fork", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "fork", listener: (worker: Worker) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"fork"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener_4'
+    name: 'prependListener("listening", (worker: Worker, address: Address) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "listening", listener: (worker: Worker,
+        address: Address) => void)
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, address: Address) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener_5'
+    name: >-
+      prependListener("message", (worker: Worker, message: any, handle: Socket |
+      Server) => void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "message", listener: (worker: Worker,
+        message: any, handle: Socket | Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener_6'
+    name: 'prependListener("online", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "online", listener: (worker: Worker) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener_7'
+    name: 'prependListener("setup", (settings: any) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "setup", listener: (settings: any) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"setup"'
+          description: ''
+        - id: listener
+          type:
+            - '(settings: any) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener'
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener_1'
+    name: 'prependOnceListener("disconnect", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "disconnect", listener: (worker:
+        Worker) => void)
+      parameters:
+        - id: event
+          type:
+            - '"disconnect"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener_2'
+    name: >-
+      prependOnceListener("exit", (worker: Worker, code: number, signal: string)
+      => void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "exit", listener: (worker: Worker,
+        code: number, signal: string) => void)
+      parameters:
+        - id: event
+          type:
+            - '"exit"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, code: number, signal: string) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener_3'
+    name: 'prependOnceListener("fork", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "fork", listener: (worker: Worker)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"fork"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener_4'
+    name: >-
+      prependOnceListener("listening", (worker: Worker, address: Address) =>
+      void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "listening", listener: (worker:
+        Worker, address: Address) => void)
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, address: Address) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener_5'
+    name: >-
+      prependOnceListener("message", (worker: Worker, message: any, handle:
+      Socket | Server) => void)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "message", listener: (worker:
+        Worker, message: any, handle: Socket | Server) => void)
+      parameters:
+        - id: event
+          type:
+            - '"message"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker, message: any, handle: Socket | Server) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener_6'
+    name: 'prependOnceListener("online", (worker: Worker) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "online", listener: (worker: Worker)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"online"'
+          description: ''
+        - id: listener
+          type:
+            - '(worker: Worker) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener_7'
+    name: 'prependOnceListener("setup", (settings: any) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "setup", listener: (settings: any)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"setup"'
+          description: ''
+        - id: listener
+          type:
+            - '(settings: any) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener'
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.removeAllListeners'
+    name: removeAllListeners(undefined | string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: undefined | string)'
+      parameters:
+        - id: event
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.removeListener'
+    name: 'removeListener(string, (args: any[]) => void)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - Cluster
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.cluster.setupMaster'
+    name: setupMaster(ClusterSettings)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setupMaster(settings?: ClusterSettings)'
+      parameters:
+        - id: settings
+          type:
+            - '@azure/ms-rest-azure-env.cluster.ClusterSettings'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+  - uid: '@azure/ms-rest-azure-env.net.Socket | @azure/ms-rest-azure-env.net.Server'
+    name: Server
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/ms-rest-azure-env.net.Socket'
+      - name: ' | '
+        fullName: ' | '
+      - name: Server
+        fullName: Server
+        uid: '@azure/ms-rest-azure-env.net.Server'
+  - uid: '@azure/ms-rest-azure-env.cluster.Worker'
+    name: Worker
+    spec.typeScript:
+      - name: Worker
+        fullName: Worker
+        uid: '@azure/ms-rest-azure-env.cluster.Worker'
+  - uid: '@azure/ms-rest-azure-env.cluster.Cluster.Worker'
+    name: Worker
+    spec.typeScript:
+      - name: Worker
+        fullName: Worker
+        uid: '@azure/ms-rest-azure-env.cluster.Cluster.Worker'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+  - uid: '@azure/ms-rest-azure-env.cluster.ClusterSettings'
+    name: ClusterSettings
+    spec.typeScript:
+      - name: ClusterSettings
+        fullName: ClusterSettings
+        uid: '@azure/ms-rest-azure-env.cluster.ClusterSettings'
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener_1'
+    name: addListener_1
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener_2'
+    name: addListener_2
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener_3'
+    name: addListener_3
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener_4'
+    name: addListener_4
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener_5'
+    name: addListener_5
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener_6'
+    name: addListener_6
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener_7'
+    name: addListener_7
+  - uid: '@azure/ms-rest-azure-env.cluster.addListener'
+    name: addListener
+  - uid: '@azure/ms-rest-azure-env.cluster.Address'
+    name: Address
+  - uid: '@azure/ms-rest-azure-env.cluster.Cluster'
+    name: Cluster
+  - uid: '@azure/ms-rest-azure-env.cluster.disconnect'
+    name: disconnect
+  - uid: '@azure/ms-rest-azure-env.cluster.emit_1'
+    name: emit_1
+  - uid: '@azure/ms-rest-azure-env.cluster.emit_2'
+    name: emit_2
+  - uid: '@azure/ms-rest-azure-env.cluster.emit_3'
+    name: emit_3
+  - uid: '@azure/ms-rest-azure-env.cluster.emit_4'
+    name: emit_4
+  - uid: '@azure/ms-rest-azure-env.cluster.emit_5'
+    name: emit_5
+  - uid: '@azure/ms-rest-azure-env.cluster.emit_6'
+    name: emit_6
+  - uid: '@azure/ms-rest-azure-env.cluster.emit_7'
+    name: emit_7
+  - uid: '@azure/ms-rest-azure-env.cluster.emit'
+    name: emit
+  - uid: '@azure/ms-rest-azure-env.cluster.eventNames'
+    name: eventNames
+  - uid: '@azure/ms-rest-azure-env.cluster.fork'
+    name: fork
+  - uid: '@azure/ms-rest-azure-env.cluster.getMaxListeners'
+    name: getMaxListeners
+  - uid: '@azure/ms-rest-azure-env.cluster.listenerCount'
+    name: listenerCount
+  - uid: '@azure/ms-rest-azure-env.cluster.listeners'
+    name: listeners
+  - uid: '@azure/ms-rest-azure-env.cluster.on_1'
+    name: on_1
+  - uid: '@azure/ms-rest-azure-env.cluster.on_2'
+    name: on_2
+  - uid: '@azure/ms-rest-azure-env.cluster.on_3'
+    name: on_3
+  - uid: '@azure/ms-rest-azure-env.cluster.on_4'
+    name: on_4
+  - uid: '@azure/ms-rest-azure-env.cluster.on_5'
+    name: on_5
+  - uid: '@azure/ms-rest-azure-env.cluster.on_6'
+    name: on_6
+  - uid: '@azure/ms-rest-azure-env.cluster.on_7'
+    name: on_7
+  - uid: '@azure/ms-rest-azure-env.cluster.on'
+    name: 'on'
+  - uid: '@azure/ms-rest-azure-env.cluster.once_1'
+    name: once_1
+  - uid: '@azure/ms-rest-azure-env.cluster.once_2'
+    name: once_2
+  - uid: '@azure/ms-rest-azure-env.cluster.once_3'
+    name: once_3
+  - uid: '@azure/ms-rest-azure-env.cluster.once_4'
+    name: once_4
+  - uid: '@azure/ms-rest-azure-env.cluster.once_5'
+    name: once_5
+  - uid: '@azure/ms-rest-azure-env.cluster.once_6'
+    name: once_6
+  - uid: '@azure/ms-rest-azure-env.cluster.once_7'
+    name: once_7
+  - uid: '@azure/ms-rest-azure-env.cluster.once'
+    name: once
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener_1'
+    name: prependListener_1
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener_2'
+    name: prependListener_2
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener_3'
+    name: prependListener_3
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener_4'
+    name: prependListener_4
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener_5'
+    name: prependListener_5
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener_6'
+    name: prependListener_6
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener_7'
+    name: prependListener_7
+  - uid: '@azure/ms-rest-azure-env.cluster.prependListener'
+    name: prependListener
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener_1'
+    name: prependOnceListener_1
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener_2'
+    name: prependOnceListener_2
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener_3'
+    name: prependOnceListener_3
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener_4'
+    name: prependOnceListener_4
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener_5'
+    name: prependOnceListener_5
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener_6'
+    name: prependOnceListener_6
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener_7'
+    name: prependOnceListener_7
+  - uid: '@azure/ms-rest-azure-env.cluster.prependOnceListener'
+    name: prependOnceListener
+  - uid: '@azure/ms-rest-azure-env.cluster.removeAllListeners'
+    name: removeAllListeners
+  - uid: '@azure/ms-rest-azure-env.cluster.removeListener'
+    name: removeListener
+  - uid: '@azure/ms-rest-azure-env.cluster.setMaxListeners'
+    name: setMaxListeners
+  - uid: '@azure/ms-rest-azure-env.cluster.setupMaster'
+    name: setupMaster

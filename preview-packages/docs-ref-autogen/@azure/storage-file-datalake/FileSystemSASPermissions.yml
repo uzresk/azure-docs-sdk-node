@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.FileSystemSASPermissions'
+  - uid: '@azure/abort-controller.FileSystemSASPermissions'
     name: FileSystemSASPermissions
     fullName: FileSystemSASPermissions
     children:
-      - '@azure/storage-file-datalake.FileSystemSASPermissions.add'
-      - '@azure/storage-file-datalake.FileSystemSASPermissions.create'
-      - '@azure/storage-file-datalake.FileSystemSASPermissions.delete'
-      - '@azure/storage-file-datalake.FileSystemSASPermissions.list'
-      - '@azure/storage-file-datalake.FileSystemSASPermissions.parse'
-      - '@azure/storage-file-datalake.FileSystemSASPermissions.read'
-      - '@azure/storage-file-datalake.FileSystemSASPermissions.toString'
-      - '@azure/storage-file-datalake.FileSystemSASPermissions.write'
+      - '@azure/abort-controller.FileSystemSASPermissions.add'
+      - '@azure/abort-controller.FileSystemSASPermissions.create'
+      - '@azure/abort-controller.FileSystemSASPermissions.delete'
+      - '@azure/abort-controller.FileSystemSASPermissions.list'
+      - '@azure/abort-controller.FileSystemSASPermissions.parse'
+      - '@azure/abort-controller.FileSystemSASPermissions.read'
+      - '@azure/abort-controller.FileSystemSASPermissions.toString'
+      - '@azure/abort-controller.FileSystemSASPermissions.write'
     langs:
       - typeScript
     type: class
@@ -30,8 +30,8 @@ items:
 
       the order of the permissions is particular and this class guarantees
       correctness.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemSASPermissions.add'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSASPermissions.add'
     name: add
     fullName: add
     children: []
@@ -45,8 +45,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemSASPermissions.create'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSASPermissions.create'
     name: create
     fullName: create
     children: []
@@ -60,8 +60,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemSASPermissions.delete'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSASPermissions.delete'
     name: delete
     fullName: delete
     children: []
@@ -75,8 +75,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemSASPermissions.list'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSASPermissions.list'
     name: list
     fullName: list
     children: []
@@ -90,8 +90,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemSASPermissions.parse'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSASPermissions.parse'
     name: parse(string)
     children: []
     type: method
@@ -112,10 +112,10 @@ items:
           description: ''
       return:
         type:
-          - '@azure/storage-file-datalake.FileSystemSASPermissions'
+          - '@azure/abort-controller.FileSystemSASPermissions'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemSASPermissions.read'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSASPermissions.read'
     name: read
     fullName: read
     children: []
@@ -129,8 +129,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemSASPermissions.toString'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSASPermissions.toString'
     name: toString()
     children: []
     type: method
@@ -151,8 +151,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemSASPermissions.write'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemSASPermissions.write'
     name: write
     fullName: write
     children: []
@@ -166,11 +166,11 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.FileSystemSASPermissions'
+  - uid: '@azure/abort-controller.FileSystemSASPermissions'
     name: FileSystemSASPermissions
     spec.typeScript:
       - name: FileSystemSASPermissions
         fullName: FileSystemSASPermissions
-        uid: '@azure/storage-file-datalake.FileSystemSASPermissions'
+        uid: '@azure/abort-controller.FileSystemSASPermissions'

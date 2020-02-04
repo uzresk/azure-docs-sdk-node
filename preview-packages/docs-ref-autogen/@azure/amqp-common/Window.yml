@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.Window'
+    name: Window
+    fullName: Window
+    children:
+      - '@azure/ms-rest-azure-env.Window.navigator'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Window.navigator'
+    name: navigator
+    fullName: navigator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'navigator: Navigator'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.Navigator'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.Navigator'
+    name: Navigator
+    spec.typeScript:
+      - name: Navigator
+        fullName: Navigator
+        uid: '@azure/ms-rest-azure-env.Navigator'

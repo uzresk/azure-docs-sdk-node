@@ -1,0 +1,146 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.NodeModule'
+    name: NodeModule
+    fullName: NodeModule
+    children:
+      - '@azure/ms-rest-azure-env.NodeModule.children'
+      - '@azure/ms-rest-azure-env.NodeModule.exports'
+      - '@azure/ms-rest-azure-env.NodeModule.filename'
+      - '@azure/ms-rest-azure-env.NodeModule.id'
+      - '@azure/ms-rest-azure-env.NodeModule.loaded'
+      - '@azure/ms-rest-azure-env.NodeModule.parent'
+      - '@azure/ms-rest-azure-env.NodeModule.paths'
+      - '@azure/ms-rest-azure-env.NodeModule.require'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeModule.children'
+    name: children
+    fullName: children
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'children: NodeModule[]'
+      return:
+        type:
+          - 'NodeModule[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeModule.exports'
+    name: exports
+    fullName: exports
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'exports: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeModule.filename'
+    name: filename
+    fullName: filename
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'filename: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeModule.id'
+    name: id
+    fullName: id
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'id: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeModule.loaded'
+    name: loaded
+    fullName: loaded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'loaded: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeModule.parent'
+    name: parent
+    fullName: parent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'parent: NodeModule | null'
+      return:
+        type:
+          - NodeModule | null
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeModule.paths'
+    name: paths
+    fullName: paths
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'paths: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.NodeModule.require'
+    name: require
+    fullName: require
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'require: NodeRequireFunction'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.NodeRequireFunction'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.NodeRequireFunction'
+    name: NodeRequireFunction
+    spec.typeScript:
+      - name: NodeRequireFunction
+        fullName: NodeRequireFunction
+        uid: '@azure/ms-rest-azure-env.NodeRequireFunction'

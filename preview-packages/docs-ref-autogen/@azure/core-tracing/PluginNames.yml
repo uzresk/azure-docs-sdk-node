@@ -1,0 +1,14 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.PluginNames'
+    name: PluginNames
+    fullName: PluginNames
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Type PluginNames: each key should be the name of the module to trace,
+      and its value should be the name of the package  which has the
+      plugin implementation.
+    package: '@opentelemetry/types'

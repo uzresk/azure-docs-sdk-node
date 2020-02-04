@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.getGlobalObject
+    name: getGlobalObject()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getGlobalObject()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: tslib

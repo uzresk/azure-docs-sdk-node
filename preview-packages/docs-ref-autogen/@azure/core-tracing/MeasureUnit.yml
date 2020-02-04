@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.MeasureUnit'
+    name: MeasureUnit
+    fullName: MeasureUnit
+    children:
+      - '@opentelemetry/types.MeasureUnit.BYTE'
+      - '@opentelemetry/types.MeasureUnit.KBYTE'
+      - '@opentelemetry/types.MeasureUnit.MS'
+      - '@opentelemetry/types.MeasureUnit.NS'
+      - '@opentelemetry/types.MeasureUnit.SEC'
+      - '@opentelemetry/types.MeasureUnit.UNIT'
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      Describes the unit used for the Measure. Should follows the format
+      described
+
+      by http://unitsofmeasure.org/ucum.html.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.MeasureUnit.BYTE'
+    name: BYTE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.MeasureUnit.KBYTE'
+    name: KBYTE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.MeasureUnit.MS'
+    name: MS
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.MeasureUnit.NS'
+    name: NS
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.MeasureUnit.SEC'
+    name: SEC
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.MeasureUnit.UNIT'
+    name: UNIT
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@opentelemetry/types'

@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.CancelStatic'
+    name: CancelStatic
+    fullName: CancelStatic
+    children:
+      - '@azure/ms-rest-azure-env.CancelStatic.constructor'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.CancelStatic.constructor'
+    name: CancelStatic(undefined | string)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new CancelStatic(message?: undefined | string)'
+      parameters:
+        - id: message
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'

@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.FileSystemDeleteHeaders'
+  - uid: '@azure/abort-controller.FileSystemDeleteHeaders'
     name: FileSystemDeleteHeaders
     fullName: FileSystemDeleteHeaders
     children:
-      - '@azure/storage-file-datalake.FileSystemDeleteHeaders.clientRequestId'
-      - '@azure/storage-file-datalake.FileSystemDeleteHeaders.date'
-      - '@azure/storage-file-datalake.FileSystemDeleteHeaders.requestId'
-      - '@azure/storage-file-datalake.FileSystemDeleteHeaders.version'
+      - '@azure/abort-controller.FileSystemDeleteHeaders.clientRequestId'
+      - '@azure/abort-controller.FileSystemDeleteHeaders.date'
+      - '@azure/abort-controller.FileSystemDeleteHeaders.requestId'
+      - '@azure/abort-controller.FileSystemDeleteHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemDeleteHeaders.clientRequestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemDeleteHeaders.clientRequestId'
     name: clientRequestId
     fullName: clientRequestId
     children: []
@@ -28,8 +28,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemDeleteHeaders.date'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemDeleteHeaders.date'
     name: date
     fullName: date
     children: []
@@ -42,10 +42,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - Date
+          - '@azure/abort-controller.NodeJS.Global.Date'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemDeleteHeaders.requestId'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemDeleteHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -60,8 +60,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemDeleteHeaders.version'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemDeleteHeaders.version'
     name: version
     fullName: version
     children: []
@@ -76,4 +76,11 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.Date'
+    name: Date
+    spec.typeScript:
+      - name: Date
+        fullName: Date
+        uid: '@azure/abort-controller.NodeJS.Global.Date'

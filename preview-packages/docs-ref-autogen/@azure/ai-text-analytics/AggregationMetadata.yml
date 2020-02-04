@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.AggregationMetadata'
+    name: AggregationMetadata
+    fullName: AggregationMetadata
+    children:
+      - '@azure/abort-controller.AggregationMetadata.tagValues'
+      - '@azure/abort-controller.AggregationMetadata.timestamp'
+      - '@azure/abort-controller.AggregationMetadata.type'
+    langs:
+      - typeScript
+    type: interface
+    summary: Defines how data is collected and aggregated
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AggregationMetadata.tagValues'
+    name: tagValues
+    fullName: tagValues
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The tagValues that this AggregationData collects and aggregates
+    syntax:
+      content: 'tagValues: Array<TagValue | null>'
+      return:
+        type:
+          - Array<@azure/abort-controller.TagValue | null>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AggregationMetadata.timestamp'
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The latest timestamp a new data point was recorded
+    syntax:
+      content: 'timestamp: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AggregationMetadata.type'
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The aggregation type of the aggregation data
+    syntax:
+      content: 'type: AggregationType'
+      return:
+        type:
+          - '@azure/abort-controller.AggregationType'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: Array<@azure/abort-controller.TagValue | null>
+    name: TagValue | null>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: TagValue
+        fullName: TagValue
+        uid: '@azure/abort-controller.TagValue'
+      - name: ' | null>'
+        fullName: ' | null>'
+  - uid: '@azure/abort-controller.AggregationType'
+    name: AggregationType
+    spec.typeScript:
+      - name: AggregationType
+        fullName: AggregationType
+        uid: '@azure/abort-controller.AggregationType'

@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.AggregationType
+    name: AggregationType
+    fullName: AggregationType
+    children:
+      - tslib.AggregationType.COUNT
+      - tslib.AggregationType.SUM
+      - tslib.AggregationType.LAST_VALUE
+      - tslib.AggregationType.DISTRIBUTION
+    langs:
+      - typeScript
+    type: enum
+    summary: |-
+      Informs the type of the aggregation. It can be: count, sum, lastValue or
+      distribution.
+    package: tslib
+  - uid: tslib.AggregationType.COUNT
+    name: COUNT
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: tslib
+  - uid: tslib.AggregationType.SUM
+    name: SUM
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: tslib
+  - uid: tslib.AggregationType.LAST_VALUE
+    name: LAST_VALUE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: tslib
+  - uid: tslib.AggregationType.DISTRIBUTION
+    name: DISTRIBUTION
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: tslib

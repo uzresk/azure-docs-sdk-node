@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobStartCopyFromURLResponse'
+    name: BlobStartCopyFromURLResponse
+    fullName: BlobStartCopyFromURLResponse
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: Contains response data for the startCopyFromURL operation.
+    syntax:
+      content: >-
+        type BlobStartCopyFromURLResponse = BlobStartCopyFromURLHeaders & {
+        _response: Object }
+    package: '@azure/abort-controller'

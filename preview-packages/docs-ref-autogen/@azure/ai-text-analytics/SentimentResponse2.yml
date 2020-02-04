@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.SentimentResponse2'
+    name: SentimentResponse2
+    fullName: SentimentResponse2
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: Contains response data for the sentiment operation.
+    syntax:
+      content: 'type SentimentResponse2 = SentimentResponse & { _response: Object }'
+    package: '@azure/abort-controller'

@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.GaugeHandle'
+    name: GaugeHandle
+    fullName: GaugeHandle
+    children:
+      - '@azure/abort-controller.GaugeHandle.set'
+    langs:
+      - typeScript
+    type: interface
+    summary: A Handle for Gauge Metric.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.GaugeHandle.set'
+    name: set(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Sets the given value. Values can be negative.
+    syntax:
+      content: 'function set(value: number)'
+      parameters:
+        - id: value
+          type:
+            - number
+          description: |
+            the new value.
+    package: '@azure/abort-controller'

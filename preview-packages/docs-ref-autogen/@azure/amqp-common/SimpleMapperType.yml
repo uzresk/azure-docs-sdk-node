@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.SimpleMapperType'
+    name: SimpleMapperType
+    fullName: SimpleMapperType
+    children:
+      - '@azure/ms-rest-azure-env.SimpleMapperType.name'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SimpleMapperType.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: >-
+        name: "Base64Url" | "Boolean" | "ByteArray" | "Date" | "DateTime" |
+        "DateTimeRfc1123" | "Object" | "Stream" | "String" | "TimeSpan" |
+        "UnixTime" | "Uuid" | "Number" | "any"
+      return:
+        type:
+          - >-
+            "Base64Url" | "Boolean" | "ByteArray" | "Date" | "DateTime" |
+            "DateTimeRfc1123" | "Object" | "Stream" | "String" | "TimeSpan" |
+            "UnixTime" | "Uuid" | "Number" | "any"
+        description: ''
+    package: '@azure/ms-rest-azure-env'

@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.CounterHandle
+    name: CounterHandle
+    fullName: CounterHandle
+    children:
+      - tslib.CounterHandle.add
+    langs:
+      - typeScript
+    type: interface
+    summary: A Handle for Counter Metric.
+    package: tslib
+  - uid: tslib.CounterHandle.add
+    name: add(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Adds the given value to the current value. Values cannot be negative.
+    syntax:
+      content: 'function add(value: number)'
+      parameters:
+        - id: value
+          type:
+            - number
+          description: |
+            the value to add.
+    package: tslib

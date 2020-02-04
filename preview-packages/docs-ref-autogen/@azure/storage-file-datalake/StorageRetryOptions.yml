@@ -1,21 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.StorageRetryOptions'
+  - uid: '@azure/abort-controller.StorageRetryOptions'
     name: StorageRetryOptions
     fullName: StorageRetryOptions
     children:
-      - '@azure/storage-file-datalake.StorageRetryOptions.maxRetryDelayInMs'
-      - '@azure/storage-file-datalake.StorageRetryOptions.maxTries'
-      - '@azure/storage-file-datalake.StorageRetryOptions.retryDelayInMs'
-      - '@azure/storage-file-datalake.StorageRetryOptions.retryPolicyType'
-      - '@azure/storage-file-datalake.StorageRetryOptions.secondaryHost'
-      - '@azure/storage-file-datalake.StorageRetryOptions.tryTimeoutInMs'
+      - '@azure/abort-controller.StorageRetryOptions.maxRetryDelayInMs'
+      - '@azure/abort-controller.StorageRetryOptions.maxTries'
+      - '@azure/abort-controller.StorageRetryOptions.retryDelayInMs'
+      - '@azure/abort-controller.StorageRetryOptions.retryPolicyType'
+      - '@azure/abort-controller.StorageRetryOptions.secondaryHost'
+      - '@azure/abort-controller.StorageRetryOptions.tryTimeoutInMs'
     langs:
       - typeScript
     type: interface
     summary: Storage Blob retry options interface.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.StorageRetryOptions.maxRetryDelayInMs'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.StorageRetryOptions.maxRetryDelayInMs'
     name: maxRetryDelayInMs
     fullName: maxRetryDelayInMs
     children: []
@@ -34,8 +34,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.StorageRetryOptions.maxTries'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.StorageRetryOptions.maxTries'
     name: maxTries
     fullName: maxTries
     children: []
@@ -53,8 +53,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.StorageRetryOptions.retryDelayInMs'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.StorageRetryOptions.retryDelayInMs'
     name: retryDelayInMs
     fullName: retryDelayInMs
     children: []
@@ -77,8 +77,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.StorageRetryOptions.retryPolicyType'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.StorageRetryOptions.retryPolicyType'
     name: retryPolicyType
     fullName: retryPolicyType
     children: []
@@ -91,10 +91,10 @@ items:
       content: 'retryPolicyType?: StorageRetryPolicyType'
       return:
         type:
-          - '@azure/storage-file-datalake.StorageRetryPolicyType'
+          - '@azure/abort-controller.StorageRetryPolicyType'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.StorageRetryOptions.secondaryHost'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.StorageRetryOptions.secondaryHost'
     name: secondaryHost
     fullName: secondaryHost
     children: []
@@ -120,8 +120,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.StorageRetryOptions.tryTimeoutInMs'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.StorageRetryOptions.tryTimeoutInMs'
     name: tryTimeoutInMs
     fullName: tryTimeoutInMs
     children: []
@@ -142,11 +142,11 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.StorageRetryPolicyType'
+  - uid: '@azure/abort-controller.StorageRetryPolicyType'
     name: StorageRetryPolicyType
     spec.typeScript:
       - name: StorageRetryPolicyType
         fullName: StorageRetryPolicyType
-        uid: '@azure/storage-file-datalake.StorageRetryPolicyType'
+        uid: '@azure/abort-controller.StorageRetryPolicyType'

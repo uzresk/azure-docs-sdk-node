@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.flattenResponse'
+    name: 'flattenResponse(HttpOperationResponse, OperationResponse | undefined)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function flattenResponse(_response: HttpOperationResponse, responseSpec:
+        OperationResponse | undefined)
+      parameters:
+        - id: _response
+          type:
+            - '@azure/abort-controller.HttpOperationResponse'
+          description: ''
+        - id: responseSpec
+          type:
+            - '@azure/abort-controller.OperationResponse | undefined'
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.RestResponse'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.HttpOperationResponse'
+    name: HttpOperationResponse
+    spec.typeScript:
+      - name: HttpOperationResponse
+        fullName: HttpOperationResponse
+        uid: '@azure/abort-controller.HttpOperationResponse'
+  - uid: '@azure/abort-controller.OperationResponse | undefined'
+    name: OperationResponse | undefined
+    spec.typeScript:
+      - name: OperationResponse
+        fullName: OperationResponse
+        uid: '@azure/abort-controller.OperationResponse'
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: '@azure/abort-controller.RestResponse'
+    name: RestResponse
+    spec.typeScript:
+      - name: RestResponse
+        fullName: RestResponse
+        uid: '@azure/abort-controller.RestResponse'

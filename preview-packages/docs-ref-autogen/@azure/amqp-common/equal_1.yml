@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.equal_1'
+    name: 'equal(URIComponents, URIComponents, URIOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function equal(uriA: URIComponents, uriB: URIComponents, options?:
+        URIOptions)
+      parameters:
+        - id: uriA
+          type:
+            - '@azure/ms-rest-azure-env.URIComponents'
+          description: ''
+        - id: uriB
+          type:
+            - '@azure/ms-rest-azure-env.URIComponents'
+          description: ''
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.URIOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.URIComponents'
+    name: URIComponents
+    spec.typeScript:
+      - name: URIComponents
+        fullName: URIComponents
+        uid: '@azure/ms-rest-azure-env.URIComponents'
+  - uid: '@azure/ms-rest-azure-env.URIOptions'
+    name: URIOptions
+    spec.typeScript:
+      - name: URIOptions
+        fullName: URIOptions
+        uid: '@azure/ms-rest-azure-env.URIOptions'

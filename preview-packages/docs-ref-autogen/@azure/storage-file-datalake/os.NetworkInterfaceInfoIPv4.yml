@@ -1,0 +1,146 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.os.NetworkInterfaceInfoIPv4'
+    name: NetworkInterfaceInfoIPv4
+    fullName: NetworkInterfaceInfoIPv4
+    children:
+      - '@azure/abort-controller.os.NetworkInterfaceInfoIPv4.address'
+      - '@azure/abort-controller.os.NetworkInterfaceInfoIPv4.cidr'
+      - '@azure/abort-controller.os.NetworkInterfaceInfoIPv4.family'
+      - '@azure/abort-controller.os.NetworkInterfaceInfoIPv4.internal'
+      - '@azure/abort-controller.os.NetworkInterfaceInfoIPv4.mac'
+      - '@azure/abort-controller.os.NetworkInterfaceInfoIPv4.netmask'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.os.NetworkInterfaceBase'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.os.NetworkInterfaceInfoIPv4.address'
+    name: address
+    fullName: address
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'address: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.os.NetworkInterfaceInfoIPv4.cidr'
+    name: cidr
+    fullName: cidr
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cidr: string | null'
+      return:
+        type:
+          - string | null
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.os.NetworkInterfaceInfoIPv4.family'
+    name: family
+    fullName: family
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'family: "IPv4"'
+      return:
+        type:
+          - '"IPv4"'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.os.NetworkInterfaceInfoIPv4.internal'
+    name: internal
+    fullName: internal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'internal: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.os.NetworkInterfaceInfoIPv4.mac'
+    name: mac
+    fullName: mac
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'mac: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.os.NetworkInterfaceInfoIPv4.netmask'
+    name: netmask
+    fullName: netmask
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'netmask: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.os.NetworkInterfaceBase'
+    name: NetworkInterfaceBase
+    spec.typeScript:
+      - name: NetworkInterfaceBase
+        fullName: NetworkInterfaceBase
+        uid: '@azure/abort-controller.os.NetworkInterfaceBase'
+  - uid: '@azure/abort-controller.os.CpuInfo[]'
+    name: 'CpuInfo[]'
+    spec.typeScript:
+      - name: CpuInfo
+        fullName: CpuInfo
+        uid: '@azure/abort-controller.os.CpuInfo'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.NodeJS.Platform'
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: '@azure/abort-controller.NodeJS.Platform'
+  - uid: '@azure/abort-controller.os.UserInfo<Buffer>'
+    name: UserInfo<Buffer>
+    spec.typeScript:
+      - name: UserInfo
+        fullName: UserInfo
+        uid: '@azure/abort-controller.os.UserInfo'
+      - name: <Buffer>
+        fullName: <Buffer>
+  - uid: '@azure/abort-controller.os.UserInfo<string>'
+    name: UserInfo<string>
+    spec.typeScript:
+      - name: UserInfo
+        fullName: UserInfo
+        uid: '@azure/abort-controller.os.UserInfo'
+      - name: <string>
+        fullName: <string>

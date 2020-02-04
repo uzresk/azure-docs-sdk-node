@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.padStart'
+  - uid: '@azure/abort-controller.padStart'
     name: 'padStart(string, number, undefined | string)'
     children: []
     type: function
@@ -29,4 +29,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

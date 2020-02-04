@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobServiceStatistics'
+    name: BlobServiceStatistics
+    fullName: BlobServiceStatistics
+    children:
+      - '@azure/abort-controller.BlobServiceStatistics.geoReplication'
+    langs:
+      - typeScript
+    type: interface
+    summary: Stats for the storage service.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobServiceStatistics.geoReplication'
+    name: geoReplication
+    fullName: geoReplication
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'geoReplication?: GeoReplication'
+      return:
+        type:
+          - '@azure/abort-controller.GeoReplication'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.GeoReplication'
+    name: GeoReplication
+    spec.typeScript:
+      - name: GeoReplication
+        fullName: GeoReplication
+        uid: '@azure/abort-controller.GeoReplication'

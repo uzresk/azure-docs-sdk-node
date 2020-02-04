@@ -1,0 +1,1499 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.net.Server'
+    name: Server
+    fullName: Server
+    children:
+      - '@azure/ms-rest-azure-env.net.Server.addListener_1'
+      - '@azure/ms-rest-azure-env.net.Server.addListener_2'
+      - '@azure/ms-rest-azure-env.net.Server.addListener_3'
+      - '@azure/ms-rest-azure-env.net.Server.addListener_4'
+      - '@azure/ms-rest-azure-env.net.Server.addListener'
+      - '@azure/ms-rest-azure-env.net.Server.address'
+      - '@azure/ms-rest-azure-env.net.Server.close'
+      - '@azure/ms-rest-azure-env.net.Server.connections'
+      - '@azure/ms-rest-azure-env.net.Server.defaultMaxListeners'
+      - '@azure/ms-rest-azure-env.net.Server.emit_1'
+      - '@azure/ms-rest-azure-env.net.Server.emit_2'
+      - '@azure/ms-rest-azure-env.net.Server.emit_3'
+      - '@azure/ms-rest-azure-env.net.Server.emit_4'
+      - '@azure/ms-rest-azure-env.net.Server.emit'
+      - '@azure/ms-rest-azure-env.net.Server.eventNames'
+      - '@azure/ms-rest-azure-env.net.Server.getConnections'
+      - '@azure/ms-rest-azure-env.net.Server.getMaxListeners'
+      - '@azure/ms-rest-azure-env.net.Server.listen_8'
+      - '@azure/ms-rest-azure-env.net.Server.listen_7'
+      - '@azure/ms-rest-azure-env.net.Server.listen_6'
+      - '@azure/ms-rest-azure-env.net.Server.listen_5'
+      - '@azure/ms-rest-azure-env.net.Server.listen_4'
+      - '@azure/ms-rest-azure-env.net.Server.listen_3'
+      - '@azure/ms-rest-azure-env.net.Server.listen_2'
+      - '@azure/ms-rest-azure-env.net.Server.listen_1'
+      - '@azure/ms-rest-azure-env.net.Server.listen'
+      - '@azure/ms-rest-azure-env.net.Server.listenerCount'
+      - '@azure/ms-rest-azure-env.net.Server.listenerCount'
+      - '@azure/ms-rest-azure-env.net.Server.listeners'
+      - '@azure/ms-rest-azure-env.net.Server.listening'
+      - '@azure/ms-rest-azure-env.net.Server.maxConnections'
+      - '@azure/ms-rest-azure-env.net.Server.off'
+      - '@azure/ms-rest-azure-env.net.Server.on_1'
+      - '@azure/ms-rest-azure-env.net.Server.on_2'
+      - '@azure/ms-rest-azure-env.net.Server.on_3'
+      - '@azure/ms-rest-azure-env.net.Server.on_4'
+      - '@azure/ms-rest-azure-env.net.Server.on'
+      - '@azure/ms-rest-azure-env.net.Server.once_1'
+      - '@azure/ms-rest-azure-env.net.Server.once_2'
+      - '@azure/ms-rest-azure-env.net.Server.once_3'
+      - '@azure/ms-rest-azure-env.net.Server.once_4'
+      - '@azure/ms-rest-azure-env.net.Server.once'
+      - '@azure/ms-rest-azure-env.net.Server.prependListener_1'
+      - '@azure/ms-rest-azure-env.net.Server.prependListener_2'
+      - '@azure/ms-rest-azure-env.net.Server.prependListener_3'
+      - '@azure/ms-rest-azure-env.net.Server.prependListener_4'
+      - '@azure/ms-rest-azure-env.net.Server.prependListener'
+      - '@azure/ms-rest-azure-env.net.Server.prependOnceListener_1'
+      - '@azure/ms-rest-azure-env.net.Server.prependOnceListener_2'
+      - '@azure/ms-rest-azure-env.net.Server.prependOnceListener_3'
+      - '@azure/ms-rest-azure-env.net.Server.prependOnceListener_4'
+      - '@azure/ms-rest-azure-env.net.Server.prependOnceListener'
+      - '@azure/ms-rest-azure-env.net.Server.rawListeners'
+      - '@azure/ms-rest-azure-env.net.Server.ref'
+      - '@azure/ms-rest-azure-env.net.Server.removeAllListeners'
+      - '@azure/ms-rest-azure-env.net.Server.removeListener'
+      - '@azure/ms-rest-azure-env.net.Server.constructor'
+      - '@azure/ms-rest-azure-env.net.Server.constructor_1'
+      - '@azure/ms-rest-azure-env.net.Server.setMaxListeners'
+      - '@azure/ms-rest-azure-env.net.Server.unref'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.addListener_1'
+    name: 'addListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.addListener_2'
+    name: 'addListener("connection", (socket: Socket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "connection", listener: (socket: Socket) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"connection"'
+          description: ''
+        - id: listener
+          type:
+            - '(socket: Socket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.addListener_3'
+    name: 'addListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.addListener_4'
+    name: 'addListener("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.addListener'
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      events.EventEmitter
+        1. close
+        2. connection
+        3. error
+        4. listening
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.address'
+    name: address()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function address()
+      parameters: []
+      return:
+        type:
+          - Object
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.close'
+    name: 'close(undefined | (err?: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function close(callback?: undefined | (err?: Error) => void)'
+      parameters:
+        - id: callback
+          type:
+            - 'undefined | (err?: Error) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.connections'
+    name: connections
+    fullName: connections
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'connections: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.defaultMaxListeners'
+    name: defaultMaxListeners
+    fullName: defaultMaxListeners
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultMaxListeners: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.emit_1'
+    name: emit("close")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "close")'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.emit_2'
+    name: 'emit("connection", Socket)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "connection", socket: Socket)'
+      parameters:
+        - id: event
+          type:
+            - '"connection"'
+          description: ''
+        - id: socket
+          type:
+            - '@azure/ms-rest-azure-env.net.Socket'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.emit_3'
+    name: 'emit("error", Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "error", err: Error)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: err
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.emit_4'
+    name: emit("listening")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "listening")'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.emit'
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.eventNames'
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.getConnections'
+    name: 'getConnections((error: Error | null, count: number) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getConnections(cb: (error: Error | null, count: number) =>
+        void)
+      parameters:
+        - id: cb
+          type:
+            - '(error: Error | null, count: number) => void'
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.getMaxListeners'
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.listen_8'
+    name: 'listen(any, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listen(handle: any, listeningListener?: Function)'
+      parameters:
+        - id: handle
+          type:
+            - any
+          description: ''
+        - id: listeningListener
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.listen_7'
+    name: 'listen(any, undefined | number, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(handle: any, backlog?: undefined | number,
+        listeningListener?: Function)
+      parameters:
+        - id: handle
+          type:
+            - any
+          description: ''
+        - id: backlog
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.listen_6'
+    name: 'listen(ListenOptions, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listen(options: ListenOptions, listeningListener?: Function)'
+      parameters:
+        - id: options
+          type:
+            - ListenOptions
+          description: ''
+        - id: listeningListener
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.listen_5'
+    name: 'listen(string, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listen(path: string, listeningListener?: Function)'
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+        - id: listeningListener
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.listen_4'
+    name: 'listen(string, undefined | number, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(path: string, backlog?: undefined | number,
+        listeningListener?: Function)
+      parameters:
+        - id: path
+          type:
+            - string
+          description: ''
+        - id: backlog
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.listen_3'
+    name: 'listen(undefined | number, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listen(port?: undefined | number, listeningListener?: Function)'
+      parameters:
+        - id: port
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.listen_2'
+    name: 'listen(undefined | number, undefined | number, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(port?: undefined | number, backlog?: undefined | number,
+        listeningListener?: Function)
+      parameters:
+        - id: port
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: backlog
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.listen_1'
+    name: 'listen(undefined | number, undefined | string, Function)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(port?: undefined | number, hostname?: undefined |
+        string, listeningListener?: Function)
+      parameters:
+        - id: port
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: hostname
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.listen'
+    name: >-
+      listen(undefined | number, undefined | string, undefined | number,
+      Function)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function listen(port?: undefined | number, hostname?: undefined |
+        string, backlog?: undefined | number, listeningListener?: Function)
+      parameters:
+        - id: port
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: hostname
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: backlog
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+        - id: listeningListener
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.listenerCount'
+    name: 'listenerCount(EventEmitter, string | symbol)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function listenerCount(emitter: EventEmitter, event: string |
+        symbol)
+      parameters:
+        - id: emitter
+          type:
+            - '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+          description: ''
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+    deprecated:
+      content: since v4.0.0
+  - uid: '@azure/ms-rest-azure-env.net.Server.listenerCount'
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.listeners'
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.listening'
+    name: listening
+    fullName: listening
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'listening: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.maxConnections'
+    name: maxConnections
+    fullName: maxConnections
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'maxConnections: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.off'
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.on_1'
+    name: 'on("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.on_2'
+    name: 'on("connection", (socket: Socket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "connection", listener: (socket: Socket) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"connection"'
+          description: ''
+        - id: listener
+          type:
+            - '(socket: Socket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.on_3'
+    name: 'on("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.on_4'
+    name: 'on("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.on'
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.once_1'
+    name: 'once("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.once_2'
+    name: 'once("connection", (socket: Socket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "connection", listener: (socket: Socket) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"connection"'
+          description: ''
+        - id: listener
+          type:
+            - '(socket: Socket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.once_3'
+    name: 'once("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.once_4'
+    name: 'once("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.once'
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.prependListener_1'
+    name: 'prependListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.prependListener_2'
+    name: 'prependListener("connection", (socket: Socket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "connection", listener: (socket: Socket)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"connection"'
+          description: ''
+        - id: listener
+          type:
+            - '(socket: Socket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.prependListener_3'
+    name: 'prependListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "error", listener: (err: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.prependListener_4'
+    name: 'prependListener("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.prependListener'
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.prependOnceListener_1'
+    name: 'prependOnceListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.prependOnceListener_2'
+    name: 'prependOnceListener("connection", (socket: Socket) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "connection", listener: (socket:
+        Socket) => void)
+      parameters:
+        - id: event
+          type:
+            - '"connection"'
+          description: ''
+        - id: listener
+          type:
+            - '(socket: Socket) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.prependOnceListener_3'
+    name: 'prependOnceListener("error", (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "error", listener: (err: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(err: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.prependOnceListener_4'
+    name: 'prependOnceListener("listening", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "listening", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"listening"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.prependOnceListener'
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.rawListeners'
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.ref'
+    name: ref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ref()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.removeAllListeners'
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.removeListener'
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.constructor'
+    name: 'Server(undefined | (socket: Socket) => void)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Server(connectionListener?: undefined | (socket: Socket) => void)'
+      parameters:
+        - id: connectionListener
+          type:
+            - 'undefined | (socket: Socket) => void'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.constructor_1'
+    name: 'Server(undefined | Object, undefined | (socket: Socket) => void)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new Server(options?: undefined | Object, connectionListener?: undefined
+        | (socket: Socket) => void)
+      parameters:
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+        - id: connectionListener
+          type:
+            - 'undefined | (socket: Socket) => void'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.setMaxListeners'
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.net.Server.unref'
+    name: unref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unref()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.net.Socket'
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: '@azure/ms-rest-azure-env.net.Socket'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.Function'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Duplex'
+    name: Duplex
+    spec.typeScript:
+      - name: Duplex
+        fullName: Duplex
+        uid: '@azure/ms-rest-azure-env.stream.internal.Duplex'
+  - uid: '@azure/ms-rest-azure-env.net.SocketConstructorOpts'
+    name: SocketConstructorOpts
+    spec.typeScript:
+      - name: SocketConstructorOpts
+        fullName: SocketConstructorOpts
+        uid: '@azure/ms-rest-azure-env.net.SocketConstructorOpts'
+  - uid: '@azure/ms-rest-azure-env.net.SocketConnectOpts'
+    name: SocketConnectOpts
+    spec.typeScript:
+      - name: SocketConnectOpts
+        fullName: SocketConnectOpts
+        uid: '@azure/ms-rest-azure-env.net.SocketConnectOpts'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+  - uid: '@azure/ms-rest-azure-env.BufferEncoding'
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: '@azure/ms-rest-azure-env.BufferEncoding'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/ms-rest-azure-env.stream.internal.ReadableOptions'
+  - uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: '@azure/ms-rest-azure-env.stream.internal.Readable'
+  - uid: '@azure/ms-rest-azure-env.net.OnReadOpts'
+    name: OnReadOpts
+    spec.typeScript:
+      - name: OnReadOpts
+        fullName: OnReadOpts
+        uid: '@azure/ms-rest-azure-env.net.OnReadOpts'
+  - uid: '@azure/ms-rest-azure-env.net.LookupFunction'
+    name: LookupFunction
+    spec.typeScript:
+      - name: LookupFunction
+        fullName: LookupFunction
+        uid: '@azure/ms-rest-azure-env.net.LookupFunction'
+  - uid: '@azure/ms-rest-azure-env.net.NetConnectOpts'
+    name: NetConnectOpts
+    spec.typeScript:
+      - name: NetConnectOpts
+        fullName: NetConnectOpts
+        uid: '@azure/ms-rest-azure-env.net.NetConnectOpts'
+  - uid: '@azure/ms-rest-azure-env.net.Server'
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: '@azure/ms-rest-azure-env.net.Server'

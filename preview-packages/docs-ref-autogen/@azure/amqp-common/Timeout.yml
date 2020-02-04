@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.Timeout'
+  - uid: '@azure/ms-rest-azure-env.Timeout'
     name: Timeout
     fullName: Timeout
     children:
-      - '@azure/amqp-common.Timeout.clear'
-      - '@azure/amqp-common.Timeout.set'
-      - '@azure/amqp-common.Timeout.set'
-      - '@azure/amqp-common.Timeout.wrap'
-      - '@azure/amqp-common.Timeout.wrap'
+      - '@azure/ms-rest-azure-env.Timeout.clear'
+      - '@azure/ms-rest-azure-env.Timeout.set'
+      - '@azure/ms-rest-azure-env.Timeout.set'
+      - '@azure/ms-rest-azure-env.Timeout.wrap'
+      - '@azure/ms-rest-azure-env.Timeout.wrap'
     langs:
       - typeScript
     type: class
@@ -17,8 +17,8 @@ items:
       and then resolve/reject
 
       the promise with the given value.
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.Timeout.clear'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Timeout.clear'
     name: clear()
     children: []
     type: method
@@ -28,8 +28,8 @@ items:
     syntax:
       content: function clear()
       parameters: []
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.Timeout.set'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Timeout.set'
     name: 'set(number, T)'
     children: []
     type: method
@@ -52,8 +52,8 @@ items:
         type:
           - Promise<T>
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.Timeout.set'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Timeout.set'
     name: 'set(number, T)'
     children: []
     type: method
@@ -76,8 +76,8 @@ items:
         type:
           - Promise<T>
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.Timeout.wrap'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Timeout.wrap'
     name: 'wrap(Promise<T>, number, T)'
     children: []
     type: method
@@ -104,8 +104,8 @@ items:
         type:
           - Promise<T>
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.Timeout.wrap'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Timeout.wrap'
     name: 'wrap(Promise<T>, number, T)'
     children: []
     type: method
@@ -132,4 +132,4 @@ items:
         type:
           - Promise<T>
         description: ''
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'

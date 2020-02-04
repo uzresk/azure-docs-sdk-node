@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.HttpRequestBody'
+    name: HttpRequestBody
+    fullName: HttpRequestBody
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type HttpRequestBody = Blob | string | ArrayBuffer | ArrayBufferView | '
+    package: '@azure/abort-controller'

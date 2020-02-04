@@ -1,0 +1,219 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Options'
+    name: Options
+    fullName: Options
+    children:
+      - '@azure/abort-controller.Options.autoDestroy'
+      - '@azure/abort-controller.Options.dataSize'
+      - '@azure/abort-controller.Options.destroy'
+      - '@azure/abort-controller.Options.encoding'
+      - '@azure/abort-controller.Options.highWaterMark'
+      - '@azure/abort-controller.Options.maxDataSize'
+      - '@azure/abort-controller.Options.objectMode'
+      - '@azure/abort-controller.Options.pauseStreams'
+      - '@azure/abort-controller.Options.read'
+      - '@azure/abort-controller.Options.readable'
+      - '@azure/abort-controller.Options.writable'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.ReadableOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Options.autoDestroy'
+    name: autoDestroy
+    fullName: autoDestroy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'autoDestroy?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Options.dataSize'
+    name: dataSize
+    fullName: dataSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'dataSize?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Options.destroy'
+    name: 'destroy(stream.Readable, Error | null, (error: Error | null) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function destroy(this: stream.Readable, error: Error | null, callback:
+        (error: Error | null) => void)
+      parameters:
+        - id: this
+          type:
+            - stream.Readable
+          description: ''
+        - id: error
+          type:
+            - Error | null
+          description: ''
+        - id: callback
+          type:
+            - '(error: Error | null) => void'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Options.encoding'
+    name: encoding
+    fullName: encoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'encoding?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Options.highWaterMark'
+    name: highWaterMark
+    fullName: highWaterMark
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'highWaterMark?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Options.maxDataSize'
+    name: maxDataSize
+    fullName: maxDataSize
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxDataSize?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Options.objectMode'
+    name: objectMode
+    fullName: objectMode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'objectMode?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Options.pauseStreams'
+    name: pauseStreams
+    fullName: pauseStreams
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'pauseStreams?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Options.read'
+    name: 'read(stream.Readable, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function read(this: stream.Readable, size: number)'
+      parameters:
+        - id: this
+          type:
+            - stream.Readable
+          description: ''
+        - id: size
+          type:
+            - number
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Options.readable'
+    name: readable
+    fullName: readable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'readable?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Options.writable'
+    name: writable
+    fullName: writable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'writable?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.ReadableOptions'
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: '@azure/abort-controller.ReadableOptions'

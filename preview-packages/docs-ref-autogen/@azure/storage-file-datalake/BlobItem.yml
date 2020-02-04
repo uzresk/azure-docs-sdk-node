@@ -1,0 +1,99 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobItem'
+    name: BlobItem
+    fullName: BlobItem
+    children:
+      - '@azure/abort-controller.BlobItem.deleted'
+      - '@azure/abort-controller.BlobItem.metadata'
+      - '@azure/abort-controller.BlobItem.name'
+      - '@azure/abort-controller.BlobItem.properties'
+      - '@azure/abort-controller.BlobItem.snapshot'
+    langs:
+      - typeScript
+    type: interface
+    summary: An Azure Storage blob
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobItem.deleted'
+    name: deleted
+    fullName: deleted
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'deleted: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobItem.metadata'
+    name: metadata
+    fullName: metadata
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'metadata?: undefined | [key: string]: string'
+      return:
+        type:
+          - 'undefined | [key: string]: string'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobItem.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobItem.properties'
+    name: properties
+    fullName: properties
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'properties: BlobProperties'
+      return:
+        type:
+          - '@azure/abort-controller.BlobProperties'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobItem.snapshot'
+    name: snapshot
+    fullName: snapshot
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'snapshot: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.BlobProperties'
+    name: BlobProperties
+    spec.typeScript:
+      - name: BlobProperties
+        fullName: BlobProperties
+        uid: '@azure/abort-controller.BlobProperties'

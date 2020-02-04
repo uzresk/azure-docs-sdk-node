@@ -1,0 +1,125 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.async_hooks.HookCallbacks'
+    name: HookCallbacks
+    fullName: HookCallbacks
+    children:
+      - '@azure/ms-rest-azure-env.async_hooks.HookCallbacks.after'
+      - '@azure/ms-rest-azure-env.async_hooks.HookCallbacks.before'
+      - '@azure/ms-rest-azure-env.async_hooks.HookCallbacks.destroy'
+      - '@azure/ms-rest-azure-env.async_hooks.HookCallbacks.init'
+      - '@azure/ms-rest-azure-env.async_hooks.HookCallbacks.promiseResolve'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.async_hooks.HookCallbacks.after'
+    name: after(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Called immediately after the callback specified in before is completed.
+    syntax:
+      content: 'function after(asyncId: number)'
+      parameters:
+        - id: asyncId
+          type:
+            - number
+          description: >
+            the unique identifier assigned to the resource which has executed
+            the callback.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.async_hooks.HookCallbacks.before'
+    name: before(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      When an asynchronous operation is initiated or completes a callback is
+      called to notify the user.
+
+      The before callback is called just before said callback is executed.
+    syntax:
+      content: 'function before(asyncId: number)'
+      parameters:
+        - id: asyncId
+          type:
+            - number
+          description: >
+            the unique identifier assigned to the resource about to execute the
+            callback.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.async_hooks.HookCallbacks.destroy'
+    name: destroy(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Called after the resource corresponding to asyncId is destroyed
+    syntax:
+      content: 'function destroy(asyncId: number)'
+      parameters:
+        - id: asyncId
+          type:
+            - number
+          description: |
+            a unique ID for the async resource
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.async_hooks.HookCallbacks.init'
+    name: 'init(number, string, number, Object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Called when a class is constructed that has the possibility to emit an
+      asynchronous event.
+    syntax:
+      content: >-
+        function init(asyncId: number, type: string, triggerAsyncId: number,
+        resource: Object)
+      parameters:
+        - id: asyncId
+          type:
+            - number
+          description: a unique ID for the async resource
+        - id: type
+          type:
+            - string
+          description: the type of the async resource
+        - id: triggerAsyncId
+          type:
+            - number
+          description: >-
+            the unique ID of the async resource in whose execution context this
+            async resource was created
+        - id: resource
+          type:
+            - Object
+          description: >
+            reference to the resource representing the async operation, needs to
+            be released during destroy
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.async_hooks.HookCallbacks.promiseResolve'
+    name: promiseResolve(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Called when a promise has resolve() called. This may not be in the same
+      execution id
+
+      as the promise itself.
+    syntax:
+      content: 'function promiseResolve(asyncId: number)'
+      parameters:
+        - id: asyncId
+          type:
+            - number
+          description: |
+            the unique id for the promise that was resolve()d.
+    package: '@azure/ms-rest-azure-env'

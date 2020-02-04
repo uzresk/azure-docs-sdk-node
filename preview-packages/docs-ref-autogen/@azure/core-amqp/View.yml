@@ -1,0 +1,275 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.View
+    name: View
+    fullName: View
+    children:
+      - tslib.View.aggregation
+      - tslib.View.description
+      - tslib.View.endTime
+      - tslib.View.getColumns
+      - tslib.View.getMetric
+      - tslib.View.getSnapshot
+      - tslib.View.measure
+      - tslib.View.name
+      - tslib.View.recordMeasurement
+      - tslib.View.registered
+      - tslib.View.startTime
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      Defines how individual measurements are broken down by tags and
+      aggregated.
+    package: tslib
+  - uid: tslib.View.aggregation
+    name: aggregation
+    fullName: aggregation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      An Aggregation describes how data collected is aggregated.
+      There are four aggregation types: count, sum, lastValue and distirbution.
+    syntax:
+      content: 'aggregation: AggregationType'
+      return:
+        type:
+          - tslib.AggregationType
+        description: ''
+    package: tslib
+  - uid: tslib.View.description
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Describes the view, e.g. "RPC latency distribution"'
+    syntax:
+      content: 'description: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.View.endTime
+    name: endTime
+    fullName: endTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The end time for this view - represents the last time a value was recorded
+    optional: true
+    syntax:
+      content: 'endTime?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.View.getColumns
+    name: getColumns()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets the view's tag keys
+    syntax:
+      content: function getColumns()
+      parameters: []
+      return:
+        type:
+          - 'tslib.TagKey[]'
+        description: ''
+    package: tslib
+  - uid: tslib.View.getMetric
+    name: getMetric(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Gets view`s metric
+    syntax:
+      content: 'function getMetric(start: number)'
+      parameters:
+        - id: start
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - tslib.Metric
+        description: ''
+    package: tslib
+  - uid: tslib.View.getSnapshot
+    name: getSnapshot(Array<TagValue | null>)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Returns a snapshot of an AggregationData for that tags/labels values.
+    syntax:
+      content: 'function getSnapshot(tagValues: Array<TagValue | null>)'
+      parameters:
+        - id: tagValues
+          type:
+            - Array<tslib.TagValue | null>
+          description: |
+            The desired data's tag values.
+      return:
+        type:
+          - tslib.AggregationData
+        description: ''
+    package: tslib
+  - uid: tslib.View.measure
+    name: measure
+    fullName: measure
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The Measure to which this view is applied.
+    syntax:
+      content: 'measure: Measure'
+      return:
+        type:
+          - tslib.Measure
+        description: ''
+    package: tslib
+  - uid: tslib.View.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A string by which the View will be referred to, e.g. "rpc_latency". Names
+      MUST be unique within the library.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.View.recordMeasurement
+    name: 'recordMeasurement(Measurement, TagMap, undefined | [key: string]: string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Records a measurement in the proper view's row. This method is used by
+      Stats. User should prefer using Stats.record() instead.
+      Measurements with measurement type INT64 will have its value truncated.
+    syntax:
+      content: >-
+        function recordMeasurement(measurement: Measurement, tags: TagMap,
+        attachments?: undefined | [key: string]: string)
+      parameters:
+        - id: measurement
+          type:
+            - tslib.Measurement
+          description: The measurement to record
+        - id: tags
+          type:
+            - tslib.TagMap
+          description: The tags to which the value is applied
+        - id: attachments
+          type:
+            - 'undefined | [key: string]: string'
+          description: |
+            optional The contextual information associated with an
+                example value. THe contextual information is represented as key - value
+                string pairs.
+          optional: true
+    package: tslib
+  - uid: tslib.View.registered
+    name: registered
+    fullName: registered
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: true if the view was registered
+    syntax:
+      content: 'registered: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.View.startTime
+    name: startTime
+    fullName: startTime
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The start time for this view
+    syntax:
+      content: 'startTime: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.AggregationType
+    name: AggregationType
+    spec.typeScript:
+      - name: AggregationType
+        fullName: AggregationType
+        uid: tslib.AggregationType
+  - uid: tslib.Measure
+    name: Measure
+    spec.typeScript:
+      - name: Measure
+        fullName: Measure
+        uid: tslib.Measure
+  - uid: 'tslib.TagKey[]'
+    name: 'TagKey[]'
+    spec.typeScript:
+      - name: TagKey
+        fullName: TagKey
+        uid: tslib.TagKey
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.Metric
+    name: Metric
+    spec.typeScript:
+      - name: Metric
+        fullName: Metric
+        uid: tslib.Metric
+  - uid: Array<tslib.TagValue | null>
+    name: TagValue | null>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: TagValue
+        fullName: TagValue
+        uid: tslib.TagValue
+      - name: ' | null>'
+        fullName: ' | null>'
+  - uid: tslib.AggregationData
+    name: AggregationData
+    spec.typeScript:
+      - name: AggregationData
+        fullName: AggregationData
+        uid: tslib.AggregationData
+  - uid: tslib.Measurement
+    name: Measurement
+    spec.typeScript:
+      - name: Measurement
+        fullName: Measurement
+        uid: tslib.Measurement
+  - uid: tslib.TagMap
+    name: TagMap
+    spec.typeScript:
+      - name: TagMap
+        fullName: TagMap
+        uid: tslib.TagMap

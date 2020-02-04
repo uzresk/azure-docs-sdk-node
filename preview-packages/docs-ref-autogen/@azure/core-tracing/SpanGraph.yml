@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-tracing.SpanGraph'
+  - uid: '@opentelemetry/types.SpanGraph'
     name: SpanGraph
     fullName: SpanGraph
     children:
-      - '@azure/core-tracing.SpanGraph.roots'
+      - '@opentelemetry/types.SpanGraph.roots'
     langs:
       - typeScript
     type: interface
     summary: |-
       Contains all the spans for a particular TraceID
       starting at unparented roots
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.SpanGraph.roots'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.SpanGraph.roots'
     name: roots
     fullName: roots
     children: []
@@ -24,15 +24,15 @@ items:
       content: 'roots: SpanGraphNode[]'
       return:
         type:
-          - '@azure/core-tracing.SpanGraphNode[]'
+          - '@opentelemetry/types.SpanGraphNode[]'
         description: ''
-    package: '@azure/core-tracing'
+    package: '@opentelemetry/types'
 references:
-  - uid: '@azure/core-tracing.SpanGraphNode[]'
+  - uid: '@opentelemetry/types.SpanGraphNode[]'
     name: 'SpanGraphNode[]'
     spec.typeScript:
       - name: SpanGraphNode
         fullName: SpanGraphNode
-        uid: '@azure/core-tracing.SpanGraphNode'
+        uid: '@opentelemetry/types.SpanGraphNode'
       - name: '[]'
         fullName: '[]'

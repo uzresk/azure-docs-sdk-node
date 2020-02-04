@@ -1,0 +1,94 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.TimeSeries
+    name: TimeSeries
+    fullName: TimeSeries
+    children:
+      - tslib.TimeSeries.labelValues
+      - tslib.TimeSeries.points
+      - tslib.TimeSeries.startTimestamp
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      A collection of data points that describes the time-varying values
+      of a metric.
+    package: tslib
+  - uid: tslib.TimeSeries.labelValues
+    name: labelValues
+    fullName: labelValues
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The set of label values that uniquely identify this timeseries. Applies to
+      all points. The order of label values must match that of label keys in the
+      metric descriptor.
+    syntax:
+      content: 'labelValues: LabelValue[]'
+      return:
+        type:
+          - 'tslib.LabelValue[]'
+        description: ''
+    package: tslib
+  - uid: tslib.TimeSeries.points
+    name: points
+    fullName: points
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The data points of this timeseries. Point.value type MUST match the
+      MetricDescriptor.type.
+    syntax:
+      content: 'points: Point[]'
+      return:
+        type:
+          - 'tslib.Point[]'
+        description: ''
+    package: tslib
+  - uid: tslib.TimeSeries.startTimestamp
+    name: startTimestamp
+    fullName: startTimestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Must be present for cumulative metrics. The time when the cumulative value
+      was reset to zero. Exclusive. The cumulative value is over the time
+      interval (start_timestamp, timestamp]. If not specified, the backend can
+      use the previous recorded value.
+    optional: true
+    syntax:
+      content: 'startTimestamp?: Timestamp'
+      return:
+        type:
+          - tslib.Timestamp
+        description: ''
+    package: tslib
+references:
+  - uid: 'tslib.LabelValue[]'
+    name: 'LabelValue[]'
+    spec.typeScript:
+      - name: LabelValue
+        fullName: LabelValue
+        uid: tslib.LabelValue
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.Point[]'
+    name: 'Point[]'
+    spec.typeScript:
+      - name: Point
+        fullName: Point
+        uid: tslib.Point
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.Timestamp
+    name: Timestamp
+    spec.typeScript:
+      - name: Timestamp
+        fullName: Timestamp
+        uid: tslib.Timestamp

@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.ErrorCacheKeys'
+    name: ErrorCacheKeys
+    fullName: ErrorCacheKeys
+    children:
+      - '@azure/abort-controller.ErrorCacheKeys.ERROR'
+      - '@azure/abort-controller.ErrorCacheKeys.ERROR_DESC'
+      - '@azure/abort-controller.ErrorCacheKeys.LOGIN_ERROR'
+    langs:
+      - typeScript
+    type: enum
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ErrorCacheKeys.ERROR'
+    name: ERROR
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ErrorCacheKeys.ERROR_DESC'
+    name: ERROR_DESC
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ErrorCacheKeys.LOGIN_ERROR'
+    name: LOGIN_ERROR
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/abort-controller'

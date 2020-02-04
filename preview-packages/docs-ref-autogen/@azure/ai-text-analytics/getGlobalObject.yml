@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.getGlobalObject'
+    name: getGlobalObject()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getGlobalObject()
+      parameters: []
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/abort-controller'

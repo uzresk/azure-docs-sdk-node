@@ -1,0 +1,93 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.perf_hooks'
+    name: perf_hooks
+    langs:
+      - typeScript
+    fullName: perf_hooks
+    children:
+      - '@azure/abort-controller.perf_hooks.EventLoopDelayMonitor'
+      - '@azure/abort-controller.perf_hooks.EventLoopMonitorOptions'
+      - '@azure/abort-controller.perf_hooks.monitorEventLoopDelay'
+      - '@azure/abort-controller.perf_hooks.Performance'
+      - '@azure/abort-controller.perf_hooks.PerformanceEntry'
+      - '@azure/abort-controller.perf_hooks.PerformanceNodeTiming'
+      - '@azure/abort-controller.perf_hooks.PerformanceObserver'
+      - '@azure/abort-controller.perf_hooks.PerformanceObserverCallback'
+      - '@azure/abort-controller.perf_hooks.PerformanceObserverEntryList'
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.perf_hooks.monitorEventLoopDelay'
+    name: monitorEventLoopDelay(EventLoopMonitorOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function monitorEventLoopDelay(options?: EventLoopMonitorOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/abort-controller.perf_hooks.EventLoopMonitorOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.perf_hooks.EventLoopDelayMonitor'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.async_hooks.AsyncResource'
+    name: AsyncResource
+    spec.typeScript:
+      - name: AsyncResource
+        fullName: AsyncResource
+        uid: '@azure/abort-controller.async_hooks.AsyncResource'
+  - uid: '@azure/abort-controller.perf_hooks.PerformanceObserverCallback'
+    name: PerformanceObserverCallback
+    spec.typeScript:
+      - name: PerformanceObserverCallback
+        fullName: PerformanceObserverCallback
+        uid: '@azure/abort-controller.perf_hooks.PerformanceObserverCallback'
+  - uid: '@azure/abort-controller.perf_hooks.PerformanceNodeTiming'
+    name: PerformanceNodeTiming
+    spec.typeScript:
+      - name: PerformanceNodeTiming
+        fullName: PerformanceNodeTiming
+        uid: '@azure/abort-controller.perf_hooks.PerformanceNodeTiming'
+  - uid: '@azure/abort-controller.perf_hooks.PerformanceEntry[]'
+    name: 'PerformanceEntry[]'
+    spec.typeScript:
+      - name: PerformanceEntry
+        fullName: PerformanceEntry
+        uid: '@azure/abort-controller.perf_hooks.PerformanceEntry'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.perf_hooks.PerformanceEntry'
+    name: PerformanceEntry
+    spec.typeScript:
+      - name: PerformanceEntry
+        fullName: PerformanceEntry
+        uid: '@azure/abort-controller.perf_hooks.PerformanceEntry'
+  - uid: '@azure/abort-controller.perf_hooks.EventLoopMonitorOptions'
+    name: EventLoopMonitorOptions
+    spec.typeScript:
+      - name: EventLoopMonitorOptions
+        fullName: EventLoopMonitorOptions
+        uid: '@azure/abort-controller.perf_hooks.EventLoopMonitorOptions'
+  - uid: '@azure/abort-controller.perf_hooks.EventLoopDelayMonitor'
+    name: EventLoopDelayMonitor
+    spec.typeScript:
+      - name: EventLoopDelayMonitor
+        fullName: EventLoopDelayMonitor
+        uid: '@azure/abort-controller.perf_hooks.EventLoopDelayMonitor'
+  - uid: '@azure/abort-controller.perf_hooks.monitorEventLoopDelay'
+    name: monitorEventLoopDelay
+  - uid: '@azure/abort-controller.perf_hooks.Performance'
+    name: Performance
+  - uid: '@azure/abort-controller.perf_hooks.PerformanceObserver'
+    name: PerformanceObserver
+  - uid: '@azure/abort-controller.perf_hooks.PerformanceObserverEntryList'
+    name: PerformanceObserverEntryList

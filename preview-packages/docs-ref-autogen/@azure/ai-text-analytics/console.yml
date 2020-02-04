@@ -1,0 +1,487 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Console'
+    name: Console
+    fullName: Console
+    children:
+      - '@azure/abort-controller.Console.assert'
+      - '@azure/abort-controller.Console.clear'
+      - '@azure/abort-controller.Console.Console'
+      - '@azure/abort-controller.Console.count'
+      - '@azure/abort-controller.Console.countReset'
+      - '@azure/abort-controller.Console.debug'
+      - '@azure/abort-controller.Console.dir'
+      - '@azure/abort-controller.Console.dirxml'
+      - '@azure/abort-controller.Console.error'
+      - '@azure/abort-controller.Console.group'
+      - '@azure/abort-controller.Console.groupCollapsed'
+      - '@azure/abort-controller.Console.groupEnd'
+      - '@azure/abort-controller.Console.info'
+      - '@azure/abort-controller.Console.log'
+      - '@azure/abort-controller.Console.profile'
+      - '@azure/abort-controller.Console.profileEnd'
+      - '@azure/abort-controller.Console.table'
+      - '@azure/abort-controller.Console.time'
+      - '@azure/abort-controller.Console.timeEnd'
+      - '@azure/abort-controller.Console.timeLog'
+      - '@azure/abort-controller.Console.timeStamp'
+      - '@azure/abort-controller.Console.trace'
+      - '@azure/abort-controller.Console.warn'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.assert'
+    name: 'assert(any, string, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      A simple assertion test that verifies whether `value` is truthy.
+
+      If it is not, an `AssertionError` is thrown.
+
+      If provided, the error `message` is formatted using `util.format()` and
+      used as the error message.
+    syntax:
+      content: 'function assert(value: any, message?: string, optionalParams: any[])'
+      parameters:
+        - id: value
+          type:
+            - any
+          description: ''
+        - id: message
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.clear'
+    name: clear()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      When `stdout` is a TTY, calling `console.clear()` will attempt to clear
+      the TTY.
+
+      When `stdout` is not a TTY, this method does nothing.
+    syntax:
+      content: function clear()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.Console'
+    name: Console
+    fullName: Console
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Console: ConsoleConstructor'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.ConsoleConstructor'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.count'
+    name: count(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Maintains an internal counter specific to `label` and outputs to `stdout`
+      the number of times `console.count()` has been called with the given
+      `label`.
+    syntax:
+      content: 'function count(label?: string)'
+      parameters:
+        - id: label
+          type:
+            - string
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.countReset'
+    name: countReset(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Resets the internal counter specific to `label`.
+    syntax:
+      content: 'function countReset(label?: string)'
+      parameters:
+        - id: label
+          type:
+            - string
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.debug'
+    name: 'debug(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'The `console.debug()` function is an alias for <xref:console.log()>.'
+    syntax:
+      content: 'function debug(message?: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.dir'
+    name: 'dir(any, InspectOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Uses <xref:util.inspect()> on `obj` and prints the resulting string to
+      `stdout`.
+
+      This function bypasses any custom `inspect()` function defined on `obj`.
+    syntax:
+      content: 'function dir(obj: any, options?: InspectOptions)'
+      parameters:
+        - id: obj
+          type:
+            - any
+          description: ''
+        - id: options
+          type:
+            - '@azure/abort-controller.NodeJS.InspectOptions'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.dirxml'
+    name: 'dirxml(any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      This method calls <xref:console.log()> passing it the arguments received.
+      Please note that this method does not produce any XML formatting
+    syntax:
+      content: 'function dirxml(data: any[])'
+      parameters:
+        - id: data
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.error'
+    name: 'error(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Prints to `stderr` with newline.
+    syntax:
+      content: 'function error(message?: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.group'
+    name: 'group(any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Increases indentation of subsequent lines by two spaces.
+
+      If one or more `label`s are provided, those are printed first without the
+      additional indentation.
+    syntax:
+      content: 'function group(label: any[])'
+      parameters:
+        - id: label
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.groupCollapsed'
+    name: 'groupCollapsed(any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      The `console.groupCollapsed()` function is an alias for
+      <xref:console.group()>.
+    syntax:
+      content: 'function groupCollapsed(label: any[])'
+      parameters:
+        - id: label
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.groupEnd'
+    name: groupEnd()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Decreases indentation of subsequent lines by two spaces.
+    syntax:
+      content: function groupEnd()
+      parameters: []
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.info'
+    name: 'info(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'The <xref:console.info()> function is an alias for <xref:console.log()>.'
+    syntax:
+      content: 'function info(message?: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.log'
+    name: 'log(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Prints to `stdout` with newline.
+    syntax:
+      content: 'function log(message?: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.profile'
+    name: profile(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      This method does not display anything unless used in the inspector.
+       Starts a JavaScript CPU profile with an optional label.
+    syntax:
+      content: 'function profile(label?: string)'
+      parameters:
+        - id: label
+          type:
+            - string
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.profileEnd'
+    name: profileEnd(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      This method does not display anything unless used in the inspector.
+       Stops the current JavaScript CPU profiling session if one has been started and prints the report to the Profiles panel of the inspector.
+    syntax:
+      content: 'function profileEnd(label?: string)'
+      parameters:
+        - id: label
+          type:
+            - string
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.table'
+    name: 'table(any, string[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      This method does not display anything unless used in the inspector.
+       Prints to `stdout` the array `array` formatted as a table.
+    syntax:
+      content: 'function table(tabularData: any, properties?: string[])'
+      parameters:
+        - id: tabularData
+          type:
+            - any
+          description: ''
+        - id: properties
+          type:
+            - 'string[]'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.time'
+    name: time(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Starts a timer that can be used to compute the duration of an operation.
+      Timers are identified by a unique `label`.
+    syntax:
+      content: 'function time(label?: string)'
+      parameters:
+        - id: label
+          type:
+            - string
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.timeEnd'
+    name: timeEnd(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Stops a timer that was previously started by calling <xref:console.time()>
+      and prints the result to `stdout`.
+    syntax:
+      content: 'function timeEnd(label?: string)'
+      parameters:
+        - id: label
+          type:
+            - string
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.timeLog'
+    name: 'timeLog(string, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      For a timer that was previously started by calling <xref:console.time()>,
+      prints the elapsed time and other `data` arguments to `stdout`.
+    syntax:
+      content: 'function timeLog(label?: string, data: any[])'
+      parameters:
+        - id: label
+          type:
+            - string
+          description: ''
+          optional: true
+        - id: data
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.timeStamp'
+    name: timeStamp(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      This method does not display anything unless used in the inspector.
+       Adds an event with the label `label` to the Timeline panel of the inspector.
+    syntax:
+      content: 'function timeStamp(label?: string)'
+      parameters:
+        - id: label
+          type:
+            - string
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.trace'
+    name: 'trace(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Prints to `stderr` the string 'Trace :', followed by the
+      <xref:util.format()> formatted message and stack trace to the current
+      position in the code.
+    syntax:
+      content: 'function trace(message?: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Console.warn'
+    name: 'warn(any, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'The <xref:console.warn()> function is an alias for <xref:console.error()>.'
+    syntax:
+      content: 'function warn(message?: any, optionalParams: any[])'
+      parameters:
+        - id: message
+          type:
+            - any
+          description: ''
+          optional: true
+        - id: optionalParams
+          type:
+            - 'any[]'
+          description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.ConsoleConstructor'
+    name: ConsoleConstructor
+    spec.typeScript:
+      - name: ConsoleConstructor
+        fullName: ConsoleConstructor
+        uid: '@azure/abort-controller.NodeJS.ConsoleConstructor'
+  - uid: '@azure/abort-controller.NodeJS.InspectOptions'
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: '@azure/abort-controller.NodeJS.InspectOptions'

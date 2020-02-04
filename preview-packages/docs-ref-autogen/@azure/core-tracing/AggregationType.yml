@@ -1,0 +1,53 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.AggregationType'
+    name: AggregationType
+    fullName: AggregationType
+    children:
+      - '@opentelemetry/types.AggregationType.COUNT'
+      - '@opentelemetry/types.AggregationType.SUM'
+      - '@opentelemetry/types.AggregationType.LAST_VALUE'
+      - '@opentelemetry/types.AggregationType.DISTRIBUTION'
+    langs:
+      - typeScript
+    type: enum
+    summary: |-
+      Informs the type of the aggregation. It can be: count, sum, lastValue or
+      distribution.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.AggregationType.COUNT'
+    name: COUNT
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.AggregationType.SUM'
+    name: SUM
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.AggregationType.LAST_VALUE'
+    name: LAST_VALUE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 2
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.AggregationType.DISTRIBUTION'
+    name: DISTRIBUTION
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 3
+    package: '@opentelemetry/types'

@@ -1,0 +1,26 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.assert.internal.AssertPredicate
+    name: AssertPredicate
+    fullName: AssertPredicate
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type AssertPredicate = RegExp |  |  | object | Error
+    package: tslib
+references:
+  - uid: tslib.NodeJS.Global.Function
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: tslib.NodeJS.Global.Function
+  - uid: tslib.assert.internal.AssertPredicate
+    name: AssertPredicate
+    spec.typeScript:
+      - name: AssertPredicate
+        fullName: AssertPredicate
+        uid: tslib.assert.internal.AssertPredicate

@@ -1,0 +1,112 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.NodeRequire'
+    name: NodeRequire
+    fullName: NodeRequire
+    children:
+      - '@azure/abort-controller.NodeRequire.cache'
+      - '@azure/abort-controller.NodeRequire.extensions'
+      - '@azure/abort-controller.NodeRequire.main'
+      - '@azure/abort-controller.NodeRequire.resolve'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.NodeJS.Require'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.NodeRequire.cache'
+    name: cache
+    fullName: cache
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cache: NodeRequireCache'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.NodeRequireCache'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.NodeRequire.extensions'
+    name: extensions
+    fullName: extensions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'extensions: RequireExtensions'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.RequireExtensions'
+        description: ''
+    package: '@azure/abort-controller'
+    deprecated:
+      content: ''
+  - uid: '@azure/abort-controller.NodeRequire.main'
+    name: main
+    fullName: main
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'main: Module | undefined'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.Module | undefined'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.NodeRequire.resolve'
+    name: resolve
+    fullName: resolve
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'resolve: RequireResolve'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.RequireResolve'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Require'
+    name: Require
+    spec.typeScript:
+      - name: Require
+        fullName: Require
+        uid: '@azure/abort-controller.NodeJS.Require'
+  - uid: '@azure/abort-controller.NodeJS.NodeRequireCache'
+    name: NodeRequireCache
+    spec.typeScript:
+      - name: NodeRequireCache
+        fullName: NodeRequireCache
+        uid: '@azure/abort-controller.NodeJS.NodeRequireCache'
+  - uid: '@azure/abort-controller.NodeJS.RequireExtensions'
+    name: RequireExtensions
+    spec.typeScript:
+      - name: RequireExtensions
+        fullName: RequireExtensions
+        uid: '@azure/abort-controller.NodeJS.RequireExtensions'
+  - uid: '@azure/abort-controller.NodeJS.Module | undefined'
+    name: Module | undefined
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: '@azure/abort-controller.NodeJS.Module'
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: '@azure/abort-controller.NodeJS.RequireResolve'
+    name: RequireResolve
+    spec.typeScript:
+      - name: RequireResolve
+        fullName: RequireResolve
+        uid: '@azure/abort-controller.NodeJS.RequireResolve'

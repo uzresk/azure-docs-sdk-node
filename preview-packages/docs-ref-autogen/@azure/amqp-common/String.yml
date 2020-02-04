@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.String'
+    name: String
+    fullName: String
+    children:
+      - '@azure/ms-rest-azure-env.String.trimLeft'
+      - '@azure/ms-rest-azure-env.String.trimRight'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.String.trimLeft'
+    name: trimLeft()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes whitespace from the left end of a string.
+    syntax:
+      content: function trimLeft()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.String.trimRight'
+    name: trimRight()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Removes whitespace from the right end of a string.
+    syntax:
+      content: function trimRight()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'

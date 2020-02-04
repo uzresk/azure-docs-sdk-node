@@ -1,0 +1,76 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.AggregationMetadata
+    name: AggregationMetadata
+    fullName: AggregationMetadata
+    children:
+      - tslib.AggregationMetadata.tagValues
+      - tslib.AggregationMetadata.timestamp
+      - tslib.AggregationMetadata.type
+    langs:
+      - typeScript
+    type: interface
+    summary: Defines how data is collected and aggregated
+    package: tslib
+  - uid: tslib.AggregationMetadata.tagValues
+    name: tagValues
+    fullName: tagValues
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The tagValues that this AggregationData collects and aggregates
+    syntax:
+      content: 'tagValues: Array<TagValue | null>'
+      return:
+        type:
+          - Array<tslib.TagValue | null>
+        description: ''
+    package: tslib
+  - uid: tslib.AggregationMetadata.timestamp
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The latest timestamp a new data point was recorded
+    syntax:
+      content: 'timestamp: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.AggregationMetadata.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The aggregation type of the aggregation data
+    syntax:
+      content: 'type: AggregationType'
+      return:
+        type:
+          - tslib.AggregationType
+        description: ''
+    package: tslib
+references:
+  - uid: Array<tslib.TagValue | null>
+    name: TagValue | null>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: TagValue
+        fullName: TagValue
+        uid: tslib.TagValue
+      - name: ' | null>'
+        fullName: ' | null>'
+  - uid: tslib.AggregationType
+    name: AggregationType
+    spec.typeScript:
+      - name: AggregationType
+        fullName: AggregationType
+        uid: tslib.AggregationType

@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.Func'
+  - uid: tslib.Func
     name: Func
     fullName: Func<T>
     children: []
@@ -14,4 +14,4 @@ items:
       of the function.
     syntax:
       content: 'type Func<T,V> = (a: T) => V'
-    package: '@azure/core-amqp'
+    package: tslib

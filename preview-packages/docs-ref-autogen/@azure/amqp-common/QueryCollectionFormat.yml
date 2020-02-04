@@ -1,0 +1,63 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.QueryCollectionFormat'
+    name: QueryCollectionFormat
+    fullName: QueryCollectionFormat
+    children:
+      - '@azure/ms-rest-azure-env.QueryCollectionFormat.Csv'
+      - '@azure/ms-rest-azure-env.QueryCollectionFormat.Multi'
+      - '@azure/ms-rest-azure-env.QueryCollectionFormat.Pipes'
+      - '@azure/ms-rest-azure-env.QueryCollectionFormat.Ssv'
+      - '@azure/ms-rest-azure-env.QueryCollectionFormat.Tsv'
+    langs:
+      - typeScript
+    type: enum
+    summary: >-
+      The format that will be used to join an array of values together for a
+      query parameter value.
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.QueryCollectionFormat.Csv'
+    name: Csv
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.QueryCollectionFormat.Multi'
+    name: Multi
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.QueryCollectionFormat.Pipes'
+    name: Pipes
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.QueryCollectionFormat.Ssv'
+    name: Ssv
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.QueryCollectionFormat.Tsv'
+    name: Tsv
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: null
+    package: '@azure/ms-rest-azure-env'

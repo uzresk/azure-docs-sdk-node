@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.SendRequestOptions'
+  - uid: tslib.SendRequestOptions
     name: SendRequestOptions
     fullName: SendRequestOptions
     children:
-      - '@azure/core-amqp.SendRequestOptions.abortSignal'
-      - '@azure/core-amqp.SendRequestOptions.requestName'
-      - '@azure/core-amqp.SendRequestOptions.timeoutInMs'
+      - tslib.SendRequestOptions.abortSignal
+      - tslib.SendRequestOptions.requestName
+      - tslib.SendRequestOptions.timeoutInMs
     langs:
       - typeScript
     type: interface
     summary: Describes the options that can be specified while sending a request.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.SendRequestOptions.abortSignal'
+    package: tslib
+  - uid: tslib.SendRequestOptions.abortSignal
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -25,10 +25,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - AbortSignalLike
+          - tslib.AbortSignalLike
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.SendRequestOptions.requestName'
+    package: tslib
+  - uid: tslib.SendRequestOptions.requestName
     name: requestName
     fullName: requestName
     children: []
@@ -43,8 +43,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.SendRequestOptions.timeoutInMs'
+    package: tslib
+  - uid: tslib.SendRequestOptions.timeoutInMs
     name: timeoutInMs
     fullName: timeoutInMs
     children: []
@@ -61,4 +61,11 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/core-amqp'
+    package: tslib
+references:
+  - uid: tslib.AbortSignalLike
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: tslib.AbortSignalLike

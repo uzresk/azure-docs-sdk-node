@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobFlatListSegment'
+    name: BlobFlatListSegment
+    fullName: BlobFlatListSegment
+    children:
+      - '@azure/abort-controller.BlobFlatListSegment.blobItems'
+    langs:
+      - typeScript
+    type: interface
+    summary: An interface representing BlobFlatListSegment.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.BlobFlatListSegment.blobItems'
+    name: blobItems
+    fullName: blobItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'blobItems: BlobItem[]'
+      return:
+        type:
+          - '@azure/abort-controller.BlobItem[]'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.BlobItem[]'
+    name: 'BlobItem[]'
+    spec.typeScript:
+      - name: BlobItem
+        fullName: BlobItem
+        uid: '@azure/abort-controller.BlobItem'
+      - name: '[]'
+        fullName: '[]'

@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.ServiceBusConnectionStringModel'
+  - uid: tslib.ServiceBusConnectionStringModel
     name: ServiceBusConnectionStringModel
     fullName: ServiceBusConnectionStringModel
     children:
-      - '@azure/core-amqp.ServiceBusConnectionStringModel.Endpoint'
-      - '@azure/core-amqp.ServiceBusConnectionStringModel.EntityPath'
-      - '@azure/core-amqp.ServiceBusConnectionStringModel.SharedAccessKey'
-      - '@azure/core-amqp.ServiceBusConnectionStringModel.SharedAccessKeyName'
+      - tslib.ServiceBusConnectionStringModel.Endpoint
+      - tslib.ServiceBusConnectionStringModel.EntityPath
+      - tslib.ServiceBusConnectionStringModel.SharedAccessKey
+      - tslib.ServiceBusConnectionStringModel.SharedAccessKeyName
     langs:
       - typeScript
     type: interface
     summary: Describes the servicebus connection string model.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ServiceBusConnectionStringModel.Endpoint'
+    package: tslib
+  - uid: tslib.ServiceBusConnectionStringModel.Endpoint
     name: Endpoint
     fullName: Endpoint
     children: []
@@ -27,8 +27,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ServiceBusConnectionStringModel.EntityPath'
+    package: tslib
+  - uid: tslib.ServiceBusConnectionStringModel.EntityPath
     name: EntityPath
     fullName: EntityPath
     children: []
@@ -43,8 +43,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ServiceBusConnectionStringModel.SharedAccessKey'
+    package: tslib
+  - uid: tslib.ServiceBusConnectionStringModel.SharedAccessKey
     name: SharedAccessKey
     fullName: SharedAccessKey
     children: []
@@ -58,8 +58,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ServiceBusConnectionStringModel.SharedAccessKeyName'
+    package: tslib
+  - uid: tslib.ServiceBusConnectionStringModel.SharedAccessKeyName
     name: SharedAccessKeyName
     fullName: SharedAccessKeyName
     children: []
@@ -73,4 +73,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
+    package: tslib

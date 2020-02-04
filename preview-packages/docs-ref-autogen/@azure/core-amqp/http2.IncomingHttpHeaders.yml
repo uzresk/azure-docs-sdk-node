@@ -1,0 +1,1491 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.http2.IncomingHttpHeaders
+    name: IncomingHttpHeaders
+    fullName: IncomingHttpHeaders
+    children:
+      - 'tslib.http2.IncomingHttpHeaders.:authority'
+      - 'tslib.http2.IncomingHttpHeaders.:method'
+      - 'tslib.http2.IncomingHttpHeaders.:path'
+      - 'tslib.http2.IncomingHttpHeaders.:scheme'
+      - tslib.http2.IncomingHttpHeaders.accept
+      - tslib.http2.IncomingHttpHeaders.accept-language
+      - tslib.http2.IncomingHttpHeaders.accept-patch
+      - tslib.http2.IncomingHttpHeaders.accept-ranges
+      - tslib.http2.IncomingHttpHeaders.access-control-allow-credentials
+      - tslib.http2.IncomingHttpHeaders.access-control-allow-headers
+      - tslib.http2.IncomingHttpHeaders.access-control-allow-methods
+      - tslib.http2.IncomingHttpHeaders.access-control-allow-origin
+      - tslib.http2.IncomingHttpHeaders.access-control-expose-headers
+      - tslib.http2.IncomingHttpHeaders.access-control-max-age
+      - tslib.http2.IncomingHttpHeaders.age
+      - tslib.http2.IncomingHttpHeaders.allow
+      - tslib.http2.IncomingHttpHeaders.alt-svc
+      - tslib.http2.IncomingHttpHeaders.authorization
+      - tslib.http2.IncomingHttpHeaders.cache-control
+      - tslib.http2.IncomingHttpHeaders.connection
+      - tslib.http2.IncomingHttpHeaders.content-disposition
+      - tslib.http2.IncomingHttpHeaders.content-encoding
+      - tslib.http2.IncomingHttpHeaders.content-language
+      - tslib.http2.IncomingHttpHeaders.content-length
+      - tslib.http2.IncomingHttpHeaders.content-location
+      - tslib.http2.IncomingHttpHeaders.content-range
+      - tslib.http2.IncomingHttpHeaders.content-type
+      - tslib.http2.IncomingHttpHeaders.cookie
+      - tslib.http2.IncomingHttpHeaders.date
+      - tslib.http2.IncomingHttpHeaders.expect
+      - tslib.http2.IncomingHttpHeaders.expires
+      - tslib.http2.IncomingHttpHeaders.forwarded
+      - tslib.http2.IncomingHttpHeaders.from
+      - tslib.http2.IncomingHttpHeaders.host
+      - tslib.http2.IncomingHttpHeaders.if-match
+      - tslib.http2.IncomingHttpHeaders.if-modified-since
+      - tslib.http2.IncomingHttpHeaders.if-none-match
+      - tslib.http2.IncomingHttpHeaders.if-unmodified-since
+      - tslib.http2.IncomingHttpHeaders.last-modified
+      - tslib.http2.IncomingHttpHeaders.location
+      - tslib.http2.IncomingHttpHeaders.pragma
+      - tslib.http2.IncomingHttpHeaders.proxy-authenticate
+      - tslib.http2.IncomingHttpHeaders.proxy-authorization
+      - tslib.http2.IncomingHttpHeaders.public-key-pins
+      - tslib.http2.IncomingHttpHeaders.range
+      - tslib.http2.IncomingHttpHeaders.referer
+      - tslib.http2.IncomingHttpHeaders.retry-after
+      - tslib.http2.IncomingHttpHeaders.set-cookie
+      - tslib.http2.IncomingHttpHeaders.strict-transport-security
+      - tslib.http2.IncomingHttpHeaders.tk
+      - tslib.http2.IncomingHttpHeaders.trailer
+      - tslib.http2.IncomingHttpHeaders.transfer-encoding
+      - tslib.http2.IncomingHttpHeaders.upgrade
+      - tslib.http2.IncomingHttpHeaders.user-agent
+      - tslib.http2.IncomingHttpHeaders.vary
+      - tslib.http2.IncomingHttpHeaders.via
+      - tslib.http2.IncomingHttpHeaders.warning
+      - tslib.http2.IncomingHttpHeaders.www-authenticate
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: tslib.http.IncomingHttpHeaders
+    package: tslib
+  - uid: 'tslib.http2.IncomingHttpHeaders.:authority'
+    name: ':authority'
+    fullName: ':authority'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: ':authority?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: 'tslib.http2.IncomingHttpHeaders.:method'
+    name: ':method'
+    fullName: ':method'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: ':method?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: 'tslib.http2.IncomingHttpHeaders.:path'
+    name: ':path'
+    fullName: ':path'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: ':path?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: 'tslib.http2.IncomingHttpHeaders.:scheme'
+    name: ':scheme'
+    fullName: ':scheme'
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: ':scheme?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.accept
+    name: accept
+    fullName: accept
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'accept?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.accept-language
+    name: accept-language
+    fullName: accept-language
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'accept-language?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.accept-patch
+    name: accept-patch
+    fullName: accept-patch
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'accept-patch?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.accept-ranges
+    name: accept-ranges
+    fullName: accept-ranges
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'accept-ranges?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.access-control-allow-credentials
+    name: access-control-allow-credentials
+    fullName: access-control-allow-credentials
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'access-control-allow-credentials?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.access-control-allow-headers
+    name: access-control-allow-headers
+    fullName: access-control-allow-headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'access-control-allow-headers?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.access-control-allow-methods
+    name: access-control-allow-methods
+    fullName: access-control-allow-methods
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'access-control-allow-methods?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.access-control-allow-origin
+    name: access-control-allow-origin
+    fullName: access-control-allow-origin
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'access-control-allow-origin?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.access-control-expose-headers
+    name: access-control-expose-headers
+    fullName: access-control-expose-headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'access-control-expose-headers?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.access-control-max-age
+    name: access-control-max-age
+    fullName: access-control-max-age
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'access-control-max-age?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.age
+    name: age
+    fullName: age
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'age?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.allow
+    name: allow
+    fullName: allow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'allow?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.alt-svc
+    name: alt-svc
+    fullName: alt-svc
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'alt-svc?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.authorization
+    name: authorization
+    fullName: authorization
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'authorization?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.cache-control
+    name: cache-control
+    fullName: cache-control
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'cache-control?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.connection
+    name: connection
+    fullName: connection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'connection?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.content-disposition
+    name: content-disposition
+    fullName: content-disposition
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'content-disposition?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.content-encoding
+    name: content-encoding
+    fullName: content-encoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'content-encoding?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.content-language
+    name: content-language
+    fullName: content-language
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'content-language?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.content-length
+    name: content-length
+    fullName: content-length
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'content-length?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.content-location
+    name: content-location
+    fullName: content-location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'content-location?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.content-range
+    name: content-range
+    fullName: content-range
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'content-range?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.content-type
+    name: content-type
+    fullName: content-type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'content-type?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.cookie
+    name: cookie
+    fullName: cookie
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'cookie?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.date
+    name: date
+    fullName: date
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'date?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.expect
+    name: expect
+    fullName: expect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'expect?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.expires
+    name: expires
+    fullName: expires
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'expires?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.forwarded
+    name: forwarded
+    fullName: forwarded
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'forwarded?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.from
+    name: from
+    fullName: from
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'from?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.host
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'host?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.if-match
+    name: if-match
+    fullName: if-match
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'if-match?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.if-modified-since
+    name: if-modified-since
+    fullName: if-modified-since
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'if-modified-since?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.if-none-match
+    name: if-none-match
+    fullName: if-none-match
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'if-none-match?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.if-unmodified-since
+    name: if-unmodified-since
+    fullName: if-unmodified-since
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'if-unmodified-since?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.last-modified
+    name: last-modified
+    fullName: last-modified
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'last-modified?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.location
+    name: location
+    fullName: location
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'location?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.pragma
+    name: pragma
+    fullName: pragma
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'pragma?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.proxy-authenticate
+    name: proxy-authenticate
+    fullName: proxy-authenticate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'proxy-authenticate?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.proxy-authorization
+    name: proxy-authorization
+    fullName: proxy-authorization
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'proxy-authorization?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.public-key-pins
+    name: public-key-pins
+    fullName: public-key-pins
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'public-key-pins?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.range
+    name: range
+    fullName: range
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'range?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.referer
+    name: referer
+    fullName: referer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'referer?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.retry-after
+    name: retry-after
+    fullName: retry-after
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'retry-after?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.set-cookie
+    name: set-cookie
+    fullName: set-cookie
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'set-cookie?: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.strict-transport-security
+    name: strict-transport-security
+    fullName: strict-transport-security
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'strict-transport-security?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.tk
+    name: tk
+    fullName: tk
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'tk?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.trailer
+    name: trailer
+    fullName: trailer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'trailer?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.transfer-encoding
+    name: transfer-encoding
+    fullName: transfer-encoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'transfer-encoding?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.upgrade
+    name: upgrade
+    fullName: upgrade
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'upgrade?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.user-agent
+    name: user-agent
+    fullName: user-agent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'user-agent?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.vary
+    name: vary
+    fullName: vary
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'vary?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.via
+    name: via
+    fullName: via
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'via?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.warning
+    name: warning
+    fullName: warning
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'warning?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.IncomingHttpHeaders.www-authenticate
+    name: www-authenticate
+    fullName: www-authenticate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'www-authenticate?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.http2.ServerHttp2Stream
+    name: ServerHttp2Stream
+    spec.typeScript:
+      - name: ServerHttp2Stream
+        fullName: ServerHttp2Stream
+        uid: tslib.http2.ServerHttp2Stream
+  - uid: tslib.http2.IncomingHttpHeaders
+    name: IncomingHttpHeaders
+    spec.typeScript:
+      - name: IncomingHttpHeaders
+        fullName: IncomingHttpHeaders
+        uid: tslib.http2.IncomingHttpHeaders
+  - uid: tslib.net.Socket | tslib.tls.TLSSocket
+    name: TLSSocket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.net.Socket
+      - name: ' | '
+        fullName: ' | '
+      - name: TLSSocket
+        fullName: TLSSocket
+        uid: tslib.tls.TLSSocket
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.stream.internal.ReadableOptions
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: tslib.stream.internal.ReadableOptions
+  - uid: tslib.stream.internal.Stream
+    name: Stream
+    spec.typeScript:
+      - name: Stream
+        fullName: Stream
+        uid: tslib.stream.internal.Stream
+  - uid: tslib.http.OutgoingHttpHeaders
+    name: OutgoingHttpHeaders
+    spec.typeScript:
+      - name: OutgoingHttpHeaders
+        fullName: OutgoingHttpHeaders
+        uid: tslib.http.OutgoingHttpHeaders
+  - uid: number | string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'number | string | '
+        fullName: 'number | string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.http2.Http2Session
+    name: Http2Session
+    spec.typeScript:
+      - name: Http2Session
+        fullName: Http2Session
+        uid: tslib.http2.Http2Session
+  - uid: tslib.http2.Settings
+    name: Settings
+    spec.typeScript:
+      - name: Settings
+        fullName: Settings
+        uid: tslib.http2.Settings
+  - uid: tslib.http2.SessionState
+    name: SessionState
+    spec.typeScript:
+      - name: SessionState
+        fullName: SessionState
+        uid: tslib.http2.SessionState
+  - uid: tslib.http2.ClientHttp2Session
+    name: ClientHttp2Session
+    spec.typeScript:
+      - name: ClientHttp2Session
+        fullName: ClientHttp2Session
+        uid: tslib.http2.ClientHttp2Session
+  - uid: tslib.http2.ClientHttp2Stream
+    name: ClientHttp2Stream
+    spec.typeScript:
+      - name: ClientHttp2Stream
+        fullName: ClientHttp2Stream
+        uid: tslib.http2.ClientHttp2Stream
+  - uid: tslib.http2.IncomingHttpHeaders & tslib.http2.IncomingHttpStatusHeader
+    name: IncomingHttpStatusHeader
+    spec.typeScript:
+      - name: IncomingHttpHeaders
+        fullName: IncomingHttpHeaders
+        uid: tslib.http2.IncomingHttpHeaders
+      - name: ' & '
+        fullName: ' & '
+      - name: IncomingHttpStatusHeader
+        fullName: IncomingHttpStatusHeader
+        uid: tslib.http2.IncomingHttpStatusHeader
+  - uid: tslib.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: tslib.NodeJS.ArrayBufferView
+  - uid: tslib.http2.ClientSessionRequestOptions
+    name: ClientSessionRequestOptions
+    spec.typeScript:
+      - name: ClientSessionRequestOptions
+        fullName: ClientSessionRequestOptions
+        uid: tslib.http2.ClientSessionRequestOptions
+  - uid: tslib.http2.Http2Stream
+    name: Http2Stream
+    spec.typeScript:
+      - name: Http2Stream
+        fullName: Http2Stream
+        uid: tslib.http2.Http2Stream
+  - uid: tslib.stream.internal.DuplexOptions
+    name: DuplexOptions
+    spec.typeScript:
+      - name: DuplexOptions
+        fullName: DuplexOptions
+        uid: tslib.stream.internal.DuplexOptions
+  - uid: 'tslib.http.OutgoingHttpHeaders[]'
+    name: 'OutgoingHttpHeaders[]'
+    spec.typeScript:
+      - name: OutgoingHttpHeaders
+        fullName: OutgoingHttpHeaders
+        uid: tslib.http.OutgoingHttpHeaders
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.http2.StreamState
+    name: StreamState
+    spec.typeScript:
+      - name: StreamState
+        fullName: StreamState
+        uid: tslib.http2.StreamState
+  - uid: tslib.http2.StreamPriorityOptions
+    name: StreamPriorityOptions
+    spec.typeScript:
+      - name: StreamPriorityOptions
+        fullName: StreamPriorityOptions
+        uid: tslib.http2.StreamPriorityOptions
+  - uid: tslib.http2.SessionOptions
+    name: SessionOptions
+    spec.typeScript:
+      - name: SessionOptions
+        fullName: SessionOptions
+        uid: tslib.http2.SessionOptions
+  - uid: tslib.tls.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.tls.Server
+  - uid: tslib.tls.SecureContextOptions
+    name: SecureContextOptions
+    spec.typeScript:
+      - name: SecureContextOptions
+        fullName: SecureContextOptions
+        uid: tslib.tls.SecureContextOptions
+  - uid: tslib.net.AddressInfo | string | null
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: tslib.http2.Http2ServerRequest
+    name: Http2ServerRequest
+    spec.typeScript:
+      - name: Http2ServerRequest
+        fullName: Http2ServerRequest
+        uid: tslib.http2.Http2ServerRequest
+  - uid: tslib.http2.Http2ServerResponse
+    name: Http2ServerResponse
+    spec.typeScript:
+      - name: Http2ServerResponse
+        fullName: Http2ServerResponse
+        uid: tslib.http2.Http2ServerResponse
+  - uid: tslib.http2.ServerHttp2Session
+    name: ServerHttp2Session
+    spec.typeScript:
+      - name: ServerHttp2Session
+        fullName: ServerHttp2Session
+        uid: tslib.http2.ServerHttp2Session
+  - uid: tslib.tls.TLSSocket
+    name: TLSSocket
+    spec.typeScript:
+      - name: TLSSocket
+        fullName: TLSSocket
+        uid: tslib.tls.TLSSocket
+  - uid: tslib.net.ListenOptions
+    name: ListenOptions
+    spec.typeScript:
+      - name: ListenOptions
+        fullName: ListenOptions
+        uid: tslib.net.ListenOptions
+  - uid: tslib.net.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.net.Server
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.events.EventEmitterOptions
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: tslib.events.EventEmitterOptions
+  - uid: tslib.stream.internal.Duplex
+    name: Duplex
+    spec.typeScript:
+      - name: Duplex
+        fullName: Duplex
+        uid: tslib.stream.internal.Duplex
+  - uid: tslib.http.IncomingHttpHeaders
+    name: IncomingHttpHeaders
+    spec.typeScript:
+      - name: IncomingHttpHeaders
+        fullName: IncomingHttpHeaders
+        uid: tslib.http.IncomingHttpHeaders
+  - uid: tslib.http2.ClientSessionOptions
+    name: ClientSessionOptions
+    spec.typeScript:
+      - name: ClientSessionOptions
+        fullName: ClientSessionOptions
+        uid: tslib.http2.ClientSessionOptions
+  - uid: undefined | tslib.tls.checkServerIdentity
+    name: checkServerIdentity
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: checkServerIdentity
+        fullName: checkServerIdentity
+        uid: tslib.tls.checkServerIdentity
+  - uid: string | Buffer | Array<Buffer | tslib.tls.KeyObject>
+    name: KeyObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<Buffer | '
+        fullName: 'string | Buffer | Array<Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: tslib.tls.KeyObject
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.tls.SecureVersion
+    name: SecureVersion
+    spec.typeScript:
+      - name: SecureVersion
+        fullName: SecureVersion
+        uid: tslib.tls.SecureVersion
+  - uid: string | Buffer | Array<string | Buffer | tslib.tls.PxfObject>
+    name: PxfObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<string | Buffer | '
+        fullName: 'string | Buffer | Array<string | Buffer | '
+      - name: PxfObject
+        fullName: PxfObject
+        uid: tslib.tls.PxfObject
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.tls.SecureContext
+    name: SecureContext
+    spec.typeScript:
+      - name: SecureContext
+        fullName: SecureContext
+        uid: tslib.tls.SecureContext
+  - uid: tslib.Buffer
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: tslib.Buffer
+  - uid: tslib.tls.PSKCallbackNegotation | null
+    name: PSKCallbackNegotation | null
+    spec.typeScript:
+      - name: PSKCallbackNegotation
+        fullName: PSKCallbackNegotation
+        uid: tslib.tls.PSKCallbackNegotation
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.http2.SecureServerSessionOptions
+    name: SecureServerSessionOptions
+    spec.typeScript:
+      - name: SecureServerSessionOptions
+        fullName: SecureServerSessionOptions
+        uid: tslib.http2.SecureServerSessionOptions
+  - uid: undefined | tslib.http.IncomingMessage
+    name: IncomingMessage
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: IncomingMessage
+        fullName: IncomingMessage
+        uid: tslib.http.IncomingMessage
+  - uid: undefined | tslib.http.ServerResponse
+    name: ServerResponse
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: ServerResponse
+        fullName: ServerResponse
+        uid: tslib.http.ServerResponse
+  - uid: undefined | tslib.http2.Http2ServerRequest
+    name: Http2ServerRequest
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: Http2ServerRequest
+        fullName: Http2ServerRequest
+        uid: tslib.http2.Http2ServerRequest
+  - uid: undefined | tslib.http2.Http2ServerResponse
+    name: Http2ServerResponse
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: Http2ServerResponse
+        fullName: Http2ServerResponse
+        uid: tslib.http2.Http2ServerResponse
+  - uid: tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: DataView | tslib.NodeJS.TypedArray | null
+    name: TypedArray | null
+    spec.typeScript:
+      - name: 'DataView | '
+        fullName: 'DataView | '
+      - name: TypedArray
+        fullName: TypedArray
+        uid: tslib.NodeJS.TypedArray
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.http2.ServerSessionOptions
+    name: ServerSessionOptions
+    spec.typeScript:
+      - name: ServerSessionOptions
+        fullName: ServerSessionOptions
+        uid: tslib.http2.ServerSessionOptions
+  - uid: tslib.http2.Http2Server | tslib.http2.Http2SecureServer
+    name: Http2SecureServer
+    spec.typeScript:
+      - name: Http2Server
+        fullName: Http2Server
+        uid: tslib.http2.Http2Server
+      - name: ' | '
+        fullName: ' | '
+      - name: Http2SecureServer
+        fullName: Http2SecureServer
+        uid: tslib.http2.Http2SecureServer
+  - uid: number | string | tslib.url.URL | tslib.http2.AlternativeServiceOptions
+    name: AlternativeServiceOptions
+    spec.typeScript:
+      - name: 'number | string | '
+        fullName: 'number | string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+      - name: ' | '
+        fullName: ' | '
+      - name: AlternativeServiceOptions
+        fullName: AlternativeServiceOptions
+        uid: tslib.http2.AlternativeServiceOptions
+  - uid: Array<string | tslib.url.URL | Object>
+    name: URL | Object>
+    spec.typeScript:
+      - name: 'Array<string | '
+        fullName: 'Array<string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+      - name: ' | Object>'
+        fullName: ' | Object>'
+  - uid: tslib.http2.ServerStreamResponseOptions
+    name: ServerStreamResponseOptions
+    spec.typeScript:
+      - name: ServerStreamResponseOptions
+        fullName: ServerStreamResponseOptions
+        uid: tslib.http2.ServerStreamResponseOptions
+  - uid: number | tslib.fs.promises.FileHandle
+    name: FileHandle
+    spec.typeScript:
+      - name: 'number | '
+        fullName: 'number | '
+      - name: FileHandle
+        fullName: FileHandle
+        uid: tslib.fs.promises.FileHandle
+  - uid: tslib.http2.ServerStreamFileResponseOptions
+    name: ServerStreamFileResponseOptions
+    spec.typeScript:
+      - name: ServerStreamFileResponseOptions
+        fullName: ServerStreamFileResponseOptions
+        uid: tslib.http2.ServerStreamFileResponseOptions
+  - uid: tslib.http2.ServerStreamFileResponseOptionsWithError
+    name: ServerStreamFileResponseOptionsWithError
+    spec.typeScript:
+      - name: ServerStreamFileResponseOptionsWithError
+        fullName: ServerStreamFileResponseOptionsWithError
+        uid: tslib.http2.ServerStreamFileResponseOptionsWithError
+  - uid: tslib.fs.Stats
+    name: Stats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: tslib.fs.Stats
+  - uid: tslib.http2.StatOptions
+    name: StatOptions
+    spec.typeScript:
+      - name: StatOptions
+        fullName: StatOptions
+        uid: tslib.http2.StatOptions
+  - uid: tslib.NodeJS.ErrnoException
+    name: ErrnoException
+    spec.typeScript:
+      - name: ErrnoException
+        fullName: ErrnoException
+        uid: tslib.NodeJS.ErrnoException
+  - uid: string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.http2.ClientSessionOptions | tslib.http2.SecureClientSessionOptions
+    name: SecureClientSessionOptions
+    spec.typeScript:
+      - name: ClientSessionOptions
+        fullName: ClientSessionOptions
+        uid: tslib.http2.ClientSessionOptions
+      - name: ' | '
+        fullName: ' | '
+      - name: SecureClientSessionOptions
+        fullName: SecureClientSessionOptions
+        uid: tslib.http2.SecureClientSessionOptions
+  - uid: tslib.http2.Http2SecureServer
+    name: Http2SecureServer
+    spec.typeScript:
+      - name: Http2SecureServer
+        fullName: Http2SecureServer
+        uid: tslib.http2.Http2SecureServer
+  - uid: tslib.http2.SecureServerOptions
+    name: SecureServerOptions
+    spec.typeScript:
+      - name: SecureServerOptions
+        fullName: SecureServerOptions
+        uid: tslib.http2.SecureServerOptions
+  - uid: tslib.http2.Http2Server
+    name: Http2Server
+    spec.typeScript:
+      - name: Http2Server
+        fullName: Http2Server
+        uid: tslib.http2.Http2Server
+  - uid: tslib.http2.ServerOptions
+    name: ServerOptions
+    spec.typeScript:
+      - name: ServerOptions
+        fullName: ServerOptions
+        uid: tslib.http2.ServerOptions

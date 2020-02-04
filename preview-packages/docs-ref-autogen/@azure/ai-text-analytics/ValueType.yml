@@ -1,0 +1,31 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.ValueType'
+    name: ValueType
+    fullName: ValueType
+    children:
+      - '@azure/abort-controller.ValueType.INT'
+      - '@azure/abort-controller.ValueType.DOUBLE'
+    langs:
+      - typeScript
+    type: enum
+    summary: The Type of value. It describes how the data is reported.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ValueType.INT'
+    name: INT
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ValueType.DOUBLE'
+    name: DOUBLE
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
+    package: '@azure/abort-controller'

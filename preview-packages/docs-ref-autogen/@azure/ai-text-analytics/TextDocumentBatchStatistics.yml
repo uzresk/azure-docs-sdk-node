@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics'
+  - uid: '@azure/abort-controller.TextDocumentBatchStatistics'
     name: TextDocumentBatchStatistics
     fullName: TextDocumentBatchStatistics
     children:
-      - '@azure/ai-text-analytics.TextDocumentBatchStatistics.documentCount'
+      - '@azure/abort-controller.TextDocumentBatchStatistics.documentCount'
       - >-
-        @azure/ai-text-analytics.TextDocumentBatchStatistics.erroneousDocumentCount
-      - '@azure/ai-text-analytics.TextDocumentBatchStatistics.transactionCount'
-      - '@azure/ai-text-analytics.TextDocumentBatchStatistics.validDocumentCount'
+        @azure/abort-controller.TextDocumentBatchStatistics.erroneousDocumentCount
+      - '@azure/abort-controller.TextDocumentBatchStatistics.transactionCount'
+      - '@azure/abort-controller.TextDocumentBatchStatistics.validDocumentCount'
     langs:
       - typeScript
     type: interface
@@ -17,8 +17,8 @@ items:
       information about the
 
       request payload.
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics.documentCount'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TextDocumentBatchStatistics.documentCount'
     name: documentCount
     fullName: documentCount
     children: []
@@ -32,9 +32,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: >-
-      @azure/ai-text-analytics.TextDocumentBatchStatistics.erroneousDocumentCount
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TextDocumentBatchStatistics.erroneousDocumentCount'
     name: erroneousDocumentCount
     fullName: erroneousDocumentCount
     children: []
@@ -52,8 +51,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics.transactionCount'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TextDocumentBatchStatistics.transactionCount'
     name: transactionCount
     fullName: transactionCount
     children: []
@@ -67,8 +66,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics.validDocumentCount'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TextDocumentBatchStatistics.validDocumentCount'
     name: validDocumentCount
     fullName: validDocumentCount
     children: []
@@ -86,4 +85,4 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'

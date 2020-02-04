@@ -15,36 +15,83 @@ items:
     package: microsoft-speech-browser-sdk
   - uid: >-
       microsoft-speech-browser-sdk.WebsocketMessageFormatter.FromConnectionMessage
-    name: FromConnectionMessage
-    fullName: FromConnectionMessage
+    name: FromConnectionMessage(ConnectionMessage)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: >-
-        FromConnectionMessage: (message: ConnectionMessage) =>
-        Promise<RawWebsocketMessage>
+      content: 'function FromConnectionMessage(message: ConnectionMessage)'
+      parameters:
+        - id: message
+          type:
+            - microsoft-speech-browser-sdk.ConnectionMessage
+          description: ''
       return:
         type:
-          - '(message: ConnectionMessage) => Promise<RawWebsocketMessage>'
+          - >-
+            microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.RawWebsocketMessage>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.WebsocketMessageFormatter.ToConnectionMessage
-    name: ToConnectionMessage
-    fullName: ToConnectionMessage
+    name: ToConnectionMessage(RawWebsocketMessage)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: >-
-        ToConnectionMessage: (message: RawWebsocketMessage) =>
-        Promise<ConnectionMessage>
+      content: 'function ToConnectionMessage(message: RawWebsocketMessage)'
+      parameters:
+        - id: message
+          type:
+            - microsoft-speech-browser-sdk.RawWebsocketMessage
+          description: ''
       return:
         type:
-          - '(message: RawWebsocketMessage) => Promise<ConnectionMessage>'
+          - >-
+            microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.ConnectionMessage>
         description: ''
     package: microsoft-speech-browser-sdk
+references:
+  - uid: microsoft-speech-browser-sdk.ConnectionMessage
+    name: ConnectionMessage
+    spec.typeScript:
+      - name: ConnectionMessage
+        fullName: ConnectionMessage
+        uid: microsoft-speech-browser-sdk.ConnectionMessage
+  - uid: >-
+      microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.RawWebsocketMessage>
+    name: RawWebsocketMessage>
+    spec.typeScript:
+      - name: Promise
+        fullName: Promise
+        uid: microsoft-speech-browser-sdk.Promise
+      - name: <
+        fullName: <
+      - name: RawWebsocketMessage
+        fullName: RawWebsocketMessage
+        uid: microsoft-speech-browser-sdk.RawWebsocketMessage
+      - name: '>'
+        fullName: '>'
+  - uid: microsoft-speech-browser-sdk.RawWebsocketMessage
+    name: RawWebsocketMessage
+    spec.typeScript:
+      - name: RawWebsocketMessage
+        fullName: RawWebsocketMessage
+        uid: microsoft-speech-browser-sdk.RawWebsocketMessage
+  - uid: >-
+      microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.ConnectionMessage>
+    name: ConnectionMessage>
+    spec.typeScript:
+      - name: Promise
+        fullName: Promise
+        uid: microsoft-speech-browser-sdk.Promise
+      - name: <
+        fullName: <
+      - name: ConnectionMessage
+        fullName: ConnectionMessage
+        uid: microsoft-speech-browser-sdk.ConnectionMessage
+      - name: '>'
+        fullName: '>'

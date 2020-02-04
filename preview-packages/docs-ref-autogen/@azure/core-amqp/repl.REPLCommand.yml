@@ -1,0 +1,135 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.repl.REPLCommand
+    name: REPLCommand
+    fullName: REPLCommand
+    children:
+      - tslib.repl.REPLCommand.action
+      - tslib.repl.REPLCommand.help
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.repl.REPLCommand.action
+    name: action
+    fullName: action
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'The function to execute, optionally accepting a single string argument.'
+    syntax:
+      content: 'action: REPLCommandAction'
+      return:
+        type:
+          - tslib.repl.REPLCommandAction
+        description: ''
+    package: tslib
+  - uid: tslib.repl.REPLCommand.help
+    name: help
+    fullName: help
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Help text to be displayed when `.help` is entered.
+    optional: true
+    syntax:
+      content: 'help?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.readline.Interface
+    name: Interface
+    spec.typeScript:
+      - name: Interface
+        fullName: Interface
+        uid: tslib.readline.Interface
+  - uid: tslib.readline.Completer | tslib.readline.AsyncCompleter
+    name: AsyncCompleter
+    spec.typeScript:
+      - name: Completer
+        fullName: Completer
+        uid: tslib.readline.Completer
+      - name: ' | '
+        fullName: ' | '
+      - name: AsyncCompleter
+        fullName: AsyncCompleter
+        uid: tslib.readline.AsyncCompleter
+  - uid: tslib.vm.Context
+    name: Context
+    spec.typeScript:
+      - name: Context
+        fullName: Context
+        uid: tslib.vm.Context
+  - uid: tslib.repl.REPLEval
+    name: REPLEval
+    spec.typeScript:
+      - name: REPLEval
+        fullName: REPLEval
+        uid: tslib.repl.REPLEval
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.repl.REPLWriter
+    name: REPLWriter
+    spec.typeScript:
+      - name: REPLWriter
+        fullName: REPLWriter
+        uid: tslib.repl.REPLWriter
+  - uid: tslib.repl.REPLCommandAction | tslib.repl.REPLCommand
+    name: REPLCommand
+    spec.typeScript:
+      - name: REPLCommandAction
+        fullName: REPLCommandAction
+        uid: tslib.repl.REPLCommandAction
+      - name: ' | '
+        fullName: ' | '
+      - name: REPLCommand
+        fullName: REPLCommand
+        uid: tslib.repl.REPLCommand
+  - uid: tslib.readline.CursorPos
+    name: CursorPos
+    spec.typeScript:
+      - name: CursorPos
+        fullName: CursorPos
+        uid: tslib.readline.CursorPos
+  - uid: tslib.readline.Key
+    name: Key
+    spec.typeScript:
+      - name: Key
+        fullName: Key
+        uid: tslib.readline.Key
+  - uid: tslib.repl.REPLCommandAction
+    name: REPLCommandAction
+    spec.typeScript:
+      - name: REPLCommandAction
+        fullName: REPLCommandAction
+        uid: tslib.repl.REPLCommandAction
+  - uid: string | tslib.repl.ReplOptions
+    name: ReplOptions
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: ReplOptions
+        fullName: ReplOptions
+        uid: tslib.repl.ReplOptions
+  - uid: tslib.repl.REPLServer
+    name: REPLServer
+    spec.typeScript:
+      - name: REPLServer
+        fullName: REPLServer
+        uid: tslib.repl.REPLServer

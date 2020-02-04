@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.OperationTracingOptions
+    name: OperationTracingOptions
+    fullName: OperationTracingOptions
+    children:
+      - tslib.OperationTracingOptions.spanOptions
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.OperationTracingOptions.spanOptions
+    name: spanOptions
+    fullName: spanOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: OpenTelemetry SpanOptions used to create a span when tracing is enabled.
+    optional: true
+    syntax:
+      content: 'spanOptions?: SpanOptions'
+      return:
+        type:
+          - tslib.SpanOptions
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.SpanOptions
+    name: SpanOptions
+    spec.typeScript:
+      - name: SpanOptions
+        fullName: SpanOptions
+        uid: tslib.SpanOptions

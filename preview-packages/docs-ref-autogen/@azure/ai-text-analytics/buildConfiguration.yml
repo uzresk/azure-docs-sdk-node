@@ -1,0 +1,30 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.buildConfiguration'
+    name: buildConfiguration(Object)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      MSAL function that sets the default options when not explicitly configured
+      from app developer
+    syntax:
+      content: 'function buildConfiguration(__namedParameters: Object)'
+      parameters:
+        - id: __namedParameters
+          type:
+            - Object
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.Configuration'
+        description: TConfiguration object
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Configuration'
+    name: Configuration
+    spec.typeScript:
+      - name: Configuration
+        fullName: Configuration
+        uid: '@azure/abort-controller.Configuration'

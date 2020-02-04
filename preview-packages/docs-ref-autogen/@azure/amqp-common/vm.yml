@@ -1,0 +1,205 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.vm'
+    name: vm
+    langs:
+      - typeScript
+    fullName: vm
+    children:
+      - '@azure/ms-rest-azure-env.vm.Context'
+      - '@azure/ms-rest-azure-env.vm.createContext'
+      - '@azure/ms-rest-azure-env.vm.isContext'
+      - '@azure/ms-rest-azure-env.vm.runInContext'
+      - '@azure/ms-rest-azure-env.vm.runInDebugContext'
+      - '@azure/ms-rest-azure-env.vm.runInNewContext'
+      - '@azure/ms-rest-azure-env.vm.runInThisContext'
+      - '@azure/ms-rest-azure-env.vm.RunningScriptOptions'
+      - '@azure/ms-rest-azure-env.vm.Script'
+      - '@azure/ms-rest-azure-env.vm.ScriptOptions'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.vm.createContext'
+    name: createContext(Context)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createContext(sandbox?: Context)'
+      parameters:
+        - id: sandbox
+          type:
+            - '@azure/ms-rest-azure-env.vm.Context'
+          description: ''
+          optional: true
+      return:
+        type:
+          - Context
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.vm.isContext'
+    name: isContext(Context)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isContext(sandbox: Context)'
+      parameters:
+        - id: sandbox
+          type:
+            - Context
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.vm.runInContext'
+    name: 'runInContext(string, Context, RunningScriptOptions | string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function runInContext(code: string, contextifiedSandbox: Context,
+        options?: RunningScriptOptions | string)
+      parameters:
+        - id: code
+          type:
+            - string
+          description: ''
+        - id: contextifiedSandbox
+          type:
+            - Context
+          description: ''
+        - id: options
+          type:
+            - RunningScriptOptions | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.vm.runInDebugContext'
+    name: runInDebugContext(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function runInDebugContext(code: string)'
+      parameters:
+        - id: code
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.vm.runInNewContext'
+    name: 'runInNewContext(string, Context, RunningScriptOptions | string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function runInNewContext(code: string, sandbox?: Context, options?:
+        RunningScriptOptions | string)
+      parameters:
+        - id: code
+          type:
+            - string
+          description: ''
+        - id: sandbox
+          type:
+            - '@azure/ms-rest-azure-env.vm.Context'
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - RunningScriptOptions | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.vm.runInThisContext'
+    name: 'runInThisContext(string, RunningScriptOptions | string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function runInThisContext(code: string, options?: RunningScriptOptions |
+        string)
+      parameters:
+        - id: code
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - RunningScriptOptions | string
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.vm.ScriptOptions'
+    name: ScriptOptions
+    spec.typeScript:
+      - name: ScriptOptions
+        fullName: ScriptOptions
+        uid: '@azure/ms-rest-azure-env.vm.ScriptOptions'
+  - uid: '@azure/ms-rest-azure-env.vm.RunningScriptOptions'
+    name: RunningScriptOptions
+    spec.typeScript:
+      - name: RunningScriptOptions
+        fullName: RunningScriptOptions
+        uid: '@azure/ms-rest-azure-env.vm.RunningScriptOptions'
+  - uid: '@azure/ms-rest-azure-env.vm.Context'
+    name: Context
+    spec.typeScript:
+      - name: Context
+        fullName: Context
+        uid: '@azure/ms-rest-azure-env.vm.Context'
+  - uid: '@azure/ms-rest-azure-env.Buffer'
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: '@azure/ms-rest-azure-env.Buffer'
+  - uid: '@azure/ms-rest-azure-env.vm.createContext'
+    name: createContext
+  - uid: '@azure/ms-rest-azure-env.vm.isContext'
+    name: isContext
+  - uid: '@azure/ms-rest-azure-env.vm.runInContext'
+    name: runInContext
+  - uid: '@azure/ms-rest-azure-env.vm.runInDebugContext'
+    name: runInDebugContext
+  - uid: '@azure/ms-rest-azure-env.vm.runInNewContext'
+    name: runInNewContext
+  - uid: '@azure/ms-rest-azure-env.vm.runInThisContext'
+    name: runInThisContext
+  - uid: '@azure/ms-rest-azure-env.vm.Script'
+    name: Script

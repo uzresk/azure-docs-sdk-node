@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.HeadersInit'
+    name: HeadersInit
+    fullName: HeadersInit
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: 'type HeadersInit = Headers | undefined[] | '
+    package: '@azure/abort-controller'

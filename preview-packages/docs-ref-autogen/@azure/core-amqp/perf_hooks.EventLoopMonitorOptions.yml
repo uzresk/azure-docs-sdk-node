@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.perf_hooks.EventLoopMonitorOptions
+    name: EventLoopMonitorOptions
+    fullName: EventLoopMonitorOptions
+    children:
+      - tslib.perf_hooks.EventLoopMonitorOptions.resolution
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.perf_hooks.EventLoopMonitorOptions.resolution
+    name: resolution
+    fullName: resolution
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The sampling rate in milliseconds.
+      Must be greater than zero.
+    optional: true
+    syntax:
+      content: 'resolution?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.async_hooks.AsyncResource
+    name: AsyncResource
+    spec.typeScript:
+      - name: AsyncResource
+        fullName: AsyncResource
+        uid: tslib.async_hooks.AsyncResource
+  - uid: tslib.perf_hooks.PerformanceObserverCallback
+    name: PerformanceObserverCallback
+    spec.typeScript:
+      - name: PerformanceObserverCallback
+        fullName: PerformanceObserverCallback
+        uid: tslib.perf_hooks.PerformanceObserverCallback
+  - uid: tslib.perf_hooks.PerformanceNodeTiming
+    name: PerformanceNodeTiming
+    spec.typeScript:
+      - name: PerformanceNodeTiming
+        fullName: PerformanceNodeTiming
+        uid: tslib.perf_hooks.PerformanceNodeTiming
+  - uid: 'tslib.perf_hooks.PerformanceEntry[]'
+    name: 'PerformanceEntry[]'
+    spec.typeScript:
+      - name: PerformanceEntry
+        fullName: PerformanceEntry
+        uid: tslib.perf_hooks.PerformanceEntry
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.perf_hooks.PerformanceEntry
+    name: PerformanceEntry
+    spec.typeScript:
+      - name: PerformanceEntry
+        fullName: PerformanceEntry
+        uid: tslib.perf_hooks.PerformanceEntry
+  - uid: tslib.perf_hooks.EventLoopMonitorOptions
+    name: EventLoopMonitorOptions
+    spec.typeScript:
+      - name: EventLoopMonitorOptions
+        fullName: EventLoopMonitorOptions
+        uid: tslib.perf_hooks.EventLoopMonitorOptions
+  - uid: tslib.perf_hooks.EventLoopDelayMonitor
+    name: EventLoopDelayMonitor
+    spec.typeScript:
+      - name: EventLoopDelayMonitor
+        fullName: EventLoopDelayMonitor
+        uid: tslib.perf_hooks.EventLoopDelayMonitor

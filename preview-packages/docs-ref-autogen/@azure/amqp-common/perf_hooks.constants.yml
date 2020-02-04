@@ -1,0 +1,18 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.constants'
+    name: constants
+    langs:
+      - typeScript
+    fullName: constants
+    children: []
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserverCallback'
+    name: PerformanceObserverCallback
+    spec.typeScript:
+      - name: PerformanceObserverCallback
+        fullName: PerformanceObserverCallback
+        uid: '@azure/ms-rest-azure-env.perf_hooks.PerformanceObserverCallback'

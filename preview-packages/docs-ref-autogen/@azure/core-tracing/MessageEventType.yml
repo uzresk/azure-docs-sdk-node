@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.MessageEventType'
+    name: MessageEventType
+    fullName: MessageEventType
+    children:
+      - '@opentelemetry/types.MessageEventType.UNSPECIFIED'
+      - '@opentelemetry/types.MessageEventType.SENT'
+      - '@opentelemetry/types.MessageEventType.RECEIVED'
+    langs:
+      - typeScript
+    type: enum
+    summary: An event describing a message sent/received between Spans.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.MessageEventType.UNSPECIFIED'
+    name: UNSPECIFIED
+    children: []
+    langs:
+      - typeScript
+    summary: Unknown event type.
+    type: field
+    numericValue: 0
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.MessageEventType.SENT'
+    name: SENT
+    children: []
+    langs:
+      - typeScript
+    summary: Indicates a sent message.
+    type: field
+    numericValue: 1
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.MessageEventType.RECEIVED'
+    name: RECEIVED
+    children: []
+    langs:
+      - typeScript
+    summary: Indicates a received message.
+    type: field
+    numericValue: 2
+    package: '@opentelemetry/types'

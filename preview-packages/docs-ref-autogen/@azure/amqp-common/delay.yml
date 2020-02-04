@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.delay'
+  - uid: '@azure/ms-rest-azure-env.delay'
     name: 'delay(number, T)'
     children: []
     type: function
@@ -23,4 +23,4 @@ items:
         type:
           - Promise<T>
         description: '- Resolved promise'
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'

@@ -1,0 +1,128 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.dgram.BindOptions
+    name: BindOptions
+    fullName: BindOptions
+    children:
+      - tslib.dgram.BindOptions.address
+      - tslib.dgram.BindOptions.exclusive
+      - tslib.dgram.BindOptions.fd
+      - tslib.dgram.BindOptions.port
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.dgram.BindOptions.address
+    name: address
+    fullName: address
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'address?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.dgram.BindOptions.exclusive
+    name: exclusive
+    fullName: exclusive
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'exclusive?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.dgram.BindOptions.fd
+    name: fd
+    fullName: fd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'fd?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.dgram.BindOptions.port
+    name: port
+    fullName: port
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'port?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.events.EventEmitterOptions
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: tslib.events.EventEmitterOptions
+  - uid: tslib.net.AddressInfo
+    name: AddressInfo
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+  - uid: tslib.dgram.BindOptions
+    name: BindOptions
+    spec.typeScript:
+      - name: BindOptions
+        fullName: BindOptions
+        uid: tslib.dgram.BindOptions
+  - uid: tslib.dgram.RemoteInfo
+    name: RemoteInfo
+    spec.typeScript:
+      - name: RemoteInfo
+        fullName: RemoteInfo
+        uid: tslib.dgram.RemoteInfo
+  - uid: tslib.dgram.SocketType
+    name: SocketType
+    spec.typeScript:
+      - name: SocketType
+        fullName: SocketType
+        uid: tslib.dgram.SocketType
+  - uid: tslib.dgram.Socket
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.dgram.Socket
+  - uid: tslib.dgram.SocketOptions
+    name: SocketOptions
+    spec.typeScript:
+      - name: SocketOptions
+        fullName: SocketOptions
+        uid: tslib.dgram.SocketOptions

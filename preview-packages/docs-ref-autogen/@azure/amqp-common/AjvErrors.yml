@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.AjvErrors'
+    name: AjvErrors
+    langs:
+      - typeScript
+    fullName: AjvErrors
+    children:
+      - '@azure/ms-rest-azure-env.AjvErrors.MissingRefError'
+      - '@azure/ms-rest-azure-env.AjvErrors.ValidationError'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: Array<@azure/ms-rest-azure-env.ajv.ErrorObject>
+    name: ErrorObject>
+    spec.typeScript:
+      - name: Array<
+        fullName: Array<
+      - name: ErrorObject
+        fullName: ErrorObject
+        uid: '@azure/ms-rest-azure-env.ajv.ErrorObject'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/ms-rest-azure-env.AjvErrors.MissingRefError'
+    name: MissingRefError
+  - uid: '@azure/ms-rest-azure-env.AjvErrors.ValidationError'
+    name: ValidationError

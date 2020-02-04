@@ -1,11 +1,11 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesErrorResult'
+  - uid: '@azure/abort-controller.RecognizeLinkedEntitiesErrorResult'
     name: RecognizeLinkedEntitiesErrorResult
     fullName: RecognizeLinkedEntitiesErrorResult
     children:
-      - '@azure/ai-text-analytics.RecognizeLinkedEntitiesErrorResult.error'
-      - '@azure/ai-text-analytics.RecognizeLinkedEntitiesErrorResult.id'
+      - '@azure/abort-controller.RecognizeLinkedEntitiesErrorResult.error'
+      - '@azure/abort-controller.RecognizeLinkedEntitiesErrorResult.id'
     langs:
       - typeScript
     type: interface
@@ -13,9 +13,9 @@ items:
       An error result from the recognize linked entities operation on a single
       document.
     extends:
-      name: '@azure/ai-text-analytics.TextAnalyticsErrorResult'
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesErrorResult.error'
+      name: '@azure/abort-controller.TextAnalyticsErrorResult'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeLinkedEntitiesErrorResult.error'
     name: error
     fullName: error
     children: []
@@ -27,10 +27,10 @@ items:
       content: 'error: TextAnalyticsError'
       return:
         type:
-          - '@azure/ai-text-analytics.TextAnalyticsError'
+          - '@azure/abort-controller.TextAnalyticsError'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesErrorResult.id'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeLinkedEntitiesErrorResult.id'
     name: id
     fullName: id
     children: []
@@ -44,17 +44,17 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/ai-text-analytics.TextAnalyticsErrorResult'
+  - uid: '@azure/abort-controller.TextAnalyticsErrorResult'
     name: TextAnalyticsErrorResult
     spec.typeScript:
       - name: TextAnalyticsErrorResult
         fullName: TextAnalyticsErrorResult
-        uid: '@azure/ai-text-analytics.TextAnalyticsErrorResult'
-  - uid: '@azure/ai-text-analytics.TextAnalyticsError'
+        uid: '@azure/abort-controller.TextAnalyticsErrorResult'
+  - uid: '@azure/abort-controller.TextAnalyticsError'
     name: TextAnalyticsError
     spec.typeScript:
       - name: TextAnalyticsError
         fullName: TextAnalyticsError
-        uid: '@azure/ai-text-analytics.TextAnalyticsError'
+        uid: '@azure/abort-controller.TextAnalyticsError'

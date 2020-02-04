@@ -1,36 +1,31 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams'
+  - uid: '@azure/abort-controller.FileSystemDeleteMethodOptionalParams'
     name: FileSystemDeleteMethodOptionalParams
     fullName: FileSystemDeleteMethodOptionalParams
     children:
+      - '@azure/abort-controller.FileSystemDeleteMethodOptionalParams.abortSignal'
       - >-
-        @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.abortSignal
+        @azure/abort-controller.FileSystemDeleteMethodOptionalParams.customHeaders
       - >-
-        @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.customHeaders
+        @azure/abort-controller.FileSystemDeleteMethodOptionalParams.modifiedAccessConditions
       - >-
-        @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.modifiedAccessConditions
+        @azure/abort-controller.FileSystemDeleteMethodOptionalParams.onDownloadProgress
       - >-
-        @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.onDownloadProgress
+        @azure/abort-controller.FileSystemDeleteMethodOptionalParams.onUploadProgress
+      - '@azure/abort-controller.FileSystemDeleteMethodOptionalParams.requestId'
+      - '@azure/abort-controller.FileSystemDeleteMethodOptionalParams.spanOptions'
+      - '@azure/abort-controller.FileSystemDeleteMethodOptionalParams.timeout'
       - >-
-        @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.onUploadProgress
-      - >-
-        @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.requestId
-      - >-
-        @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.spanOptions
-      - >-
-        @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.timeout
-      - >-
-        @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.timeoutParameter
+        @azure/abort-controller.FileSystemDeleteMethodOptionalParams.timeoutParameter
     langs:
       - typeScript
     type: interface
     summary: Optional Parameters.
     extends:
-      name: RequestOptionsBase
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.abortSignal
+      name: '@azure/abort-controller.RequestOptionsBase'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemDeleteMethodOptionalParams.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -43,11 +38,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - AbortSignalLike
+          - '@azure/abort-controller.AbortSignalLike'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.customHeaders
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemDeleteMethodOptionalParams.customHeaders'
     name: customHeaders
     fullName: customHeaders
     children: []
@@ -64,9 +58,9 @@ items:
         type:
           - 'undefined | [key: string]: string'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
   - uid: >-
-      @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.modifiedAccessConditions
+      @azure/abort-controller.FileSystemDeleteMethodOptionalParams.modifiedAccessConditions
     name: modifiedAccessConditions
     fullName: modifiedAccessConditions
     children: []
@@ -79,11 +73,11 @@ items:
       content: 'modifiedAccessConditions?: ModifiedAccessConditions'
       return:
         type:
-          - '@azure/storage-file-datalake.ModifiedAccessConditions'
+          - '@azure/abort-controller.ModifiedAccessConditions'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
   - uid: >-
-      @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.onDownloadProgress
+      @azure/abort-controller.FileSystemDeleteMethodOptionalParams.onDownloadProgress
     name: onDownloadProgress
     fullName: onDownloadProgress
     children: []
@@ -100,9 +94,9 @@ items:
         type:
           - 'undefined | (progress: TransferProgressEvent) => void'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
   - uid: >-
-      @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.onUploadProgress
+      @azure/abort-controller.FileSystemDeleteMethodOptionalParams.onUploadProgress
     name: onUploadProgress
     fullName: onUploadProgress
     children: []
@@ -117,9 +111,8 @@ items:
         type:
           - 'undefined | (progress: TransferProgressEvent) => void'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.requestId
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemDeleteMethodOptionalParams.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -138,9 +131,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.spanOptions
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemDeleteMethodOptionalParams.spanOptions'
     name: spanOptions
     fullName: spanOptions
     children: []
@@ -153,10 +145,10 @@ items:
       content: 'spanOptions?: SpanOptions'
       return:
         type:
-          - SpanOptions
+          - '@azure/abort-controller.SpanOptions'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.timeout'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemDeleteMethodOptionalParams.timeout'
     name: timeout
     fullName: timeout
     children: []
@@ -173,9 +165,9 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
   - uid: >-
-      @azure/storage-file-datalake.FileSystemDeleteMethodOptionalParams.timeoutParameter
+      @azure/abort-controller.FileSystemDeleteMethodOptionalParams.timeoutParameter
     name: timeoutParameter
     fullName: timeoutParameter
     children: []
@@ -196,11 +188,29 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.ModifiedAccessConditions'
+  - uid: '@azure/abort-controller.RequestOptionsBase'
+    name: RequestOptionsBase
+    spec.typeScript:
+      - name: RequestOptionsBase
+        fullName: RequestOptionsBase
+        uid: '@azure/abort-controller.RequestOptionsBase'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.ModifiedAccessConditions'
     name: ModifiedAccessConditions
     spec.typeScript:
       - name: ModifiedAccessConditions
         fullName: ModifiedAccessConditions
-        uid: '@azure/storage-file-datalake.ModifiedAccessConditions'
+        uid: '@azure/abort-controller.ModifiedAccessConditions'
+  - uid: '@azure/abort-controller.SpanOptions'
+    name: SpanOptions
+    spec.typeScript:
+      - name: SpanOptions
+        fullName: SpanOptions
+        uid: '@azure/abort-controller.SpanOptions'

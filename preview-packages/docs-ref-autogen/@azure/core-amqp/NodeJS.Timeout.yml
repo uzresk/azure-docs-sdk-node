@@ -1,0 +1,455 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.NodeJS.Timeout
+    name: Timeout
+    fullName: Timeout
+    children:
+      - tslib.NodeJS.Timeout.hasRef
+      - tslib.NodeJS.Timeout.ref
+      - tslib.NodeJS.Timeout.refresh
+      - tslib.NodeJS.Timeout.unref
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: tslib.NodeJS.Timer
+    package: tslib
+  - uid: tslib.NodeJS.Timeout.hasRef
+    name: hasRef()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function hasRef()
+      parameters: []
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Timeout.ref
+    name: ref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function ref()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Timeout.refresh
+    name: refresh()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function refresh()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.NodeJS.Timeout.unref
+    name: unref()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function unref()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.NodeJS.ConsoleConstructorOptions
+    name: ConsoleConstructorOptions
+    spec.typeScript:
+      - name: ConsoleConstructorOptions
+        fullName: ConsoleConstructorOptions
+        uid: tslib.NodeJS.ConsoleConstructorOptions
+  - uid: tslib.NodeJS.InspectOptions
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: tslib.NodeJS.InspectOptions
+  - uid: tslib.NodeJS.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.NodeJS.EventEmitter
+  - uid: tslib.NodeJS.EventEmitter | tslib.NodeJS.Timer
+    name: Timer
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.NodeJS.EventEmitter
+      - name: ' | '
+        fullName: ' | '
+      - name: Timer
+        fullName: Timer
+        uid: tslib.NodeJS.Timer
+  - uid: tslib.NodeJS.Global
+    name: Global
+    spec.typeScript:
+      - name: Global
+        fullName: Global
+        uid: tslib.NodeJS.Global
+  - uid: tslib.NodeJS.Process
+    name: Process
+    spec.typeScript:
+      - name: Process
+        fullName: Process
+        uid: tslib.NodeJS.Process
+  - uid: tslib.NodeJS.RefCounted
+    name: RefCounted
+    spec.typeScript:
+      - name: RefCounted
+        fullName: RefCounted
+        uid: tslib.NodeJS.RefCounted
+  - uid: 'tslib.NodeJS.Module[]'
+    name: 'Module[]'
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: tslib.NodeJS.Module
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.NodeJS.Module | null
+    name: Module | null
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: tslib.NodeJS.Module
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.NodeJS.Require
+    name: Require
+    spec.typeScript:
+      - name: Require
+        fullName: Require
+        uid: tslib.NodeJS.Require
+  - uid: tslib.NodeJS.Domain
+    name: Domain
+    spec.typeScript:
+      - name: Domain
+        fullName: Domain
+        uid: tslib.NodeJS.Domain
+  - uid: tslib.NodeJS.ProcessEnv
+    name: ProcessEnv
+    spec.typeScript:
+      - name: ProcessEnv
+        fullName: ProcessEnv
+        uid: tslib.NodeJS.ProcessEnv
+  - uid: tslib.NodeJS.Module
+    name: Module
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: tslib.NodeJS.Module
+  - uid: tslib.NodeJS.Platform
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: tslib.NodeJS.Platform
+  - uid: tslib.NodeJS.ProcessRelease
+    name: ProcessRelease
+    spec.typeScript:
+      - name: ProcessRelease
+        fullName: ProcessRelease
+        uid: tslib.NodeJS.ProcessRelease
+  - uid: tslib.NodeJS.ProcessReport
+    name: ProcessReport
+    spec.typeScript:
+      - name: ProcessReport
+        fullName: ProcessReport
+        uid: tslib.NodeJS.ProcessReport
+  - uid: tslib.NodeJS.ProcessVersions
+    name: ProcessVersions
+    spec.typeScript:
+      - name: ProcessVersions
+        fullName: ProcessVersions
+        uid: tslib.NodeJS.ProcessVersions
+  - uid: tslib.NodeJS.BeforeExitListener
+    name: BeforeExitListener
+    spec.typeScript:
+      - name: BeforeExitListener
+        fullName: BeforeExitListener
+        uid: tslib.NodeJS.BeforeExitListener
+  - uid: tslib.NodeJS.DisconnectListener
+    name: DisconnectListener
+    spec.typeScript:
+      - name: DisconnectListener
+        fullName: DisconnectListener
+        uid: tslib.NodeJS.DisconnectListener
+  - uid: tslib.NodeJS.ExitListener
+    name: ExitListener
+    spec.typeScript:
+      - name: ExitListener
+        fullName: ExitListener
+        uid: tslib.NodeJS.ExitListener
+  - uid: tslib.NodeJS.RejectionHandledListener
+    name: RejectionHandledListener
+    spec.typeScript:
+      - name: RejectionHandledListener
+        fullName: RejectionHandledListener
+        uid: tslib.NodeJS.RejectionHandledListener
+  - uid: tslib.NodeJS.UncaughtExceptionListener
+    name: UncaughtExceptionListener
+    spec.typeScript:
+      - name: UncaughtExceptionListener
+        fullName: UncaughtExceptionListener
+        uid: tslib.NodeJS.UncaughtExceptionListener
+  - uid: tslib.NodeJS.UnhandledRejectionListener
+    name: UnhandledRejectionListener
+    spec.typeScript:
+      - name: UnhandledRejectionListener
+        fullName: UnhandledRejectionListener
+        uid: tslib.NodeJS.UnhandledRejectionListener
+  - uid: tslib.NodeJS.WarningListener
+    name: WarningListener
+    spec.typeScript:
+      - name: WarningListener
+        fullName: WarningListener
+        uid: tslib.NodeJS.WarningListener
+  - uid: tslib.NodeJS.MessageListener
+    name: MessageListener
+    spec.typeScript:
+      - name: MessageListener
+        fullName: MessageListener
+        uid: tslib.NodeJS.MessageListener
+  - uid: tslib.NodeJS.Signals
+    name: Signals
+    spec.typeScript:
+      - name: Signals
+        fullName: Signals
+        uid: tslib.NodeJS.Signals
+  - uid: tslib.NodeJS.SignalsListener
+    name: SignalsListener
+    spec.typeScript:
+      - name: SignalsListener
+        fullName: SignalsListener
+        uid: tslib.NodeJS.SignalsListener
+  - uid: tslib.NodeJS.NewListenerListener
+    name: NewListenerListener
+    spec.typeScript:
+      - name: NewListenerListener
+        fullName: NewListenerListener
+        uid: tslib.NodeJS.NewListenerListener
+  - uid: tslib.NodeJS.RemoveListenerListener
+    name: RemoveListenerListener
+    spec.typeScript:
+      - name: RemoveListenerListener
+        fullName: RemoveListenerListener
+        uid: tslib.NodeJS.RemoveListenerListener
+  - uid: tslib.NodeJS.MultipleResolveListener
+    name: MultipleResolveListener
+    spec.typeScript:
+      - name: MultipleResolveListener
+        fullName: MultipleResolveListener
+        uid: tslib.NodeJS.MultipleResolveListener
+  - uid: tslib.NodeJS.CpuUsage
+    name: CpuUsage
+    spec.typeScript:
+      - name: CpuUsage
+        fullName: CpuUsage
+        uid: tslib.NodeJS.CpuUsage
+  - uid: tslib.NodeJS.Global.Function
+    name: Function
+    spec.typeScript:
+      - name: Function
+        fullName: Function
+        uid: tslib.NodeJS.Global.Function
+  - uid: 'tslib.NodeJS.BeforeExitListener[]'
+    name: 'BeforeExitListener[]'
+    spec.typeScript:
+      - name: BeforeExitListener
+        fullName: BeforeExitListener
+        uid: tslib.NodeJS.BeforeExitListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.DisconnectListener[]'
+    name: 'DisconnectListener[]'
+    spec.typeScript:
+      - name: DisconnectListener
+        fullName: DisconnectListener
+        uid: tslib.NodeJS.DisconnectListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.ExitListener[]'
+    name: 'ExitListener[]'
+    spec.typeScript:
+      - name: ExitListener
+        fullName: ExitListener
+        uid: tslib.NodeJS.ExitListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.RejectionHandledListener[]'
+    name: 'RejectionHandledListener[]'
+    spec.typeScript:
+      - name: RejectionHandledListener
+        fullName: RejectionHandledListener
+        uid: tslib.NodeJS.RejectionHandledListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.UncaughtExceptionListener[]'
+    name: 'UncaughtExceptionListener[]'
+    spec.typeScript:
+      - name: UncaughtExceptionListener
+        fullName: UncaughtExceptionListener
+        uid: tslib.NodeJS.UncaughtExceptionListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.UnhandledRejectionListener[]'
+    name: 'UnhandledRejectionListener[]'
+    spec.typeScript:
+      - name: UnhandledRejectionListener
+        fullName: UnhandledRejectionListener
+        uid: tslib.NodeJS.UnhandledRejectionListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.WarningListener[]'
+    name: 'WarningListener[]'
+    spec.typeScript:
+      - name: WarningListener
+        fullName: WarningListener
+        uid: tslib.NodeJS.WarningListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.MessageListener[]'
+    name: 'MessageListener[]'
+    spec.typeScript:
+      - name: MessageListener
+        fullName: MessageListener
+        uid: tslib.NodeJS.MessageListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.SignalsListener[]'
+    name: 'SignalsListener[]'
+    spec.typeScript:
+      - name: SignalsListener
+        fullName: SignalsListener
+        uid: tslib.NodeJS.SignalsListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.NewListenerListener[]'
+    name: 'NewListenerListener[]'
+    spec.typeScript:
+      - name: NewListenerListener
+        fullName: NewListenerListener
+        uid: tslib.NodeJS.NewListenerListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.RemoveListenerListener[]'
+    name: 'RemoveListenerListener[]'
+    spec.typeScript:
+      - name: RemoveListenerListener
+        fullName: RemoveListenerListener
+        uid: tslib.NodeJS.RemoveListenerListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: 'tslib.NodeJS.MultipleResolveListener[]'
+    name: 'MultipleResolveListener[]'
+    spec.typeScript:
+      - name: MultipleResolveListener
+        fullName: MultipleResolveListener
+        uid: tslib.NodeJS.MultipleResolveListener
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.NodeJS.MemoryUsage
+    name: MemoryUsage
+    spec.typeScript:
+      - name: MemoryUsage
+        fullName: MemoryUsage
+        uid: tslib.NodeJS.MemoryUsage
+  - uid: tslib.NodeJS.Socket
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.NodeJS.Socket
+  - uid: tslib.NodeJS.ResourceUsage
+    name: ResourceUsage
+    spec.typeScript:
+      - name: ResourceUsage
+        fullName: ResourceUsage
+        uid: tslib.NodeJS.ResourceUsage
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.NodeJS.NodeRequireCache
+    name: NodeRequireCache
+    spec.typeScript:
+      - name: NodeRequireCache
+        fullName: NodeRequireCache
+        uid: tslib.NodeJS.NodeRequireCache
+  - uid: tslib.NodeJS.RequireExtensions
+    name: RequireExtensions
+    spec.typeScript:
+      - name: RequireExtensions
+        fullName: RequireExtensions
+        uid: tslib.NodeJS.RequireExtensions
+  - uid: tslib.NodeJS.Module | undefined
+    name: Module | undefined
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: tslib.NodeJS.Module
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: tslib.NodeJS.RequireResolve
+    name: RequireResolve
+    spec.typeScript:
+      - name: RequireResolve
+        fullName: RequireResolve
+        uid: tslib.NodeJS.RequireResolve
+  - uid: tslib.NodeJS.ReadWriteStream
+    name: ReadWriteStream
+    spec.typeScript:
+      - name: ReadWriteStream
+        fullName: ReadWriteStream
+        uid: tslib.NodeJS.ReadWriteStream
+  - uid: tslib.NodeJS.Timer
+    name: Timer
+    spec.typeScript:
+      - name: Timer
+        fullName: Timer
+        uid: tslib.NodeJS.Timer

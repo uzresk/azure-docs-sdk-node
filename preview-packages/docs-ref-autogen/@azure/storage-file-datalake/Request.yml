@@ -1,0 +1,477 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Request'
+    name: Request
+    fullName: Request
+    children:
+      - '@azure/abort-controller.Request.agent'
+      - '@azure/abort-controller.Request.arrayBuffer'
+      - '@azure/abort-controller.Request.blob'
+      - '@azure/abort-controller.Request.body'
+      - '@azure/abort-controller.Request.bodyUsed'
+      - '@azure/abort-controller.Request.buffer'
+      - '@azure/abort-controller.Request.clone'
+      - '@azure/abort-controller.Request.compress'
+      - '@azure/abort-controller.Request.context'
+      - '@azure/abort-controller.Request.counter'
+      - '@azure/abort-controller.Request.follow'
+      - '@azure/abort-controller.Request.headers'
+      - '@azure/abort-controller.Request.hostname'
+      - '@azure/abort-controller.Request.json'
+      - '@azure/abort-controller.Request.method'
+      - '@azure/abort-controller.Request.port'
+      - '@azure/abort-controller.Request.protocol'
+      - '@azure/abort-controller.Request.redirect'
+      - '@azure/abort-controller.Request.referrer'
+      - '@azure/abort-controller.Request.constructor'
+      - '@azure/abort-controller.Request.size'
+      - '@azure/abort-controller.Request.text'
+      - '@azure/abort-controller.Request.textConverted'
+      - '@azure/abort-controller.Request.timeout'
+      - '@azure/abort-controller.Request.url'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: '@azure/abort-controller.Body'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.agent'
+    name: agent
+    fullName: agent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'agent?: Agent | (parsedUrl: URL) => Agent'
+      return:
+        type:
+          - '@azure/abort-controller.http.Agent | (parsedUrl: URL) => Agent'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.arrayBuffer'
+    name: arrayBuffer()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function arrayBuffer()
+      parameters: []
+      return:
+        type:
+          - Promise<ArrayBuffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.blob'
+    name: blob()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function blob()
+      parameters: []
+      return:
+        type:
+          - Promise<Buffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.body'
+    name: body
+    fullName: body
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'body: ReadableStream'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.ReadableStream'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.bodyUsed'
+    name: bodyUsed
+    fullName: bodyUsed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bodyUsed: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.buffer'
+    name: buffer()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function buffer()
+      parameters: []
+      return:
+        type:
+          - Promise<Buffer>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.clone'
+    name: clone()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function clone()
+      parameters: []
+      return:
+        type:
+          - '@azure/abort-controller.Request'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.compress'
+    name: compress
+    fullName: compress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'compress: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.context'
+    name: context
+    fullName: context
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'context: RequestContext'
+      return:
+        type:
+          - '@azure/abort-controller.RequestContext'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.counter'
+    name: counter
+    fullName: counter
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'counter: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.follow'
+    name: follow
+    fullName: follow
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'follow: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'headers: Headers'
+      return:
+        type:
+          - '@azure/abort-controller.Headers'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.hostname'
+    name: hostname
+    fullName: hostname
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'hostname: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.json'
+    name: json()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function json()
+      parameters: []
+      return:
+        type:
+          - Promise<any>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.method'
+    name: method
+    fullName: method
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'method: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.port'
+    name: port
+    fullName: port
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'port?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.protocol'
+    name: protocol
+    fullName: protocol
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'protocol: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.redirect'
+    name: redirect
+    fullName: redirect
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'redirect: RequestRedirect'
+      return:
+        type:
+          - '@azure/abort-controller.RequestRedirect'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.referrer'
+    name: referrer
+    fullName: referrer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'referrer: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.constructor'
+    name: 'Request(RequestInfo, RequestInit)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Request(input: RequestInfo, init?: RequestInit)'
+      parameters:
+        - id: input
+          type:
+            - '@azure/abort-controller.RequestInfo'
+          description: ''
+        - id: init
+          type:
+            - '@azure/abort-controller.RequestInit'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.text'
+    name: text()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function text()
+      parameters: []
+      return:
+        type:
+          - Promise<string>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.textConverted'
+    name: textConverted()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function textConverted()
+      parameters: []
+      return:
+        type:
+          - Promise<string>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.timeout'
+    name: timeout
+    fullName: timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'timeout: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Request.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'url: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Body'
+    name: Body
+    spec.typeScript:
+      - name: Body
+        fullName: Body
+        uid: '@azure/abort-controller.Body'
+  - uid: '@azure/abort-controller.RequestInfo'
+    name: RequestInfo
+    spec.typeScript:
+      - name: RequestInfo
+        fullName: RequestInfo
+        uid: '@azure/abort-controller.RequestInfo'
+  - uid: '@azure/abort-controller.RequestInit'
+    name: RequestInit
+    spec.typeScript:
+      - name: RequestInit
+        fullName: RequestInit
+        uid: '@azure/abort-controller.RequestInit'
+  - uid: '@azure/abort-controller.http.Agent | (parsedUrl: URL) => Agent'
+    name: 'Agent | (parsedUrl: URL) => Agent'
+    spec.typeScript:
+      - name: Agent
+        fullName: Agent
+        uid: '@azure/abort-controller.http.Agent'
+      - name: ' | (parsedUrl: URL) => Agent'
+        fullName: ' | (parsedUrl: URL) => Agent'
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+  - uid: '@azure/abort-controller.RequestContext'
+    name: RequestContext
+    spec.typeScript:
+      - name: RequestContext
+        fullName: RequestContext
+        uid: '@azure/abort-controller.RequestContext'
+  - uid: '@azure/abort-controller.Headers'
+    name: Headers
+    spec.typeScript:
+      - name: Headers
+        fullName: Headers
+        uid: '@azure/abort-controller.Headers'
+  - uid: '@azure/abort-controller.RequestRedirect'
+    name: RequestRedirect
+    spec.typeScript:
+      - name: RequestRedirect
+        fullName: RequestRedirect
+        uid: '@azure/abort-controller.RequestRedirect'
+  - uid: '@azure/abort-controller.Request'
+    name: Request
+    spec.typeScript:
+      - name: Request
+        fullName: Request
+        uid: '@azure/abort-controller.Request'

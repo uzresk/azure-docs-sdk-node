@@ -1,0 +1,34 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.fetch'
+    name: fetch
+    langs:
+      - typeScript
+    fullName: fetch
+    children:
+      - '@azure/abort-controller.fetch.isRedirect'
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.fetch.isRedirect'
+    name: isRedirect(number)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isRedirect(code: number)'
+      parameters:
+        - id: code
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.fetch.isRedirect'
+    name: isRedirect

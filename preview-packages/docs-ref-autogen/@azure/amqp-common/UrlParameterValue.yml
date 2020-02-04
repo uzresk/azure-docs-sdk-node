@@ -1,0 +1,43 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.UrlParameterValue'
+    name: UrlParameterValue
+    fullName: UrlParameterValue
+    children:
+      - '@azure/ms-rest-azure-env.UrlParameterValue.skipUrlEncoding'
+      - '@azure/ms-rest-azure-env.UrlParameterValue.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.UrlParameterValue.skipUrlEncoding'
+    name: skipUrlEncoding
+    fullName: skipUrlEncoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'skipUrlEncoding: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.UrlParameterValue.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'value: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'

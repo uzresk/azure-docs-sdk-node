@@ -1,0 +1,162 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.v8.HeapInfo'
+    name: HeapInfo
+    fullName: HeapInfo
+    children:
+      - '@azure/ms-rest-azure-env.v8.HeapInfo.does_zap_garbage'
+      - '@azure/ms-rest-azure-env.v8.HeapInfo.heap_size_limit'
+      - '@azure/ms-rest-azure-env.v8.HeapInfo.malloced_memory'
+      - '@azure/ms-rest-azure-env.v8.HeapInfo.peak_malloced_memory'
+      - '@azure/ms-rest-azure-env.v8.HeapInfo.total_available_size'
+      - '@azure/ms-rest-azure-env.v8.HeapInfo.total_heap_size'
+      - '@azure/ms-rest-azure-env.v8.HeapInfo.total_heap_size_executable'
+      - '@azure/ms-rest-azure-env.v8.HeapInfo.total_physical_size'
+      - '@azure/ms-rest-azure-env.v8.HeapInfo.used_heap_size'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.HeapInfo.does_zap_garbage'
+    name: does_zap_garbage
+    fullName: does_zap_garbage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'does_zap_garbage: DoesZapCodeSpaceFlag'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.v8.DoesZapCodeSpaceFlag'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.HeapInfo.heap_size_limit'
+    name: heap_size_limit
+    fullName: heap_size_limit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'heap_size_limit: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.HeapInfo.malloced_memory'
+    name: malloced_memory
+    fullName: malloced_memory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'malloced_memory: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.HeapInfo.peak_malloced_memory'
+    name: peak_malloced_memory
+    fullName: peak_malloced_memory
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'peak_malloced_memory: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.HeapInfo.total_available_size'
+    name: total_available_size
+    fullName: total_available_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'total_available_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.HeapInfo.total_heap_size'
+    name: total_heap_size
+    fullName: total_heap_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'total_heap_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.HeapInfo.total_heap_size_executable'
+    name: total_heap_size_executable
+    fullName: total_heap_size_executable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'total_heap_size_executable: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.HeapInfo.total_physical_size'
+    name: total_physical_size
+    fullName: total_physical_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'total_physical_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.v8.HeapInfo.used_heap_size'
+    name: used_heap_size
+    fullName: used_heap_size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'used_heap_size: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.v8.DoesZapCodeSpaceFlag'
+    name: DoesZapCodeSpaceFlag
+    spec.typeScript:
+      - name: DoesZapCodeSpaceFlag
+        fullName: DoesZapCodeSpaceFlag
+        uid: '@azure/ms-rest-azure-env.v8.DoesZapCodeSpaceFlag'

@@ -1,0 +1,1627 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.readline.Interface
+    name: Interface
+    fullName: Interface
+    children:
+      - tslib.readline.Interface.addListener_1
+      - tslib.readline.Interface.addListener_2
+      - tslib.readline.Interface.addListener_3
+      - tslib.readline.Interface.addListener_4
+      - tslib.readline.Interface.addListener_5
+      - tslib.readline.Interface.addListener_6
+      - tslib.readline.Interface.addListener_7
+      - tslib.readline.Interface.addListener
+      - tslib.readline.Interface.close
+      - tslib.readline.Interface.cursor
+      - tslib.readline.Interface.defaultMaxListeners
+      - tslib.readline.Interface.emit_1
+      - tslib.readline.Interface.emit_2
+      - tslib.readline.Interface.emit_3
+      - tslib.readline.Interface.emit_4
+      - tslib.readline.Interface.emit_5
+      - tslib.readline.Interface.emit_6
+      - tslib.readline.Interface.emit_7
+      - tslib.readline.Interface.emit
+      - tslib.readline.Interface.eventNames
+      - tslib.readline.Interface.getCursorPos
+      - tslib.readline.Interface.getMaxListeners
+      - tslib.readline.Interface.line
+      - tslib.readline.Interface.listenerCount
+      - tslib.readline.Interface.listenerCount
+      - tslib.readline.Interface.listeners
+      - tslib.readline.Interface.off
+      - tslib.readline.Interface.on_1
+      - tslib.readline.Interface.on_2
+      - tslib.readline.Interface.on_3
+      - tslib.readline.Interface.on_4
+      - tslib.readline.Interface.on_5
+      - tslib.readline.Interface.on_6
+      - tslib.readline.Interface.on_7
+      - tslib.readline.Interface.on
+      - tslib.readline.Interface.once_1
+      - tslib.readline.Interface.once_2
+      - tslib.readline.Interface.once_3
+      - tslib.readline.Interface.once_4
+      - tslib.readline.Interface.once_5
+      - tslib.readline.Interface.once_6
+      - tslib.readline.Interface.once_7
+      - tslib.readline.Interface.once
+      - tslib.readline.Interface.pause
+      - tslib.readline.Interface.prependListener_1
+      - tslib.readline.Interface.prependListener_2
+      - tslib.readline.Interface.prependListener_3
+      - tslib.readline.Interface.prependListener_4
+      - tslib.readline.Interface.prependListener_5
+      - tslib.readline.Interface.prependListener_6
+      - tslib.readline.Interface.prependListener_7
+      - tslib.readline.Interface.prependListener
+      - tslib.readline.Interface.prependOnceListener_1
+      - tslib.readline.Interface.prependOnceListener_2
+      - tslib.readline.Interface.prependOnceListener_3
+      - tslib.readline.Interface.prependOnceListener_4
+      - tslib.readline.Interface.prependOnceListener_5
+      - tslib.readline.Interface.prependOnceListener_6
+      - tslib.readline.Interface.prependOnceListener_7
+      - tslib.readline.Interface.prependOnceListener
+      - tslib.readline.Interface.prompt
+      - tslib.readline.Interface.question
+      - tslib.readline.Interface.rawListeners
+      - tslib.readline.Interface.removeAllListeners
+      - tslib.readline.Interface.removeListener
+      - tslib.readline.Interface.resume
+      - tslib.readline.Interface.setMaxListeners
+      - tslib.readline.Interface.setPrompt
+      - tslib.readline.Interface.terminal
+      - tslib.readline.Interface.write
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: tslib.events.EventEmitter.EventEmitter
+    package: tslib
+  - uid: tslib.readline.Interface.addListener_1
+    name: 'addListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.addListener_2
+    name: 'addListener("line", (input: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "line", listener: (input: string) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"line"'
+          description: ''
+        - id: listener
+          type:
+            - '(input: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.addListener_3
+    name: 'addListener("pause", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "pause", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pause"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.addListener_4
+    name: 'addListener("resume", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "resume", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"resume"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.addListener_5
+    name: 'addListener("SIGCONT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "SIGCONT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGCONT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.addListener_6
+    name: 'addListener("SIGINT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "SIGINT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGINT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.addListener_7
+    name: 'addListener("SIGTSTP", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "SIGTSTP", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGTSTP"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.addListener
+    name: 'addListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      events.EventEmitter
+      1. close
+      2. line
+      3. pause
+      4. resume
+      5. SIGCONT
+      6. SIGINT
+      7. SIGTSTP
+    syntax:
+      content: 'function addListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.close
+    name: close()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function close()
+      parameters: []
+    package: tslib
+  - uid: tslib.readline.Interface.cursor
+    name: cursor
+    fullName: cursor
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The current cursor position in the input line
+    syntax:
+      content: 'cursor: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.defaultMaxListeners
+    name: defaultMaxListeners
+    fullName: defaultMaxListeners
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'static defaultMaxListeners: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.emit_1
+    name: emit("close")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "close")'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.emit_2
+    name: 'emit("line", string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "line", input: string)'
+      parameters:
+        - id: event
+          type:
+            - '"line"'
+          description: ''
+        - id: input
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.emit_3
+    name: emit("pause")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "pause")'
+      parameters:
+        - id: event
+          type:
+            - '"pause"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.emit_4
+    name: emit("resume")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "resume")'
+      parameters:
+        - id: event
+          type:
+            - '"resume"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.emit_5
+    name: emit("SIGCONT")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "SIGCONT")'
+      parameters:
+        - id: event
+          type:
+            - '"SIGCONT"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.emit_6
+    name: emit("SIGINT")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "SIGINT")'
+      parameters:
+        - id: event
+          type:
+            - '"SIGINT"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.emit_7
+    name: emit("SIGTSTP")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "SIGTSTP")'
+      parameters:
+        - id: event
+          type:
+            - '"SIGTSTP"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.emit
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.eventNames
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.getCursorPos
+    name: getCursorPos()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Returns the real position of the cursor in relation to the input
+      prompt + string.  Long input (wrapping) strings, as well as multiple
+      line prompts are included in the calculations.
+    syntax:
+      content: function getCursorPos()
+      parameters: []
+      return:
+        type:
+          - tslib.readline.CursorPos
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.getMaxListeners
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.line
+    name: line
+    fullName: line
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The current input data
+    syntax:
+      content: 'line: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.listenerCount
+    name: 'listenerCount(EventEmitter, string | symbol)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        static function listenerCount(emitter: EventEmitter, event: string |
+        symbol)
+      parameters:
+        - id: emitter
+          type:
+            - tslib.events.EventEmitter.EventEmitter
+          description: ''
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+    deprecated:
+      content: since v4.0.0
+  - uid: tslib.readline.Interface.listenerCount
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.listeners
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.off
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.on_1
+    name: 'on("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.on_2
+    name: 'on("line", (input: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "line", listener: (input: string) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"line"'
+          description: ''
+        - id: listener
+          type:
+            - '(input: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.on_3
+    name: 'on("pause", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "pause", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pause"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.on_4
+    name: 'on("resume", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "resume", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"resume"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.on_5
+    name: 'on("SIGCONT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "SIGCONT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGCONT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.on_6
+    name: 'on("SIGINT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "SIGINT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGINT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.on_7
+    name: 'on("SIGTSTP", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "SIGTSTP", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGTSTP"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.on
+    name: 'on(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.once_1
+    name: 'once("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.once_2
+    name: 'once("line", (input: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "line", listener: (input: string) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"line"'
+          description: ''
+        - id: listener
+          type:
+            - '(input: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.once_3
+    name: 'once("pause", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "pause", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pause"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.once_4
+    name: 'once("resume", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "resume", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"resume"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.once_5
+    name: 'once("SIGCONT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "SIGCONT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGCONT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.once_6
+    name: 'once("SIGINT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "SIGINT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGINT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.once_7
+    name: 'once("SIGTSTP", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "SIGTSTP", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGTSTP"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.once
+    name: 'once(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.pause
+    name: pause()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function pause()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependListener_1
+    name: 'prependListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependListener_2
+    name: 'prependListener("line", (input: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "line", listener: (input: string) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"line"'
+          description: ''
+        - id: listener
+          type:
+            - '(input: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependListener_3
+    name: 'prependListener("pause", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "pause", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pause"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependListener_4
+    name: 'prependListener("resume", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "resume", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"resume"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependListener_5
+    name: 'prependListener("SIGCONT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "SIGCONT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGCONT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependListener_6
+    name: 'prependListener("SIGINT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "SIGINT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGINT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependListener_7
+    name: 'prependListener("SIGTSTP", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "SIGTSTP", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGTSTP"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependListener
+    name: 'prependListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: string, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependOnceListener_1
+    name: 'prependOnceListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependOnceListener_2
+    name: 'prependOnceListener("line", (input: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "line", listener: (input: string) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"line"'
+          description: ''
+        - id: listener
+          type:
+            - '(input: string) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependOnceListener_3
+    name: 'prependOnceListener("pause", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "pause", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pause"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependOnceListener_4
+    name: 'prependOnceListener("resume", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "resume", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"resume"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependOnceListener_5
+    name: 'prependOnceListener("SIGCONT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "SIGCONT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGCONT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependOnceListener_6
+    name: 'prependOnceListener("SIGINT", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "SIGINT", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGINT"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependOnceListener_7
+    name: 'prependOnceListener("SIGTSTP", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "SIGTSTP", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"SIGTSTP"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prependOnceListener
+    name: 'prependOnceListener(string, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.prompt
+    name: prompt(undefined | false | true)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prompt(preserveCursor?: undefined | false | true)'
+      parameters:
+        - id: preserveCursor
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.readline.Interface.question
+    name: 'question(string, (answer: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function question(query: string, callback: (answer: string) => void)'
+      parameters:
+        - id: query
+          type:
+            - string
+          description: ''
+        - id: callback
+          type:
+            - '(answer: string) => void'
+          description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.rawListeners
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.removeAllListeners
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.removeListener
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.resume
+    name: resume()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function resume()
+      parameters: []
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.setMaxListeners
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.setPrompt
+    name: setPrompt(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setPrompt(prompt: string)'
+      parameters:
+        - id: prompt
+          type:
+            - string
+          description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.terminal
+    name: terminal
+    fullName: terminal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'terminal: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.readline.Interface.write
+    name: 'write(string | Buffer, Key)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function write(data: string | Buffer, key?: Key)'
+      parameters:
+        - id: data
+          type:
+            - string | Buffer
+          description: ''
+        - id: key
+          type:
+            - tslib.readline.Key
+          description: ''
+          optional: true
+    package: tslib
+references:
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.readline.CursorPos
+    name: CursorPos
+    spec.typeScript:
+      - name: CursorPos
+        fullName: CursorPos
+        uid: tslib.readline.CursorPos
+  - uid: tslib.readline.Key
+    name: Key
+    spec.typeScript:
+      - name: Key
+        fullName: Key
+        uid: tslib.readline.Key
+  - uid: tslib.readline.Completer | tslib.readline.AsyncCompleter
+    name: AsyncCompleter
+    spec.typeScript:
+      - name: Completer
+        fullName: Completer
+        uid: tslib.readline.Completer
+      - name: ' | '
+        fullName: ' | '
+      - name: AsyncCompleter
+        fullName: AsyncCompleter
+        uid: tslib.readline.AsyncCompleter
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.readline.Direction
+    name: Direction
+    spec.typeScript:
+      - name: Direction
+        fullName: Direction
+        uid: tslib.readline.Direction
+  - uid: tslib.readline.Interface
+    name: Interface
+    spec.typeScript:
+      - name: Interface
+        fullName: Interface
+        uid: tslib.readline.Interface
+  - uid: tslib.readline.ReadLineOptions
+    name: ReadLineOptions
+    spec.typeScript:
+      - name: ReadLineOptions
+        fullName: ReadLineOptions
+        uid: tslib.readline.ReadLineOptions

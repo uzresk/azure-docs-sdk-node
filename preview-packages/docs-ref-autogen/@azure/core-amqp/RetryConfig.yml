@@ -1,23 +1,23 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.RetryConfig'
+  - uid: tslib.RetryConfig
     name: RetryConfig
     fullName: RetryConfig<T>
     children:
-      - '@azure/core-amqp.RetryConfig.abortSignal'
-      - '@azure/core-amqp.RetryConfig.connectionHost'
-      - '@azure/core-amqp.RetryConfig.connectionId'
-      - '@azure/core-amqp.RetryConfig.operation'
-      - '@azure/core-amqp.RetryConfig.operationType'
-      - '@azure/core-amqp.RetryConfig.retryOptions'
+      - tslib.RetryConfig.abortSignal
+      - tslib.RetryConfig.connectionHost
+      - tslib.RetryConfig.connectionId
+      - tslib.RetryConfig.operation
+      - tslib.RetryConfig.operationType
+      - tslib.RetryConfig.retryOptions
     langs:
       - typeScript
     type: interface
     summary: >-
       Describes the parameters that need to be configured for the retry
       operation.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.RetryConfig.abortSignal'
+    package: tslib
+  - uid: tslib.RetryConfig.abortSignal
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -37,10 +37,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - AbortSignalLike
+          - tslib.AbortSignalLike
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.RetryConfig.connectionHost'
+    package: tslib
+  - uid: tslib.RetryConfig.connectionHost
     name: connectionHost
     fullName: connectionHost
     children: []
@@ -57,8 +57,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.RetryConfig.connectionId'
+    package: tslib
+  - uid: tslib.RetryConfig.connectionId
     name: connectionId
     fullName: connectionId
     children: []
@@ -76,8 +76,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.RetryConfig.operation'
+    package: tslib
+  - uid: tslib.RetryConfig.operation
     name: operation
     fullName: operation
     children: []
@@ -91,8 +91,8 @@ items:
         type:
           - () => Promise<T>
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.RetryConfig.operationType'
+    package: tslib
+  - uid: tslib.RetryConfig.operationType
     name: operationType
     fullName: operationType
     children: []
@@ -108,10 +108,10 @@ items:
       content: 'operationType: RetryOperationType'
       return:
         type:
-          - '@azure/core-amqp.RetryOperationType'
+          - tslib.RetryOperationType
         description: ''
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.RetryConfig.retryOptions'
+    package: tslib
+  - uid: tslib.RetryConfig.retryOptions
     name: retryOptions
     fullName: retryOptions
     children: []
@@ -126,19 +126,25 @@ items:
       content: 'retryOptions?: RetryOptions'
       return:
         type:
-          - '@azure/core-amqp.RetryOptions'
+          - tslib.RetryOptions
         description: ''
-    package: '@azure/core-amqp'
+    package: tslib
 references:
-  - uid: '@azure/core-amqp.RetryOperationType'
+  - uid: tslib.AbortSignalLike
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: tslib.AbortSignalLike
+  - uid: tslib.RetryOperationType
     name: RetryOperationType
     spec.typeScript:
       - name: RetryOperationType
         fullName: RetryOperationType
-        uid: '@azure/core-amqp.RetryOperationType'
-  - uid: '@azure/core-amqp.RetryOptions'
+        uid: tslib.RetryOperationType
+  - uid: tslib.RetryOptions
     name: RetryOptions
     spec.typeScript:
       - name: RetryOptions
         fullName: RetryOptions
-        uid: '@azure/core-amqp.RetryOptions'
+        uid: tslib.RetryOptions

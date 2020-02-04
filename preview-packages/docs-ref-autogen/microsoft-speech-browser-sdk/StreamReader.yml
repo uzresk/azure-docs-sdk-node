@@ -15,19 +15,15 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.StreamReader.Close
-    name: Close
-    fullName: Close
+    name: Close()
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Close: () => void'
-      return:
-        type:
-          - () => void
-        description: ''
+      content: function Close()
+      parameters: []
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.StreamReader.IsClosed
     name: IsClosed
@@ -38,25 +34,26 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'IsClosed: boolean'
+      content: boolean IsClosed
       return:
         type:
           - boolean
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.StreamReader.Read
-    name: Read
-    fullName: Read
+    name: Read()
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Read: () => Promise<IStreamChunk<TBuffer>>'
+      content: function Read()
+      parameters: []
       return:
         type:
-          - () => Promise<IStreamChunk<TBuffer>>
+          - >-
+            microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.IStreamChunk<TBuffer>>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.StreamReader.StreamId
@@ -68,7 +65,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'StreamId: string'
+      content: string StreamId
       return:
         type:
           - string
@@ -108,6 +105,20 @@ references:
       - name: Queue
         fullName: Queue
         uid: microsoft-speech-browser-sdk.Queue
+      - name: <
+        fullName: <
+      - name: IStreamChunk
+        fullName: IStreamChunk
+        uid: microsoft-speech-browser-sdk.IStreamChunk
+      - name: <TBuffer>>
+        fullName: <TBuffer>>
+  - uid: >-
+      microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.IStreamChunk<TBuffer>>
+    name: IStreamChunk<TBuffer>>
+    spec.typeScript:
+      - name: Promise
+        fullName: Promise
+        uid: microsoft-speech-browser-sdk.Promise
       - name: <
         fullName: <
       - name: IStreamChunk

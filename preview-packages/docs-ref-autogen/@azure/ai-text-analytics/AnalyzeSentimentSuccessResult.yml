@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult'
+  - uid: '@azure/abort-controller.AnalyzeSentimentSuccessResult'
     name: AnalyzeSentimentSuccessResult
     fullName: AnalyzeSentimentSuccessResult
     children:
-      - '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.documentScores'
-      - '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.id'
-      - '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.sentences'
-      - '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.sentiment'
-      - '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.statistics'
+      - '@azure/abort-controller.AnalyzeSentimentSuccessResult.documentScores'
+      - '@azure/abort-controller.AnalyzeSentimentSuccessResult.id'
+      - '@azure/abort-controller.AnalyzeSentimentSuccessResult.sentences'
+      - '@azure/abort-controller.AnalyzeSentimentSuccessResult.sentiment'
+      - '@azure/abort-controller.AnalyzeSentimentSuccessResult.statistics'
     langs:
       - typeScript
     type: interface
@@ -16,9 +16,9 @@ items:
       The result of the analyze sentiment operation on a single document,
        containing the predicted sentiment for each sentence as well as for the full document.
     extends:
-      name: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.documentScores'
+      name: '@azure/abort-controller.TextAnalyticsSuccessResult'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentSuccessResult.documentScores'
     name: documentScores
     fullName: documentScores
     children: []
@@ -32,10 +32,10 @@ items:
       content: 'documentScores: SentimentConfidenceScorePerLabel'
       return:
         type:
-          - '@azure/ai-text-analytics.SentimentConfidenceScorePerLabel'
+          - '@azure/abort-controller.SentimentConfidenceScorePerLabel'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.id'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentSuccessResult.id'
     name: id
     fullName: id
     children: []
@@ -49,8 +49,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.sentences'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentSuccessResult.sentences'
     name: sentences
     fullName: sentences
     children: []
@@ -62,10 +62,10 @@ items:
       content: 'sentences: SentenceSentiment[]'
       return:
         type:
-          - '@azure/ai-text-analytics.SentenceSentiment[]'
+          - '@azure/abort-controller.SentenceSentiment[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.sentiment'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentSuccessResult.sentiment'
     name: sentiment
     fullName: sentiment
     children: []
@@ -79,10 +79,10 @@ items:
       content: 'sentiment: DocumentSentimentValue'
       return:
         type:
-          - '@azure/ai-text-analytics.DocumentSentimentValue'
+          - '@azure/abort-controller.DocumentSentimentValue'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.statistics'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.AnalyzeSentimentSuccessResult.statistics'
     name: statistics
     fullName: statistics
     children: []
@@ -101,39 +101,39 @@ items:
       content: 'statistics?: TextDocumentStatistics'
       return:
         type:
-          - '@azure/ai-text-analytics.TextDocumentStatistics'
+          - '@azure/abort-controller.TextDocumentStatistics'
         description: ''
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
+  - uid: '@azure/abort-controller.TextAnalyticsSuccessResult'
     name: TextAnalyticsSuccessResult
     spec.typeScript:
       - name: TextAnalyticsSuccessResult
         fullName: TextAnalyticsSuccessResult
-        uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
-  - uid: '@azure/ai-text-analytics.SentimentConfidenceScorePerLabel'
+        uid: '@azure/abort-controller.TextAnalyticsSuccessResult'
+  - uid: '@azure/abort-controller.SentimentConfidenceScorePerLabel'
     name: SentimentConfidenceScorePerLabel
     spec.typeScript:
       - name: SentimentConfidenceScorePerLabel
         fullName: SentimentConfidenceScorePerLabel
-        uid: '@azure/ai-text-analytics.SentimentConfidenceScorePerLabel'
-  - uid: '@azure/ai-text-analytics.SentenceSentiment[]'
+        uid: '@azure/abort-controller.SentimentConfidenceScorePerLabel'
+  - uid: '@azure/abort-controller.SentenceSentiment[]'
     name: 'SentenceSentiment[]'
     spec.typeScript:
       - name: SentenceSentiment
         fullName: SentenceSentiment
-        uid: '@azure/ai-text-analytics.SentenceSentiment'
+        uid: '@azure/abort-controller.SentenceSentiment'
       - name: '[]'
         fullName: '[]'
-  - uid: '@azure/ai-text-analytics.DocumentSentimentValue'
+  - uid: '@azure/abort-controller.DocumentSentimentValue'
     name: DocumentSentimentValue
     spec.typeScript:
       - name: DocumentSentimentValue
         fullName: DocumentSentimentValue
-        uid: '@azure/ai-text-analytics.DocumentSentimentValue'
-  - uid: '@azure/ai-text-analytics.TextDocumentStatistics'
+        uid: '@azure/abort-controller.DocumentSentimentValue'
+  - uid: '@azure/abort-controller.TextDocumentStatistics'
     name: TextDocumentStatistics
     spec.typeScript:
       - name: TextDocumentStatistics
         fullName: TextDocumentStatistics
-        uid: '@azure/ai-text-analytics.TextDocumentStatistics'
+        uid: '@azure/abort-controller.TextDocumentStatistics'

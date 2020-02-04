@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.Window
+    name: Window
+    fullName: Window
+    children:
+      - tslib.Window.navigator
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.Window.navigator
+    name: navigator
+    fullName: navigator
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'navigator: Navigator'
+      return:
+        type:
+          - Navigator
+        description: ''
+    package: tslib

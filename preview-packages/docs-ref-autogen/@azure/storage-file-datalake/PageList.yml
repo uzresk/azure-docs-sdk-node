@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.PageList'
+    name: PageList
+    fullName: PageList
+    children:
+      - '@azure/abort-controller.PageList.clearRange'
+      - '@azure/abort-controller.PageList.pageRange'
+    langs:
+      - typeScript
+    type: interface
+    summary: the list of pages
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageList.clearRange'
+    name: clearRange
+    fullName: clearRange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'clearRange?: ClearRange[]'
+      return:
+        type:
+          - '@azure/abort-controller.ClearRange[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageList.pageRange'
+    name: pageRange
+    fullName: pageRange
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'pageRange?: PageRange[]'
+      return:
+        type:
+          - '@azure/abort-controller.PageRange[]'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.ClearRange[]'
+    name: 'ClearRange[]'
+    spec.typeScript:
+      - name: ClearRange
+        fullName: ClearRange
+        uid: '@azure/abort-controller.ClearRange'
+      - name: '[]'
+        fullName: '[]'
+  - uid: '@azure/abort-controller.PageRange[]'
+    name: 'PageRange[]'
+    spec.typeScript:
+      - name: PageRange
+        fullName: PageRange
+        uid: '@azure/abort-controller.PageRange'
+      - name: '[]'
+        fullName: '[]'

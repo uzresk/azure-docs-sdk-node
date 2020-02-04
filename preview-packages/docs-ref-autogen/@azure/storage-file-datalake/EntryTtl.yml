@@ -1,0 +1,37 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.EntryTtl'
+    name: EntryTtl
+    fullName: EntryTtl
+    children:
+      - '@azure/abort-controller.EntryTtl.UNLIMITED_PROPAGATION'
+      - '@azure/abort-controller.EntryTtl.NO_PROPAGATION'
+    langs:
+      - typeScript
+    type: enum
+    summary: >
+      EntryTtl is an integer that represents number of hops an entry can
+      propagate.
+
+      For now, ONLY special values (0 and -1) are supported.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EntryTtl.UNLIMITED_PROPAGATION'
+    name: UNLIMITED_PROPAGATION
+    children: []
+    langs:
+      - typeScript
+    summary: UNLIMITED_PROPAGATION can propagate unlimited hops.
+    type: field
+    numericValue: -1
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.EntryTtl.NO_PROPAGATION'
+    name: NO_PROPAGATION
+    children: []
+    langs:
+      - typeScript
+    summary: |-
+      NO_PROPAGATION is considered to have local scope and is used within the
+      process it created.
+    type: field
+    numericValue: 0
+    package: '@azure/abort-controller'

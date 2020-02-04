@@ -1,0 +1,36 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.DeserializationOptions'
+    name: DeserializationOptions
+    fullName: DeserializationOptions
+    children:
+      - '@azure/abort-controller.DeserializationOptions.expectedContentTypes'
+    langs:
+      - typeScript
+    type: interface
+    summary: Options to configure API response deserialization.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DeserializationOptions.expectedContentTypes'
+    name: expectedContentTypes
+    fullName: expectedContentTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Configures the expected content types for the deserialization of
+      JSON and XML response bodies.
+    syntax:
+      content: 'expectedContentTypes: DeserializationContentTypes'
+      return:
+        type:
+          - '@azure/abort-controller.DeserializationContentTypes'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.DeserializationContentTypes'
+    name: DeserializationContentTypes
+    spec.typeScript:
+      - name: DeserializationContentTypes
+        fullName: DeserializationContentTypes
+        uid: '@azure/abort-controller.DeserializationContentTypes'

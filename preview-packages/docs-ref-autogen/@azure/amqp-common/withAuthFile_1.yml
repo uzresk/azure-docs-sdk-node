@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.withAuthFile_1'
+    name: withAuthFile(LoginWithAuthFileOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function withAuthFile(options: LoginWithAuthFileOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.LoginWithAuthFileOptions'
+          description: ''
+      return:
+        type:
+          - Promise<@azure/ms-rest-azure-env.TokenCredentialsBase>
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.LoginWithAuthFileOptions'
+    name: LoginWithAuthFileOptions
+    spec.typeScript:
+      - name: LoginWithAuthFileOptions
+        fullName: LoginWithAuthFileOptions
+        uid: '@azure/ms-rest-azure-env.LoginWithAuthFileOptions'
+  - uid: Promise<@azure/ms-rest-azure-env.TokenCredentialsBase>
+    name: TokenCredentialsBase>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: TokenCredentialsBase
+        fullName: TokenCredentialsBase
+        uid: '@azure/ms-rest-azure-env.TokenCredentialsBase'
+      - name: '>'
+        fullName: '>'

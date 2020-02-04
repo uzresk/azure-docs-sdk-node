@@ -1,23 +1,23 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.SasTokenProvider'
+  - uid: '@azure/ms-rest-azure-env.SasTokenProvider'
     name: SasTokenProvider
     fullName: SasTokenProvider
     children:
-      - '@azure/amqp-common.SasTokenProvider.fromConnectionString'
-      - '@azure/amqp-common.SasTokenProvider.getToken'
-      - '@azure/amqp-common.SasTokenProvider.key'
-      - '@azure/amqp-common.SasTokenProvider.keyName'
-      - '@azure/amqp-common.SasTokenProvider.namespace'
-      - '@azure/amqp-common.SasTokenProvider.constructor'
-      - '@azure/amqp-common.SasTokenProvider.tokenRenewalMarginInSeconds'
-      - '@azure/amqp-common.SasTokenProvider.tokenValidTimeInSeconds'
+      - '@azure/ms-rest-azure-env.SasTokenProvider.fromConnectionString'
+      - '@azure/ms-rest-azure-env.SasTokenProvider.getToken'
+      - '@azure/ms-rest-azure-env.SasTokenProvider.key'
+      - '@azure/ms-rest-azure-env.SasTokenProvider.keyName'
+      - '@azure/ms-rest-azure-env.SasTokenProvider.namespace'
+      - '@azure/ms-rest-azure-env.SasTokenProvider.constructor'
+      - '@azure/ms-rest-azure-env.SasTokenProvider.tokenRenewalMarginInSeconds'
+      - '@azure/ms-rest-azure-env.SasTokenProvider.tokenValidTimeInSeconds'
     langs:
       - typeScript
     type: class
     summary: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SasTokenProvider.fromConnectionString'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SasTokenProvider.fromConnectionString'
     name: fromConnectionString(string)
     children: []
     type: method
@@ -34,10 +34,10 @@ items:
             The EventHub/ServiceBus connection string
       return:
         type:
-          - '@azure/amqp-common.SasTokenProvider'
+          - '@azure/ms-rest-azure-env.SasTokenProvider'
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SasTokenProvider.getToken'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SasTokenProvider.getToken'
     name: getToken(undefined | string)
     children: []
     type: method
@@ -54,10 +54,10 @@ items:
           optional: true
       return:
         type:
-          - Promise<@azure/amqp-common.TokenInfo>
+          - Promise<@azure/ms-rest-azure-env.TokenInfo>
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SasTokenProvider.key'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SasTokenProvider.key'
     name: key
     fullName: key
     children: []
@@ -73,8 +73,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SasTokenProvider.keyName'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SasTokenProvider.keyName'
     name: keyName
     fullName: keyName
     children: []
@@ -88,8 +88,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SasTokenProvider.namespace'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SasTokenProvider.namespace'
     name: namespace
     fullName: namespace
     children: []
@@ -103,8 +103,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SasTokenProvider.constructor'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SasTokenProvider.constructor'
     name: >-
       SasTokenProvider(string, string, string, undefined | number, undefined |
       number)
@@ -142,8 +142,8 @@ items:
             - undefined | number
           description: ''
           optional: true
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SasTokenProvider.tokenRenewalMarginInSeconds'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SasTokenProvider.tokenRenewalMarginInSeconds'
     name: tokenRenewalMarginInSeconds
     fullName: tokenRenewalMarginInSeconds
     children: []
@@ -161,8 +161,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.SasTokenProvider.tokenValidTimeInSeconds'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.SasTokenProvider.tokenValidTimeInSeconds'
     name: tokenValidTimeInSeconds
     fullName: tokenValidTimeInSeconds
     children: []
@@ -180,21 +180,21 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'
 references:
-  - uid: Promise<@azure/amqp-common.TokenInfo>
+  - uid: Promise<@azure/ms-rest-azure-env.TokenInfo>
     name: TokenInfo>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: TokenInfo
         fullName: TokenInfo
-        uid: '@azure/amqp-common.TokenInfo'
+        uid: '@azure/ms-rest-azure-env.TokenInfo'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/amqp-common.SasTokenProvider'
+  - uid: '@azure/ms-rest-azure-env.SasTokenProvider'
     name: SasTokenProvider
     spec.typeScript:
       - name: SasTokenProvider
         fullName: SasTokenProvider
-        uid: '@azure/amqp-common.SasTokenProvider'
+        uid: '@azure/ms-rest-azure-env.SasTokenProvider'

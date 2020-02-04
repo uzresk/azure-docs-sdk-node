@@ -1,0 +1,100 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.TelemetryManager'
+    name: TelemetryManager
+    fullName: TelemetryManager
+    children:
+      - '@azure/abort-controller.TelemetryManager.flush'
+      - '@azure/abort-controller.TelemetryManager.startEvent'
+      - '@azure/abort-controller.TelemetryManager.stopEvent'
+      - '@azure/abort-controller.TelemetryManager.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TelemetryManager.flush'
+    name: flush(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function flush(correlationId: string)'
+      parameters:
+        - id: correlationId
+          type:
+            - string
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TelemetryManager.startEvent'
+    name: startEvent(TelemetryEvent)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function startEvent(event: TelemetryEvent)'
+      parameters:
+        - id: event
+          type:
+            - '@azure/abort-controller.TelemetryEvent'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TelemetryManager.stopEvent'
+    name: stopEvent(TelemetryEvent)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function stopEvent(event: TelemetryEvent)'
+      parameters:
+        - id: event
+          type:
+            - '@azure/abort-controller.TelemetryEvent'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TelemetryManager.constructor'
+    name: 'TelemetryManager(TelemetryConfig, TelemetryEmitter)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new TelemetryManager(config: TelemetryConfig, telemetryEmitter:
+        TelemetryEmitter)
+      parameters:
+        - id: config
+          type:
+            - '@azure/abort-controller.TelemetryConfig'
+          description: ''
+        - id: telemetryEmitter
+          type:
+            - '@azure/abort-controller.TelemetryEmitter'
+          description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.TelemetryConfig'
+    name: TelemetryConfig
+    spec.typeScript:
+      - name: TelemetryConfig
+        fullName: TelemetryConfig
+        uid: '@azure/abort-controller.TelemetryConfig'
+  - uid: '@azure/abort-controller.TelemetryEmitter'
+    name: TelemetryEmitter
+    spec.typeScript:
+      - name: TelemetryEmitter
+        fullName: TelemetryEmitter
+        uid: '@azure/abort-controller.TelemetryEmitter'
+  - uid: '@azure/abort-controller.TelemetryEvent'
+    name: TelemetryEvent
+    spec.typeScript:
+      - name: TelemetryEvent
+        fullName: TelemetryEvent
+        uid: '@azure/abort-controller.TelemetryEvent'

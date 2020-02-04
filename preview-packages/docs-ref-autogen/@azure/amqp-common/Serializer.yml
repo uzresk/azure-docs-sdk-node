@@ -1,0 +1,167 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.Serializer'
+    name: Serializer
+    fullName: Serializer
+    children:
+      - '@azure/ms-rest-azure-env.Serializer.deserialize'
+      - '@azure/ms-rest-azure-env.Serializer.isXML'
+      - '@azure/ms-rest-azure-env.Serializer.modelMappers'
+      - '@azure/ms-rest-azure-env.Serializer.serialize'
+      - '@azure/ms-rest-azure-env.Serializer.constructor'
+      - '@azure/ms-rest-azure-env.Serializer.validateConstraints'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Serializer.deserialize'
+    name: 'deserialize(Mapper, any, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Deserialize the given object based on its metadata defined in the mapper
+    syntax:
+      content: >-
+        function deserialize(mapper: Mapper, responseBody: any, objectName:
+        string)
+      parameters:
+        - id: mapper
+          type:
+            - '@azure/ms-rest-azure-env.Mapper'
+          description: |
+            The mapper which defines the metadata of the serializable object
+        - id: responseBody
+          type:
+            - any
+          description: |
+            A valid Javascript entity to be deserialized
+        - id: objectName
+          type:
+            - string
+          description: |
+            Name of the deserialized object
+      return:
+        type:
+          - any
+        description: A valid deserialized Javascript object
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Serializer.isXML'
+    name: isXML
+    fullName: isXML
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'public isXML?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Serializer.modelMappers'
+    name: modelMappers
+    fullName: modelMappers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'public modelMappers: [key: string]: any'
+      return:
+        type:
+          - '[key: string]: any'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Serializer.serialize'
+    name: 'serialize(Mapper, any, undefined | string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Serialize the given object based on its metadata defined in the mapper
+    syntax:
+      content: >-
+        function serialize(mapper: Mapper, object: any, objectName?: undefined |
+        string)
+      parameters:
+        - id: mapper
+          type:
+            - '@azure/ms-rest-azure-env.Mapper'
+          description: |
+            The mapper which defines the metadata of the serializable object
+        - id: object
+          type:
+            - any
+          description: |
+            A valid Javascript object to be serialized
+        - id: objectName
+          type:
+            - undefined | string
+          description: |
+            Name of the serialized object
+          optional: true
+      return:
+        type:
+          - any
+        description: A valid serialized Javascript object
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Serializer.constructor'
+    name: 'Serializer([key: string]: any, undefined | false | true)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new Serializer(modelMappers: [key: string]: any, isXML?: undefined |
+        false | true)
+      parameters:
+        - id: modelMappers
+          type:
+            - '[key: string]: any'
+          description: ''
+        - id: isXML
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.Serializer.validateConstraints'
+    name: 'validateConstraints(Mapper, any, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function validateConstraints(mapper: Mapper, value: any, objectName:
+        string)
+      parameters:
+        - id: mapper
+          type:
+            - '@azure/ms-rest-azure-env.Mapper'
+          description: ''
+        - id: value
+          type:
+            - any
+          description: ''
+        - id: objectName
+          type:
+            - string
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.Mapper'
+    name: Mapper
+    spec.typeScript:
+      - name: Mapper
+        fullName: Mapper
+        uid: '@azure/ms-rest-azure-env.Mapper'

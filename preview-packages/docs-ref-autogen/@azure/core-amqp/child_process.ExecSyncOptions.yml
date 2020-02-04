@@ -1,0 +1,796 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.child_process.ExecSyncOptions
+    name: ExecSyncOptions
+    fullName: ExecSyncOptions
+    children:
+      - tslib.child_process.ExecSyncOptions.cwd
+      - tslib.child_process.ExecSyncOptions.encoding
+      - tslib.child_process.ExecSyncOptions.env
+      - tslib.child_process.ExecSyncOptions.gid
+      - tslib.child_process.ExecSyncOptions.input
+      - tslib.child_process.ExecSyncOptions.killSignal
+      - tslib.child_process.ExecSyncOptions.maxBuffer
+      - tslib.child_process.ExecSyncOptions.shell
+      - tslib.child_process.ExecSyncOptions.stdio
+      - tslib.child_process.ExecSyncOptions.timeout
+      - tslib.child_process.ExecSyncOptions.uid
+      - tslib.child_process.ExecSyncOptions.windowsHide
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: tslib.child_process.CommonOptions
+    package: tslib
+  - uid: tslib.child_process.ExecSyncOptions.cwd
+    name: cwd
+    fullName: cwd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'cwd?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.child_process.ExecSyncOptions.encoding
+    name: encoding
+    fullName: encoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'encoding?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.child_process.ExecSyncOptions.env
+    name: env
+    fullName: env
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'env?: NodeJS.ProcessEnv'
+      return:
+        type:
+          - tslib.NodeJS.ProcessEnv
+        description: ''
+    package: tslib
+  - uid: tslib.child_process.ExecSyncOptions.gid
+    name: gid
+    fullName: gid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'gid?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.child_process.ExecSyncOptions.input
+    name: input
+    fullName: input
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'input?: string | Uint8Array'
+      return:
+        type:
+          - string | Uint8Array
+        description: ''
+    package: tslib
+  - uid: tslib.child_process.ExecSyncOptions.killSignal
+    name: killSignal
+    fullName: killSignal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'killSignal?: NodeJS'
+      return:
+        type:
+          - NodeJS
+        description: ''
+    package: tslib
+  - uid: tslib.child_process.ExecSyncOptions.maxBuffer
+    name: maxBuffer
+    fullName: maxBuffer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'maxBuffer?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.child_process.ExecSyncOptions.shell
+    name: shell
+    fullName: shell
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'shell?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.child_process.ExecSyncOptions.stdio
+    name: stdio
+    fullName: stdio
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'stdio?: StdioOptions'
+      return:
+        type:
+          - tslib.child_process.StdioOptions
+        description: ''
+    package: tslib
+  - uid: tslib.child_process.ExecSyncOptions.timeout
+    name: timeout
+    fullName: timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'timeout?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.child_process.ExecSyncOptions.uid
+    name: uid
+    fullName: uid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'uid?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.child_process.ExecSyncOptions.windowsHide
+    name: windowsHide
+    fullName: windowsHide
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'windowsHide?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.events.EventEmitterOptions
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: tslib.events.EventEmitterOptions
+  - uid: tslib.stream.internal.Pipe | null
+    name: Pipe | null
+    spec.typeScript:
+      - name: Pipe
+        fullName: Pipe
+        uid: tslib.stream.internal.Pipe
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.stream.internal.Readable | null
+    name: Readable | null
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.stream.internal.Writable | null
+    name: Writable | null
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: tslib.stream.internal.Writable
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.NodeJS.Signals
+    name: Signals
+    spec.typeScript:
+      - name: Signals
+        fullName: Signals
+        uid: tslib.NodeJS.Signals
+  - uid: tslib.child_process.Serializable
+    name: Serializable
+    spec.typeScript:
+      - name: Serializable
+        fullName: Serializable
+        uid: tslib.child_process.Serializable
+  - uid: tslib.child_process.SendHandle
+    name: SendHandle
+    spec.typeScript:
+      - name: SendHandle
+        fullName: SendHandle
+        uid: tslib.child_process.SendHandle
+  - uid: tslib.child_process.MessageOptions
+    name: MessageOptions
+    spec.typeScript:
+      - name: MessageOptions
+        fullName: MessageOptions
+        uid: tslib.child_process.MessageOptions
+  - uid: tslib.child_process.ChildProcess
+    name: ChildProcess
+    spec.typeScript:
+      - name: ChildProcess
+        fullName: ChildProcess
+        uid: tslib.child_process.ChildProcess
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.stream.internal.Writable
+    name: Writable
+    spec.typeScript:
+      - name: Writable
+        fullName: Writable
+        uid: tslib.stream.internal.Writable
+  - uid: tslib.child_process.ProcessEnvOptions
+    name: ProcessEnvOptions
+    spec.typeScript:
+      - name: ProcessEnvOptions
+        fullName: ProcessEnvOptions
+        uid: tslib.child_process.ProcessEnvOptions
+  - uid: tslib.NodeJS.ProcessEnv
+    name: ProcessEnv
+    spec.typeScript:
+      - name: ProcessEnv
+        fullName: ProcessEnv
+        uid: tslib.NodeJS.ProcessEnv
+  - uid: tslib.child_process.CommonOptions
+    name: CommonOptions
+    spec.typeScript:
+      - name: CommonOptions
+        fullName: CommonOptions
+        uid: tslib.child_process.CommonOptions
+  - uid: tslib.child_process.SerializationType
+    name: SerializationType
+    spec.typeScript:
+      - name: SerializationType
+        fullName: SerializationType
+        uid: tslib.child_process.SerializationType
+  - uid: tslib.child_process.StdioOptions
+    name: StdioOptions
+    spec.typeScript:
+      - name: StdioOptions
+        fullName: StdioOptions
+        uid: tslib.child_process.StdioOptions
+  - uid: tslib.child_process.ExecFileOptions
+    name: ExecFileOptions
+    spec.typeScript:
+      - name: ExecFileOptions
+        fullName: ExecFileOptions
+        uid: tslib.child_process.ExecFileOptions
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: string | tslib.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: tslib.NodeJS.ArrayBufferView
+  - uid: tslib.child_process.ExecFileSyncOptions
+    name: ExecFileSyncOptions
+    spec.typeScript:
+      - name: ExecFileSyncOptions
+        fullName: ExecFileSyncOptions
+        uid: tslib.child_process.ExecFileSyncOptions
+  - uid: tslib.child_process.ExecOptions
+    name: ExecOptions
+    spec.typeScript:
+      - name: ExecOptions
+        fullName: ExecOptions
+        uid: tslib.child_process.ExecOptions
+  - uid: tslib.child_process.ExecSyncOptions
+    name: ExecSyncOptions
+    spec.typeScript:
+      - name: ExecSyncOptions
+        fullName: ExecSyncOptions
+        uid: tslib.child_process.ExecSyncOptions
+  - uid: tslib.child_process.CommonSpawnOptions
+    name: CommonSpawnOptions
+    spec.typeScript:
+      - name: CommonSpawnOptions
+        fullName: CommonSpawnOptions
+        uid: tslib.child_process.CommonSpawnOptions
+  - uid: tslib.child_process.SpawnOptions
+    name: SpawnOptions
+    spec.typeScript:
+      - name: SpawnOptions
+        fullName: SpawnOptions
+        uid: tslib.child_process.SpawnOptions
+  - uid: tslib.child_process.SpawnSyncOptions
+    name: SpawnSyncOptions
+    spec.typeScript:
+      - name: SpawnSyncOptions
+        fullName: SpawnSyncOptions
+        uid: tslib.child_process.SpawnSyncOptions
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.child_process.ExecFileSyncOptionsWithStringEncoding
+    name: ExecFileSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: ExecFileSyncOptionsWithStringEncoding
+        fullName: ExecFileSyncOptionsWithStringEncoding
+        uid: tslib.child_process.ExecFileSyncOptionsWithStringEncoding
+  - uid: tslib.child_process.ExecFileSyncOptionsWithBufferEncoding
+    name: ExecFileSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: ExecFileSyncOptionsWithBufferEncoding
+        fullName: ExecFileSyncOptionsWithBufferEncoding
+        uid: tslib.child_process.ExecFileSyncOptionsWithBufferEncoding
+  - uid: tslib.child_process.ExecSyncOptionsWithStringEncoding
+    name: ExecSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: ExecSyncOptionsWithStringEncoding
+        fullName: ExecSyncOptionsWithStringEncoding
+        uid: tslib.child_process.ExecSyncOptionsWithStringEncoding
+  - uid: tslib.child_process.ExecSyncOptionsWithBufferEncoding
+    name: ExecSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: ExecSyncOptionsWithBufferEncoding
+        fullName: ExecSyncOptionsWithBufferEncoding
+        uid: tslib.child_process.ExecSyncOptionsWithBufferEncoding
+  - uid: tslib.child_process.ForkOptions
+    name: ForkOptions
+    spec.typeScript:
+      - name: ForkOptions
+        fullName: ForkOptions
+        uid: tslib.child_process.ForkOptions
+  - uid: tslib.child_process.SpawnOptionsWithoutStdio
+    name: SpawnOptionsWithoutStdio
+    spec.typeScript:
+      - name: SpawnOptionsWithoutStdio
+        fullName: SpawnOptionsWithoutStdio
+        uid: tslib.child_process.SpawnOptionsWithoutStdio
+  - uid: tslib.child_process.ChildProcessWithoutNullStreams
+    name: ChildProcessWithoutNullStreams
+    spec.typeScript:
+      - name: ChildProcessWithoutNullStreams
+        fullName: ChildProcessWithoutNullStreams
+        uid: tslib.child_process.ChildProcessWithoutNullStreams
+  - uid: >-
+      tslib.child_process.SpawnOptionsWithStdioTuple<tslib.child_process.StdioPipe,
+      tslib.child_process.StdioPipe, tslib.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: tslib.child_process.SpawnOptionsWithStdioTuple
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: tslib.child_process.StdioPipe
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: tslib.child_process.StdioPipe
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: tslib.child_process.StdioPipe
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.child_process.ChildProcessByStdio<tslib.stream.internal.Writable,
+      tslib.stream.internal.Readable, tslib.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: tslib.child_process.ChildProcessByStdio
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: tslib.stream.internal.Writable
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.child_process.SpawnOptionsWithStdioTuple<tslib.child_process.StdioPipe,
+      tslib.child_process.StdioPipe, tslib.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: tslib.child_process.SpawnOptionsWithStdioTuple
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: tslib.child_process.StdioPipe
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: tslib.child_process.StdioPipe
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: tslib.child_process.StdioNull
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.child_process.ChildProcessByStdio<tslib.stream.internal.Writable,
+      tslib.stream.internal.Readable, null>
+    name: 'Readable, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: tslib.child_process.ChildProcessByStdio
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: tslib.stream.internal.Writable
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+      - name: ', null>'
+        fullName: ', null>'
+  - uid: >-
+      tslib.child_process.SpawnOptionsWithStdioTuple<tslib.child_process.StdioPipe,
+      tslib.child_process.StdioNull, tslib.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: tslib.child_process.SpawnOptionsWithStdioTuple
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: tslib.child_process.StdioPipe
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: tslib.child_process.StdioNull
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: tslib.child_process.StdioPipe
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.child_process.ChildProcessByStdio<tslib.stream.internal.Writable,
+      null, tslib.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: tslib.child_process.ChildProcessByStdio
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: tslib.stream.internal.Writable
+      - name: ', null, '
+        fullName: ', null, '
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.child_process.SpawnOptionsWithStdioTuple<tslib.child_process.StdioNull,
+      tslib.child_process.StdioPipe, tslib.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: tslib.child_process.SpawnOptionsWithStdioTuple
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: tslib.child_process.StdioNull
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: tslib.child_process.StdioPipe
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: tslib.child_process.StdioPipe
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.child_process.ChildProcessByStdio<null,
+      tslib.stream.internal.Readable, tslib.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: tslib.child_process.ChildProcessByStdio
+      - name: '<null, '
+        fullName: '<null, '
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+      - name: ', '
+        fullName: ', '
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.child_process.SpawnOptionsWithStdioTuple<tslib.child_process.StdioPipe,
+      tslib.child_process.StdioNull, tslib.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: tslib.child_process.SpawnOptionsWithStdioTuple
+      - name: <
+        fullName: <
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: tslib.child_process.StdioPipe
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: tslib.child_process.StdioNull
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: tslib.child_process.StdioNull
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.child_process.ChildProcessByStdio<tslib.stream.internal.Writable,
+      null, null>
+    name: 'Writable, null, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: tslib.child_process.ChildProcessByStdio
+      - name: <
+        fullName: <
+      - name: Writable
+        fullName: Writable
+        uid: tslib.stream.internal.Writable
+      - name: ', null, null>'
+        fullName: ', null, null>'
+  - uid: >-
+      tslib.child_process.SpawnOptionsWithStdioTuple<tslib.child_process.StdioNull,
+      tslib.child_process.StdioPipe, tslib.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: tslib.child_process.SpawnOptionsWithStdioTuple
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: tslib.child_process.StdioNull
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: tslib.child_process.StdioPipe
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: tslib.child_process.StdioNull
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.child_process.ChildProcessByStdio<null,
+      tslib.stream.internal.Readable, null>
+    name: 'Readable, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: tslib.child_process.ChildProcessByStdio
+      - name: '<null, '
+        fullName: '<null, '
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+      - name: ', null>'
+        fullName: ', null>'
+  - uid: >-
+      tslib.child_process.SpawnOptionsWithStdioTuple<tslib.child_process.StdioNull,
+      tslib.child_process.StdioNull, tslib.child_process.StdioPipe>
+    name: StdioPipe>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: tslib.child_process.SpawnOptionsWithStdioTuple
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: tslib.child_process.StdioNull
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: tslib.child_process.StdioNull
+      - name: ', '
+        fullName: ', '
+      - name: StdioPipe
+        fullName: StdioPipe
+        uid: tslib.child_process.StdioPipe
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.child_process.ChildProcessByStdio<null, null,
+      tslib.stream.internal.Readable>
+    name: Readable>
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: tslib.child_process.ChildProcessByStdio
+      - name: '<null, null, '
+        fullName: '<null, null, '
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      tslib.child_process.SpawnOptionsWithStdioTuple<tslib.child_process.StdioNull,
+      tslib.child_process.StdioNull, tslib.child_process.StdioNull>
+    name: StdioNull>
+    spec.typeScript:
+      - name: SpawnOptionsWithStdioTuple
+        fullName: SpawnOptionsWithStdioTuple
+        uid: tslib.child_process.SpawnOptionsWithStdioTuple
+      - name: <
+        fullName: <
+      - name: StdioNull
+        fullName: StdioNull
+        uid: tslib.child_process.StdioNull
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: tslib.child_process.StdioNull
+      - name: ', '
+        fullName: ', '
+      - name: StdioNull
+        fullName: StdioNull
+        uid: tslib.child_process.StdioNull
+      - name: '>'
+        fullName: '>'
+  - uid: 'tslib.child_process.ChildProcessByStdio<null, null, null>'
+    name: 'ChildProcessByStdio<null, null, null>'
+    spec.typeScript:
+      - name: ChildProcessByStdio
+        fullName: ChildProcessByStdio
+        uid: tslib.child_process.ChildProcessByStdio
+      - name: '<null, null, null>'
+        fullName: '<null, null, null>'
+  - uid: tslib.child_process.SpawnSyncReturns<Buffer>
+    name: SpawnSyncReturns<Buffer>
+    spec.typeScript:
+      - name: SpawnSyncReturns
+        fullName: SpawnSyncReturns
+        uid: tslib.child_process.SpawnSyncReturns
+      - name: <Buffer>
+        fullName: <Buffer>
+  - uid: tslib.child_process.SpawnSyncOptionsWithStringEncoding
+    name: SpawnSyncOptionsWithStringEncoding
+    spec.typeScript:
+      - name: SpawnSyncOptionsWithStringEncoding
+        fullName: SpawnSyncOptionsWithStringEncoding
+        uid: tslib.child_process.SpawnSyncOptionsWithStringEncoding
+  - uid: tslib.child_process.SpawnSyncReturns<string>
+    name: SpawnSyncReturns<string>
+    spec.typeScript:
+      - name: SpawnSyncReturns
+        fullName: SpawnSyncReturns
+        uid: tslib.child_process.SpawnSyncReturns
+      - name: <string>
+        fullName: <string>
+  - uid: tslib.child_process.SpawnSyncOptionsWithBufferEncoding
+    name: SpawnSyncOptionsWithBufferEncoding
+    spec.typeScript:
+      - name: SpawnSyncOptionsWithBufferEncoding
+        fullName: SpawnSyncOptionsWithBufferEncoding
+        uid: tslib.child_process.SpawnSyncOptionsWithBufferEncoding

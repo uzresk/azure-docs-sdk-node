@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.SASProtocol'
+  - uid: '@azure/abort-controller.SASProtocol'
     name: SASProtocol
     fullName: SASProtocol
     children:
-      - '@azure/storage-file-datalake.SASProtocol.Https'
-      - '@azure/storage-file-datalake.SASProtocol.HttpsAndHttp'
+      - '@azure/abort-controller.SASProtocol.Https'
+      - '@azure/abort-controller.SASProtocol.HttpsAndHttp'
     langs:
       - typeScript
     type: enum
     summary: Protocols for generated SAS.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.SASProtocol.Https'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SASProtocol.Https'
     name: Https
     children: []
     langs:
@@ -19,8 +19,8 @@ items:
     summary: Protocol that allows HTTPS only
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.SASProtocol.HttpsAndHttp'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SASProtocol.HttpsAndHttp'
     name: HttpsAndHttp
     children: []
     langs:
@@ -28,4 +28,4 @@ items:
     summary: Protocol that allows both HTTPS and HTTP
     type: field
     numericValue: null
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.Config
+    name: Config
+    fullName: Config
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type Config = TracingConfig & TracerConfig & BufferConfig
+    package: tslib

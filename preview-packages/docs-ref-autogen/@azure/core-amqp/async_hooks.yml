@@ -1,0 +1,102 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.async_hooks
+    name: async_hooks
+    langs:
+      - typeScript
+    fullName: async_hooks
+    children:
+      - tslib.async_hooks.AsyncHook
+      - tslib.async_hooks.AsyncResource
+      - tslib.async_hooks.AsyncResourceOptions
+      - tslib.async_hooks.createHook
+      - tslib.async_hooks.executionAsyncId
+      - tslib.async_hooks.HookCallbacks
+      - tslib.async_hooks.triggerAsyncId
+    type: module
+    summary: 'Async Hooks module: https://nodejs.org/api/async_hooks.html'
+    package: tslib
+  - uid: tslib.async_hooks.createHook
+    name: createHook(HookCallbacks)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Registers functions to be called for different lifetime events of each
+      async operation.
+    syntax:
+      content: 'function createHook(options: HookCallbacks)'
+      parameters:
+        - id: options
+          type:
+            - tslib.async_hooks.HookCallbacks
+          description: the callbacks to register
+      return:
+        type:
+          - tslib.async_hooks.AsyncHook
+        description: an AsyncHooks instance used for disabling and enabling hooks
+    package: tslib
+  - uid: tslib.async_hooks.executionAsyncId
+    name: executionAsyncId()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Returns the asyncId of the current execution context.
+    syntax:
+      content: function executionAsyncId()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.async_hooks.triggerAsyncId
+    name: triggerAsyncId()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Returns the ID of the resource responsible for calling the callback that
+      is currently being executed.
+    syntax:
+      content: function triggerAsyncId()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+references:
+  - uid: number | tslib.async_hooks.AsyncResourceOptions
+    name: AsyncResourceOptions
+    spec.typeScript:
+      - name: 'number | '
+        fullName: 'number | '
+      - name: AsyncResourceOptions
+        fullName: AsyncResourceOptions
+        uid: tslib.async_hooks.AsyncResourceOptions
+  - uid: tslib.async_hooks.HookCallbacks
+    name: HookCallbacks
+    spec.typeScript:
+      - name: HookCallbacks
+        fullName: HookCallbacks
+        uid: tslib.async_hooks.HookCallbacks
+  - uid: tslib.async_hooks.AsyncHook
+    name: AsyncHook
+    spec.typeScript:
+      - name: AsyncHook
+        fullName: AsyncHook
+        uid: tslib.async_hooks.AsyncHook
+  - uid: tslib.async_hooks.AsyncResource
+    name: AsyncResource
+  - uid: tslib.async_hooks.AsyncResourceOptions
+    name: AsyncResourceOptions
+  - uid: tslib.async_hooks.createHook
+    name: createHook
+  - uid: tslib.async_hooks.executionAsyncId
+    name: executionAsyncId
+  - uid: tslib.async_hooks.triggerAsyncId
+    name: triggerAsyncId

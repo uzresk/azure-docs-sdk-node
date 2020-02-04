@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.events.DOMEventTarget
+    name: DOMEventTarget
+    fullName: DOMEventTarget
+    children:
+      - tslib.events.DOMEventTarget.addEventListener
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.events.DOMEventTarget.addEventListener
+    name: 'addEventListener(string, (args: any[]) => void, undefined | Object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addEventListener(event: string, listener: (args: any[]) =>
+        void, opts?: undefined | Object)
+      parameters:
+        - id: event
+          type:
+            - string
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+        - id: opts
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - any
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.NodeJS.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.NodeJS.EventEmitter
+  - uid: tslib.events.EventEmitterOptions
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: tslib.events.EventEmitterOptions
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.events.NodeEventTarget
+    name: NodeEventTarget
+    spec.typeScript:
+      - name: NodeEventTarget
+        fullName: NodeEventTarget
+        uid: tslib.events.NodeEventTarget
+  - uid: tslib.events.DOMEventTarget
+    name: DOMEventTarget
+    spec.typeScript:
+      - name: DOMEventTarget
+        fullName: DOMEventTarget
+        uid: tslib.events.DOMEventTarget

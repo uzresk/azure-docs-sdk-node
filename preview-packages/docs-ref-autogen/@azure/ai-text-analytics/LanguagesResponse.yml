@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.LanguagesResponse'
+    name: LanguagesResponse
+    fullName: LanguagesResponse
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: Contains response data for the languages operation.
+    syntax:
+      content: 'type LanguagesResponse = LanguageResult & { _response: Object }'
+    package: '@azure/abort-controller'

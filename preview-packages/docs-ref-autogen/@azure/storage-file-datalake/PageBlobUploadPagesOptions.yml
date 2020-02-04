@@ -1,0 +1,193 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.PageBlobUploadPagesOptions'
+    name: PageBlobUploadPagesOptions
+    fullName: PageBlobUploadPagesOptions
+    children:
+      - '@azure/abort-controller.PageBlobUploadPagesOptions.abortSignal'
+      - '@azure/abort-controller.PageBlobUploadPagesOptions.conditions'
+      - '@azure/abort-controller.PageBlobUploadPagesOptions.customerProvidedKey'
+      - '@azure/abort-controller.PageBlobUploadPagesOptions.onProgress'
+      - '@azure/abort-controller.PageBlobUploadPagesOptions.tracingOptions'
+      - >-
+        @azure/abort-controller.PageBlobUploadPagesOptions.transactionalContentCrc64
+      - >-
+        @azure/abort-controller.PageBlobUploadPagesOptions.transactionalContentMD5
+    langs:
+      - typeScript
+    type: interface
+    summary: 'Options to configure the <xref:PageBlobClient.uploadPages> operation.'
+    extends:
+      name: '@azure/abort-controller.CommonOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobUploadPagesOptions.abortSignal'
+    name: abortSignal
+    fullName: abortSignal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    optional: true
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type:
+          - '@azure/abort-controller.AbortSignalLike'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobUploadPagesOptions.conditions'
+    name: conditions
+    fullName: conditions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Conditions to meet when uploading pages.
+    optional: true
+    syntax:
+      content: 'conditions?: PageBlobRequestConditions'
+      return:
+        type:
+          - '@azure/abort-controller.PageBlobRequestConditions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobUploadPagesOptions.customerProvidedKey'
+    name: customerProvidedKey
+    fullName: customerProvidedKey
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Customer Provided Key Info.
+    optional: true
+    syntax:
+      content: 'customerProvidedKey?: CpkInfo'
+      return:
+        type:
+          - '@azure/abort-controller.CpkInfo'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobUploadPagesOptions.onProgress'
+    name: onProgress
+    fullName: onProgress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Callback to receive events on the progress of upload pages operation.
+    optional: true
+    syntax:
+      content: 'onProgress?: undefined | (progress: TransferProgressEvent) => void'
+      return:
+        type:
+          - 'undefined | (progress: TransferProgressEvent) => void'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobUploadPagesOptions.tracingOptions'
+    name: tracingOptions
+    fullName: tracingOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options to configure spans created when tracing is enabled.
+    optional: true
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type:
+          - '@azure/abort-controller.OperationTracingOptions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: >-
+      @azure/abort-controller.PageBlobUploadPagesOptions.transactionalContentCrc64
+    name: transactionalContentCrc64
+    fullName: transactionalContentCrc64
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      A CRC64 hash of the content. This hash is used to verify the integrity of
+      the content during transport.
+
+      When this is specified, the storage service compares the hash of the
+      content that has arrived with this value.
+
+      transactionalContentMD5 and transactionalContentCrc64 cannot be set at
+      same time.
+    optional: true
+    syntax:
+      content: 'transactionalContentCrc64?: Uint8Array'
+      return:
+        type:
+          - '@azure/abort-controller.Buffer.Uint8Array'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.PageBlobUploadPagesOptions.transactionalContentMD5'
+    name: transactionalContentMD5
+    fullName: transactionalContentMD5
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >
+      An MD5 hash of the content. This hash is used to verify the integrity of
+      the content during transport.
+
+      When this is specified, the storage service compares the hash of the
+      content that has arrived with this value.
+
+      transactionalContentMD5 and transactionalContentCrc64 cannot be set at
+      same time.
+    optional: true
+    syntax:
+      content: 'transactionalContentMD5?: Uint8Array'
+      return:
+        type:
+          - '@azure/abort-controller.Buffer.Uint8Array'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.CommonOptions'
+    name: CommonOptions
+    spec.typeScript:
+      - name: CommonOptions
+        fullName: CommonOptions
+        uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.PageBlobRequestConditions'
+    name: PageBlobRequestConditions
+    spec.typeScript:
+      - name: PageBlobRequestConditions
+        fullName: PageBlobRequestConditions
+        uid: '@azure/abort-controller.PageBlobRequestConditions'
+  - uid: '@azure/abort-controller.CpkInfo'
+    name: CpkInfo
+    spec.typeScript:
+      - name: CpkInfo
+        fullName: CpkInfo
+        uid: '@azure/abort-controller.CpkInfo'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
+    name: OperationTracingOptions
+    spec.typeScript:
+      - name: OperationTracingOptions
+        fullName: OperationTracingOptions
+        uid: '@azure/abort-controller.OperationTracingOptions'
+  - uid: '@azure/abort-controller.Buffer.Uint8Array'
+    name: Uint8Array
+    spec.typeScript:
+      - name: Uint8Array
+        fullName: Uint8Array
+        uid: '@azure/abort-controller.Buffer.Uint8Array'

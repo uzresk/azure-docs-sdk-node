@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.translate'
+  - uid: tslib.translate
     name: translate(AmqpError | Error)
     children: []
     type: function
@@ -18,13 +18,13 @@ items:
           description: The amqp error that was received.
       return:
         type:
-          - '@azure/core-amqp.MessagingError'
+          - tslib.MessagingError
         description: MessagingError object.
-    package: '@azure/core-amqp'
+    package: tslib
 references:
-  - uid: '@azure/core-amqp.MessagingError'
+  - uid: tslib.MessagingError
     name: MessagingError
     spec.typeScript:
       - name: MessagingError
         fullName: MessagingError
-        uid: '@azure/core-amqp.MessagingError'
+        uid: tslib.MessagingError

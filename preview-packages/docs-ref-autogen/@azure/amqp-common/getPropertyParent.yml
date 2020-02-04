@@ -1,0 +1,38 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.getPropertyParent'
+    name: 'getPropertyParent(PropertyParent, string[])'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Get the property parent for the property at the provided path when
+      starting with the provided
+
+      parent object.
+    syntax:
+      content: >-
+        function getPropertyParent(parent: PropertyParent, propertyPath:
+        string[])
+      parameters:
+        - id: parent
+          type:
+            - '@azure/ms-rest-azure-env.PropertyParent'
+          description: ''
+        - id: propertyPath
+          type:
+            - 'string[]'
+          description: ''
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.PropertyParent'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.PropertyParent'
+    name: PropertyParent
+    spec.typeScript:
+      - name: PropertyParent
+        fullName: PropertyParent
+        uid: '@azure/ms-rest-azure-env.PropertyParent'

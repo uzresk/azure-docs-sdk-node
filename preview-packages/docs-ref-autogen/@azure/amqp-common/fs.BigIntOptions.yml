@@ -1,0 +1,73 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.fs.BigIntOptions'
+    name: BigIntOptions
+    fullName: BigIntOptions
+    children:
+      - '@azure/ms-rest-azure-env.fs.BigIntOptions.bigint'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.fs.BigIntOptions.bigint'
+    name: bigint
+    fullName: bigint
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'bigint: true'
+      return:
+        type:
+          - 'true'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.fs.StatsBase<BigInt>'
+    name: StatsBase<BigInt>
+    spec.typeScript:
+      - name: StatsBase
+        fullName: StatsBase
+        uid: '@azure/ms-rest-azure-env.fs.StatsBase'
+      - name: <BigInt>
+        fullName: <BigInt>
+  - uid: '@azure/ms-rest-azure-env.fs.PathLike'
+    name: PathLike
+    spec.typeScript:
+      - name: PathLike
+        fullName: PathLike
+        uid: '@azure/ms-rest-azure-env.fs.PathLike'
+  - uid: '@azure/ms-rest-azure-env.fs.BigIntOptions'
+    name: BigIntOptions
+    spec.typeScript:
+      - name: BigIntOptions
+        fullName: BigIntOptions
+        uid: '@azure/ms-rest-azure-env.fs.BigIntOptions'
+  - uid: '@azure/ms-rest-azure-env.fs.BigIntStats'
+    name: BigIntStats
+    spec.typeScript:
+      - name: BigIntStats
+        fullName: BigIntStats
+        uid: '@azure/ms-rest-azure-env.fs.BigIntStats'
+  - uid: '@azure/ms-rest-azure-env.fs.StatOptions'
+    name: StatOptions
+    spec.typeScript:
+      - name: StatOptions
+        fullName: StatOptions
+        uid: '@azure/ms-rest-azure-env.fs.StatOptions'
+  - uid: >-
+      @azure/ms-rest-azure-env.fs.Stats |
+      @azure/ms-rest-azure-env.fs.BigIntStats
+    name: BigIntStats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: '@azure/ms-rest-azure-env.fs.Stats'
+      - name: ' | '
+        fullName: ' | '
+      - name: BigIntStats
+        fullName: BigIntStats
+        uid: '@azure/ms-rest-azure-env.fs.BigIntStats'

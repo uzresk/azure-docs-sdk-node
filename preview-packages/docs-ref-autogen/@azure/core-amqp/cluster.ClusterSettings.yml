@@ -1,0 +1,207 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.cluster.ClusterSettings
+    name: ClusterSettings
+    fullName: ClusterSettings
+    children:
+      - tslib.cluster.ClusterSettings.args
+      - tslib.cluster.ClusterSettings.exec
+      - tslib.cluster.ClusterSettings.execArgv
+      - tslib.cluster.ClusterSettings.gid
+      - tslib.cluster.ClusterSettings.inspectPort
+      - tslib.cluster.ClusterSettings.silent
+      - tslib.cluster.ClusterSettings.stdio
+      - tslib.cluster.ClusterSettings.uid
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.cluster.ClusterSettings.args
+    name: args
+    fullName: args
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'args?: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.ClusterSettings.exec
+    name: exec
+    fullName: exec
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'exec?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.ClusterSettings.execArgv
+    name: execArgv
+    fullName: execArgv
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'execArgv?: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.ClusterSettings.gid
+    name: gid
+    fullName: gid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'gid?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.ClusterSettings.inspectPort
+    name: inspectPort
+    fullName: inspectPort
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'inspectPort?: number | () => number'
+      return:
+        type:
+          - number | () => number
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.ClusterSettings.silent
+    name: silent
+    fullName: silent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'silent?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.ClusterSettings.stdio
+    name: stdio
+    fullName: stdio
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'stdio?: any[]'
+      return:
+        type:
+          - 'any[]'
+        description: ''
+    package: tslib
+  - uid: tslib.cluster.ClusterSettings.uid
+    name: uid
+    fullName: uid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'uid?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.events.EventEmitterOptions
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: tslib.events.EventEmitterOptions
+  - uid: tslib.child_process.ChildProcess
+    name: ChildProcess
+    spec.typeScript:
+      - name: ChildProcess
+        fullName: ChildProcess
+        uid: tslib.child_process.ChildProcess
+  - uid: tslib.cluster.Address
+    name: Address
+    spec.typeScript:
+      - name: Address
+        fullName: Address
+        uid: tslib.cluster.Address
+  - uid: tslib.net.Socket | tslib.net.Server
+    name: Server
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.net.Socket
+      - name: ' | '
+        fullName: ' | '
+      - name: Server
+        fullName: Server
+        uid: tslib.net.Server
+  - uid: tslib.cluster.Worker
+    name: Worker
+    spec.typeScript:
+      - name: Worker
+        fullName: Worker
+        uid: tslib.cluster.Worker
+  - uid: tslib.cluster.ClusterSettings
+    name: ClusterSettings
+    spec.typeScript:
+      - name: ClusterSettings
+        fullName: ClusterSettings
+        uid: tslib.cluster.ClusterSettings
+  - uid: tslib.cluster.Cluster.Worker
+    name: Worker
+    spec.typeScript:
+      - name: Worker
+        fullName: Worker
+        uid: tslib.cluster.Cluster.Worker
+  - uid: tslib.cluster.Cluster
+    name: Cluster
+    spec.typeScript:
+      - name: Cluster
+        fullName: Cluster
+        uid: tslib.cluster.Cluster

@@ -1,0 +1,119 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.ErrorResponse'
+    name: ErrorResponse
+    fullName: ErrorResponse
+    children:
+      - '@azure/abort-controller.ErrorResponse.correlationId'
+      - '@azure/abort-controller.ErrorResponse.error'
+      - '@azure/abort-controller.ErrorResponse.errorCodes'
+      - '@azure/abort-controller.ErrorResponse.errorDescription'
+      - '@azure/abort-controller.ErrorResponse.timestamp'
+      - '@azure/abort-controller.ErrorResponse.traceId'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      See the official documentation for more details:
+
+      https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-protocols-oauth-code#error-response-1
+
+
+      NOTE: This documentation is for v1 OAuth support but the same error
+
+      response details still apply to v2.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ErrorResponse.correlationId'
+    name: correlationId
+    fullName: correlationId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The correlation ID to be used for tracking the source of the error.
+    optional: true
+    syntax:
+      content: 'correlationId?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ErrorResponse.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The string identifier for the error.
+    syntax:
+      content: 'error: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ErrorResponse.errorCodes'
+    name: errorCodes
+    fullName: errorCodes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: An array of codes pertaining to the error(s) that occurred.
+    optional: true
+    syntax:
+      content: 'errorCodes?: number[]'
+      return:
+        type:
+          - 'number[]'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ErrorResponse.errorDescription'
+    name: errorDescription
+    fullName: errorDescription
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The error's description.
+    syntax:
+      content: 'errorDescription: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ErrorResponse.timestamp'
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The timestamp at which the error occurred.
+    optional: true
+    syntax:
+      content: 'timestamp?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ErrorResponse.traceId'
+    name: traceId
+    fullName: traceId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The trace identifier for this error occurrence.
+    optional: true
+    syntax:
+      content: 'traceId?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'

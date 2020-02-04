@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.TimeInput'
+    name: TimeInput
+    fullName: TimeInput
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: |
+      Defines TimeInput.
+      hrtime, epoch milliseconds, performance.now() or Date
+    syntax:
+      content: type TimeInput = HrTime | number | Date
+    package: '@azure/abort-controller'

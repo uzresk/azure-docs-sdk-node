@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.toFileSystemPagedAsyncIterableIterator'
+  - uid: '@azure/abort-controller.toFileSystemPagedAsyncIterableIterator'
     name: >-
       toFileSystemPagedAsyncIterableIterator(PagedAsyncIterableIterator<ContainerItem,
       ServiceListContainersSegmentResponse>)
@@ -18,31 +18,54 @@ items:
         - id: iter
           type:
             - >-
-              PagedAsyncIterableIterator<ContainerItem,
-              ServiceListContainersSegmentResponse>
+              @azure/abort-controller.PagedAsyncIterableIterator<@azure/abort-controller.ContainerItem,
+              @azure/abort-controller.ServiceListContainersSegmentResponse>
           description: ''
       return:
         type:
           - >-
-            PagedAsyncIterableIterator<@azure/storage-file-datalake.FileSystemItem,
-            @azure/storage-file-datalake.ServiceListFileSystemsSegmentResponse>
+            @azure/abort-controller.PagedAsyncIterableIterator<@azure/abort-controller.FileSystemItem,
+            @azure/abort-controller.ServiceListFileSystemsSegmentResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
   - uid: >-
-      PagedAsyncIterableIterator<@azure/storage-file-datalake.FileSystemItem,
-      @azure/storage-file-datalake.ServiceListFileSystemsSegmentResponse>
+      @azure/abort-controller.PagedAsyncIterableIterator<@azure/abort-controller.ContainerItem,
+      @azure/abort-controller.ServiceListContainersSegmentResponse>
+    name: ServiceListContainersSegmentResponse>
+    spec.typeScript:
+      - name: PagedAsyncIterableIterator
+        fullName: PagedAsyncIterableIterator
+        uid: '@azure/abort-controller.PagedAsyncIterableIterator'
+      - name: <
+        fullName: <
+      - name: ContainerItem
+        fullName: ContainerItem
+        uid: '@azure/abort-controller.ContainerItem'
+      - name: ', '
+        fullName: ', '
+      - name: ServiceListContainersSegmentResponse
+        fullName: ServiceListContainersSegmentResponse
+        uid: '@azure/abort-controller.ServiceListContainersSegmentResponse'
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      @azure/abort-controller.PagedAsyncIterableIterator<@azure/abort-controller.FileSystemItem,
+      @azure/abort-controller.ServiceListFileSystemsSegmentResponse>
     name: ServiceListFileSystemsSegmentResponse>
     spec.typeScript:
-      - name: PagedAsyncIterableIterator<
-        fullName: PagedAsyncIterableIterator<
+      - name: PagedAsyncIterableIterator
+        fullName: PagedAsyncIterableIterator
+        uid: '@azure/abort-controller.PagedAsyncIterableIterator'
+      - name: <
+        fullName: <
       - name: FileSystemItem
         fullName: FileSystemItem
-        uid: '@azure/storage-file-datalake.FileSystemItem'
+        uid: '@azure/abort-controller.FileSystemItem'
       - name: ', '
         fullName: ', '
       - name: ServiceListFileSystemsSegmentResponse
         fullName: ServiceListFileSystemsSegmentResponse
-        uid: '@azure/storage-file-datalake.ServiceListFileSystemsSegmentResponse'
+        uid: '@azure/abort-controller.ServiceListFileSystemsSegmentResponse'
       - name: '>'
         fullName: '>'

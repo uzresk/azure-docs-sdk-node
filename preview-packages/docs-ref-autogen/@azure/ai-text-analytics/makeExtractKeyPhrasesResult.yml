@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.makeExtractKeyPhrasesResult'
+    name: 'makeExtractKeyPhrasesResult(string, string[], TextDocumentStatistics)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function makeExtractKeyPhrasesResult(id: string, keyPhrases: string[],
+        statistics?: TextDocumentStatistics)
+      parameters:
+        - id: id
+          type:
+            - string
+          description: ''
+        - id: keyPhrases
+          type:
+            - 'string[]'
+          description: ''
+        - id: statistics
+          type:
+            - '@azure/abort-controller.TextDocumentStatistics'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.ExtractKeyPhrasesSuccessResult'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.TextDocumentStatistics'
+    name: TextDocumentStatistics
+    spec.typeScript:
+      - name: TextDocumentStatistics
+        fullName: TextDocumentStatistics
+        uid: '@azure/abort-controller.TextDocumentStatistics'
+  - uid: '@azure/abort-controller.ExtractKeyPhrasesSuccessResult'
+    name: ExtractKeyPhrasesSuccessResult
+    spec.typeScript:
+      - name: ExtractKeyPhrasesSuccessResult
+        fullName: ExtractKeyPhrasesSuccessResult
+        uid: '@azure/abort-controller.ExtractKeyPhrasesSuccessResult'

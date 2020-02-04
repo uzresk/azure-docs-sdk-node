@@ -1,0 +1,33 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.normalize'
+    name: 'normalize(string, URIOptions)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function normalize(uri: string, options?: URIOptions)'
+      parameters:
+        - id: uri
+          type:
+            - string
+          description: ''
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.URIOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.URIOptions'
+    name: URIOptions
+    spec.typeScript:
+      - name: URIOptions
+        fullName: URIOptions
+        uid: '@azure/ms-rest-azure-env.URIOptions'

@@ -1,0 +1,12 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.setImmediate
+    name: setImmediate
+    langs:
+      - typeScript
+    fullName: setImmediate
+    children: []
+    type: module
+    summary: ''
+    package: tslib
+references: []

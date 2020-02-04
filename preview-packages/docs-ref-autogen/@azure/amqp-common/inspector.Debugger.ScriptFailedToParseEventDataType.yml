@@ -1,0 +1,631 @@
+### YamlMime:UniversalReference
+items:
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType
+    name: ScriptFailedToParseEventDataType
+    fullName: ScriptFailedToParseEventDataType
+    children:
+      - >-
+        @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.endColumn
+      - >-
+        @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.endLine
+      - >-
+        @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.executionContextAuxData
+      - >-
+        @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.executionContextId
+      - >-
+        @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.hash
+      - >-
+        @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.hasSourceURL
+      - >-
+        @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.isModule
+      - >-
+        @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.length
+      - >-
+        @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.scriptId
+      - >-
+        @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.sourceMapURL
+      - >-
+        @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.stackTrace
+      - >-
+        @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.startColumn
+      - >-
+        @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.startLine
+      - >-
+        @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.url
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.endColumn
+    name: endColumn
+    fullName: endColumn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Length of the last line of the script.
+    syntax:
+      content: 'endColumn: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.endLine
+    name: endLine
+    fullName: endLine
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Last line of the script.
+    syntax:
+      content: 'endLine: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.executionContextAuxData
+    name: executionContextAuxData
+    fullName: executionContextAuxData
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Embedder-specific auxiliary data.
+    optional: true
+    syntax:
+      content: 'executionContextAuxData?: undefined | __type'
+      return:
+        type:
+          - undefined | __type
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.executionContextId
+    name: executionContextId
+    fullName: executionContextId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Specifies script creation context.
+    syntax:
+      content: 'executionContextId: Runtime.ExecutionContextId'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.inspector.Runtime.ExecutionContextId'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.hash
+    name: hash
+    fullName: hash
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Content hash of the script.
+    syntax:
+      content: 'hash: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.hasSourceURL
+    name: hasSourceURL
+    fullName: hasSourceURL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'True, if this script has sourceURL.'
+    optional: true
+    syntax:
+      content: 'hasSourceURL?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.isModule
+    name: isModule
+    fullName: isModule
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'True, if this script is ES6 module.'
+    optional: true
+    syntax:
+      content: 'isModule?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.length
+    name: length
+    fullName: length
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: This script length.
+    optional: true
+    syntax:
+      content: 'length?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.scriptId
+    name: scriptId
+    fullName: scriptId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Identifier of the script parsed.
+    syntax:
+      content: 'scriptId: Runtime.ScriptId'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.inspector.Runtime.ScriptId'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.sourceMapURL
+    name: sourceMapURL
+    fullName: sourceMapURL
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: URL of source map associated with script (if any).
+    optional: true
+    syntax:
+      content: 'sourceMapURL?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.stackTrace
+    name: stackTrace
+    fullName: stackTrace
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      JavaScript top stack frame of where the script parsed event was triggered
+      if available.
+    optional: true
+    syntax:
+      content: 'stackTrace?: Runtime.StackTrace'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.inspector.Runtime.StackTrace'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.startColumn
+    name: startColumn
+    fullName: startColumn
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Column offset of the script within the resource with given URL.
+    syntax:
+      content: 'startColumn: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.startLine
+    name: startLine
+    fullName: startLine
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Line offset of the script within the resource with given URL (for script
+      tags).
+    syntax:
+      content: 'startLine: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ScriptFailedToParseEventDataType.url
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: URL or name of the script parsed (if any).
+    syntax:
+      content: 'url: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.ScriptId'
+    name: ScriptId
+    spec.typeScript:
+      - name: ScriptId
+        fullName: ScriptId
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.ScriptId'
+  - uid: '@azure/ms-rest-azure-env.inspector.Debugger.BreakpointId'
+    name: BreakpointId
+    spec.typeScript:
+      - name: BreakpointId
+        fullName: BreakpointId
+        uid: '@azure/ms-rest-azure-env.inspector.Debugger.BreakpointId'
+  - uid: '@azure/ms-rest-azure-env.inspector.Debugger.CallFrameId'
+    name: CallFrameId
+    spec.typeScript:
+      - name: CallFrameId
+        fullName: CallFrameId
+        uid: '@azure/ms-rest-azure-env.inspector.Debugger.CallFrameId'
+  - uid: '@azure/ms-rest-azure-env.inspector.Debugger.Location'
+    name: Location
+    spec.typeScript:
+      - name: Location
+        fullName: Location
+        uid: '@azure/ms-rest-azure-env.inspector.Debugger.Location'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.RemoteObject'
+    name: RemoteObject
+    spec.typeScript:
+      - name: RemoteObject
+        fullName: RemoteObject
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.RemoteObject'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.ExceptionDetails'
+    name: ExceptionDetails
+    spec.typeScript:
+      - name: ExceptionDetails
+        fullName: ExceptionDetails
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.ExceptionDetails'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.StackTrace'
+    name: StackTrace
+    spec.typeScript:
+      - name: StackTrace
+        fullName: StackTrace
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.StackTrace'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.ExecutionContextId'
+    name: ExecutionContextId
+    spec.typeScript:
+      - name: ExecutionContextId
+        fullName: ExecutionContextId
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.ExecutionContextId'
+  - uid: '@azure/ms-rest-azure-env.inspector.HeapProfiler.HeapSnapshotObjectId'
+    name: HeapSnapshotObjectId
+    spec.typeScript:
+      - name: HeapSnapshotObjectId
+        fullName: HeapSnapshotObjectId
+        uid: '@azure/ms-rest-azure-env.inspector.HeapProfiler.HeapSnapshotObjectId'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.RemoteObjectId'
+    name: RemoteObjectId
+    spec.typeScript:
+      - name: RemoteObjectId
+        fullName: RemoteObjectId
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.RemoteObjectId'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.UnserializableValue'
+    name: UnserializableValue
+    spec.typeScript:
+      - name: UnserializableValue
+        fullName: UnserializableValue
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.UnserializableValue'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.Timestamp'
+    name: Timestamp
+    spec.typeScript:
+      - name: Timestamp
+        fullName: Timestamp
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.Timestamp'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.ObjectPreview'
+    name: ObjectPreview
+    spec.typeScript:
+      - name: ObjectPreview
+        fullName: ObjectPreview
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.ObjectPreview'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.CustomPreview'
+    name: CustomPreview
+    spec.typeScript:
+      - name: CustomPreview
+        fullName: CustomPreview
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.CustomPreview'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.CallFrame'
+    name: CallFrame
+    spec.typeScript:
+      - name: CallFrame
+        fullName: CallFrame
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.CallFrame'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.EvaluateParameterType'
+    name: EvaluateParameterType
+    spec.typeScript:
+      - name: EvaluateParameterType
+        fullName: EvaluateParameterType
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.EvaluateParameterType'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.AwaitPromiseParameterType'
+    name: AwaitPromiseParameterType
+    spec.typeScript:
+      - name: AwaitPromiseParameterType
+        fullName: AwaitPromiseParameterType
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.AwaitPromiseParameterType'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.CallFunctionOnParameterType'
+    name: CallFunctionOnParameterType
+    spec.typeScript:
+      - name: CallFunctionOnParameterType
+        fullName: CallFunctionOnParameterType
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.CallFunctionOnParameterType'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.GetPropertiesParameterType'
+    name: GetPropertiesParameterType
+    spec.typeScript:
+      - name: GetPropertiesParameterType
+        fullName: GetPropertiesParameterType
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.GetPropertiesParameterType'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.ReleaseObjectParameterType'
+    name: ReleaseObjectParameterType
+    spec.typeScript:
+      - name: ReleaseObjectParameterType
+        fullName: ReleaseObjectParameterType
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.ReleaseObjectParameterType'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.ReleaseObjectGroupParameterType'
+    name: ReleaseObjectGroupParameterType
+    spec.typeScript:
+      - name: ReleaseObjectGroupParameterType
+        fullName: ReleaseObjectGroupParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Runtime.ReleaseObjectGroupParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Runtime.SetCustomObjectFormatterEnabledParameterType
+    name: SetCustomObjectFormatterEnabledParameterType
+    spec.typeScript:
+      - name: SetCustomObjectFormatterEnabledParameterType
+        fullName: SetCustomObjectFormatterEnabledParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Runtime.SetCustomObjectFormatterEnabledParameterType
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.CompileScriptParameterType'
+    name: CompileScriptParameterType
+    spec.typeScript:
+      - name: CompileScriptParameterType
+        fullName: CompileScriptParameterType
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.CompileScriptParameterType'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.RunScriptParameterType'
+    name: RunScriptParameterType
+    spec.typeScript:
+      - name: RunScriptParameterType
+        fullName: RunScriptParameterType
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.RunScriptParameterType'
+  - uid: '@azure/ms-rest-azure-env.inspector.Runtime.QueryObjectsParameterType'
+    name: QueryObjectsParameterType
+    spec.typeScript:
+      - name: QueryObjectsParameterType
+        fullName: QueryObjectsParameterType
+        uid: '@azure/ms-rest-azure-env.inspector.Runtime.QueryObjectsParameterType'
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.SetBreakpointsActiveParameterType
+    name: SetBreakpointsActiveParameterType
+    spec.typeScript:
+      - name: SetBreakpointsActiveParameterType
+        fullName: SetBreakpointsActiveParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.SetBreakpointsActiveParameterType
+  - uid: '@azure/ms-rest-azure-env.inspector.Debugger.SetSkipAllPausesParameterType'
+    name: SetSkipAllPausesParameterType
+    spec.typeScript:
+      - name: SetSkipAllPausesParameterType
+        fullName: SetSkipAllPausesParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.SetSkipAllPausesParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.SetBreakpointByUrlParameterType
+    name: SetBreakpointByUrlParameterType
+    spec.typeScript:
+      - name: SetBreakpointByUrlParameterType
+        fullName: SetBreakpointByUrlParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.SetBreakpointByUrlParameterType
+  - uid: '@azure/ms-rest-azure-env.inspector.Debugger.SetBreakpointParameterType'
+    name: SetBreakpointParameterType
+    spec.typeScript:
+      - name: SetBreakpointParameterType
+        fullName: SetBreakpointParameterType
+        uid: '@azure/ms-rest-azure-env.inspector.Debugger.SetBreakpointParameterType'
+  - uid: '@azure/ms-rest-azure-env.inspector.Debugger.RemoveBreakpointParameterType'
+    name: RemoveBreakpointParameterType
+    spec.typeScript:
+      - name: RemoveBreakpointParameterType
+        fullName: RemoveBreakpointParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.RemoveBreakpointParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.GetPossibleBreakpointsParameterType
+    name: GetPossibleBreakpointsParameterType
+    spec.typeScript:
+      - name: GetPossibleBreakpointsParameterType
+        fullName: GetPossibleBreakpointsParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.GetPossibleBreakpointsParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.ContinueToLocationParameterType
+    name: ContinueToLocationParameterType
+    spec.typeScript:
+      - name: ContinueToLocationParameterType
+        fullName: ContinueToLocationParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.ContinueToLocationParameterType
+  - uid: '@azure/ms-rest-azure-env.inspector.Debugger.SearchInContentParameterType'
+    name: SearchInContentParameterType
+    spec.typeScript:
+      - name: SearchInContentParameterType
+        fullName: SearchInContentParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.SearchInContentParameterType
+  - uid: '@azure/ms-rest-azure-env.inspector.Debugger.SetScriptSourceParameterType'
+    name: SetScriptSourceParameterType
+    spec.typeScript:
+      - name: SetScriptSourceParameterType
+        fullName: SetScriptSourceParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.SetScriptSourceParameterType
+  - uid: '@azure/ms-rest-azure-env.inspector.Debugger.RestartFrameParameterType'
+    name: RestartFrameParameterType
+    spec.typeScript:
+      - name: RestartFrameParameterType
+        fullName: RestartFrameParameterType
+        uid: '@azure/ms-rest-azure-env.inspector.Debugger.RestartFrameParameterType'
+  - uid: '@azure/ms-rest-azure-env.inspector.Debugger.GetScriptSourceParameterType'
+    name: GetScriptSourceParameterType
+    spec.typeScript:
+      - name: GetScriptSourceParameterType
+        fullName: GetScriptSourceParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.GetScriptSourceParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.SetPauseOnExceptionsParameterType
+    name: SetPauseOnExceptionsParameterType
+    spec.typeScript:
+      - name: SetPauseOnExceptionsParameterType
+        fullName: SetPauseOnExceptionsParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.SetPauseOnExceptionsParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.EvaluateOnCallFrameParameterType
+    name: EvaluateOnCallFrameParameterType
+    spec.typeScript:
+      - name: EvaluateOnCallFrameParameterType
+        fullName: EvaluateOnCallFrameParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.EvaluateOnCallFrameParameterType
+  - uid: '@azure/ms-rest-azure-env.inspector.Debugger.SetVariableValueParameterType'
+    name: SetVariableValueParameterType
+    spec.typeScript:
+      - name: SetVariableValueParameterType
+        fullName: SetVariableValueParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.SetVariableValueParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.SetAsyncCallStackDepthParameterType
+    name: SetAsyncCallStackDepthParameterType
+    spec.typeScript:
+      - name: SetAsyncCallStackDepthParameterType
+        fullName: SetAsyncCallStackDepthParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.SetAsyncCallStackDepthParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.SetBlackboxPatternsParameterType
+    name: SetBlackboxPatternsParameterType
+    spec.typeScript:
+      - name: SetBlackboxPatternsParameterType
+        fullName: SetBlackboxPatternsParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.SetBlackboxPatternsParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Debugger.SetBlackboxedRangesParameterType
+    name: SetBlackboxedRangesParameterType
+    spec.typeScript:
+      - name: SetBlackboxedRangesParameterType
+        fullName: SetBlackboxedRangesParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Debugger.SetBlackboxedRangesParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Profiler.SetSamplingIntervalParameterType
+    name: SetSamplingIntervalParameterType
+    spec.typeScript:
+      - name: SetSamplingIntervalParameterType
+        fullName: SetSamplingIntervalParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Profiler.SetSamplingIntervalParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.Profiler.StartPreciseCoverageParameterType
+    name: StartPreciseCoverageParameterType
+    spec.typeScript:
+      - name: StartPreciseCoverageParameterType
+        fullName: StartPreciseCoverageParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.Profiler.StartPreciseCoverageParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.HeapProfiler.StartTrackingHeapObjectsParameterType
+    name: StartTrackingHeapObjectsParameterType
+    spec.typeScript:
+      - name: StartTrackingHeapObjectsParameterType
+        fullName: StartTrackingHeapObjectsParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.HeapProfiler.StartTrackingHeapObjectsParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.HeapProfiler.StopTrackingHeapObjectsParameterType
+    name: StopTrackingHeapObjectsParameterType
+    spec.typeScript:
+      - name: StopTrackingHeapObjectsParameterType
+        fullName: StopTrackingHeapObjectsParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.HeapProfiler.StopTrackingHeapObjectsParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.HeapProfiler.TakeHeapSnapshotParameterType
+    name: TakeHeapSnapshotParameterType
+    spec.typeScript:
+      - name: TakeHeapSnapshotParameterType
+        fullName: TakeHeapSnapshotParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.HeapProfiler.TakeHeapSnapshotParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.HeapProfiler.GetObjectByHeapObjectIdParameterType
+    name: GetObjectByHeapObjectIdParameterType
+    spec.typeScript:
+      - name: GetObjectByHeapObjectIdParameterType
+        fullName: GetObjectByHeapObjectIdParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.HeapProfiler.GetObjectByHeapObjectIdParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.HeapProfiler.AddInspectedHeapObjectParameterType
+    name: AddInspectedHeapObjectParameterType
+    spec.typeScript:
+      - name: AddInspectedHeapObjectParameterType
+        fullName: AddInspectedHeapObjectParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.HeapProfiler.AddInspectedHeapObjectParameterType
+  - uid: >-
+      @azure/ms-rest-azure-env.inspector.HeapProfiler.GetHeapObjectIdParameterType
+    name: GetHeapObjectIdParameterType
+    spec.typeScript:
+      - name: GetHeapObjectIdParameterType
+        fullName: GetHeapObjectIdParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.HeapProfiler.GetHeapObjectIdParameterType
+  - uid: '@azure/ms-rest-azure-env.inspector.HeapProfiler.StartSamplingParameterType'
+    name: StartSamplingParameterType
+    spec.typeScript:
+      - name: StartSamplingParameterType
+        fullName: StartSamplingParameterType
+        uid: >-
+          @azure/ms-rest-azure-env.inspector.HeapProfiler.StartSamplingParameterType

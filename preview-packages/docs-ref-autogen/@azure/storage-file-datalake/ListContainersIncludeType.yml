@@ -1,0 +1,15 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.ListContainersIncludeType'
+    name: ListContainersIncludeType
+    fullName: ListContainersIncludeType
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: |-
+      Defines values for ListContainersIncludeType.
+      Possible values include: 'metadata'
+    syntax:
+      content: type ListContainersIncludeType = metadata
+    package: '@azure/abort-controller'

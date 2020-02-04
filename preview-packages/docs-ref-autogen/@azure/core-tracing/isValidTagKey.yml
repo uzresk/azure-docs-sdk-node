@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.isValidTagKey'
+    name: isValidTagKey(TagKey)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Determines whether the given String is a valid tag key.
+    syntax:
+      content: 'function isValidTagKey(tagKey: TagKey)'
+      parameters:
+        - id: tagKey
+          type:
+            - '@opentelemetry/types.TagKey'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.TagKey'
+    name: TagKey
+    spec.typeScript:
+      - name: TagKey
+        fullName: TagKey
+        uid: '@opentelemetry/types.TagKey'

@@ -1,0 +1,50 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.SequenceMapperType'
+    name: SequenceMapperType
+    fullName: SequenceMapperType
+    children:
+      - '@azure/abort-controller.SequenceMapperType.element'
+      - '@azure/abort-controller.SequenceMapperType.name'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SequenceMapperType.element'
+    name: element
+    fullName: element
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'element: Mapper'
+      return:
+        type:
+          - '@azure/abort-controller.Mapper'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SequenceMapperType.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: "Sequence"'
+      return:
+        type:
+          - '"Sequence"'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Mapper'
+    name: Mapper
+    spec.typeScript:
+      - name: Mapper
+        fullName: Mapper
+        uid: '@azure/abort-controller.Mapper'

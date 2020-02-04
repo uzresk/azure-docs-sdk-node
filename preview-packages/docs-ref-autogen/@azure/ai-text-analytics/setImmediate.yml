@@ -1,0 +1,12 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.setImmediate'
+    name: setImmediate
+    langs:
+      - typeScript
+    fullName: setImmediate
+    children: []
+    type: module
+    summary: ''
+    package: '@azure/abort-controller'
+references: []

@@ -1,0 +1,2237 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.http2.Http2ServerResponse
+    name: Http2ServerResponse
+    fullName: Http2ServerResponse
+    children:
+      - tslib.http2.Http2ServerResponse.addListener
+      - tslib.http2.Http2ServerResponse.addListener_1
+      - tslib.http2.Http2ServerResponse.addListener_2
+      - tslib.http2.Http2ServerResponse.addListener_3
+      - tslib.http2.Http2ServerResponse.addListener_4
+      - tslib.http2.Http2ServerResponse.addListener_5
+      - tslib.http2.Http2ServerResponse.addListener_6
+      - tslib.http2.Http2ServerResponse.addTrailers
+      - tslib.http2.Http2ServerResponse.connection
+      - tslib.http2.Http2ServerResponse.createPushResponse
+      - tslib.http2.Http2ServerResponse.emit
+      - tslib.http2.Http2ServerResponse.emit_1
+      - tslib.http2.Http2ServerResponse.emit_2
+      - tslib.http2.Http2ServerResponse.emit_3
+      - tslib.http2.Http2ServerResponse.emit_4
+      - tslib.http2.Http2ServerResponse.emit_5
+      - tslib.http2.Http2ServerResponse.emit_6
+      - tslib.http2.Http2ServerResponse.end_2
+      - tslib.http2.Http2ServerResponse.end_1
+      - tslib.http2.Http2ServerResponse.end
+      - tslib.http2.Http2ServerResponse.eventNames
+      - tslib.http2.Http2ServerResponse.finished
+      - tslib.http2.Http2ServerResponse.getHeader
+      - tslib.http2.Http2ServerResponse.getHeaderNames
+      - tslib.http2.Http2ServerResponse.getHeaders
+      - tslib.http2.Http2ServerResponse.getMaxListeners
+      - tslib.http2.Http2ServerResponse.hasHeader
+      - tslib.http2.Http2ServerResponse.headersSent
+      - tslib.http2.Http2ServerResponse.constructor
+      - tslib.http2.Http2ServerResponse.listenerCount
+      - tslib.http2.Http2ServerResponse.listeners
+      - tslib.http2.Http2ServerResponse.off
+      - tslib.http2.Http2ServerResponse.on
+      - tslib.http2.Http2ServerResponse.on_1
+      - tslib.http2.Http2ServerResponse.on_2
+      - tslib.http2.Http2ServerResponse.on_3
+      - tslib.http2.Http2ServerResponse.on_4
+      - tslib.http2.Http2ServerResponse.on_5
+      - tslib.http2.Http2ServerResponse.on_6
+      - tslib.http2.Http2ServerResponse.once
+      - tslib.http2.Http2ServerResponse.once_1
+      - tslib.http2.Http2ServerResponse.once_2
+      - tslib.http2.Http2ServerResponse.once_3
+      - tslib.http2.Http2ServerResponse.once_4
+      - tslib.http2.Http2ServerResponse.once_5
+      - tslib.http2.Http2ServerResponse.once_6
+      - tslib.http2.Http2ServerResponse.pipe
+      - tslib.http2.Http2ServerResponse.prependListener
+      - tslib.http2.Http2ServerResponse.prependListener_1
+      - tslib.http2.Http2ServerResponse.prependListener_2
+      - tslib.http2.Http2ServerResponse.prependListener_3
+      - tslib.http2.Http2ServerResponse.prependListener_4
+      - tslib.http2.Http2ServerResponse.prependListener_5
+      - tslib.http2.Http2ServerResponse.prependListener_6
+      - tslib.http2.Http2ServerResponse.prependOnceListener
+      - tslib.http2.Http2ServerResponse.prependOnceListener_1
+      - tslib.http2.Http2ServerResponse.prependOnceListener_2
+      - tslib.http2.Http2ServerResponse.prependOnceListener_3
+      - tslib.http2.Http2ServerResponse.prependOnceListener_4
+      - tslib.http2.Http2ServerResponse.prependOnceListener_5
+      - tslib.http2.Http2ServerResponse.prependOnceListener_6
+      - tslib.http2.Http2ServerResponse.rawListeners
+      - tslib.http2.Http2ServerResponse.removeAllListeners
+      - tslib.http2.Http2ServerResponse.removeHeader
+      - tslib.http2.Http2ServerResponse.removeListener
+      - tslib.http2.Http2ServerResponse.sendDate
+      - tslib.http2.Http2ServerResponse.setHeader
+      - tslib.http2.Http2ServerResponse.setMaxListeners
+      - tslib.http2.Http2ServerResponse.setTimeout
+      - tslib.http2.Http2ServerResponse.socket
+      - tslib.http2.Http2ServerResponse.statusCode
+      - tslib.http2.Http2ServerResponse.statusMessage
+      - tslib.http2.Http2ServerResponse.stream
+      - tslib.http2.Http2ServerResponse.write_1
+      - tslib.http2.Http2ServerResponse.write
+      - tslib.http2.Http2ServerResponse.writeContinue
+      - tslib.http2.Http2ServerResponse.writeHead
+      - tslib.http2.Http2ServerResponse.writeHead_1
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    extends:
+      name: tslib.stream.internal.Stream
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.addListener
+    name: 'addListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.addListener_1
+    name: 'addListener("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.addListener_2
+    name: 'addListener("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "error", listener: (error: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.addListener_3
+    name: 'addListener("finish", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addListener(event: "finish", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.addListener_4
+    name: 'addListener("pipe", (src: stream.Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "pipe", listener: (src: stream.Readable) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: stream.Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.addListener_5
+    name: 'addListener("unpipe", (src: stream.Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: "unpipe", listener: (src: stream.Readable)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: stream.Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.addListener_6
+    name: 'addListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function addListener(event: string | symbol, listener: (args: any[]) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.addTrailers
+    name: addTrailers(OutgoingHttpHeaders)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function addTrailers(trailers: OutgoingHttpHeaders)'
+      parameters:
+        - id: trailers
+          type:
+            - tslib.http.OutgoingHttpHeaders
+          description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.connection
+    name: connection
+    fullName: connection
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'connection: Socket | TLSSocket'
+      return:
+        type:
+          - tslib.net.Socket | tslib.tls.TLSSocket
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.createPushResponse
+    name: >-
+      createPushResponse(OutgoingHttpHeaders, (err: Error | null, res:
+      Http2ServerResponse) => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createPushResponse(headers: OutgoingHttpHeaders, callback:
+        (err: Error | null, res: Http2ServerResponse) => void)
+      parameters:
+        - id: headers
+          type:
+            - tslib.http.OutgoingHttpHeaders
+          description: ''
+        - id: callback
+          type:
+            - '(err: Error | null, res: Http2ServerResponse) => void'
+          description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.emit
+    name: emit("close")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "close")'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.emit_1
+    name: emit("drain")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "drain")'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.emit_2
+    name: 'emit("error", Error)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "error", error: Error)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: error
+          type:
+            - Error
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.emit_3
+    name: emit("finish")
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "finish")'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.emit_4
+    name: 'emit("pipe", stream.Readable)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "pipe", src: stream.Readable)'
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: src
+          type:
+            - stream.Readable
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.emit_5
+    name: 'emit("unpipe", stream.Readable)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: "unpipe", src: stream.Readable)'
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: src
+          type:
+            - stream.Readable
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.emit_6
+    name: 'emit(string | symbol, any[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function emit(event: string | symbol, args: any[])'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: args
+          type:
+            - 'any[]'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.end_2
+    name: 'end(string | Uint8Array, string, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function end(data: string | Uint8Array, encoding: string, callback?:
+        undefined | () => void)
+      parameters:
+        - id: data
+          type:
+            - string | Uint8Array
+          description: ''
+        - id: encoding
+          type:
+            - string
+          description: ''
+        - id: callback
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.end_1
+    name: 'end(string | Uint8Array, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function end(data: string | Uint8Array, callback?: undefined | () =>
+        void)
+      parameters:
+        - id: data
+          type:
+            - string | Uint8Array
+          description: ''
+        - id: callback
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.end
+    name: end(undefined | () => void)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function end(callback?: undefined | () => void)'
+      parameters:
+        - id: callback
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.eventNames
+    name: eventNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function eventNames()
+      parameters: []
+      return:
+        type:
+          - Array<string | symbol>
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.finished
+    name: finished
+    fullName: finished
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'finished: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.getHeader
+    name: getHeader(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function getHeader(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.getHeaderNames
+    name: getHeaderNames()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getHeaderNames()
+      parameters: []
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.getHeaders
+    name: getHeaders()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getHeaders()
+      parameters: []
+      return:
+        type:
+          - tslib.http.OutgoingHttpHeaders
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.getMaxListeners
+    name: getMaxListeners()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getMaxListeners()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.hasHeader
+    name: hasHeader(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function hasHeader(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.headersSent
+    name: headersSent
+    fullName: headersSent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'headersSent: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.constructor
+    name: Http2ServerResponse(ServerHttp2Stream)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Http2ServerResponse(stream: ServerHttp2Stream)'
+      parameters:
+        - id: stream
+          type:
+            - tslib.http2.ServerHttp2Stream
+          description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.listenerCount
+    name: listenerCount(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listenerCount(type: string | symbol)'
+      parameters:
+        - id: type
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.listeners
+    name: listeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function listeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.off
+    name: 'off(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function off(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.on
+    name: 'on("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.on_1
+    name: 'on("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.on_2
+    name: 'on("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "error", listener: (error: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.on_3
+    name: 'on("finish", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "finish", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.on_4
+    name: 'on("pipe", (src: stream.Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "pipe", listener: (src: stream.Readable) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: stream.Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.on_5
+    name: 'on("unpipe", (src: stream.Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: "unpipe", listener: (src: stream.Readable) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: stream.Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.on_6
+    name: 'on(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function on(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.once
+    name: 'once("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.once_1
+    name: 'once("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.once_2
+    name: 'once("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "error", listener: (error: Error) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.once_3
+    name: 'once("finish", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "finish", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.once_4
+    name: 'once("pipe", (src: stream.Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "pipe", listener: (src: stream.Readable) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: stream.Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.once_5
+    name: 'once("unpipe", (src: stream.Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: "unpipe", listener: (src: stream.Readable) => void)'
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: stream.Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.once_6
+    name: 'once(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function once(event: string | symbol, listener: (args: any[]) => void)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.pipe
+    name: 'pipe(T, undefined | Object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function pipe<T>(destination: T, options?: undefined | Object)'
+      parameters:
+        - id: destination
+          type:
+            - T
+          description: ''
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.prependListener
+    name: 'prependListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.prependListener_1
+    name: 'prependListener("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.prependListener_2
+    name: 'prependListener("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "error", listener: (error: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.prependListener_3
+    name: 'prependListener("finish", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependListener(event: "finish", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.prependListener_4
+    name: 'prependListener("pipe", (src: stream.Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "pipe", listener: (src: stream.Readable)
+        => void)
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: stream.Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.prependListener_5
+    name: 'prependListener("unpipe", (src: stream.Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: "unpipe", listener: (src:
+        stream.Readable) => void)
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: stream.Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.prependListener_6
+    name: 'prependListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.prependOnceListener
+    name: 'prependOnceListener("close", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "close", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"close"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.prependOnceListener_1
+    name: 'prependOnceListener("drain", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "drain", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"drain"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.prependOnceListener_2
+    name: 'prependOnceListener("error", (error: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "error", listener: (error: Error) =>
+        void)
+      parameters:
+        - id: event
+          type:
+            - '"error"'
+          description: ''
+        - id: listener
+          type:
+            - '(error: Error) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.prependOnceListener_3
+    name: 'prependOnceListener("finish", () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependOnceListener(event: "finish", listener: () => void)'
+      parameters:
+        - id: event
+          type:
+            - '"finish"'
+          description: ''
+        - id: listener
+          type:
+            - () => void
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.prependOnceListener_4
+    name: 'prependOnceListener("pipe", (src: stream.Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "pipe", listener: (src:
+        stream.Readable) => void)
+      parameters:
+        - id: event
+          type:
+            - '"pipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: stream.Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.prependOnceListener_5
+    name: 'prependOnceListener("unpipe", (src: stream.Readable) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: "unpipe", listener: (src:
+        stream.Readable) => void)
+      parameters:
+        - id: event
+          type:
+            - '"unpipe"'
+          description: ''
+        - id: listener
+          type:
+            - '(src: stream.Readable) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.prependOnceListener_6
+    name: 'prependOnceListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function prependOnceListener(event: string | symbol, listener: (args:
+        any[]) => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.rawListeners
+    name: rawListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function rawListeners(event: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+      return:
+        type:
+          - 'Function[]'
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.removeAllListeners
+    name: removeAllListeners(string | symbol)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeAllListeners(event?: string | symbol)'
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.removeHeader
+    name: removeHeader(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function removeHeader(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.removeListener
+    name: 'removeListener(string | symbol, (args: any[]) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function removeListener(event: string | symbol, listener: (args: any[])
+        => void)
+      parameters:
+        - id: event
+          type:
+            - string | symbol
+          description: ''
+        - id: listener
+          type:
+            - '(args: any[]) => void'
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.sendDate
+    name: sendDate
+    fullName: sendDate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'sendDate: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.setHeader
+    name: 'setHeader(string, number | string | string[])'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setHeader(name: string, value: number | string | string[])'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - 'number | string | string[]'
+          description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.setMaxListeners
+    name: setMaxListeners(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setMaxListeners(n: number)'
+      parameters:
+        - id: 'n'
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.setTimeout
+    name: 'setTimeout(number, undefined | () => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function setTimeout(msecs: number, callback?: undefined | () => void)'
+      parameters:
+        - id: msecs
+          type:
+            - number
+          description: ''
+        - id: callback
+          type:
+            - undefined | () => void
+          description: ''
+          optional: true
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.socket
+    name: socket
+    fullName: socket
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'socket: Socket | TLSSocket'
+      return:
+        type:
+          - tslib.net.Socket | tslib.tls.TLSSocket
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.statusCode
+    name: statusCode
+    fullName: statusCode
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'statusCode: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.statusMessage
+    name: statusMessage
+    fullName: statusMessage
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'statusMessage: Object'
+      return:
+        type:
+          - Object
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.stream
+    name: stream
+    fullName: stream
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'stream: ServerHttp2Stream'
+      return:
+        type:
+          - tslib.http2.ServerHttp2Stream
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.write_1
+    name: 'write(string | Uint8Array, string, undefined | (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function write(chunk: string | Uint8Array, encoding: string, callback?:
+        undefined | (err: Error) => void)
+      parameters:
+        - id: chunk
+          type:
+            - string | Uint8Array
+          description: ''
+        - id: encoding
+          type:
+            - string
+          description: ''
+        - id: callback
+          type:
+            - 'undefined | (err: Error) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.write
+    name: 'write(string | Uint8Array, undefined | (err: Error) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function write(chunk: string | Uint8Array, callback?: undefined | (err:
+        Error) => void)
+      parameters:
+        - id: chunk
+          type:
+            - string | Uint8Array
+          description: ''
+        - id: callback
+          type:
+            - 'undefined | (err: Error) => void'
+          description: ''
+          optional: true
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.writeContinue
+    name: writeContinue()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function writeContinue()
+      parameters: []
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.writeHead
+    name: 'writeHead(number, OutgoingHttpHeaders)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function writeHead(statusCode: number, headers?: OutgoingHttpHeaders)'
+      parameters:
+        - id: statusCode
+          type:
+            - number
+          description: ''
+        - id: headers
+          type:
+            - tslib.http.OutgoingHttpHeaders
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+  - uid: tslib.http2.Http2ServerResponse.writeHead_1
+    name: 'writeHead(number, string, OutgoingHttpHeaders)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function writeHead(statusCode: number, statusMessage: string, headers?:
+        OutgoingHttpHeaders)
+      parameters:
+        - id: statusCode
+          type:
+            - number
+          description: ''
+        - id: statusMessage
+          type:
+            - string
+          description: ''
+        - id: headers
+          type:
+            - tslib.http.OutgoingHttpHeaders
+          description: ''
+          optional: true
+      return:
+        type:
+          - this
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.http2.ServerHttp2Stream
+    name: ServerHttp2Stream
+    spec.typeScript:
+      - name: ServerHttp2Stream
+        fullName: ServerHttp2Stream
+        uid: tslib.http2.ServerHttp2Stream
+  - uid: tslib.http2.IncomingHttpHeaders
+    name: IncomingHttpHeaders
+    spec.typeScript:
+      - name: IncomingHttpHeaders
+        fullName: IncomingHttpHeaders
+        uid: tslib.http2.IncomingHttpHeaders
+  - uid: tslib.net.Socket | tslib.tls.TLSSocket
+    name: TLSSocket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.net.Socket
+      - name: ' | '
+        fullName: ' | '
+      - name: TLSSocket
+        fullName: TLSSocket
+        uid: tslib.tls.TLSSocket
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.stream.internal.ReadableOptions
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: tslib.stream.internal.ReadableOptions
+  - uid: tslib.stream.internal.Stream
+    name: Stream
+    spec.typeScript:
+      - name: Stream
+        fullName: Stream
+        uid: tslib.stream.internal.Stream
+  - uid: tslib.http.OutgoingHttpHeaders
+    name: OutgoingHttpHeaders
+    spec.typeScript:
+      - name: OutgoingHttpHeaders
+        fullName: OutgoingHttpHeaders
+        uid: tslib.http.OutgoingHttpHeaders
+  - uid: number | string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'number | string | '
+        fullName: 'number | string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.http2.Http2Session
+    name: Http2Session
+    spec.typeScript:
+      - name: Http2Session
+        fullName: Http2Session
+        uid: tslib.http2.Http2Session
+  - uid: tslib.http2.Settings
+    name: Settings
+    spec.typeScript:
+      - name: Settings
+        fullName: Settings
+        uid: tslib.http2.Settings
+  - uid: tslib.http2.SessionState
+    name: SessionState
+    spec.typeScript:
+      - name: SessionState
+        fullName: SessionState
+        uid: tslib.http2.SessionState
+  - uid: tslib.http2.ClientHttp2Session
+    name: ClientHttp2Session
+    spec.typeScript:
+      - name: ClientHttp2Session
+        fullName: ClientHttp2Session
+        uid: tslib.http2.ClientHttp2Session
+  - uid: tslib.http2.ClientHttp2Stream
+    name: ClientHttp2Stream
+    spec.typeScript:
+      - name: ClientHttp2Stream
+        fullName: ClientHttp2Stream
+        uid: tslib.http2.ClientHttp2Stream
+  - uid: tslib.http2.IncomingHttpHeaders & tslib.http2.IncomingHttpStatusHeader
+    name: IncomingHttpStatusHeader
+    spec.typeScript:
+      - name: IncomingHttpHeaders
+        fullName: IncomingHttpHeaders
+        uid: tslib.http2.IncomingHttpHeaders
+      - name: ' & '
+        fullName: ' & '
+      - name: IncomingHttpStatusHeader
+        fullName: IncomingHttpStatusHeader
+        uid: tslib.http2.IncomingHttpStatusHeader
+  - uid: tslib.NodeJS.ArrayBufferView
+    name: ArrayBufferView
+    spec.typeScript:
+      - name: ArrayBufferView
+        fullName: ArrayBufferView
+        uid: tslib.NodeJS.ArrayBufferView
+  - uid: tslib.http2.ClientSessionRequestOptions
+    name: ClientSessionRequestOptions
+    spec.typeScript:
+      - name: ClientSessionRequestOptions
+        fullName: ClientSessionRequestOptions
+        uid: tslib.http2.ClientSessionRequestOptions
+  - uid: tslib.http2.Http2Stream
+    name: Http2Stream
+    spec.typeScript:
+      - name: Http2Stream
+        fullName: Http2Stream
+        uid: tslib.http2.Http2Stream
+  - uid: tslib.stream.internal.DuplexOptions
+    name: DuplexOptions
+    spec.typeScript:
+      - name: DuplexOptions
+        fullName: DuplexOptions
+        uid: tslib.stream.internal.DuplexOptions
+  - uid: 'tslib.http.OutgoingHttpHeaders[]'
+    name: 'OutgoingHttpHeaders[]'
+    spec.typeScript:
+      - name: OutgoingHttpHeaders
+        fullName: OutgoingHttpHeaders
+        uid: tslib.http.OutgoingHttpHeaders
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.http2.StreamState
+    name: StreamState
+    spec.typeScript:
+      - name: StreamState
+        fullName: StreamState
+        uid: tslib.http2.StreamState
+  - uid: tslib.http2.StreamPriorityOptions
+    name: StreamPriorityOptions
+    spec.typeScript:
+      - name: StreamPriorityOptions
+        fullName: StreamPriorityOptions
+        uid: tslib.http2.StreamPriorityOptions
+  - uid: tslib.http2.SessionOptions
+    name: SessionOptions
+    spec.typeScript:
+      - name: SessionOptions
+        fullName: SessionOptions
+        uid: tslib.http2.SessionOptions
+  - uid: tslib.tls.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.tls.Server
+  - uid: tslib.tls.SecureContextOptions
+    name: SecureContextOptions
+    spec.typeScript:
+      - name: SecureContextOptions
+        fullName: SecureContextOptions
+        uid: tslib.tls.SecureContextOptions
+  - uid: tslib.net.AddressInfo | string | null
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: tslib.http2.Http2ServerRequest
+    name: Http2ServerRequest
+    spec.typeScript:
+      - name: Http2ServerRequest
+        fullName: Http2ServerRequest
+        uid: tslib.http2.Http2ServerRequest
+  - uid: tslib.http2.Http2ServerResponse
+    name: Http2ServerResponse
+    spec.typeScript:
+      - name: Http2ServerResponse
+        fullName: Http2ServerResponse
+        uid: tslib.http2.Http2ServerResponse
+  - uid: tslib.http2.ServerHttp2Session
+    name: ServerHttp2Session
+    spec.typeScript:
+      - name: ServerHttp2Session
+        fullName: ServerHttp2Session
+        uid: tslib.http2.ServerHttp2Session
+  - uid: tslib.tls.TLSSocket
+    name: TLSSocket
+    spec.typeScript:
+      - name: TLSSocket
+        fullName: TLSSocket
+        uid: tslib.tls.TLSSocket
+  - uid: tslib.net.ListenOptions
+    name: ListenOptions
+    spec.typeScript:
+      - name: ListenOptions
+        fullName: ListenOptions
+        uid: tslib.net.ListenOptions
+  - uid: tslib.net.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.net.Server
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.events.EventEmitterOptions
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: tslib.events.EventEmitterOptions
+  - uid: tslib.stream.internal.Duplex
+    name: Duplex
+    spec.typeScript:
+      - name: Duplex
+        fullName: Duplex
+        uid: tslib.stream.internal.Duplex
+  - uid: tslib.http.IncomingHttpHeaders
+    name: IncomingHttpHeaders
+    spec.typeScript:
+      - name: IncomingHttpHeaders
+        fullName: IncomingHttpHeaders
+        uid: tslib.http.IncomingHttpHeaders
+  - uid: tslib.http2.ClientSessionOptions
+    name: ClientSessionOptions
+    spec.typeScript:
+      - name: ClientSessionOptions
+        fullName: ClientSessionOptions
+        uid: tslib.http2.ClientSessionOptions
+  - uid: undefined | tslib.tls.checkServerIdentity
+    name: checkServerIdentity
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: checkServerIdentity
+        fullName: checkServerIdentity
+        uid: tslib.tls.checkServerIdentity
+  - uid: string | Buffer | Array<Buffer | tslib.tls.KeyObject>
+    name: KeyObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<Buffer | '
+        fullName: 'string | Buffer | Array<Buffer | '
+      - name: KeyObject
+        fullName: KeyObject
+        uid: tslib.tls.KeyObject
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.tls.SecureVersion
+    name: SecureVersion
+    spec.typeScript:
+      - name: SecureVersion
+        fullName: SecureVersion
+        uid: tslib.tls.SecureVersion
+  - uid: string | Buffer | Array<string | Buffer | tslib.tls.PxfObject>
+    name: PxfObject>
+    spec.typeScript:
+      - name: 'string | Buffer | Array<string | Buffer | '
+        fullName: 'string | Buffer | Array<string | Buffer | '
+      - name: PxfObject
+        fullName: PxfObject
+        uid: tslib.tls.PxfObject
+      - name: '>'
+        fullName: '>'
+  - uid: tslib.tls.SecureContext
+    name: SecureContext
+    spec.typeScript:
+      - name: SecureContext
+        fullName: SecureContext
+        uid: tslib.tls.SecureContext
+  - uid: tslib.Buffer
+    name: Buffer
+    spec.typeScript:
+      - name: Buffer
+        fullName: Buffer
+        uid: tslib.Buffer
+  - uid: tslib.tls.PSKCallbackNegotation | null
+    name: PSKCallbackNegotation | null
+    spec.typeScript:
+      - name: PSKCallbackNegotation
+        fullName: PSKCallbackNegotation
+        uid: tslib.tls.PSKCallbackNegotation
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.http2.SecureServerSessionOptions
+    name: SecureServerSessionOptions
+    spec.typeScript:
+      - name: SecureServerSessionOptions
+        fullName: SecureServerSessionOptions
+        uid: tslib.http2.SecureServerSessionOptions
+  - uid: undefined | tslib.http.IncomingMessage
+    name: IncomingMessage
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: IncomingMessage
+        fullName: IncomingMessage
+        uid: tslib.http.IncomingMessage
+  - uid: undefined | tslib.http.ServerResponse
+    name: ServerResponse
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: ServerResponse
+        fullName: ServerResponse
+        uid: tslib.http.ServerResponse
+  - uid: undefined | tslib.http2.Http2ServerRequest
+    name: Http2ServerRequest
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: Http2ServerRequest
+        fullName: Http2ServerRequest
+        uid: tslib.http2.Http2ServerRequest
+  - uid: undefined | tslib.http2.Http2ServerResponse
+    name: Http2ServerResponse
+    spec.typeScript:
+      - name: 'undefined | '
+        fullName: 'undefined | '
+      - name: Http2ServerResponse
+        fullName: Http2ServerResponse
+        uid: tslib.http2.Http2ServerResponse
+  - uid: tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: DataView | tslib.NodeJS.TypedArray | null
+    name: TypedArray | null
+    spec.typeScript:
+      - name: 'DataView | '
+        fullName: 'DataView | '
+      - name: TypedArray
+        fullName: TypedArray
+        uid: tslib.NodeJS.TypedArray
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.http2.ServerSessionOptions
+    name: ServerSessionOptions
+    spec.typeScript:
+      - name: ServerSessionOptions
+        fullName: ServerSessionOptions
+        uid: tslib.http2.ServerSessionOptions
+  - uid: tslib.http2.Http2Server | tslib.http2.Http2SecureServer
+    name: Http2SecureServer
+    spec.typeScript:
+      - name: Http2Server
+        fullName: Http2Server
+        uid: tslib.http2.Http2Server
+      - name: ' | '
+        fullName: ' | '
+      - name: Http2SecureServer
+        fullName: Http2SecureServer
+        uid: tslib.http2.Http2SecureServer
+  - uid: number | string | tslib.url.URL | tslib.http2.AlternativeServiceOptions
+    name: AlternativeServiceOptions
+    spec.typeScript:
+      - name: 'number | string | '
+        fullName: 'number | string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+      - name: ' | '
+        fullName: ' | '
+      - name: AlternativeServiceOptions
+        fullName: AlternativeServiceOptions
+        uid: tslib.http2.AlternativeServiceOptions
+  - uid: Array<string | tslib.url.URL | Object>
+    name: URL | Object>
+    spec.typeScript:
+      - name: 'Array<string | '
+        fullName: 'Array<string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+      - name: ' | Object>'
+        fullName: ' | Object>'
+  - uid: tslib.http2.ServerStreamResponseOptions
+    name: ServerStreamResponseOptions
+    spec.typeScript:
+      - name: ServerStreamResponseOptions
+        fullName: ServerStreamResponseOptions
+        uid: tslib.http2.ServerStreamResponseOptions
+  - uid: number | tslib.fs.promises.FileHandle
+    name: FileHandle
+    spec.typeScript:
+      - name: 'number | '
+        fullName: 'number | '
+      - name: FileHandle
+        fullName: FileHandle
+        uid: tslib.fs.promises.FileHandle
+  - uid: tslib.http2.ServerStreamFileResponseOptions
+    name: ServerStreamFileResponseOptions
+    spec.typeScript:
+      - name: ServerStreamFileResponseOptions
+        fullName: ServerStreamFileResponseOptions
+        uid: tslib.http2.ServerStreamFileResponseOptions
+  - uid: tslib.http2.ServerStreamFileResponseOptionsWithError
+    name: ServerStreamFileResponseOptionsWithError
+    spec.typeScript:
+      - name: ServerStreamFileResponseOptionsWithError
+        fullName: ServerStreamFileResponseOptionsWithError
+        uid: tslib.http2.ServerStreamFileResponseOptionsWithError
+  - uid: tslib.fs.Stats
+    name: Stats
+    spec.typeScript:
+      - name: Stats
+        fullName: Stats
+        uid: tslib.fs.Stats
+  - uid: tslib.http2.StatOptions
+    name: StatOptions
+    spec.typeScript:
+      - name: StatOptions
+        fullName: StatOptions
+        uid: tslib.http2.StatOptions
+  - uid: tslib.NodeJS.ErrnoException
+    name: ErrnoException
+    spec.typeScript:
+      - name: ErrnoException
+        fullName: ErrnoException
+        uid: tslib.NodeJS.ErrnoException
+  - uid: string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.http2.ClientSessionOptions | tslib.http2.SecureClientSessionOptions
+    name: SecureClientSessionOptions
+    spec.typeScript:
+      - name: ClientSessionOptions
+        fullName: ClientSessionOptions
+        uid: tslib.http2.ClientSessionOptions
+      - name: ' | '
+        fullName: ' | '
+      - name: SecureClientSessionOptions
+        fullName: SecureClientSessionOptions
+        uid: tslib.http2.SecureClientSessionOptions
+  - uid: tslib.http2.Http2SecureServer
+    name: Http2SecureServer
+    spec.typeScript:
+      - name: Http2SecureServer
+        fullName: Http2SecureServer
+        uid: tslib.http2.Http2SecureServer
+  - uid: tslib.http2.SecureServerOptions
+    name: SecureServerOptions
+    spec.typeScript:
+      - name: SecureServerOptions
+        fullName: SecureServerOptions
+        uid: tslib.http2.SecureServerOptions
+  - uid: tslib.http2.Http2Server
+    name: Http2Server
+    spec.typeScript:
+      - name: Http2Server
+        fullName: Http2Server
+        uid: tslib.http2.Http2Server
+  - uid: tslib.http2.ServerOptions
+    name: ServerOptions
+    spec.typeScript:
+      - name: ServerOptions
+        fullName: ServerOptions
+        uid: tslib.http2.ServerOptions

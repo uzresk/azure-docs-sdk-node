@@ -1,0 +1,208 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.InternalPipelineOptions'
+    name: InternalPipelineOptions
+    fullName: InternalPipelineOptions
+    children:
+      - '@azure/abort-controller.InternalPipelineOptions.deserializationOptions'
+      - '@azure/abort-controller.InternalPipelineOptions.httpClient'
+      - '@azure/abort-controller.InternalPipelineOptions.keepAliveOptions'
+      - '@azure/abort-controller.InternalPipelineOptions.loggingOptions'
+      - '@azure/abort-controller.InternalPipelineOptions.proxyOptions'
+      - '@azure/abort-controller.InternalPipelineOptions.redirectOptions'
+      - '@azure/abort-controller.InternalPipelineOptions.retryOptions'
+      - '@azure/abort-controller.InternalPipelineOptions.userAgentOptions'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Defines options that are used to configure internal options of
+      the HTTP pipeline for an SDK client.
+    extends:
+      name: '@azure/abort-controller.PipelineOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.InternalPipelineOptions.deserializationOptions'
+    name: deserializationOptions
+    fullName: deserializationOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options to configure API response deserialization.
+    optional: true
+    syntax:
+      content: 'deserializationOptions?: DeserializationOptions'
+      return:
+        type:
+          - '@azure/abort-controller.DeserializationOptions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.InternalPipelineOptions.httpClient'
+    name: httpClient
+    fullName: httpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The HttpClient implementation to use for outgoing HTTP requests.  Defaults
+      to DefaultHttpClient.
+    optional: true
+    syntax:
+      content: 'httpClient?: HttpClient'
+      return:
+        type:
+          - '@azure/abort-controller.HttpClient'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.InternalPipelineOptions.keepAliveOptions'
+    name: keepAliveOptions
+    fullName: keepAliveOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'keepAliveOptions?: KeepAliveOptions'
+      return:
+        type:
+          - '@azure/abort-controller.KeepAliveOptions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.InternalPipelineOptions.loggingOptions'
+    name: loggingOptions
+    fullName: loggingOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options to configure request/response logging.
+    optional: true
+    syntax:
+      content: 'loggingOptions?: LogPolicyOptions'
+      return:
+        type:
+          - '@azure/abort-controller.LogPolicyOptions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.InternalPipelineOptions.proxyOptions'
+    name: proxyOptions
+    fullName: proxyOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options to configure a proxy for outgoing requests.
+    optional: true
+    syntax:
+      content: 'proxyOptions?: ProxyOptions'
+      return:
+        type:
+          - '@azure/abort-controller.ProxyOptions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.InternalPipelineOptions.redirectOptions'
+    name: redirectOptions
+    fullName: redirectOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options for how redirect responses are handled.
+    optional: true
+    syntax:
+      content: 'redirectOptions?: RedirectOptions'
+      return:
+        type:
+          - '@azure/abort-controller.RedirectOptions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.InternalPipelineOptions.retryOptions'
+    name: retryOptions
+    fullName: retryOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options that control how to retry failed requests.
+    optional: true
+    syntax:
+      content: 'retryOptions?: RetryOptions'
+      return:
+        type:
+          - '@azure/abort-controller.RetryOptions'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.InternalPipelineOptions.userAgentOptions'
+    name: userAgentOptions
+    fullName: userAgentOptions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Options for adding user agent details to outgoing requests.
+    optional: true
+    syntax:
+      content: 'userAgentOptions?: UserAgentOptions'
+      return:
+        type:
+          - '@azure/abort-controller.UserAgentOptions'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.PipelineOptions'
+    name: PipelineOptions
+    spec.typeScript:
+      - name: PipelineOptions
+        fullName: PipelineOptions
+        uid: '@azure/abort-controller.PipelineOptions'
+  - uid: '@azure/abort-controller.DeserializationOptions'
+    name: DeserializationOptions
+    spec.typeScript:
+      - name: DeserializationOptions
+        fullName: DeserializationOptions
+        uid: '@azure/abort-controller.DeserializationOptions'
+  - uid: '@azure/abort-controller.HttpClient'
+    name: HttpClient
+    spec.typeScript:
+      - name: HttpClient
+        fullName: HttpClient
+        uid: '@azure/abort-controller.HttpClient'
+  - uid: '@azure/abort-controller.KeepAliveOptions'
+    name: KeepAliveOptions
+    spec.typeScript:
+      - name: KeepAliveOptions
+        fullName: KeepAliveOptions
+        uid: '@azure/abort-controller.KeepAliveOptions'
+  - uid: '@azure/abort-controller.LogPolicyOptions'
+    name: LogPolicyOptions
+    spec.typeScript:
+      - name: LogPolicyOptions
+        fullName: LogPolicyOptions
+        uid: '@azure/abort-controller.LogPolicyOptions'
+  - uid: '@azure/abort-controller.ProxyOptions'
+    name: ProxyOptions
+    spec.typeScript:
+      - name: ProxyOptions
+        fullName: ProxyOptions
+        uid: '@azure/abort-controller.ProxyOptions'
+  - uid: '@azure/abort-controller.RedirectOptions'
+    name: RedirectOptions
+    spec.typeScript:
+      - name: RedirectOptions
+        fullName: RedirectOptions
+        uid: '@azure/abort-controller.RedirectOptions'
+  - uid: '@azure/abort-controller.RetryOptions'
+    name: RetryOptions
+    spec.typeScript:
+      - name: RetryOptions
+        fullName: RetryOptions
+        uid: '@azure/abort-controller.RetryOptions'
+  - uid: '@azure/abort-controller.UserAgentOptions'
+    name: UserAgentOptions
+    spec.typeScript:
+      - name: UserAgentOptions
+        fullName: UserAgentOptions
+        uid: '@azure/abort-controller.UserAgentOptions'

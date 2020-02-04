@@ -1,23 +1,23 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.FileSystemProperties'
+  - uid: '@azure/abort-controller.FileSystemProperties'
     name: FileSystemProperties
     fullName: FileSystemProperties
     children:
-      - '@azure/storage-file-datalake.FileSystemProperties.etag'
-      - '@azure/storage-file-datalake.FileSystemProperties.hasImmutabilityPolicy'
-      - '@azure/storage-file-datalake.FileSystemProperties.hasLegalHold'
-      - '@azure/storage-file-datalake.FileSystemProperties.lastModified'
-      - '@azure/storage-file-datalake.FileSystemProperties.leaseDuration'
-      - '@azure/storage-file-datalake.FileSystemProperties.leaseState'
-      - '@azure/storage-file-datalake.FileSystemProperties.leaseStatus'
-      - '@azure/storage-file-datalake.FileSystemProperties.publicAccess'
+      - '@azure/abort-controller.FileSystemProperties.etag'
+      - '@azure/abort-controller.FileSystemProperties.hasImmutabilityPolicy'
+      - '@azure/abort-controller.FileSystemProperties.hasLegalHold'
+      - '@azure/abort-controller.FileSystemProperties.lastModified'
+      - '@azure/abort-controller.FileSystemProperties.leaseDuration'
+      - '@azure/abort-controller.FileSystemProperties.leaseState'
+      - '@azure/abort-controller.FileSystemProperties.leaseStatus'
+      - '@azure/abort-controller.FileSystemProperties.publicAccess'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemProperties.etag'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemProperties.etag'
     name: etag
     fullName: etag
     children: []
@@ -31,8 +31,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemProperties.hasImmutabilityPolicy'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemProperties.hasImmutabilityPolicy'
     name: hasImmutabilityPolicy
     fullName: hasImmutabilityPolicy
     children: []
@@ -47,8 +47,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemProperties.hasLegalHold'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemProperties.hasLegalHold'
     name: hasLegalHold
     fullName: hasLegalHold
     children: []
@@ -63,8 +63,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemProperties.lastModified'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemProperties.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -78,8 +78,8 @@ items:
         type:
           - Date
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemProperties.leaseDuration'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemProperties.leaseDuration'
     name: leaseDuration
     fullName: leaseDuration
     children: []
@@ -92,10 +92,10 @@ items:
       content: 'leaseDuration?: LeaseDurationType'
       return:
         type:
-          - '@azure/storage-file-datalake.LeaseDurationType'
+          - '@azure/abort-controller.LeaseDurationType'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemProperties.leaseState'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemProperties.leaseState'
     name: leaseState
     fullName: leaseState
     children: []
@@ -108,10 +108,10 @@ items:
       content: 'leaseState?: LeaseStateType'
       return:
         type:
-          - '@azure/storage-file-datalake.LeaseStateType'
+          - '@azure/abort-controller.LeaseStateType'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemProperties.leaseStatus'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemProperties.leaseStatus'
     name: leaseStatus
     fullName: leaseStatus
     children: []
@@ -124,10 +124,10 @@ items:
       content: 'leaseStatus?: LeaseStatusType'
       return:
         type:
-          - '@azure/storage-file-datalake.LeaseStatusType'
+          - '@azure/abort-controller.LeaseStatusType'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileSystemProperties.publicAccess'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileSystemProperties.publicAccess'
     name: publicAccess
     fullName: publicAccess
     children: []
@@ -140,31 +140,31 @@ items:
       content: 'publicAccess?: PublicAccessType'
       return:
         type:
-          - '@azure/storage-file-datalake.PublicAccessType'
+          - '@azure/abort-controller.PublicAccessType'
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.LeaseDurationType'
+  - uid: '@azure/abort-controller.LeaseDurationType'
     name: LeaseDurationType
     spec.typeScript:
       - name: LeaseDurationType
         fullName: LeaseDurationType
-        uid: '@azure/storage-file-datalake.LeaseDurationType'
-  - uid: '@azure/storage-file-datalake.LeaseStateType'
+        uid: '@azure/abort-controller.LeaseDurationType'
+  - uid: '@azure/abort-controller.LeaseStateType'
     name: LeaseStateType
     spec.typeScript:
       - name: LeaseStateType
         fullName: LeaseStateType
-        uid: '@azure/storage-file-datalake.LeaseStateType'
-  - uid: '@azure/storage-file-datalake.LeaseStatusType'
+        uid: '@azure/abort-controller.LeaseStateType'
+  - uid: '@azure/abort-controller.LeaseStatusType'
     name: LeaseStatusType
     spec.typeScript:
       - name: LeaseStatusType
         fullName: LeaseStatusType
-        uid: '@azure/storage-file-datalake.LeaseStatusType'
-  - uid: '@azure/storage-file-datalake.PublicAccessType'
+        uid: '@azure/abort-controller.LeaseStatusType'
+  - uid: '@azure/abort-controller.PublicAccessType'
     name: PublicAccessType
     spec.typeScript:
       - name: PublicAccessType
         fullName: PublicAccessType
-        uid: '@azure/storage-file-datalake.PublicAccessType'
+        uid: '@azure/abort-controller.PublicAccessType'

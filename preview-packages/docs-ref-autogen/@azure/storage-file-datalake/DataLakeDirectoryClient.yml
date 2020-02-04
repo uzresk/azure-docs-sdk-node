@@ -1,42 +1,40 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient'
     name: DataLakeDirectoryClient
     fullName: DataLakeDirectoryClient
     children:
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.accountName'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.create_1'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.create'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.credential'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.constructor_1'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.constructor'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.delete'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.fileSystemName'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.getAccessControl'
-      - >-
-        @azure/storage-file-datalake.DataLakeDirectoryClient.getDataLakeLeaseClient
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.getFileClient'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.getProperties'
-      - >-
-        @azure/storage-file-datalake.DataLakeDirectoryClient.getSubdirectoryClient
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.move'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.move_1'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.name'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.setAccessControl'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.setHttpHeaders'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.setMetadata'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.setPermissions'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.toDirectoryClient'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.toFileClient'
-      - '@azure/storage-file-datalake.DataLakeDirectoryClient.url'
+      - '@azure/abort-controller.DataLakeDirectoryClient.accountName'
+      - '@azure/abort-controller.DataLakeDirectoryClient.create_1'
+      - '@azure/abort-controller.DataLakeDirectoryClient.create'
+      - '@azure/abort-controller.DataLakeDirectoryClient.credential'
+      - '@azure/abort-controller.DataLakeDirectoryClient.constructor_1'
+      - '@azure/abort-controller.DataLakeDirectoryClient.constructor'
+      - '@azure/abort-controller.DataLakeDirectoryClient.delete'
+      - '@azure/abort-controller.DataLakeDirectoryClient.fileSystemName'
+      - '@azure/abort-controller.DataLakeDirectoryClient.getAccessControl'
+      - '@azure/abort-controller.DataLakeDirectoryClient.getDataLakeLeaseClient'
+      - '@azure/abort-controller.DataLakeDirectoryClient.getFileClient'
+      - '@azure/abort-controller.DataLakeDirectoryClient.getProperties'
+      - '@azure/abort-controller.DataLakeDirectoryClient.getSubdirectoryClient'
+      - '@azure/abort-controller.DataLakeDirectoryClient.move'
+      - '@azure/abort-controller.DataLakeDirectoryClient.move_1'
+      - '@azure/abort-controller.DataLakeDirectoryClient.name'
+      - '@azure/abort-controller.DataLakeDirectoryClient.setAccessControl'
+      - '@azure/abort-controller.DataLakeDirectoryClient.setHttpHeaders'
+      - '@azure/abort-controller.DataLakeDirectoryClient.setMetadata'
+      - '@azure/abort-controller.DataLakeDirectoryClient.setPermissions'
+      - '@azure/abort-controller.DataLakeDirectoryClient.toDirectoryClient'
+      - '@azure/abort-controller.DataLakeDirectoryClient.toFileClient'
+      - '@azure/abort-controller.DataLakeDirectoryClient.url'
     langs:
       - typeScript
     type: class
     summary: A DataLakeDirectoryClient represents a URL to the Azure Storage directory.
     extends:
-      name: '@azure/storage-file-datalake.DataLakePathClient'
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.accountName'
+      name: '@azure/abort-controller.DataLakePathClient'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.accountName'
     name: accountName
     fullName: accountName
     children: []
@@ -50,8 +48,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.create_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.create_1'
     name: create(DirectoryCreateOptions)
     children: []
     type: method
@@ -63,15 +61,15 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/storage-file-datalake.DirectoryCreateOptions'
+            - '@azure/abort-controller.DirectoryCreateOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/storage-file-datalake.DirectoryCreateResponse>
+          - Promise<@azure/abort-controller.DirectoryCreateResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.create'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.create'
     name: 'create(PathResourceType, PathCreateOptions)'
     children: []
     type: method
@@ -85,19 +83,19 @@ items:
       parameters:
         - id: resourceType
           type:
-            - '@azure/storage-file-datalake.PathResourceType'
+            - '@azure/abort-controller.PathResourceType'
           description: 'Resource type, must be "directory" for DataLakeDirectoryClient.'
         - id: options
           type:
-            - '@azure/storage-file-datalake.PathCreateOptions'
+            - '@azure/abort-controller.PathCreateOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/storage-file-datalake.PathCreateResponse>
+          - Promise<@azure/abort-controller.PathCreateResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.credential'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.credential'
     name: credential
     fullName: credential
     children: []
@@ -116,11 +114,12 @@ items:
       return:
         type:
           - >-
-            @azure/storage-file-datalake.StorageSharedKeyCredential |
-            @azure/storage-file-datalake.AnonymousCredential | TokenCredential
+            @azure/abort-controller.StorageSharedKeyCredential |
+            @azure/abort-controller.AnonymousCredential |
+            @azure/abort-controller.TokenCredential
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.constructor_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.constructor_1'
     name: 'DataLakeDirectoryClient(string, Pipeline)'
     children: []
     type: constructor
@@ -140,12 +139,12 @@ items:
                                 You can append a SAS if using AnonymousCredential, such as "https://myaccount.dfs.core.windows.net/filesystem/directory?sasString".
         - id: pipeline
           type:
-            - '@azure/storage-file-datalake.Pipeline'
+            - '@azure/abort-controller.Pipeline'
           description: |-
             Call newPipeline() to create a default
                                        pipeline, or provide a customized pipeline.
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.constructor'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.constructor'
     name: >-
       DataLakeDirectoryClient(string, StorageSharedKeyCredential |
       AnonymousCredential | TokenCredential, StoragePipelineOptions)
@@ -171,17 +170,18 @@ items:
         - id: credential
           type:
             - >-
-              @azure/storage-file-datalake.StorageSharedKeyCredential |
-              @azure/storage-file-datalake.AnonymousCredential | TokenCredential
+              @azure/abort-controller.StorageSharedKeyCredential |
+              @azure/abort-controller.AnonymousCredential |
+              @azure/abort-controller.TokenCredential
           description: ''
           optional: true
         - id: options
           type:
-            - '@azure/storage-file-datalake.StoragePipelineOptions'
+            - '@azure/abort-controller.StoragePipelineOptions'
           description: ''
           optional: true
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.delete'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.delete'
     name: 'delete(undefined | false | true, PathDeleteOptions)'
     children: []
     type: method
@@ -200,15 +200,15 @@ items:
           optional: true
         - id: options
           type:
-            - '@azure/storage-file-datalake.PathDeleteOptions'
+            - '@azure/abort-controller.PathDeleteOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/storage-file-datalake.PathDeleteResponse>
+          - Promise<@azure/abort-controller.PathDeleteResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.fileSystemName'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.fileSystemName'
     name: fileSystemName
     fullName: fileSystemName
     children: []
@@ -222,8 +222,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.getAccessControl'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.getAccessControl'
     name: getAccessControl(PathGetAccessControlOptions)
     children: []
     type: method
@@ -235,16 +235,15 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/storage-file-datalake.PathGetAccessControlOptions'
+            - '@azure/abort-controller.PathGetAccessControlOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/storage-file-datalake.PathGetAccessControlResponse>
+          - Promise<@azure/abort-controller.PathGetAccessControlResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: >-
-      @azure/storage-file-datalake.DataLakeDirectoryClient.getDataLakeLeaseClient
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.getDataLakeLeaseClient'
     name: getDataLakeLeaseClient(undefined | string)
     children: []
     type: method
@@ -263,10 +262,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/storage-file-datalake.DataLakeLeaseClient'
+          - '@azure/abort-controller.DataLakeLeaseClient'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.getFileClient'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.getFileClient'
     name: getFileClient(string)
     children: []
     type: method
@@ -282,10 +281,10 @@ items:
           description: ''
       return:
         type:
-          - '@azure/storage-file-datalake.DataLakeFileClient'
+          - '@azure/abort-controller.DataLakeFileClient'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.getProperties'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.getProperties'
     name: getProperties(PathGetPropertiesOptions)
     children: []
     type: method
@@ -312,15 +311,15 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/storage-file-datalake.PathGetPropertiesOptions'
+            - '@azure/abort-controller.PathGetPropertiesOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/storage-file-datalake.PathGetPropertiesResponse>
+          - Promise<@azure/abort-controller.PathGetPropertiesResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.getSubdirectoryClient'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.getSubdirectoryClient'
     name: getSubdirectoryClient(string)
     children: []
     type: method
@@ -336,10 +335,10 @@ items:
           description: Subdirectory name.
       return:
         type:
-          - '@azure/storage-file-datalake.DataLakeDirectoryClient'
+          - '@azure/abort-controller.DataLakeDirectoryClient'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.move'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.move'
     name: 'move(string, PathMoveOptions)'
     children: []
     type: method
@@ -357,15 +356,15 @@ items:
             "directory/file"
         - id: options
           type:
-            - '@azure/storage-file-datalake.PathMoveOptions'
+            - '@azure/abort-controller.PathMoveOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/storage-file-datalake.PathMoveResponse>
+          - Promise<@azure/abort-controller.PathMoveResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.move_1'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.move_1'
     name: 'move(string, string, PathMoveOptions)'
     children: []
     type: method
@@ -389,15 +388,15 @@ items:
             "directory/file"
         - id: options
           type:
-            - '@azure/storage-file-datalake.PathMoveOptions'
+            - '@azure/abort-controller.PathMoveOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/storage-file-datalake.PathMoveResponse>
+          - Promise<@azure/abort-controller.PathMoveResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.name'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.name'
     name: name
     fullName: name
     children: []
@@ -411,8 +410,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.setAccessControl'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.setAccessControl'
     name: 'setAccessControl(PathAccessControlItem[], PathSetAccessControlOptions)'
     children: []
     type: method
@@ -426,19 +425,19 @@ items:
       parameters:
         - id: acl
           type:
-            - '@azure/storage-file-datalake.PathAccessControlItem[]'
+            - '@azure/abort-controller.PathAccessControlItem[]'
           description: The POSIX access control list for the file or directory.
         - id: options
           type:
-            - '@azure/storage-file-datalake.PathSetAccessControlOptions'
+            - '@azure/abort-controller.PathSetAccessControlOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/storage-file-datalake.PathSetAccessControlResponse>
+          - Promise<@azure/abort-controller.PathSetAccessControlResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.setHttpHeaders'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.setHttpHeaders'
     name: 'setHttpHeaders(PathHttpHeaders, PathSetHttpHeadersOptions)'
     children: []
     type: method
@@ -458,19 +457,19 @@ items:
       parameters:
         - id: httpHeaders
           type:
-            - '@azure/storage-file-datalake.PathHttpHeaders'
+            - '@azure/abort-controller.PathHttpHeaders'
           description: ''
         - id: options
           type:
-            - '@azure/storage-file-datalake.PathSetHttpHeadersOptions'
+            - '@azure/abort-controller.PathSetHttpHeadersOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/storage-file-datalake.PathSetHttpHeadersResponse>
+          - Promise<@azure/abort-controller.PathSetHttpHeadersResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.setMetadata'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.setMetadata'
     name: 'setMetadata(Metadata, PathSetMetadataOptions)'
     children: []
     type: method
@@ -490,20 +489,20 @@ items:
       parameters:
         - id: metadata
           type:
-            - '@azure/storage-file-datalake.Metadata'
+            - '@azure/abort-controller.Metadata'
           description: ''
           optional: true
         - id: options
           type:
-            - '@azure/storage-file-datalake.PathSetMetadataOptions'
+            - '@azure/abort-controller.PathSetMetadataOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/storage-file-datalake.PathSetMetadataResponse>
+          - Promise<@azure/abort-controller.PathSetMetadataResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.setPermissions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.setPermissions'
     name: 'setPermissions(PathPermissions, PathSetPermissionsOptions)'
     children: []
     type: method
@@ -517,21 +516,21 @@ items:
       parameters:
         - id: permissions
           type:
-            - '@azure/storage-file-datalake.PathPermissions'
+            - '@azure/abort-controller.PathPermissions'
           description: >-
             The POSIX access permissions for the file owner, the file owning
             group, and others.
         - id: options
           type:
-            - '@azure/storage-file-datalake.PathSetPermissionsOptions'
+            - '@azure/abort-controller.PathSetPermissionsOptions'
           description: ''
           optional: true
       return:
         type:
           - Promise<PathSetPermissionsResponse>
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.toDirectoryClient'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.toDirectoryClient'
     name: toDirectoryClient()
     children: []
     type: method
@@ -545,10 +544,10 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/storage-file-datalake.DataLakeDirectoryClient'
+          - '@azure/abort-controller.DataLakeDirectoryClient'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.toFileClient'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.toFileClient'
     name: toFileClient()
     children: []
     type: method
@@ -562,10 +561,10 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/storage-file-datalake.DataLakeFileClient'
+          - '@azure/abort-controller.DataLakeFileClient'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient.url'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient.url'
     name: url
     fullName: url
     children: []
@@ -579,238 +578,242 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.DataLakePathClient'
+  - uid: '@azure/abort-controller.DataLakePathClient'
     name: DataLakePathClient
     spec.typeScript:
       - name: DataLakePathClient
         fullName: DataLakePathClient
-        uid: '@azure/storage-file-datalake.DataLakePathClient'
+        uid: '@azure/abort-controller.DataLakePathClient'
   - uid: >-
-      @azure/storage-file-datalake.StorageSharedKeyCredential |
-      @azure/storage-file-datalake.AnonymousCredential | TokenCredential
-    name: AnonymousCredential | TokenCredential
+      @azure/abort-controller.StorageSharedKeyCredential |
+      @azure/abort-controller.AnonymousCredential |
+      @azure/abort-controller.TokenCredential
+    name: TokenCredential
     spec.typeScript:
       - name: StorageSharedKeyCredential
         fullName: StorageSharedKeyCredential
-        uid: '@azure/storage-file-datalake.StorageSharedKeyCredential'
+        uid: '@azure/abort-controller.StorageSharedKeyCredential'
       - name: ' | '
         fullName: ' | '
       - name: AnonymousCredential
         fullName: AnonymousCredential
-        uid: '@azure/storage-file-datalake.AnonymousCredential'
-      - name: ' | TokenCredential'
-        fullName: ' | TokenCredential'
-  - uid: '@azure/storage-file-datalake.StoragePipelineOptions'
+        uid: '@azure/abort-controller.AnonymousCredential'
+      - name: ' | '
+        fullName: ' | '
+      - name: TokenCredential
+        fullName: TokenCredential
+        uid: '@azure/abort-controller.TokenCredential'
+  - uid: '@azure/abort-controller.StoragePipelineOptions'
     name: StoragePipelineOptions
     spec.typeScript:
       - name: StoragePipelineOptions
         fullName: StoragePipelineOptions
-        uid: '@azure/storage-file-datalake.StoragePipelineOptions'
-  - uid: '@azure/storage-file-datalake.Pipeline'
+        uid: '@azure/abort-controller.StoragePipelineOptions'
+  - uid: '@azure/abort-controller.Pipeline'
     name: Pipeline
     spec.typeScript:
       - name: Pipeline
         fullName: Pipeline
-        uid: '@azure/storage-file-datalake.Pipeline'
-  - uid: '@azure/storage-file-datalake.PathResourceType'
+        uid: '@azure/abort-controller.Pipeline'
+  - uid: '@azure/abort-controller.PathResourceType'
     name: PathResourceType
     spec.typeScript:
       - name: PathResourceType
         fullName: PathResourceType
-        uid: '@azure/storage-file-datalake.PathResourceType'
-  - uid: '@azure/storage-file-datalake.PathCreateOptions'
+        uid: '@azure/abort-controller.PathResourceType'
+  - uid: '@azure/abort-controller.PathCreateOptions'
     name: PathCreateOptions
     spec.typeScript:
       - name: PathCreateOptions
         fullName: PathCreateOptions
-        uid: '@azure/storage-file-datalake.PathCreateOptions'
-  - uid: Promise<@azure/storage-file-datalake.PathCreateResponse>
+        uid: '@azure/abort-controller.PathCreateOptions'
+  - uid: Promise<@azure/abort-controller.PathCreateResponse>
     name: PathCreateResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: PathCreateResponse
         fullName: PathCreateResponse
-        uid: '@azure/storage-file-datalake.PathCreateResponse'
+        uid: '@azure/abort-controller.PathCreateResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/storage-file-datalake.DirectoryCreateOptions'
+  - uid: '@azure/abort-controller.DirectoryCreateOptions'
     name: DirectoryCreateOptions
     spec.typeScript:
       - name: DirectoryCreateOptions
         fullName: DirectoryCreateOptions
-        uid: '@azure/storage-file-datalake.DirectoryCreateOptions'
-  - uid: Promise<@azure/storage-file-datalake.DirectoryCreateResponse>
+        uid: '@azure/abort-controller.DirectoryCreateOptions'
+  - uid: Promise<@azure/abort-controller.DirectoryCreateResponse>
     name: DirectoryCreateResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: DirectoryCreateResponse
         fullName: DirectoryCreateResponse
-        uid: '@azure/storage-file-datalake.DirectoryCreateResponse'
+        uid: '@azure/abort-controller.DirectoryCreateResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/storage-file-datalake.PathDeleteOptions'
+  - uid: '@azure/abort-controller.PathDeleteOptions'
     name: PathDeleteOptions
     spec.typeScript:
       - name: PathDeleteOptions
         fullName: PathDeleteOptions
-        uid: '@azure/storage-file-datalake.PathDeleteOptions'
-  - uid: Promise<@azure/storage-file-datalake.PathDeleteResponse>
+        uid: '@azure/abort-controller.PathDeleteOptions'
+  - uid: Promise<@azure/abort-controller.PathDeleteResponse>
     name: PathDeleteResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: PathDeleteResponse
         fullName: PathDeleteResponse
-        uid: '@azure/storage-file-datalake.PathDeleteResponse'
+        uid: '@azure/abort-controller.PathDeleteResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/storage-file-datalake.PathGetAccessControlOptions'
+  - uid: '@azure/abort-controller.PathGetAccessControlOptions'
     name: PathGetAccessControlOptions
     spec.typeScript:
       - name: PathGetAccessControlOptions
         fullName: PathGetAccessControlOptions
-        uid: '@azure/storage-file-datalake.PathGetAccessControlOptions'
-  - uid: Promise<@azure/storage-file-datalake.PathGetAccessControlResponse>
+        uid: '@azure/abort-controller.PathGetAccessControlOptions'
+  - uid: Promise<@azure/abort-controller.PathGetAccessControlResponse>
     name: PathGetAccessControlResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: PathGetAccessControlResponse
         fullName: PathGetAccessControlResponse
-        uid: '@azure/storage-file-datalake.PathGetAccessControlResponse'
+        uid: '@azure/abort-controller.PathGetAccessControlResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/storage-file-datalake.DataLakeLeaseClient'
+  - uid: '@azure/abort-controller.DataLakeLeaseClient'
     name: DataLakeLeaseClient
     spec.typeScript:
       - name: DataLakeLeaseClient
         fullName: DataLakeLeaseClient
-        uid: '@azure/storage-file-datalake.DataLakeLeaseClient'
-  - uid: '@azure/storage-file-datalake.DataLakeFileClient'
+        uid: '@azure/abort-controller.DataLakeLeaseClient'
+  - uid: '@azure/abort-controller.DataLakeFileClient'
     name: DataLakeFileClient
     spec.typeScript:
       - name: DataLakeFileClient
         fullName: DataLakeFileClient
-        uid: '@azure/storage-file-datalake.DataLakeFileClient'
-  - uid: '@azure/storage-file-datalake.PathGetPropertiesOptions'
+        uid: '@azure/abort-controller.DataLakeFileClient'
+  - uid: '@azure/abort-controller.PathGetPropertiesOptions'
     name: PathGetPropertiesOptions
     spec.typeScript:
       - name: PathGetPropertiesOptions
         fullName: PathGetPropertiesOptions
-        uid: '@azure/storage-file-datalake.PathGetPropertiesOptions'
-  - uid: Promise<@azure/storage-file-datalake.PathGetPropertiesResponse>
+        uid: '@azure/abort-controller.PathGetPropertiesOptions'
+  - uid: Promise<@azure/abort-controller.PathGetPropertiesResponse>
     name: PathGetPropertiesResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: PathGetPropertiesResponse
         fullName: PathGetPropertiesResponse
-        uid: '@azure/storage-file-datalake.PathGetPropertiesResponse'
+        uid: '@azure/abort-controller.PathGetPropertiesResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient'
+  - uid: '@azure/abort-controller.DataLakeDirectoryClient'
     name: DataLakeDirectoryClient
     spec.typeScript:
       - name: DataLakeDirectoryClient
         fullName: DataLakeDirectoryClient
-        uid: '@azure/storage-file-datalake.DataLakeDirectoryClient'
-  - uid: '@azure/storage-file-datalake.PathMoveOptions'
+        uid: '@azure/abort-controller.DataLakeDirectoryClient'
+  - uid: '@azure/abort-controller.PathMoveOptions'
     name: PathMoveOptions
     spec.typeScript:
       - name: PathMoveOptions
         fullName: PathMoveOptions
-        uid: '@azure/storage-file-datalake.PathMoveOptions'
-  - uid: Promise<@azure/storage-file-datalake.PathMoveResponse>
+        uid: '@azure/abort-controller.PathMoveOptions'
+  - uid: Promise<@azure/abort-controller.PathMoveResponse>
     name: PathMoveResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: PathMoveResponse
         fullName: PathMoveResponse
-        uid: '@azure/storage-file-datalake.PathMoveResponse'
+        uid: '@azure/abort-controller.PathMoveResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/storage-file-datalake.PathAccessControlItem[]'
+  - uid: '@azure/abort-controller.PathAccessControlItem[]'
     name: 'PathAccessControlItem[]'
     spec.typeScript:
       - name: PathAccessControlItem
         fullName: PathAccessControlItem
-        uid: '@azure/storage-file-datalake.PathAccessControlItem'
+        uid: '@azure/abort-controller.PathAccessControlItem'
       - name: '[]'
         fullName: '[]'
-  - uid: '@azure/storage-file-datalake.PathSetAccessControlOptions'
+  - uid: '@azure/abort-controller.PathSetAccessControlOptions'
     name: PathSetAccessControlOptions
     spec.typeScript:
       - name: PathSetAccessControlOptions
         fullName: PathSetAccessControlOptions
-        uid: '@azure/storage-file-datalake.PathSetAccessControlOptions'
-  - uid: Promise<@azure/storage-file-datalake.PathSetAccessControlResponse>
+        uid: '@azure/abort-controller.PathSetAccessControlOptions'
+  - uid: Promise<@azure/abort-controller.PathSetAccessControlResponse>
     name: PathSetAccessControlResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: PathSetAccessControlResponse
         fullName: PathSetAccessControlResponse
-        uid: '@azure/storage-file-datalake.PathSetAccessControlResponse'
+        uid: '@azure/abort-controller.PathSetAccessControlResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/storage-file-datalake.PathHttpHeaders'
+  - uid: '@azure/abort-controller.PathHttpHeaders'
     name: PathHttpHeaders
     spec.typeScript:
       - name: PathHttpHeaders
         fullName: PathHttpHeaders
-        uid: '@azure/storage-file-datalake.PathHttpHeaders'
-  - uid: '@azure/storage-file-datalake.PathSetHttpHeadersOptions'
+        uid: '@azure/abort-controller.PathHttpHeaders'
+  - uid: '@azure/abort-controller.PathSetHttpHeadersOptions'
     name: PathSetHttpHeadersOptions
     spec.typeScript:
       - name: PathSetHttpHeadersOptions
         fullName: PathSetHttpHeadersOptions
-        uid: '@azure/storage-file-datalake.PathSetHttpHeadersOptions'
-  - uid: Promise<@azure/storage-file-datalake.PathSetHttpHeadersResponse>
+        uid: '@azure/abort-controller.PathSetHttpHeadersOptions'
+  - uid: Promise<@azure/abort-controller.PathSetHttpHeadersResponse>
     name: PathSetHttpHeadersResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: PathSetHttpHeadersResponse
         fullName: PathSetHttpHeadersResponse
-        uid: '@azure/storage-file-datalake.PathSetHttpHeadersResponse'
+        uid: '@azure/abort-controller.PathSetHttpHeadersResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/storage-file-datalake.Metadata'
+  - uid: '@azure/abort-controller.Metadata'
     name: Metadata
     spec.typeScript:
       - name: Metadata
         fullName: Metadata
-        uid: '@azure/storage-file-datalake.Metadata'
-  - uid: '@azure/storage-file-datalake.PathSetMetadataOptions'
+        uid: '@azure/abort-controller.Metadata'
+  - uid: '@azure/abort-controller.PathSetMetadataOptions'
     name: PathSetMetadataOptions
     spec.typeScript:
       - name: PathSetMetadataOptions
         fullName: PathSetMetadataOptions
-        uid: '@azure/storage-file-datalake.PathSetMetadataOptions'
-  - uid: Promise<@azure/storage-file-datalake.PathSetMetadataResponse>
+        uid: '@azure/abort-controller.PathSetMetadataOptions'
+  - uid: Promise<@azure/abort-controller.PathSetMetadataResponse>
     name: PathSetMetadataResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: PathSetMetadataResponse
         fullName: PathSetMetadataResponse
-        uid: '@azure/storage-file-datalake.PathSetMetadataResponse'
+        uid: '@azure/abort-controller.PathSetMetadataResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/storage-file-datalake.PathPermissions'
+  - uid: '@azure/abort-controller.PathPermissions'
     name: PathPermissions
     spec.typeScript:
       - name: PathPermissions
         fullName: PathPermissions
-        uid: '@azure/storage-file-datalake.PathPermissions'
-  - uid: '@azure/storage-file-datalake.PathSetPermissionsOptions'
+        uid: '@azure/abort-controller.PathPermissions'
+  - uid: '@azure/abort-controller.PathSetPermissionsOptions'
     name: PathSetPermissionsOptions
     spec.typeScript:
       - name: PathSetPermissionsOptions
         fullName: PathSetPermissionsOptions
-        uid: '@azure/storage-file-datalake.PathSetPermissionsOptions'
+        uid: '@azure/abort-controller.PathSetPermissionsOptions'

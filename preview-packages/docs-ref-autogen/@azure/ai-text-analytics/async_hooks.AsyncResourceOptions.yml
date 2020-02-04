@@ -1,0 +1,75 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.async_hooks.AsyncResourceOptions'
+    name: AsyncResourceOptions
+    fullName: AsyncResourceOptions
+    children:
+      - >-
+        @azure/abort-controller.async_hooks.AsyncResourceOptions.requireManualDestroy
+      - '@azure/abort-controller.async_hooks.AsyncResourceOptions.triggerAsyncId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: >-
+      @azure/abort-controller.async_hooks.AsyncResourceOptions.requireManualDestroy
+    name: requireManualDestroy
+    fullName: requireManualDestroy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Disables automatic `emitDestroy` when the object is garbage collected.
+      This usually does not need to be set (even if `emitDestroy` is called
+      manually), unless the resource's `asyncId` is retrieved and the
+      sensitive API's `emitDestroy` is called with it.
+      Default: `false`
+    optional: true
+    syntax:
+      content: 'requireManualDestroy?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.async_hooks.AsyncResourceOptions.triggerAsyncId'
+    name: triggerAsyncId
+    fullName: triggerAsyncId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The ID of the execution context that created this async event.
+      Default: `executionAsyncId()`
+    optional: true
+    syntax:
+      content: 'triggerAsyncId?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: number | @azure/abort-controller.async_hooks.AsyncResourceOptions
+    name: AsyncResourceOptions
+    spec.typeScript:
+      - name: 'number | '
+        fullName: 'number | '
+      - name: AsyncResourceOptions
+        fullName: AsyncResourceOptions
+        uid: '@azure/abort-controller.async_hooks.AsyncResourceOptions'
+  - uid: '@azure/abort-controller.async_hooks.HookCallbacks'
+    name: HookCallbacks
+    spec.typeScript:
+      - name: HookCallbacks
+        fullName: HookCallbacks
+        uid: '@azure/abort-controller.async_hooks.HookCallbacks'
+  - uid: '@azure/abort-controller.async_hooks.AsyncHook'
+    name: AsyncHook
+    spec.typeScript:
+      - name: AsyncHook
+        fullName: AsyncHook
+        uid: '@azure/abort-controller.async_hooks.AsyncHook'

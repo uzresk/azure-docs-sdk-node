@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.ParsedOutput'
+  - uid: '@azure/ms-rest-azure-env.ParsedOutput'
     name: ParsedOutput
     fullName: ParsedOutput<T>
     children: []
@@ -10,4 +10,4 @@ items:
     summary: Defines an object with possible properties defined in T.
     syntax:
       content: type ParsedOutput<T> = Object
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'

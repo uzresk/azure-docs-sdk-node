@@ -1,0 +1,35 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.DataLakeStorageError'
+    name: DataLakeStorageError
+    fullName: DataLakeStorageError
+    children:
+      - '@azure/abort-controller.DataLakeStorageError.error'
+    langs:
+      - typeScript
+    type: interface
+    summary: An interface representing DataLakeStorageError.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.DataLakeStorageError.error'
+    name: error
+    fullName: error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The service error response object.
+    optional: true
+    syntax:
+      content: 'error?: DataLakeStorageErrorError'
+      return:
+        type:
+          - '@azure/abort-controller.DataLakeStorageErrorError'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.DataLakeStorageErrorError'
+    name: DataLakeStorageErrorError
+    spec.typeScript:
+      - name: DataLakeStorageErrorError
+        fullName: DataLakeStorageErrorError
+        uid: '@azure/abort-controller.DataLakeStorageErrorError'

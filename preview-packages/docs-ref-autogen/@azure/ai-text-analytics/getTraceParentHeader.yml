@@ -1,0 +1,28 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.getTraceParentHeader'
+    name: getTraceParentHeader(SpanContext)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Generates a `traceparent` value given a span context.
+    syntax:
+      content: 'function getTraceParentHeader(spanContext: SpanContext)'
+      parameters:
+        - id: spanContext
+          type:
+            - '@azure/abort-controller.SpanContext'
+          description: Contains context for a specific span.
+      return:
+        type:
+          - string | undefined
+        description: The `spanContext` represented as a `traceparent` value.
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.SpanContext'
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@azure/abort-controller.SpanContext'

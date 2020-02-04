@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.BlobBatchDeleteBlobsResponse'
+    name: BlobBatchDeleteBlobsResponse
+    fullName: BlobBatchDeleteBlobsResponse
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: 'Contains response data for the <xref:deleteBlobs> operation.'
+    syntax:
+      content: type BlobBatchDeleteBlobsResponse = BlobBatchSubmitBatchResponse
+    package: '@azure/abort-controller'

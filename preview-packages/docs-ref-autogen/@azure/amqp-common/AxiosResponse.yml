@@ -1,0 +1,115 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.AxiosResponse'
+    name: AxiosResponse
+    fullName: AxiosResponse<T>
+    children:
+      - '@azure/ms-rest-azure-env.AxiosResponse.config'
+      - '@azure/ms-rest-azure-env.AxiosResponse.data'
+      - '@azure/ms-rest-azure-env.AxiosResponse.headers'
+      - '@azure/ms-rest-azure-env.AxiosResponse.request'
+      - '@azure/ms-rest-azure-env.AxiosResponse.status'
+      - '@azure/ms-rest-azure-env.AxiosResponse.statusText'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosResponse.config'
+    name: config
+    fullName: config
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'config: AxiosRequestConfig'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.AxiosRequestConfig'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosResponse.data'
+    name: data
+    fullName: data
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'data: T'
+      return:
+        type:
+          - T
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosResponse.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'headers: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosResponse.request'
+    name: request
+    fullName: request
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'request?: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosResponse.status'
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'status: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.AxiosResponse.statusText'
+    name: statusText
+    fullName: statusText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'statusText: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.AxiosRequestConfig'
+    name: AxiosRequestConfig
+    spec.typeScript:
+      - name: AxiosRequestConfig
+        fullName: AxiosRequestConfig
+        uid: '@azure/ms-rest-azure-env.AxiosRequestConfig'

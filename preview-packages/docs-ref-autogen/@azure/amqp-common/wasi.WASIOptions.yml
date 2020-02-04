@@ -1,0 +1,81 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.wasi.WASIOptions'
+    name: WASIOptions
+    fullName: WASIOptions
+    children:
+      - '@azure/ms-rest-azure-env.wasi.WASIOptions.args'
+      - '@azure/ms-rest-azure-env.wasi.WASIOptions.env'
+      - '@azure/ms-rest-azure-env.wasi.WASIOptions.preopens'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.wasi.WASIOptions.args'
+    name: args
+    fullName: args
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An array of strings that the WebAssembly application will
+
+      see as command line arguments. The first argument is the virtual path to
+      the
+
+      WASI command itself.
+    optional: true
+    syntax:
+      content: 'args?: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.wasi.WASIOptions.env'
+    name: env
+    fullName: env
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      An object similar to `process.env` that the WebAssembly
+      application will see as its environment.
+    optional: true
+    syntax:
+      content: 'env?: undefined | object'
+      return:
+        type:
+          - undefined | object
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.wasi.WASIOptions.preopens'
+    name: preopens
+    fullName: preopens
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      This object represents the WebAssembly application's
+      sandbox directory structure. The string keys of `preopens` are treated as
+      directories within the sandbox. The corresponding values in `preopens` are
+      the real paths to those directories on the host machine.
+    optional: true
+    syntax:
+      content: 'preopens?: undefined | [key: string]: string'
+      return:
+        type:
+          - 'undefined | [key: string]: string'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.wasi.WASIOptions'
+    name: WASIOptions
+    spec.typeScript:
+      - name: WASIOptions
+        fullName: WASIOptions
+        uid: '@azure/ms-rest-azure-env.wasi.WASIOptions'

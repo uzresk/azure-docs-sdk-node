@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.PathDeleteResponse'
+  - uid: '@azure/abort-controller.PathDeleteResponse'
     name: PathDeleteResponse
     fullName: PathDeleteResponse
     children: []
@@ -10,4 +10,4 @@ items:
     summary: Contains response data for the deleteMethod operation.
     syntax:
       content: 'type PathDeleteResponse = PathDeleteHeaders & { _response: Object }'
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

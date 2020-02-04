@@ -1,0 +1,105 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.Plugin'
+    name: Plugin
+    fullName: Plugin<T>
+    children:
+      - '@opentelemetry/types.Plugin.disable'
+      - '@opentelemetry/types.Plugin.enable'
+      - '@opentelemetry/types.Plugin.supportedVersions'
+    langs:
+      - typeScript
+    type: interface
+    summary: Interface Plugin to apply patch.
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Plugin.disable'
+    name: disable()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Method to disable the instrumentation
+    syntax:
+      content: function disable()
+      parameters: []
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Plugin.enable'
+    name: 'enable(T, Tracer, Logger, PluginConfig)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Method that enables the instrumentation patch.
+    syntax:
+      content: >-
+        function enable(moduleExports: T, tracer: Tracer, logger: Logger,
+        config?: PluginConfig)
+      parameters:
+        - id: moduleExports
+          type:
+            - T
+          description: |-
+            The value of the `module.exports` property that would
+                normally be exposed by the required module. ex: `http`, `https` etc.
+        - id: tracer
+          type:
+            - '@opentelemetry/types.Tracer'
+          description: a tracer instance.
+        - id: logger
+          type:
+            - '@opentelemetry/types.Logger'
+          description: a logger instance.
+        - id: config
+          type:
+            - '@opentelemetry/types.PluginConfig'
+          description: ''
+          optional: true
+      return:
+        type:
+          - T
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.Plugin.supportedVersions'
+    name: supportedVersions
+    fullName: supportedVersions
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Contains all supported versions.
+
+      All versions must be compatible with
+      [semver](https://semver.org/spec/v2.0.0.html) format.
+
+      If the version is not supported, we won't apply instrumentation patch (see
+      `enable` method).
+
+      If omitted, all versions of the module will be patched.
+    optional: true
+    syntax:
+      content: 'supportedVersions?: string[]'
+      return:
+        type:
+          - 'string[]'
+        description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.Tracer'
+    name: Tracer
+    spec.typeScript:
+      - name: Tracer
+        fullName: Tracer
+        uid: '@opentelemetry/types.Tracer'
+  - uid: '@opentelemetry/types.Logger'
+    name: Logger
+    spec.typeScript:
+      - name: Logger
+        fullName: Logger
+        uid: '@opentelemetry/types.Logger'
+  - uid: '@opentelemetry/types.PluginConfig'
+    name: PluginConfig
+    spec.typeScript:
+      - name: PluginConfig
+        fullName: PluginConfig
+        uid: '@opentelemetry/types.PluginConfig'

@@ -1,12 +1,12 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.SentimentConfidenceScorePerLabel'
+  - uid: '@azure/abort-controller.SentimentConfidenceScorePerLabel'
     name: SentimentConfidenceScorePerLabel
     fullName: SentimentConfidenceScorePerLabel
     children:
-      - '@azure/ai-text-analytics.SentimentConfidenceScorePerLabel.negative'
-      - '@azure/ai-text-analytics.SentimentConfidenceScorePerLabel.neutral'
-      - '@azure/ai-text-analytics.SentimentConfidenceScorePerLabel.positive'
+      - '@azure/abort-controller.SentimentConfidenceScorePerLabel.negative'
+      - '@azure/abort-controller.SentimentConfidenceScorePerLabel.neutral'
+      - '@azure/abort-controller.SentimentConfidenceScorePerLabel.positive'
     langs:
       - typeScript
     type: interface
@@ -15,8 +15,8 @@ items:
       classes: positive,
 
       neutral, negative.
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.SentimentConfidenceScorePerLabel.negative'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SentimentConfidenceScorePerLabel.negative'
     name: negative
     fullName: negative
     children: []
@@ -30,8 +30,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.SentimentConfidenceScorePerLabel.neutral'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SentimentConfidenceScorePerLabel.neutral'
     name: neutral
     fullName: neutral
     children: []
@@ -45,8 +45,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.SentimentConfidenceScorePerLabel.positive'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.SentimentConfidenceScorePerLabel.positive'
     name: positive
     fullName: positive
     children: []
@@ -60,4 +60,4 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'

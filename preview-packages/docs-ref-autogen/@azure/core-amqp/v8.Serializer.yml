@@ -1,0 +1,214 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.v8.Serializer
+    name: Serializer
+    fullName: Serializer
+    children:
+      - tslib.v8.Serializer.releaseBuffer
+      - tslib.v8.Serializer.transferArrayBuffer
+      - tslib.v8.Serializer.writeDouble
+      - tslib.v8.Serializer.writeHeader
+      - tslib.v8.Serializer.writeRawBytes
+      - tslib.v8.Serializer.writeUint32
+      - tslib.v8.Serializer.writeUint64
+      - tslib.v8.Serializer.writeValue
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: tslib
+  - uid: tslib.v8.Serializer.releaseBuffer
+    name: releaseBuffer()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Returns the stored internal buffer.
+
+      This serializer should not be used once the buffer is released.
+
+      Calling this method results in undefined behavior if a previous write has
+      failed.
+    syntax:
+      content: function releaseBuffer()
+      parameters: []
+      return:
+        type:
+          - Buffer
+        description: ''
+    package: tslib
+  - uid: tslib.v8.Serializer.transferArrayBuffer
+    name: 'transferArrayBuffer(number, ArrayBuffer)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Marks an ArrayBuffer as having its contents transferred out of band.\
+
+      Pass the corresponding ArrayBuffer in the deserializing context to
+      deserializer.transferArrayBuffer().
+    syntax:
+      content: 'function transferArrayBuffer(id: number, arrayBuffer: ArrayBuffer)'
+      parameters:
+        - id: id
+          type:
+            - number
+          description: ''
+        - id: arrayBuffer
+          type:
+            - ArrayBuffer
+          description: ''
+    package: tslib
+  - uid: tslib.v8.Serializer.writeDouble
+    name: writeDouble(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Write a JS number value.
+    syntax:
+      content: 'function writeDouble(value: number)'
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+    package: tslib
+  - uid: tslib.v8.Serializer.writeHeader
+    name: writeHeader()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Writes out a header, which includes the serialization format version.'
+    syntax:
+      content: function writeHeader()
+      parameters: []
+    package: tslib
+  - uid: tslib.v8.Serializer.writeRawBytes
+    name: writeRawBytes(NodeJS.TypedArray)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Write raw bytes into the serializer’s internal buffer.
+      The deserializer will require a way to compute the length of the buffer.
+    syntax:
+      content: 'function writeRawBytes(buffer: NodeJS.TypedArray)'
+      parameters:
+        - id: buffer
+          type:
+            - tslib.NodeJS.TypedArray
+          description: ''
+    package: tslib
+  - uid: tslib.v8.Serializer.writeUint32
+    name: writeUint32(number)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Write a raw 32-bit unsigned integer.
+    syntax:
+      content: 'function writeUint32(value: number)'
+      parameters:
+        - id: value
+          type:
+            - number
+          description: ''
+    package: tslib
+  - uid: tslib.v8.Serializer.writeUint64
+    name: 'writeUint64(number, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Write a raw 64-bit unsigned integer, split into high and low 32-bit parts.'
+    syntax:
+      content: 'function writeUint64(hi: number, lo: number)'
+      parameters:
+        - id: hi
+          type:
+            - number
+          description: ''
+        - id: lo
+          type:
+            - number
+          description: ''
+    package: tslib
+  - uid: tslib.v8.Serializer.writeValue
+    name: writeValue(any)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Serializes a JavaScript value and adds the serialized representation to
+      the internal buffer.
+
+      This throws an error if value cannot be serialized.
+    syntax:
+      content: 'function writeValue(val: any)'
+      parameters:
+        - id: val
+          type:
+            - any
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.v8.Deserializer
+    name: Deserializer
+    spec.typeScript:
+      - name: Deserializer
+        fullName: Deserializer
+        uid: tslib.v8.Deserializer
+  - uid: tslib.NodeJS.TypedArray
+    name: TypedArray
+    spec.typeScript:
+      - name: TypedArray
+        fullName: TypedArray
+        uid: tslib.NodeJS.TypedArray
+  - uid: tslib.v8.Serializer
+    name: Serializer
+    spec.typeScript:
+      - name: Serializer
+        fullName: Serializer
+        uid: tslib.v8.Serializer
+  - uid: tslib.v8.DoesZapCodeSpaceFlag
+    name: DoesZapCodeSpaceFlag
+    spec.typeScript:
+      - name: DoesZapCodeSpaceFlag
+        fullName: DoesZapCodeSpaceFlag
+        uid: tslib.v8.DoesZapCodeSpaceFlag
+  - uid: tslib.v8.HeapCodeStatistics
+    name: HeapCodeStatistics
+    spec.typeScript:
+      - name: HeapCodeStatistics
+        fullName: HeapCodeStatistics
+        uid: tslib.v8.HeapCodeStatistics
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: 'tslib.v8.HeapSpaceInfo[]'
+    name: 'HeapSpaceInfo[]'
+    spec.typeScript:
+      - name: HeapSpaceInfo
+        fullName: HeapSpaceInfo
+        uid: tslib.v8.HeapSpaceInfo
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.v8.HeapInfo
+    name: HeapInfo
+    spec.typeScript:
+      - name: HeapInfo
+        fullName: HeapInfo
+        uid: tslib.v8.HeapInfo

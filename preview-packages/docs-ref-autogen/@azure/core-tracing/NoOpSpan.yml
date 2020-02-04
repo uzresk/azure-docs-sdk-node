@@ -1,25 +1,25 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-tracing.NoOpSpan'
+  - uid: '@opentelemetry/types.NoOpSpan'
     name: NoOpSpan
     fullName: NoOpSpan
     children:
-      - '@azure/core-tracing.NoOpSpan.addEvent'
-      - '@azure/core-tracing.NoOpSpan.context'
-      - '@azure/core-tracing.NoOpSpan.end'
-      - '@azure/core-tracing.NoOpSpan.isRecording'
-      - '@azure/core-tracing.NoOpSpan.setAttribute'
-      - '@azure/core-tracing.NoOpSpan.setAttributes'
-      - '@azure/core-tracing.NoOpSpan.setStatus'
-      - '@azure/core-tracing.NoOpSpan.updateName'
+      - '@opentelemetry/types.NoOpSpan.addEvent'
+      - '@opentelemetry/types.NoOpSpan.context'
+      - '@opentelemetry/types.NoOpSpan.end'
+      - '@opentelemetry/types.NoOpSpan.isRecording'
+      - '@opentelemetry/types.NoOpSpan.setAttribute'
+      - '@opentelemetry/types.NoOpSpan.setAttributes'
+      - '@opentelemetry/types.NoOpSpan.setStatus'
+      - '@opentelemetry/types.NoOpSpan.updateName'
     langs:
       - typeScript
     type: class
     summary: >-
       A no-op implementation of Span that can safely be used without
       side-effects.
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.NoOpSpan.addEvent'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.NoOpSpan.addEvent'
     name: 'addEvent(string, Attributes)'
     children: []
     type: method
@@ -35,7 +35,7 @@ items:
           description: The name of the event
         - id: _attributes
           type:
-            - Attributes
+            - '@opentelemetry/types.Attributes'
           description: |
             The associated attributes to add for this event
           optional: true
@@ -43,8 +43,8 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.NoOpSpan.context'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.NoOpSpan.context'
     name: context()
     children: []
     type: method
@@ -56,10 +56,10 @@ items:
       parameters: []
       return:
         type:
-          - SpanContext
+          - '@opentelemetry/types.SpanContext'
         description: ''
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.NoOpSpan.end'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.NoOpSpan.end'
     name: end(number)
     children: []
     type: method
@@ -76,8 +76,8 @@ items:
             The time to use as the Span's end time. Defaults to
             the current time.
           optional: true
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.NoOpSpan.isRecording'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.NoOpSpan.isRecording'
     name: isRecording()
     children: []
     type: method
@@ -91,8 +91,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.NoOpSpan.setAttribute'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.NoOpSpan.setAttribute'
     name: 'setAttribute(string, unknown)'
     children: []
     type: method
@@ -115,8 +115,8 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.NoOpSpan.setAttributes'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.NoOpSpan.setAttributes'
     name: setAttributes(Attributes)
     children: []
     type: method
@@ -128,15 +128,15 @@ items:
       parameters:
         - id: _attributes
           type:
-            - Attributes
+            - '@opentelemetry/types.Attributes'
           description: |
             the attributes to add
       return:
         type:
           - this
         description: ''
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.NoOpSpan.setStatus'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.NoOpSpan.setStatus'
     name: setStatus(Status)
     children: []
     type: method
@@ -148,15 +148,15 @@ items:
       parameters:
         - id: _status
           type:
-            - Status
+            - '@opentelemetry/types.Status'
           description: |
             The status to set.
       return:
         type:
           - this
         description: ''
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.NoOpSpan.updateName'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.NoOpSpan.updateName'
     name: updateName(string)
     children: []
     type: method
@@ -175,4 +175,23 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/core-tracing'
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.Attributes'
+    name: Attributes
+    spec.typeScript:
+      - name: Attributes
+        fullName: Attributes
+        uid: '@opentelemetry/types.Attributes'
+  - uid: '@opentelemetry/types.SpanContext'
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@opentelemetry/types.SpanContext'
+  - uid: '@opentelemetry/types.Status'
+    name: Status
+    spec.typeScript:
+      - name: Status
+        fullName: Status
+        uid: '@opentelemetry/types.Status'

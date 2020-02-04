@@ -1,0 +1,121 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.TracerConfig'
+    name: TracerConfig
+    fullName: TracerConfig
+    children:
+      - '@azure/abort-controller.TracerConfig.defaultAttributes'
+      - '@azure/abort-controller.TracerConfig.logger'
+      - '@azure/abort-controller.TracerConfig.propagation'
+      - '@azure/abort-controller.TracerConfig.samplingRate'
+      - '@azure/abort-controller.TracerConfig.traceParams'
+    langs:
+      - typeScript
+    type: interface
+    summary: Defines tracer configuration parameters
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TracerConfig.defaultAttributes'
+    name: defaultAttributes
+    fullName: defaultAttributes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'A set of default attributes each in the format [KEY]:[VALUE]'
+    optional: true
+    syntax:
+      content: 'defaultAttributes?: Attributes'
+      return:
+        type:
+          - '@azure/abort-controller.Attributes'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TracerConfig.logger'
+    name: logger
+    fullName: logger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A logger object
+    optional: true
+    syntax:
+      content: 'logger?: Logger'
+      return:
+        type:
+          - '@azure/abort-controller.Logger'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TracerConfig.propagation'
+    name: propagation
+    fullName: propagation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A propagation instance
+    optional: true
+    syntax:
+      content: 'propagation?: Propagation'
+      return:
+        type:
+          - '@azure/abort-controller.Propagation'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TracerConfig.samplingRate'
+    name: samplingRate
+    fullName: samplingRate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Determines the sampling rate. Ranges from 0.0 to 1.0
+    optional: true
+    syntax:
+      content: 'samplingRate?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TracerConfig.traceParams'
+    name: traceParams
+    fullName: traceParams
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Trace Parameters
+    optional: true
+    syntax:
+      content: 'traceParams?: TraceParams'
+      return:
+        type:
+          - '@azure/abort-controller.TraceParams'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Attributes'
+    name: Attributes
+    spec.typeScript:
+      - name: Attributes
+        fullName: Attributes
+        uid: '@azure/abort-controller.Attributes'
+  - uid: '@azure/abort-controller.Logger'
+    name: Logger
+    spec.typeScript:
+      - name: Logger
+        fullName: Logger
+        uid: '@azure/abort-controller.Logger'
+  - uid: '@azure/abort-controller.Propagation'
+    name: Propagation
+    spec.typeScript:
+      - name: Propagation
+        fullName: Propagation
+        uid: '@azure/abort-controller.Propagation'
+  - uid: '@azure/abort-controller.TraceParams'
+    name: TraceParams
+    spec.typeScript:
+      - name: TraceParams
+        fullName: TraceParams
+        uid: '@azure/abort-controller.TraceParams'

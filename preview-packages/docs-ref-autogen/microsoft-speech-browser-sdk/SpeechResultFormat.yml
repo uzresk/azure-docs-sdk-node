@@ -4,21 +4,12 @@ items:
     name: SpeechResultFormat
     fullName: SpeechResultFormat
     children:
-      - microsoft-speech-browser-sdk.SpeechResultFormat.Simple
       - microsoft-speech-browser-sdk.SpeechResultFormat.Detailed
+      - microsoft-speech-browser-sdk.SpeechResultFormat.Simple
     langs:
       - typeScript
     type: enum
     summary: ''
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.SpeechResultFormat.Simple
-    name: Simple
-    children: []
-    langs:
-      - typeScript
-    summary: ''
-    type: field
-    numericValue: 0
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.SpeechResultFormat.Detailed
     name: Detailed
@@ -27,5 +18,12 @@ items:
       - typeScript
     summary: ''
     type: field
-    numericValue: 1
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.SpeechResultFormat.Simple
+    name: Simple
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
     package: microsoft-speech-browser-sdk

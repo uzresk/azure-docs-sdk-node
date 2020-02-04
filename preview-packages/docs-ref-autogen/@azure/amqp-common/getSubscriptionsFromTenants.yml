@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.getSubscriptionsFromTenants'
+    name: 'getSubscriptionsFromTenants(TokenCredentialsBase, string[], string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function getSubscriptionsFromTenants(credentials: TokenCredentialsBase,
+        tenantList: string[], apiVersion: string)
+      parameters:
+        - id: credentials
+          type:
+            - '@azure/ms-rest-azure-env.TokenCredentialsBase'
+          description: ''
+        - id: tenantList
+          type:
+            - 'string[]'
+          description: ''
+        - id: apiVersion
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - 'Promise<@azure/ms-rest-azure-env.LinkedSubscription[]>'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.TokenCredentialsBase'
+    name: TokenCredentialsBase
+    spec.typeScript:
+      - name: TokenCredentialsBase
+        fullName: TokenCredentialsBase
+        uid: '@azure/ms-rest-azure-env.TokenCredentialsBase'
+  - uid: 'Promise<@azure/ms-rest-azure-env.LinkedSubscription[]>'
+    name: 'LinkedSubscription[]>'
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: LinkedSubscription
+        fullName: LinkedSubscription
+        uid: '@azure/ms-rest-azure-env.LinkedSubscription'
+      - name: '[]>'
+        fullName: '[]>'

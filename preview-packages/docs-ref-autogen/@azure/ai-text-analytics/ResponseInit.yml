@@ -1,0 +1,120 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.ResponseInit'
+    name: ResponseInit
+    fullName: ResponseInit
+    children:
+      - '@azure/abort-controller.ResponseInit.headers'
+      - '@azure/abort-controller.ResponseInit.size'
+      - '@azure/abort-controller.ResponseInit.status'
+      - '@azure/abort-controller.ResponseInit.statusText'
+      - '@azure/abort-controller.ResponseInit.timeout'
+      - '@azure/abort-controller.ResponseInit.url'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ResponseInit.headers'
+    name: headers
+    fullName: headers
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'headers?: HeadersInit'
+      return:
+        type:
+          - '@azure/abort-controller.HeadersInit'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ResponseInit.size'
+    name: size
+    fullName: size
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'size?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ResponseInit.status'
+    name: status
+    fullName: status
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'status?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ResponseInit.statusText'
+    name: statusText
+    fullName: statusText
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'statusText?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ResponseInit.timeout'
+    name: timeout
+    fullName: timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'timeout?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ResponseInit.url'
+    name: url
+    fullName: url
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'url?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.HeadersInit'
+    name: HeadersInit
+    spec.typeScript:
+      - name: HeadersInit
+        fullName: HeadersInit
+        uid: '@azure/abort-controller.HeadersInit'

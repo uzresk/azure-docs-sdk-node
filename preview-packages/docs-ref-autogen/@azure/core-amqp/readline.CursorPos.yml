@@ -1,0 +1,103 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.readline.CursorPos
+    name: CursorPos
+    fullName: CursorPos
+    children:
+      - tslib.readline.CursorPos.cols
+      - tslib.readline.CursorPos.rows
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: tslib
+  - uid: tslib.readline.CursorPos.cols
+    name: cols
+    fullName: cols
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'cols: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.readline.CursorPos.rows
+    name: rows
+    fullName: rows
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'rows: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.readline.CursorPos
+    name: CursorPos
+    spec.typeScript:
+      - name: CursorPos
+        fullName: CursorPos
+        uid: tslib.readline.CursorPos
+  - uid: tslib.readline.Key
+    name: Key
+    spec.typeScript:
+      - name: Key
+        fullName: Key
+        uid: tslib.readline.Key
+  - uid: tslib.readline.Completer | tslib.readline.AsyncCompleter
+    name: AsyncCompleter
+    spec.typeScript:
+      - name: Completer
+        fullName: Completer
+        uid: tslib.readline.Completer
+      - name: ' | '
+        fullName: ' | '
+      - name: AsyncCompleter
+        fullName: AsyncCompleter
+        uid: tslib.readline.AsyncCompleter
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.readline.Direction
+    name: Direction
+    spec.typeScript:
+      - name: Direction
+        fullName: Direction
+        uid: tslib.readline.Direction
+  - uid: tslib.readline.Interface
+    name: Interface
+    spec.typeScript:
+      - name: Interface
+        fullName: Interface
+        uid: tslib.readline.Interface
+  - uid: tslib.readline.ReadLineOptions
+    name: ReadLineOptions
+    spec.typeScript:
+      - name: ReadLineOptions
+        fullName: ReadLineOptions
+        uid: tslib.readline.ReadLineOptions

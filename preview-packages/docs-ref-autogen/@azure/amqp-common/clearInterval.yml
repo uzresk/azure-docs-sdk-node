@@ -1,0 +1,17 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.clearInterval'
+    name: clearInterval(Timer)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function clearInterval(intervalId: Timer)'
+      parameters:
+        - id: intervalId
+          type:
+            - Timer
+          description: ''
+    package: '@azure/ms-rest-azure-env'

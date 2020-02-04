@@ -1,0 +1,205 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.MapperConstraints'
+    name: MapperConstraints
+    fullName: MapperConstraints
+    children:
+      - '@azure/ms-rest-azure-env.MapperConstraints.ExclusiveMaximum'
+      - '@azure/ms-rest-azure-env.MapperConstraints.ExclusiveMinimum'
+      - '@azure/ms-rest-azure-env.MapperConstraints.InclusiveMaximum'
+      - '@azure/ms-rest-azure-env.MapperConstraints.InclusiveMinimum'
+      - '@azure/ms-rest-azure-env.MapperConstraints.MaxItems'
+      - '@azure/ms-rest-azure-env.MapperConstraints.MaxLength'
+      - '@azure/ms-rest-azure-env.MapperConstraints.MinItems'
+      - '@azure/ms-rest-azure-env.MapperConstraints.MinLength'
+      - '@azure/ms-rest-azure-env.MapperConstraints.MultipleOf'
+      - '@azure/ms-rest-azure-env.MapperConstraints.Pattern'
+      - '@azure/ms-rest-azure-env.MapperConstraints.UniqueItems'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MapperConstraints.ExclusiveMaximum'
+    name: ExclusiveMaximum
+    fullName: ExclusiveMaximum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'ExclusiveMaximum?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MapperConstraints.ExclusiveMinimum'
+    name: ExclusiveMinimum
+    fullName: ExclusiveMinimum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'ExclusiveMinimum?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MapperConstraints.InclusiveMaximum'
+    name: InclusiveMaximum
+    fullName: InclusiveMaximum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'InclusiveMaximum?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MapperConstraints.InclusiveMinimum'
+    name: InclusiveMinimum
+    fullName: InclusiveMinimum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'InclusiveMinimum?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MapperConstraints.MaxItems'
+    name: MaxItems
+    fullName: MaxItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'MaxItems?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MapperConstraints.MaxLength'
+    name: MaxLength
+    fullName: MaxLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'MaxLength?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MapperConstraints.MinItems'
+    name: MinItems
+    fullName: MinItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'MinItems?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MapperConstraints.MinLength'
+    name: MinLength
+    fullName: MinLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'MinLength?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MapperConstraints.MultipleOf'
+    name: MultipleOf
+    fullName: MultipleOf
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'MultipleOf?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MapperConstraints.Pattern'
+    name: Pattern
+    fullName: Pattern
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'Pattern?: RegExp'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.NodeJS.Global.RegExp'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.MapperConstraints.UniqueItems'
+    name: UniqueItems
+    fullName: UniqueItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'UniqueItems?: undefined | true'
+      return:
+        type:
+          - undefined | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Global.RegExp'
+    name: RegExp
+    spec.typeScript:
+      - name: RegExp
+        fullName: RegExp
+        uid: '@azure/ms-rest-azure-env.NodeJS.Global.RegExp'

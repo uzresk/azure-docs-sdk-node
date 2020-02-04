@@ -1,0 +1,13 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.Config'
+    name: Config
+    fullName: Config
+    children: []
+    langs:
+      - typeScript
+    type: type alias
+    summary: ''
+    syntax:
+      content: type Config = TracingConfig & TracerConfig & BufferConfig
+    package: '@opentelemetry/types'

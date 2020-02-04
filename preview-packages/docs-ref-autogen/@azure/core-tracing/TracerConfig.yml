@@ -1,0 +1,121 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@opentelemetry/types.TracerConfig'
+    name: TracerConfig
+    fullName: TracerConfig
+    children:
+      - '@opentelemetry/types.TracerConfig.defaultAttributes'
+      - '@opentelemetry/types.TracerConfig.logger'
+      - '@opentelemetry/types.TracerConfig.propagation'
+      - '@opentelemetry/types.TracerConfig.samplingRate'
+      - '@opentelemetry/types.TracerConfig.traceParams'
+    langs:
+      - typeScript
+    type: interface
+    summary: Defines tracer configuration parameters
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.TracerConfig.defaultAttributes'
+    name: defaultAttributes
+    fullName: defaultAttributes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'A set of default attributes each in the format [KEY]:[VALUE]'
+    optional: true
+    syntax:
+      content: 'defaultAttributes?: Attributes'
+      return:
+        type:
+          - '@opentelemetry/types.Attributes'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.TracerConfig.logger'
+    name: logger
+    fullName: logger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A logger object
+    optional: true
+    syntax:
+      content: 'logger?: Logger'
+      return:
+        type:
+          - '@opentelemetry/types.Logger'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.TracerConfig.propagation'
+    name: propagation
+    fullName: propagation
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: A propagation instance
+    optional: true
+    syntax:
+      content: 'propagation?: Propagation'
+      return:
+        type:
+          - '@opentelemetry/types.Propagation'
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.TracerConfig.samplingRate'
+    name: samplingRate
+    fullName: samplingRate
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Determines the sampling rate. Ranges from 0.0 to 1.0
+    optional: true
+    syntax:
+      content: 'samplingRate?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.TracerConfig.traceParams'
+    name: traceParams
+    fullName: traceParams
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Trace Parameters
+    optional: true
+    syntax:
+      content: 'traceParams?: TraceParams'
+      return:
+        type:
+          - '@opentelemetry/types.TraceParams'
+        description: ''
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.Attributes'
+    name: Attributes
+    spec.typeScript:
+      - name: Attributes
+        fullName: Attributes
+        uid: '@opentelemetry/types.Attributes'
+  - uid: '@opentelemetry/types.Logger'
+    name: Logger
+    spec.typeScript:
+      - name: Logger
+        fullName: Logger
+        uid: '@opentelemetry/types.Logger'
+  - uid: '@opentelemetry/types.Propagation'
+    name: Propagation
+    spec.typeScript:
+      - name: Propagation
+        fullName: Propagation
+        uid: '@opentelemetry/types.Propagation'
+  - uid: '@opentelemetry/types.TraceParams'
+    name: TraceParams
+    spec.typeScript:
+      - name: TraceParams
+        fullName: TraceParams
+        uid: '@opentelemetry/types.TraceParams'

@@ -1,0 +1,51 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.TracerCache'
+    name: TracerCache
+    fullName: TracerCache
+    children:
+      - '@azure/abort-controller.TracerCache.tracer'
+      - '@azure/abort-controller.TracerCache.version'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TracerCache.tracer'
+    name: tracer
+    fullName: tracer
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'tracer?: Tracer'
+      return:
+        type:
+          - '@azure/abort-controller.Tracer'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.TracerCache.version'
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'version: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Tracer'
+    name: Tracer
+    spec.typeScript:
+      - name: Tracer
+        fullName: Tracer
+        uid: '@azure/abort-controller.Tracer'

@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.readStreamToLocalFile'
+  - uid: '@azure/abort-controller.readStreamToLocalFile'
     name: 'readStreamToLocalFile(ReadableStream, string)'
     children: []
     type: function
@@ -21,7 +21,7 @@ items:
       parameters:
         - id: rs
           type:
-            - ReadableStream
+            - '@azure/abort-controller.NodeJS.ReadableStream'
           description: The read stream.
         - id: file
           type:
@@ -31,4 +31,11 @@ items:
         type:
           - Promise<void>
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: '@azure/abort-controller.NodeJS.ReadableStream'

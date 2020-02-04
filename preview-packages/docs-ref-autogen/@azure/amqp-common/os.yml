@@ -1,0 +1,308 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.os'
+    name: os
+    langs:
+      - typeScript
+    fullName: os
+    children:
+      - '@azure/ms-rest-azure-env.os.arch'
+      - '@azure/ms-rest-azure-env.os.CpuInfo'
+      - '@azure/ms-rest-azure-env.os.cpus'
+      - '@azure/ms-rest-azure-env.os.endianness'
+      - '@azure/ms-rest-azure-env.os.freemem'
+      - '@azure/ms-rest-azure-env.os.homedir'
+      - '@azure/ms-rest-azure-env.os.hostname'
+      - '@azure/ms-rest-azure-env.os.loadavg'
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceBase'
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceInfo'
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4'
+      - '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv6'
+      - '@azure/ms-rest-azure-env.os.networkInterfaces'
+      - '@azure/ms-rest-azure-env.os.platform'
+      - '@azure/ms-rest-azure-env.os.release'
+      - '@azure/ms-rest-azure-env.os.tmpdir'
+      - '@azure/ms-rest-azure-env.os.totalmem'
+      - '@azure/ms-rest-azure-env.os.type'
+      - '@azure/ms-rest-azure-env.os.uptime'
+      - '@azure/ms-rest-azure-env.os.userInfo'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.arch'
+    name: arch()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function arch()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.cpus'
+    name: cpus()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function cpus()
+      parameters: []
+      return:
+        type:
+          - 'CpuInfo[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.endianness'
+    name: endianness()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function endianness()
+      parameters: []
+      return:
+        type:
+          - '"BE" | "LE"'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.freemem'
+    name: freemem()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function freemem()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.homedir'
+    name: homedir()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function homedir()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.hostname'
+    name: hostname()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function hostname()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.loadavg'
+    name: loadavg()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function loadavg()
+      parameters: []
+      return:
+        type:
+          - 'number[]'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.networkInterfaces'
+    name: networkInterfaces()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function networkInterfaces()
+      parameters: []
+      return:
+        type:
+          - '[key: string]: function'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.platform'
+    name: platform()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function platform()
+      parameters: []
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.NodeJS.Platform'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.release'
+    name: release()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function release()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.tmpdir'
+    name: tmpdir()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function tmpdir()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.totalmem'
+    name: totalmem()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function totalmem()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.type'
+    name: type()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function type()
+      parameters: []
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.uptime'
+    name: uptime()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function uptime()
+      parameters: []
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.os.userInfo'
+    name: userInfo(undefined | Object)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function userInfo(options?: undefined | Object)'
+      parameters:
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - Object
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.NodeJS.Platform'
+    name: Platform
+    spec.typeScript:
+      - name: Platform
+        fullName: Platform
+        uid: '@azure/ms-rest-azure-env.NodeJS.Platform'
+  - uid: '@azure/ms-rest-azure-env.os.arch'
+    name: arch
+  - uid: '@azure/ms-rest-azure-env.os.CpuInfo'
+    name: CpuInfo
+  - uid: '@azure/ms-rest-azure-env.os.cpus'
+    name: cpus
+  - uid: '@azure/ms-rest-azure-env.os.endianness'
+    name: endianness
+  - uid: '@azure/ms-rest-azure-env.os.freemem'
+    name: freemem
+  - uid: '@azure/ms-rest-azure-env.os.homedir'
+    name: homedir
+  - uid: '@azure/ms-rest-azure-env.os.hostname'
+    name: hostname
+  - uid: '@azure/ms-rest-azure-env.os.loadavg'
+    name: loadavg
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceBase'
+    name: NetworkInterfaceBase
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceInfo'
+    name: NetworkInterfaceInfo
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv4'
+    name: NetworkInterfaceInfoIPv4
+  - uid: '@azure/ms-rest-azure-env.os.NetworkInterfaceInfoIPv6'
+    name: NetworkInterfaceInfoIPv6
+  - uid: '@azure/ms-rest-azure-env.os.networkInterfaces'
+    name: networkInterfaces
+  - uid: '@azure/ms-rest-azure-env.os.platform'
+    name: platform
+  - uid: '@azure/ms-rest-azure-env.os.release'
+    name: release
+  - uid: '@azure/ms-rest-azure-env.os.tmpdir'
+    name: tmpdir
+  - uid: '@azure/ms-rest-azure-env.os.totalmem'
+    name: totalmem
+  - uid: '@azure/ms-rest-azure-env.os.type'
+    name: type
+  - uid: '@azure/ms-rest-azure-env.os.uptime'
+    name: uptime
+  - uid: '@azure/ms-rest-azure-env.os.userInfo'
+    name: userInfo

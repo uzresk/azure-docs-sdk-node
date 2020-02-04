@@ -21,25 +21,25 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Context: Context'
+      content: Context Context
       return:
         type:
           - microsoft-speech-browser-sdk.Context
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.SpeechConfig.Serialize
-    name: Serialize
-    fullName: Serialize
+    name: Serialize()
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Serialize: () => string'
+      content: function Serialize()
+      parameters: []
       return:
         type:
-          - () => string
+          - string
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.SpeechConfig.constructor

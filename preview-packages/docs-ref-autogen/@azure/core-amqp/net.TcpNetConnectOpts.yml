@@ -1,0 +1,372 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.net.TcpNetConnectOpts
+    name: TcpNetConnectOpts
+    fullName: TcpNetConnectOpts
+    children:
+      - tslib.net.TcpNetConnectOpts.allowHalfOpen
+      - tslib.net.TcpNetConnectOpts.family
+      - tslib.net.TcpNetConnectOpts.fd
+      - tslib.net.TcpNetConnectOpts.hints
+      - tslib.net.TcpNetConnectOpts.host
+      - tslib.net.TcpNetConnectOpts.localAddress
+      - tslib.net.TcpNetConnectOpts.localPort
+      - tslib.net.TcpNetConnectOpts.lookup
+      - tslib.net.TcpNetConnectOpts.onread
+      - tslib.net.TcpNetConnectOpts.port
+      - tslib.net.TcpNetConnectOpts.readable
+      - tslib.net.TcpNetConnectOpts.timeout
+      - tslib.net.TcpNetConnectOpts.writable
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: tslib.net.TcpSocketConnectOpts
+    package: tslib
+  - uid: tslib.net.TcpNetConnectOpts.allowHalfOpen
+    name: allowHalfOpen
+    fullName: allowHalfOpen
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'allowHalfOpen?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.net.TcpNetConnectOpts.family
+    name: family
+    fullName: family
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'family?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.net.TcpNetConnectOpts.fd
+    name: fd
+    fullName: fd
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'fd?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.net.TcpNetConnectOpts.hints
+    name: hints
+    fullName: hints
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'hints?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.net.TcpNetConnectOpts.host
+    name: host
+    fullName: host
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'host?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.net.TcpNetConnectOpts.localAddress
+    name: localAddress
+    fullName: localAddress
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'localAddress?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.net.TcpNetConnectOpts.localPort
+    name: localPort
+    fullName: localPort
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'localPort?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.net.TcpNetConnectOpts.lookup
+    name: lookup
+    fullName: lookup
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'lookup?: LookupFunction'
+      return:
+        type:
+          - tslib.net.LookupFunction
+        description: ''
+    package: tslib
+  - uid: tslib.net.TcpNetConnectOpts.onread
+    name: onread
+    fullName: onread
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If specified, incoming data is stored in a single buffer and passed to the
+      supplied callback when data arrives on the socket.
+
+      Note: this will cause the streaming functionality to not provide any data,
+      however events like 'error', 'end', and 'close' will
+
+      still be emitted as normal and methods like pause() and resume() will also
+      behave as expected.
+    optional: true
+    syntax:
+      content: 'onread?: OnReadOpts'
+      return:
+        type:
+          - tslib.net.OnReadOpts
+        description: ''
+    package: tslib
+  - uid: tslib.net.TcpNetConnectOpts.port
+    name: port
+    fullName: port
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'port: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: tslib
+  - uid: tslib.net.TcpNetConnectOpts.readable
+    name: readable
+    fullName: readable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'readable?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+  - uid: tslib.net.TcpNetConnectOpts.timeout
+    name: timeout
+    fullName: timeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'timeout?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: tslib
+  - uid: tslib.net.TcpNetConnectOpts.writable
+    name: writable
+    fullName: writable
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'writable?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.events.EventEmitter.EventEmitter
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: tslib.events.EventEmitter.EventEmitter
+  - uid: tslib.net.AddressInfo | string | null
+    name: AddressInfo | string | null
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string | null'
+        fullName: ' | string | null'
+  - uid: tslib.net.Socket
+    name: Socket
+    spec.typeScript:
+      - name: Socket
+        fullName: Socket
+        uid: tslib.net.Socket
+  - uid: tslib.net.ListenOptions
+    name: ListenOptions
+    spec.typeScript:
+      - name: ListenOptions
+        fullName: ListenOptions
+        uid: tslib.net.ListenOptions
+  - uid: tslib.stream.internal.Duplex
+    name: Duplex
+    spec.typeScript:
+      - name: Duplex
+        fullName: Duplex
+        uid: tslib.stream.internal.Duplex
+  - uid: tslib.net.SocketConstructorOpts
+    name: SocketConstructorOpts
+    spec.typeScript:
+      - name: SocketConstructorOpts
+        fullName: SocketConstructorOpts
+        uid: tslib.net.SocketConstructorOpts
+  - uid: tslib.net.AddressInfo | string
+    name: AddressInfo | string
+    spec.typeScript:
+      - name: AddressInfo
+        fullName: AddressInfo
+        uid: tslib.net.AddressInfo
+      - name: ' | string'
+        fullName: ' | string'
+  - uid: tslib.net.SocketConnectOpts
+    name: SocketConnectOpts
+    spec.typeScript:
+      - name: SocketConnectOpts
+        fullName: SocketConnectOpts
+        uid: tslib.net.SocketConnectOpts
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.NodeJS.WritableStream
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: tslib.NodeJS.WritableStream
+  - uid: tslib.BufferEncoding
+    name: BufferEncoding
+    spec.typeScript:
+      - name: BufferEncoding
+        fullName: BufferEncoding
+        uid: tslib.BufferEncoding
+  - uid: tslib.NodeJS.ReadableStream
+    name: ReadableStream
+    spec.typeScript:
+      - name: ReadableStream
+        fullName: ReadableStream
+        uid: tslib.NodeJS.ReadableStream
+  - uid: tslib.stream.internal.ReadableOptions
+    name: ReadableOptions
+    spec.typeScript:
+      - name: ReadableOptions
+        fullName: ReadableOptions
+        uid: tslib.stream.internal.ReadableOptions
+  - uid: tslib.stream.internal.Readable
+    name: Readable
+    spec.typeScript:
+      - name: Readable
+        fullName: Readable
+        uid: tslib.stream.internal.Readable
+  - uid: tslib.net.OnReadOpts
+    name: OnReadOpts
+    spec.typeScript:
+      - name: OnReadOpts
+        fullName: OnReadOpts
+        uid: tslib.net.OnReadOpts
+  - uid: tslib.net.IpcSocketConnectOpts
+    name: IpcSocketConnectOpts
+    spec.typeScript:
+      - name: IpcSocketConnectOpts
+        fullName: IpcSocketConnectOpts
+        uid: tslib.net.IpcSocketConnectOpts
+  - uid: tslib.net.ConnectOpts
+    name: ConnectOpts
+    spec.typeScript:
+      - name: ConnectOpts
+        fullName: ConnectOpts
+        uid: tslib.net.ConnectOpts
+  - uid: tslib.net.TcpSocketConnectOpts
+    name: TcpSocketConnectOpts
+    spec.typeScript:
+      - name: TcpSocketConnectOpts
+        fullName: TcpSocketConnectOpts
+        uid: tslib.net.TcpSocketConnectOpts
+  - uid: tslib.net.LookupFunction
+    name: LookupFunction
+    spec.typeScript:
+      - name: LookupFunction
+        fullName: LookupFunction
+        uid: tslib.net.LookupFunction
+  - uid: tslib.net.NetConnectOpts
+    name: NetConnectOpts
+    spec.typeScript:
+      - name: NetConnectOpts
+        fullName: NetConnectOpts
+        uid: tslib.net.NetConnectOpts
+  - uid: tslib.net.Server
+    name: Server
+    spec.typeScript:
+      - name: Server
+        fullName: Server
+        uid: tslib.net.Server

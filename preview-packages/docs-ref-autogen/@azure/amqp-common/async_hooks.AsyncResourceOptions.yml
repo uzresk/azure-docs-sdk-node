@@ -1,0 +1,54 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.async_hooks.AsyncResourceOptions'
+    name: AsyncResourceOptions
+    fullName: AsyncResourceOptions
+    children:
+      - >-
+        @azure/ms-rest-azure-env.async_hooks.AsyncResourceOptions.requireManualDestroy
+      - '@azure/ms-rest-azure-env.async_hooks.AsyncResourceOptions.triggerAsyncId'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: >-
+      @azure/ms-rest-azure-env.async_hooks.AsyncResourceOptions.requireManualDestroy
+    name: requireManualDestroy
+    fullName: requireManualDestroy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Disables automatic `emitDestroy` when the object is garbage collected.
+      This usually does not need to be set (even if `emitDestroy` is called
+      manually), unless the resource's `asyncId` is retrieved and the
+      sensitive API's `emitDestroy` is called with it.
+      Default: `false`
+    optional: true
+    syntax:
+      content: 'requireManualDestroy?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.async_hooks.AsyncResourceOptions.triggerAsyncId'
+    name: triggerAsyncId
+    fullName: triggerAsyncId
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The ID of the execution context that created this async event.
+      Default: `executionAsyncId()`
+    optional: true
+    syntax:
+      content: 'triggerAsyncId?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/ms-rest-azure-env'

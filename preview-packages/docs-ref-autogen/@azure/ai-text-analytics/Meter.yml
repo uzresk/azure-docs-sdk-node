@@ -1,0 +1,149 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Meter'
+    name: Meter
+    fullName: Meter
+    children:
+      - '@azure/abort-controller.Meter.createCounter'
+      - '@azure/abort-controller.Meter.createGauge'
+      - '@azure/abort-controller.Meter.createMeasure'
+    langs:
+      - typeScript
+    type: interface
+    summary: >
+      An interface to allow the recording metrics.
+
+      <xref:Metric>s are used for recording pre-defined aggregation (Gauge and
+
+      Counter), or raw values (<xref:Measure>) in which the aggregation and
+      labels
+
+      for the exported metric are deferred.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Meter.createCounter'
+    name: 'createCounter(string, MetricOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Creates a new counter metric. Generally, this kind of metric when the
+      value is a quantity, the sum is of primary interest, and the event count
+      and value distribution are not of primary interest.
+    syntax:
+      content: 'function createCounter(name: string, options?: MetricOptions)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: the name of the metric.
+        - id: options
+          type:
+            - '@azure/abort-controller.MetricOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - >-
+            @azure/abort-controller.Metric<@azure/abort-controller.CounterHandle>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Meter.createGauge'
+    name: 'createGauge(string, MetricOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Creates a new gauge metric. Generally, this kind of metric should be used
+      when the metric cannot be expressed as a sum or because the measurement
+      interval is arbitrary. Use this kind of metric when the measurement is not
+      a quantity, and the sum and event count are not of interest.
+    syntax:
+      content: 'function createGauge(name: string, options?: MetricOptions)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: the name of the metric.
+        - id: options
+          type:
+            - '@azure/abort-controller.MetricOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/abort-controller.Metric<@azure/abort-controller.GaugeHandle>'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Meter.createMeasure'
+    name: 'createMeasure(string, MetricOptions)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: 'Creates and returns a new <xref:Measure>.'
+    syntax:
+      content: 'function createMeasure(name: string, options?: MetricOptions)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: the name of the metric.
+        - id: options
+          type:
+            - '@azure/abort-controller.MetricOptions'
+          description: ''
+          optional: true
+      return:
+        type:
+          - >-
+            @azure/abort-controller.Metric<@azure/abort-controller.MeasureHandle>
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.MetricOptions'
+    name: MetricOptions
+    spec.typeScript:
+      - name: MetricOptions
+        fullName: MetricOptions
+        uid: '@azure/abort-controller.MetricOptions'
+  - uid: '@azure/abort-controller.Metric<@azure/abort-controller.CounterHandle>'
+    name: CounterHandle>
+    spec.typeScript:
+      - name: Metric
+        fullName: Metric
+        uid: '@azure/abort-controller.Metric'
+      - name: <
+        fullName: <
+      - name: CounterHandle
+        fullName: CounterHandle
+        uid: '@azure/abort-controller.CounterHandle'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.Metric<@azure/abort-controller.GaugeHandle>'
+    name: GaugeHandle>
+    spec.typeScript:
+      - name: Metric
+        fullName: Metric
+        uid: '@azure/abort-controller.Metric'
+      - name: <
+        fullName: <
+      - name: GaugeHandle
+        fullName: GaugeHandle
+        uid: '@azure/abort-controller.GaugeHandle'
+      - name: '>'
+        fullName: '>'
+  - uid: '@azure/abort-controller.Metric<@azure/abort-controller.MeasureHandle>'
+    name: MeasureHandle>
+    spec.typeScript:
+      - name: Metric
+        fullName: Metric
+        uid: '@azure/abort-controller.Metric'
+      - name: <
+        fullName: <
+      - name: MeasureHandle
+        fullName: MeasureHandle
+        uid: '@azure/abort-controller.MeasureHandle'
+      - name: '>'
+        fullName: '>'

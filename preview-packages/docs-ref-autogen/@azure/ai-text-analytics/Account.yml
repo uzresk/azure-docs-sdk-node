@@ -1,0 +1,236 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Account'
+    name: Account
+    fullName: Account
+    children:
+      - '@azure/abort-controller.Account.constructor'
+      - '@azure/abort-controller.Account.accountIdentifier'
+      - '@azure/abort-controller.Account.compareAccounts'
+      - '@azure/abort-controller.Account.environment'
+      - '@azure/abort-controller.Account.homeAccountIdentifier'
+      - '@azure/abort-controller.Account.idToken'
+      - '@azure/abort-controller.Account.idTokenClaims'
+      - '@azure/abort-controller.Account.name'
+      - '@azure/abort-controller.Account.sid'
+      - '@azure/abort-controller.Account.userName'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      accountIdentifier       combination of idToken.uid and idToken.utid
+
+      homeAccountIdentifier   combination of clientInfo.uid and clientInfo.utid
+
+      userName                idToken.preferred_username
+
+      name                    idToken.name
+
+      idToken                 idToken
+
+      sid                     idToken.sid - session identifier
+
+      environment             idtoken.issuer (the authority that issues the
+      token)
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Account.constructor'
+    name: 'Account(string, string, string, string, StringDict, string, string)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: Creates an Account Object
+    syntax:
+      content: >-
+        new Account(accountIdentifier: string, homeAccountIdentifier: string,
+        userName: string, name: string, idTokenClaims: StringDict, sid: string,
+        environment: string)
+      parameters:
+        - id: accountIdentifier
+          type:
+            - string
+          description: ''
+        - id: homeAccountIdentifier
+          type:
+            - string
+          description: ''
+        - id: userName
+          type:
+            - string
+          description: ''
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: idTokenClaims
+          type:
+            - '@azure/abort-controller.StringDict'
+          description: ''
+        - id: sid
+          type:
+            - string
+          description: ''
+        - id: environment
+          type:
+            - string
+          description: |+
+
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Account.accountIdentifier'
+    name: accountIdentifier
+    fullName: accountIdentifier
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'accountIdentifier: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Account.compareAccounts'
+    name: 'compareAccounts(Account, Account)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: >-
+      Utils function to compare two Account objects - used to check if the same
+      user account is logged in
+    syntax:
+      content: 'static function compareAccounts(a1: Account, a2: Account)'
+      parameters:
+        - id: a1
+          type:
+            - '@azure/abort-controller.Account'
+          description: ''
+        - id: a2
+          type:
+            - '@azure/abort-controller.Account'
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Account.environment'
+    name: environment
+    fullName: environment
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'environment: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Account.homeAccountIdentifier'
+    name: homeAccountIdentifier
+    fullName: homeAccountIdentifier
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'homeAccountIdentifier: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Account.idToken'
+    name: idToken
+    fullName: idToken
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'idToken: StringDict'
+      return:
+        type:
+          - '@azure/abort-controller.StringDict'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Account.idTokenClaims'
+    name: idTokenClaims
+    fullName: idTokenClaims
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'idTokenClaims: StringDict'
+      return:
+        type:
+          - '@azure/abort-controller.StringDict'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Account.name'
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Account.sid'
+    name: sid
+    fullName: sid
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'sid: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Account.userName'
+    name: userName
+    fullName: userName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'userName: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.StringDict'
+    name: StringDict
+    spec.typeScript:
+      - name: StringDict
+        fullName: StringDict
+        uid: '@azure/abort-controller.StringDict'
+  - uid: '@azure/abort-controller.Account'
+    name: Account
+    spec.typeScript:
+      - name: Account
+        fullName: Account
+        uid: '@azure/abort-controller.Account'

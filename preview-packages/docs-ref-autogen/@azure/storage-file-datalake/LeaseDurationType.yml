@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.LeaseDurationType'
+  - uid: '@azure/abort-controller.LeaseDurationType'
     name: LeaseDurationType
     fullName: LeaseDurationType
     children: []
@@ -10,4 +10,4 @@ items:
     summary: ''
     syntax:
       content: type LeaseDurationType = "infinite" | "fixed"
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'

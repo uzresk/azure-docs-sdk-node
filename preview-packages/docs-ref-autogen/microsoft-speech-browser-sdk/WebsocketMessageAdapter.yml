@@ -17,18 +17,23 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.WebsocketMessageAdapter.Close
-    name: Close
-    fullName: Close
+    name: Close(string)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Close: (reason?: string) => Promise<boolean>'
+      content: 'function Close(reason?: string)'
+      parameters:
+        - id: reason
+          type:
+            - string
+          description: ''
+          optional: true
       return:
         type:
-          - '(reason?: string) => Promise<boolean>'
+          - microsoft-speech-browser-sdk.Promise<boolean>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.WebsocketMessageAdapter.Events
@@ -40,7 +45,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'Events: EventSource<ConnectionEvent>'
+      content: EventSource<ConnectionEvent> Events
       return:
         type:
           - >-
@@ -48,48 +53,54 @@ items:
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.WebsocketMessageAdapter.Open
-    name: Open
-    fullName: Open
+    name: Open()
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Open: () => Promise<ConnectionOpenResponse>'
+      content: function Open()
+      parameters: []
       return:
         type:
-          - () => Promise<ConnectionOpenResponse>
+          - >-
+            microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.ConnectionOpenResponse>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.WebsocketMessageAdapter.Read
-    name: Read
-    fullName: Read
+    name: Read()
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Read: () => Promise<ConnectionMessage>'
+      content: function Read()
+      parameters: []
       return:
         type:
-          - () => Promise<ConnectionMessage>
+          - >-
+            microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.ConnectionMessage>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.WebsocketMessageAdapter.Send
-    name: Send
-    fullName: Send
+    name: Send(ConnectionMessage)
     children: []
+    type: method
     langs:
       - typeScript
-    type: property
     summary: ''
     syntax:
-      content: 'Send: (message: ConnectionMessage) => Promise<boolean>'
+      content: 'function Send(message: ConnectionMessage)'
+      parameters:
+        - id: message
+          type:
+            - microsoft-speech-browser-sdk.ConnectionMessage
+          description: ''
       return:
         type:
-          - '(message: ConnectionMessage) => Promise<boolean>'
+          - microsoft-speech-browser-sdk.Promise<boolean>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.WebsocketMessageAdapter.State
@@ -101,7 +112,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: 'State: ConnectionState'
+      content: ConnectionState State
       return:
         type:
           - microsoft-speech-browser-sdk.ConnectionState
@@ -159,3 +170,45 @@ references:
       - name: ConnectionState
         fullName: ConnectionState
         uid: microsoft-speech-browser-sdk.ConnectionState
+  - uid: microsoft-speech-browser-sdk.Promise<boolean>
+    name: Promise<boolean>
+    spec.typeScript:
+      - name: Promise
+        fullName: Promise
+        uid: microsoft-speech-browser-sdk.Promise
+      - name: <boolean>
+        fullName: <boolean>
+  - uid: >-
+      microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.ConnectionOpenResponse>
+    name: ConnectionOpenResponse>
+    spec.typeScript:
+      - name: Promise
+        fullName: Promise
+        uid: microsoft-speech-browser-sdk.Promise
+      - name: <
+        fullName: <
+      - name: ConnectionOpenResponse
+        fullName: ConnectionOpenResponse
+        uid: microsoft-speech-browser-sdk.ConnectionOpenResponse
+      - name: '>'
+        fullName: '>'
+  - uid: >-
+      microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.ConnectionMessage>
+    name: ConnectionMessage>
+    spec.typeScript:
+      - name: Promise
+        fullName: Promise
+        uid: microsoft-speech-browser-sdk.Promise
+      - name: <
+        fullName: <
+      - name: ConnectionMessage
+        fullName: ConnectionMessage
+        uid: microsoft-speech-browser-sdk.ConnectionMessage
+      - name: '>'
+        fullName: '>'
+  - uid: microsoft-speech-browser-sdk.ConnectionMessage
+    name: ConnectionMessage
+    spec.typeScript:
+      - name: ConnectionMessage
+        fullName: ConnectionMessage
+        uid: microsoft-speech-browser-sdk.ConnectionMessage

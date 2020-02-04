@@ -1,24 +1,24 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-tracing.OpenCensusTracerWrapper'
+  - uid: '@opentelemetry/types.OpenCensusTracerWrapper'
     name: OpenCensusTracerWrapper
     fullName: OpenCensusTracerWrapper
     children:
-      - '@azure/core-tracing.OpenCensusTracerWrapper.bind'
-      - '@azure/core-tracing.OpenCensusTracerWrapper.getBinaryFormat'
-      - '@azure/core-tracing.OpenCensusTracerWrapper.getCurrentSpan'
-      - '@azure/core-tracing.OpenCensusTracerWrapper.getHttpTextFormat'
-      - '@azure/core-tracing.OpenCensusTracerWrapper.getWrappedTracer'
-      - '@azure/core-tracing.OpenCensusTracerWrapper.constructor'
-      - '@azure/core-tracing.OpenCensusTracerWrapper.recordSpanData'
-      - '@azure/core-tracing.OpenCensusTracerWrapper.startSpan'
-      - '@azure/core-tracing.OpenCensusTracerWrapper.withSpan'
+      - '@opentelemetry/types.OpenCensusTracerWrapper.bind'
+      - '@opentelemetry/types.OpenCensusTracerWrapper.getBinaryFormat'
+      - '@opentelemetry/types.OpenCensusTracerWrapper.getCurrentSpan'
+      - '@opentelemetry/types.OpenCensusTracerWrapper.getHttpTextFormat'
+      - '@opentelemetry/types.OpenCensusTracerWrapper.getWrappedTracer'
+      - '@opentelemetry/types.OpenCensusTracerWrapper.constructor'
+      - '@opentelemetry/types.OpenCensusTracerWrapper.recordSpanData'
+      - '@opentelemetry/types.OpenCensusTracerWrapper.startSpan'
+      - '@opentelemetry/types.OpenCensusTracerWrapper.withSpan'
     langs:
       - typeScript
     type: class
     summary: An implementation of OpenTelemetry Tracer that wraps an OpenCensus Tracer.
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.OpenCensusTracerWrapper.bind'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.OpenCensusTracerWrapper.bind'
     name: 'bind(T, Span)'
     children: []
     type: method
@@ -34,7 +34,7 @@ items:
           description: ''
         - id: _span
           type:
-            - Span
+            - '@opentelemetry/types.Span'
           description: |
             A specific Span to use. Otherwise, use the current one.
           optional: true
@@ -42,8 +42,8 @@ items:
         type:
           - T
         description: ''
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.OpenCensusTracerWrapper.getBinaryFormat'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.OpenCensusTracerWrapper.getBinaryFormat'
     name: getBinaryFormat()
     children: []
     type: method
@@ -55,10 +55,10 @@ items:
       parameters: []
       return:
         type:
-          - BinaryFormat
+          - '@opentelemetry/types.BinaryFormat'
         description: ''
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.OpenCensusTracerWrapper.getCurrentSpan'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.OpenCensusTracerWrapper.getCurrentSpan'
     name: getCurrentSpan()
     children: []
     type: method
@@ -70,10 +70,10 @@ items:
       parameters: []
       return:
         type:
-          - Span | null
+          - '@opentelemetry/types.Span | null'
         description: ''
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.OpenCensusTracerWrapper.getHttpTextFormat'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.OpenCensusTracerWrapper.getHttpTextFormat'
     name: getHttpTextFormat()
     children: []
     type: method
@@ -85,10 +85,10 @@ items:
       parameters: []
       return:
         type:
-          - HttpTextFormat
+          - '@opentelemetry/types.HttpTextFormat'
         description: ''
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.OpenCensusTracerWrapper.getWrappedTracer'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.OpenCensusTracerWrapper.getWrappedTracer'
     name: getWrappedTracer()
     children: []
     type: method
@@ -100,10 +100,10 @@ items:
       parameters: []
       return:
         type:
-          - TracerBase
+          - '@opentelemetry/types.TracerBase'
         description: ''
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.OpenCensusTracerWrapper.constructor'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.OpenCensusTracerWrapper.constructor'
     name: OpenCensusTracerWrapper(TracerBase)
     children: []
     type: constructor
@@ -115,11 +115,11 @@ items:
       parameters:
         - id: tracer
           type:
-            - TracerBase
+            - '@opentelemetry/types.TracerBase'
           description: |
             The OpenCensus Tracer to wrap.
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.OpenCensusTracerWrapper.recordSpanData'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.OpenCensusTracerWrapper.recordSpanData'
     name: recordSpanData(Span)
     children: []
     type: method
@@ -131,11 +131,11 @@ items:
       parameters:
         - id: _span
           type:
-            - Span
+            - '@opentelemetry/types.Span'
           description: |
             The span to pass along.
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.OpenCensusTracerWrapper.startSpan'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.OpenCensusTracerWrapper.startSpan'
     name: 'startSpan(string, SpanOptions)'
     children: []
     type: method
@@ -151,16 +151,16 @@ items:
           description: The name of the span.
         - id: options
           type:
-            - SpanOptions
+            - '@opentelemetry/types.SpanOptions'
           description: |
             The SpanOptions used during Span creation.
           optional: true
       return:
         type:
-          - Span
+          - '@opentelemetry/types.Span'
         description: ''
-    package: '@azure/core-tracing'
-  - uid: '@azure/core-tracing.OpenCensusTracerWrapper.withSpan'
+    package: '@opentelemetry/types'
+  - uid: '@opentelemetry/types.OpenCensusTracerWrapper.withSpan'
     name: 'withSpan(Span, T)'
     children: []
     type: method
@@ -172,7 +172,7 @@ items:
       parameters:
         - id: _span
           type:
-            - Span
+            - '@opentelemetry/types.Span'
           description: The span that provides the context.
         - id: _fn
           type:
@@ -183,4 +183,43 @@ items:
         type:
           - ReturnType<T>
         description: ''
-    package: '@azure/core-tracing'
+    package: '@opentelemetry/types'
+references:
+  - uid: '@opentelemetry/types.TracerBase'
+    name: TracerBase
+    spec.typeScript:
+      - name: TracerBase
+        fullName: TracerBase
+        uid: '@opentelemetry/types.TracerBase'
+  - uid: '@opentelemetry/types.Span'
+    name: Span
+    spec.typeScript:
+      - name: Span
+        fullName: Span
+        uid: '@opentelemetry/types.Span'
+  - uid: '@opentelemetry/types.BinaryFormat'
+    name: BinaryFormat
+    spec.typeScript:
+      - name: BinaryFormat
+        fullName: BinaryFormat
+        uid: '@opentelemetry/types.BinaryFormat'
+  - uid: '@opentelemetry/types.Span | null'
+    name: Span | null
+    spec.typeScript:
+      - name: Span
+        fullName: Span
+        uid: '@opentelemetry/types.Span'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@opentelemetry/types.HttpTextFormat'
+    name: HttpTextFormat
+    spec.typeScript:
+      - name: HttpTextFormat
+        fullName: HttpTextFormat
+        uid: '@opentelemetry/types.HttpTextFormat'
+  - uid: '@opentelemetry/types.SpanOptions'
+    name: SpanOptions
+    spec.typeScript:
+      - name: SpanOptions
+        fullName: SpanOptions
+        uid: '@opentelemetry/types.SpanOptions'

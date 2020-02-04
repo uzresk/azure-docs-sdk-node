@@ -1,21 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.Entity'
+  - uid: '@azure/abort-controller.Entity'
     name: Entity
     fullName: Entity
     children:
-      - '@azure/ai-text-analytics.Entity.length'
-      - '@azure/ai-text-analytics.Entity.offset'
-      - '@azure/ai-text-analytics.Entity.score'
-      - '@azure/ai-text-analytics.Entity.subtype'
-      - '@azure/ai-text-analytics.Entity.text'
-      - '@azure/ai-text-analytics.Entity.type'
+      - '@azure/abort-controller.Entity.length'
+      - '@azure/abort-controller.Entity.offset'
+      - '@azure/abort-controller.Entity.score'
+      - '@azure/abort-controller.Entity.subtype'
+      - '@azure/abort-controller.Entity.text'
+      - '@azure/abort-controller.Entity.type'
     langs:
       - typeScript
     type: interface
     summary: An interface representing Entity.
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.Entity.length'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Entity.length'
     name: length
     fullName: length
     children: []
@@ -29,8 +29,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.Entity.offset'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Entity.offset'
     name: offset
     fullName: offset
     children: []
@@ -44,8 +44,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.Entity.score'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Entity.score'
     name: score
     fullName: score
     children: []
@@ -59,8 +59,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.Entity.subtype'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Entity.subtype'
     name: subtype
     fullName: subtype
     children: []
@@ -75,8 +75,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.Entity.text'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Entity.text'
     name: text
     fullName: text
     children: []
@@ -90,8 +90,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.Entity.type'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Entity.type'
     name: type
     fullName: type
     children: []
@@ -105,4 +105,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'

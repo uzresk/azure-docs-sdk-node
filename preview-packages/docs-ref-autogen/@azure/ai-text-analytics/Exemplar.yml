@@ -1,0 +1,71 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Exemplar'
+    name: Exemplar
+    fullName: Exemplar
+    children:
+      - '@azure/abort-controller.Exemplar.attachments'
+      - '@azure/abort-controller.Exemplar.timestamp'
+      - '@azure/abort-controller.Exemplar.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Exemplars are example points that may be used to annotate aggregated
+      Distribution values. They are metadata that gives information about a
+      particular value added to a Distribution bucket.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Exemplar.attachments'
+    name: attachments
+    fullName: attachments
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Contextual information about the example value.
+    syntax:
+      content: 'attachments: [key: string]: string'
+      return:
+        type:
+          - '[key: string]: string'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Exemplar.timestamp'
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The observation (sampling) time of the above value.
+    syntax:
+      content: 'timestamp: Timestamp'
+      return:
+        type:
+          - '@azure/abort-controller.Timestamp'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Exemplar.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Value of the exemplar point. It determines which bucket the exemplar
+      belongs to.
+    syntax:
+      content: 'value: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Timestamp'
+    name: Timestamp
+    spec.typeScript:
+      - name: Timestamp
+        fullName: Timestamp
+        uid: '@azure/abort-controller.Timestamp'

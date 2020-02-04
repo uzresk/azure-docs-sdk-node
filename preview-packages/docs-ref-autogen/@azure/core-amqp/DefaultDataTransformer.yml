@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.DefaultDataTransformer'
+  - uid: tslib.DefaultDataTransformer
     name: DefaultDataTransformer
     fullName: DefaultDataTransformer
     children:
-      - '@azure/core-amqp.DefaultDataTransformer.decode'
-      - '@azure/core-amqp.DefaultDataTransformer.encode'
+      - tslib.DefaultDataTransformer.decode
+      - tslib.DefaultDataTransformer.encode
     langs:
       - typeScript
     type: class
     summary: The default data transformer that will be used by the Azure SDK.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.DefaultDataTransformer.decode'
+    package: tslib
+  - uid: tslib.DefaultDataTransformer.decode
     name: decode(any)
     children: []
     type: method
@@ -38,8 +38,8 @@ items:
         type:
           - any
         description: decoded body or the given body as-is.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.DefaultDataTransformer.encode'
+    package: tslib
+  - uid: tslib.DefaultDataTransformer.encode
     name: encode(any)
     children: []
     type: method
@@ -69,4 +69,4 @@ items:
           - content: The given AMQP message body as a Buffer.
 
           - multiple: true | undefined.
-    package: '@azure/core-amqp'
+    package: tslib

@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.delay'
+  - uid: '@azure/abort-controller.delay'
     name: 'delay(number, AbortSignalLike, Error)'
     children: []
     type: function
@@ -18,16 +18,29 @@ items:
           description: ''
         - id: aborter
           type:
-            - AbortSignalLike
+            - '@azure/abort-controller.AbortSignalLike'
           description: ''
           optional: true
         - id: abortError
           type:
-            - Error
+            - '@azure/abort-controller.AbortError.Error'
           description: ''
           optional: true
       return:
         type:
           - Promise<unknown>
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.AbortError.Error'
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: '@azure/abort-controller.AbortError.Error'

@@ -1,0 +1,45 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.ParameterValue'
+    name: ParameterValue
+    fullName: ParameterValue
+    children:
+      - '@azure/ms-rest-azure-env.ParameterValue.skipUrlEncoding'
+      - '@azure/ms-rest-azure-env.ParameterValue.value'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      The Parameter value provided for path or query parameters in
+      RequestPrepareOptions
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ParameterValue.skipUrlEncoding'
+    name: skipUrlEncoding
+    fullName: skipUrlEncoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'skipUrlEncoding: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.ParameterValue.value'
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'value: any'
+      return:
+        type:
+          - any
+        description: ''
+    package: '@azure/ms-rest-azure-env'

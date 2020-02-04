@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.TagKey
+    name: TagKey
+    fullName: TagKey
+    children:
+      - tslib.TagKey.name
+    langs:
+      - typeScript
+    type: interface
+    summary: TagKey represents a tag key
+    package: tslib
+  - uid: tslib.TagKey.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the key.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib

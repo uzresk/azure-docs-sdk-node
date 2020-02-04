@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.trace_events'
+    name: trace_events
+    langs:
+      - typeScript
+    fullName: trace_events
+    children:
+      - '@azure/ms-rest-azure-env.trace_events.createTracing'
+      - '@azure/ms-rest-azure-env.trace_events.CreateTracingOptions'
+      - '@azure/ms-rest-azure-env.trace_events.getEnabledCategories'
+      - '@azure/ms-rest-azure-env.trace_events.Tracing'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.trace_events.createTracing'
+    name: createTracing(CreateTracingOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: Creates and returns a Tracing object for the given set of categories.
+    syntax:
+      content: 'function createTracing(options: CreateTracingOptions)'
+      parameters:
+        - id: options
+          type:
+            - '@azure/ms-rest-azure-env.trace_events.CreateTracingOptions'
+          description: ''
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.trace_events.Tracing'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.trace_events.getEnabledCategories'
+    name: getEnabledCategories()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: |-
+      Returns a comma-separated list of all currently-enabled trace event
+      categories. The current set of enabled trace event categories is
+      determined by the union of all currently-enabled `Tracing` objects and
+      any categories enabled using the `--trace-event-categories` flag.
+    syntax:
+      content: function getEnabledCategories()
+      parameters: []
+      return:
+        type:
+          - string | undefined
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.trace_events.CreateTracingOptions'
+    name: CreateTracingOptions
+    spec.typeScript:
+      - name: CreateTracingOptions
+        fullName: CreateTracingOptions
+        uid: '@azure/ms-rest-azure-env.trace_events.CreateTracingOptions'
+  - uid: '@azure/ms-rest-azure-env.trace_events.Tracing'
+    name: Tracing
+    spec.typeScript:
+      - name: Tracing
+        fullName: Tracing
+        uid: '@azure/ms-rest-azure-env.trace_events.Tracing'
+  - uid: '@azure/ms-rest-azure-env.trace_events.createTracing'
+    name: createTracing
+  - uid: '@azure/ms-rest-azure-env.trace_events.getEnabledCategories'
+    name: getEnabledCategories

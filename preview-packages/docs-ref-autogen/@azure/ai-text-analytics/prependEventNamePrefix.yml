@@ -1,0 +1,21 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.prependEventNamePrefix'
+    name: prependEventNamePrefix(string)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function prependEventNamePrefix(suffix: string)'
+      parameters:
+        - id: suffix
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'

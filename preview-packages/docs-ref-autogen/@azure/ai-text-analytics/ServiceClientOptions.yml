@@ -1,0 +1,301 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.ServiceClientOptions'
+    name: ServiceClientOptions
+    fullName: ServiceClientOptions
+    children:
+      - '@azure/abort-controller.ServiceClientOptions.clientRequestIdHeaderName'
+      - '@azure/abort-controller.ServiceClientOptions.deserializationContentTypes'
+      - >-
+        @azure/abort-controller.ServiceClientOptions.generateClientRequestIdHeader
+      - '@azure/abort-controller.ServiceClientOptions.httpClient'
+      - '@azure/abort-controller.ServiceClientOptions.httpPipelineLogger'
+      - '@azure/abort-controller.ServiceClientOptions.noRetryPolicy'
+      - '@azure/abort-controller.ServiceClientOptions.proxySettings'
+      - '@azure/abort-controller.ServiceClientOptions.requestPolicyFactories'
+      - '@azure/abort-controller.ServiceClientOptions.rpRegistrationRetryTimeout'
+      - '@azure/abort-controller.ServiceClientOptions.userAgent'
+      - '@azure/abort-controller.ServiceClientOptions.userAgentHeaderName'
+      - '@azure/abort-controller.ServiceClientOptions.withCredentials'
+    langs:
+      - typeScript
+    type: interface
+    summary: Options to be provided while creating the client.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceClientOptions.clientRequestIdHeaderName'
+    name: clientRequestIdHeaderName
+    fullName: clientRequestIdHeaderName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      If specified, a GenerateRequestIdPolicy will be added to the HTTP pipeline
+      that will add a
+
+      header to all outgoing requests with this header name and a random UUID as
+      the request ID.
+    optional: true
+    syntax:
+      content: 'clientRequestIdHeaderName?: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceClientOptions.deserializationContentTypes'
+    name: deserializationContentTypes
+    fullName: deserializationContentTypes
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The content-types that will be associated with JSON or XML serialization.
+    optional: true
+    syntax:
+      content: 'deserializationContentTypes?: DeserializationContentTypes'
+      return:
+        type:
+          - '@azure/abort-controller.DeserializationContentTypes'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceClientOptions.generateClientRequestIdHeader'
+    name: generateClientRequestIdHeader
+    fullName: generateClientRequestIdHeader
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether or not to generate a client request ID header for each HTTP
+      request.
+    optional: true
+    syntax:
+      content: 'generateClientRequestIdHeader?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceClientOptions.httpClient'
+    name: httpClient
+    fullName: httpClient
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The HttpClient that will be used to send HTTP requests.
+    optional: true
+    syntax:
+      content: 'httpClient?: HttpClient'
+      return:
+        type:
+          - '@azure/abort-controller.HttpClient'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceClientOptions.httpPipelineLogger'
+    name: httpPipelineLogger
+    fullName: httpPipelineLogger
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The HttpPipelineLogger that can be used to debug RequestPolicies within
+      the HTTP pipeline.
+    optional: true
+    syntax:
+      content: 'httpPipelineLogger?: HttpPipelineLogger'
+      return:
+        type:
+          - '@azure/abort-controller.HttpPipelineLogger'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceClientOptions.noRetryPolicy'
+    name: noRetryPolicy
+    fullName: noRetryPolicy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'If set to true, turn off the default retry policy.'
+    optional: true
+    syntax:
+      content: 'noRetryPolicy?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceClientOptions.proxySettings'
+    name: proxySettings
+    fullName: proxySettings
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Proxy settings which will be used for every HTTP request (Node.js only).
+    optional: true
+    syntax:
+      content: 'proxySettings?: ProxySettings'
+      return:
+        type:
+          - '@azure/abort-controller.ProxySettings'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceClientOptions.requestPolicyFactories'
+    name: requestPolicyFactories
+    fullName: requestPolicyFactories
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      An array of factories which get called to create the RequestPolicy
+      pipeline used to send a HTTP
+
+      request on the wire, or a function that takes in the
+      defaultRequestPolicyFactories and returns
+
+      the requestPolicyFactories that will be used.
+    optional: true
+    syntax:
+      content: >-
+        requestPolicyFactories?: RequestPolicyFactory[] |
+        (defaultRequestPolicyFactories: RequestPolicyFactory[]) => void |
+        RequestPolicyFactory[]
+      return:
+        type:
+          - >-
+            @azure/abort-controller.RequestPolicyFactory[] |
+            (defaultRequestPolicyFactories: RequestPolicyFactory[]) => void |
+            RequestPolicyFactory[]
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceClientOptions.rpRegistrationRetryTimeout'
+    name: rpRegistrationRetryTimeout
+    fullName: rpRegistrationRetryTimeout
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Gets or sets the retry timeout in seconds for AutomaticRPRegistration.
+      Default value is 30.
+    optional: true
+    syntax:
+      content: 'rpRegistrationRetryTimeout?: number'
+      return:
+        type:
+          - number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceClientOptions.userAgent'
+    name: userAgent
+    fullName: userAgent
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The string to be set to the telemetry header while sending the request, or
+      a function that
+
+      takes in the default user-agent string and returns the user-agent string
+      that will be used.
+    optional: true
+    syntax:
+      content: 'userAgent?: string | (defaultUserAgent: string) => string'
+      return:
+        type:
+          - 'string | (defaultUserAgent: string) => string'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceClientOptions.userAgentHeaderName'
+    name: userAgentHeaderName
+    fullName: userAgentHeaderName
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The header name to use for the telemetry header while sending the request.
+      If this is not
+
+      specified, then "User-Agent" will be used when running on Node.js and
+      "x-ms-command-name" will
+
+      be used when running in a browser.
+    optional: true
+    syntax:
+      content: >-
+        userAgentHeaderName?: string | (defaultUserAgentHeaderName: string) =>
+        string
+      return:
+        type:
+          - 'string | (defaultUserAgentHeaderName: string) => string'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.ServiceClientOptions.withCredentials'
+    name: withCredentials
+    fullName: withCredentials
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether to include credentials in CORS requests in the browser.
+
+      See
+      https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials
+      for more information.
+    optional: true
+    syntax:
+      content: 'withCredentials?: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.DeserializationContentTypes'
+    name: DeserializationContentTypes
+    spec.typeScript:
+      - name: DeserializationContentTypes
+        fullName: DeserializationContentTypes
+        uid: '@azure/abort-controller.DeserializationContentTypes'
+  - uid: '@azure/abort-controller.HttpClient'
+    name: HttpClient
+    spec.typeScript:
+      - name: HttpClient
+        fullName: HttpClient
+        uid: '@azure/abort-controller.HttpClient'
+  - uid: '@azure/abort-controller.HttpPipelineLogger'
+    name: HttpPipelineLogger
+    spec.typeScript:
+      - name: HttpPipelineLogger
+        fullName: HttpPipelineLogger
+        uid: '@azure/abort-controller.HttpPipelineLogger'
+  - uid: '@azure/abort-controller.ProxySettings'
+    name: ProxySettings
+    spec.typeScript:
+      - name: ProxySettings
+        fullName: ProxySettings
+        uid: '@azure/abort-controller.ProxySettings'
+  - uid: >-
+      @azure/abort-controller.RequestPolicyFactory[] |
+      (defaultRequestPolicyFactories: RequestPolicyFactory[]) => void |
+      RequestPolicyFactory[]
+    name: >-
+      RequestPolicyFactory[] | (defaultRequestPolicyFactories:
+      RequestPolicyFactory[]) => void | RequestPolicyFactory[]
+    spec.typeScript:
+      - name: RequestPolicyFactory
+        fullName: RequestPolicyFactory
+        uid: '@azure/abort-controller.RequestPolicyFactory'
+      - name: >-
+          [] | (defaultRequestPolicyFactories: RequestPolicyFactory[]) => void |
+          RequestPolicyFactory[]
+        fullName: >-
+          [] | (defaultRequestPolicyFactories: RequestPolicyFactory[]) => void |
+          RequestPolicyFactory[]

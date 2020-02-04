@@ -1,0 +1,257 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.readline'
+    name: readline
+    langs:
+      - typeScript
+    fullName: readline
+    children:
+      - '@azure/ms-rest-azure-env.readline.AsyncCompleter'
+      - '@azure/ms-rest-azure-env.readline.clearLine'
+      - '@azure/ms-rest-azure-env.readline.clearScreenDown'
+      - '@azure/ms-rest-azure-env.readline.Completer'
+      - '@azure/ms-rest-azure-env.readline.CompleterResult'
+      - '@azure/ms-rest-azure-env.readline.createInterface'
+      - '@azure/ms-rest-azure-env.readline.createInterface_1'
+      - '@azure/ms-rest-azure-env.readline.cursorTo'
+      - '@azure/ms-rest-azure-env.readline.emitKeypressEvents'
+      - '@azure/ms-rest-azure-env.readline.Key'
+      - '@azure/ms-rest-azure-env.readline.moveCursor'
+      - '@azure/ms-rest-azure-env.readline.ReadLine'
+      - '@azure/ms-rest-azure-env.readline.ReadLineOptions'
+    type: module
+    summary: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.readline.clearLine'
+    name: 'clearLine(WritableStream, number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function clearLine(stream: WritableStream, dir: number)'
+      parameters:
+        - id: stream
+          type:
+            - WritableStream
+          description: ''
+        - id: dir
+          type:
+            - number
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.readline.clearScreenDown'
+    name: clearScreenDown(WritableStream)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function clearScreenDown(stream: WritableStream)'
+      parameters:
+        - id: stream
+          type:
+            - WritableStream
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.readline.createInterface'
+    name: >-
+      createInterface(ReadableStream, NodeJS.WritableStream, Completer |
+      AsyncCompleter, undefined | false | true)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function createInterface(input: ReadableStream, output?:
+        NodeJS.WritableStream, completer?: Completer | AsyncCompleter,
+        terminal?: undefined | false | true)
+      parameters:
+        - id: input
+          type:
+            - ReadableStream
+          description: ''
+        - id: output
+          type:
+            - '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+          description: ''
+          optional: true
+        - id: completer
+          type:
+            - >-
+              @azure/ms-rest-azure-env.readline.Completer |
+              @azure/ms-rest-azure-env.readline.AsyncCompleter
+          description: ''
+          optional: true
+        - id: terminal
+          type:
+            - undefined | false | true
+          description: ''
+          optional: true
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.readline.ReadLine'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.readline.createInterface_1'
+    name: createInterface(ReadLineOptions)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function createInterface(options: ReadLineOptions)'
+      parameters:
+        - id: options
+          type:
+            - ReadLineOptions
+          description: ''
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.readline.ReadLine'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.readline.cursorTo'
+    name: 'cursorTo(WritableStream, number, undefined | number)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function cursorTo(stream: WritableStream, x: number, y?: undefined |
+        number)
+      parameters:
+        - id: stream
+          type:
+            - WritableStream
+          description: ''
+        - id: x
+          type:
+            - number
+          description: ''
+        - id: 'y'
+          type:
+            - undefined | number
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.readline.emitKeypressEvents'
+    name: 'emitKeypressEvents(ReadableStream, ReadLine)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function emitKeypressEvents(stream: ReadableStream, interface?:
+        ReadLine)
+      parameters:
+        - id: stream
+          type:
+            - ReadableStream
+          description: ''
+        - id: interface
+          type:
+            - '@azure/ms-rest-azure-env.readline.ReadLine'
+          description: ''
+          optional: true
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.readline.moveCursor'
+    name: 'moveCursor(WritableStream, number | string, number | string)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function moveCursor(stream: WritableStream, dx: number | string, dy:
+        number | string)
+      parameters:
+        - id: stream
+          type:
+            - WritableStream
+          description: ''
+        - id: dx
+          type:
+            - number | string
+          description: ''
+        - id: dy
+          type:
+            - number | string
+          description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+    name: EventEmitter
+    spec.typeScript:
+      - name: EventEmitter
+        fullName: EventEmitter
+        uid: '@azure/ms-rest-azure-env.events.EventEmitter.EventEmitter'
+  - uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+    name: EventEmitterOptions
+    spec.typeScript:
+      - name: EventEmitterOptions
+        fullName: EventEmitterOptions
+        uid: '@azure/ms-rest-azure-env.events.EventEmitterOptions'
+  - uid: '@azure/ms-rest-azure-env.readline.ReadLine'
+    name: ReadLine
+    spec.typeScript:
+      - name: ReadLine
+        fullName: ReadLine
+        uid: '@azure/ms-rest-azure-env.readline.ReadLine'
+  - uid: '@azure/ms-rest-azure-env.readline.Key'
+    name: Key
+    spec.typeScript:
+      - name: Key
+        fullName: Key
+        uid: '@azure/ms-rest-azure-env.readline.Key'
+  - uid: >-
+      @azure/ms-rest-azure-env.readline.Completer |
+      @azure/ms-rest-azure-env.readline.AsyncCompleter
+    name: AsyncCompleter
+    spec.typeScript:
+      - name: Completer
+        fullName: Completer
+        uid: '@azure/ms-rest-azure-env.readline.Completer'
+      - name: ' | '
+        fullName: ' | '
+      - name: AsyncCompleter
+        fullName: AsyncCompleter
+        uid: '@azure/ms-rest-azure-env.readline.AsyncCompleter'
+  - uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+    name: WritableStream
+    spec.typeScript:
+      - name: WritableStream
+        fullName: WritableStream
+        uid: '@azure/ms-rest-azure-env.NodeJS.WritableStream'
+  - uid: '@azure/ms-rest-azure-env.readline.AsyncCompleter'
+    name: AsyncCompleter
+  - uid: '@azure/ms-rest-azure-env.readline.clearLine'
+    name: clearLine
+  - uid: '@azure/ms-rest-azure-env.readline.clearScreenDown'
+    name: clearScreenDown
+  - uid: '@azure/ms-rest-azure-env.readline.Completer'
+    name: Completer
+  - uid: '@azure/ms-rest-azure-env.readline.CompleterResult'
+    name: CompleterResult
+  - uid: '@azure/ms-rest-azure-env.readline.createInterface'
+    name: createInterface
+  - uid: '@azure/ms-rest-azure-env.readline.createInterface_1'
+    name: createInterface_1
+  - uid: '@azure/ms-rest-azure-env.readline.cursorTo'
+    name: cursorTo
+  - uid: '@azure/ms-rest-azure-env.readline.emitKeypressEvents'
+    name: emitKeypressEvents
+  - uid: '@azure/ms-rest-azure-env.readline.moveCursor'
+    name: moveCursor
+  - uid: '@azure/ms-rest-azure-env.readline.ReadLineOptions'
+    name: ReadLineOptions

@@ -1,24 +1,24 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.FileCreateOptions'
+  - uid: '@azure/abort-controller.FileCreateOptions'
     name: FileCreateOptions
     fullName: FileCreateOptions
     children:
-      - '@azure/storage-file-datalake.FileCreateOptions.abortSignal'
-      - '@azure/storage-file-datalake.FileCreateOptions.conditions'
-      - '@azure/storage-file-datalake.FileCreateOptions.metadata'
-      - '@azure/storage-file-datalake.FileCreateOptions.pathHttpHeaders'
-      - '@azure/storage-file-datalake.FileCreateOptions.permissions'
-      - '@azure/storage-file-datalake.FileCreateOptions.tracingOptions'
-      - '@azure/storage-file-datalake.FileCreateOptions.umask'
+      - '@azure/abort-controller.FileCreateOptions.abortSignal'
+      - '@azure/abort-controller.FileCreateOptions.conditions'
+      - '@azure/abort-controller.FileCreateOptions.metadata'
+      - '@azure/abort-controller.FileCreateOptions.pathHttpHeaders'
+      - '@azure/abort-controller.FileCreateOptions.permissions'
+      - '@azure/abort-controller.FileCreateOptions.tracingOptions'
+      - '@azure/abort-controller.FileCreateOptions.umask'
     langs:
       - typeScript
     type: interface
     summary: ''
     extends:
-      name: '@azure/storage-file-datalake.PathCreateOptions'
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileCreateOptions.abortSignal'
+      name: '@azure/abort-controller.PathCreateOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileCreateOptions.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -31,10 +31,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - AbortSignalLike
+          - '@azure/abort-controller.AbortSignalLike'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileCreateOptions.conditions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileCreateOptions.conditions'
     name: conditions
     fullName: conditions
     children: []
@@ -47,10 +47,10 @@ items:
       content: 'conditions?: DataLakeRequestConditions'
       return:
         type:
-          - '@azure/storage-file-datalake.DataLakeRequestConditions'
+          - '@azure/abort-controller.DataLakeRequestConditions'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileCreateOptions.metadata'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileCreateOptions.metadata'
     name: metadata
     fullName: metadata
     children: []
@@ -63,10 +63,10 @@ items:
       content: 'metadata?: Metadata'
       return:
         type:
-          - '@azure/storage-file-datalake.Metadata'
+          - '@azure/abort-controller.Metadata'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileCreateOptions.pathHttpHeaders'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileCreateOptions.pathHttpHeaders'
     name: pathHttpHeaders
     fullName: pathHttpHeaders
     children: []
@@ -79,10 +79,10 @@ items:
       content: 'pathHttpHeaders?: PathCreateHttpHeaders'
       return:
         type:
-          - '@azure/storage-file-datalake.PathCreateHttpHeaders'
+          - '@azure/abort-controller.PathCreateHttpHeaders'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileCreateOptions.permissions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileCreateOptions.permissions'
     name: permissions
     fullName: permissions
     children: []
@@ -97,8 +97,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileCreateOptions.tracingOptions'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileCreateOptions.tracingOptions'
     name: tracingOptions
     fullName: tracingOptions
     children: []
@@ -111,10 +111,10 @@ items:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         type:
-          - '@azure/storage-file-datalake.OperationTracingOptions'
+          - '@azure/abort-controller.OperationTracingOptions'
         description: ''
-    package: '@azure/storage-file-datalake'
-  - uid: '@azure/storage-file-datalake.FileCreateOptions.umask'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.FileCreateOptions.umask'
     name: umask
     fullName: umask
     children: []
@@ -129,35 +129,41 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.PathCreateOptions'
+  - uid: '@azure/abort-controller.PathCreateOptions'
     name: PathCreateOptions
     spec.typeScript:
       - name: PathCreateOptions
         fullName: PathCreateOptions
-        uid: '@azure/storage-file-datalake.PathCreateOptions'
-  - uid: '@azure/storage-file-datalake.DataLakeRequestConditions'
+        uid: '@azure/abort-controller.PathCreateOptions'
+  - uid: '@azure/abort-controller.AbortSignalLike'
+    name: AbortSignalLike
+    spec.typeScript:
+      - name: AbortSignalLike
+        fullName: AbortSignalLike
+        uid: '@azure/abort-controller.AbortSignalLike'
+  - uid: '@azure/abort-controller.DataLakeRequestConditions'
     name: DataLakeRequestConditions
     spec.typeScript:
       - name: DataLakeRequestConditions
         fullName: DataLakeRequestConditions
-        uid: '@azure/storage-file-datalake.DataLakeRequestConditions'
-  - uid: '@azure/storage-file-datalake.Metadata'
+        uid: '@azure/abort-controller.DataLakeRequestConditions'
+  - uid: '@azure/abort-controller.Metadata'
     name: Metadata
     spec.typeScript:
       - name: Metadata
         fullName: Metadata
-        uid: '@azure/storage-file-datalake.Metadata'
-  - uid: '@azure/storage-file-datalake.PathCreateHttpHeaders'
+        uid: '@azure/abort-controller.Metadata'
+  - uid: '@azure/abort-controller.PathCreateHttpHeaders'
     name: PathCreateHttpHeaders
     spec.typeScript:
       - name: PathCreateHttpHeaders
         fullName: PathCreateHttpHeaders
-        uid: '@azure/storage-file-datalake.PathCreateHttpHeaders'
-  - uid: '@azure/storage-file-datalake.OperationTracingOptions'
+        uid: '@azure/abort-controller.PathCreateHttpHeaders'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
     name: OperationTracingOptions
     spec.typeScript:
       - name: OperationTracingOptions
         fullName: OperationTracingOptions
-        uid: '@azure/storage-file-datalake.OperationTracingOptions'
+        uid: '@azure/abort-controller.OperationTracingOptions'

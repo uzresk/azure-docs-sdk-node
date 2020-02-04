@@ -1,0 +1,91 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/ms-rest-azure-env.OperationURLParameter'
+    name: OperationURLParameter
+    fullName: OperationURLParameter
+    children:
+      - '@azure/ms-rest-azure-env.OperationURLParameter.mapper'
+      - '@azure/ms-rest-azure-env.OperationURLParameter.parameterPath'
+      - '@azure/ms-rest-azure-env.OperationURLParameter.skipEncoding'
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      A parameter for an operation that will be substituted into the operation's
+      request URL.
+    extends:
+      name: '@azure/ms-rest-azure-env.OperationParameter'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.OperationURLParameter.mapper'
+    name: mapper
+    fullName: mapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The mapper that defines how to validate and serialize this parameter's
+      value.
+    syntax:
+      content: 'mapper: Mapper'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.Mapper'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.OperationURLParameter.parameterPath'
+    name: parameterPath
+    fullName: parameterPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The path to this parameter's value in OperationArguments or the object
+      that contains paths for
+
+      each property's value in OperationArguments.
+    syntax:
+      content: 'parameterPath: ParameterPath'
+      return:
+        type:
+          - '@azure/ms-rest-azure-env.ParameterPath'
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.OperationURLParameter.skipEncoding'
+    name: skipEncoding
+    fullName: skipEncoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      Whether or not to skip encoding the URL parameter's value before adding it
+      to the URL.
+    optional: true
+    syntax:
+      content: 'skipEncoding?: undefined | false | true'
+      return:
+        type:
+          - undefined | false | true
+        description: ''
+    package: '@azure/ms-rest-azure-env'
+references:
+  - uid: '@azure/ms-rest-azure-env.OperationParameter'
+    name: OperationParameter
+    spec.typeScript:
+      - name: OperationParameter
+        fullName: OperationParameter
+        uid: '@azure/ms-rest-azure-env.OperationParameter'
+  - uid: '@azure/ms-rest-azure-env.Mapper'
+    name: Mapper
+    spec.typeScript:
+      - name: Mapper
+        fullName: Mapper
+        uid: '@azure/ms-rest-azure-env.Mapper'
+  - uid: '@azure/ms-rest-azure-env.ParameterPath'
+    name: ParameterPath
+    spec.typeScript:
+      - name: ParameterPath
+        fullName: ParameterPath
+        uid: '@azure/ms-rest-azure-env.ParameterPath'

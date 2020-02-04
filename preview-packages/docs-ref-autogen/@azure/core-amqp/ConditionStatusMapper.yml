@@ -1,39 +1,35 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/core-amqp.ConditionStatusMapper'
+  - uid: tslib.ConditionStatusMapper
     name: ConditionStatusMapper
     fullName: ConditionStatusMapper
     children:
-      - '@azure/core-amqp.ConditionStatusMapper.com.microsoft:entity-disabled'
-      - '@azure/core-amqp.ConditionStatusMapper.amqp:not-allowed'
-      - >-
-        @azure/core-amqp.ConditionStatusMapper.com.microsoft:argument-out-of-range
-      - '@azure/core-amqp.ConditionStatusMapper.com.microsoft:argument-error'
-      - '@azure/core-amqp.ConditionStatusMapper.com.microsoft:publisher-revoked'
-      - '@azure/core-amqp.ConditionStatusMapper.amqp:unauthorized-access'
-      - '@azure/core-amqp.ConditionStatusMapper.amqp:link:message-size-exceeded'
-      - '@azure/core-amqp.ConditionStatusMapper.amqp:resource-limit-exceeded'
-      - '@azure/core-amqp.ConditionStatusMapper.amqp:not-found'
-      - '@azure/core-amqp.ConditionStatusMapper.com.microsoft:timeout'
-      - >-
-        @azure/core-amqp.ConditionStatusMapper.com.microsoft:entity-already-exists
-      - '@azure/core-amqp.ConditionStatusMapper.amqp:link:stolen'
-      - '@azure/core-amqp.ConditionStatusMapper.com.microsoft:message-lock-lost'
-      - '@azure/core-amqp.ConditionStatusMapper.com.microsoft:partition-not-owned'
-      - >-
-        @azure/core-amqp.ConditionStatusMapper.com.microsoft:session-cannot-be-locked
-      - '@azure/core-amqp.ConditionStatusMapper.com.microsoft:session-lock-lost'
-      - '@azure/core-amqp.ConditionStatusMapper.com.microsoft:store-lock-lost'
-      - >-
-        @azure/core-amqp.ConditionStatusMapper.com.microsoft:no-matching-subscription
-      - '@azure/core-amqp.ConditionStatusMapper.amqp:not-implemented'
-      - '@azure/core-amqp.ConditionStatusMapper.com.microsoft:server-busy'
+      - 'tslib.ConditionStatusMapper.com.microsoft:entity-disabled'
+      - 'tslib.ConditionStatusMapper.amqp:not-allowed'
+      - 'tslib.ConditionStatusMapper.com.microsoft:argument-out-of-range'
+      - 'tslib.ConditionStatusMapper.com.microsoft:argument-error'
+      - 'tslib.ConditionStatusMapper.com.microsoft:publisher-revoked'
+      - 'tslib.ConditionStatusMapper.amqp:unauthorized-access'
+      - 'tslib.ConditionStatusMapper.amqp:link:message-size-exceeded'
+      - 'tslib.ConditionStatusMapper.amqp:resource-limit-exceeded'
+      - 'tslib.ConditionStatusMapper.amqp:not-found'
+      - 'tslib.ConditionStatusMapper.com.microsoft:timeout'
+      - 'tslib.ConditionStatusMapper.com.microsoft:entity-already-exists'
+      - 'tslib.ConditionStatusMapper.amqp:link:stolen'
+      - 'tslib.ConditionStatusMapper.com.microsoft:message-lock-lost'
+      - 'tslib.ConditionStatusMapper.com.microsoft:partition-not-owned'
+      - 'tslib.ConditionStatusMapper.com.microsoft:session-cannot-be-locked'
+      - 'tslib.ConditionStatusMapper.com.microsoft:session-lock-lost'
+      - 'tslib.ConditionStatusMapper.com.microsoft:store-lock-lost'
+      - 'tslib.ConditionStatusMapper.com.microsoft:no-matching-subscription'
+      - 'tslib.ConditionStatusMapper.amqp:not-implemented'
+      - 'tslib.ConditionStatusMapper.com.microsoft:server-busy'
     langs:
       - typeScript
     type: enum
     summary: Maps the conditions to the numeric AMQP Response status codes.
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.com.microsoft:entity-disabled'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.com.microsoft:entity-disabled'
     name: 'com.microsoft:entity-disabled'
     children: []
     langs:
@@ -41,8 +37,8 @@ items:
     summary: ''
     type: field
     numericValue: 400
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.amqp:not-allowed'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.amqp:not-allowed'
     name: 'amqp:not-allowed'
     children: []
     langs:
@@ -50,8 +46,8 @@ items:
     summary: ''
     type: field
     numericValue: 400
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.com.microsoft:argument-out-of-range'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.com.microsoft:argument-out-of-range'
     name: 'com.microsoft:argument-out-of-range'
     children: []
     langs:
@@ -59,8 +55,8 @@ items:
     summary: ''
     type: field
     numericValue: 400
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.com.microsoft:argument-error'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.com.microsoft:argument-error'
     name: 'com.microsoft:argument-error'
     children: []
     langs:
@@ -68,8 +64,8 @@ items:
     summary: ''
     type: field
     numericValue: 400
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.com.microsoft:publisher-revoked'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.com.microsoft:publisher-revoked'
     name: 'com.microsoft:publisher-revoked'
     children: []
     langs:
@@ -77,8 +73,8 @@ items:
     summary: ''
     type: field
     numericValue: 401
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.amqp:unauthorized-access'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.amqp:unauthorized-access'
     name: 'amqp:unauthorized-access'
     children: []
     langs:
@@ -86,8 +82,8 @@ items:
     summary: ''
     type: field
     numericValue: 401
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.amqp:link:message-size-exceeded'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.amqp:link:message-size-exceeded'
     name: 'amqp:link:message-size-exceeded'
     children: []
     langs:
@@ -95,8 +91,8 @@ items:
     summary: ''
     type: field
     numericValue: 403
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.amqp:resource-limit-exceeded'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.amqp:resource-limit-exceeded'
     name: 'amqp:resource-limit-exceeded'
     children: []
     langs:
@@ -104,8 +100,8 @@ items:
     summary: ''
     type: field
     numericValue: 403
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.amqp:not-found'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.amqp:not-found'
     name: 'amqp:not-found'
     children: []
     langs:
@@ -113,8 +109,8 @@ items:
     summary: ''
     type: field
     numericValue: 404
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.com.microsoft:timeout'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.com.microsoft:timeout'
     name: 'com.microsoft:timeout'
     children: []
     langs:
@@ -122,8 +118,8 @@ items:
     summary: ''
     type: field
     numericValue: 408
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.com.microsoft:entity-already-exists'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.com.microsoft:entity-already-exists'
     name: 'com.microsoft:entity-already-exists'
     children: []
     langs:
@@ -131,8 +127,8 @@ items:
     summary: ''
     type: field
     numericValue: 409
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.amqp:link:stolen'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.amqp:link:stolen'
     name: 'amqp:link:stolen'
     children: []
     langs:
@@ -140,8 +136,8 @@ items:
     summary: ''
     type: field
     numericValue: 410
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.com.microsoft:message-lock-lost'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.com.microsoft:message-lock-lost'
     name: 'com.microsoft:message-lock-lost'
     children: []
     langs:
@@ -149,8 +145,8 @@ items:
     summary: ''
     type: field
     numericValue: 410
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.com.microsoft:partition-not-owned'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.com.microsoft:partition-not-owned'
     name: 'com.microsoft:partition-not-owned'
     children: []
     langs:
@@ -158,9 +154,8 @@ items:
     summary: ''
     type: field
     numericValue: 410
-    package: '@azure/core-amqp'
-  - uid: >-
-      @azure/core-amqp.ConditionStatusMapper.com.microsoft:session-cannot-be-locked
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.com.microsoft:session-cannot-be-locked'
     name: 'com.microsoft:session-cannot-be-locked'
     children: []
     langs:
@@ -168,8 +163,8 @@ items:
     summary: ''
     type: field
     numericValue: 410
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.com.microsoft:session-lock-lost'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.com.microsoft:session-lock-lost'
     name: 'com.microsoft:session-lock-lost'
     children: []
     langs:
@@ -177,8 +172,8 @@ items:
     summary: ''
     type: field
     numericValue: 410
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.com.microsoft:store-lock-lost'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.com.microsoft:store-lock-lost'
     name: 'com.microsoft:store-lock-lost'
     children: []
     langs:
@@ -186,9 +181,8 @@ items:
     summary: ''
     type: field
     numericValue: 410
-    package: '@azure/core-amqp'
-  - uid: >-
-      @azure/core-amqp.ConditionStatusMapper.com.microsoft:no-matching-subscription
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.com.microsoft:no-matching-subscription'
     name: 'com.microsoft:no-matching-subscription'
     children: []
     langs:
@@ -196,8 +190,8 @@ items:
     summary: ''
     type: field
     numericValue: 500
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.amqp:not-implemented'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.amqp:not-implemented'
     name: 'amqp:not-implemented'
     children: []
     langs:
@@ -205,8 +199,8 @@ items:
     summary: ''
     type: field
     numericValue: 501
-    package: '@azure/core-amqp'
-  - uid: '@azure/core-amqp.ConditionStatusMapper.com.microsoft:server-busy'
+    package: tslib
+  - uid: 'tslib.ConditionStatusMapper.com.microsoft:server-busy'
     name: 'com.microsoft:server-busy'
     children: []
     langs:
@@ -214,4 +208,4 @@ items:
     summary: ''
     type: field
     numericValue: 503
-    package: '@azure/core-amqp'
+    package: tslib

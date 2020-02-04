@@ -1,0 +1,205 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.MapperConstraints'
+    name: MapperConstraints
+    fullName: MapperConstraints
+    children:
+      - '@azure/abort-controller.MapperConstraints.ExclusiveMaximum'
+      - '@azure/abort-controller.MapperConstraints.ExclusiveMinimum'
+      - '@azure/abort-controller.MapperConstraints.InclusiveMaximum'
+      - '@azure/abort-controller.MapperConstraints.InclusiveMinimum'
+      - '@azure/abort-controller.MapperConstraints.MaxItems'
+      - '@azure/abort-controller.MapperConstraints.MaxLength'
+      - '@azure/abort-controller.MapperConstraints.MinItems'
+      - '@azure/abort-controller.MapperConstraints.MinLength'
+      - '@azure/abort-controller.MapperConstraints.MultipleOf'
+      - '@azure/abort-controller.MapperConstraints.Pattern'
+      - '@azure/abort-controller.MapperConstraints.UniqueItems'
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MapperConstraints.ExclusiveMaximum'
+    name: ExclusiveMaximum
+    fullName: ExclusiveMaximum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'ExclusiveMaximum?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MapperConstraints.ExclusiveMinimum'
+    name: ExclusiveMinimum
+    fullName: ExclusiveMinimum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'ExclusiveMinimum?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MapperConstraints.InclusiveMaximum'
+    name: InclusiveMaximum
+    fullName: InclusiveMaximum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'InclusiveMaximum?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MapperConstraints.InclusiveMinimum'
+    name: InclusiveMinimum
+    fullName: InclusiveMinimum
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'InclusiveMinimum?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MapperConstraints.MaxItems'
+    name: MaxItems
+    fullName: MaxItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'MaxItems?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MapperConstraints.MaxLength'
+    name: MaxLength
+    fullName: MaxLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'MaxLength?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MapperConstraints.MinItems'
+    name: MinItems
+    fullName: MinItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'MinItems?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MapperConstraints.MinLength'
+    name: MinLength
+    fullName: MinLength
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'MinLength?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MapperConstraints.MultipleOf'
+    name: MultipleOf
+    fullName: MultipleOf
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'MultipleOf?: undefined | number'
+      return:
+        type:
+          - undefined | number
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MapperConstraints.Pattern'
+    name: Pattern
+    fullName: Pattern
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'Pattern?: RegExp'
+      return:
+        type:
+          - '@azure/abort-controller.NodeJS.Global.RegExp'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.MapperConstraints.UniqueItems'
+    name: UniqueItems
+    fullName: UniqueItems
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'UniqueItems?: undefined | true'
+      return:
+        type:
+          - undefined | true
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.NodeJS.Global.RegExp'
+    name: RegExp
+    spec.typeScript:
+      - name: RegExp
+        fullName: RegExp
+        uid: '@azure/abort-controller.NodeJS.Global.RegExp'

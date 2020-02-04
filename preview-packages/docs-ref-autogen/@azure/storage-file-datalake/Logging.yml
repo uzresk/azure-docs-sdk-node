@@ -1,0 +1,98 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Logging'
+    name: Logging
+    fullName: Logging
+    children:
+      - '@azure/abort-controller.Logging.deleteProperty'
+      - '@azure/abort-controller.Logging.read'
+      - '@azure/abort-controller.Logging.retentionPolicy'
+      - '@azure/abort-controller.Logging.version'
+      - '@azure/abort-controller.Logging.write'
+    langs:
+      - typeScript
+    type: interface
+    summary: Azure Analytics Logging settings.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Logging.deleteProperty'
+    name: deleteProperty
+    fullName: deleteProperty
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates whether all delete requests should be logged.
+    syntax:
+      content: 'deleteProperty: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Logging.read'
+    name: read
+    fullName: read
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates whether all read requests should be logged.
+    syntax:
+      content: 'read: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Logging.retentionPolicy'
+    name: retentionPolicy
+    fullName: retentionPolicy
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'retentionPolicy: RetentionPolicy'
+      return:
+        type:
+          - '@azure/abort-controller.RetentionPolicy'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Logging.version'
+    name: version
+    fullName: version
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The version of Storage Analytics to configure.
+    syntax:
+      content: 'version: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Logging.write'
+    name: write
+    fullName: write
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: Indicates whether all write requests should be logged.
+    syntax:
+      content: 'write: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.RetentionPolicy'
+    name: RetentionPolicy
+    spec.typeScript:
+      - name: RetentionPolicy
+        fullName: RetentionPolicy
+        uid: '@azure/abort-controller.RetentionPolicy'

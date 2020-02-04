@@ -1,0 +1,70 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.NoOpBinaryFormat'
+    name: NoOpBinaryFormat
+    fullName: NoOpBinaryFormat
+    children:
+      - '@azure/abort-controller.NoOpBinaryFormat.fromBytes'
+      - '@azure/abort-controller.NoOpBinaryFormat.toBytes'
+    langs:
+      - typeScript
+    type: class
+    summary: >-
+      A no-op implementation of BinaryFormat to be used when tracing is
+      disabled.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.NoOpBinaryFormat.fromBytes'
+    name: fromBytes(ArrayBuffer)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: |-
+      Deserialize a SpanContext from binary encoding.
+      Returns null if the buffer does not contain a valid SpanContext.
+    syntax:
+      content: 'function fromBytes(_buffer: ArrayBuffer)'
+      parameters:
+        - id: _buffer
+          type:
+            - ArrayBuffer
+          description: ''
+      return:
+        type:
+          - '@azure/abort-controller.SpanContext | null'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.NoOpBinaryFormat.toBytes'
+    name: toBytes(SpanContext)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: Serialize the given SpanContext to a buffer
+    syntax:
+      content: 'function toBytes(_spanContext: SpanContext)'
+      parameters:
+        - id: _spanContext
+          type:
+            - '@azure/abort-controller.SpanContext'
+          description: ''
+      return:
+        type:
+          - ArrayBuffer
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.SpanContext | null'
+    name: SpanContext | null
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@azure/abort-controller.SpanContext'
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: '@azure/abort-controller.SpanContext'
+    name: SpanContext
+    spec.typeScript:
+      - name: SpanContext
+        fullName: SpanContext
+        uid: '@azure/abort-controller.SpanContext'

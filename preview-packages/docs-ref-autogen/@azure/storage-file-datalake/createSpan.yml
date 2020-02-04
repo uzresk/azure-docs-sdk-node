@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/storage-file-datalake.createSpan'
+  - uid: '@azure/abort-controller.createSpan'
     name: 'createSpan(string, OperationTracingOptions)'
     children: []
     type: function
@@ -18,7 +18,7 @@ items:
           description: ''
         - id: tracingOptions
           type:
-            - '@azure/storage-file-datalake.OperationTracingOptions'
+            - '@azure/abort-controller.OperationTracingOptions'
           description: |
             The options for the underlying http request.
           optional: true
@@ -26,11 +26,11 @@ items:
         type:
           - Object
         description: ''
-    package: '@azure/storage-file-datalake'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/storage-file-datalake.OperationTracingOptions'
+  - uid: '@azure/abort-controller.OperationTracingOptions'
     name: OperationTracingOptions
     spec.typeScript:
       - name: OperationTracingOptions
         fullName: OperationTracingOptions
-        uid: '@azure/storage-file-datalake.OperationTracingOptions'
+        uid: '@azure/abort-controller.OperationTracingOptions'

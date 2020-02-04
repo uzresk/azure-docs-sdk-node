@@ -1,11 +1,11 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/amqp-common.DataTransformer'
+  - uid: '@azure/ms-rest-azure-env.DataTransformer'
     name: DataTransformer
     fullName: DataTransformer
     children:
-      - '@azure/amqp-common.DataTransformer.decode'
-      - '@azure/amqp-common.DataTransformer.encode'
+      - '@azure/ms-rest-azure-env.DataTransformer.decode'
+      - '@azure/ms-rest-azure-env.DataTransformer.encode'
     langs:
       - typeScript
     type: interface
@@ -14,8 +14,8 @@ items:
       data before sending it
 
       on (or receiving it from) the wire.
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.DataTransformer.decode'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.DataTransformer.decode'
     name: decode
     fullName: decode
     children: []
@@ -36,8 +36,8 @@ items:
         type:
           - '(body: any) => any'
         description: ''
-    package: '@azure/amqp-common'
-  - uid: '@azure/amqp-common.DataTransformer.encode'
+    package: '@azure/ms-rest-azure-env'
+  - uid: '@azure/ms-rest-azure-env.DataTransformer.encode'
     name: encode
     fullName: encode
     children: []
@@ -55,4 +55,4 @@ items:
         type:
           - '(body: any) => any'
         description: ''
-    package: '@azure/amqp-common'
+    package: '@azure/ms-rest-azure-env'

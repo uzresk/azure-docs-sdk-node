@@ -1,0 +1,69 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.Point
+    name: Point
+    fullName: Point
+    children:
+      - tslib.Point.timestamp
+      - tslib.Point.value
+    langs:
+      - typeScript
+    type: interface
+    summary: A timestamped measurement.
+    package: tslib
+  - uid: tslib.Point.timestamp
+    name: timestamp
+    fullName: timestamp
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The moment when this point was recorded. Inclusive.
+      If not specified, the timestamp will be decided by the backend.
+    syntax:
+      content: 'timestamp: Timestamp'
+      return:
+        type:
+          - tslib.Timestamp
+        description: ''
+    package: tslib
+  - uid: tslib.Point.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      The actual point value.
+      64-bit integer or 64-bit double-precision floating-point number
+      or distribution value
+      or summary value. This is not recommended, since it cannot be aggregated.
+    syntax:
+      content: 'value: number | DistributionValue | SummaryValue'
+      return:
+        type:
+          - number | tslib.DistributionValue | tslib.SummaryValue
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.Timestamp
+    name: Timestamp
+    spec.typeScript:
+      - name: Timestamp
+        fullName: Timestamp
+        uid: tslib.Timestamp
+  - uid: number | tslib.DistributionValue | tslib.SummaryValue
+    name: SummaryValue
+    spec.typeScript:
+      - name: 'number | '
+        fullName: 'number | '
+      - name: DistributionValue
+        fullName: DistributionValue
+        uid: tslib.DistributionValue
+      - name: ' | '
+        fullName: ' | '
+      - name: SummaryValue
+        fullName: SummaryValue
+        uid: tslib.SummaryValue

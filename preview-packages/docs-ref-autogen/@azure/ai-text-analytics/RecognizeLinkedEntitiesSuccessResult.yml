@@ -1,12 +1,12 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesSuccessResult'
+  - uid: '@azure/abort-controller.RecognizeLinkedEntitiesSuccessResult'
     name: RecognizeLinkedEntitiesSuccessResult
     fullName: RecognizeLinkedEntitiesSuccessResult
     children:
-      - '@azure/ai-text-analytics.RecognizeLinkedEntitiesSuccessResult.entities'
-      - '@azure/ai-text-analytics.RecognizeLinkedEntitiesSuccessResult.id'
-      - '@azure/ai-text-analytics.RecognizeLinkedEntitiesSuccessResult.statistics'
+      - '@azure/abort-controller.RecognizeLinkedEntitiesSuccessResult.entities'
+      - '@azure/abort-controller.RecognizeLinkedEntitiesSuccessResult.id'
+      - '@azure/abort-controller.RecognizeLinkedEntitiesSuccessResult.statistics'
     langs:
       - typeScript
     type: interface
@@ -17,9 +17,9 @@ items:
       containing a collection of the `LinkedEntity` objects identified in that
       document.
     extends:
-      name: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesSuccessResult.entities'
+      name: '@azure/abort-controller.TextAnalyticsSuccessResult'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeLinkedEntitiesSuccessResult.entities'
     name: entities
     fullName: entities
     children: []
@@ -31,10 +31,10 @@ items:
       content: 'entities: LinkedEntity[]'
       return:
         type:
-          - '@azure/ai-text-analytics.LinkedEntity[]'
+          - '@azure/abort-controller.LinkedEntity[]'
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesSuccessResult.id'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeLinkedEntitiesSuccessResult.id'
     name: id
     fullName: id
     children: []
@@ -48,8 +48,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ai-text-analytics'
-  - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesSuccessResult.statistics'
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.RecognizeLinkedEntitiesSuccessResult.statistics'
     name: statistics
     fullName: statistics
     children: []
@@ -68,27 +68,27 @@ items:
       content: 'statistics?: TextDocumentStatistics'
       return:
         type:
-          - '@azure/ai-text-analytics.TextDocumentStatistics'
+          - '@azure/abort-controller.TextDocumentStatistics'
         description: ''
-    package: '@azure/ai-text-analytics'
+    package: '@azure/abort-controller'
 references:
-  - uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
+  - uid: '@azure/abort-controller.TextAnalyticsSuccessResult'
     name: TextAnalyticsSuccessResult
     spec.typeScript:
       - name: TextAnalyticsSuccessResult
         fullName: TextAnalyticsSuccessResult
-        uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
-  - uid: '@azure/ai-text-analytics.LinkedEntity[]'
+        uid: '@azure/abort-controller.TextAnalyticsSuccessResult'
+  - uid: '@azure/abort-controller.LinkedEntity[]'
     name: 'LinkedEntity[]'
     spec.typeScript:
       - name: LinkedEntity
         fullName: LinkedEntity
-        uid: '@azure/ai-text-analytics.LinkedEntity'
+        uid: '@azure/abort-controller.LinkedEntity'
       - name: '[]'
         fullName: '[]'
-  - uid: '@azure/ai-text-analytics.TextDocumentStatistics'
+  - uid: '@azure/abort-controller.TextDocumentStatistics'
     name: TextDocumentStatistics
     spec.typeScript:
       - name: TextDocumentStatistics
         fullName: TextDocumentStatistics
-        uid: '@azure/ai-text-analytics.TextDocumentStatistics'
+        uid: '@azure/abort-controller.TextDocumentStatistics'

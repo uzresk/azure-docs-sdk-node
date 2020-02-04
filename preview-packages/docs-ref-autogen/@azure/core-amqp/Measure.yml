@@ -1,0 +1,97 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.Measure
+    name: Measure
+    fullName: Measure
+    children:
+      - tslib.Measure.description
+      - tslib.Measure.name
+      - tslib.Measure.type
+      - tslib.Measure.unit
+    langs:
+      - typeScript
+    type: interface
+    summary: |-
+      Describes the type of the individual values/measurements recorded by an
+      application. It includes information such as the type of measurement, the
+      units of measurement and descriptive names for the data. This provides the
+      fundamental type used for recording data.
+    package: tslib
+  - uid: tslib.Measure.description
+    name: description
+    fullName: description
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: 'Describes the measure, e.g. "RPC latency in seconds".'
+    optional: true
+    syntax:
+      content: 'description?: undefined | string'
+      return:
+        type:
+          - undefined | string
+        description: ''
+    package: tslib
+  - uid: tslib.Measure.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      A string by which the measure will be referred to, e.g.
+      "rpc_server_latency". Names MUST be unique within the library.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: tslib
+  - uid: tslib.Measure.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The type used for this Measure.
+    syntax:
+      content: 'type: MeasureType'
+      return:
+        type:
+          - tslib.MeasureType
+        description: ''
+    package: tslib
+  - uid: tslib.Measure.unit
+    name: unit
+    fullName: unit
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: |-
+      Describes the unit used for the Measure. Follows the format described by
+      http://unitsofmeasure.org/ucum.html.
+    syntax:
+      content: 'unit: MeasureUnit'
+      return:
+        type:
+          - tslib.MeasureUnit
+        description: ''
+    package: tslib
+references:
+  - uid: tslib.MeasureType
+    name: MeasureType
+    spec.typeScript:
+      - name: MeasureType
+        fullName: MeasureType
+        uid: tslib.MeasureType
+  - uid: tslib.MeasureUnit
+    name: MeasureUnit
+    spec.typeScript:
+      - name: MeasureUnit
+        fullName: MeasureUnit
+        uid: tslib.MeasureUnit

@@ -1,0 +1,134 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.util.TextDecoder'
+    name: TextDecoder
+    fullName: TextDecoder
+    children:
+      - '@azure/abort-controller.util.TextDecoder.decode'
+      - '@azure/abort-controller.util.TextDecoder.encoding'
+      - '@azure/abort-controller.util.TextDecoder.fatal'
+      - '@azure/abort-controller.util.TextDecoder.ignoreBOM'
+      - '@azure/abort-controller.util.TextDecoder.constructor'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.TextDecoder.decode'
+    name: 'decode(NodeJS, undefined | Object)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function decode(input?: NodeJS, options?: undefined | Object)'
+      parameters:
+        - id: input
+          type:
+            - NodeJS
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.TextDecoder.encoding'
+    name: encoding
+    fullName: encoding
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'encoding: string'
+      return:
+        type:
+          - string
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.TextDecoder.fatal'
+    name: fatal
+    fullName: fatal
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'fatal: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.TextDecoder.ignoreBOM'
+    name: ignoreBOM
+    fullName: ignoreBOM
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'ignoreBOM: boolean'
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.util.TextDecoder.constructor'
+    name: 'TextDecoder(undefined | string, undefined | Object)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        new TextDecoder(encoding?: undefined | string, options?: undefined |
+        Object)
+      parameters:
+        - id: encoding
+          type:
+            - undefined | string
+          description: ''
+          optional: true
+        - id: options
+          type:
+            - undefined | Object
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.util.EncodeIntoResult'
+    name: EncodeIntoResult
+    spec.typeScript:
+      - name: EncodeIntoResult
+        fullName: EncodeIntoResult
+        uid: '@azure/abort-controller.util.EncodeIntoResult'
+  - uid: '@azure/abort-controller.NodeJS.InspectOptions'
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: '@azure/abort-controller.NodeJS.InspectOptions'
+  - uid: '@azure/abort-controller.util.InspectOptions'
+    name: InspectOptions
+    spec.typeScript:
+      - name: InspectOptions
+        fullName: InspectOptions
+        uid: '@azure/abort-controller.util.InspectOptions'
+  - uid: '@azure/abort-controller.util.Style'
+    name: Style
+    spec.typeScript:
+      - name: Style
+        fullName: Style
+        uid: '@azure/abort-controller.util.Style'

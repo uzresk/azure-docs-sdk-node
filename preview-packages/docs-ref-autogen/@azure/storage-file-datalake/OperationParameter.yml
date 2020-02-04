@@ -1,0 +1,62 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.OperationParameter'
+    name: OperationParameter
+    fullName: OperationParameter
+    children:
+      - '@azure/abort-controller.OperationParameter.mapper'
+      - '@azure/abort-controller.OperationParameter.parameterPath'
+    langs:
+      - typeScript
+    type: interface
+    summary: A common interface that all Operation parameter's extend.
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OperationParameter.mapper'
+    name: mapper
+    fullName: mapper
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The mapper that defines how to validate and serialize this parameter's
+      value.
+    syntax:
+      content: 'mapper: Mapper'
+      return:
+        type:
+          - '@azure/abort-controller.Mapper'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.OperationParameter.parameterPath'
+    name: parameterPath
+    fullName: parameterPath
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: >-
+      The path to this parameter's value in OperationArguments or the object
+      that contains paths for
+
+      each property's value in OperationArguments.
+    syntax:
+      content: 'parameterPath: ParameterPath'
+      return:
+        type:
+          - '@azure/abort-controller.ParameterPath'
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.Mapper'
+    name: Mapper
+    spec.typeScript:
+      - name: Mapper
+        fullName: Mapper
+        uid: '@azure/abort-controller.Mapper'
+  - uid: '@azure/abort-controller.ParameterPath'
+    name: ParameterPath
+    spec.typeScript:
+      - name: ParameterPath
+        fullName: ParameterPath
+        uid: '@azure/abort-controller.ParameterPath'

@@ -1,0 +1,211 @@
+### YamlMime:UniversalReference
+items:
+  - uid: '@azure/abort-controller.Headers'
+    name: Headers
+    fullName: Headers
+    children:
+      - '@azure/abort-controller.Headers.append'
+      - '@azure/abort-controller.Headers.delete'
+      - '@azure/abort-controller.Headers.entries'
+      - '@azure/abort-controller.Headers.forEach'
+      - '@azure/abort-controller.Headers.get'
+      - '@azure/abort-controller.Headers.has'
+      - '@azure/abort-controller.Headers.constructor'
+      - '@azure/abort-controller.Headers.keys'
+      - '@azure/abort-controller.Headers.raw'
+      - '@azure/abort-controller.Headers.set'
+      - '@azure/abort-controller.Headers.values'
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Headers.append'
+    name: 'append(string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function append(name: string, value: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Headers.delete'
+    name: delete(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function delete(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Headers.entries'
+    name: entries()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function entries()
+      parameters: []
+      return:
+        type:
+          - Iterator<Object>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Headers.forEach'
+    name: 'forEach((value: string, name: string) => void)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function forEach(callback: (value: string, name: string) => void)'
+      parameters:
+        - id: callback
+          type:
+            - '(value: string, name: string) => void'
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Headers.get'
+    name: get(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function get(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - string | null
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Headers.has'
+    name: has(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function has(name: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - boolean
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Headers.constructor'
+    name: Headers(HeadersInit)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new Headers(init?: HeadersInit)'
+      parameters:
+        - id: init
+          type:
+            - '@azure/abort-controller.HeadersInit'
+          description: ''
+          optional: true
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Headers.keys'
+    name: keys()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function keys()
+      parameters: []
+      return:
+        type:
+          - Iterator<string>
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Headers.raw'
+    name: raw()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function raw()
+      parameters: []
+      return:
+        type:
+          - '[key: string]: function'
+        description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Headers.set'
+    name: 'set(string, string)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function set(name: string, value: string)'
+      parameters:
+        - id: name
+          type:
+            - string
+          description: ''
+        - id: value
+          type:
+            - string
+          description: ''
+    package: '@azure/abort-controller'
+  - uid: '@azure/abort-controller.Headers.values'
+    name: values()
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function values()
+      parameters: []
+      return:
+        type:
+          - Iterator<Object>
+        description: ''
+    package: '@azure/abort-controller'
+references:
+  - uid: '@azure/abort-controller.HeadersInit'
+    name: HeadersInit
+    spec.typeScript:
+      - name: HeadersInit
+        fullName: HeadersInit
+        uid: '@azure/abort-controller.HeadersInit'

@@ -1,0 +1,146 @@
+### YamlMime:UniversalReference
+items:
+  - uid: tslib.module.Module.SourceMap
+    name: SourceMap
+    fullName: SourceMap
+    children:
+      - tslib.module.Module.SourceMap.findEntry
+      - tslib.module.Module.SourceMap.payload
+      - tslib.module.Module.SourceMap.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: tslib
+  - uid: tslib.module.Module.SourceMap.findEntry
+    name: 'findEntry(number, number)'
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function findEntry(line: number, column: number)'
+      parameters:
+        - id: line
+          type:
+            - number
+          description: ''
+        - id: column
+          type:
+            - number
+          description: ''
+      return:
+        type:
+          - tslib.module.Module.SourceMapping
+        description: ''
+    package: tslib
+  - uid: tslib.module.Module.SourceMap.payload
+    name: payload
+    fullName: payload
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'payload: SourceMapPayload'
+      return:
+        type:
+          - tslib.module.Module.SourceMapPayload
+        description: ''
+    package: tslib
+  - uid: tslib.module.Module.SourceMap.constructor
+    name: SourceMap(SourceMapPayload)
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new SourceMap(payload: SourceMapPayload)'
+      parameters:
+        - id: payload
+          type:
+            - tslib.module.Module.SourceMapPayload
+          description: ''
+    package: tslib
+references:
+  - uid: tslib.NodeModule
+    name: NodeModule
+    spec.typeScript:
+      - name: NodeModule
+        fullName: NodeModule
+        uid: tslib.NodeModule
+  - uid: tslib.module.Module.SourceMapPayload
+    name: SourceMapPayload
+    spec.typeScript:
+      - name: SourceMapPayload
+        fullName: SourceMapPayload
+        uid: tslib.module.Module.SourceMapPayload
+  - uid: tslib.module.Module.SourceMapping
+    name: SourceMapping
+    spec.typeScript:
+      - name: SourceMapping
+        fullName: SourceMapping
+        uid: tslib.module.Module.SourceMapping
+  - uid: tslib.module.Module.Module
+    name: Module
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: tslib.module.Module.Module
+  - uid: 'tslib.NodeJS.Module[]'
+    name: 'Module[]'
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: tslib.NodeJS.Module
+      - name: '[]'
+        fullName: '[]'
+  - uid: tslib.NodeJS.Module | null
+    name: Module | null
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: tslib.NodeJS.Module
+      - name: ' | null'
+        fullName: ' | null'
+  - uid: tslib.NodeJS.Require
+    name: Require
+    spec.typeScript:
+      - name: Require
+        fullName: Require
+        uid: tslib.NodeJS.Require
+  - uid: tslib.module.Module
+    name: Module
+    spec.typeScript:
+      - name: Module
+        fullName: Module
+        uid: tslib.module.Module
+  - uid: string | tslib.url.URL
+    name: URL
+    spec.typeScript:
+      - name: 'string | '
+        fullName: 'string | '
+      - name: URL
+        fullName: URL
+        uid: tslib.url.URL
+  - uid: tslib.NodeRequire
+    name: NodeRequire
+    spec.typeScript:
+      - name: NodeRequire
+        fullName: NodeRequire
+        uid: tslib.NodeRequire
+  - uid: tslib.AbortError.Error
+    name: Error
+    spec.typeScript:
+      - name: Error
+        fullName: Error
+        uid: tslib.AbortError.Error
+  - uid: tslib.module.Module.SourceMap
+    name: SourceMap
+    spec.typeScript:
+      - name: SourceMap
+        fullName: SourceMap
+        uid: tslib.module.Module.SourceMap
