@@ -22,7 +22,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string Name
+      content: 'Name: string'
       return:
         type:
           - string
@@ -60,7 +60,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string Platform
+      content: 'Platform: string'
       return:
         type:
           - string
@@ -75,7 +75,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string Version
+      content: 'Version: string'
       return:
         type:
           - string

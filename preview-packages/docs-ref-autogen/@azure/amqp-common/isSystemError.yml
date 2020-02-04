@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.isSystemError'
+  - uid: '@azure/amqp-common.isSystemError'
     name: isSystemError(any)
     children: []
     type: function
@@ -18,4 +18,4 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'

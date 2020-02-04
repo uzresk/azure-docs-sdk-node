@@ -1,12 +1,12 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.RecognizeEntitiesSuccessResult'
+  - uid: '@azure/ai-text-analytics.RecognizeEntitiesSuccessResult'
     name: RecognizeEntitiesSuccessResult
     fullName: RecognizeEntitiesSuccessResult
     children:
-      - '@azure/abort-controller.RecognizeEntitiesSuccessResult.entities'
-      - '@azure/abort-controller.RecognizeEntitiesSuccessResult.id'
-      - '@azure/abort-controller.RecognizeEntitiesSuccessResult.statistics'
+      - '@azure/ai-text-analytics.RecognizeEntitiesSuccessResult.entities'
+      - '@azure/ai-text-analytics.RecognizeEntitiesSuccessResult.id'
+      - '@azure/ai-text-analytics.RecognizeEntitiesSuccessResult.statistics'
     langs:
       - typeScript
     type: interface
@@ -16,9 +16,9 @@ items:
 
       `Entity` objects identified in that document.
     extends:
-      name: '@azure/abort-controller.TextAnalyticsSuccessResult'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.RecognizeEntitiesSuccessResult.entities'
+      name: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.RecognizeEntitiesSuccessResult.entities'
     name: entities
     fullName: entities
     children: []
@@ -30,10 +30,10 @@ items:
       content: 'entities: Entity[]'
       return:
         type:
-          - '@azure/abort-controller.Entity[]'
+          - '@azure/ai-text-analytics.Entity[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.RecognizeEntitiesSuccessResult.id'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.RecognizeEntitiesSuccessResult.id'
     name: id
     fullName: id
     children: []
@@ -47,8 +47,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.RecognizeEntitiesSuccessResult.statistics'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.RecognizeEntitiesSuccessResult.statistics'
     name: statistics
     fullName: statistics
     children: []
@@ -67,27 +67,27 @@ items:
       content: 'statistics?: TextDocumentStatistics'
       return:
         type:
-          - '@azure/abort-controller.TextDocumentStatistics'
+          - '@azure/ai-text-analytics.TextDocumentStatistics'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'
 references:
-  - uid: '@azure/abort-controller.TextAnalyticsSuccessResult'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
     name: TextAnalyticsSuccessResult
     spec.typeScript:
       - name: TextAnalyticsSuccessResult
         fullName: TextAnalyticsSuccessResult
-        uid: '@azure/abort-controller.TextAnalyticsSuccessResult'
-  - uid: '@azure/abort-controller.Entity[]'
+        uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
+  - uid: '@azure/ai-text-analytics.Entity[]'
     name: 'Entity[]'
     spec.typeScript:
       - name: Entity
         fullName: Entity
-        uid: '@azure/abort-controller.Entity'
+        uid: '@azure/ai-text-analytics.Entity'
       - name: '[]'
         fullName: '[]'
-  - uid: '@azure/abort-controller.TextDocumentStatistics'
+  - uid: '@azure/ai-text-analytics.TextDocumentStatistics'
     name: TextDocumentStatistics
     spec.typeScript:
       - name: TextDocumentStatistics
         fullName: TextDocumentStatistics
-        uid: '@azure/abort-controller.TextDocumentStatistics'
+        uid: '@azure/ai-text-analytics.TextDocumentStatistics'

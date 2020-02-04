@@ -1,22 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesOptions'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesOptions'
     name: ExtractKeyPhrasesOptions
     fullName: ExtractKeyPhrasesOptions
     children:
-      - '@azure/abort-controller.ExtractKeyPhrasesOptions.abortSignal'
-      - '@azure/abort-controller.ExtractKeyPhrasesOptions.includeStatistics'
-      - '@azure/abort-controller.ExtractKeyPhrasesOptions.modelVersion'
-      - '@azure/abort-controller.ExtractKeyPhrasesOptions.requestOptions'
-      - '@azure/abort-controller.ExtractKeyPhrasesOptions.tracingOptions'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesOptions.abortSignal'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesOptions.includeStatistics'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesOptions.modelVersion'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesOptions.requestOptions'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesOptions.tracingOptions'
     langs:
       - typeScript
     type: interface
     summary: Options for the extract key phrases operation.
     extends:
-      name: '@azure/abort-controller.TextAnalyticsOperationOptions'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesOptions.abortSignal'
+      name: '@azure/ai-text-analytics.TextAnalyticsOperationOptions'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesOptions.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -29,10 +29,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - '@azure/abort-controller.AbortSignalLike'
+          - AbortSignalLike
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesOptions.includeStatistics'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesOptions.includeStatistics'
     name: includeStatistics
     fullName: includeStatistics
     children: []
@@ -47,8 +47,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesOptions.modelVersion'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesOptions.modelVersion'
     name: modelVersion
     fullName: modelVersion
     children: []
@@ -72,8 +72,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesOptions.requestOptions'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesOptions.requestOptions'
     name: requestOptions
     fullName: requestOptions
     children: []
@@ -86,10 +86,10 @@ items:
       content: 'requestOptions?: OperationRequestOptions'
       return:
         type:
-          - '@azure/abort-controller.OperationRequestOptions'
+          - OperationRequestOptions
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesOptions.tracingOptions'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesOptions.tracingOptions'
     name: tracingOptions
     fullName: tracingOptions
     children: []
@@ -102,31 +102,13 @@ items:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         type:
-          - '@azure/abort-controller.OperationTracingOptions'
+          - OperationTracingOptions
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'
 references:
-  - uid: '@azure/abort-controller.TextAnalyticsOperationOptions'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions'
     name: TextAnalyticsOperationOptions
     spec.typeScript:
       - name: TextAnalyticsOperationOptions
         fullName: TextAnalyticsOperationOptions
-        uid: '@azure/abort-controller.TextAnalyticsOperationOptions'
-  - uid: '@azure/abort-controller.AbortSignalLike'
-    name: AbortSignalLike
-    spec.typeScript:
-      - name: AbortSignalLike
-        fullName: AbortSignalLike
-        uid: '@azure/abort-controller.AbortSignalLike'
-  - uid: '@azure/abort-controller.OperationRequestOptions'
-    name: OperationRequestOptions
-    spec.typeScript:
-      - name: OperationRequestOptions
-        fullName: OperationRequestOptions
-        uid: '@azure/abort-controller.OperationRequestOptions'
-  - uid: '@azure/abort-controller.OperationTracingOptions'
-    name: OperationTracingOptions
-    spec.typeScript:
-      - name: OperationTracingOptions
-        fullName: OperationTracingOptions
-        uid: '@azure/abort-controller.OperationTracingOptions'
+        uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions'

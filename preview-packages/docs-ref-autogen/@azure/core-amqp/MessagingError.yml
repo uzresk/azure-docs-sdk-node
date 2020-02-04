@@ -1,26 +1,26 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.MessagingError
+  - uid: '@azure/core-amqp.MessagingError'
     name: MessagingError
     fullName: MessagingError
     children:
-      - tslib.MessagingError.condition
-      - tslib.MessagingError.Error
-      - tslib.MessagingError.info
-      - tslib.MessagingError.message
-      - tslib.MessagingError.constructor
-      - tslib.MessagingError.name
-      - tslib.MessagingError.retryable
-      - tslib.MessagingError.stack
-      - tslib.MessagingError.translated
+      - '@azure/core-amqp.MessagingError.condition'
+      - '@azure/core-amqp.MessagingError.Error'
+      - '@azure/core-amqp.MessagingError.info'
+      - '@azure/core-amqp.MessagingError.message'
+      - '@azure/core-amqp.MessagingError.constructor'
+      - '@azure/core-amqp.MessagingError.name'
+      - '@azure/core-amqp.MessagingError.retryable'
+      - '@azure/core-amqp.MessagingError.stack'
+      - '@azure/core-amqp.MessagingError.translated'
     langs:
       - typeScript
     type: class
     summary: Describes the base class for Messaging Error.
     extends:
       name: Error
-    package: tslib
-  - uid: tslib.MessagingError.condition
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessagingError.condition'
     name: condition
     fullName: condition
     children: []
@@ -35,8 +35,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: tslib
-  - uid: tslib.MessagingError.Error
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessagingError.Error'
     name: Error
     fullName: Error
     children: []
@@ -50,8 +50,8 @@ items:
         type:
           - ErrorConstructor
         description: ''
-    package: tslib
-  - uid: tslib.MessagingError.info
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessagingError.info'
     name: info
     fullName: info
     children: []
@@ -66,8 +66,8 @@ items:
         type:
           - any
         description: ''
-    package: tslib
-  - uid: tslib.MessagingError.message
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessagingError.message'
     name: message
     fullName: message
     children: []
@@ -81,8 +81,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.MessagingError.constructor
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessagingError.constructor'
     name: MessagingError(string)
     children: []
     type: constructor
@@ -97,8 +97,8 @@ items:
             - string
           description: |
             The error message that provides more information about the error.
-    package: tslib
-  - uid: tslib.MessagingError.name
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessagingError.name'
     name: name
     fullName: name
     children: []
@@ -112,8 +112,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.MessagingError.retryable
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessagingError.retryable'
     name: retryable
     fullName: retryable
     children: []
@@ -129,8 +129,8 @@ items:
         type:
           - boolean
         description: ''
-    package: tslib
-  - uid: tslib.MessagingError.stack
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessagingError.stack'
     name: stack
     fullName: stack
     children: []
@@ -145,8 +145,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: tslib
-  - uid: tslib.MessagingError.translated
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessagingError.translated'
     name: translated
     fullName: translated
     children: []
@@ -160,4 +160,4 @@ items:
         type:
           - boolean
         description: ''
-    package: tslib
+    package: '@azure/core-amqp'

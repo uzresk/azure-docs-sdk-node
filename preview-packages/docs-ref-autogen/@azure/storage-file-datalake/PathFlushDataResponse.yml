@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PathFlushDataResponse'
+  - uid: '@azure/storage-file-datalake.PathFlushDataResponse'
     name: PathFlushDataResponse
     fullName: PathFlushDataResponse
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type PathFlushDataResponse = PathFlushDataHeaders & { _response: Object
         }
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

@@ -13,86 +13,47 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.PromiseHelper.FromError
-    name: FromError(string)
+    name: FromError
+    fullName: FromError
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'static function FromError<TResult>(error: string)'
-      parameters:
-        - id: error
-          type:
-            - string
-          description: ''
+      content: 'static FromError: (error: string) => Promise<TResult>'
       return:
         type:
-          - microsoft-speech-browser-sdk.Promise<TResult>
+          - '(error: string) => Promise<TResult>'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.PromiseHelper.FromResult
-    name: FromResult(TResult)
+    name: FromResult
+    fullName: FromResult
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'static function FromResult<TResult>(result: TResult)'
-      parameters:
-        - id: result
-          type:
-            - TResult
-          description: ''
+      content: 'static FromResult: (result: TResult) => Promise<TResult>'
       return:
         type:
-          - microsoft-speech-browser-sdk.Promise<TResult>
+          - '(result: TResult) => Promise<TResult>'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.PromiseHelper.WhenAll
-    name: WhenAll(Array<Promise<any>>)
+    name: WhenAll
+    fullName: WhenAll
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'static function WhenAll(promises: Array<Promise<any>>)'
-      parameters:
-        - id: promises
-          type:
-            - Array<microsoft-speech-browser-sdk.Promise<any>>
-          description: ''
+      content: 'static WhenAll: (promises: Promise<any>[]) => Promise<boolean>'
       return:
         type:
-          - microsoft-speech-browser-sdk.Promise<boolean>
+          - '(promises: Promise<any>[]) => Promise<boolean>'
         description: ''
     package: microsoft-speech-browser-sdk
-references:
-  - uid: microsoft-speech-browser-sdk.Promise<TResult>
-    name: Promise<TResult>
-    spec.typeScript:
-      - name: Promise
-        fullName: Promise
-        uid: microsoft-speech-browser-sdk.Promise
-      - name: <TResult>
-        fullName: <TResult>
-  - uid: Array<microsoft-speech-browser-sdk.Promise<any>>
-    name: Promise<any>>
-    spec.typeScript:
-      - name: Array<
-        fullName: Array<
-      - name: Promise
-        fullName: Promise
-        uid: microsoft-speech-browser-sdk.Promise
-      - name: <any>>
-        fullName: <any>>
-  - uid: microsoft-speech-browser-sdk.Promise<boolean>
-    name: Promise<boolean>
-    spec.typeScript:
-      - name: Promise
-        fullName: Promise
-        uid: microsoft-speech-browser-sdk.Promise
-      - name: <boolean>
-        fullName: <boolean>

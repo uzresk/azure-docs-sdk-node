@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.ErrorCodeValue'
+  - uid: '@azure/ai-text-analytics.ErrorCodeValue'
     name: ErrorCodeValue
     fullName: ErrorCodeValue
     children: []
@@ -18,4 +18,4 @@ items:
       content: >-
         type ErrorCodeValue = "invalidRequest" | "invalidArgument" |
         "internalServerError" | "serviceUnavailable"
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'

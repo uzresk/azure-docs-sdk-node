@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.AccountSASSignatureValues'
+  - uid: '@azure/storage-file-datalake.AccountSASSignatureValues'
     name: AccountSASSignatureValues
     fullName: AccountSASSignatureValues
     children:
-      - '@azure/abort-controller.AccountSASSignatureValues.expiresOn'
-      - '@azure/abort-controller.AccountSASSignatureValues.ipRange'
-      - '@azure/abort-controller.AccountSASSignatureValues.permissions'
-      - '@azure/abort-controller.AccountSASSignatureValues.protocol'
-      - '@azure/abort-controller.AccountSASSignatureValues.resourceTypes'
-      - '@azure/abort-controller.AccountSASSignatureValues.services'
-      - '@azure/abort-controller.AccountSASSignatureValues.startsOn'
-      - '@azure/abort-controller.AccountSASSignatureValues.version'
+      - '@azure/storage-file-datalake.AccountSASSignatureValues.expiresOn'
+      - '@azure/storage-file-datalake.AccountSASSignatureValues.ipRange'
+      - '@azure/storage-file-datalake.AccountSASSignatureValues.permissions'
+      - '@azure/storage-file-datalake.AccountSASSignatureValues.protocol'
+      - '@azure/storage-file-datalake.AccountSASSignatureValues.resourceTypes'
+      - '@azure/storage-file-datalake.AccountSASSignatureValues.services'
+      - '@azure/storage-file-datalake.AccountSASSignatureValues.startsOn'
+      - '@azure/storage-file-datalake.AccountSASSignatureValues.version'
     langs:
       - typeScript
     type: interface
@@ -31,8 +31,8 @@ items:
       latter is immutable and used to generate
 
       actual REST requests.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASSignatureValues.expiresOn'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASSignatureValues.expiresOn'
     name: expiresOn
     fullName: expiresOn
     children: []
@@ -46,8 +46,8 @@ items:
         type:
           - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASSignatureValues.ipRange'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASSignatureValues.ipRange'
     name: ipRange
     fullName: ipRange
     children: []
@@ -60,10 +60,10 @@ items:
       content: 'ipRange?: SasIPRange'
       return:
         type:
-          - '@azure/abort-controller.SasIPRange'
+          - '@azure/storage-file-datalake.SasIPRange'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASSignatureValues.permissions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASSignatureValues.permissions'
     name: permissions
     fullName: permissions
     children: []
@@ -79,10 +79,10 @@ items:
       content: 'permissions: AccountSASPermissions'
       return:
         type:
-          - '@azure/abort-controller.AccountSASPermissions'
+          - '@azure/storage-file-datalake.AccountSASPermissions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASSignatureValues.protocol'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASSignatureValues.protocol'
     name: protocol
     fullName: protocol
     children: []
@@ -95,10 +95,10 @@ items:
       content: 'protocol?: SASProtocol'
       return:
         type:
-          - '@azure/abort-controller.SASProtocol'
+          - '@azure/storage-file-datalake.SASProtocol'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASSignatureValues.resourceTypes'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASSignatureValues.resourceTypes'
     name: resourceTypes
     fullName: resourceTypes
     children: []
@@ -116,8 +116,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASSignatureValues.services'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASSignatureValues.services'
     name: services
     fullName: services
     children: []
@@ -135,8 +135,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASSignatureValues.startsOn'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASSignatureValues.startsOn'
     name: startsOn
     fullName: startsOn
     children: []
@@ -149,10 +149,10 @@ items:
       content: 'startsOn?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASSignatureValues.version'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASSignatureValues.version'
     name: version
     fullName: version
     children: []
@@ -169,29 +169,23 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.SasIPRange'
+  - uid: '@azure/storage-file-datalake.SasIPRange'
     name: SasIPRange
     spec.typeScript:
       - name: SasIPRange
         fullName: SasIPRange
-        uid: '@azure/abort-controller.SasIPRange'
-  - uid: '@azure/abort-controller.AccountSASPermissions'
+        uid: '@azure/storage-file-datalake.SasIPRange'
+  - uid: '@azure/storage-file-datalake.AccountSASPermissions'
     name: AccountSASPermissions
     spec.typeScript:
       - name: AccountSASPermissions
         fullName: AccountSASPermissions
-        uid: '@azure/abort-controller.AccountSASPermissions'
-  - uid: '@azure/abort-controller.SASProtocol'
+        uid: '@azure/storage-file-datalake.AccountSASPermissions'
+  - uid: '@azure/storage-file-datalake.SASProtocol'
     name: SASProtocol
     spec.typeScript:
       - name: SASProtocol
         fullName: SASProtocol
-        uid: '@azure/abort-controller.SASProtocol'
-  - uid: '@azure/abort-controller.NodeJS.Global.Date'
-    name: Date
-    spec.typeScript:
-      - name: Date
-        fullName: Date
-        uid: '@azure/abort-controller.NodeJS.Global.Date'
+        uid: '@azure/storage-file-datalake.SASProtocol'

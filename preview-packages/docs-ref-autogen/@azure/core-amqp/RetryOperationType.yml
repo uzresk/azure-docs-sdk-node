@@ -1,23 +1,23 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.RetryOperationType
+  - uid: '@azure/core-amqp.RetryOperationType'
     name: RetryOperationType
     fullName: RetryOperationType
     children:
-      - tslib.RetryOperationType.cbsAuth
-      - tslib.RetryOperationType.connection
-      - tslib.RetryOperationType.management
-      - tslib.RetryOperationType.receiveMessage
-      - tslib.RetryOperationType.receiverLink
-      - tslib.RetryOperationType.sendMessage
-      - tslib.RetryOperationType.senderLink
-      - tslib.RetryOperationType.session
+      - '@azure/core-amqp.RetryOperationType.cbsAuth'
+      - '@azure/core-amqp.RetryOperationType.connection'
+      - '@azure/core-amqp.RetryOperationType.management'
+      - '@azure/core-amqp.RetryOperationType.receiveMessage'
+      - '@azure/core-amqp.RetryOperationType.receiverLink'
+      - '@azure/core-amqp.RetryOperationType.sendMessage'
+      - '@azure/core-amqp.RetryOperationType.senderLink'
+      - '@azure/core-amqp.RetryOperationType.session'
     langs:
       - typeScript
     type: enum
     summary: Describes the retry operation type.
-    package: tslib
-  - uid: tslib.RetryOperationType.cbsAuth
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RetryOperationType.cbsAuth'
     name: cbsAuth
     children: []
     langs:
@@ -25,8 +25,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: tslib
-  - uid: tslib.RetryOperationType.connection
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RetryOperationType.connection'
     name: connection
     children: []
     langs:
@@ -34,8 +34,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: tslib
-  - uid: tslib.RetryOperationType.management
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RetryOperationType.management'
     name: management
     children: []
     langs:
@@ -43,8 +43,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: tslib
-  - uid: tslib.RetryOperationType.receiveMessage
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RetryOperationType.receiveMessage'
     name: receiveMessage
     children: []
     langs:
@@ -52,8 +52,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: tslib
-  - uid: tslib.RetryOperationType.receiverLink
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RetryOperationType.receiverLink'
     name: receiverLink
     children: []
     langs:
@@ -61,8 +61,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: tslib
-  - uid: tslib.RetryOperationType.sendMessage
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RetryOperationType.sendMessage'
     name: sendMessage
     children: []
     langs:
@@ -70,8 +70,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: tslib
-  - uid: tslib.RetryOperationType.senderLink
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RetryOperationType.senderLink'
     name: senderLink
     children: []
     langs:
@@ -79,8 +79,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: tslib
-  - uid: tslib.RetryOperationType.session
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RetryOperationType.session'
     name: session
     children: []
     langs:
@@ -88,4 +88,4 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: tslib
+    package: '@azure/core-amqp'

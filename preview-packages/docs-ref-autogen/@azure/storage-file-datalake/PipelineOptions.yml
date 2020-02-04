@@ -1,16 +1,16 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PipelineOptions'
+  - uid: '@azure/storage-file-datalake.PipelineOptions'
     name: PipelineOptions
     fullName: PipelineOptions
     children:
-      - '@azure/abort-controller.PipelineOptions.httpClient'
+      - '@azure/storage-file-datalake.PipelineOptions.httpClient'
     langs:
       - typeScript
     type: interface
     summary: Option interface for Pipeline constructor.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PipelineOptions.httpClient'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PipelineOptions.httpClient'
     name: httpClient
     fullName: httpClient
     children: []
@@ -27,4 +27,4 @@ items:
         type:
           - IHttpClient
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

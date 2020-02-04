@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.ConnectionConfigOptions'
+  - uid: '@azure/amqp-common.ConnectionConfigOptions'
     name: ConnectionConfigOptions
     fullName: ConnectionConfigOptions
     children:
-      - '@azure/ms-rest-azure-env.ConnectionConfigOptions.isEntityPathRequired'
+      - '@azure/amqp-common.ConnectionConfigOptions.isEntityPathRequired'
     langs:
       - typeScript
     type: interface
     summary: >-
       Describes the options that can be provided while creating a connection
       config.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConnectionConfigOptions.isEntityPathRequired'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConnectionConfigOptions.isEntityPathRequired'
     name: isEntityPathRequired
     fullName: isEntityPathRequired
     children: []
@@ -31,4 +31,4 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'

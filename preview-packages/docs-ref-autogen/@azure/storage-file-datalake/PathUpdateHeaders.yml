@@ -1,31 +1,31 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PathUpdateHeaders'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders'
     name: PathUpdateHeaders
     fullName: PathUpdateHeaders
     children:
-      - '@azure/abort-controller.PathUpdateHeaders.acceptRanges'
-      - '@azure/abort-controller.PathUpdateHeaders.cacheControl'
-      - '@azure/abort-controller.PathUpdateHeaders.contentDisposition'
-      - '@azure/abort-controller.PathUpdateHeaders.contentEncoding'
-      - '@azure/abort-controller.PathUpdateHeaders.contentLanguage'
-      - '@azure/abort-controller.PathUpdateHeaders.contentLength'
-      - '@azure/abort-controller.PathUpdateHeaders.contentMD5'
-      - '@azure/abort-controller.PathUpdateHeaders.contentRange'
-      - '@azure/abort-controller.PathUpdateHeaders.contentType'
-      - '@azure/abort-controller.PathUpdateHeaders.date'
-      - '@azure/abort-controller.PathUpdateHeaders.errorCode'
-      - '@azure/abort-controller.PathUpdateHeaders.eTag'
-      - '@azure/abort-controller.PathUpdateHeaders.lastModified'
-      - '@azure/abort-controller.PathUpdateHeaders.properties'
-      - '@azure/abort-controller.PathUpdateHeaders.requestId'
-      - '@azure/abort-controller.PathUpdateHeaders.version'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.acceptRanges'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.cacheControl'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.contentDisposition'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.contentEncoding'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.contentLanguage'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.contentLength'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.contentMD5'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.contentRange'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.contentType'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.date'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.errorCode'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.eTag'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.lastModified'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.properties'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.requestId'
+      - '@azure/storage-file-datalake.PathUpdateHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: Defines headers for Update operation.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.acceptRanges'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.acceptRanges'
     name: acceptRanges
     fullName: acceptRanges
     children: []
@@ -40,8 +40,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.cacheControl'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.cacheControl'
     name: cacheControl
     fullName: cacheControl
     children: []
@@ -60,8 +60,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.contentDisposition'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.contentDisposition'
     name: contentDisposition
     fullName: contentDisposition
     children: []
@@ -80,8 +80,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.contentEncoding'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.contentEncoding'
     name: contentEncoding
     fullName: contentEncoding
     children: []
@@ -100,8 +100,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.contentLanguage'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.contentLanguage'
     name: contentLanguage
     fullName: contentLanguage
     children: []
@@ -120,8 +120,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.contentLength'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.contentLength'
     name: contentLength
     fullName: contentLength
     children: []
@@ -136,8 +136,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.contentMD5'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.contentMD5'
     name: contentMD5
     fullName: contentMD5
     children: []
@@ -162,8 +162,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.contentRange'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.contentRange'
     name: contentRange
     fullName: contentRange
     children: []
@@ -182,8 +182,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.contentType'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.contentType'
     name: contentType
     fullName: contentType
     children: []
@@ -202,8 +202,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.date'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.date'
     name: date
     fullName: date
     children: []
@@ -220,10 +220,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.errorCode'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.errorCode'
     name: errorCode
     fullName: errorCode
     children: []
@@ -238,8 +238,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.eTag'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.eTag'
     name: eTag
     fullName: eTag
     children: []
@@ -254,8 +254,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.lastModified'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -272,10 +272,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.properties'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.properties'
     name: properties
     fullName: properties
     children: []
@@ -300,8 +300,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.requestId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -318,8 +318,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathUpdateHeaders.version'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathUpdateHeaders.version'
     name: version
     fullName: version
     children: []
@@ -334,11 +334,4 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-references:
-  - uid: '@azure/abort-controller.NodeJS.Global.Date'
-    name: Date
-    spec.typeScript:
-      - name: Date
-        fullName: Date
-        uid: '@azure/abort-controller.NodeJS.Global.Date'
+    package: '@azure/storage-file-datalake'

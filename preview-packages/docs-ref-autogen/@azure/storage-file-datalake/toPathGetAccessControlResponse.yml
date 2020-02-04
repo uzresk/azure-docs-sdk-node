@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.toPathGetAccessControlResponse'
+  - uid: '@azure/storage-file-datalake.toPathGetAccessControlResponse'
     name: toPathGetAccessControlResponse(PathGetPropertiesResponse)
     children: []
     type: function
@@ -14,23 +14,23 @@ items:
       parameters:
         - id: response
           type:
-            - '@azure/abort-controller.PathGetPropertiesResponse'
+            - '@azure/storage-file-datalake.PathGetPropertiesResponse'
           description: ''
       return:
         type:
-          - '@azure/abort-controller.PathGetAccessControlResponse'
+          - '@azure/storage-file-datalake.PathGetAccessControlResponse'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.PathGetPropertiesResponse'
+  - uid: '@azure/storage-file-datalake.PathGetPropertiesResponse'
     name: PathGetPropertiesResponse
     spec.typeScript:
       - name: PathGetPropertiesResponse
         fullName: PathGetPropertiesResponse
-        uid: '@azure/abort-controller.PathGetPropertiesResponse'
-  - uid: '@azure/abort-controller.PathGetAccessControlResponse'
+        uid: '@azure/storage-file-datalake.PathGetPropertiesResponse'
+  - uid: '@azure/storage-file-datalake.PathGetAccessControlResponse'
     name: PathGetAccessControlResponse
     spec.typeScript:
       - name: PathGetAccessControlResponse
         fullName: PathGetAccessControlResponse
-        uid: '@azure/abort-controller.PathGetAccessControlResponse'
+        uid: '@azure/storage-file-datalake.PathGetAccessControlResponse'

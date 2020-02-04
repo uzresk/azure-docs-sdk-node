@@ -17,39 +17,34 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.MicAudioSource.Attach
-    name: Attach(string)
+    name: Attach
+    fullName: Attach
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function Attach(audioNodeId: string)'
-      parameters:
-        - id: audioNodeId
-          type:
-            - string
-          description: ''
+      content: 'Attach: (audioNodeId: string) => Promise<IAudioStreamNode>'
       return:
         type:
-          - >-
-            microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.IAudioStreamNode>
+          - '(audioNodeId: string) => Promise<IAudioStreamNode>'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.MicAudioSource.Detach
-    name: Detach(string)
+    name: Detach
+    fullName: Detach
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function Detach(audioNodeId: string)'
-      parameters:
-        - id: audioNodeId
-          type:
-            - string
-          description: ''
+      content: 'Detach: (audioNodeId: string) => void'
+      return:
+        type:
+          - '(audioNodeId: string) => void'
+        description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.MicAudioSource.Events
     name: Events
@@ -60,7 +55,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: EventSource<AudioSourceEvent> Events
+      content: 'Events: EventSource<AudioSourceEvent>'
       return:
         type:
           - >-
@@ -68,18 +63,18 @@ items:
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.MicAudioSource.Id
-    name: Id()
+    name: Id
+    fullName: Id
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: function Id()
-      parameters: []
+      content: 'Id: () => string'
       return:
         type:
-          - string
+          - () => string
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.MicAudioSource.constructor
@@ -103,33 +98,33 @@ items:
           optional: true
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.MicAudioSource.TurnOff
-    name: TurnOff()
+    name: TurnOff
+    fullName: TurnOff
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: function TurnOff()
-      parameters: []
+      content: 'TurnOff: () => Promise<boolean>'
       return:
         type:
-          - microsoft-speech-browser-sdk.Promise<boolean>
+          - () => Promise<boolean>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.MicAudioSource.TurnOn
-    name: TurnOn()
+    name: TurnOn
+    fullName: TurnOn
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: function TurnOn()
-      parameters: []
+      content: 'TurnOn: () => Promise<boolean>'
       return:
         type:
-          - microsoft-speech-browser-sdk.Promise<boolean>
+          - () => Promise<boolean>
         description: ''
     package: microsoft-speech-browser-sdk
 references:
@@ -153,25 +148,3 @@ references:
         uid: microsoft-speech-browser-sdk.AudioSourceEvent
       - name: '>'
         fullName: '>'
-  - uid: >-
-      microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.IAudioStreamNode>
-    name: IAudioStreamNode>
-    spec.typeScript:
-      - name: Promise
-        fullName: Promise
-        uid: microsoft-speech-browser-sdk.Promise
-      - name: <
-        fullName: <
-      - name: IAudioStreamNode
-        fullName: IAudioStreamNode
-        uid: microsoft-speech-browser-sdk.IAudioStreamNode
-      - name: '>'
-        fullName: '>'
-  - uid: microsoft-speech-browser-sdk.Promise<boolean>
-    name: Promise<boolean>
-    spec.typeScript:
-      - name: Promise
-        fullName: Promise
-        uid: microsoft-speech-browser-sdk.Promise
-      - name: <boolean>
-        fullName: <boolean>

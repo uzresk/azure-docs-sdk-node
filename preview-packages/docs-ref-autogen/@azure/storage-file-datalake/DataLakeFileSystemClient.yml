@@ -1,25 +1,26 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient'
     name: DataLakeFileSystemClient
     fullName: DataLakeFileSystemClient
     children:
-      - '@azure/abort-controller.DataLakeFileSystemClient.accountName'
-      - '@azure/abort-controller.DataLakeFileSystemClient.create'
-      - '@azure/abort-controller.DataLakeFileSystemClient.credential'
-      - '@azure/abort-controller.DataLakeFileSystemClient.constructor_1'
-      - '@azure/abort-controller.DataLakeFileSystemClient.constructor'
-      - '@azure/abort-controller.DataLakeFileSystemClient.delete'
-      - '@azure/abort-controller.DataLakeFileSystemClient.getAccessPolicy'
-      - '@azure/abort-controller.DataLakeFileSystemClient.getDataLakeLeaseClient'
-      - '@azure/abort-controller.DataLakeFileSystemClient.getDirectoryClient'
-      - '@azure/abort-controller.DataLakeFileSystemClient.getFileClient'
-      - '@azure/abort-controller.DataLakeFileSystemClient.getProperties'
-      - '@azure/abort-controller.DataLakeFileSystemClient.listPaths'
-      - '@azure/abort-controller.DataLakeFileSystemClient.name'
-      - '@azure/abort-controller.DataLakeFileSystemClient.setAccessPolicy'
-      - '@azure/abort-controller.DataLakeFileSystemClient.setMetadata'
-      - '@azure/abort-controller.DataLakeFileSystemClient.url'
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.accountName'
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.create'
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.credential'
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.constructor_1'
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.constructor'
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.delete'
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.getAccessPolicy'
+      - >-
+        @azure/storage-file-datalake.DataLakeFileSystemClient.getDataLakeLeaseClient
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.getDirectoryClient'
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.getFileClient'
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.getProperties'
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.listPaths'
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.name'
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.setAccessPolicy'
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.setMetadata'
+      - '@azure/storage-file-datalake.DataLakeFileSystemClient.url'
     langs:
       - typeScript
     type: class
@@ -29,9 +30,9 @@ items:
 
       allowing you to manipulate its directories and files.
     extends:
-      name: '@azure/abort-controller.StorageClient'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.accountName'
+      name: '@azure/storage-file-datalake.StorageClient'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.accountName'
     name: accountName
     fullName: accountName
     children: []
@@ -45,8 +46,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.create'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.create'
     name: create(FileSystemCreateOptions)
     children: []
     type: method
@@ -62,15 +63,15 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/abort-controller.FileSystemCreateOptions'
+            - '@azure/storage-file-datalake.FileSystemCreateOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.FileSystemCreateResponse>
+          - Promise<@azure/storage-file-datalake.FileSystemCreateResponse>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.credential'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.credential'
     name: credential
     fullName: credential
     children: []
@@ -89,12 +90,11 @@ items:
       return:
         type:
           - >-
-            @azure/abort-controller.StorageSharedKeyCredential |
-            @azure/abort-controller.AnonymousCredential |
-            @azure/abort-controller.TokenCredential
+            @azure/storage-file-datalake.StorageSharedKeyCredential |
+            @azure/storage-file-datalake.AnonymousCredential | TokenCredential
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.constructor_1'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.constructor_1'
     name: 'DataLakeFileSystemClient(string, Pipeline)'
     children: []
     type: constructor
@@ -114,12 +114,12 @@ items:
                                 if using AnonymousCredential, such as "https://myaccount.dfs.core.windows.net/filesystem?sasString".
         - id: pipeline
           type:
-            - '@azure/abort-controller.Pipeline'
+            - '@azure/storage-file-datalake.Pipeline'
           description: |-
             Call newPipeline() to create a default
                                        pipeline, or provide a customized pipeline.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.constructor'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.constructor'
     name: >-
       DataLakeFileSystemClient(string, StorageSharedKeyCredential |
       AnonymousCredential | TokenCredential, StoragePipelineOptions)
@@ -145,18 +145,17 @@ items:
         - id: credential
           type:
             - >-
-              @azure/abort-controller.StorageSharedKeyCredential |
-              @azure/abort-controller.AnonymousCredential |
-              @azure/abort-controller.TokenCredential
+              @azure/storage-file-datalake.StorageSharedKeyCredential |
+              @azure/storage-file-datalake.AnonymousCredential | TokenCredential
           description: ''
           optional: true
         - id: options
           type:
-            - '@azure/abort-controller.StoragePipelineOptions'
+            - '@azure/storage-file-datalake.StoragePipelineOptions'
           description: ''
           optional: true
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.delete'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.delete'
     name: delete(FileSystemDeleteOptions)
     children: []
     type: method
@@ -168,15 +167,15 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/abort-controller.FileSystemDeleteOptions'
+            - '@azure/storage-file-datalake.FileSystemDeleteOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.FileSystemDeleteResponse>
+          - Promise<@azure/storage-file-datalake.FileSystemDeleteResponse>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.getAccessPolicy'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.getAccessPolicy'
     name: getAccessPolicy(FileSystemGetAccessPolicyOptions)
     children: []
     type: method
@@ -198,15 +197,17 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/abort-controller.FileSystemGetAccessPolicyOptions'
+            - '@azure/storage-file-datalake.FileSystemGetAccessPolicyOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.FileSystemGetAccessPolicyResponse>
+          - >-
+            Promise<@azure/storage-file-datalake.FileSystemGetAccessPolicyResponse>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.getDataLakeLeaseClient'
+    package: '@azure/storage-file-datalake'
+  - uid: >-
+      @azure/storage-file-datalake.DataLakeFileSystemClient.getDataLakeLeaseClient
     name: getDataLakeLeaseClient(undefined | string)
     children: []
     type: method
@@ -223,10 +224,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/abort-controller.DataLakeLeaseClient'
+          - '@azure/storage-file-datalake.DataLakeLeaseClient'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.getDirectoryClient'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.getDirectoryClient'
     name: getDirectoryClient(string)
     children: []
     type: method
@@ -242,10 +243,10 @@ items:
           description: ''
       return:
         type:
-          - '@azure/abort-controller.DataLakeDirectoryClient'
+          - '@azure/storage-file-datalake.DataLakeDirectoryClient'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.getFileClient'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.getFileClient'
     name: getFileClient(string)
     children: []
     type: method
@@ -261,10 +262,10 @@ items:
           description: ''
       return:
         type:
-          - '@azure/abort-controller.DataLakeFileClient'
+          - '@azure/storage-file-datalake.DataLakeFileClient'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.getProperties'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.getProperties'
     name: getProperties(FileSystemGetPropertiesOptions)
     children: []
     type: method
@@ -290,15 +291,16 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/abort-controller.FileSystemGetPropertiesOptions'
+            - '@azure/storage-file-datalake.FileSystemGetPropertiesOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.FileSystemGetPropertiesResponse>
+          - >-
+            Promise<@azure/storage-file-datalake.FileSystemGetPropertiesResponse>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.listPaths'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.listPaths'
     name: listPaths(ListPathsOptions)
     children: []
     type: method
@@ -415,17 +417,17 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/abort-controller.ListPathsOptions'
+            - '@azure/storage-file-datalake.ListPathsOptions'
           description: ''
           optional: true
       return:
         type:
           - >-
-            @azure/abort-controller.PagedAsyncIterableIterator<@azure/abort-controller.Path,
-            @azure/abort-controller.FileSystemListPathsResponse>
+            PagedAsyncIterableIterator<@azure/storage-file-datalake.Path,
+            @azure/storage-file-datalake.FileSystemListPathsResponse>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.name'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.name'
     name: name
     fullName: name
     children: []
@@ -439,8 +441,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.setAccessPolicy'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.setAccessPolicy'
     name: >-
       setAccessPolicy(PublicAccessType, SignedIdentifier<AccessPolicy>[],
       FileSystemSetAccessPolicyOptions)
@@ -469,26 +471,27 @@ items:
       parameters:
         - id: access
           type:
-            - '@azure/abort-controller.PublicAccessType'
+            - '@azure/storage-file-datalake.PublicAccessType'
           description: ''
           optional: true
         - id: fileSystemAcl
           type:
             - >-
-              @azure/abort-controller.SignedIdentifier<@azure/abort-controller.AccessPolicy>[]
+              @azure/storage-file-datalake.SignedIdentifier<@azure/storage-file-datalake.AccessPolicy>[]
           description: ''
           optional: true
         - id: options
           type:
-            - '@azure/abort-controller.FileSystemSetAccessPolicyOptions'
+            - '@azure/storage-file-datalake.FileSystemSetAccessPolicyOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.FileSystemSetAccessPolicyResponse>
+          - >-
+            Promise<@azure/storage-file-datalake.FileSystemSetAccessPolicyResponse>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.setMetadata'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.setMetadata'
     name: 'setMetadata(Metadata, FileSystemSetMetadataOptions)'
     children: []
     type: method
@@ -509,20 +512,20 @@ items:
       parameters:
         - id: metadata
           type:
-            - '@azure/abort-controller.Metadata'
+            - '@azure/storage-file-datalake.Metadata'
           description: ''
           optional: true
         - id: options
           type:
-            - '@azure/abort-controller.FileSystemSetMetadataOptions'
+            - '@azure/storage-file-datalake.FileSystemSetMetadataOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.FileSystemSetMetadataResponse>
+          - Promise<@azure/storage-file-datalake.FileSystemSetMetadataResponse>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient.url'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient.url'
     name: url
     fullName: url
     children: []
@@ -536,208 +539,201 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.StorageClient'
+  - uid: '@azure/storage-file-datalake.StorageClient'
     name: StorageClient
     spec.typeScript:
       - name: StorageClient
         fullName: StorageClient
-        uid: '@azure/abort-controller.StorageClient'
+        uid: '@azure/storage-file-datalake.StorageClient'
   - uid: >-
-      @azure/abort-controller.StorageSharedKeyCredential |
-      @azure/abort-controller.AnonymousCredential |
-      @azure/abort-controller.TokenCredential
-    name: TokenCredential
+      @azure/storage-file-datalake.StorageSharedKeyCredential |
+      @azure/storage-file-datalake.AnonymousCredential | TokenCredential
+    name: AnonymousCredential | TokenCredential
     spec.typeScript:
       - name: StorageSharedKeyCredential
         fullName: StorageSharedKeyCredential
-        uid: '@azure/abort-controller.StorageSharedKeyCredential'
+        uid: '@azure/storage-file-datalake.StorageSharedKeyCredential'
       - name: ' | '
         fullName: ' | '
       - name: AnonymousCredential
         fullName: AnonymousCredential
-        uid: '@azure/abort-controller.AnonymousCredential'
-      - name: ' | '
-        fullName: ' | '
-      - name: TokenCredential
-        fullName: TokenCredential
-        uid: '@azure/abort-controller.TokenCredential'
-  - uid: '@azure/abort-controller.StoragePipelineOptions'
+        uid: '@azure/storage-file-datalake.AnonymousCredential'
+      - name: ' | TokenCredential'
+        fullName: ' | TokenCredential'
+  - uid: '@azure/storage-file-datalake.StoragePipelineOptions'
     name: StoragePipelineOptions
     spec.typeScript:
       - name: StoragePipelineOptions
         fullName: StoragePipelineOptions
-        uid: '@azure/abort-controller.StoragePipelineOptions'
-  - uid: '@azure/abort-controller.Pipeline'
+        uid: '@azure/storage-file-datalake.StoragePipelineOptions'
+  - uid: '@azure/storage-file-datalake.Pipeline'
     name: Pipeline
     spec.typeScript:
       - name: Pipeline
         fullName: Pipeline
-        uid: '@azure/abort-controller.Pipeline'
-  - uid: '@azure/abort-controller.FileSystemCreateOptions'
+        uid: '@azure/storage-file-datalake.Pipeline'
+  - uid: '@azure/storage-file-datalake.FileSystemCreateOptions'
     name: FileSystemCreateOptions
     spec.typeScript:
       - name: FileSystemCreateOptions
         fullName: FileSystemCreateOptions
-        uid: '@azure/abort-controller.FileSystemCreateOptions'
-  - uid: Promise<@azure/abort-controller.FileSystemCreateResponse>
+        uid: '@azure/storage-file-datalake.FileSystemCreateOptions'
+  - uid: Promise<@azure/storage-file-datalake.FileSystemCreateResponse>
     name: FileSystemCreateResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: FileSystemCreateResponse
         fullName: FileSystemCreateResponse
-        uid: '@azure/abort-controller.FileSystemCreateResponse'
+        uid: '@azure/storage-file-datalake.FileSystemCreateResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.FileSystemDeleteOptions'
+  - uid: '@azure/storage-file-datalake.FileSystemDeleteOptions'
     name: FileSystemDeleteOptions
     spec.typeScript:
       - name: FileSystemDeleteOptions
         fullName: FileSystemDeleteOptions
-        uid: '@azure/abort-controller.FileSystemDeleteOptions'
-  - uid: Promise<@azure/abort-controller.FileSystemDeleteResponse>
+        uid: '@azure/storage-file-datalake.FileSystemDeleteOptions'
+  - uid: Promise<@azure/storage-file-datalake.FileSystemDeleteResponse>
     name: FileSystemDeleteResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: FileSystemDeleteResponse
         fullName: FileSystemDeleteResponse
-        uid: '@azure/abort-controller.FileSystemDeleteResponse'
+        uid: '@azure/storage-file-datalake.FileSystemDeleteResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.FileSystemGetAccessPolicyOptions'
+  - uid: '@azure/storage-file-datalake.FileSystemGetAccessPolicyOptions'
     name: FileSystemGetAccessPolicyOptions
     spec.typeScript:
       - name: FileSystemGetAccessPolicyOptions
         fullName: FileSystemGetAccessPolicyOptions
-        uid: '@azure/abort-controller.FileSystemGetAccessPolicyOptions'
-  - uid: Promise<@azure/abort-controller.FileSystemGetAccessPolicyResponse>
+        uid: '@azure/storage-file-datalake.FileSystemGetAccessPolicyOptions'
+  - uid: Promise<@azure/storage-file-datalake.FileSystemGetAccessPolicyResponse>
     name: FileSystemGetAccessPolicyResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: FileSystemGetAccessPolicyResponse
         fullName: FileSystemGetAccessPolicyResponse
-        uid: '@azure/abort-controller.FileSystemGetAccessPolicyResponse'
+        uid: '@azure/storage-file-datalake.FileSystemGetAccessPolicyResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.DataLakeLeaseClient'
+  - uid: '@azure/storage-file-datalake.DataLakeLeaseClient'
     name: DataLakeLeaseClient
     spec.typeScript:
       - name: DataLakeLeaseClient
         fullName: DataLakeLeaseClient
-        uid: '@azure/abort-controller.DataLakeLeaseClient'
-  - uid: '@azure/abort-controller.DataLakeDirectoryClient'
+        uid: '@azure/storage-file-datalake.DataLakeLeaseClient'
+  - uid: '@azure/storage-file-datalake.DataLakeDirectoryClient'
     name: DataLakeDirectoryClient
     spec.typeScript:
       - name: DataLakeDirectoryClient
         fullName: DataLakeDirectoryClient
-        uid: '@azure/abort-controller.DataLakeDirectoryClient'
-  - uid: '@azure/abort-controller.DataLakeFileClient'
+        uid: '@azure/storage-file-datalake.DataLakeDirectoryClient'
+  - uid: '@azure/storage-file-datalake.DataLakeFileClient'
     name: DataLakeFileClient
     spec.typeScript:
       - name: DataLakeFileClient
         fullName: DataLakeFileClient
-        uid: '@azure/abort-controller.DataLakeFileClient'
-  - uid: '@azure/abort-controller.FileSystemGetPropertiesOptions'
+        uid: '@azure/storage-file-datalake.DataLakeFileClient'
+  - uid: '@azure/storage-file-datalake.FileSystemGetPropertiesOptions'
     name: FileSystemGetPropertiesOptions
     spec.typeScript:
       - name: FileSystemGetPropertiesOptions
         fullName: FileSystemGetPropertiesOptions
-        uid: '@azure/abort-controller.FileSystemGetPropertiesOptions'
-  - uid: Promise<@azure/abort-controller.FileSystemGetPropertiesResponse>
+        uid: '@azure/storage-file-datalake.FileSystemGetPropertiesOptions'
+  - uid: Promise<@azure/storage-file-datalake.FileSystemGetPropertiesResponse>
     name: FileSystemGetPropertiesResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: FileSystemGetPropertiesResponse
         fullName: FileSystemGetPropertiesResponse
-        uid: '@azure/abort-controller.FileSystemGetPropertiesResponse'
+        uid: '@azure/storage-file-datalake.FileSystemGetPropertiesResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.ListPathsOptions'
+  - uid: '@azure/storage-file-datalake.ListPathsOptions'
     name: ListPathsOptions
     spec.typeScript:
       - name: ListPathsOptions
         fullName: ListPathsOptions
-        uid: '@azure/abort-controller.ListPathsOptions'
+        uid: '@azure/storage-file-datalake.ListPathsOptions'
   - uid: >-
-      @azure/abort-controller.PagedAsyncIterableIterator<@azure/abort-controller.Path,
-      @azure/abort-controller.FileSystemListPathsResponse>
+      PagedAsyncIterableIterator<@azure/storage-file-datalake.Path,
+      @azure/storage-file-datalake.FileSystemListPathsResponse>
     name: FileSystemListPathsResponse>
     spec.typeScript:
-      - name: PagedAsyncIterableIterator
-        fullName: PagedAsyncIterableIterator
-        uid: '@azure/abort-controller.PagedAsyncIterableIterator'
-      - name: <
-        fullName: <
+      - name: PagedAsyncIterableIterator<
+        fullName: PagedAsyncIterableIterator<
       - name: Path
         fullName: Path
-        uid: '@azure/abort-controller.Path'
+        uid: '@azure/storage-file-datalake.Path'
       - name: ', '
         fullName: ', '
       - name: FileSystemListPathsResponse
         fullName: FileSystemListPathsResponse
-        uid: '@azure/abort-controller.FileSystemListPathsResponse'
+        uid: '@azure/storage-file-datalake.FileSystemListPathsResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.PublicAccessType'
+  - uid: '@azure/storage-file-datalake.PublicAccessType'
     name: PublicAccessType
     spec.typeScript:
       - name: PublicAccessType
         fullName: PublicAccessType
-        uid: '@azure/abort-controller.PublicAccessType'
+        uid: '@azure/storage-file-datalake.PublicAccessType'
   - uid: >-
-      @azure/abort-controller.SignedIdentifier<@azure/abort-controller.AccessPolicy>[]
+      @azure/storage-file-datalake.SignedIdentifier<@azure/storage-file-datalake.AccessPolicy>[]
     name: 'AccessPolicy>[]'
     spec.typeScript:
       - name: SignedIdentifier
         fullName: SignedIdentifier
-        uid: '@azure/abort-controller.SignedIdentifier'
+        uid: '@azure/storage-file-datalake.SignedIdentifier'
       - name: <
         fullName: <
       - name: AccessPolicy
         fullName: AccessPolicy
-        uid: '@azure/abort-controller.AccessPolicy'
+        uid: '@azure/storage-file-datalake.AccessPolicy'
       - name: '>[]'
         fullName: '>[]'
-  - uid: '@azure/abort-controller.FileSystemSetAccessPolicyOptions'
+  - uid: '@azure/storage-file-datalake.FileSystemSetAccessPolicyOptions'
     name: FileSystemSetAccessPolicyOptions
     spec.typeScript:
       - name: FileSystemSetAccessPolicyOptions
         fullName: FileSystemSetAccessPolicyOptions
-        uid: '@azure/abort-controller.FileSystemSetAccessPolicyOptions'
-  - uid: Promise<@azure/abort-controller.FileSystemSetAccessPolicyResponse>
+        uid: '@azure/storage-file-datalake.FileSystemSetAccessPolicyOptions'
+  - uid: Promise<@azure/storage-file-datalake.FileSystemSetAccessPolicyResponse>
     name: FileSystemSetAccessPolicyResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: FileSystemSetAccessPolicyResponse
         fullName: FileSystemSetAccessPolicyResponse
-        uid: '@azure/abort-controller.FileSystemSetAccessPolicyResponse'
+        uid: '@azure/storage-file-datalake.FileSystemSetAccessPolicyResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.Metadata'
+  - uid: '@azure/storage-file-datalake.Metadata'
     name: Metadata
     spec.typeScript:
       - name: Metadata
         fullName: Metadata
-        uid: '@azure/abort-controller.Metadata'
-  - uid: '@azure/abort-controller.FileSystemSetMetadataOptions'
+        uid: '@azure/storage-file-datalake.Metadata'
+  - uid: '@azure/storage-file-datalake.FileSystemSetMetadataOptions'
     name: FileSystemSetMetadataOptions
     spec.typeScript:
       - name: FileSystemSetMetadataOptions
         fullName: FileSystemSetMetadataOptions
-        uid: '@azure/abort-controller.FileSystemSetMetadataOptions'
-  - uid: Promise<@azure/abort-controller.FileSystemSetMetadataResponse>
+        uid: '@azure/storage-file-datalake.FileSystemSetMetadataOptions'
+  - uid: Promise<@azure/storage-file-datalake.FileSystemSetMetadataResponse>
     name: FileSystemSetMetadataResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: FileSystemSetMetadataResponse
         fullName: FileSystemSetMetadataResponse
-        uid: '@azure/abort-controller.FileSystemSetMetadataResponse'
+        uid: '@azure/storage-file-datalake.FileSystemSetMetadataResponse'
       - name: '>'
         fullName: '>'

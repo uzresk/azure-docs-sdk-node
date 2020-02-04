@@ -1,16 +1,16 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.LeaseAccessConditions'
+  - uid: '@azure/storage-file-datalake.LeaseAccessConditions'
     name: LeaseAccessConditions
     fullName: LeaseAccessConditions
     children:
-      - '@azure/abort-controller.LeaseAccessConditions.leaseId'
+      - '@azure/storage-file-datalake.LeaseAccessConditions.leaseId'
     langs:
       - typeScript
     type: interface
     summary: Additional parameters for a set of operations.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.LeaseAccessConditions.leaseId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.LeaseAccessConditions.leaseId'
     name: leaseId
     fullName: leaseId
     children: []
@@ -29,4 +29,4 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

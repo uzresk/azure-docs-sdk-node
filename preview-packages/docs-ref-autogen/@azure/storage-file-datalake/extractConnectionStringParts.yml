@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.extractConnectionStringParts'
+  - uid: '@azure/storage-file-datalake.extractConnectionStringParts'
     name: extractConnectionStringParts(string)
     children: []
     type: function
@@ -16,13 +16,13 @@ items:
           description: Connection string.
       return:
         type:
-          - '@azure/abort-controller.ConnectionString'
+          - '@azure/storage-file-datalake.ConnectionString'
         description: String key value pairs of the storage account's url and credentials.
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.ConnectionString'
+  - uid: '@azure/storage-file-datalake.ConnectionString'
     name: ConnectionString
     spec.typeScript:
       - name: ConnectionString
         fullName: ConnectionString
-        uid: '@azure/abort-controller.ConnectionString'
+        uid: '@azure/storage-file-datalake.ConnectionString'

@@ -1,22 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.RetryOptions
+  - uid: '@azure/core-amqp.RetryOptions'
     name: RetryOptions
     fullName: RetryOptions
     children:
-      - tslib.RetryOptions.maxRetries
-      - tslib.RetryOptions.maxRetryDelayInMs
-      - tslib.RetryOptions.mode
-      - tslib.RetryOptions.retryDelayInMs
-      - tslib.RetryOptions.timeoutInMs
+      - '@azure/core-amqp.RetryOptions.maxRetries'
+      - '@azure/core-amqp.RetryOptions.maxRetryDelayInMs'
+      - '@azure/core-amqp.RetryOptions.mode'
+      - '@azure/core-amqp.RetryOptions.retryDelayInMs'
+      - '@azure/core-amqp.RetryOptions.timeoutInMs'
     langs:
       - typeScript
     type: interface
     summary: >-
       Retry policy options that determine the mode, number of retries, retry
       interval etc.
-    package: tslib
-  - uid: tslib.RetryOptions.maxRetries
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RetryOptions.maxRetries'
     name: maxRetries
     fullName: maxRetries
     children: []
@@ -35,8 +35,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: tslib
-  - uid: tslib.RetryOptions.maxRetryDelayInMs
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RetryOptions.maxRetryDelayInMs'
     name: maxRetryDelayInMs
     fullName: maxRetryDelayInMs
     children: []
@@ -55,8 +55,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: tslib
-  - uid: tslib.RetryOptions.mode
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RetryOptions.mode'
     name: mode
     fullName: mode
     children: []
@@ -71,10 +71,10 @@ items:
       content: 'mode?: RetryMode'
       return:
         type:
-          - tslib.RetryMode
+          - '@azure/core-amqp.RetryMode'
         description: ''
-    package: tslib
-  - uid: tslib.RetryOptions.retryDelayInMs
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RetryOptions.retryDelayInMs'
     name: retryDelayInMs
     fullName: retryDelayInMs
     children: []
@@ -98,8 +98,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: tslib
-  - uid: tslib.RetryOptions.timeoutInMs
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RetryOptions.timeoutInMs'
     name: timeoutInMs
     fullName: timeoutInMs
     children: []
@@ -119,11 +119,11 @@ items:
         type:
           - undefined | number
         description: ''
-    package: tslib
+    package: '@azure/core-amqp'
 references:
-  - uid: tslib.RetryMode
+  - uid: '@azure/core-amqp.RetryMode'
     name: RetryMode
     spec.typeScript:
       - name: RetryMode
         fullName: RetryMode
-        uid: tslib.RetryMode
+        uid: '@azure/core-amqp.RetryMode'

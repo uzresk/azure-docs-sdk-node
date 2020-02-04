@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.isIotHubConnectionString
+  - uid: '@azure/core-amqp.isIotHubConnectionString'
     name: isIotHubConnectionString(string)
     children: []
     type: function
@@ -20,4 +20,4 @@ items:
         type:
           - boolean
         description: boolean.
-    package: tslib
+    package: '@azure/core-amqp'

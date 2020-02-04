@@ -24,7 +24,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: ArrayBuffer BinaryContent
+      content: 'BinaryContent: ArrayBuffer'
       return:
         type:
           - ArrayBuffer
@@ -39,7 +39,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string Id
+      content: 'Id: string'
       return:
         type:
           - string
@@ -54,7 +54,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: MessageType MessageType
+      content: 'MessageType: MessageType'
       return:
         type:
           - microsoft-speech-browser-sdk.MessageType
@@ -69,7 +69,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: any Payload
+      content: 'Payload: any'
       return:
         type:
           - any
@@ -110,7 +110,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string TextContent
+      content: 'TextContent: string'
       return:
         type:
           - string

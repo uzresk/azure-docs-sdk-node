@@ -1,15 +1,15 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.AccountSASServices'
+  - uid: '@azure/storage-file-datalake.AccountSASServices'
     name: AccountSASServices
     fullName: AccountSASServices
     children:
-      - '@azure/abort-controller.AccountSASServices.blob'
-      - '@azure/abort-controller.AccountSASServices.file'
-      - '@azure/abort-controller.AccountSASServices.parse'
-      - '@azure/abort-controller.AccountSASServices.queue'
-      - '@azure/abort-controller.AccountSASServices.table'
-      - '@azure/abort-controller.AccountSASServices.toString'
+      - '@azure/storage-file-datalake.AccountSASServices.blob'
+      - '@azure/storage-file-datalake.AccountSASServices.file'
+      - '@azure/storage-file-datalake.AccountSASServices.parse'
+      - '@azure/storage-file-datalake.AccountSASServices.queue'
+      - '@azure/storage-file-datalake.AccountSASServices.table'
+      - '@azure/storage-file-datalake.AccountSASServices.toString'
     langs:
       - typeScript
     type: class
@@ -30,8 +30,8 @@ items:
 
       the order of the services is particular and this class guarantees
       correctness.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASServices.blob'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASServices.blob'
     name: blob
     fullName: blob
     children: []
@@ -45,8 +45,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASServices.file'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASServices.file'
     name: file
     fullName: file
     children: []
@@ -60,8 +60,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASServices.parse'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASServices.parse'
     name: parse(string)
     children: []
     type: method
@@ -82,10 +82,10 @@ items:
           description: ''
       return:
         type:
-          - '@azure/abort-controller.AccountSASServices'
+          - '@azure/storage-file-datalake.AccountSASServices'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASServices.queue'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASServices.queue'
     name: queue
     fullName: queue
     children: []
@@ -99,8 +99,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASServices.table'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASServices.table'
     name: table
     fullName: table
     children: []
@@ -114,8 +114,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASServices.toString'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASServices.toString'
     name: toString()
     children: []
     type: method
@@ -129,11 +129,11 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.AccountSASServices'
+  - uid: '@azure/storage-file-datalake.AccountSASServices'
     name: AccountSASServices
     spec.typeScript:
       - name: AccountSASServices
         fullName: AccountSASServices
-        uid: '@azure/abort-controller.AccountSASServices'
+        uid: '@azure/storage-file-datalake.AccountSASServices'

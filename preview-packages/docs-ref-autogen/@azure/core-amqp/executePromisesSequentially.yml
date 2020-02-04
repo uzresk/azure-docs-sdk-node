@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.executePromisesSequentially
+  - uid: '@azure/core-amqp.executePromisesSequentially'
     name: 'executePromisesSequentially(Array<any>, any)'
     children: []
     type: function
@@ -25,4 +25,4 @@ items:
         type:
           - Promise<any>
         description: ''
-    package: tslib
+    package: '@azure/core-amqp'

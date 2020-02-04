@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.RecognizeEntitiesResult'
+  - uid: '@azure/ai-text-analytics.RecognizeEntitiesResult'
     name: RecognizeEntitiesResult
     fullName: RecognizeEntitiesResult
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type RecognizeEntitiesResult = RecognizeEntitiesSuccessResult |
         RecognizeEntitiesErrorResult
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'

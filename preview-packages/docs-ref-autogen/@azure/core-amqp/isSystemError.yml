@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.isSystemError
+  - uid: '@azure/core-amqp.isSystemError'
     name: isSystemError(any)
     children: []
     type: function
@@ -18,4 +18,4 @@ items:
         type:
           - boolean
         description: ''
-    package: tslib
+    package: '@azure/core-amqp'

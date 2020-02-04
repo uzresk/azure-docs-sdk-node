@@ -1,31 +1,31 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.TextAnalyticsClient'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient'
     name: TextAnalyticsClient
     fullName: TextAnalyticsClient
     children:
-      - '@azure/abort-controller.TextAnalyticsClient.analyzeSentiment'
-      - '@azure/abort-controller.TextAnalyticsClient.analyzeSentiment_1'
-      - '@azure/abort-controller.TextAnalyticsClient.defaultCountryHint'
-      - '@azure/abort-controller.TextAnalyticsClient.defaultLanguage'
-      - '@azure/abort-controller.TextAnalyticsClient.detectLanguages_1'
-      - '@azure/abort-controller.TextAnalyticsClient.detectLanguages'
-      - '@azure/abort-controller.TextAnalyticsClient.endpointUrl'
-      - '@azure/abort-controller.TextAnalyticsClient.extractKeyPhrases'
-      - '@azure/abort-controller.TextAnalyticsClient.extractKeyPhrases_1'
-      - '@azure/abort-controller.TextAnalyticsClient.recognizeEntities'
-      - '@azure/abort-controller.TextAnalyticsClient.recognizeEntities_1'
-      - '@azure/abort-controller.TextAnalyticsClient.recognizeLinkedEntities'
-      - '@azure/abort-controller.TextAnalyticsClient.recognizeLinkedEntities_1'
-      - '@azure/abort-controller.TextAnalyticsClient.recognizePiiEntities'
-      - '@azure/abort-controller.TextAnalyticsClient.recognizePiiEntities_1'
-      - '@azure/abort-controller.TextAnalyticsClient.constructor'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.analyzeSentiment'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.analyzeSentiment_1'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.defaultCountryHint'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.defaultLanguage'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.detectLanguages_1'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.detectLanguages'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.endpointUrl'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.extractKeyPhrases'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.extractKeyPhrases_1'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.recognizeEntities'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.recognizeEntities_1'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.recognizeLinkedEntities'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.recognizeLinkedEntities_1'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.recognizePiiEntities'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.recognizePiiEntities_1'
+      - '@azure/ai-text-analytics.TextAnalyticsClient.constructor'
     langs:
       - typeScript
     type: class
     summary: Client class for interacting with Azure Text Analytics.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.analyzeSentiment'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.analyzeSentiment'
     name: 'analyzeSentiment(string[], string, AnalyzeSentimentOptions)'
     children: []
     type: method
@@ -63,16 +63,16 @@ items:
           optional: true
         - id: options
           type:
-            - '@azure/abort-controller.AnalyzeSentimentOptions'
+            - '@azure/ai-text-analytics.AnalyzeSentimentOptions'
           description: |
             Optional parameters for the operation.
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.AnalyzeSentimentResultCollection>
+          - Promise<@azure/ai-text-analytics.AnalyzeSentimentResultCollection>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.analyzeSentiment_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.analyzeSentiment_1'
     name: 'analyzeSentiment(TextDocumentInput[], AnalyzeSentimentOptions)'
     children: []
     type: method
@@ -96,20 +96,20 @@ items:
       parameters:
         - id: inputs
           type:
-            - '@azure/abort-controller.TextDocumentInput[]'
+            - '@azure/ai-text-analytics.TextDocumentInput[]'
           description: The input documents to analyze.
         - id: options
           type:
-            - '@azure/abort-controller.AnalyzeSentimentOptions'
+            - '@azure/ai-text-analytics.AnalyzeSentimentOptions'
           description: |
             Optional parameters for the operation.
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.AnalyzeSentimentResultCollection>
+          - Promise<@azure/ai-text-analytics.AnalyzeSentimentResultCollection>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.defaultCountryHint'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.defaultCountryHint'
     name: defaultCountryHint
     fullName: defaultCountryHint
     children: []
@@ -123,8 +123,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.defaultLanguage'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.defaultLanguage'
     name: defaultLanguage
     fullName: defaultLanguage
     children: []
@@ -138,8 +138,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.detectLanguages_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.detectLanguages_1'
     name: 'detectLanguages(DetectLanguageInput[], DetectLanguagesOptions)'
     children: []
     type: method
@@ -163,20 +163,20 @@ items:
       parameters:
         - id: inputs
           type:
-            - '@azure/abort-controller.DetectLanguageInput[]'
+            - '@azure/ai-text-analytics.DetectLanguageInput[]'
           description: A collection of input documents to analyze.
         - id: options
           type:
-            - '@azure/abort-controller.DetectLanguagesOptions'
+            - '@azure/ai-text-analytics.DetectLanguagesOptions'
           description: |
             Optional parameters for the operation.
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.DetectLanguageResultCollection>
+          - Promise<@azure/ai-text-analytics.DetectLanguageResultCollection>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.detectLanguages'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.detectLanguages'
     name: 'detectLanguages(string[], string, DetectLanguagesOptions)'
     children: []
     type: method
@@ -216,16 +216,16 @@ items:
           optional: true
         - id: options
           type:
-            - '@azure/abort-controller.DetectLanguagesOptions'
+            - '@azure/ai-text-analytics.DetectLanguagesOptions'
           description: |
             Optional parameters for the operation.
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.DetectLanguageResultCollection>
+          - Promise<@azure/ai-text-analytics.DetectLanguageResultCollection>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.endpointUrl'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.endpointUrl'
     name: endpointUrl
     fullName: endpointUrl
     children: []
@@ -239,8 +239,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.extractKeyPhrases'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.extractKeyPhrases'
     name: 'extractKeyPhrases(string[], string, ExtractKeyPhrasesOptions)'
     children: []
     type: method
@@ -275,16 +275,16 @@ items:
           optional: true
         - id: options
           type:
-            - '@azure/abort-controller.ExtractKeyPhrasesOptions'
+            - '@azure/ai-text-analytics.ExtractKeyPhrasesOptions'
           description: |
             Optional parameters for the operation.
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.ExtractKeyPhrasesResultCollection>
+          - Promise<@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.extractKeyPhrases_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.extractKeyPhrases_1'
     name: 'extractKeyPhrases(TextDocumentInput[], ExtractKeyPhrasesOptions)'
     children: []
     type: method
@@ -305,20 +305,20 @@ items:
       parameters:
         - id: inputs
           type:
-            - '@azure/abort-controller.TextDocumentInput[]'
+            - '@azure/ai-text-analytics.TextDocumentInput[]'
           description: The input documents to analyze.
         - id: options
           type:
-            - '@azure/abort-controller.ExtractKeyPhrasesOptions'
+            - '@azure/ai-text-analytics.ExtractKeyPhrasesOptions'
           description: |
             Optional parameters for the operation.
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.ExtractKeyPhrasesResultCollection>
+          - Promise<@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.recognizeEntities'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.recognizeEntities'
     name: 'recognizeEntities(string[], string, RecognizeEntitiesOptions)'
     children: []
     type: method
@@ -359,16 +359,16 @@ items:
           optional: true
         - id: options
           type:
-            - '@azure/abort-controller.RecognizeEntitiesOptions'
+            - '@azure/ai-text-analytics.RecognizeEntitiesOptions'
           description: |
             Optional parameters for the operation.
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.RecognizeEntitiesResultCollection>
+          - Promise<@azure/ai-text-analytics.RecognizeEntitiesResultCollection>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.recognizeEntities_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.recognizeEntities_1'
     name: 'recognizeEntities(TextDocumentInput[], RecognizeEntitiesOptions)'
     children: []
     type: method
@@ -395,20 +395,20 @@ items:
       parameters:
         - id: inputs
           type:
-            - '@azure/abort-controller.TextDocumentInput[]'
+            - '@azure/ai-text-analytics.TextDocumentInput[]'
           description: The input documents to analyze.
         - id: options
           type:
-            - '@azure/abort-controller.RecognizeEntitiesOptions'
+            - '@azure/ai-text-analytics.RecognizeEntitiesOptions'
           description: |
             Optional parameters for the operation.
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.RecognizeEntitiesResultCollection>
+          - Promise<@azure/ai-text-analytics.RecognizeEntitiesResultCollection>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.recognizeLinkedEntities'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.recognizeLinkedEntities'
     name: 'recognizeLinkedEntities(string[], string, RecognizeLinkedEntitiesOptions)'
     children: []
     type: method
@@ -445,17 +445,17 @@ items:
           optional: true
         - id: options
           type:
-            - '@azure/abort-controller.RecognizeLinkedEntitiesOptions'
+            - '@azure/ai-text-analytics.RecognizeLinkedEntitiesOptions'
           description: |
             Optional parameters for the operation.
           optional: true
       return:
         type:
           - >-
-            Promise<@azure/abort-controller.RecognizeLinkedEntitiesResultCollection>
+            Promise<@azure/ai-text-analytics.RecognizeLinkedEntitiesResultCollection>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.recognizeLinkedEntities_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.recognizeLinkedEntities_1'
     name: >-
       recognizeLinkedEntities(TextDocumentInput[],
       RecognizeLinkedEntitiesOptions)
@@ -481,21 +481,21 @@ items:
       parameters:
         - id: inputs
           type:
-            - '@azure/abort-controller.TextDocumentInput[]'
+            - '@azure/ai-text-analytics.TextDocumentInput[]'
           description: The input documents to analyze.
         - id: options
           type:
-            - '@azure/abort-controller.RecognizeLinkedEntitiesOptions'
+            - '@azure/ai-text-analytics.RecognizeLinkedEntitiesOptions'
           description: |
             Optional parameters for the operation.
           optional: true
       return:
         type:
           - >-
-            Promise<@azure/abort-controller.RecognizeLinkedEntitiesResultCollection>
+            Promise<@azure/ai-text-analytics.RecognizeLinkedEntitiesResultCollection>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.recognizePiiEntities'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.recognizePiiEntities'
     name: 'recognizePiiEntities(string[], string, RecognizePiiEntitiesOptions)'
     children: []
     type: method
@@ -534,16 +534,16 @@ items:
           optional: true
         - id: options
           type:
-            - '@azure/abort-controller.RecognizePiiEntitiesOptions'
+            - '@azure/ai-text-analytics.RecognizePiiEntitiesOptions'
           description: |
             Optional parameters for the operation.
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.RecognizeEntitiesResultCollection>
+          - Promise<@azure/ai-text-analytics.RecognizeEntitiesResultCollection>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.recognizePiiEntities_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.recognizePiiEntities_1'
     name: 'recognizePiiEntities(TextDocumentInput[], RecognizePiiEntitiesOptions)'
     children: []
     type: method
@@ -569,20 +569,20 @@ items:
       parameters:
         - id: inputs
           type:
-            - '@azure/abort-controller.TextDocumentInput[]'
+            - '@azure/ai-text-analytics.TextDocumentInput[]'
           description: The input documents to analyze.
         - id: options
           type:
-            - '@azure/abort-controller.RecognizePiiEntitiesOptions'
+            - '@azure/ai-text-analytics.RecognizePiiEntitiesOptions'
           description: |
             Optional parameters for the operation.
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.RecognizeEntitiesResultCollection>
+          - Promise<@azure/ai-text-analytics.RecognizeEntitiesResultCollection>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClient.constructor'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClient.constructor'
     name: >-
       TextAnalyticsClient(string, TokenCredential | CognitiveServicesCredential,
       TextAnalyticsClientOptions)
@@ -619,134 +619,129 @@ items:
         - id: credential
           type:
             - >-
-              @azure/abort-controller.TokenCredential |
-              @azure/abort-controller.CognitiveServicesCredential
+              TokenCredential |
+              @azure/ai-text-analytics.CognitiveServicesCredential
           description: Used to authenticate requests to the service.
         - id: options
           type:
-            - '@azure/abort-controller.TextAnalyticsClientOptions'
+            - '@azure/ai-text-analytics.TextAnalyticsClientOptions'
           description: ''
           optional: true
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'
 references:
-  - uid: >-
-      @azure/abort-controller.TokenCredential |
-      @azure/abort-controller.CognitiveServicesCredential
+  - uid: TokenCredential | @azure/ai-text-analytics.CognitiveServicesCredential
     name: CognitiveServicesCredential
     spec.typeScript:
-      - name: TokenCredential
-        fullName: TokenCredential
-        uid: '@azure/abort-controller.TokenCredential'
-      - name: ' | '
-        fullName: ' | '
+      - name: 'TokenCredential | '
+        fullName: 'TokenCredential | '
       - name: CognitiveServicesCredential
         fullName: CognitiveServicesCredential
-        uid: '@azure/abort-controller.CognitiveServicesCredential'
-  - uid: '@azure/abort-controller.TextAnalyticsClientOptions'
+        uid: '@azure/ai-text-analytics.CognitiveServicesCredential'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions'
     name: TextAnalyticsClientOptions
     spec.typeScript:
       - name: TextAnalyticsClientOptions
         fullName: TextAnalyticsClientOptions
-        uid: '@azure/abort-controller.TextAnalyticsClientOptions'
-  - uid: '@azure/abort-controller.AnalyzeSentimentOptions'
+        uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions'
+  - uid: '@azure/ai-text-analytics.AnalyzeSentimentOptions'
     name: AnalyzeSentimentOptions
     spec.typeScript:
       - name: AnalyzeSentimentOptions
         fullName: AnalyzeSentimentOptions
-        uid: '@azure/abort-controller.AnalyzeSentimentOptions'
-  - uid: Promise<@azure/abort-controller.AnalyzeSentimentResultCollection>
+        uid: '@azure/ai-text-analytics.AnalyzeSentimentOptions'
+  - uid: Promise<@azure/ai-text-analytics.AnalyzeSentimentResultCollection>
     name: AnalyzeSentimentResultCollection>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: AnalyzeSentimentResultCollection
         fullName: AnalyzeSentimentResultCollection
-        uid: '@azure/abort-controller.AnalyzeSentimentResultCollection'
+        uid: '@azure/ai-text-analytics.AnalyzeSentimentResultCollection'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.TextDocumentInput[]'
+  - uid: '@azure/ai-text-analytics.TextDocumentInput[]'
     name: 'TextDocumentInput[]'
     spec.typeScript:
       - name: TextDocumentInput
         fullName: TextDocumentInput
-        uid: '@azure/abort-controller.TextDocumentInput'
+        uid: '@azure/ai-text-analytics.TextDocumentInput'
       - name: '[]'
         fullName: '[]'
-  - uid: '@azure/abort-controller.DetectLanguagesOptions'
+  - uid: '@azure/ai-text-analytics.DetectLanguagesOptions'
     name: DetectLanguagesOptions
     spec.typeScript:
       - name: DetectLanguagesOptions
         fullName: DetectLanguagesOptions
-        uid: '@azure/abort-controller.DetectLanguagesOptions'
-  - uid: Promise<@azure/abort-controller.DetectLanguageResultCollection>
+        uid: '@azure/ai-text-analytics.DetectLanguagesOptions'
+  - uid: Promise<@azure/ai-text-analytics.DetectLanguageResultCollection>
     name: DetectLanguageResultCollection>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: DetectLanguageResultCollection
         fullName: DetectLanguageResultCollection
-        uid: '@azure/abort-controller.DetectLanguageResultCollection'
+        uid: '@azure/ai-text-analytics.DetectLanguageResultCollection'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.DetectLanguageInput[]'
+  - uid: '@azure/ai-text-analytics.DetectLanguageInput[]'
     name: 'DetectLanguageInput[]'
     spec.typeScript:
       - name: DetectLanguageInput
         fullName: DetectLanguageInput
-        uid: '@azure/abort-controller.DetectLanguageInput'
+        uid: '@azure/ai-text-analytics.DetectLanguageInput'
       - name: '[]'
         fullName: '[]'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesOptions'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesOptions'
     name: ExtractKeyPhrasesOptions
     spec.typeScript:
       - name: ExtractKeyPhrasesOptions
         fullName: ExtractKeyPhrasesOptions
-        uid: '@azure/abort-controller.ExtractKeyPhrasesOptions'
-  - uid: Promise<@azure/abort-controller.ExtractKeyPhrasesResultCollection>
+        uid: '@azure/ai-text-analytics.ExtractKeyPhrasesOptions'
+  - uid: Promise<@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection>
     name: ExtractKeyPhrasesResultCollection>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: ExtractKeyPhrasesResultCollection
         fullName: ExtractKeyPhrasesResultCollection
-        uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection'
+        uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.RecognizeEntitiesOptions'
+  - uid: '@azure/ai-text-analytics.RecognizeEntitiesOptions'
     name: RecognizeEntitiesOptions
     spec.typeScript:
       - name: RecognizeEntitiesOptions
         fullName: RecognizeEntitiesOptions
-        uid: '@azure/abort-controller.RecognizeEntitiesOptions'
-  - uid: Promise<@azure/abort-controller.RecognizeEntitiesResultCollection>
+        uid: '@azure/ai-text-analytics.RecognizeEntitiesOptions'
+  - uid: Promise<@azure/ai-text-analytics.RecognizeEntitiesResultCollection>
     name: RecognizeEntitiesResultCollection>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: RecognizeEntitiesResultCollection
         fullName: RecognizeEntitiesResultCollection
-        uid: '@azure/abort-controller.RecognizeEntitiesResultCollection'
+        uid: '@azure/ai-text-analytics.RecognizeEntitiesResultCollection'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.RecognizeLinkedEntitiesOptions'
+  - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesOptions'
     name: RecognizeLinkedEntitiesOptions
     spec.typeScript:
       - name: RecognizeLinkedEntitiesOptions
         fullName: RecognizeLinkedEntitiesOptions
-        uid: '@azure/abort-controller.RecognizeLinkedEntitiesOptions'
-  - uid: Promise<@azure/abort-controller.RecognizeLinkedEntitiesResultCollection>
+        uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesOptions'
+  - uid: Promise<@azure/ai-text-analytics.RecognizeLinkedEntitiesResultCollection>
     name: RecognizeLinkedEntitiesResultCollection>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: RecognizeLinkedEntitiesResultCollection
         fullName: RecognizeLinkedEntitiesResultCollection
-        uid: '@azure/abort-controller.RecognizeLinkedEntitiesResultCollection'
+        uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesResultCollection'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.RecognizePiiEntitiesOptions'
+  - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesOptions'
     name: RecognizePiiEntitiesOptions
     spec.typeScript:
       - name: RecognizePiiEntitiesOptions
         fullName: RecognizePiiEntitiesOptions
-        uid: '@azure/abort-controller.RecognizePiiEntitiesOptions'
+        uid: '@azure/ai-text-analytics.RecognizePiiEntitiesOptions'

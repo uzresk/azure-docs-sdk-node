@@ -1,16 +1,16 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.OperationTracingOptions'
+  - uid: '@azure/storage-file-datalake.OperationTracingOptions'
     name: OperationTracingOptions
     fullName: OperationTracingOptions
     children:
-      - '@azure/abort-controller.OperationTracingOptions.spanOptions'
+      - '@azure/storage-file-datalake.OperationTracingOptions.spanOptions'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.OperationTracingOptions.spanOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.OperationTracingOptions.spanOptions'
     name: spanOptions
     fullName: spanOptions
     children: []
@@ -23,13 +23,6 @@ items:
       content: 'spanOptions?: SpanOptions'
       return:
         type:
-          - '@azure/abort-controller.SpanOptions'
+          - SpanOptions
         description: ''
-    package: '@azure/abort-controller'
-references:
-  - uid: '@azure/abort-controller.SpanOptions'
-    name: SpanOptions
-    spec.typeScript:
-      - name: SpanOptions
-        fullName: SpanOptions
-        uid: '@azure/abort-controller.SpanOptions'
+    package: '@azure/storage-file-datalake'

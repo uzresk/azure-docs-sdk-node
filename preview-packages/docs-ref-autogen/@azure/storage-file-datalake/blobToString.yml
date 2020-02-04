@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.blobToString'
+  - uid: '@azure/storage-file-datalake.blobToString'
     name: blobToString(Blob)
     children: []
     type: function
@@ -18,4 +18,4 @@ items:
         type:
           - Promise<string>
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

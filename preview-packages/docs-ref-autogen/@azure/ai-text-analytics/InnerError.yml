@@ -1,20 +1,20 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.InnerError'
+  - uid: '@azure/ai-text-analytics.InnerError'
     name: InnerError
     fullName: InnerError
     children:
-      - '@azure/abort-controller.InnerError.code'
-      - '@azure/abort-controller.InnerError.details'
-      - '@azure/abort-controller.InnerError.innerError'
-      - '@azure/abort-controller.InnerError.message'
-      - '@azure/abort-controller.InnerError.target'
+      - '@azure/ai-text-analytics.InnerError.code'
+      - '@azure/ai-text-analytics.InnerError.details'
+      - '@azure/ai-text-analytics.InnerError.innerError'
+      - '@azure/ai-text-analytics.InnerError.message'
+      - '@azure/ai-text-analytics.InnerError.target'
     langs:
       - typeScript
     type: interface
     summary: An interface representing InnerError.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.InnerError.code'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.InnerError.code'
     name: code
     fullName: code
     children: []
@@ -33,10 +33,10 @@ items:
       content: 'code: InnerErrorCodeValue'
       return:
         type:
-          - '@azure/abort-controller.InnerErrorCodeValue'
+          - '@azure/ai-text-analytics.InnerErrorCodeValue'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.InnerError.details'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.InnerError.details'
     name: details
     fullName: details
     children: []
@@ -51,8 +51,8 @@ items:
         type:
           - '[key: string]: string'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.InnerError.innerError'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.InnerError.innerError'
     name: innerError
     fullName: innerError
     children: []
@@ -65,10 +65,10 @@ items:
       content: 'innerError?: InnerError'
       return:
         type:
-          - '@azure/abort-controller.InnerError'
+          - '@azure/ai-text-analytics.InnerError'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.InnerError.message'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.InnerError.message'
     name: message
     fullName: message
     children: []
@@ -82,8 +82,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.InnerError.target'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.InnerError.target'
     name: target
     fullName: target
     children: []
@@ -98,17 +98,17 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'
 references:
-  - uid: '@azure/abort-controller.InnerErrorCodeValue'
+  - uid: '@azure/ai-text-analytics.InnerErrorCodeValue'
     name: InnerErrorCodeValue
     spec.typeScript:
       - name: InnerErrorCodeValue
         fullName: InnerErrorCodeValue
-        uid: '@azure/abort-controller.InnerErrorCodeValue'
-  - uid: '@azure/abort-controller.InnerError'
+        uid: '@azure/ai-text-analytics.InnerErrorCodeValue'
+  - uid: '@azure/ai-text-analytics.InnerError'
     name: InnerError
     spec.typeScript:
       - name: InnerError
         fullName: InnerError
-        uid: '@azure/abort-controller.InnerError'
+        uid: '@azure/ai-text-analytics.InnerError'

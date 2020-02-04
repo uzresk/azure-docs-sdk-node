@@ -1,43 +1,43 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PathOperations'
+  - uid: '@azure/storage-file-datalake.PathOperations'
     name: PathOperations
     fullName: PathOperations
     children:
-      - '@azure/abort-controller.PathOperations.appendData'
-      - '@azure/abort-controller.PathOperations.appendData_2'
-      - '@azure/abort-controller.PathOperations.appendData_1'
-      - '@azure/abort-controller.PathOperations.create'
-      - '@azure/abort-controller.PathOperations.create_2'
-      - '@azure/abort-controller.PathOperations.create_1'
-      - '@azure/abort-controller.PathOperations.deleteMethod'
-      - '@azure/abort-controller.PathOperations.deleteMethod_2'
-      - '@azure/abort-controller.PathOperations.deleteMethod_1'
-      - '@azure/abort-controller.PathOperations.flushData'
-      - '@azure/abort-controller.PathOperations.flushData_2'
-      - '@azure/abort-controller.PathOperations.flushData_1'
-      - '@azure/abort-controller.PathOperations.getProperties'
-      - '@azure/abort-controller.PathOperations.getProperties_2'
-      - '@azure/abort-controller.PathOperations.getProperties_1'
-      - '@azure/abort-controller.PathOperations.lease'
-      - '@azure/abort-controller.PathOperations.lease_2'
-      - '@azure/abort-controller.PathOperations.lease_1'
-      - '@azure/abort-controller.PathOperations.constructor'
-      - '@azure/abort-controller.PathOperations.read'
-      - '@azure/abort-controller.PathOperations.read_2'
-      - '@azure/abort-controller.PathOperations.read_1'
-      - '@azure/abort-controller.PathOperations.setAccessControl'
-      - '@azure/abort-controller.PathOperations.setAccessControl_2'
-      - '@azure/abort-controller.PathOperations.setAccessControl_1'
-      - '@azure/abort-controller.PathOperations.update'
-      - '@azure/abort-controller.PathOperations.update_2'
-      - '@azure/abort-controller.PathOperations.update_1'
+      - '@azure/storage-file-datalake.PathOperations.appendData'
+      - '@azure/storage-file-datalake.PathOperations.appendData_2'
+      - '@azure/storage-file-datalake.PathOperations.appendData_1'
+      - '@azure/storage-file-datalake.PathOperations.create'
+      - '@azure/storage-file-datalake.PathOperations.create_2'
+      - '@azure/storage-file-datalake.PathOperations.create_1'
+      - '@azure/storage-file-datalake.PathOperations.deleteMethod'
+      - '@azure/storage-file-datalake.PathOperations.deleteMethod_2'
+      - '@azure/storage-file-datalake.PathOperations.deleteMethod_1'
+      - '@azure/storage-file-datalake.PathOperations.flushData'
+      - '@azure/storage-file-datalake.PathOperations.flushData_2'
+      - '@azure/storage-file-datalake.PathOperations.flushData_1'
+      - '@azure/storage-file-datalake.PathOperations.getProperties'
+      - '@azure/storage-file-datalake.PathOperations.getProperties_2'
+      - '@azure/storage-file-datalake.PathOperations.getProperties_1'
+      - '@azure/storage-file-datalake.PathOperations.lease'
+      - '@azure/storage-file-datalake.PathOperations.lease_2'
+      - '@azure/storage-file-datalake.PathOperations.lease_1'
+      - '@azure/storage-file-datalake.PathOperations.constructor'
+      - '@azure/storage-file-datalake.PathOperations.read'
+      - '@azure/storage-file-datalake.PathOperations.read_2'
+      - '@azure/storage-file-datalake.PathOperations.read_1'
+      - '@azure/storage-file-datalake.PathOperations.setAccessControl'
+      - '@azure/storage-file-datalake.PathOperations.setAccessControl_2'
+      - '@azure/storage-file-datalake.PathOperations.setAccessControl_1'
+      - '@azure/storage-file-datalake.PathOperations.update'
+      - '@azure/storage-file-datalake.PathOperations.update_2'
+      - '@azure/storage-file-datalake.PathOperations.update_1'
     langs:
       - typeScript
     type: class
     summary: Class representing a PathOperations.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.appendData'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.appendData'
     name: 'appendData(coreHttp.HttpRequestBody, Models.PathAppendDataOptionalParams)'
     children: []
     type: method
@@ -62,8 +62,8 @@ items:
         type:
           - Promise<Models.PathAppendDataResponse>
         description: Promise<Models.PathAppendDataResponse>
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.appendData_2'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.appendData_2'
     name: >-
       appendData(coreHttp.HttpRequestBody, PathAppendDataOptionalParams,
       ServiceCallback<void>)
@@ -83,15 +83,15 @@ items:
           description: Initial data
         - id: options
           type:
-            - '@azure/abort-controller.PathAppendDataOptionalParams'
+            - '@azure/storage-file-datalake.PathAppendDataOptionalParams'
           description: The optional parameters
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.appendData_1'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.appendData_1'
     name: 'appendData(coreHttp.HttpRequestBody, ServiceCallback<void>)'
     children: []
     type: method
@@ -109,11 +109,11 @@ items:
           description: Initial data
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.create'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.create'
     name: create(Models.PathCreateOptionalParams)
     children: []
     type: method
@@ -147,8 +147,8 @@ items:
         type:
           - Promise<Models.PathCreateResponse>
         description: Promise<Models.PathCreateResponse>
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.create_2'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.create_2'
     name: 'create(PathCreateOptionalParams, ServiceCallback<void>)'
     children: []
     type: method
@@ -162,15 +162,15 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/abort-controller.PathCreateOptionalParams'
+            - '@azure/storage-file-datalake.PathCreateOptionalParams'
           description: The optional parameters
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.create_1'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.create_1'
     name: create(ServiceCallback<void>)
     children: []
     type: method
@@ -182,11 +182,11 @@ items:
       parameters:
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.deleteMethod'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.deleteMethod'
     name: deleteMethod(Models.PathDeleteMethodOptionalParams)
     children: []
     type: method
@@ -211,8 +211,8 @@ items:
         type:
           - Promise<Models.PathDeleteResponse>
         description: Promise<Models.PathDeleteResponse>
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.deleteMethod_2'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.deleteMethod_2'
     name: 'deleteMethod(PathDeleteMethodOptionalParams, ServiceCallback<void>)'
     children: []
     type: method
@@ -226,15 +226,15 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/abort-controller.PathDeleteMethodOptionalParams'
+            - '@azure/storage-file-datalake.PathDeleteMethodOptionalParams'
           description: The optional parameters
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.deleteMethod_1'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.deleteMethod_1'
     name: deleteMethod(ServiceCallback<void>)
     children: []
     type: method
@@ -246,11 +246,11 @@ items:
       parameters:
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.flushData'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.flushData'
     name: flushData(Models.PathFlushDataOptionalParams)
     children: []
     type: method
@@ -269,8 +269,8 @@ items:
         type:
           - Promise<Models.PathFlushDataResponse>
         description: Promise<Models.PathFlushDataResponse>
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.flushData_2'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.flushData_2'
     name: 'flushData(PathFlushDataOptionalParams, ServiceCallback<void>)'
     children: []
     type: method
@@ -284,15 +284,15 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/abort-controller.PathFlushDataOptionalParams'
+            - '@azure/storage-file-datalake.PathFlushDataOptionalParams'
           description: The optional parameters
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.flushData_1'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.flushData_1'
     name: flushData(ServiceCallback<void>)
     children: []
     type: method
@@ -304,11 +304,11 @@ items:
       parameters:
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.getProperties'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.getProperties'
     name: getProperties(Models.PathGetPropertiesOptionalParams)
     children: []
     type: method
@@ -339,8 +339,8 @@ items:
         type:
           - Promise<Models.PathGetPropertiesResponse>
         description: Promise<Models.PathGetPropertiesResponse>
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.getProperties_2'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.getProperties_2'
     name: 'getProperties(PathGetPropertiesOptionalParams, ServiceCallback<void>)'
     children: []
     type: method
@@ -354,15 +354,15 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/abort-controller.PathGetPropertiesOptionalParams'
+            - '@azure/storage-file-datalake.PathGetPropertiesOptionalParams'
           description: The optional parameters
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.getProperties_1'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.getProperties_1'
     name: getProperties(ServiceCallback<void>)
     children: []
     type: method
@@ -374,11 +374,11 @@ items:
       parameters:
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.lease'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.lease'
     name: 'lease(PathLeaseAction, Models.PathLeaseOptionalParams)'
     children: []
     type: method
@@ -401,7 +401,7 @@ items:
       parameters:
         - id: xMsLeaseAction
           type:
-            - '@azure/abort-controller.PathLeaseAction'
+            - '@azure/storage-file-datalake.PathLeaseAction'
           description: >-
             There are five lease actions: "acquire", "break", "change", "renew",
             and
@@ -440,8 +440,8 @@ items:
         type:
           - Promise<Models.PathLeaseResponse>
         description: Promise<Models.PathLeaseResponse>
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.lease_2'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.lease_2'
     name: 'lease(PathLeaseAction, PathLeaseOptionalParams, ServiceCallback<void>)'
     children: []
     type: method
@@ -455,7 +455,7 @@ items:
       parameters:
         - id: xMsLeaseAction
           type:
-            - '@azure/abort-controller.PathLeaseAction'
+            - '@azure/storage-file-datalake.PathLeaseAction'
           description: >-
             There are five lease actions: "acquire", "break", "change", "renew",
             and
@@ -487,15 +487,15 @@ items:
             'acquire', 'break', 'change', 'renew', 'release'
         - id: options
           type:
-            - '@azure/abort-controller.PathLeaseOptionalParams'
+            - '@azure/storage-file-datalake.PathLeaseOptionalParams'
           description: The optional parameters
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.lease_1'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.lease_1'
     name: 'lease(PathLeaseAction, ServiceCallback<void>)'
     children: []
     type: method
@@ -509,7 +509,7 @@ items:
       parameters:
         - id: xMsLeaseAction
           type:
-            - '@azure/abort-controller.PathLeaseAction'
+            - '@azure/storage-file-datalake.PathLeaseAction'
           description: >-
             There are five lease actions: "acquire", "break", "change", "renew",
             and
@@ -541,11 +541,11 @@ items:
             'acquire', 'break', 'change', 'renew', 'release'
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.constructor'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.constructor'
     name: PathOperations(StorageClientContext)
     children: []
     type: constructor
@@ -557,11 +557,11 @@ items:
       parameters:
         - id: client
           type:
-            - '@azure/abort-controller.StorageClientContext'
+            - '@azure/storage-file-datalake.StorageClientContext'
           description: |
             Reference to the service client.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.read'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.read'
     name: read(Models.PathReadOptionalParams)
     children: []
     type: method
@@ -589,8 +589,8 @@ items:
         type:
           - Promise<Models.PathReadResponse>
         description: Promise<Models.PathReadResponse>
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.read_2'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.read_2'
     name: 'read(PathReadOptionalParams, ServiceCallback<void>)'
     children: []
     type: method
@@ -604,15 +604,15 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/abort-controller.PathReadOptionalParams'
+            - '@azure/storage-file-datalake.PathReadOptionalParams'
           description: The optional parameters
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.read_1'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.read_1'
     name: read(ServiceCallback<void>)
     children: []
     type: method
@@ -624,11 +624,11 @@ items:
       parameters:
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.setAccessControl'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.setAccessControl'
     name: setAccessControl(Models.PathSetAccessControlOptionalParams)
     children: []
     type: method
@@ -649,8 +649,8 @@ items:
         type:
           - Promise<Models.PathSetAccessControlResponse>
         description: Promise<Models.PathSetAccessControlResponse>
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.setAccessControl_2'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.setAccessControl_2'
     name: >-
       setAccessControl(PathSetAccessControlOptionalParams,
       ServiceCallback<void>)
@@ -666,15 +666,15 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/abort-controller.PathSetAccessControlOptionalParams'
+            - '@azure/storage-file-datalake.PathSetAccessControlOptionalParams'
           description: The optional parameters
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.setAccessControl_1'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.setAccessControl_1'
     name: setAccessControl(ServiceCallback<void>)
     children: []
     type: method
@@ -686,11 +686,11 @@ items:
       parameters:
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.update'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.update'
     name: >-
       update(PathUpdateAction, coreHttp.HttpRequestBody,
       Models.PathUpdateOptionalParams)
@@ -718,7 +718,7 @@ items:
       parameters:
         - id: action
           type:
-            - '@azure/abort-controller.PathUpdateAction'
+            - '@azure/storage-file-datalake.PathUpdateAction'
           description: >-
             The action must be "append" to upload data to be appended to a file,
             "flush" to
@@ -755,8 +755,8 @@ items:
         type:
           - Promise<Models.PathUpdateResponse>
         description: Promise<Models.PathUpdateResponse>
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.update_2'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.update_2'
     name: >-
       update(PathUpdateAction, coreHttp.HttpRequestBody,
       PathUpdateOptionalParams, ServiceCallback<void>)
@@ -773,7 +773,7 @@ items:
       parameters:
         - id: action
           type:
-            - '@azure/abort-controller.PathUpdateAction'
+            - '@azure/storage-file-datalake.PathUpdateAction'
           description: >-
             The action must be "append" to upload data to be appended to a file,
             "flush" to
@@ -803,15 +803,15 @@ items:
           description: Initial data
         - id: options
           type:
-            - '@azure/abort-controller.PathUpdateOptionalParams'
+            - '@azure/storage-file-datalake.PathUpdateOptionalParams'
           description: The optional parameters
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathOperations.update_1'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathOperations.update_1'
     name: 'update(PathUpdateAction, coreHttp.HttpRequestBody, ServiceCallback<void>)'
     children: []
     type: method
@@ -825,7 +825,7 @@ items:
       parameters:
         - id: action
           type:
-            - '@azure/abort-controller.PathUpdateAction'
+            - '@azure/storage-file-datalake.PathUpdateAction'
           description: >-
             The action must be "append" to upload data to be appended to a file,
             "flush" to
@@ -855,88 +855,80 @@ items:
           description: Initial data
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<void>'
+            - ServiceCallback<void>
           description: |
             The callback
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.StorageClientContext'
+  - uid: '@azure/storage-file-datalake.StorageClientContext'
     name: StorageClientContext
     spec.typeScript:
       - name: StorageClientContext
         fullName: StorageClientContext
-        uid: '@azure/abort-controller.StorageClientContext'
-  - uid: '@azure/abort-controller.ServiceCallback<void>'
-    name: ServiceCallback<void>
-    spec.typeScript:
-      - name: ServiceCallback
-        fullName: ServiceCallback
-        uid: '@azure/abort-controller.ServiceCallback'
-      - name: <void>
-        fullName: <void>
-  - uid: '@azure/abort-controller.PathAppendDataOptionalParams'
+        uid: '@azure/storage-file-datalake.StorageClientContext'
+  - uid: '@azure/storage-file-datalake.PathAppendDataOptionalParams'
     name: PathAppendDataOptionalParams
     spec.typeScript:
       - name: PathAppendDataOptionalParams
         fullName: PathAppendDataOptionalParams
-        uid: '@azure/abort-controller.PathAppendDataOptionalParams'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams'
+        uid: '@azure/storage-file-datalake.PathAppendDataOptionalParams'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams'
     name: PathCreateOptionalParams
     spec.typeScript:
       - name: PathCreateOptionalParams
         fullName: PathCreateOptionalParams
-        uid: '@azure/abort-controller.PathCreateOptionalParams'
-  - uid: '@azure/abort-controller.PathDeleteMethodOptionalParams'
+        uid: '@azure/storage-file-datalake.PathCreateOptionalParams'
+  - uid: '@azure/storage-file-datalake.PathDeleteMethodOptionalParams'
     name: PathDeleteMethodOptionalParams
     spec.typeScript:
       - name: PathDeleteMethodOptionalParams
         fullName: PathDeleteMethodOptionalParams
-        uid: '@azure/abort-controller.PathDeleteMethodOptionalParams'
-  - uid: '@azure/abort-controller.PathFlushDataOptionalParams'
+        uid: '@azure/storage-file-datalake.PathDeleteMethodOptionalParams'
+  - uid: '@azure/storage-file-datalake.PathFlushDataOptionalParams'
     name: PathFlushDataOptionalParams
     spec.typeScript:
       - name: PathFlushDataOptionalParams
         fullName: PathFlushDataOptionalParams
-        uid: '@azure/abort-controller.PathFlushDataOptionalParams'
-  - uid: '@azure/abort-controller.PathGetPropertiesOptionalParams'
+        uid: '@azure/storage-file-datalake.PathFlushDataOptionalParams'
+  - uid: '@azure/storage-file-datalake.PathGetPropertiesOptionalParams'
     name: PathGetPropertiesOptionalParams
     spec.typeScript:
       - name: PathGetPropertiesOptionalParams
         fullName: PathGetPropertiesOptionalParams
-        uid: '@azure/abort-controller.PathGetPropertiesOptionalParams'
-  - uid: '@azure/abort-controller.PathLeaseAction'
+        uid: '@azure/storage-file-datalake.PathGetPropertiesOptionalParams'
+  - uid: '@azure/storage-file-datalake.PathLeaseAction'
     name: PathLeaseAction
     spec.typeScript:
       - name: PathLeaseAction
         fullName: PathLeaseAction
-        uid: '@azure/abort-controller.PathLeaseAction'
-  - uid: '@azure/abort-controller.PathLeaseOptionalParams'
+        uid: '@azure/storage-file-datalake.PathLeaseAction'
+  - uid: '@azure/storage-file-datalake.PathLeaseOptionalParams'
     name: PathLeaseOptionalParams
     spec.typeScript:
       - name: PathLeaseOptionalParams
         fullName: PathLeaseOptionalParams
-        uid: '@azure/abort-controller.PathLeaseOptionalParams'
-  - uid: '@azure/abort-controller.PathReadOptionalParams'
+        uid: '@azure/storage-file-datalake.PathLeaseOptionalParams'
+  - uid: '@azure/storage-file-datalake.PathReadOptionalParams'
     name: PathReadOptionalParams
     spec.typeScript:
       - name: PathReadOptionalParams
         fullName: PathReadOptionalParams
-        uid: '@azure/abort-controller.PathReadOptionalParams'
-  - uid: '@azure/abort-controller.PathSetAccessControlOptionalParams'
+        uid: '@azure/storage-file-datalake.PathReadOptionalParams'
+  - uid: '@azure/storage-file-datalake.PathSetAccessControlOptionalParams'
     name: PathSetAccessControlOptionalParams
     spec.typeScript:
       - name: PathSetAccessControlOptionalParams
         fullName: PathSetAccessControlOptionalParams
-        uid: '@azure/abort-controller.PathSetAccessControlOptionalParams'
-  - uid: '@azure/abort-controller.PathUpdateAction'
+        uid: '@azure/storage-file-datalake.PathSetAccessControlOptionalParams'
+  - uid: '@azure/storage-file-datalake.PathUpdateAction'
     name: PathUpdateAction
     spec.typeScript:
       - name: PathUpdateAction
         fullName: PathUpdateAction
-        uid: '@azure/abort-controller.PathUpdateAction'
-  - uid: '@azure/abort-controller.PathUpdateOptionalParams'
+        uid: '@azure/storage-file-datalake.PathUpdateAction'
+  - uid: '@azure/storage-file-datalake.PathUpdateOptionalParams'
     name: PathUpdateOptionalParams
     spec.typeScript:
       - name: PathUpdateOptionalParams
         fullName: PathUpdateOptionalParams
-        uid: '@azure/abort-controller.PathUpdateOptionalParams'
+        uid: '@azure/storage-file-datalake.PathUpdateOptionalParams'

@@ -1,25 +1,25 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase'
+  - uid: '@azure/amqp-common.ConnectionContextBase'
     name: ConnectionContextBase
     langs:
       - typeScript
     fullName: ConnectionContextBase
     children:
-      - '@azure/ms-rest-azure-env.ConnectionContextBase.cbsSession'
-      - '@azure/ms-rest-azure-env.ConnectionContextBase.config'
-      - '@azure/ms-rest-azure-env.ConnectionContextBase.connection'
-      - '@azure/ms-rest-azure-env.ConnectionContextBase.connectionId'
-      - '@azure/ms-rest-azure-env.ConnectionContextBase.connectionLock'
-      - '@azure/ms-rest-azure-env.ConnectionContextBase.create'
-      - '@azure/ms-rest-azure-env.ConnectionContextBase.dataTransformer'
-      - '@azure/ms-rest-azure-env.ConnectionContextBase.negotiateClaimLock'
-      - '@azure/ms-rest-azure-env.ConnectionContextBase.tokenProvider'
-      - '@azure/ms-rest-azure-env.ConnectionContextBase.wasConnectionCloseCalled'
+      - '@azure/amqp-common.ConnectionContextBase.cbsSession'
+      - '@azure/amqp-common.ConnectionContextBase.config'
+      - '@azure/amqp-common.ConnectionContextBase.connection'
+      - '@azure/amqp-common.ConnectionContextBase.connectionId'
+      - '@azure/amqp-common.ConnectionContextBase.connectionLock'
+      - '@azure/amqp-common.ConnectionContextBase.create'
+      - '@azure/amqp-common.ConnectionContextBase.dataTransformer'
+      - '@azure/amqp-common.ConnectionContextBase.negotiateClaimLock'
+      - '@azure/amqp-common.ConnectionContextBase.tokenProvider'
+      - '@azure/amqp-common.ConnectionContextBase.wasConnectionCloseCalled'
     type: module
     summary: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.cbsSession'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConnectionContextBase.cbsSession'
     name: cbsSession
     fullName: cbsSession
     children: []
@@ -35,10 +35,10 @@ items:
       content: 'cbsSession: CbsClient'
       return:
         type:
-          - '@azure/ms-rest-azure-env.CbsClient'
+          - '@azure/amqp-common.CbsClient'
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.config'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConnectionContextBase.config'
     name: config
     fullName: config
     children: []
@@ -54,10 +54,10 @@ items:
       content: 'config: ConnectionConfig'
       return:
         type:
-          - '@azure/ms-rest-azure-env.ConnectionConfig'
+          - '@azure/amqp-common.ConnectionConfig'
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.connection'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConnectionContextBase.connection'
     name: connection
     fullName: connection
     children: []
@@ -71,8 +71,8 @@ items:
         type:
           - Connection
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.connectionId'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConnectionContextBase.connectionId'
     name: connectionId
     fullName: connectionId
     children: []
@@ -88,8 +88,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.connectionLock'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConnectionContextBase.connectionLock'
     name: connectionLock
     fullName: connectionLock
     children: []
@@ -108,8 +108,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.create'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConnectionContextBase.create'
     name: create(CreateConnectionContextBaseParameters)
     children: []
     type: function
@@ -121,16 +121,16 @@ items:
       parameters:
         - id: parameters
           type:
-            - '@azure/ms-rest-azure-env.CreateConnectionContextBaseParameters'
+            - '@azure/amqp-common.CreateConnectionContextBaseParameters'
           description: |
             Parameters to be provided to create
             the base connection context.
       return:
         type:
-          - '@azure/ms-rest-azure-env.ConnectionContextBase'
+          - '@azure/amqp-common.ConnectionContextBase'
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.dataTransformer'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConnectionContextBase.dataTransformer'
     name: dataTransformer
     fullName: dataTransformer
     children: []
@@ -150,10 +150,10 @@ items:
       content: 'dataTransformer: DataTransformer'
       return:
         type:
-          - '@azure/ms-rest-azure-env.DataTransformer'
+          - '@azure/amqp-common.DataTransformer'
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.negotiateClaimLock'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConnectionContextBase.negotiateClaimLock'
     name: negotiateClaimLock
     fullName: negotiateClaimLock
     children: []
@@ -172,8 +172,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.tokenProvider'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConnectionContextBase.tokenProvider'
     name: tokenProvider
     fullName: tokenProvider
     children: []
@@ -189,10 +189,10 @@ items:
       content: 'tokenProvider: TokenProvider'
       return:
         type:
-          - '@azure/ms-rest-azure-env.TokenProvider'
+          - '@azure/amqp-common.TokenProvider'
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.wasConnectionCloseCalled'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConnectionContextBase.wasConnectionCloseCalled'
     name: wasConnectionCloseCalled
     fullName: wasConnectionCloseCalled
     children: []
@@ -210,61 +210,61 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
 references:
-  - uid: '@azure/ms-rest-azure-env.CbsClient'
+  - uid: '@azure/amqp-common.CbsClient'
     name: CbsClient
     spec.typeScript:
       - name: CbsClient
         fullName: CbsClient
-        uid: '@azure/ms-rest-azure-env.CbsClient'
-  - uid: '@azure/ms-rest-azure-env.ConnectionConfig'
+        uid: '@azure/amqp-common.CbsClient'
+  - uid: '@azure/amqp-common.ConnectionConfig'
     name: ConnectionConfig
     spec.typeScript:
       - name: ConnectionConfig
         fullName: ConnectionConfig
-        uid: '@azure/ms-rest-azure-env.ConnectionConfig'
-  - uid: '@azure/ms-rest-azure-env.DataTransformer'
+        uid: '@azure/amqp-common.ConnectionConfig'
+  - uid: '@azure/amqp-common.DataTransformer'
     name: DataTransformer
     spec.typeScript:
       - name: DataTransformer
         fullName: DataTransformer
-        uid: '@azure/ms-rest-azure-env.DataTransformer'
-  - uid: '@azure/ms-rest-azure-env.TokenProvider'
+        uid: '@azure/amqp-common.DataTransformer'
+  - uid: '@azure/amqp-common.TokenProvider'
     name: TokenProvider
     spec.typeScript:
       - name: TokenProvider
         fullName: TokenProvider
-        uid: '@azure/ms-rest-azure-env.TokenProvider'
-  - uid: '@azure/ms-rest-azure-env.CreateConnectionContextBaseParameters'
+        uid: '@azure/amqp-common.TokenProvider'
+  - uid: '@azure/amqp-common.CreateConnectionContextBaseParameters'
     name: CreateConnectionContextBaseParameters
     spec.typeScript:
       - name: CreateConnectionContextBaseParameters
         fullName: CreateConnectionContextBaseParameters
-        uid: '@azure/ms-rest-azure-env.CreateConnectionContextBaseParameters'
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase'
+        uid: '@azure/amqp-common.CreateConnectionContextBaseParameters'
+  - uid: '@azure/amqp-common.ConnectionContextBase'
     name: ConnectionContextBase
     spec.typeScript:
       - name: ConnectionContextBase
         fullName: ConnectionContextBase
-        uid: '@azure/ms-rest-azure-env.ConnectionContextBase'
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.cbsSession'
+        uid: '@azure/amqp-common.ConnectionContextBase'
+  - uid: '@azure/amqp-common.ConnectionContextBase.cbsSession'
     name: cbsSession
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.config'
+  - uid: '@azure/amqp-common.ConnectionContextBase.config'
     name: config
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.connection'
+  - uid: '@azure/amqp-common.ConnectionContextBase.connection'
     name: connection
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.connectionId'
+  - uid: '@azure/amqp-common.ConnectionContextBase.connectionId'
     name: connectionId
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.connectionLock'
+  - uid: '@azure/amqp-common.ConnectionContextBase.connectionLock'
     name: connectionLock
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.create'
+  - uid: '@azure/amqp-common.ConnectionContextBase.create'
     name: create
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.dataTransformer'
+  - uid: '@azure/amqp-common.ConnectionContextBase.dataTransformer'
     name: dataTransformer
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.negotiateClaimLock'
+  - uid: '@azure/amqp-common.ConnectionContextBase.negotiateClaimLock'
     name: negotiateClaimLock
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.tokenProvider'
+  - uid: '@azure/amqp-common.ConnectionContextBase.tokenProvider'
     name: tokenProvider
-  - uid: '@azure/ms-rest-azure-env.ConnectionContextBase.wasConnectionCloseCalled'
+  - uid: '@azure/amqp-common.ConnectionContextBase.wasConnectionCloseCalled'
     name: wasConnectionCloseCalled

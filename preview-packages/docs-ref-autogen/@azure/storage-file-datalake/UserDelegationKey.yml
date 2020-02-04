@@ -1,22 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.UserDelegationKey'
+  - uid: '@azure/storage-file-datalake.UserDelegationKey'
     name: UserDelegationKey
     fullName: UserDelegationKey
     children:
-      - '@azure/abort-controller.UserDelegationKey.signedExpiresOn'
-      - '@azure/abort-controller.UserDelegationKey.signedObjectId'
-      - '@azure/abort-controller.UserDelegationKey.signedService'
-      - '@azure/abort-controller.UserDelegationKey.signedStartsOn'
-      - '@azure/abort-controller.UserDelegationKey.signedTenantId'
-      - '@azure/abort-controller.UserDelegationKey.signedVersion'
-      - '@azure/abort-controller.UserDelegationKey.value'
+      - '@azure/storage-file-datalake.UserDelegationKey.signedExpiresOn'
+      - '@azure/storage-file-datalake.UserDelegationKey.signedObjectId'
+      - '@azure/storage-file-datalake.UserDelegationKey.signedService'
+      - '@azure/storage-file-datalake.UserDelegationKey.signedStartsOn'
+      - '@azure/storage-file-datalake.UserDelegationKey.signedTenantId'
+      - '@azure/storage-file-datalake.UserDelegationKey.signedVersion'
+      - '@azure/storage-file-datalake.UserDelegationKey.value'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.UserDelegationKey.signedExpiresOn'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.UserDelegationKey.signedExpiresOn'
     name: signedExpiresOn
     fullName: signedExpiresOn
     children: []
@@ -30,8 +30,8 @@ items:
         type:
           - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.UserDelegationKey.signedObjectId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.UserDelegationKey.signedObjectId'
     name: signedObjectId
     fullName: signedObjectId
     children: []
@@ -45,8 +45,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.UserDelegationKey.signedService'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.UserDelegationKey.signedService'
     name: signedService
     fullName: signedService
     children: []
@@ -60,8 +60,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.UserDelegationKey.signedStartsOn'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.UserDelegationKey.signedStartsOn'
     name: signedStartsOn
     fullName: signedStartsOn
     children: []
@@ -75,8 +75,8 @@ items:
         type:
           - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.UserDelegationKey.signedTenantId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.UserDelegationKey.signedTenantId'
     name: signedTenantId
     fullName: signedTenantId
     children: []
@@ -90,8 +90,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.UserDelegationKey.signedVersion'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.UserDelegationKey.signedVersion'
     name: signedVersion
     fullName: signedVersion
     children: []
@@ -105,8 +105,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.UserDelegationKey.value'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.UserDelegationKey.value'
     name: value
     fullName: value
     children: []
@@ -120,4 +120,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

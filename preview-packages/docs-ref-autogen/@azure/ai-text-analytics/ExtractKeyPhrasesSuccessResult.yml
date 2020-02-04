@@ -1,12 +1,12 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesSuccessResult'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesSuccessResult'
     name: ExtractKeyPhrasesSuccessResult
     fullName: ExtractKeyPhrasesSuccessResult
     children:
-      - '@azure/abort-controller.ExtractKeyPhrasesSuccessResult.id'
-      - '@azure/abort-controller.ExtractKeyPhrasesSuccessResult.keyPhrases'
-      - '@azure/abort-controller.ExtractKeyPhrasesSuccessResult.statistics'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesSuccessResult.id'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesSuccessResult.keyPhrases'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesSuccessResult.statistics'
     langs:
       - typeScript
     type: interface
@@ -14,9 +14,9 @@ items:
       The result of the extract key phrases operation on a single document,
       containing a collection of the key phrases identified in that document.
     extends:
-      name: '@azure/abort-controller.TextAnalyticsSuccessResult'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesSuccessResult.id'
+      name: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesSuccessResult.id'
     name: id
     fullName: id
     children: []
@@ -30,8 +30,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesSuccessResult.keyPhrases'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesSuccessResult.keyPhrases'
     name: keyPhrases
     fullName: keyPhrases
     children: []
@@ -49,8 +49,8 @@ items:
         type:
           - 'string[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesSuccessResult.statistics'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesSuccessResult.statistics'
     name: statistics
     fullName: statistics
     children: []
@@ -69,19 +69,19 @@ items:
       content: 'statistics?: TextDocumentStatistics'
       return:
         type:
-          - '@azure/abort-controller.TextDocumentStatistics'
+          - '@azure/ai-text-analytics.TextDocumentStatistics'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'
 references:
-  - uid: '@azure/abort-controller.TextAnalyticsSuccessResult'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
     name: TextAnalyticsSuccessResult
     spec.typeScript:
       - name: TextAnalyticsSuccessResult
         fullName: TextAnalyticsSuccessResult
-        uid: '@azure/abort-controller.TextAnalyticsSuccessResult'
-  - uid: '@azure/abort-controller.TextDocumentStatistics'
+        uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
+  - uid: '@azure/ai-text-analytics.TextDocumentStatistics'
     name: TextDocumentStatistics
     spec.typeScript:
       - name: TextDocumentStatistics
         fullName: TextDocumentStatistics
-        uid: '@azure/abort-controller.TextDocumentStatistics'
+        uid: '@azure/ai-text-analytics.TextDocumentStatistics'

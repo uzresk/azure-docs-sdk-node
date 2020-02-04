@@ -18,135 +18,114 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Promise.ContinueWith
-    name: 'ContinueWith((promiseResult: PromiseResult<T>) => TContinuationResult)'
+    name: ContinueWith
+    fullName: ContinueWith
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
       content: >-
-        function ContinueWith<TContinuationResult>(continuationCallback:
-        (promiseResult: PromiseResult<T>) => TContinuationResult)
-      parameters:
-        - id: continuationCallback
-          type:
-            - '(promiseResult: PromiseResult<T>) => TContinuationResult'
-          description: ''
+        ContinueWith: (continuationCallback: (promiseResult: PromiseResult<T>)
+        => TContinuationResult) => Promise<TContinuationResult>
       return:
         type:
-          - microsoft-speech-browser-sdk.Promise<TContinuationResult>
+          - >-
+            (continuationCallback: (promiseResult: PromiseResult<T>) =>
+            TContinuationResult) => Promise<TContinuationResult>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Promise.ContinueWithPromise
-    name: >-
-      ContinueWithPromise((promiseResult: PromiseResult<T>) =>
-      Promise<TContinuationResult>)
+    name: ContinueWithPromise
+    fullName: ContinueWithPromise
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
       content: >-
-        function ContinueWithPromise<TContinuationResult>(continuationCallback:
-        (promiseResult: PromiseResult<T>) => Promise<TContinuationResult>)
-      parameters:
-        - id: continuationCallback
-          type:
-            - '(promiseResult: PromiseResult<T>) => Promise<TContinuationResult>'
-          description: ''
+        ContinueWithPromise: (continuationCallback: (promiseResult:
+        PromiseResult<T>) => Promise<TContinuationResult>) =>
+        Promise<TContinuationResult>
       return:
         type:
-          - microsoft-speech-browser-sdk.Promise<TContinuationResult>
+          - >-
+            (continuationCallback: (promiseResult: PromiseResult<T>) =>
+            Promise<TContinuationResult>) => Promise<TContinuationResult>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Promise.Finally
-    name: Finally(() => void)
+    name: Finally
+    fullName: Finally
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function Finally(callback: () => void)'
-      parameters:
-        - id: callback
-          type:
-            - () => void
-          description: ''
+      content: 'Finally: (callback: () => void) => Promise<T>'
       return:
         type:
-          - microsoft-speech-browser-sdk.Promise<T>
+          - '(callback: () => void) => Promise<T>'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Promise.On
-    name: 'On((result: T) => void, (error: string) => void)'
+    name: 'On'
+    fullName: 'On'
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
       content: >-
-        function On(successCallback: (result: T) => void, errorCallback: (error:
-        string) => void)
-      parameters:
-        - id: successCallback
-          type:
-            - '(result: T) => void'
-          description: ''
-        - id: errorCallback
-          type:
-            - '(error: string) => void'
-          description: ''
+        On: (successCallback: (result: T) => void, errorCallback: (error:
+        string) => void) => Promise<T>
       return:
         type:
-          - microsoft-speech-browser-sdk.Promise<T>
+          - >-
+            (successCallback: (result: T) => void, errorCallback: (error:
+            string) => void) => Promise<T>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Promise.OnSuccessContinueWith
-    name: 'OnSuccessContinueWith((result: T) => TContinuationResult)'
+    name: OnSuccessContinueWith
+    fullName: OnSuccessContinueWith
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
       content: >-
-        function
-        OnSuccessContinueWith<TContinuationResult>(continuationCallback:
-        (result: T) => TContinuationResult)
-      parameters:
-        - id: continuationCallback
-          type:
-            - '(result: T) => TContinuationResult'
-          description: ''
+        OnSuccessContinueWith: (continuationCallback: (result: T) =>
+        TContinuationResult) => Promise<TContinuationResult>
       return:
         type:
-          - microsoft-speech-browser-sdk.Promise<TContinuationResult>
+          - >-
+            (continuationCallback: (result: T) => TContinuationResult) =>
+            Promise<TContinuationResult>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Promise.OnSuccessContinueWithPromise
-    name: 'OnSuccessContinueWithPromise((result: T) => Promise<TContinuationResult>)'
+    name: OnSuccessContinueWithPromise
+    fullName: OnSuccessContinueWithPromise
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
       content: >-
-        function
-        OnSuccessContinueWithPromise<TContinuationResult>(continuationCallback:
-        (result: T) => Promise<TContinuationResult>)
-      parameters:
-        - id: continuationCallback
-          type:
-            - '(result: T) => Promise<TContinuationResult>'
-          description: ''
+        OnSuccessContinueWithPromise: (continuationCallback: (result: T) =>
+        Promise<TContinuationResult>) => Promise<TContinuationResult>
       return:
         type:
-          - microsoft-speech-browser-sdk.Promise<TContinuationResult>
+          - >-
+            (continuationCallback: (result: T) => Promise<TContinuationResult>)
+            => Promise<TContinuationResult>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Promise.constructor
@@ -165,18 +144,18 @@ items:
           description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Promise.Result
-    name: Result()
+    name: Result
+    fullName: Result
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: function Result()
-      parameters: []
+      content: 'Result: () => PromiseResult<T>'
       return:
         type:
-          - microsoft-speech-browser-sdk.PromiseResult<T>
+          - () => PromiseResult<T>
         description: ''
     package: microsoft-speech-browser-sdk
 references:
@@ -186,29 +165,5 @@ references:
       - name: Sink
         fullName: Sink
         uid: microsoft-speech-browser-sdk.Sink
-      - name: <T>
-        fullName: <T>
-  - uid: microsoft-speech-browser-sdk.Promise<TContinuationResult>
-    name: Promise<TContinuationResult>
-    spec.typeScript:
-      - name: Promise
-        fullName: Promise
-        uid: microsoft-speech-browser-sdk.Promise
-      - name: <TContinuationResult>
-        fullName: <TContinuationResult>
-  - uid: microsoft-speech-browser-sdk.Promise<T>
-    name: Promise<T>
-    spec.typeScript:
-      - name: Promise
-        fullName: Promise
-        uid: microsoft-speech-browser-sdk.Promise
-      - name: <T>
-        fullName: <T>
-  - uid: microsoft-speech-browser-sdk.PromiseResult<T>
-    name: PromiseResult<T>
-    spec.typeScript:
-      - name: PromiseResult
-        fullName: PromiseResult
-        uid: microsoft-speech-browser-sdk.PromiseResult
       - name: <T>
         fullName: <T>

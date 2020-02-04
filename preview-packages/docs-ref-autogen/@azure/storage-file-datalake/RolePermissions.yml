@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.RolePermissions'
+  - uid: '@azure/storage-file-datalake.RolePermissions'
     name: RolePermissions
     fullName: RolePermissions
     children:
-      - '@azure/abort-controller.RolePermissions.execute'
-      - '@azure/abort-controller.RolePermissions.read'
-      - '@azure/abort-controller.RolePermissions.write'
+      - '@azure/storage-file-datalake.RolePermissions.execute'
+      - '@azure/storage-file-datalake.RolePermissions.read'
+      - '@azure/storage-file-datalake.RolePermissions.write'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.RolePermissions.execute'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.RolePermissions.execute'
     name: execute
     fullName: execute
     children: []
@@ -26,8 +26,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.RolePermissions.read'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.RolePermissions.read'
     name: read
     fullName: read
     children: []
@@ -41,8 +41,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.RolePermissions.write'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.RolePermissions.write'
     name: write
     fullName: write
     children: []
@@ -56,4 +56,4 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

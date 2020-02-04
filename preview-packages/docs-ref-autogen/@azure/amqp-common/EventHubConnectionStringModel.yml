@@ -1,20 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionStringModel'
+  - uid: '@azure/amqp-common.EventHubConnectionStringModel'
     name: EventHubConnectionStringModel
     fullName: EventHubConnectionStringModel
     children:
-      - '@azure/ms-rest-azure-env.EventHubConnectionStringModel.Endpoint'
-      - '@azure/ms-rest-azure-env.EventHubConnectionStringModel.EntityPath'
-      - '@azure/ms-rest-azure-env.EventHubConnectionStringModel.SharedAccessKey'
-      - >-
-        @azure/ms-rest-azure-env.EventHubConnectionStringModel.SharedAccessKeyName
+      - '@azure/amqp-common.EventHubConnectionStringModel.Endpoint'
+      - '@azure/amqp-common.EventHubConnectionStringModel.EntityPath'
+      - '@azure/amqp-common.EventHubConnectionStringModel.SharedAccessKey'
+      - '@azure/amqp-common.EventHubConnectionStringModel.SharedAccessKeyName'
     langs:
       - typeScript
     type: interface
     summary: Describes the eventhub connection string model.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionStringModel.Endpoint'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionStringModel.Endpoint'
     name: Endpoint
     fullName: Endpoint
     children: []
@@ -28,8 +27,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionStringModel.EntityPath'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionStringModel.EntityPath'
     name: EntityPath
     fullName: EntityPath
     children: []
@@ -44,8 +43,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionStringModel.SharedAccessKey'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionStringModel.SharedAccessKey'
     name: SharedAccessKey
     fullName: SharedAccessKey
     children: []
@@ -59,8 +58,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionStringModel.SharedAccessKeyName'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionStringModel.SharedAccessKeyName'
     name: SharedAccessKeyName
     fullName: SharedAccessKeyName
     children: []
@@ -74,4 +73,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'

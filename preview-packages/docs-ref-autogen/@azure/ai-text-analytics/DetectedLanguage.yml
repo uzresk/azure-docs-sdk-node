@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.DetectedLanguage'
+  - uid: '@azure/ai-text-analytics.DetectedLanguage'
     name: DetectedLanguage
     fullName: DetectedLanguage
     children:
-      - '@azure/abort-controller.DetectedLanguage.iso6391Name'
-      - '@azure/abort-controller.DetectedLanguage.name'
-      - '@azure/abort-controller.DetectedLanguage.score'
+      - '@azure/ai-text-analytics.DetectedLanguage.iso6391Name'
+      - '@azure/ai-text-analytics.DetectedLanguage.name'
+      - '@azure/ai-text-analytics.DetectedLanguage.score'
     langs:
       - typeScript
     type: interface
     summary: An interface representing DetectedLanguage.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectedLanguage.iso6391Name'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectedLanguage.iso6391Name'
     name: iso6391Name
     fullName: iso6391Name
     children: []
@@ -30,8 +30,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectedLanguage.name'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectedLanguage.name'
     name: name
     fullName: name
     children: []
@@ -45,8 +45,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectedLanguage.score'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectedLanguage.score'
     name: score
     fullName: score
     children: []
@@ -64,4 +64,4 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'

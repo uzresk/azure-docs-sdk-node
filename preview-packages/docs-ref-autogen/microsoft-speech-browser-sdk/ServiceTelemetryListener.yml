@@ -14,45 +14,49 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.ServiceTelemetryListener.Dispose
-    name: Dispose()
+    name: Dispose
+    fullName: Dispose
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: function Dispose()
-      parameters: []
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.ServiceTelemetryListener.GetTelemetry
-    name: GetTelemetry()
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: ''
-    syntax:
-      content: function GetTelemetry()
-      parameters: []
+      content: 'Dispose: () => void'
       return:
         type:
-          - string
+          - () => void
+        description: ''
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.ServiceTelemetryListener.GetTelemetry
+    name: GetTelemetry
+    fullName: GetTelemetry
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'GetTelemetry: () => string'
+      return:
+        type:
+          - () => string
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.ServiceTelemetryListener.OnEvent
-    name: OnEvent(PlatformEvent)
+    name: OnEvent
+    fullName: OnEvent
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function OnEvent(e: PlatformEvent)'
-      parameters:
-        - id: e
-          type:
-            - microsoft-speech-browser-sdk.PlatformEvent
-          description: ''
+      content: 'OnEvent: (e: PlatformEvent) => void'
+      return:
+        type:
+          - '(e: PlatformEvent) => void'
+        description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.ServiceTelemetryListener.constructor
     name: 'ServiceTelemetryListener(string, string, string)'
@@ -79,10 +83,3 @@ items:
             - string
           description: ''
     package: microsoft-speech-browser-sdk
-references:
-  - uid: microsoft-speech-browser-sdk.PlatformEvent
-    name: PlatformEvent
-    spec.typeScript:
-      - name: PlatformEvent
-        fullName: PlatformEvent
-        uid: microsoft-speech-browser-sdk.PlatformEvent

@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@opentelemetry/types.extractSpanContextFromTraceParentHeader'
+  - uid: '@azure/core-tracing.extractSpanContextFromTraceParentHeader'
     name: extractSpanContextFromTraceParentHeader(string)
     children: []
     type: function
@@ -18,15 +18,6 @@ items:
           description: ''
       return:
         type:
-          - '@opentelemetry/types.SpanContext | undefined'
+          - SpanContext | undefined
         description: The `SpanContext` generated from the `traceparent` value.
-    package: '@opentelemetry/types'
-references:
-  - uid: '@opentelemetry/types.SpanContext | undefined'
-    name: SpanContext | undefined
-    spec.typeScript:
-      - name: SpanContext
-        fullName: SpanContext
-        uid: '@opentelemetry/types.SpanContext'
-      - name: ' | undefined'
-        fullName: ' | undefined'
+    package: '@azure/core-tracing'

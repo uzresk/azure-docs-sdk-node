@@ -1,32 +1,35 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PathDeleteMethodOptionalParams'
+  - uid: '@azure/storage-file-datalake.PathDeleteMethodOptionalParams'
     name: PathDeleteMethodOptionalParams
     fullName: PathDeleteMethodOptionalParams
     children:
-      - '@azure/abort-controller.PathDeleteMethodOptionalParams.abortSignal'
-      - '@azure/abort-controller.PathDeleteMethodOptionalParams.continuation'
-      - '@azure/abort-controller.PathDeleteMethodOptionalParams.customHeaders'
+      - '@azure/storage-file-datalake.PathDeleteMethodOptionalParams.abortSignal'
+      - '@azure/storage-file-datalake.PathDeleteMethodOptionalParams.continuation'
       - >-
-        @azure/abort-controller.PathDeleteMethodOptionalParams.leaseAccessConditions
+        @azure/storage-file-datalake.PathDeleteMethodOptionalParams.customHeaders
       - >-
-        @azure/abort-controller.PathDeleteMethodOptionalParams.modifiedAccessConditions
+        @azure/storage-file-datalake.PathDeleteMethodOptionalParams.leaseAccessConditions
       - >-
-        @azure/abort-controller.PathDeleteMethodOptionalParams.onDownloadProgress
-      - '@azure/abort-controller.PathDeleteMethodOptionalParams.onUploadProgress'
-      - '@azure/abort-controller.PathDeleteMethodOptionalParams.recursive'
-      - '@azure/abort-controller.PathDeleteMethodOptionalParams.requestId'
-      - '@azure/abort-controller.PathDeleteMethodOptionalParams.spanOptions'
-      - '@azure/abort-controller.PathDeleteMethodOptionalParams.timeout'
-      - '@azure/abort-controller.PathDeleteMethodOptionalParams.timeoutParameter'
+        @azure/storage-file-datalake.PathDeleteMethodOptionalParams.modifiedAccessConditions
+      - >-
+        @azure/storage-file-datalake.PathDeleteMethodOptionalParams.onDownloadProgress
+      - >-
+        @azure/storage-file-datalake.PathDeleteMethodOptionalParams.onUploadProgress
+      - '@azure/storage-file-datalake.PathDeleteMethodOptionalParams.recursive'
+      - '@azure/storage-file-datalake.PathDeleteMethodOptionalParams.requestId'
+      - '@azure/storage-file-datalake.PathDeleteMethodOptionalParams.spanOptions'
+      - '@azure/storage-file-datalake.PathDeleteMethodOptionalParams.timeout'
+      - >-
+        @azure/storage-file-datalake.PathDeleteMethodOptionalParams.timeoutParameter
     langs:
       - typeScript
     type: interface
     summary: Optional Parameters.
     extends:
-      name: '@azure/abort-controller.RequestOptionsBase'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathDeleteMethodOptionalParams.abortSignal'
+      name: RequestOptionsBase
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathDeleteMethodOptionalParams.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -39,10 +42,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - '@azure/abort-controller.AbortSignalLike'
+          - AbortSignalLike
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathDeleteMethodOptionalParams.continuation'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathDeleteMethodOptionalParams.continuation'
     name: continuation
     fullName: continuation
     children: []
@@ -70,8 +73,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathDeleteMethodOptionalParams.customHeaders'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathDeleteMethodOptionalParams.customHeaders'
     name: customHeaders
     fullName: customHeaders
     children: []
@@ -88,9 +91,9 @@ items:
         type:
           - 'undefined | [key: string]: string'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
   - uid: >-
-      @azure/abort-controller.PathDeleteMethodOptionalParams.leaseAccessConditions
+      @azure/storage-file-datalake.PathDeleteMethodOptionalParams.leaseAccessConditions
     name: leaseAccessConditions
     fullName: leaseAccessConditions
     children: []
@@ -103,11 +106,11 @@ items:
       content: 'leaseAccessConditions?: LeaseAccessConditions'
       return:
         type:
-          - '@azure/abort-controller.LeaseAccessConditions'
+          - '@azure/storage-file-datalake.LeaseAccessConditions'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
   - uid: >-
-      @azure/abort-controller.PathDeleteMethodOptionalParams.modifiedAccessConditions
+      @azure/storage-file-datalake.PathDeleteMethodOptionalParams.modifiedAccessConditions
     name: modifiedAccessConditions
     fullName: modifiedAccessConditions
     children: []
@@ -120,10 +123,11 @@ items:
       content: 'modifiedAccessConditions?: ModifiedAccessConditions'
       return:
         type:
-          - '@azure/abort-controller.ModifiedAccessConditions'
+          - '@azure/storage-file-datalake.ModifiedAccessConditions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathDeleteMethodOptionalParams.onDownloadProgress'
+    package: '@azure/storage-file-datalake'
+  - uid: >-
+      @azure/storage-file-datalake.PathDeleteMethodOptionalParams.onDownloadProgress
     name: onDownloadProgress
     fullName: onDownloadProgress
     children: []
@@ -140,8 +144,9 @@ items:
         type:
           - 'undefined | (progress: TransferProgressEvent) => void'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathDeleteMethodOptionalParams.onUploadProgress'
+    package: '@azure/storage-file-datalake'
+  - uid: >-
+      @azure/storage-file-datalake.PathDeleteMethodOptionalParams.onUploadProgress
     name: onUploadProgress
     fullName: onUploadProgress
     children: []
@@ -156,8 +161,8 @@ items:
         type:
           - 'undefined | (progress: TransferProgressEvent) => void'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathDeleteMethodOptionalParams.recursive'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathDeleteMethodOptionalParams.recursive'
     name: recursive
     fullName: recursive
     children: []
@@ -172,8 +177,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathDeleteMethodOptionalParams.requestId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathDeleteMethodOptionalParams.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -192,8 +197,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathDeleteMethodOptionalParams.spanOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathDeleteMethodOptionalParams.spanOptions'
     name: spanOptions
     fullName: spanOptions
     children: []
@@ -206,10 +211,10 @@ items:
       content: 'spanOptions?: SpanOptions'
       return:
         type:
-          - '@azure/abort-controller.SpanOptions'
+          - SpanOptions
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathDeleteMethodOptionalParams.timeout'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathDeleteMethodOptionalParams.timeout'
     name: timeout
     fullName: timeout
     children: []
@@ -226,8 +231,9 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathDeleteMethodOptionalParams.timeoutParameter'
+    package: '@azure/storage-file-datalake'
+  - uid: >-
+      @azure/storage-file-datalake.PathDeleteMethodOptionalParams.timeoutParameter
     name: timeoutParameter
     fullName: timeoutParameter
     children: []
@@ -248,35 +254,17 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.RequestOptionsBase'
-    name: RequestOptionsBase
-    spec.typeScript:
-      - name: RequestOptionsBase
-        fullName: RequestOptionsBase
-        uid: '@azure/abort-controller.RequestOptionsBase'
-  - uid: '@azure/abort-controller.AbortSignalLike'
-    name: AbortSignalLike
-    spec.typeScript:
-      - name: AbortSignalLike
-        fullName: AbortSignalLike
-        uid: '@azure/abort-controller.AbortSignalLike'
-  - uid: '@azure/abort-controller.LeaseAccessConditions'
+  - uid: '@azure/storage-file-datalake.LeaseAccessConditions'
     name: LeaseAccessConditions
     spec.typeScript:
       - name: LeaseAccessConditions
         fullName: LeaseAccessConditions
-        uid: '@azure/abort-controller.LeaseAccessConditions'
-  - uid: '@azure/abort-controller.ModifiedAccessConditions'
+        uid: '@azure/storage-file-datalake.LeaseAccessConditions'
+  - uid: '@azure/storage-file-datalake.ModifiedAccessConditions'
     name: ModifiedAccessConditions
     spec.typeScript:
       - name: ModifiedAccessConditions
         fullName: ModifiedAccessConditions
-        uid: '@azure/abort-controller.ModifiedAccessConditions'
-  - uid: '@azure/abort-controller.SpanOptions'
-    name: SpanOptions
-    spec.typeScript:
-      - name: SpanOptions
-        fullName: SpanOptions
-        uid: '@azure/abort-controller.SpanOptions'
+        uid: '@azure/storage-file-datalake.ModifiedAccessConditions'

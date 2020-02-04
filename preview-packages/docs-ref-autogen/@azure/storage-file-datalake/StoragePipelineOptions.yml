@@ -1,20 +1,20 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.StoragePipelineOptions'
+  - uid: '@azure/storage-file-datalake.StoragePipelineOptions'
     name: StoragePipelineOptions
     fullName: StoragePipelineOptions
     children:
-      - '@azure/abort-controller.StoragePipelineOptions.httpClient'
-      - '@azure/abort-controller.StoragePipelineOptions.keepAliveOptions'
-      - '@azure/abort-controller.StoragePipelineOptions.proxyOptions'
-      - '@azure/abort-controller.StoragePipelineOptions.retryOptions'
-      - '@azure/abort-controller.StoragePipelineOptions.userAgentOptions'
+      - '@azure/storage-file-datalake.StoragePipelineOptions.httpClient'
+      - '@azure/storage-file-datalake.StoragePipelineOptions.keepAliveOptions'
+      - '@azure/storage-file-datalake.StoragePipelineOptions.proxyOptions'
+      - '@azure/storage-file-datalake.StoragePipelineOptions.retryOptions'
+      - '@azure/storage-file-datalake.StoragePipelineOptions.userAgentOptions'
     langs:
       - typeScript
     type: interface
     summary: 'Options interface for the <xref:newPipeline> function.'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StoragePipelineOptions.httpClient'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StoragePipelineOptions.httpClient'
     name: httpClient
     fullName: httpClient
     children: []
@@ -29,8 +29,8 @@ items:
         type:
           - IHttpClient
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StoragePipelineOptions.keepAliveOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StoragePipelineOptions.keepAliveOptions'
     name: keepAliveOptions
     fullName: keepAliveOptions
     children: []
@@ -43,10 +43,10 @@ items:
       content: 'keepAliveOptions?: KeepAliveOptions'
       return:
         type:
-          - '@azure/abort-controller.KeepAliveOptions'
+          - KeepAliveOptions
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StoragePipelineOptions.proxyOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StoragePipelineOptions.proxyOptions'
     name: proxyOptions
     fullName: proxyOptions
     children: []
@@ -59,10 +59,10 @@ items:
       content: 'proxyOptions?: ProxyOptions'
       return:
         type:
-          - '@azure/abort-controller.ProxyOptions'
+          - ProxyOptions
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StoragePipelineOptions.retryOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StoragePipelineOptions.retryOptions'
     name: retryOptions
     fullName: retryOptions
     children: []
@@ -75,10 +75,10 @@ items:
       content: 'retryOptions?: StorageRetryOptions'
       return:
         type:
-          - '@azure/abort-controller.StorageRetryOptions'
+          - '@azure/storage-file-datalake.StorageRetryOptions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StoragePipelineOptions.userAgentOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StoragePipelineOptions.userAgentOptions'
     name: userAgentOptions
     fullName: userAgentOptions
     children: []
@@ -91,31 +91,13 @@ items:
       content: 'userAgentOptions?: UserAgentOptions'
       return:
         type:
-          - '@azure/abort-controller.UserAgentOptions'
+          - UserAgentOptions
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.KeepAliveOptions'
-    name: KeepAliveOptions
-    spec.typeScript:
-      - name: KeepAliveOptions
-        fullName: KeepAliveOptions
-        uid: '@azure/abort-controller.KeepAliveOptions'
-  - uid: '@azure/abort-controller.ProxyOptions'
-    name: ProxyOptions
-    spec.typeScript:
-      - name: ProxyOptions
-        fullName: ProxyOptions
-        uid: '@azure/abort-controller.ProxyOptions'
-  - uid: '@azure/abort-controller.StorageRetryOptions'
+  - uid: '@azure/storage-file-datalake.StorageRetryOptions'
     name: StorageRetryOptions
     spec.typeScript:
       - name: StorageRetryOptions
         fullName: StorageRetryOptions
-        uid: '@azure/abort-controller.StorageRetryOptions'
-  - uid: '@azure/abort-controller.UserAgentOptions'
-    name: UserAgentOptions
-    spec.typeScript:
-      - name: UserAgentOptions
-        fullName: UserAgentOptions
-        uid: '@azure/abort-controller.UserAgentOptions'
+        uid: '@azure/storage-file-datalake.StorageRetryOptions'

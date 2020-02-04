@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.retry'
+  - uid: '@azure/amqp-common.retry'
     name: retry(RetryConfig<T>)
     children: []
     type: function
@@ -17,20 +17,20 @@ items:
       parameters:
         - id: config
           type:
-            - '@azure/ms-rest-azure-env.RetryConfig<T>'
+            - '@azure/amqp-common.RetryConfig<T>'
           description: |
             Parameters to configure retry operation.
       return:
         type:
           - Promise<T>
         description: Promise<T>.
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
 references:
-  - uid: '@azure/ms-rest-azure-env.RetryConfig<T>'
+  - uid: '@azure/amqp-common.RetryConfig<T>'
     name: RetryConfig<T>
     spec.typeScript:
       - name: RetryConfig
         fullName: RetryConfig
-        uid: '@azure/ms-rest-azure-env.RetryConfig'
+        uid: '@azure/amqp-common.RetryConfig'
       - name: <T>
         fullName: <T>

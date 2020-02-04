@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.AccessPolicy'
+  - uid: '@azure/storage-file-datalake.AccessPolicy'
     name: AccessPolicy
     fullName: AccessPolicy
     children:
-      - '@azure/abort-controller.AccessPolicy.expiresOn'
-      - '@azure/abort-controller.AccessPolicy.permissions'
-      - '@azure/abort-controller.AccessPolicy.startsOn'
+      - '@azure/storage-file-datalake.AccessPolicy.expiresOn'
+      - '@azure/storage-file-datalake.AccessPolicy.permissions'
+      - '@azure/storage-file-datalake.AccessPolicy.startsOn'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccessPolicy.expiresOn'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccessPolicy.expiresOn'
     name: expiresOn
     fullName: expiresOn
     children: []
@@ -25,10 +25,10 @@ items:
       content: 'expiresOn?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccessPolicy.permissions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccessPolicy.permissions'
     name: permissions
     fullName: permissions
     children: []
@@ -42,8 +42,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccessPolicy.startsOn'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccessPolicy.startsOn'
     name: startsOn
     fullName: startsOn
     children: []
@@ -56,13 +56,6 @@ items:
       content: 'startsOn?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-references:
-  - uid: '@azure/abort-controller.NodeJS.Global.Date'
-    name: Date
-    spec.typeScript:
-      - name: Date
-        fullName: Date
-        uid: '@azure/abort-controller.NodeJS.Global.Date'
+    package: '@azure/storage-file-datalake'

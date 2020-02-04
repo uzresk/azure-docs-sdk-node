@@ -1,49 +1,40 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.ConditionStatusMapper'
+  - uid: '@azure/amqp-common.ConditionStatusMapper'
     name: ConditionStatusMapper
     fullName: ConditionStatusMapper
     children:
+      - '@azure/amqp-common.ConditionStatusMapper.com.microsoft:entity-disabled'
+      - '@azure/amqp-common.ConditionStatusMapper.amqp:not-allowed'
       - >-
-        @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:entity-disabled
-      - '@azure/ms-rest-azure-env.ConditionStatusMapper.amqp:not-allowed'
+        @azure/amqp-common.ConditionStatusMapper.com.microsoft:argument-out-of-range
+      - '@azure/amqp-common.ConditionStatusMapper.com.microsoft:argument-error'
+      - '@azure/amqp-common.ConditionStatusMapper.com.microsoft:publisher-revoked'
+      - '@azure/amqp-common.ConditionStatusMapper.amqp:unauthorized-access'
+      - '@azure/amqp-common.ConditionStatusMapper.amqp:link:message-size-exceeded'
+      - '@azure/amqp-common.ConditionStatusMapper.amqp:resource-limit-exceeded'
+      - '@azure/amqp-common.ConditionStatusMapper.amqp:not-found'
+      - '@azure/amqp-common.ConditionStatusMapper.com.microsoft:timeout'
       - >-
-        @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:argument-out-of-range
+        @azure/amqp-common.ConditionStatusMapper.com.microsoft:entity-already-exists
+      - '@azure/amqp-common.ConditionStatusMapper.amqp:link:stolen'
+      - '@azure/amqp-common.ConditionStatusMapper.com.microsoft:message-lock-lost'
       - >-
-        @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:argument-error
+        @azure/amqp-common.ConditionStatusMapper.com.microsoft:partition-not-owned
       - >-
-        @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:publisher-revoked
-      - '@azure/ms-rest-azure-env.ConditionStatusMapper.amqp:unauthorized-access'
+        @azure/amqp-common.ConditionStatusMapper.com.microsoft:session-cannot-be-locked
+      - '@azure/amqp-common.ConditionStatusMapper.com.microsoft:session-lock-lost'
+      - '@azure/amqp-common.ConditionStatusMapper.com.microsoft:store-lock-lost'
       - >-
-        @azure/ms-rest-azure-env.ConditionStatusMapper.amqp:link:message-size-exceeded
-      - >-
-        @azure/ms-rest-azure-env.ConditionStatusMapper.amqp:resource-limit-exceeded
-      - '@azure/ms-rest-azure-env.ConditionStatusMapper.amqp:not-found'
-      - '@azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:timeout'
-      - >-
-        @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:entity-already-exists
-      - '@azure/ms-rest-azure-env.ConditionStatusMapper.amqp:link:stolen'
-      - >-
-        @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:message-lock-lost
-      - >-
-        @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:partition-not-owned
-      - >-
-        @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:session-cannot-be-locked
-      - >-
-        @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:session-lock-lost
-      - >-
-        @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:store-lock-lost
-      - >-
-        @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:no-matching-subscription
-      - '@azure/ms-rest-azure-env.ConditionStatusMapper.amqp:not-implemented'
-      - '@azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:server-busy'
+        @azure/amqp-common.ConditionStatusMapper.com.microsoft:no-matching-subscription
+      - '@azure/amqp-common.ConditionStatusMapper.amqp:not-implemented'
+      - '@azure/amqp-common.ConditionStatusMapper.com.microsoft:server-busy'
     langs:
       - typeScript
     type: enum
     summary: Maps the conditions to the numeric AMQP Response status codes.
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:entity-disabled
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.com.microsoft:entity-disabled'
     name: 'com.microsoft:entity-disabled'
     children: []
     langs:
@@ -51,8 +42,8 @@ items:
     summary: ''
     type: field
     numericValue: 400
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionStatusMapper.amqp:not-allowed'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.amqp:not-allowed'
     name: 'amqp:not-allowed'
     children: []
     langs:
@@ -60,9 +51,9 @@ items:
     summary: ''
     type: field
     numericValue: 400
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:argument-out-of-range
+      @azure/amqp-common.ConditionStatusMapper.com.microsoft:argument-out-of-range
     name: 'com.microsoft:argument-out-of-range'
     children: []
     langs:
@@ -70,9 +61,8 @@ items:
     summary: ''
     type: field
     numericValue: 400
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:argument-error
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.com.microsoft:argument-error'
     name: 'com.microsoft:argument-error'
     children: []
     langs:
@@ -80,9 +70,8 @@ items:
     summary: ''
     type: field
     numericValue: 400
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:publisher-revoked
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.com.microsoft:publisher-revoked'
     name: 'com.microsoft:publisher-revoked'
     children: []
     langs:
@@ -90,8 +79,8 @@ items:
     summary: ''
     type: field
     numericValue: 401
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionStatusMapper.amqp:unauthorized-access'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.amqp:unauthorized-access'
     name: 'amqp:unauthorized-access'
     children: []
     langs:
@@ -99,9 +88,8 @@ items:
     summary: ''
     type: field
     numericValue: 401
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionStatusMapper.amqp:link:message-size-exceeded
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.amqp:link:message-size-exceeded'
     name: 'amqp:link:message-size-exceeded'
     children: []
     langs:
@@ -109,9 +97,8 @@ items:
     summary: ''
     type: field
     numericValue: 403
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionStatusMapper.amqp:resource-limit-exceeded
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.amqp:resource-limit-exceeded'
     name: 'amqp:resource-limit-exceeded'
     children: []
     langs:
@@ -119,8 +106,8 @@ items:
     summary: ''
     type: field
     numericValue: 403
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionStatusMapper.amqp:not-found'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.amqp:not-found'
     name: 'amqp:not-found'
     children: []
     langs:
@@ -128,8 +115,8 @@ items:
     summary: ''
     type: field
     numericValue: 404
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:timeout'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.com.microsoft:timeout'
     name: 'com.microsoft:timeout'
     children: []
     langs:
@@ -137,9 +124,9 @@ items:
     summary: ''
     type: field
     numericValue: 408
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:entity-already-exists
+      @azure/amqp-common.ConditionStatusMapper.com.microsoft:entity-already-exists
     name: 'com.microsoft:entity-already-exists'
     children: []
     langs:
@@ -147,8 +134,8 @@ items:
     summary: ''
     type: field
     numericValue: 409
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionStatusMapper.amqp:link:stolen'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.amqp:link:stolen'
     name: 'amqp:link:stolen'
     children: []
     langs:
@@ -156,9 +143,8 @@ items:
     summary: ''
     type: field
     numericValue: 410
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:message-lock-lost
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.com.microsoft:message-lock-lost'
     name: 'com.microsoft:message-lock-lost'
     children: []
     langs:
@@ -166,9 +152,8 @@ items:
     summary: ''
     type: field
     numericValue: 410
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:partition-not-owned
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.com.microsoft:partition-not-owned'
     name: 'com.microsoft:partition-not-owned'
     children: []
     langs:
@@ -176,9 +161,9 @@ items:
     summary: ''
     type: field
     numericValue: 410
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:session-cannot-be-locked
+      @azure/amqp-common.ConditionStatusMapper.com.microsoft:session-cannot-be-locked
     name: 'com.microsoft:session-cannot-be-locked'
     children: []
     langs:
@@ -186,9 +171,8 @@ items:
     summary: ''
     type: field
     numericValue: 410
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:session-lock-lost
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.com.microsoft:session-lock-lost'
     name: 'com.microsoft:session-lock-lost'
     children: []
     langs:
@@ -196,9 +180,8 @@ items:
     summary: ''
     type: field
     numericValue: 410
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:store-lock-lost
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.com.microsoft:store-lock-lost'
     name: 'com.microsoft:store-lock-lost'
     children: []
     langs:
@@ -206,9 +189,9 @@ items:
     summary: ''
     type: field
     numericValue: 410
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:no-matching-subscription
+      @azure/amqp-common.ConditionStatusMapper.com.microsoft:no-matching-subscription
     name: 'com.microsoft:no-matching-subscription'
     children: []
     langs:
@@ -216,8 +199,8 @@ items:
     summary: ''
     type: field
     numericValue: 500
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionStatusMapper.amqp:not-implemented'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.amqp:not-implemented'
     name: 'amqp:not-implemented'
     children: []
     langs:
@@ -225,8 +208,8 @@ items:
     summary: ''
     type: field
     numericValue: 501
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionStatusMapper.com.microsoft:server-busy'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionStatusMapper.com.microsoft:server-busy'
     name: 'com.microsoft:server-busy'
     children: []
     langs:
@@ -234,4 +217,4 @@ items:
     summary: ''
     type: field
     numericValue: 503
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'

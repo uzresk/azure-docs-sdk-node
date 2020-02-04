@@ -37,57 +37,32 @@ items:
           description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.CognitiveTokenAuthentication.Fetch
-    name: Fetch(string)
+    name: Fetch
+    fullName: Fetch
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function Fetch(authFetchEventId: string)'
-      parameters:
-        - id: authFetchEventId
-          type:
-            - string
-          description: ''
+      content: 'Fetch: (authFetchEventId: string) => Promise<AuthInfo>'
       return:
         type:
-          - >-
-            microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.AuthInfo>
+          - '(authFetchEventId: string) => Promise<AuthInfo>'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.CognitiveTokenAuthentication.FetchOnExpiry
-    name: FetchOnExpiry(string)
+    name: FetchOnExpiry
+    fullName: FetchOnExpiry
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function FetchOnExpiry(authFetchEventId: string)'
-      parameters:
-        - id: authFetchEventId
-          type:
-            - string
-          description: ''
+      content: 'FetchOnExpiry: (authFetchEventId: string) => Promise<AuthInfo>'
       return:
         type:
-          - >-
-            microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.AuthInfo>
+          - '(authFetchEventId: string) => Promise<AuthInfo>'
         description: ''
     package: microsoft-speech-browser-sdk
-references:
-  - uid: >-
-      microsoft-speech-browser-sdk.Promise<microsoft-speech-browser-sdk.AuthInfo>
-    name: AuthInfo>
-    spec.typeScript:
-      - name: Promise
-        fullName: Promise
-        uid: microsoft-speech-browser-sdk.Promise
-      - name: <
-        fullName: <
-      - name: AuthInfo
-        fullName: AuthInfo
-        uid: microsoft-speech-browser-sdk.AuthInfo
-      - name: '>'
-        fullName: '>'

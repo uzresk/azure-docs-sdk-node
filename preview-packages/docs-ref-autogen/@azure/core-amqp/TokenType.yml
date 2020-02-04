@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.TokenType
+  - uid: '@azure/core-amqp.TokenType'
     name: TokenType
     fullName: TokenType
     children:
-      - tslib.TokenType.CbsTokenTypeJwt
-      - tslib.TokenType.CbsTokenTypeSas
+      - '@azure/core-amqp.TokenType.CbsTokenTypeJwt'
+      - '@azure/core-amqp.TokenType.CbsTokenTypeSas'
     langs:
       - typeScript
     type: enum
     summary: Describes the type of supported tokens.
-    package: tslib
-  - uid: tslib.TokenType.CbsTokenTypeJwt
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.TokenType.CbsTokenTypeJwt'
     name: CbsTokenTypeJwt
     children: []
     langs:
@@ -19,8 +19,8 @@ items:
     summary: The "jwt" token type. Used with AADTokenCredential.
     type: field
     numericValue: null
-    package: tslib
-  - uid: tslib.TokenType.CbsTokenTypeSas
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.TokenType.CbsTokenTypeSas'
     name: CbsTokenTypeSas
     children: []
     langs:
@@ -28,4 +28,4 @@ items:
     summary: The sas token type. Used with SharedKeyCredential.
     type: field
     numericValue: null
-    package: tslib
+    package: '@azure/core-amqp'

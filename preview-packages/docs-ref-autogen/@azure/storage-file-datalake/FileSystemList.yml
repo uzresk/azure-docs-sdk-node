@@ -1,16 +1,16 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.FileSystemList'
+  - uid: '@azure/storage-file-datalake.FileSystemList'
     name: FileSystemList
     fullName: FileSystemList
     children:
-      - '@azure/abort-controller.FileSystemList.filesystems'
+      - '@azure/storage-file-datalake.FileSystemList.filesystems'
     langs:
       - typeScript
     type: interface
     summary: An interface representing FileSystemList.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemList.filesystems'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemList.filesystems'
     name: filesystems
     fullName: filesystems
     children: []
@@ -23,15 +23,15 @@ items:
       content: 'filesystems?: FileSystem[]'
       return:
         type:
-          - '@azure/abort-controller.FileSystem[]'
+          - '@azure/storage-file-datalake.FileSystem[]'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.FileSystem[]'
+  - uid: '@azure/storage-file-datalake.FileSystem[]'
     name: 'FileSystem[]'
     spec.typeScript:
       - name: FileSystem
         fullName: FileSystem
-        uid: '@azure/abort-controller.FileSystem'
+        uid: '@azure/storage-file-datalake.FileSystem'
       - name: '[]'
         fullName: '[]'

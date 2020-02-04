@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.FileSystemListPathsResponse'
+  - uid: '@azure/storage-file-datalake.FileSystemListPathsResponse'
     name: FileSystemListPathsResponse
     fullName: FileSystemListPathsResponse
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type FileSystemListPathsResponse = PathList & FileSystemListPathsHeaders
         & { _response: Object }
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

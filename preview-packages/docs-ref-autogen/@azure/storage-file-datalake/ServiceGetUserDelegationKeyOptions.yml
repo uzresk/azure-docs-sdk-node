@@ -1,20 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.ServiceGetUserDelegationKeyOptions'
+  - uid: '@azure/storage-file-datalake.ServiceGetUserDelegationKeyOptions'
     name: ServiceGetUserDelegationKeyOptions
     fullName: ServiceGetUserDelegationKeyOptions
     children:
-      - '@azure/abort-controller.ServiceGetUserDelegationKeyOptions.abortSignal'
       - >-
-        @azure/abort-controller.ServiceGetUserDelegationKeyOptions.tracingOptions
+        @azure/storage-file-datalake.ServiceGetUserDelegationKeyOptions.abortSignal
+      - >-
+        @azure/storage-file-datalake.ServiceGetUserDelegationKeyOptions.tracingOptions
     langs:
       - typeScript
     type: interface
     summary: /
     extends:
-      name: '@azure/abort-controller.CommonOptions'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ServiceGetUserDelegationKeyOptions.abortSignal'
+      name: '@azure/storage-file-datalake.CommonOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: >-
+      @azure/storage-file-datalake.ServiceGetUserDelegationKeyOptions.abortSignal
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -27,10 +29,11 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - '@azure/abort-controller.AbortSignalLike'
+          - AbortSignalLike
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ServiceGetUserDelegationKeyOptions.tracingOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: >-
+      @azure/storage-file-datalake.ServiceGetUserDelegationKeyOptions.tracingOptions
     name: tracingOptions
     fullName: tracingOptions
     children: []
@@ -43,25 +46,19 @@ items:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         type:
-          - '@azure/abort-controller.OperationTracingOptions'
+          - '@azure/storage-file-datalake.OperationTracingOptions'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/storage-file-datalake.CommonOptions'
     name: CommonOptions
     spec.typeScript:
       - name: CommonOptions
         fullName: CommonOptions
-        uid: '@azure/abort-controller.CommonOptions'
-  - uid: '@azure/abort-controller.AbortSignalLike'
-    name: AbortSignalLike
-    spec.typeScript:
-      - name: AbortSignalLike
-        fullName: AbortSignalLike
-        uid: '@azure/abort-controller.AbortSignalLike'
-  - uid: '@azure/abort-controller.OperationTracingOptions'
+        uid: '@azure/storage-file-datalake.CommonOptions'
+  - uid: '@azure/storage-file-datalake.OperationTracingOptions'
     name: OperationTracingOptions
     spec.typeScript:
       - name: OperationTracingOptions
         fullName: OperationTracingOptions
-        uid: '@azure/abort-controller.OperationTracingOptions'
+        uid: '@azure/storage-file-datalake.OperationTracingOptions'

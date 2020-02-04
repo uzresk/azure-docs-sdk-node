@@ -1,22 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.DataLakeRequestConditions'
+  - uid: '@azure/storage-file-datalake.DataLakeRequestConditions'
     name: DataLakeRequestConditions
     fullName: DataLakeRequestConditions
     children:
-      - '@azure/abort-controller.DataLakeRequestConditions.ifMatch'
-      - '@azure/abort-controller.DataLakeRequestConditions.ifModifiedSince'
-      - '@azure/abort-controller.DataLakeRequestConditions.ifNoneMatch'
-      - '@azure/abort-controller.DataLakeRequestConditions.ifUnmodifiedSince'
-      - '@azure/abort-controller.DataLakeRequestConditions.leaseId'
+      - '@azure/storage-file-datalake.DataLakeRequestConditions.ifMatch'
+      - '@azure/storage-file-datalake.DataLakeRequestConditions.ifModifiedSince'
+      - '@azure/storage-file-datalake.DataLakeRequestConditions.ifNoneMatch'
+      - '@azure/storage-file-datalake.DataLakeRequestConditions.ifUnmodifiedSince'
+      - '@azure/storage-file-datalake.DataLakeRequestConditions.leaseId'
     langs:
       - typeScript
     type: interface
     summary: ''
     extends:
-      name: '@azure/abort-controller.ModifiedAccessConditions'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeRequestConditions.ifMatch'
+      name: ModifiedAccessConditions
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeRequestConditions.ifMatch'
     name: ifMatch
     fullName: ifMatch
     children: []
@@ -31,8 +31,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeRequestConditions.ifModifiedSince'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeRequestConditions.ifModifiedSince'
     name: ifModifiedSince
     fullName: ifModifiedSince
     children: []
@@ -49,10 +49,10 @@ items:
       content: 'ifModifiedSince?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeRequestConditions.ifNoneMatch'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeRequestConditions.ifNoneMatch'
     name: ifNoneMatch
     fullName: ifNoneMatch
     children: []
@@ -67,8 +67,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeRequestConditions.ifUnmodifiedSince'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeRequestConditions.ifUnmodifiedSince'
     name: ifUnmodifiedSince
     fullName: ifUnmodifiedSince
     children: []
@@ -85,10 +85,10 @@ items:
       content: 'ifUnmodifiedSince?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeRequestConditions.leaseId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeRequestConditions.leaseId'
     name: leaseId
     fullName: leaseId
     children: []
@@ -107,17 +107,4 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-references:
-  - uid: '@azure/abort-controller.ModifiedAccessConditions'
-    name: ModifiedAccessConditions
-    spec.typeScript:
-      - name: ModifiedAccessConditions
-        fullName: ModifiedAccessConditions
-        uid: '@azure/abort-controller.ModifiedAccessConditions'
-  - uid: '@azure/abort-controller.NodeJS.Global.Date'
-    name: Date
-    spec.typeScript:
-      - name: Date
-        fullName: Date
-        uid: '@azure/abort-controller.NodeJS.Global.Date'
+    package: '@azure/storage-file-datalake'

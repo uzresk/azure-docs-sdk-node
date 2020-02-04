@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.TokenInfo'
+  - uid: '@azure/amqp-common.TokenInfo'
     name: TokenInfo
     fullName: TokenInfo
     children:
-      - '@azure/ms-rest-azure-env.TokenInfo.expiry'
-      - '@azure/ms-rest-azure-env.TokenInfo.token'
-      - '@azure/ms-rest-azure-env.TokenInfo.tokenType'
+      - '@azure/amqp-common.TokenInfo.expiry'
+      - '@azure/amqp-common.TokenInfo.token'
+      - '@azure/amqp-common.TokenInfo.tokenType'
     langs:
       - typeScript
     type: interface
     summary: Provides information about the token.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.TokenInfo.expiry'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.TokenInfo.expiry'
     name: expiry
     fullName: expiry
     children: []
@@ -26,8 +26,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.TokenInfo.token'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.TokenInfo.token'
     name: token
     fullName: token
     children: []
@@ -41,8 +41,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.TokenInfo.tokenType'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.TokenInfo.tokenType'
     name: tokenType
     fullName: tokenType
     children: []
@@ -56,13 +56,13 @@ items:
       content: 'tokenType: TokenType'
       return:
         type:
-          - '@azure/ms-rest-azure-env.TokenType'
+          - '@azure/amqp-common.TokenType'
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
 references:
-  - uid: '@azure/ms-rest-azure-env.TokenType'
+  - uid: '@azure/amqp-common.TokenType'
     name: TokenType
     spec.typeScript:
       - name: TokenType
         fullName: TokenType
-        uid: '@azure/ms-rest-azure-env.TokenType'
+        uid: '@azure/amqp-common.TokenType'

@@ -1,13 +1,13 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.Pipeline'
+  - uid: '@azure/storage-file-datalake.Pipeline'
     name: Pipeline
     fullName: Pipeline
     children:
-      - '@azure/abort-controller.Pipeline.factories'
-      - '@azure/abort-controller.Pipeline.options'
-      - '@azure/abort-controller.Pipeline.constructor'
-      - '@azure/abort-controller.Pipeline.toServiceClientOptions'
+      - '@azure/storage-file-datalake.Pipeline.factories'
+      - '@azure/storage-file-datalake.Pipeline.options'
+      - '@azure/storage-file-datalake.Pipeline.constructor'
+      - '@azure/storage-file-datalake.Pipeline.toServiceClientOptions'
     langs:
       - typeScript
     type: class
@@ -23,9 +23,9 @@ items:
 
       customized Pipeline.
     extends:
-      name: '@azure/abort-controller.Pipeline'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Pipeline.factories'
+      name: Pipeline
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Pipeline.factories'
     name: factories
     fullName: factories
     children: []
@@ -37,10 +37,10 @@ items:
       content: 'factories: RequestPolicyFactory[]'
       return:
         type:
-          - '@azure/abort-controller.RequestPolicyFactory[]'
+          - 'RequestPolicyFactory[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Pipeline.options'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Pipeline.options'
     name: options
     fullName: options
     children: []
@@ -52,10 +52,10 @@ items:
       content: 'options: PipelineOptions'
       return:
         type:
-          - '@azure/abort-controller.PipelineOptions'
+          - '@azure/storage-file-datalake.PipelineOptions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Pipeline.constructor'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Pipeline.constructor'
     name: 'Pipeline(RequestPolicyFactory[], PipelineOptions)'
     children: []
     type: constructor
@@ -71,15 +71,15 @@ items:
       parameters:
         - id: factories
           type:
-            - '@azure/abort-controller.RequestPolicyFactory[]'
+            - 'RequestPolicyFactory[]'
           description: ''
         - id: options
           type:
-            - '@azure/abort-controller.PipelineOptions'
+            - '@azure/storage-file-datalake.PipelineOptions'
           description: ''
           optional: true
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Pipeline.toServiceClientOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Pipeline.toServiceClientOptions'
     name: toServiceClientOptions()
     children: []
     type: method
@@ -95,33 +95,13 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/abort-controller.ServiceClientOptions'
+          - ServiceClientOptions
         description: The ServiceClientOptions object from this Pipeline.
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.Pipeline'
-    name: Pipeline
-    spec.typeScript:
-      - name: Pipeline
-        fullName: Pipeline
-        uid: '@azure/abort-controller.Pipeline'
-  - uid: '@azure/abort-controller.RequestPolicyFactory[]'
-    name: 'RequestPolicyFactory[]'
-    spec.typeScript:
-      - name: RequestPolicyFactory
-        fullName: RequestPolicyFactory
-        uid: '@azure/abort-controller.RequestPolicyFactory'
-      - name: '[]'
-        fullName: '[]'
-  - uid: '@azure/abort-controller.PipelineOptions'
+  - uid: '@azure/storage-file-datalake.PipelineOptions'
     name: PipelineOptions
     spec.typeScript:
       - name: PipelineOptions
         fullName: PipelineOptions
-        uid: '@azure/abort-controller.PipelineOptions'
-  - uid: '@azure/abort-controller.ServiceClientOptions'
-    name: ServiceClientOptions
-    spec.typeScript:
-      - name: ServiceClientOptions
-        fullName: ServiceClientOptions
-        uid: '@azure/abort-controller.ServiceClientOptions'
+        uid: '@azure/storage-file-datalake.PipelineOptions'

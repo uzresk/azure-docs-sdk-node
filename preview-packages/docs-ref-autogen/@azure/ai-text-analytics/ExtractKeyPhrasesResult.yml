@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResult'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
     name: ExtractKeyPhrasesResult
     fullName: ExtractKeyPhrasesResult
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type ExtractKeyPhrasesResult = ExtractKeyPhrasesSuccessResult |
         ExtractKeyPhrasesErrorResult
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'

@@ -13,53 +13,51 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.PromiseResultEventSource.On
-    name: 'On((result: T) => void, (error: string) => void)'
+    name: 'On'
+    fullName: 'On'
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
       content: >-
-        function On(onSetResult: (result: T) => void, onSetError: (error:
-        string) => void)
-      parameters:
-        - id: onSetResult
-          type:
-            - '(result: T) => void'
-          description: ''
-        - id: onSetError
-          type:
-            - '(error: string) => void'
-          description: ''
+        On: (onSetResult: (result: T) => void, onSetError: (error: string) =>
+        void) => void
+      return:
+        type:
+          - >-
+            (onSetResult: (result: T) => void, onSetError: (error: string) =>
+            void) => void
+        description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.PromiseResultEventSource.SetError
-    name: SetError(string)
+    name: SetError
+    fullName: SetError
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function SetError(error: string)'
-      parameters:
-        - id: error
-          type:
-            - string
-          description: ''
+      content: 'SetError: (error: string) => void'
+      return:
+        type:
+          - '(error: string) => void'
+        description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.PromiseResultEventSource.SetResult
-    name: SetResult(T)
+    name: SetResult
+    fullName: SetResult
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function SetResult(result: T)'
-      parameters:
-        - id: result
-          type:
-            - T
-          description: ''
+      content: 'SetResult: (result: T) => void'
+      return:
+        type:
+          - '(result: T) => void'
+        description: ''
     package: microsoft-speech-browser-sdk

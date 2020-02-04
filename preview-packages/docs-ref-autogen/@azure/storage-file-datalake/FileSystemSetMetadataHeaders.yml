@@ -1,21 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.FileSystemSetMetadataHeaders'
+  - uid: '@azure/storage-file-datalake.FileSystemSetMetadataHeaders'
     name: FileSystemSetMetadataHeaders
     fullName: FileSystemSetMetadataHeaders
     children:
-      - '@azure/abort-controller.FileSystemSetMetadataHeaders.clientRequestId'
-      - '@azure/abort-controller.FileSystemSetMetadataHeaders.date'
-      - '@azure/abort-controller.FileSystemSetMetadataHeaders.etag'
-      - '@azure/abort-controller.FileSystemSetMetadataHeaders.lastModified'
-      - '@azure/abort-controller.FileSystemSetMetadataHeaders.requestId'
-      - '@azure/abort-controller.FileSystemSetMetadataHeaders.version'
+      - >-
+        @azure/storage-file-datalake.FileSystemSetMetadataHeaders.clientRequestId
+      - '@azure/storage-file-datalake.FileSystemSetMetadataHeaders.date'
+      - '@azure/storage-file-datalake.FileSystemSetMetadataHeaders.etag'
+      - '@azure/storage-file-datalake.FileSystemSetMetadataHeaders.lastModified'
+      - '@azure/storage-file-datalake.FileSystemSetMetadataHeaders.requestId'
+      - '@azure/storage-file-datalake.FileSystemSetMetadataHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemSetMetadataHeaders.clientRequestId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemSetMetadataHeaders.clientRequestId'
     name: clientRequestId
     fullName: clientRequestId
     children: []
@@ -30,8 +31,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemSetMetadataHeaders.date'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemSetMetadataHeaders.date'
     name: date
     fullName: date
     children: []
@@ -44,10 +45,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemSetMetadataHeaders.etag'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemSetMetadataHeaders.etag'
     name: etag
     fullName: etag
     children: []
@@ -62,8 +63,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemSetMetadataHeaders.lastModified'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemSetMetadataHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -76,10 +77,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemSetMetadataHeaders.requestId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemSetMetadataHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -94,8 +95,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemSetMetadataHeaders.version'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemSetMetadataHeaders.version'
     name: version
     fullName: version
     children: []
@@ -110,11 +111,4 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-references:
-  - uid: '@azure/abort-controller.NodeJS.Global.Date'
-    name: Date
-    spec.typeScript:
-      - name: Date
-        fullName: Date
-        uid: '@azure/abort-controller.NodeJS.Global.Date'
+    package: '@azure/storage-file-datalake'

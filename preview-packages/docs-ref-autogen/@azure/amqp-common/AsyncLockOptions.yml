@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.AsyncLockOptions'
+  - uid: '@azure/amqp-common.AsyncLockOptions'
     name: AsyncLockOptions
     fullName: AsyncLockOptions
     children:
-      - '@azure/ms-rest-azure-env.AsyncLockOptions.domainReentrant'
-      - '@azure/ms-rest-azure-env.AsyncLockOptions.maxPending'
-      - '@azure/ms-rest-azure-env.AsyncLockOptions.Promise'
-      - '@azure/ms-rest-azure-env.AsyncLockOptions.timeout'
+      - '@azure/amqp-common.AsyncLockOptions.domainReentrant'
+      - '@azure/amqp-common.AsyncLockOptions.maxPending'
+      - '@azure/amqp-common.AsyncLockOptions.Promise'
+      - '@azure/amqp-common.AsyncLockOptions.timeout'
     langs:
       - typeScript
     type: interface
     summary: Describes the options that can be provided to create an async lock.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.AsyncLockOptions.domainReentrant'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.AsyncLockOptions.domainReentrant'
     name: domainReentrant
     fullName: domainReentrant
     children: []
@@ -30,8 +30,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.AsyncLockOptions.maxPending'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.AsyncLockOptions.maxPending'
     name: maxPending
     fullName: maxPending
     children: []
@@ -46,8 +46,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.AsyncLockOptions.Promise'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.AsyncLockOptions.Promise'
     name: Promise
     fullName: Promise
     children: []
@@ -64,8 +64,8 @@ items:
         type:
           - any
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.AsyncLockOptions.timeout'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.AsyncLockOptions.timeout'
     name: timeout
     fullName: timeout
     children: []
@@ -80,4 +80,4 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'

@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.EventHubConnectionStringModel
+  - uid: '@azure/core-amqp.EventHubConnectionStringModel'
     name: EventHubConnectionStringModel
     fullName: EventHubConnectionStringModel
     children:
-      - tslib.EventHubConnectionStringModel.Endpoint
-      - tslib.EventHubConnectionStringModel.EntityPath
-      - tslib.EventHubConnectionStringModel.SharedAccessKey
-      - tslib.EventHubConnectionStringModel.SharedAccessKeyName
+      - '@azure/core-amqp.EventHubConnectionStringModel.Endpoint'
+      - '@azure/core-amqp.EventHubConnectionStringModel.EntityPath'
+      - '@azure/core-amqp.EventHubConnectionStringModel.SharedAccessKey'
+      - '@azure/core-amqp.EventHubConnectionStringModel.SharedAccessKeyName'
     langs:
       - typeScript
     type: interface
     summary: Describes the eventhub connection string model.
-    package: tslib
-  - uid: tslib.EventHubConnectionStringModel.Endpoint
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionStringModel.Endpoint'
     name: Endpoint
     fullName: Endpoint
     children: []
@@ -27,8 +27,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionStringModel.EntityPath
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionStringModel.EntityPath'
     name: EntityPath
     fullName: EntityPath
     children: []
@@ -43,8 +43,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionStringModel.SharedAccessKey
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionStringModel.SharedAccessKey'
     name: SharedAccessKey
     fullName: SharedAccessKey
     children: []
@@ -58,8 +58,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionStringModel.SharedAccessKeyName
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionStringModel.SharedAccessKeyName'
     name: SharedAccessKeyName
     fullName: SharedAccessKeyName
     children: []
@@ -73,4 +73,4 @@ items:
         type:
           - string
         description: ''
-    package: tslib
+    package: '@azure/core-amqp'

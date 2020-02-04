@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PathUpdateResponse'
+  - uid: '@azure/storage-file-datalake.PathUpdateResponse'
     name: PathUpdateResponse
     fullName: PathUpdateResponse
     children: []
@@ -10,4 +10,4 @@ items:
     summary: Contains response data for the update operation.
     syntax:
       content: 'type PathUpdateResponse = PathUpdateHeaders & { _response: Object }'
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

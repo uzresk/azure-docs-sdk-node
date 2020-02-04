@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.DataLakeServiceClient'
+  - uid: '@azure/storage-file-datalake.DataLakeServiceClient'
     name: DataLakeServiceClient
     fullName: DataLakeServiceClient
     children:
-      - '@azure/abort-controller.DataLakeServiceClient.accountName'
-      - '@azure/abort-controller.DataLakeServiceClient.credential'
-      - '@azure/abort-controller.DataLakeServiceClient.constructor_1'
-      - '@azure/abort-controller.DataLakeServiceClient.constructor'
-      - '@azure/abort-controller.DataLakeServiceClient.getFileSystemClient'
-      - '@azure/abort-controller.DataLakeServiceClient.getUserDelegationKey'
-      - '@azure/abort-controller.DataLakeServiceClient.listFileSystems'
-      - '@azure/abort-controller.DataLakeServiceClient.url'
+      - '@azure/storage-file-datalake.DataLakeServiceClient.accountName'
+      - '@azure/storage-file-datalake.DataLakeServiceClient.credential'
+      - '@azure/storage-file-datalake.DataLakeServiceClient.constructor_1'
+      - '@azure/storage-file-datalake.DataLakeServiceClient.constructor'
+      - '@azure/storage-file-datalake.DataLakeServiceClient.getFileSystemClient'
+      - '@azure/storage-file-datalake.DataLakeServiceClient.getUserDelegationKey'
+      - '@azure/storage-file-datalake.DataLakeServiceClient.listFileSystems'
+      - '@azure/storage-file-datalake.DataLakeServiceClient.url'
     langs:
       - typeScript
     type: class
@@ -20,9 +20,9 @@ items:
       Data Lake service resources and file systems. The storage account provides
       the top-level namespace for the Data Lake service.
     extends:
-      name: '@azure/abort-controller.StorageClient'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeServiceClient.accountName'
+      name: '@azure/storage-file-datalake.StorageClient'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeServiceClient.accountName'
     name: accountName
     fullName: accountName
     children: []
@@ -36,8 +36,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeServiceClient.credential'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeServiceClient.credential'
     name: credential
     fullName: credential
     children: []
@@ -56,12 +56,11 @@ items:
       return:
         type:
           - >-
-            @azure/abort-controller.StorageSharedKeyCredential |
-            @azure/abort-controller.AnonymousCredential |
-            @azure/abort-controller.TokenCredential
+            @azure/storage-file-datalake.StorageSharedKeyCredential |
+            @azure/storage-file-datalake.AnonymousCredential | TokenCredential
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeServiceClient.constructor_1'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeServiceClient.constructor_1'
     name: 'DataLakeServiceClient(string, Pipeline)'
     children: []
     type: constructor
@@ -80,12 +79,12 @@ items:
                                 if using AnonymousCredential, such as "https://myaccount.dfs.core.windows.net?sasString".
         - id: pipeline
           type:
-            - '@azure/abort-controller.Pipeline'
+            - '@azure/storage-file-datalake.Pipeline'
           description: |-
             Call newPipeline() to create a default
                                        pipeline, or provide a customized pipeline.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeServiceClient.constructor'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeServiceClient.constructor'
     name: >-
       DataLakeServiceClient(string, StorageSharedKeyCredential |
       AnonymousCredential | TokenCredential, StoragePipelineOptions)
@@ -110,18 +109,17 @@ items:
         - id: credential
           type:
             - >-
-              @azure/abort-controller.StorageSharedKeyCredential |
-              @azure/abort-controller.AnonymousCredential |
-              @azure/abort-controller.TokenCredential
+              @azure/storage-file-datalake.StorageSharedKeyCredential |
+              @azure/storage-file-datalake.AnonymousCredential | TokenCredential
           description: ''
           optional: true
         - id: options
           type:
-            - '@azure/abort-controller.StoragePipelineOptions'
+            - '@azure/storage-file-datalake.StoragePipelineOptions'
           description: ''
           optional: true
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeServiceClient.getFileSystemClient'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeServiceClient.getFileSystemClient'
     name: getFileSystemClient(string)
     children: []
     type: method
@@ -137,10 +135,10 @@ items:
           description: File system name.
       return:
         type:
-          - '@azure/abort-controller.DataLakeFileSystemClient'
+          - '@azure/storage-file-datalake.DataLakeFileSystemClient'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeServiceClient.getUserDelegationKey'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeServiceClient.getUserDelegationKey'
     name: 'getUserDelegationKey(Date, Date, ServiceGetUserDelegationKeyOptions)'
     children: []
     type: method
@@ -172,15 +170,16 @@ items:
             the current time.
         - id: options
           type:
-            - '@azure/abort-controller.ServiceGetUserDelegationKeyOptions'
+            - '@azure/storage-file-datalake.ServiceGetUserDelegationKeyOptions'
           description: ''
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.ServiceGetUserDelegationKeyResponse>
+          - >-
+            Promise<@azure/storage-file-datalake.ServiceGetUserDelegationKeyResponse>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeServiceClient.listFileSystems'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeServiceClient.listFileSystems'
     name: listFileSystems(ServiceListFileSystemsOptions)
     children: []
     type: method
@@ -296,17 +295,17 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/abort-controller.ServiceListFileSystemsOptions'
+            - '@azure/storage-file-datalake.ServiceListFileSystemsOptions'
           description: ''
           optional: true
       return:
         type:
           - >-
-            @azure/abort-controller.PagedAsyncIterableIterator<@azure/abort-controller.FileSystemItem,
-            @azure/abort-controller.ServiceListFileSystemsSegmentResponse>
+            PagedAsyncIterableIterator<@azure/storage-file-datalake.FileSystemItem,
+            @azure/storage-file-datalake.ServiceListFileSystemsSegmentResponse>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeServiceClient.url'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeServiceClient.url'
     name: url
     fullName: url
     children: []
@@ -320,90 +319,83 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.StorageClient'
+  - uid: '@azure/storage-file-datalake.StorageClient'
     name: StorageClient
     spec.typeScript:
       - name: StorageClient
         fullName: StorageClient
-        uid: '@azure/abort-controller.StorageClient'
+        uid: '@azure/storage-file-datalake.StorageClient'
   - uid: >-
-      @azure/abort-controller.StorageSharedKeyCredential |
-      @azure/abort-controller.AnonymousCredential |
-      @azure/abort-controller.TokenCredential
-    name: TokenCredential
+      @azure/storage-file-datalake.StorageSharedKeyCredential |
+      @azure/storage-file-datalake.AnonymousCredential | TokenCredential
+    name: AnonymousCredential | TokenCredential
     spec.typeScript:
       - name: StorageSharedKeyCredential
         fullName: StorageSharedKeyCredential
-        uid: '@azure/abort-controller.StorageSharedKeyCredential'
+        uid: '@azure/storage-file-datalake.StorageSharedKeyCredential'
       - name: ' | '
         fullName: ' | '
       - name: AnonymousCredential
         fullName: AnonymousCredential
-        uid: '@azure/abort-controller.AnonymousCredential'
-      - name: ' | '
-        fullName: ' | '
-      - name: TokenCredential
-        fullName: TokenCredential
-        uid: '@azure/abort-controller.TokenCredential'
-  - uid: '@azure/abort-controller.StoragePipelineOptions'
+        uid: '@azure/storage-file-datalake.AnonymousCredential'
+      - name: ' | TokenCredential'
+        fullName: ' | TokenCredential'
+  - uid: '@azure/storage-file-datalake.StoragePipelineOptions'
     name: StoragePipelineOptions
     spec.typeScript:
       - name: StoragePipelineOptions
         fullName: StoragePipelineOptions
-        uid: '@azure/abort-controller.StoragePipelineOptions'
-  - uid: '@azure/abort-controller.Pipeline'
+        uid: '@azure/storage-file-datalake.StoragePipelineOptions'
+  - uid: '@azure/storage-file-datalake.Pipeline'
     name: Pipeline
     spec.typeScript:
       - name: Pipeline
         fullName: Pipeline
-        uid: '@azure/abort-controller.Pipeline'
-  - uid: '@azure/abort-controller.DataLakeFileSystemClient'
+        uid: '@azure/storage-file-datalake.Pipeline'
+  - uid: '@azure/storage-file-datalake.DataLakeFileSystemClient'
     name: DataLakeFileSystemClient
     spec.typeScript:
       - name: DataLakeFileSystemClient
         fullName: DataLakeFileSystemClient
-        uid: '@azure/abort-controller.DataLakeFileSystemClient'
-  - uid: '@azure/abort-controller.ServiceGetUserDelegationKeyOptions'
+        uid: '@azure/storage-file-datalake.DataLakeFileSystemClient'
+  - uid: '@azure/storage-file-datalake.ServiceGetUserDelegationKeyOptions'
     name: ServiceGetUserDelegationKeyOptions
     spec.typeScript:
       - name: ServiceGetUserDelegationKeyOptions
         fullName: ServiceGetUserDelegationKeyOptions
-        uid: '@azure/abort-controller.ServiceGetUserDelegationKeyOptions'
-  - uid: Promise<@azure/abort-controller.ServiceGetUserDelegationKeyResponse>
+        uid: '@azure/storage-file-datalake.ServiceGetUserDelegationKeyOptions'
+  - uid: Promise<@azure/storage-file-datalake.ServiceGetUserDelegationKeyResponse>
     name: ServiceGetUserDelegationKeyResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: ServiceGetUserDelegationKeyResponse
         fullName: ServiceGetUserDelegationKeyResponse
-        uid: '@azure/abort-controller.ServiceGetUserDelegationKeyResponse'
+        uid: '@azure/storage-file-datalake.ServiceGetUserDelegationKeyResponse'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.ServiceListFileSystemsOptions'
+  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions'
     name: ServiceListFileSystemsOptions
     spec.typeScript:
       - name: ServiceListFileSystemsOptions
         fullName: ServiceListFileSystemsOptions
-        uid: '@azure/abort-controller.ServiceListFileSystemsOptions'
+        uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions'
   - uid: >-
-      @azure/abort-controller.PagedAsyncIterableIterator<@azure/abort-controller.FileSystemItem,
-      @azure/abort-controller.ServiceListFileSystemsSegmentResponse>
+      PagedAsyncIterableIterator<@azure/storage-file-datalake.FileSystemItem,
+      @azure/storage-file-datalake.ServiceListFileSystemsSegmentResponse>
     name: ServiceListFileSystemsSegmentResponse>
     spec.typeScript:
-      - name: PagedAsyncIterableIterator
-        fullName: PagedAsyncIterableIterator
-        uid: '@azure/abort-controller.PagedAsyncIterableIterator'
-      - name: <
-        fullName: <
+      - name: PagedAsyncIterableIterator<
+        fullName: PagedAsyncIterableIterator<
       - name: FileSystemItem
         fullName: FileSystemItem
-        uid: '@azure/abort-controller.FileSystemItem'
+        uid: '@azure/storage-file-datalake.FileSystemItem'
       - name: ', '
         fullName: ', '
       - name: ServiceListFileSystemsSegmentResponse
         fullName: ServiceListFileSystemsSegmentResponse
-        uid: '@azure/abort-controller.ServiceListFileSystemsSegmentResponse'
+        uid: '@azure/storage-file-datalake.ServiceListFileSystemsSegmentResponse'
       - name: '>'
         fullName: '>'

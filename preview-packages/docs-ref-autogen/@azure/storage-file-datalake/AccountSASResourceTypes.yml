@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.AccountSASResourceTypes'
+  - uid: '@azure/storage-file-datalake.AccountSASResourceTypes'
     name: AccountSASResourceTypes
     fullName: AccountSASResourceTypes
     children:
-      - '@azure/abort-controller.AccountSASResourceTypes.container'
-      - '@azure/abort-controller.AccountSASResourceTypes.object'
-      - '@azure/abort-controller.AccountSASResourceTypes.parse'
-      - '@azure/abort-controller.AccountSASResourceTypes.service'
-      - '@azure/abort-controller.AccountSASResourceTypes.toString'
+      - '@azure/storage-file-datalake.AccountSASResourceTypes.container'
+      - '@azure/storage-file-datalake.AccountSASResourceTypes.object'
+      - '@azure/storage-file-datalake.AccountSASResourceTypes.parse'
+      - '@azure/storage-file-datalake.AccountSASResourceTypes.service'
+      - '@azure/storage-file-datalake.AccountSASResourceTypes.toString'
     langs:
       - typeScript
     type: class
@@ -29,8 +29,8 @@ items:
 
       the order of the resources is particular and this class guarantees
       correctness.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASResourceTypes.container'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASResourceTypes.container'
     name: container
     fullName: container
     children: []
@@ -46,8 +46,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASResourceTypes.object'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASResourceTypes.object'
     name: object
     fullName: object
     children: []
@@ -63,8 +63,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASResourceTypes.parse'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASResourceTypes.parse'
     name: parse(string)
     children: []
     type: method
@@ -85,10 +85,10 @@ items:
           description: ''
       return:
         type:
-          - '@azure/abort-controller.AccountSASResourceTypes'
+          - '@azure/storage-file-datalake.AccountSASResourceTypes'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASResourceTypes.service'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASResourceTypes.service'
     name: service
     fullName: service
     children: []
@@ -102,8 +102,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.AccountSASResourceTypes.toString'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.AccountSASResourceTypes.toString'
     name: toString()
     children: []
     type: method
@@ -117,11 +117,11 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.AccountSASResourceTypes'
+  - uid: '@azure/storage-file-datalake.AccountSASResourceTypes'
     name: AccountSASResourceTypes
     spec.typeScript:
       - name: AccountSASResourceTypes
         fullName: AccountSASResourceTypes
-        uid: '@azure/abort-controller.AccountSASResourceTypes'
+        uid: '@azure/storage-file-datalake.AccountSASResourceTypes'

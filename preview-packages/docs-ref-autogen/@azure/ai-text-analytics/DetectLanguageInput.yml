@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.DetectLanguageInput'
+  - uid: '@azure/ai-text-analytics.DetectLanguageInput'
     name: DetectLanguageInput
     fullName: DetectLanguageInput
     children:
-      - '@azure/abort-controller.DetectLanguageInput.countryHint'
-      - '@azure/abort-controller.DetectLanguageInput.id'
-      - '@azure/abort-controller.DetectLanguageInput.text'
+      - '@azure/ai-text-analytics.DetectLanguageInput.countryHint'
+      - '@azure/ai-text-analytics.DetectLanguageInput.id'
+      - '@azure/ai-text-analytics.DetectLanguageInput.text'
     langs:
       - typeScript
     type: interface
     summary: An interface representing LanguageInput.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageInput.countryHint'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageInput.countryHint'
     name: countryHint
     fullName: countryHint
     children: []
@@ -27,8 +27,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageInput.id'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageInput.id'
     name: id
     fullName: id
     children: []
@@ -42,8 +42,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageInput.text'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageInput.text'
     name: text
     fullName: text
     children: []
@@ -57,4 +57,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'

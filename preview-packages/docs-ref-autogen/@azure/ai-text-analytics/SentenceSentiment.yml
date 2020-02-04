@@ -1,20 +1,20 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.SentenceSentiment'
+  - uid: '@azure/ai-text-analytics.SentenceSentiment'
     name: SentenceSentiment
     fullName: SentenceSentiment
     children:
-      - '@azure/abort-controller.SentenceSentiment.length'
-      - '@azure/abort-controller.SentenceSentiment.offset'
-      - '@azure/abort-controller.SentenceSentiment.sentenceScores'
-      - '@azure/abort-controller.SentenceSentiment.sentiment'
-      - '@azure/abort-controller.SentenceSentiment.warnings'
+      - '@azure/ai-text-analytics.SentenceSentiment.length'
+      - '@azure/ai-text-analytics.SentenceSentiment.offset'
+      - '@azure/ai-text-analytics.SentenceSentiment.sentenceScores'
+      - '@azure/ai-text-analytics.SentenceSentiment.sentiment'
+      - '@azure/ai-text-analytics.SentenceSentiment.warnings'
     langs:
       - typeScript
     type: interface
     summary: An interface representing SentenceSentiment.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SentenceSentiment.length'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.SentenceSentiment.length'
     name: length
     fullName: length
     children: []
@@ -28,8 +28,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SentenceSentiment.offset'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.SentenceSentiment.offset'
     name: offset
     fullName: offset
     children: []
@@ -43,8 +43,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SentenceSentiment.sentenceScores'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.SentenceSentiment.sentenceScores'
     name: sentenceScores
     fullName: sentenceScores
     children: []
@@ -58,10 +58,10 @@ items:
       content: 'sentenceScores: SentimentConfidenceScorePerLabel'
       return:
         type:
-          - '@azure/abort-controller.SentimentConfidenceScorePerLabel'
+          - '@azure/ai-text-analytics.SentimentConfidenceScorePerLabel'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SentenceSentiment.sentiment'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.SentenceSentiment.sentiment'
     name: sentiment
     fullName: sentiment
     children: []
@@ -77,10 +77,10 @@ items:
       content: 'sentiment: SentenceSentimentValue'
       return:
         type:
-          - '@azure/abort-controller.SentenceSentimentValue'
+          - '@azure/ai-text-analytics.SentenceSentimentValue'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SentenceSentiment.warnings'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.SentenceSentiment.warnings'
     name: warnings
     fullName: warnings
     children: []
@@ -95,17 +95,17 @@ items:
         type:
           - 'string[]'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'
 references:
-  - uid: '@azure/abort-controller.SentimentConfidenceScorePerLabel'
+  - uid: '@azure/ai-text-analytics.SentimentConfidenceScorePerLabel'
     name: SentimentConfidenceScorePerLabel
     spec.typeScript:
       - name: SentimentConfidenceScorePerLabel
         fullName: SentimentConfidenceScorePerLabel
-        uid: '@azure/abort-controller.SentimentConfidenceScorePerLabel'
-  - uid: '@azure/abort-controller.SentenceSentimentValue'
+        uid: '@azure/ai-text-analytics.SentimentConfidenceScorePerLabel'
+  - uid: '@azure/ai-text-analytics.SentenceSentimentValue'
     name: SentenceSentimentValue
     spec.typeScript:
       - name: SentenceSentimentValue
         fullName: SentenceSentimentValue
-        uid: '@azure/abort-controller.SentenceSentimentValue'
+        uid: '@azure/ai-text-analytics.SentenceSentimentValue'

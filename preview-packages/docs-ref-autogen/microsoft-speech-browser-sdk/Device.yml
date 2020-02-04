@@ -45,7 +45,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string Manufacturer
+      content: 'Manufacturer: string'
       return:
         type:
           - string
@@ -60,7 +60,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string Model
+      content: 'Model: string'
       return:
         type:
           - string
@@ -75,7 +75,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string Version
+      content: 'Version: string'
       return:
         type:
           - string

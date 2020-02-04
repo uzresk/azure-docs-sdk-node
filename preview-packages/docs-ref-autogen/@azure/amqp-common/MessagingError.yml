@@ -1,26 +1,26 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.MessagingError'
+  - uid: '@azure/amqp-common.MessagingError'
     name: MessagingError
     fullName: MessagingError
     children:
-      - '@azure/ms-rest-azure-env.MessagingError.condition'
-      - '@azure/ms-rest-azure-env.MessagingError.Error'
-      - '@azure/ms-rest-azure-env.MessagingError.info'
-      - '@azure/ms-rest-azure-env.MessagingError.message'
-      - '@azure/ms-rest-azure-env.MessagingError.constructor'
-      - '@azure/ms-rest-azure-env.MessagingError.name'
-      - '@azure/ms-rest-azure-env.MessagingError.retryable'
-      - '@azure/ms-rest-azure-env.MessagingError.stack'
-      - '@azure/ms-rest-azure-env.MessagingError.translated'
+      - '@azure/amqp-common.MessagingError.condition'
+      - '@azure/amqp-common.MessagingError.Error'
+      - '@azure/amqp-common.MessagingError.info'
+      - '@azure/amqp-common.MessagingError.message'
+      - '@azure/amqp-common.MessagingError.constructor'
+      - '@azure/amqp-common.MessagingError.name'
+      - '@azure/amqp-common.MessagingError.retryable'
+      - '@azure/amqp-common.MessagingError.stack'
+      - '@azure/amqp-common.MessagingError.translated'
     langs:
       - typeScript
     type: class
     summary: Describes the base class for Messaging Error.
     extends:
       name: Error
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessagingError.condition'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessagingError.condition'
     name: condition
     fullName: condition
     children: []
@@ -35,8 +35,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessagingError.Error'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessagingError.Error'
     name: Error
     fullName: Error
     children: []
@@ -50,8 +50,8 @@ items:
         type:
           - ErrorConstructor
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessagingError.info'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessagingError.info'
     name: info
     fullName: info
     children: []
@@ -66,8 +66,8 @@ items:
         type:
           - any
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessagingError.message'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessagingError.message'
     name: message
     fullName: message
     children: []
@@ -81,8 +81,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessagingError.constructor'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessagingError.constructor'
     name: MessagingError(string)
     children: []
     type: constructor
@@ -97,8 +97,8 @@ items:
             - string
           description: |
             The error message that provides more information about the error.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessagingError.name'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessagingError.name'
     name: name
     fullName: name
     children: []
@@ -112,8 +112,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessagingError.retryable'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessagingError.retryable'
     name: retryable
     fullName: retryable
     children: []
@@ -129,8 +129,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessagingError.stack'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessagingError.stack'
     name: stack
     fullName: stack
     children: []
@@ -145,8 +145,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessagingError.translated'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessagingError.translated'
     name: translated
     fullName: translated
     children: []
@@ -160,4 +160,4 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'

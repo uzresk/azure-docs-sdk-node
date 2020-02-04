@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.FileSystemSetAccessPolicyResponse'
+  - uid: '@azure/storage-file-datalake.FileSystemSetAccessPolicyResponse'
     name: FileSystemSetAccessPolicyResponse
     fullName: FileSystemSetAccessPolicyResponse
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type FileSystemSetAccessPolicyResponse =
         FileSystemSetAccessPolicyHeaders & { _response: Object }
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

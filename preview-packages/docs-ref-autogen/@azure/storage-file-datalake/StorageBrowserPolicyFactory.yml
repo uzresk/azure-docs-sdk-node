@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.StorageBrowserPolicyFactory'
+  - uid: '@azure/storage-file-datalake.StorageBrowserPolicyFactory'
     name: StorageBrowserPolicyFactory
     fullName: StorageBrowserPolicyFactory
     children:
-      - '@azure/abort-controller.StorageBrowserPolicyFactory.create'
+      - '@azure/storage-file-datalake.StorageBrowserPolicyFactory.create'
     langs:
       - typeScript
     type: class
     summary: >-
       StorageBrowserPolicyFactory is a factory class helping generating
       StorageBrowserPolicy objects.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageBrowserPolicyFactory.create'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageBrowserPolicyFactory.create'
     name: 'create(RequestPolicy, RequestPolicyOptions)'
     children: []
     type: method
@@ -26,33 +26,21 @@ items:
       parameters:
         - id: nextPolicy
           type:
-            - '@azure/abort-controller.RequestPolicy'
+            - RequestPolicy
           description: ''
         - id: options
           type:
-            - '@azure/abort-controller.RequestPolicyOptions'
+            - RequestPolicyOptions
           description: ''
       return:
         type:
-          - '@azure/abort-controller.StorageBrowserPolicy'
+          - '@azure/storage-file-datalake.StorageBrowserPolicy'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.RequestPolicy'
-    name: RequestPolicy
-    spec.typeScript:
-      - name: RequestPolicy
-        fullName: RequestPolicy
-        uid: '@azure/abort-controller.RequestPolicy'
-  - uid: '@azure/abort-controller.RequestPolicyOptions'
-    name: RequestPolicyOptions
-    spec.typeScript:
-      - name: RequestPolicyOptions
-        fullName: RequestPolicyOptions
-        uid: '@azure/abort-controller.RequestPolicyOptions'
-  - uid: '@azure/abort-controller.StorageBrowserPolicy'
+  - uid: '@azure/storage-file-datalake.StorageBrowserPolicy'
     name: StorageBrowserPolicy
     spec.typeScript:
       - name: StorageBrowserPolicy
         fullName: StorageBrowserPolicy
-        uid: '@azure/abort-controller.StorageBrowserPolicy'
+        uid: '@azure/storage-file-datalake.StorageBrowserPolicy'

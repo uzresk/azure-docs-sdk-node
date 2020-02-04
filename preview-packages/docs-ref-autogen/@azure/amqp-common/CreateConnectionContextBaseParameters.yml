@@ -1,28 +1,26 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.CreateConnectionContextBaseParameters'
+  - uid: '@azure/amqp-common.CreateConnectionContextBaseParameters'
     name: CreateConnectionContextBaseParameters
     fullName: CreateConnectionContextBaseParameters
     children:
-      - '@azure/ms-rest-azure-env.CreateConnectionContextBaseParameters.config'
+      - '@azure/amqp-common.CreateConnectionContextBaseParameters.config'
       - >-
-        @azure/ms-rest-azure-env.CreateConnectionContextBaseParameters.connectionProperties
+        @azure/amqp-common.CreateConnectionContextBaseParameters.connectionProperties
+      - '@azure/amqp-common.CreateConnectionContextBaseParameters.dataTransformer'
       - >-
-        @azure/ms-rest-azure-env.CreateConnectionContextBaseParameters.dataTransformer
+        @azure/amqp-common.CreateConnectionContextBaseParameters.isEntityPathRequired
       - >-
-        @azure/ms-rest-azure-env.CreateConnectionContextBaseParameters.isEntityPathRequired
-      - >-
-        @azure/ms-rest-azure-env.CreateConnectionContextBaseParameters.operationTimeoutInSeconds
-      - >-
-        @azure/ms-rest-azure-env.CreateConnectionContextBaseParameters.tokenProvider
+        @azure/amqp-common.CreateConnectionContextBaseParameters.operationTimeoutInSeconds
+      - '@azure/amqp-common.CreateConnectionContextBaseParameters.tokenProvider'
     langs:
       - typeScript
     type: interface
     summary: >-
       Describes the parameters that can be provided to create the base
       connection context.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.CreateConnectionContextBaseParameters.config'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.CreateConnectionContextBaseParameters.config'
     name: config
     fullName: config
     children: []
@@ -38,11 +36,11 @@ items:
       content: 'config: ConnectionConfig'
       return:
         type:
-          - '@azure/ms-rest-azure-env.ConnectionConfig'
+          - '@azure/amqp-common.ConnectionConfig'
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.CreateConnectionContextBaseParameters.connectionProperties
+      @azure/amqp-common.CreateConnectionContextBaseParameters.connectionProperties
     name: connectionProperties
     fullName: connectionProperties
     children: []
@@ -58,11 +56,10 @@ items:
       content: 'connectionProperties: ConnectionProperties'
       return:
         type:
-          - '@azure/ms-rest-azure-env.ConnectionProperties'
+          - '@azure/amqp-common.ConnectionProperties'
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.CreateConnectionContextBaseParameters.dataTransformer
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.CreateConnectionContextBaseParameters.dataTransformer'
     name: dataTransformer
     fullName: dataTransformer
     children: []
@@ -79,11 +76,11 @@ items:
       content: 'dataTransformer?: DataTransformer'
       return:
         type:
-          - '@azure/ms-rest-azure-env.DataTransformer'
+          - '@azure/amqp-common.DataTransformer'
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.CreateConnectionContextBaseParameters.isEntityPathRequired
+      @azure/amqp-common.CreateConnectionContextBaseParameters.isEntityPathRequired
     name: isEntityPathRequired
     fullName: isEntityPathRequired
     children: []
@@ -103,9 +100,9 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.CreateConnectionContextBaseParameters.operationTimeoutInSeconds
+      @azure/amqp-common.CreateConnectionContextBaseParameters.operationTimeoutInSeconds
     name: operationTimeoutInSeconds
     fullName: operationTimeoutInSeconds
     children: []
@@ -127,9 +124,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.CreateConnectionContextBaseParameters.tokenProvider
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.CreateConnectionContextBaseParameters.tokenProvider'
     name: tokenProvider
     fullName: tokenProvider
     children: []
@@ -146,31 +142,31 @@ items:
       content: 'tokenProvider?: TokenProvider'
       return:
         type:
-          - '@azure/ms-rest-azure-env.TokenProvider'
+          - '@azure/amqp-common.TokenProvider'
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
 references:
-  - uid: '@azure/ms-rest-azure-env.ConnectionConfig'
+  - uid: '@azure/amqp-common.ConnectionConfig'
     name: ConnectionConfig
     spec.typeScript:
       - name: ConnectionConfig
         fullName: ConnectionConfig
-        uid: '@azure/ms-rest-azure-env.ConnectionConfig'
-  - uid: '@azure/ms-rest-azure-env.ConnectionProperties'
+        uid: '@azure/amqp-common.ConnectionConfig'
+  - uid: '@azure/amqp-common.ConnectionProperties'
     name: ConnectionProperties
     spec.typeScript:
       - name: ConnectionProperties
         fullName: ConnectionProperties
-        uid: '@azure/ms-rest-azure-env.ConnectionProperties'
-  - uid: '@azure/ms-rest-azure-env.DataTransformer'
+        uid: '@azure/amqp-common.ConnectionProperties'
+  - uid: '@azure/amqp-common.DataTransformer'
     name: DataTransformer
     spec.typeScript:
       - name: DataTransformer
         fullName: DataTransformer
-        uid: '@azure/ms-rest-azure-env.DataTransformer'
-  - uid: '@azure/ms-rest-azure-env.TokenProvider'
+        uid: '@azure/amqp-common.DataTransformer'
+  - uid: '@azure/amqp-common.TokenProvider'
     name: TokenProvider
     spec.typeScript:
       - name: TokenProvider
         fullName: TokenProvider
-        uid: '@azure/ms-rest-azure-env.TokenProvider'
+        uid: '@azure/amqp-common.TokenProvider'

@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.IotHubConnectionStringModel'
+  - uid: '@azure/amqp-common.IotHubConnectionStringModel'
     name: IotHubConnectionStringModel
     fullName: IotHubConnectionStringModel
     children:
-      - '@azure/ms-rest-azure-env.IotHubConnectionStringModel.DeviceId'
-      - '@azure/ms-rest-azure-env.IotHubConnectionStringModel.HostName'
-      - '@azure/ms-rest-azure-env.IotHubConnectionStringModel.SharedAccessKey'
-      - '@azure/ms-rest-azure-env.IotHubConnectionStringModel.SharedAccessKeyName'
+      - '@azure/amqp-common.IotHubConnectionStringModel.DeviceId'
+      - '@azure/amqp-common.IotHubConnectionStringModel.HostName'
+      - '@azure/amqp-common.IotHubConnectionStringModel.SharedAccessKey'
+      - '@azure/amqp-common.IotHubConnectionStringModel.SharedAccessKeyName'
     langs:
       - typeScript
     type: interface
     summary: Describes the iothub connection string model.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.IotHubConnectionStringModel.DeviceId'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.IotHubConnectionStringModel.DeviceId'
     name: DeviceId
     fullName: DeviceId
     children: []
@@ -28,8 +28,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.IotHubConnectionStringModel.HostName'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.IotHubConnectionStringModel.HostName'
     name: HostName
     fullName: HostName
     children: []
@@ -43,8 +43,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.IotHubConnectionStringModel.SharedAccessKey'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.IotHubConnectionStringModel.SharedAccessKey'
     name: SharedAccessKey
     fullName: SharedAccessKey
     children: []
@@ -58,8 +58,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.IotHubConnectionStringModel.SharedAccessKeyName'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.IotHubConnectionStringModel.SharedAccessKeyName'
     name: SharedAccessKeyName
     fullName: SharedAccessKeyName
     children: []
@@ -73,4 +73,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'

@@ -1,16 +1,16 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.StorageError'
+  - uid: '@azure/storage-file-datalake.StorageError'
     name: StorageError
     fullName: StorageError
     children:
-      - '@azure/abort-controller.StorageError.error'
+      - '@azure/storage-file-datalake.StorageError.error'
     langs:
       - typeScript
     type: interface
     summary: An interface representing StorageError.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageError.error'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageError.error'
     name: error
     fullName: error
     children: []
@@ -23,13 +23,13 @@ items:
       content: 'error?: StorageErrorError'
       return:
         type:
-          - '@azure/abort-controller.StorageErrorError'
+          - '@azure/storage-file-datalake.StorageErrorError'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.StorageErrorError'
+  - uid: '@azure/storage-file-datalake.StorageErrorError'
     name: StorageErrorError
     spec.typeScript:
       - name: StorageErrorError
         fullName: StorageErrorError
-        uid: '@azure/abort-controller.StorageErrorError'
+        uid: '@azure/storage-file-datalake.StorageErrorError'

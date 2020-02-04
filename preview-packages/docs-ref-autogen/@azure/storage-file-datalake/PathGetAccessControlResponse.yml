@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PathGetAccessControlResponse'
+  - uid: '@azure/storage-file-datalake.PathGetAccessControlResponse'
     name: PathGetAccessControlResponse
     fullName: PathGetAccessControlResponse
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type PathGetAccessControlResponse = PathAccessControl &
         PathGetAccessControlHeaders & { _response: Object }
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

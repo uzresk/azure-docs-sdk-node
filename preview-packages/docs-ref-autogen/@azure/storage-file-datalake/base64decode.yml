@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.base64decode'
+  - uid: '@azure/storage-file-datalake.base64decode'
     name: base64decode(string)
     children: []
     type: function
@@ -18,4 +18,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

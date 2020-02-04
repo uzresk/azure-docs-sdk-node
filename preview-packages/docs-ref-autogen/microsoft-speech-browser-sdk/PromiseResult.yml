@@ -24,7 +24,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: string Error
+      content: 'Error: string'
       return:
         type:
           - string
@@ -39,7 +39,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean IsCompleted
+      content: 'IsCompleted: boolean'
       return:
         type:
           - boolean
@@ -54,7 +54,7 @@ items:
     type: property
     summary: ''
     syntax:
-      content: boolean IsError
+      content: 'IsError: boolean'
       return:
         type:
           - boolean
@@ -84,22 +84,26 @@ items:
     type: property
     summary: ''
     syntax:
-      content: T Result
+      content: 'Result: T'
       return:
         type:
           - T
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.PromiseResult.ThrowIfError
-    name: ThrowIfError()
+    name: ThrowIfError
+    fullName: ThrowIfError
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: function ThrowIfError()
-      parameters: []
+      content: 'ThrowIfError: () => void'
+      return:
+        type:
+          - () => void
+        description: ''
     package: microsoft-speech-browser-sdk
 references:
   - uid: microsoft-speech-browser-sdk.PromiseResultEventSource<T>

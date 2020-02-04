@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.toPermissionsString'
+  - uid: '@azure/storage-file-datalake.toPermissionsString'
     name: toPermissionsString(PathPermissions)
     children: []
     type: function
@@ -12,17 +12,17 @@ items:
       parameters:
         - id: permissions
           type:
-            - '@azure/abort-controller.PathPermissions'
+            - '@azure/storage-file-datalake.PathPermissions'
           description: ''
       return:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.PathPermissions'
+  - uid: '@azure/storage-file-datalake.PathPermissions'
     name: PathPermissions
     spec.typeScript:
       - name: PathPermissions
         fullName: PathPermissions
-        uid: '@azure/abort-controller.PathPermissions'
+        uid: '@azure/storage-file-datalake.PathPermissions'

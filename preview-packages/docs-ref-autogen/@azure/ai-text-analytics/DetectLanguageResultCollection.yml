@@ -1,50 +1,50 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection'
     name: DetectLanguageResultCollection
     fullName: DetectLanguageResultCollection
     children:
-      - '@azure/abort-controller.DetectLanguageResultCollection.Array'
-      - '@azure/abort-controller.DetectLanguageResultCollection.concat'
-      - '@azure/abort-controller.DetectLanguageResultCollection.concat_1'
-      - '@azure/abort-controller.DetectLanguageResultCollection.copyWithin'
-      - '@azure/abort-controller.DetectLanguageResultCollection.entries'
-      - '@azure/abort-controller.DetectLanguageResultCollection.every'
-      - '@azure/abort-controller.DetectLanguageResultCollection.fill'
-      - '@azure/abort-controller.DetectLanguageResultCollection.filter'
-      - '@azure/abort-controller.DetectLanguageResultCollection.filter_1'
-      - '@azure/abort-controller.DetectLanguageResultCollection.find'
-      - '@azure/abort-controller.DetectLanguageResultCollection.find_1'
-      - '@azure/abort-controller.DetectLanguageResultCollection.findIndex'
-      - '@azure/abort-controller.DetectLanguageResultCollection.forEach'
-      - '@azure/abort-controller.DetectLanguageResultCollection.includes'
-      - '@azure/abort-controller.DetectLanguageResultCollection.indexOf'
-      - '@azure/abort-controller.DetectLanguageResultCollection.join'
-      - '@azure/abort-controller.DetectLanguageResultCollection.keys'
-      - '@azure/abort-controller.DetectLanguageResultCollection.lastIndexOf'
-      - '@azure/abort-controller.DetectLanguageResultCollection.length'
-      - '@azure/abort-controller.DetectLanguageResultCollection.map'
-      - '@azure/abort-controller.DetectLanguageResultCollection.modelVersion'
-      - '@azure/abort-controller.DetectLanguageResultCollection.pop'
-      - '@azure/abort-controller.DetectLanguageResultCollection.push'
-      - '@azure/abort-controller.DetectLanguageResultCollection.reduce'
-      - '@azure/abort-controller.DetectLanguageResultCollection.reduce_1'
-      - '@azure/abort-controller.DetectLanguageResultCollection.reduce_2'
-      - '@azure/abort-controller.DetectLanguageResultCollection.reduceRight'
-      - '@azure/abort-controller.DetectLanguageResultCollection.reduceRight_1'
-      - '@azure/abort-controller.DetectLanguageResultCollection.reduceRight_2'
-      - '@azure/abort-controller.DetectLanguageResultCollection.reverse'
-      - '@azure/abort-controller.DetectLanguageResultCollection.shift'
-      - '@azure/abort-controller.DetectLanguageResultCollection.slice'
-      - '@azure/abort-controller.DetectLanguageResultCollection.some'
-      - '@azure/abort-controller.DetectLanguageResultCollection.sort'
-      - '@azure/abort-controller.DetectLanguageResultCollection.splice'
-      - '@azure/abort-controller.DetectLanguageResultCollection.splice_1'
-      - '@azure/abort-controller.DetectLanguageResultCollection.statistics'
-      - '@azure/abort-controller.DetectLanguageResultCollection.toLocaleString'
-      - '@azure/abort-controller.DetectLanguageResultCollection.toString'
-      - '@azure/abort-controller.DetectLanguageResultCollection.unshift'
-      - '@azure/abort-controller.DetectLanguageResultCollection.values'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.Array'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.concat'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.concat_1'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.copyWithin'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.entries'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.every'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.fill'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.filter'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.filter_1'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.find'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.find_1'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.findIndex'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.forEach'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.includes'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.indexOf'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.join'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.keys'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.lastIndexOf'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.length'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.map'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.modelVersion'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.pop'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.push'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.reduce'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.reduce_1'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.reduce_2'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.reduceRight'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.reduceRight_1'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.reduceRight_2'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.reverse'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.shift'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.slice'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.some'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.sort'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.splice'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.splice_1'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.statistics'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.toLocaleString'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.toString'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.unshift'
+      - '@azure/ai-text-analytics.DetectLanguageResultCollection.values'
     langs:
       - typeScript
     type: interface
@@ -54,9 +54,9 @@ items:
 
       annotated with information about the batch operation.
     extends:
-      name: Array<@azure/abort-controller.DetectLanguageResult>
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.Array'
+      name: Array<@azure/ai-text-analytics.DetectLanguageResult>
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.Array'
     name: Array
     fullName: Array
     children: []
@@ -70,8 +70,8 @@ items:
         type:
           - ArrayConstructor
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.concat'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.concat'
     name: 'concat(ConcatArray<DetectLanguageResult>[])'
     children: []
     type: method
@@ -83,15 +83,15 @@ items:
       parameters:
         - id: items
           type:
-            - 'ConcatArray<@azure/abort-controller.DetectLanguageResult>[]'
+            - 'ConcatArray<@azure/ai-text-analytics.DetectLanguageResult>[]'
           description: |
             Additional items to add to the end of array1.
       return:
         type:
-          - '@azure/abort-controller.DetectLanguageResult[]'
+          - '@azure/ai-text-analytics.DetectLanguageResult[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.concat_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.concat_1'
     name: 'concat(T | ConcatArray<T>[])'
     children: []
     type: method
@@ -108,10 +108,10 @@ items:
             Additional items to add to the end of array1.
       return:
         type:
-          - '@azure/abort-controller.DetectLanguageResult[]'
+          - '@azure/ai-text-analytics.DetectLanguageResult[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.copyWithin'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.copyWithin'
     name: 'copyWithin(number, number, number)'
     children: []
     type: method
@@ -152,8 +152,8 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.entries'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.entries'
     name: entries()
     children: []
     type: method
@@ -167,8 +167,8 @@ items:
         type:
           - IterableIterator<Object>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.every'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.every'
     name: >-
       every((value: DetectLanguageResult, index: number, array:
       DetectLanguageResult[]) => unknown, any)
@@ -203,8 +203,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.fill'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.fill'
     name: 'fill(DetectLanguageResult, number, number)'
     children: []
     type: method
@@ -218,7 +218,7 @@ items:
       parameters:
         - id: value
           type:
-            - '@azure/abort-controller.DetectLanguageResult'
+            - '@azure/ai-text-analytics.DetectLanguageResult'
           description: value to fill array section with
         - id: start
           type:
@@ -242,8 +242,8 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.filter'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.filter'
     name: >-
       filter((value: DetectLanguageResult, index: number, array:
       DetectLanguageResult[]) => boolean, any)
@@ -280,8 +280,8 @@ items:
         type:
           - 'S[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.filter_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.filter_1'
     name: >-
       filter((value: DetectLanguageResult, index: number, array:
       DetectLanguageResult[]) => unknown, any)
@@ -316,10 +316,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/abort-controller.DetectLanguageResult[]'
+          - '@azure/ai-text-analytics.DetectLanguageResult[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.find'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.find'
     name: >-
       find((this: void, value: DetectLanguageResult, index: number, obj:
       DetectLanguageResult[]) => boolean, any)
@@ -364,8 +364,8 @@ items:
         type:
           - S | undefined
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.find_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.find_1'
     name: >-
       find((value: DetectLanguageResult, index: number, obj:
       DetectLanguageResult[]) => unknown, any)
@@ -392,10 +392,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/abort-controller.DetectLanguageResult | undefined'
+          - '@azure/ai-text-analytics.DetectLanguageResult | undefined'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.findIndex'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.findIndex'
     name: >-
       findIndex((value: DetectLanguageResult, index: number, obj:
       DetectLanguageResult[]) => unknown, any)
@@ -440,8 +440,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.forEach'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.forEach'
     name: >-
       forEach((value: DetectLanguageResult, index: number, array:
       DetectLanguageResult[]) => void, any)
@@ -471,8 +471,8 @@ items:
             function. If thisArg is omitted, undefined is used as the this
             value.
           optional: true
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.includes'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.includes'
     name: 'includes(DetectLanguageResult, number)'
     children: []
     type: method
@@ -488,7 +488,7 @@ items:
       parameters:
         - id: searchElement
           type:
-            - '@azure/abort-controller.DetectLanguageResult'
+            - '@azure/ai-text-analytics.DetectLanguageResult'
           description: The element to search for.
         - id: fromIndex
           type:
@@ -501,8 +501,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.indexOf'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.indexOf'
     name: 'indexOf(DetectLanguageResult, number)'
     children: []
     type: method
@@ -516,7 +516,7 @@ items:
       parameters:
         - id: searchElement
           type:
-            - '@azure/abort-controller.DetectLanguageResult'
+            - '@azure/ai-text-analytics.DetectLanguageResult'
           description: The value to locate in the array.
         - id: fromIndex
           type:
@@ -529,8 +529,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.join'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.join'
     name: join(string)
     children: []
     type: method
@@ -554,8 +554,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.keys'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.keys'
     name: keys()
     children: []
     type: method
@@ -569,8 +569,8 @@ items:
         type:
           - IterableIterator<number>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.lastIndexOf'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.lastIndexOf'
     name: 'lastIndexOf(DetectLanguageResult, number)'
     children: []
     type: method
@@ -584,7 +584,7 @@ items:
       parameters:
         - id: searchElement
           type:
-            - '@azure/abort-controller.DetectLanguageResult'
+            - '@azure/ai-text-analytics.DetectLanguageResult'
           description: The value to locate in the array.
         - id: fromIndex
           type:
@@ -597,8 +597,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.length'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.length'
     name: length
     fullName: length
     children: []
@@ -614,8 +614,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.map'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.map'
     name: >-
       map((value: DetectLanguageResult, index: number, array:
       DetectLanguageResult[]) => U, any)
@@ -651,8 +651,8 @@ items:
         type:
           - 'U[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.modelVersion'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.modelVersion'
     name: modelVersion
     fullName: modelVersion
     children: []
@@ -668,8 +668,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.pop'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.pop'
     name: pop()
     children: []
     type: method
@@ -681,10 +681,10 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/abort-controller.DetectLanguageResult | undefined'
+          - '@azure/ai-text-analytics.DetectLanguageResult | undefined'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.push'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.push'
     name: 'push(DetectLanguageResult[])'
     children: []
     type: method
@@ -696,15 +696,15 @@ items:
       parameters:
         - id: items
           type:
-            - '@azure/abort-controller.DetectLanguageResult[]'
+            - '@azure/ai-text-analytics.DetectLanguageResult[]'
           description: |
             New elements of the Array.
       return:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.reduce'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.reduce'
     name: >-
       reduce((previousValue: DetectLanguageResult, currentValue:
       DetectLanguageResult, currentIndex: number, array: DetectLanguageResult[])
@@ -735,10 +735,10 @@ items:
             array.
       return:
         type:
-          - '@azure/abort-controller.DetectLanguageResult'
+          - '@azure/ai-text-analytics.DetectLanguageResult'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.reduce_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.reduce_1'
     name: >-
       reduce((previousValue: DetectLanguageResult, currentValue:
       DetectLanguageResult, currentIndex: number, array: DetectLanguageResult[])
@@ -764,14 +764,14 @@ items:
           description: ''
         - id: initialValue
           type:
-            - '@azure/abort-controller.DetectLanguageResult'
+            - '@azure/ai-text-analytics.DetectLanguageResult'
           description: ''
       return:
         type:
-          - '@azure/abort-controller.DetectLanguageResult'
+          - '@azure/ai-text-analytics.DetectLanguageResult'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.reduce_2'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.reduce_2'
     name: >-
       reduce((previousValue: U, currentValue: DetectLanguageResult,
       currentIndex: number, array: DetectLanguageResult[]) => U, U)
@@ -809,8 +809,8 @@ items:
         type:
           - U
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.reduceRight'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.reduceRight'
     name: >-
       reduceRight((previousValue: DetectLanguageResult, currentValue:
       DetectLanguageResult, currentIndex: number, array: DetectLanguageResult[])
@@ -842,10 +842,10 @@ items:
             array.
       return:
         type:
-          - '@azure/abort-controller.DetectLanguageResult'
+          - '@azure/ai-text-analytics.DetectLanguageResult'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.reduceRight_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.reduceRight_1'
     name: >-
       reduceRight((previousValue: DetectLanguageResult, currentValue:
       DetectLanguageResult, currentIndex: number, array: DetectLanguageResult[])
@@ -871,14 +871,14 @@ items:
           description: ''
         - id: initialValue
           type:
-            - '@azure/abort-controller.DetectLanguageResult'
+            - '@azure/ai-text-analytics.DetectLanguageResult'
           description: ''
       return:
         type:
-          - '@azure/abort-controller.DetectLanguageResult'
+          - '@azure/ai-text-analytics.DetectLanguageResult'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.reduceRight_2'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.reduceRight_2'
     name: >-
       reduceRight((previousValue: U, currentValue: DetectLanguageResult,
       currentIndex: number, array: DetectLanguageResult[]) => U, U)
@@ -917,8 +917,8 @@ items:
         type:
           - U
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.reverse'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.reverse'
     name: reverse()
     children: []
     type: method
@@ -930,10 +930,10 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/abort-controller.DetectLanguageResult[]'
+          - '@azure/ai-text-analytics.DetectLanguageResult[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.shift'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.shift'
     name: shift()
     children: []
     type: method
@@ -945,10 +945,10 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/abort-controller.DetectLanguageResult | undefined'
+          - '@azure/ai-text-analytics.DetectLanguageResult | undefined'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.slice'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.slice'
     name: 'slice(number, number)'
     children: []
     type: method
@@ -971,10 +971,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/abort-controller.DetectLanguageResult[]'
+          - '@azure/ai-text-analytics.DetectLanguageResult[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.some'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.some'
     name: >-
       some((value: DetectLanguageResult, index: number, array:
       DetectLanguageResult[]) => unknown, any)
@@ -1011,8 +1011,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.sort'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.sort'
     name: 'sort((a: DetectLanguageResult, b: DetectLanguageResult) => number)'
     children: []
     type: method
@@ -1036,8 +1036,8 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.splice'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.splice'
     name: 'splice(number, number)'
     children: []
     type: method
@@ -1063,10 +1063,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/abort-controller.DetectLanguageResult[]'
+          - '@azure/ai-text-analytics.DetectLanguageResult[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.splice_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.splice_1'
     name: 'splice(number, number, DetectLanguageResult[])'
     children: []
     type: method
@@ -1092,15 +1092,15 @@ items:
           description: The number of elements to remove.
         - id: items
           type:
-            - '@azure/abort-controller.DetectLanguageResult[]'
+            - '@azure/ai-text-analytics.DetectLanguageResult[]'
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
         type:
-          - '@azure/abort-controller.DetectLanguageResult[]'
+          - '@azure/ai-text-analytics.DetectLanguageResult[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.statistics'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.statistics'
     name: statistics
     fullName: statistics
     children: []
@@ -1119,10 +1119,10 @@ items:
       content: 'statistics?: TextDocumentBatchStatistics'
       return:
         type:
-          - '@azure/abort-controller.TextDocumentBatchStatistics'
+          - '@azure/ai-text-analytics.TextDocumentBatchStatistics'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.toLocaleString'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.toLocaleString'
     name: toLocaleString()
     children: []
     type: method
@@ -1138,8 +1138,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.toString'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.toString'
     name: toString()
     children: []
     type: method
@@ -1153,8 +1153,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.unshift'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.unshift'
     name: 'unshift(DetectLanguageResult[])'
     children: []
     type: method
@@ -1166,15 +1166,15 @@ items:
       parameters:
         - id: items
           type:
-            - '@azure/abort-controller.DetectLanguageResult[]'
+            - '@azure/ai-text-analytics.DetectLanguageResult[]'
           description: |
             Elements to insert at the start of the Array.
       return:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DetectLanguageResultCollection.values'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResultCollection.values'
     name: values()
     children: []
     type: method
@@ -1186,65 +1186,65 @@ items:
       parameters: []
       return:
         type:
-          - IterableIterator<@azure/abort-controller.DetectLanguageResult>
+          - IterableIterator<@azure/ai-text-analytics.DetectLanguageResult>
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'
 references:
-  - uid: Array<@azure/abort-controller.DetectLanguageResult>
+  - uid: Array<@azure/ai-text-analytics.DetectLanguageResult>
     name: DetectLanguageResult>
     spec.typeScript:
       - name: Array<
         fullName: Array<
       - name: DetectLanguageResult
         fullName: DetectLanguageResult
-        uid: '@azure/abort-controller.DetectLanguageResult'
+        uid: '@azure/ai-text-analytics.DetectLanguageResult'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.TextDocumentBatchStatistics'
+  - uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics'
     name: TextDocumentBatchStatistics
     spec.typeScript:
       - name: TextDocumentBatchStatistics
         fullName: TextDocumentBatchStatistics
-        uid: '@azure/abort-controller.TextDocumentBatchStatistics'
-  - uid: 'ConcatArray<@azure/abort-controller.DetectLanguageResult>[]'
+        uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics'
+  - uid: 'ConcatArray<@azure/ai-text-analytics.DetectLanguageResult>[]'
     name: 'DetectLanguageResult>[]'
     spec.typeScript:
       - name: ConcatArray<
         fullName: ConcatArray<
       - name: DetectLanguageResult
         fullName: DetectLanguageResult
-        uid: '@azure/abort-controller.DetectLanguageResult'
+        uid: '@azure/ai-text-analytics.DetectLanguageResult'
       - name: '>[]'
         fullName: '>[]'
-  - uid: '@azure/abort-controller.DetectLanguageResult[]'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResult[]'
     name: 'DetectLanguageResult[]'
     spec.typeScript:
       - name: DetectLanguageResult
         fullName: DetectLanguageResult
-        uid: '@azure/abort-controller.DetectLanguageResult'
+        uid: '@azure/ai-text-analytics.DetectLanguageResult'
       - name: '[]'
         fullName: '[]'
-  - uid: '@azure/abort-controller.DetectLanguageResult'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResult'
     name: DetectLanguageResult
     spec.typeScript:
       - name: DetectLanguageResult
         fullName: DetectLanguageResult
-        uid: '@azure/abort-controller.DetectLanguageResult'
-  - uid: '@azure/abort-controller.DetectLanguageResult | undefined'
+        uid: '@azure/ai-text-analytics.DetectLanguageResult'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResult | undefined'
     name: DetectLanguageResult | undefined
     spec.typeScript:
       - name: DetectLanguageResult
         fullName: DetectLanguageResult
-        uid: '@azure/abort-controller.DetectLanguageResult'
+        uid: '@azure/ai-text-analytics.DetectLanguageResult'
       - name: ' | undefined'
         fullName: ' | undefined'
-  - uid: IterableIterator<@azure/abort-controller.DetectLanguageResult>
+  - uid: IterableIterator<@azure/ai-text-analytics.DetectLanguageResult>
     name: DetectLanguageResult>
     spec.typeScript:
       - name: IterableIterator<
         fullName: IterableIterator<
       - name: DetectLanguageResult
         fullName: DetectLanguageResult
-        uid: '@azure/abort-controller.DetectLanguageResult'
+        uid: '@azure/ai-text-analytics.DetectLanguageResult'
       - name: '>'
         fullName: '>'

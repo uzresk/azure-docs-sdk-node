@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PathAppendDataResponse'
+  - uid: '@azure/storage-file-datalake.PathAppendDataResponse'
     name: PathAppendDataResponse
     fullName: PathAppendDataResponse
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type PathAppendDataResponse = PathAppendDataHeaders & { _response:
         Object }
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

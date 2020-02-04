@@ -4,20 +4,12 @@ items:
     name: MessageType
     fullName: MessageType
     children:
-      - microsoft-speech-browser-sdk.MessageType.Binary
       - microsoft-speech-browser-sdk.MessageType.Text
+      - microsoft-speech-browser-sdk.MessageType.Binary
     langs:
       - typeScript
     type: enum
     summary: ''
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.MessageType.Binary
-    name: Binary
-    children: []
-    langs:
-      - typeScript
-    summary: ''
-    type: field
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.MessageType.Text
     name: Text
@@ -26,4 +18,14 @@ items:
       - typeScript
     summary: ''
     type: field
+    numericValue: 0
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.MessageType.Binary
+    name: Binary
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 1
     package: microsoft-speech-browser-sdk

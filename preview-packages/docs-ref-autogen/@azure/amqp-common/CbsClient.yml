@@ -1,25 +1,25 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.CbsClient'
+  - uid: '@azure/amqp-common.CbsClient'
     name: CbsClient
     fullName: CbsClient
     children:
-      - '@azure/ms-rest-azure-env.CbsClient.constructor'
-      - '@azure/ms-rest-azure-env.CbsClient.cbsLock'
-      - '@azure/ms-rest-azure-env.CbsClient.close'
-      - '@azure/ms-rest-azure-env.CbsClient.connection'
-      - '@azure/ms-rest-azure-env.CbsClient.connectionLock'
-      - '@azure/ms-rest-azure-env.CbsClient.endpoint'
-      - '@azure/ms-rest-azure-env.CbsClient.init'
-      - '@azure/ms-rest-azure-env.CbsClient.negotiateClaim'
-      - '@azure/ms-rest-azure-env.CbsClient.remove'
-      - '@azure/ms-rest-azure-env.CbsClient.replyTo'
+      - '@azure/amqp-common.CbsClient.constructor'
+      - '@azure/amqp-common.CbsClient.cbsLock'
+      - '@azure/amqp-common.CbsClient.close'
+      - '@azure/amqp-common.CbsClient.connection'
+      - '@azure/amqp-common.CbsClient.connectionLock'
+      - '@azure/amqp-common.CbsClient.endpoint'
+      - '@azure/amqp-common.CbsClient.init'
+      - '@azure/amqp-common.CbsClient.negotiateClaim'
+      - '@azure/amqp-common.CbsClient.remove'
+      - '@azure/amqp-common.CbsClient.replyTo'
     langs:
       - typeScript
     type: class
     summary: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.CbsClient.constructor'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.CbsClient.constructor'
     name: 'CbsClient(Connection, string)'
     children: []
     type: constructor
@@ -38,8 +38,8 @@ items:
             - string
           description: |
             A unique string (usually a guid) per connection.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.CbsClient.cbsLock'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.CbsClient.cbsLock'
     name: cbsLock
     fullName: cbsLock
     children: []
@@ -58,8 +58,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.CbsClient.close'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.CbsClient.close'
     name: close()
     children: []
     type: method
@@ -75,8 +75,8 @@ items:
         type:
           - Promise<void>
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.CbsClient.connection'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.CbsClient.connection'
     name: connection
     fullName: connection
     children: []
@@ -90,8 +90,8 @@ items:
         type:
           - Connection
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.CbsClient.connectionLock'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.CbsClient.connectionLock'
     name: connectionLock
     fullName: connectionLock
     children: []
@@ -110,8 +110,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.CbsClient.endpoint'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.CbsClient.endpoint'
     name: endpoint
     fullName: endpoint
     children: []
@@ -125,8 +125,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.CbsClient.init'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.CbsClient.init'
     name: init()
     children: []
     type: method
@@ -144,8 +144,8 @@ items:
         type:
           - Promise<void>
         description: Promise<void>.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.CbsClient.negotiateClaim'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.CbsClient.negotiateClaim'
     name: 'negotiateClaim(string, TokenInfo)'
     children: []
     type: method
@@ -187,16 +187,16 @@ items:
                     - `"sb://<your-namespace>.servicebus.windows.net/<event-hub-name>/$management"`.
         - id: tokenObject
           type:
-            - '@azure/ms-rest-azure-env.TokenInfo'
+            - '@azure/amqp-common.TokenInfo'
           description: The token object that needs to be sent in the put-token request.
       return:
         type:
-          - Promise<@azure/ms-rest-azure-env.CbsResponse>
+          - Promise<@azure/amqp-common.CbsResponse>
         description: |-
           Returns a Promise that resolves when $cbs authentication is successful
           and rejects when an error occurs during $cbs authentication.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.CbsClient.remove'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.CbsClient.remove'
     name: remove()
     children: []
     type: method
@@ -206,8 +206,8 @@ items:
     syntax:
       content: function remove()
       parameters: []
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.CbsClient.replyTo'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.CbsClient.replyTo'
     name: replyTo
     fullName: replyTo
     children: []
@@ -223,21 +223,21 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
 references:
-  - uid: '@azure/ms-rest-azure-env.TokenInfo'
+  - uid: '@azure/amqp-common.TokenInfo'
     name: TokenInfo
     spec.typeScript:
       - name: TokenInfo
         fullName: TokenInfo
-        uid: '@azure/ms-rest-azure-env.TokenInfo'
-  - uid: Promise<@azure/ms-rest-azure-env.CbsResponse>
+        uid: '@azure/amqp-common.TokenInfo'
+  - uid: Promise<@azure/amqp-common.CbsResponse>
     name: CbsResponse>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: CbsResponse
         fullName: CbsResponse
-        uid: '@azure/ms-rest-azure-env.CbsResponse'
+        uid: '@azure/amqp-common.CbsResponse'
       - name: '>'
         fullName: '>'

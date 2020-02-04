@@ -21,36 +21,29 @@ items:
     type: property
     summary: ''
     syntax:
-      content: IAudioSource AudioSource
+      content: 'AudioSource: IAudioSource'
       return:
         type:
           - microsoft-speech-browser-sdk.IAudioSource
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Recognizer.Recognize
-    name: 'Recognize((event: SpeechRecognitionEvent) => void, string)'
+    name: Recognize
+    fullName: Recognize
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
       content: >-
-        function Recognize(onEventCallback: (event: SpeechRecognitionEvent) =>
-        void, speechContextJson?: string)
-      parameters:
-        - id: onEventCallback
-          type:
-            - '(event: SpeechRecognitionEvent) => void'
-          description: ''
-        - id: speechContextJson
-          type:
-            - string
-          description: ''
-          optional: true
+        Recognize: (onEventCallback: (event: SpeechRecognitionEvent) => void,
+        speechContextJson?: string) => Promise<boolean>
       return:
         type:
-          - microsoft-speech-browser-sdk.Promise<boolean>
+          - >-
+            (onEventCallback: (event: SpeechRecognitionEvent) => void,
+            speechContextJson?: string) => Promise<boolean>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Recognizer.constructor
@@ -110,11 +103,3 @@ references:
       - name: RecognizerConfig
         fullName: RecognizerConfig
         uid: microsoft-speech-browser-sdk.RecognizerConfig
-  - uid: microsoft-speech-browser-sdk.Promise<boolean>
-    name: Promise<boolean>
-    spec.typeScript:
-      - name: Promise
-        fullName: Promise
-        uid: microsoft-speech-browser-sdk.Promise
-      - name: <boolean>
-        fullName: <boolean>

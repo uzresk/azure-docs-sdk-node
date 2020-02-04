@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.truncatedISO8061Date'
+  - uid: '@azure/storage-file-datalake.truncatedISO8061Date'
     name: 'truncatedISO8061Date(Date, undefined | false | true)'
     children: []
     type: function
@@ -27,4 +27,4 @@ items:
         description: >-
           Date string in ISO8061 format, with or without 7 milliseconds
           component
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

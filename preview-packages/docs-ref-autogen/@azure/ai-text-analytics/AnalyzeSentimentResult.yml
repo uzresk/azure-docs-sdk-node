@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.AnalyzeSentimentResult'
+  - uid: '@azure/ai-text-analytics.AnalyzeSentimentResult'
     name: AnalyzeSentimentResult
     fullName: AnalyzeSentimentResult
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type AnalyzeSentimentResult = AnalyzeSentimentSuccessResult |
         AnalyzeSentimentErrorResult
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'

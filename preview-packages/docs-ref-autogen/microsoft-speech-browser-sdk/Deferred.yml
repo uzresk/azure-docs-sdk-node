@@ -26,93 +26,62 @@ items:
       parameters: []
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Deferred.Promise
-    name: Promise()
+    name: Promise
+    fullName: Promise
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: function Promise()
-      parameters: []
+      content: 'Promise: () => Promise<T>'
       return:
         type:
-          - microsoft-speech-browser-sdk.Promise<T>
+          - () => Promise<T>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Deferred.Reject
-    name: Reject(string)
+    name: Reject
+    fullName: Reject
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function Reject(error: string)'
-      parameters:
-        - id: error
-          type:
-            - string
-          description: ''
+      content: 'Reject: (error: string) => Deferred<T>'
       return:
         type:
-          - microsoft-speech-browser-sdk.Deferred<T>
+          - '(error: string) => Deferred<T>'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Deferred.Resolve
-    name: Resolve(T)
+    name: Resolve
+    fullName: Resolve
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function Resolve(result: T)'
-      parameters:
-        - id: result
-          type:
-            - T
-          description: ''
+      content: 'Resolve: (result: T) => Deferred<T>'
       return:
         type:
-          - microsoft-speech-browser-sdk.Deferred<T>
+          - '(result: T) => Deferred<T>'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.Deferred.State
-    name: State()
+    name: State
+    fullName: State
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: function State()
-      parameters: []
+      content: 'State: () => PromiseState'
       return:
         type:
-          - microsoft-speech-browser-sdk.PromiseState
+          - () => PromiseState
         description: ''
     package: microsoft-speech-browser-sdk
-references:
-  - uid: microsoft-speech-browser-sdk.Promise<T>
-    name: Promise<T>
-    spec.typeScript:
-      - name: Promise
-        fullName: Promise
-        uid: microsoft-speech-browser-sdk.Promise
-      - name: <T>
-        fullName: <T>
-  - uid: microsoft-speech-browser-sdk.Deferred<T>
-    name: Deferred<T>
-    spec.typeScript:
-      - name: Deferred
-        fullName: Deferred
-        uid: microsoft-speech-browser-sdk.Deferred
-      - name: <T>
-        fullName: <T>
-  - uid: microsoft-speech-browser-sdk.PromiseState
-    name: PromiseState
-    spec.typeScript:
-      - name: PromiseState
-        fullName: PromiseState
-        uid: microsoft-speech-browser-sdk.PromiseState

@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.SasIPRange'
+  - uid: '@azure/storage-file-datalake.SasIPRange'
     name: SasIPRange
     fullName: SasIPRange
     children:
-      - '@azure/abort-controller.SasIPRange.end'
-      - '@azure/abort-controller.SasIPRange.start'
+      - '@azure/storage-file-datalake.SasIPRange.end'
+      - '@azure/storage-file-datalake.SasIPRange.start'
     langs:
       - typeScript
     type: interface
     summary: Allowed IP range for a SAS.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SasIPRange.end'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SasIPRange.end'
     name: end
     fullName: end
     children: []
@@ -28,8 +28,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SasIPRange.start'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SasIPRange.start'
     name: start
     fullName: start
     children: []
@@ -45,4 +45,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

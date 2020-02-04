@@ -1,33 +1,33 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.MessageProperties'
+  - uid: '@azure/amqp-common.MessageProperties'
     name: MessageProperties
     langs:
       - typeScript
     fullName: MessageProperties
     children:
-      - '@azure/ms-rest-azure-env.MessageProperties.absoluteExpiryTime'
-      - '@azure/ms-rest-azure-env.MessageProperties.contentEncoding'
-      - '@azure/ms-rest-azure-env.MessageProperties.contentType'
-      - '@azure/ms-rest-azure-env.MessageProperties.correlationId'
-      - '@azure/ms-rest-azure-env.MessageProperties.creationTime'
-      - '@azure/ms-rest-azure-env.MessageProperties.fromAmqpMessageProperties'
-      - '@azure/ms-rest-azure-env.MessageProperties.groupId'
-      - '@azure/ms-rest-azure-env.MessageProperties.groupSequence'
-      - '@azure/ms-rest-azure-env.MessageProperties.messageId'
-      - '@azure/ms-rest-azure-env.MessageProperties.replyTo'
-      - '@azure/ms-rest-azure-env.MessageProperties.replyToGroupId'
-      - '@azure/ms-rest-azure-env.MessageProperties.subject'
-      - '@azure/ms-rest-azure-env.MessageProperties.to'
-      - '@azure/ms-rest-azure-env.MessageProperties.toAmqpMessageProperties'
-      - '@azure/ms-rest-azure-env.MessageProperties.userId'
+      - '@azure/amqp-common.MessageProperties.absoluteExpiryTime'
+      - '@azure/amqp-common.MessageProperties.contentEncoding'
+      - '@azure/amqp-common.MessageProperties.contentType'
+      - '@azure/amqp-common.MessageProperties.correlationId'
+      - '@azure/amqp-common.MessageProperties.creationTime'
+      - '@azure/amqp-common.MessageProperties.fromAmqpMessageProperties'
+      - '@azure/amqp-common.MessageProperties.groupId'
+      - '@azure/amqp-common.MessageProperties.groupSequence'
+      - '@azure/amqp-common.MessageProperties.messageId'
+      - '@azure/amqp-common.MessageProperties.replyTo'
+      - '@azure/amqp-common.MessageProperties.replyToGroupId'
+      - '@azure/amqp-common.MessageProperties.subject'
+      - '@azure/amqp-common.MessageProperties.to'
+      - '@azure/amqp-common.MessageProperties.toAmqpMessageProperties'
+      - '@azure/amqp-common.MessageProperties.userId'
     type: module
     summary: >-
       Describes the operations that can be performed on the amqp message
       properties.
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
     module: MessageProperties
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.absoluteExpiryTime'
+  - uid: '@azure/amqp-common.MessageProperties.absoluteExpiryTime'
     name: absoluteExpiryTime
     fullName: absoluteExpiryTime
     children: []
@@ -44,8 +44,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.contentEncoding'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessageProperties.contentEncoding'
     name: contentEncoding
     fullName: contentEncoding
     children: []
@@ -65,8 +65,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.contentType'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessageProperties.contentType'
     name: contentType
     fullName: contentType
     children: []
@@ -81,8 +81,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.correlationId'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessageProperties.correlationId'
     name: correlationId
     fullName: correlationId
     children: []
@@ -99,8 +99,8 @@ items:
         type:
           - string | number | Buffer
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.creationTime'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessageProperties.creationTime'
     name: creationTime
     fullName: creationTime
     children: []
@@ -115,8 +115,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.fromAmqpMessageProperties'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessageProperties.fromAmqpMessageProperties'
     name: fromAmqpMessageProperties(AmqpMessageProperties)
     children: []
     type: function
@@ -132,10 +132,10 @@ items:
           description: Amqp message properties.
       return:
         type:
-          - '@azure/ms-rest-azure-env.MessageProperties'
+          - '@azure/amqp-common.MessageProperties'
         description: MessageProperties.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.groupId'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessageProperties.groupId'
     name: groupId
     fullName: groupId
     children: []
@@ -150,8 +150,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.groupSequence'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessageProperties.groupSequence'
     name: groupSequence
     fullName: groupSequence
     children: []
@@ -168,8 +168,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.messageId'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessageProperties.messageId'
     name: messageId
     fullName: messageId
     children: []
@@ -189,8 +189,8 @@ items:
         type:
           - string | number | Buffer
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.replyTo'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessageProperties.replyTo'
     name: replyTo
     fullName: replyTo
     children: []
@@ -205,8 +205,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.replyToGroupId'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessageProperties.replyToGroupId'
     name: replyToGroupId
     fullName: replyToGroupId
     children: []
@@ -221,8 +221,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.subject'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessageProperties.subject'
     name: subject
     fullName: subject
     children: []
@@ -241,8 +241,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.to'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessageProperties.to'
     name: to
     fullName: to
     children: []
@@ -257,8 +257,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.toAmqpMessageProperties'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessageProperties.toAmqpMessageProperties'
     name: toAmqpMessageProperties(MessageProperties)
     children: []
     type: function
@@ -270,14 +270,14 @@ items:
       parameters:
         - id: props
           type:
-            - '@azure/ms-rest-azure-env.MessageProperties'
+            - '@azure/amqp-common.MessageProperties'
           description: Message properties.
       return:
         type:
           - AmqpMessageProperties
         description: AmqpMessageProperties.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.userId'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.MessageProperties.userId'
     name: userId
     fullName: userId
     children: []
@@ -294,41 +294,41 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
 references:
-  - uid: '@azure/ms-rest-azure-env.MessageProperties'
+  - uid: '@azure/amqp-common.MessageProperties'
     name: MessageProperties
     spec.typeScript:
       - name: MessageProperties
         fullName: MessageProperties
-        uid: '@azure/ms-rest-azure-env.MessageProperties'
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.absoluteExpiryTime'
+        uid: '@azure/amqp-common.MessageProperties'
+  - uid: '@azure/amqp-common.MessageProperties.absoluteExpiryTime'
     name: absoluteExpiryTime
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.contentEncoding'
+  - uid: '@azure/amqp-common.MessageProperties.contentEncoding'
     name: contentEncoding
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.contentType'
+  - uid: '@azure/amqp-common.MessageProperties.contentType'
     name: contentType
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.correlationId'
+  - uid: '@azure/amqp-common.MessageProperties.correlationId'
     name: correlationId
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.creationTime'
+  - uid: '@azure/amqp-common.MessageProperties.creationTime'
     name: creationTime
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.fromAmqpMessageProperties'
+  - uid: '@azure/amqp-common.MessageProperties.fromAmqpMessageProperties'
     name: fromAmqpMessageProperties
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.groupId'
+  - uid: '@azure/amqp-common.MessageProperties.groupId'
     name: groupId
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.groupSequence'
+  - uid: '@azure/amqp-common.MessageProperties.groupSequence'
     name: groupSequence
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.messageId'
+  - uid: '@azure/amqp-common.MessageProperties.messageId'
     name: messageId
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.replyTo'
+  - uid: '@azure/amqp-common.MessageProperties.replyTo'
     name: replyTo
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.replyToGroupId'
+  - uid: '@azure/amqp-common.MessageProperties.replyToGroupId'
     name: replyToGroupId
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.subject'
+  - uid: '@azure/amqp-common.MessageProperties.subject'
     name: subject
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.to'
+  - uid: '@azure/amqp-common.MessageProperties.to'
     name: to
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.toAmqpMessageProperties'
+  - uid: '@azure/amqp-common.MessageProperties.toAmqpMessageProperties'
     name: toAmqpMessageProperties
-  - uid: '@azure/ms-rest-azure-env.MessageProperties.userId'
+  - uid: '@azure/amqp-common.MessageProperties.userId'
     name: userId

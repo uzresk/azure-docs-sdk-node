@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.ipRangeToString'
+  - uid: '@azure/storage-file-datalake.ipRangeToString'
     name: ipRangeToString(SasIPRange)
     children: []
     type: function
@@ -14,17 +14,17 @@ items:
       parameters:
         - id: ipRange
           type:
-            - '@azure/abort-controller.SasIPRange'
+            - '@azure/storage-file-datalake.SasIPRange'
           description: ''
       return:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.SasIPRange'
+  - uid: '@azure/storage-file-datalake.SasIPRange'
     name: SasIPRange
     spec.typeScript:
       - name: SasIPRange
         fullName: SasIPRange
-        uid: '@azure/abort-controller.SasIPRange'
+        uid: '@azure/storage-file-datalake.SasIPRange'

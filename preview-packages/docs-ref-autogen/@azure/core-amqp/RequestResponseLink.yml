@@ -1,27 +1,27 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.RequestResponseLink
+  - uid: '@azure/core-amqp.RequestResponseLink'
     name: RequestResponseLink
     fullName: RequestResponseLink
     children:
-      - tslib.RequestResponseLink.close
-      - tslib.RequestResponseLink.connection
-      - tslib.RequestResponseLink.create
-      - tslib.RequestResponseLink.isOpen
-      - tslib.RequestResponseLink.receiver
-      - tslib.RequestResponseLink.remove
-      - tslib.RequestResponseLink.constructor
-      - tslib.RequestResponseLink.sender
-      - tslib.RequestResponseLink.sendRequest
-      - tslib.RequestResponseLink.session
+      - '@azure/core-amqp.RequestResponseLink.close'
+      - '@azure/core-amqp.RequestResponseLink.connection'
+      - '@azure/core-amqp.RequestResponseLink.create'
+      - '@azure/core-amqp.RequestResponseLink.isOpen'
+      - '@azure/core-amqp.RequestResponseLink.receiver'
+      - '@azure/core-amqp.RequestResponseLink.remove'
+      - '@azure/core-amqp.RequestResponseLink.constructor'
+      - '@azure/core-amqp.RequestResponseLink.sender'
+      - '@azure/core-amqp.RequestResponseLink.sendRequest'
+      - '@azure/core-amqp.RequestResponseLink.session'
     langs:
       - typeScript
     type: class
     summary: >-
       Describes an amqp request(sender)-response(receiver) link that is created
       over an amqp session.
-    package: tslib
-  - uid: tslib.RequestResponseLink.close
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RequestResponseLink.close'
     name: close()
     children: []
     type: method
@@ -35,8 +35,8 @@ items:
         type:
           - Promise<void>
         description: Promise<void>
-    package: tslib
-  - uid: tslib.RequestResponseLink.connection
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RequestResponseLink.connection'
     name: connection
     fullName: connection
     children: []
@@ -50,8 +50,8 @@ items:
         type:
           - Connection
         description: ''
-    package: tslib
-  - uid: tslib.RequestResponseLink.create
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RequestResponseLink.create'
     name: 'create(Connection, SenderOptions, ReceiverOptions)'
     children: []
     type: method
@@ -77,10 +77,10 @@ items:
           description: Options that must be provided to create the receiver link.
       return:
         type:
-          - Promise<tslib.RequestResponseLink>
+          - Promise<@azure/core-amqp.RequestResponseLink>
         description: Promise<RequestResponseLink>
-    package: tslib
-  - uid: tslib.RequestResponseLink.isOpen
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RequestResponseLink.isOpen'
     name: isOpen()
     children: []
     type: method
@@ -96,8 +96,8 @@ items:
         type:
           - boolean
         description: 'boolean - `true` - `open`, `false` - `closed`.'
-    package: tslib
-  - uid: tslib.RequestResponseLink.receiver
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RequestResponseLink.receiver'
     name: receiver
     fullName: receiver
     children: []
@@ -111,8 +111,8 @@ items:
         type:
           - Receiver
         description: ''
-    package: tslib
-  - uid: tslib.RequestResponseLink.remove
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RequestResponseLink.remove'
     name: remove()
     children: []
     type: method
@@ -122,8 +122,8 @@ items:
     syntax:
       content: function remove()
       parameters: []
-    package: tslib
-  - uid: tslib.RequestResponseLink.constructor
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RequestResponseLink.constructor'
     name: 'RequestResponseLink(Session, Sender, Receiver)'
     children: []
     type: constructor
@@ -137,7 +137,7 @@ items:
       parameters:
         - id: session
           type:
-            - tslib.inspector.Session
+            - Session
           description: The amqp session.
         - id: sender
           type:
@@ -148,8 +148,8 @@ items:
             - Receiver
           description: |
             The amqp receiver link.
-    package: tslib
-  - uid: tslib.RequestResponseLink.sender
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RequestResponseLink.sender'
     name: sender
     fullName: sender
     children: []
@@ -163,8 +163,8 @@ items:
         type:
           - Sender
         description: ''
-    package: tslib
-  - uid: tslib.RequestResponseLink.sendRequest
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RequestResponseLink.sendRequest'
     name: 'sendRequest(AmqpMessage, SendRequestOptions)'
     children: []
     type: method
@@ -185,15 +185,15 @@ items:
           description: The AMQP (request) message.
         - id: options
           type:
-            - tslib.SendRequestOptions
+            - '@azure/core-amqp.SendRequestOptions'
           description: ''
           optional: true
       return:
         type:
           - Promise<AmqpMessage>
         description: Promise<Message> The AMQP (response) message.
-    package: tslib
-  - uid: tslib.RequestResponseLink.session
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.RequestResponseLink.session'
     name: session
     fullName: session
     children: []
@@ -205,29 +205,23 @@ items:
       content: 'session: Session'
       return:
         type:
-          - tslib.inspector.Session
+          - Session
         description: ''
-    package: tslib
+    package: '@azure/core-amqp'
 references:
-  - uid: tslib.inspector.Session
-    name: Session
-    spec.typeScript:
-      - name: Session
-        fullName: Session
-        uid: tslib.inspector.Session
-  - uid: tslib.SendRequestOptions
+  - uid: '@azure/core-amqp.SendRequestOptions'
     name: SendRequestOptions
     spec.typeScript:
       - name: SendRequestOptions
         fullName: SendRequestOptions
-        uid: tslib.SendRequestOptions
-  - uid: Promise<tslib.RequestResponseLink>
+        uid: '@azure/core-amqp.SendRequestOptions'
+  - uid: Promise<@azure/core-amqp.RequestResponseLink>
     name: RequestResponseLink>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: RequestResponseLink
         fullName: RequestResponseLink
-        uid: tslib.RequestResponseLink
+        uid: '@azure/core-amqp.RequestResponseLink'
       - name: '>'
         fullName: '>'

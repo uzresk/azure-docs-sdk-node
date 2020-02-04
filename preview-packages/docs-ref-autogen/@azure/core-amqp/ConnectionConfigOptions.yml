@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.ConnectionConfigOptions
+  - uid: '@azure/core-amqp.ConnectionConfigOptions'
     name: ConnectionConfigOptions
     fullName: ConnectionConfigOptions
     children:
-      - tslib.ConnectionConfigOptions.isEntityPathRequired
+      - '@azure/core-amqp.ConnectionConfigOptions.isEntityPathRequired'
     langs:
       - typeScript
     type: interface
     summary: >-
       Describes the options that can be provided while creating a connection
       config.
-    package: tslib
-  - uid: tslib.ConnectionConfigOptions.isEntityPathRequired
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.ConnectionConfigOptions.isEntityPathRequired'
     name: isEntityPathRequired
     fullName: isEntityPathRequired
     children: []
@@ -31,4 +31,4 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: tslib
+    package: '@azure/core-amqp'

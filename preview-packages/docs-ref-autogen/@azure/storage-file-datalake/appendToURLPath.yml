@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.appendToURLPath'
+  - uid: '@azure/storage-file-datalake.appendToURLPath'
     name: 'appendToURLPath(string, string)'
     children: []
     type: function
@@ -26,4 +26,4 @@ items:
         type:
           - string
         description: An updated URL string
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

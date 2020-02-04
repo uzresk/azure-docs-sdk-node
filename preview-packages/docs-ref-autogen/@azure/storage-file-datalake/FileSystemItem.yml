@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.FileSystemItem'
+  - uid: '@azure/storage-file-datalake.FileSystemItem'
     name: FileSystemItem
     fullName: FileSystemItem
     children:
-      - '@azure/abort-controller.FileSystemItem.metadata'
-      - '@azure/abort-controller.FileSystemItem.name'
-      - '@azure/abort-controller.FileSystemItem.properties'
+      - '@azure/storage-file-datalake.FileSystemItem.metadata'
+      - '@azure/storage-file-datalake.FileSystemItem.name'
+      - '@azure/storage-file-datalake.FileSystemItem.properties'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemItem.metadata'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemItem.metadata'
     name: metadata
     fullName: metadata
     children: []
@@ -25,10 +25,10 @@ items:
       content: 'metadata?: Metadata'
       return:
         type:
-          - '@azure/abort-controller.Metadata'
+          - '@azure/storage-file-datalake.Metadata'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemItem.name'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemItem.name'
     name: name
     fullName: name
     children: []
@@ -42,8 +42,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemItem.properties'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemItem.properties'
     name: properties
     fullName: properties
     children: []
@@ -55,19 +55,19 @@ items:
       content: 'properties: FileSystemProperties'
       return:
         type:
-          - '@azure/abort-controller.FileSystemProperties'
+          - '@azure/storage-file-datalake.FileSystemProperties'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.Metadata'
+  - uid: '@azure/storage-file-datalake.Metadata'
     name: Metadata
     spec.typeScript:
       - name: Metadata
         fullName: Metadata
-        uid: '@azure/abort-controller.Metadata'
-  - uid: '@azure/abort-controller.FileSystemProperties'
+        uid: '@azure/storage-file-datalake.Metadata'
+  - uid: '@azure/storage-file-datalake.FileSystemProperties'
     name: FileSystemProperties
     spec.typeScript:
       - name: FileSystemProperties
         fullName: FileSystemProperties
-        uid: '@azure/abort-controller.FileSystemProperties'
+        uid: '@azure/storage-file-datalake.FileSystemProperties'

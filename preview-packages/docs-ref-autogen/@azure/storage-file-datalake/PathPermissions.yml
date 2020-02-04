@@ -1,20 +1,20 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PathPermissions'
+  - uid: '@azure/storage-file-datalake.PathPermissions'
     name: PathPermissions
     fullName: PathPermissions
     children:
-      - '@azure/abort-controller.PathPermissions.extendedAcls'
-      - '@azure/abort-controller.PathPermissions.group'
-      - '@azure/abort-controller.PathPermissions.other'
-      - '@azure/abort-controller.PathPermissions.owner'
-      - '@azure/abort-controller.PathPermissions.stickyBit'
+      - '@azure/storage-file-datalake.PathPermissions.extendedAcls'
+      - '@azure/storage-file-datalake.PathPermissions.group'
+      - '@azure/storage-file-datalake.PathPermissions.other'
+      - '@azure/storage-file-datalake.PathPermissions.owner'
+      - '@azure/storage-file-datalake.PathPermissions.stickyBit'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathPermissions.extendedAcls'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathPermissions.extendedAcls'
     name: extendedAcls
     fullName: extendedAcls
     children: []
@@ -28,8 +28,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathPermissions.group'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathPermissions.group'
     name: group
     fullName: group
     children: []
@@ -41,10 +41,10 @@ items:
       content: 'group: RolePermissions'
       return:
         type:
-          - '@azure/abort-controller.RolePermissions'
+          - '@azure/storage-file-datalake.RolePermissions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathPermissions.other'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathPermissions.other'
     name: other
     fullName: other
     children: []
@@ -56,10 +56,10 @@ items:
       content: 'other: RolePermissions'
       return:
         type:
-          - '@azure/abort-controller.RolePermissions'
+          - '@azure/storage-file-datalake.RolePermissions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathPermissions.owner'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathPermissions.owner'
     name: owner
     fullName: owner
     children: []
@@ -71,10 +71,10 @@ items:
       content: 'owner: RolePermissions'
       return:
         type:
-          - '@azure/abort-controller.RolePermissions'
+          - '@azure/storage-file-datalake.RolePermissions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathPermissions.stickyBit'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathPermissions.stickyBit'
     name: stickyBit
     fullName: stickyBit
     children: []
@@ -88,11 +88,11 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.RolePermissions'
+  - uid: '@azure/storage-file-datalake.RolePermissions'
     name: RolePermissions
     spec.typeScript:
       - name: RolePermissions
         fullName: RolePermissions
-        uid: '@azure/abort-controller.RolePermissions'
+        uid: '@azure/storage-file-datalake.RolePermissions'

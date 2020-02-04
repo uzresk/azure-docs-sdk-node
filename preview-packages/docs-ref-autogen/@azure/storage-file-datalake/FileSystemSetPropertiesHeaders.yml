@@ -1,21 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.FileSystemSetPropertiesHeaders'
+  - uid: '@azure/storage-file-datalake.FileSystemSetPropertiesHeaders'
     name: FileSystemSetPropertiesHeaders
     fullName: FileSystemSetPropertiesHeaders
     children:
-      - '@azure/abort-controller.FileSystemSetPropertiesHeaders.date'
-      - '@azure/abort-controller.FileSystemSetPropertiesHeaders.errorCode'
-      - '@azure/abort-controller.FileSystemSetPropertiesHeaders.eTag'
-      - '@azure/abort-controller.FileSystemSetPropertiesHeaders.lastModified'
-      - '@azure/abort-controller.FileSystemSetPropertiesHeaders.requestId'
-      - '@azure/abort-controller.FileSystemSetPropertiesHeaders.version'
+      - '@azure/storage-file-datalake.FileSystemSetPropertiesHeaders.date'
+      - '@azure/storage-file-datalake.FileSystemSetPropertiesHeaders.errorCode'
+      - '@azure/storage-file-datalake.FileSystemSetPropertiesHeaders.eTag'
+      - '@azure/storage-file-datalake.FileSystemSetPropertiesHeaders.lastModified'
+      - '@azure/storage-file-datalake.FileSystemSetPropertiesHeaders.requestId'
+      - '@azure/storage-file-datalake.FileSystemSetPropertiesHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: Defines headers for SetProperties operation.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemSetPropertiesHeaders.date'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemSetPropertiesHeaders.date'
     name: date
     fullName: date
     children: []
@@ -32,10 +32,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemSetPropertiesHeaders.errorCode'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemSetPropertiesHeaders.errorCode'
     name: errorCode
     fullName: errorCode
     children: []
@@ -50,8 +50,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemSetPropertiesHeaders.eTag'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemSetPropertiesHeaders.eTag'
     name: eTag
     fullName: eTag
     children: []
@@ -70,8 +70,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemSetPropertiesHeaders.lastModified'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemSetPropertiesHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -88,10 +88,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemSetPropertiesHeaders.requestId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemSetPropertiesHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -108,8 +108,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemSetPropertiesHeaders.version'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemSetPropertiesHeaders.version'
     name: version
     fullName: version
     children: []
@@ -124,11 +124,4 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-references:
-  - uid: '@azure/abort-controller.NodeJS.Global.Date'
-    name: Date
-    spec.typeScript:
-      - name: Date
-        fullName: Date
-        uid: '@azure/abort-controller.NodeJS.Global.Date'
+    package: '@azure/storage-file-datalake'

@@ -1,22 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.FileAppendOptions'
+  - uid: '@azure/storage-file-datalake.FileAppendOptions'
     name: FileAppendOptions
     fullName: FileAppendOptions
     children:
-      - '@azure/abort-controller.FileAppendOptions.abortSignal'
-      - '@azure/abort-controller.FileAppendOptions.conditions'
-      - '@azure/abort-controller.FileAppendOptions.onProgress'
-      - '@azure/abort-controller.FileAppendOptions.tracingOptions'
-      - '@azure/abort-controller.FileAppendOptions.transactionalContentMD5'
+      - '@azure/storage-file-datalake.FileAppendOptions.abortSignal'
+      - '@azure/storage-file-datalake.FileAppendOptions.conditions'
+      - '@azure/storage-file-datalake.FileAppendOptions.onProgress'
+      - '@azure/storage-file-datalake.FileAppendOptions.tracingOptions'
+      - '@azure/storage-file-datalake.FileAppendOptions.transactionalContentMD5'
     langs:
       - typeScript
     type: interface
     summary: ''
     extends:
-      name: '@azure/abort-controller.CommonOptions'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileAppendOptions.abortSignal'
+      name: '@azure/storage-file-datalake.CommonOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileAppendOptions.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -29,10 +29,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - '@azure/abort-controller.AbortSignalLike'
+          - AbortSignalLike
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileAppendOptions.conditions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileAppendOptions.conditions'
     name: conditions
     fullName: conditions
     children: []
@@ -45,10 +45,10 @@ items:
       content: 'conditions?: LeaseAccessConditions'
       return:
         type:
-          - '@azure/abort-controller.LeaseAccessConditions'
+          - '@azure/storage-file-datalake.LeaseAccessConditions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileAppendOptions.onProgress'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileAppendOptions.onProgress'
     name: onProgress
     fullName: onProgress
     children: []
@@ -63,8 +63,8 @@ items:
         type:
           - 'undefined | (progress: TransferProgressEvent) => void'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileAppendOptions.tracingOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileAppendOptions.tracingOptions'
     name: tracingOptions
     fullName: tracingOptions
     children: []
@@ -77,10 +77,10 @@ items:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         type:
-          - '@azure/abort-controller.OperationTracingOptions'
+          - '@azure/storage-file-datalake.OperationTracingOptions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileAppendOptions.transactionalContentMD5'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileAppendOptions.transactionalContentMD5'
     name: transactionalContentMD5
     fullName: transactionalContentMD5
     children: []
@@ -93,37 +93,25 @@ items:
       content: 'transactionalContentMD5?: Uint8Array'
       return:
         type:
-          - '@azure/abort-controller.Buffer.Uint8Array'
+          - Uint8Array
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/storage-file-datalake.CommonOptions'
     name: CommonOptions
     spec.typeScript:
       - name: CommonOptions
         fullName: CommonOptions
-        uid: '@azure/abort-controller.CommonOptions'
-  - uid: '@azure/abort-controller.AbortSignalLike'
-    name: AbortSignalLike
-    spec.typeScript:
-      - name: AbortSignalLike
-        fullName: AbortSignalLike
-        uid: '@azure/abort-controller.AbortSignalLike'
-  - uid: '@azure/abort-controller.LeaseAccessConditions'
+        uid: '@azure/storage-file-datalake.CommonOptions'
+  - uid: '@azure/storage-file-datalake.LeaseAccessConditions'
     name: LeaseAccessConditions
     spec.typeScript:
       - name: LeaseAccessConditions
         fullName: LeaseAccessConditions
-        uid: '@azure/abort-controller.LeaseAccessConditions'
-  - uid: '@azure/abort-controller.OperationTracingOptions'
+        uid: '@azure/storage-file-datalake.LeaseAccessConditions'
+  - uid: '@azure/storage-file-datalake.OperationTracingOptions'
     name: OperationTracingOptions
     spec.typeScript:
       - name: OperationTracingOptions
         fullName: OperationTracingOptions
-        uid: '@azure/abort-controller.OperationTracingOptions'
-  - uid: '@azure/abort-controller.Buffer.Uint8Array'
-    name: Uint8Array
-    spec.typeScript:
-      - name: Uint8Array
-        fullName: Uint8Array
-        uid: '@azure/abort-controller.Buffer.Uint8Array'
+        uid: '@azure/storage-file-datalake.OperationTracingOptions'

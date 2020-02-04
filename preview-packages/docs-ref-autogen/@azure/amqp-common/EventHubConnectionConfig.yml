@@ -1,33 +1,31 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig'
     name: EventHubConnectionConfig
     langs:
       - typeScript
     fullName: EventHubConnectionConfig
     children:
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.connectionString'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.create'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.create_1'
-      - >-
-        @azure/ms-rest-azure-env.EventHubConnectionConfig.createFromConnectionConfig
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.endpoint'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.entityPath'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.getManagementAddress'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.getManagementAudience'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.getReceiverAddress'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.getReceiverAudience'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.getSenderAddress'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.getSenderAudience'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.host'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.sharedAccessKey'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.sharedAccessKeyName'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.validate'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.validate_1'
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.webSocket'
-      - >-
-        @azure/ms-rest-azure-env.EventHubConnectionConfig.webSocketConstructorOptions
-      - '@azure/ms-rest-azure-env.EventHubConnectionConfig.webSocketEndpointPath'
+      - '@azure/amqp-common.EventHubConnectionConfig.connectionString'
+      - '@azure/amqp-common.EventHubConnectionConfig.create'
+      - '@azure/amqp-common.EventHubConnectionConfig.create_1'
+      - '@azure/amqp-common.EventHubConnectionConfig.createFromConnectionConfig'
+      - '@azure/amqp-common.EventHubConnectionConfig.endpoint'
+      - '@azure/amqp-common.EventHubConnectionConfig.entityPath'
+      - '@azure/amqp-common.EventHubConnectionConfig.getManagementAddress'
+      - '@azure/amqp-common.EventHubConnectionConfig.getManagementAudience'
+      - '@azure/amqp-common.EventHubConnectionConfig.getReceiverAddress'
+      - '@azure/amqp-common.EventHubConnectionConfig.getReceiverAudience'
+      - '@azure/amqp-common.EventHubConnectionConfig.getSenderAddress'
+      - '@azure/amqp-common.EventHubConnectionConfig.getSenderAudience'
+      - '@azure/amqp-common.EventHubConnectionConfig.host'
+      - '@azure/amqp-common.EventHubConnectionConfig.sharedAccessKey'
+      - '@azure/amqp-common.EventHubConnectionConfig.sharedAccessKeyName'
+      - '@azure/amqp-common.EventHubConnectionConfig.validate'
+      - '@azure/amqp-common.EventHubConnectionConfig.validate_1'
+      - '@azure/amqp-common.EventHubConnectionConfig.webSocket'
+      - '@azure/amqp-common.EventHubConnectionConfig.webSocketConstructorOptions'
+      - '@azure/amqp-common.EventHubConnectionConfig.webSocketEndpointPath'
     type: module
     summary: >-
       Describes the connection config object that is created after parsing an
@@ -37,9 +35,9 @@ items:
       and audience for
 
       different entities.
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
     module: EventHubConnectionConfig
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.connectionString'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.connectionString'
     name: connectionString
     fullName: connectionString
     children: []
@@ -53,8 +51,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.create'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.create'
     name: 'create(string, undefined | string)'
     children: []
     type: method
@@ -77,10 +75,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/ms-rest-azure-env.ConnectionConfig'
+          - '@azure/amqp-common.ConnectionConfig'
         description: ConnectionConfig
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.create_1'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.create_1'
     name: 'create(string, undefined | string)'
     children: []
     type: method
@@ -103,11 +101,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/ms-rest-azure-env.EventHubConnectionConfig'
+          - '@azure/amqp-common.EventHubConnectionConfig'
         description: EventHubConnectionConfig
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.EventHubConnectionConfig.createFromConnectionConfig
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.createFromConnectionConfig'
     name: createFromConnectionConfig(ConnectionConfig)
     children: []
     type: function
@@ -121,7 +118,7 @@ items:
       parameters:
         - id: config
           type:
-            - '@azure/ms-rest-azure-env.ConnectionConfig'
+            - '@azure/amqp-common.ConnectionConfig'
           description: >-
             The base connection config from which the EventHubConnectionConfig
             needs to be
@@ -129,10 +126,10 @@ items:
             created.
       return:
         type:
-          - '@azure/ms-rest-azure-env.EventHubConnectionConfig'
+          - '@azure/amqp-common.EventHubConnectionConfig'
         description: EventHubConnectionConfig
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.endpoint'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.endpoint'
     name: endpoint
     fullName: endpoint
     children: []
@@ -148,8 +145,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.entityPath'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.entityPath'
     name: entityPath
     fullName: entityPath
     children: []
@@ -167,8 +164,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.getManagementAddress'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.getManagementAddress'
     name: getManagementAddress()
     children: []
     type: method
@@ -184,8 +181,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.getManagementAudience'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.getManagementAudience'
     name: getManagementAudience()
     children: []
     type: method
@@ -201,8 +198,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.getReceiverAddress'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.getReceiverAddress'
     name: 'getReceiverAddress(string | number, undefined | string)'
     children: []
     type: method
@@ -235,8 +232,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.getReceiverAudience'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.getReceiverAudience'
     name: 'getReceiverAudience(string | number, undefined | string)'
     children: []
     type: method
@@ -269,8 +266,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.getSenderAddress'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.getSenderAddress'
     name: getSenderAddress(string | number)
     children: []
     type: method
@@ -296,8 +293,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.getSenderAudience'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.getSenderAudience'
     name: getSenderAudience(string | number)
     children: []
     type: method
@@ -324,8 +321,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.host'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.host'
     name: host
     fullName: host
     children: []
@@ -339,8 +336,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.sharedAccessKey'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.sharedAccessKey'
     name: sharedAccessKey
     fullName: sharedAccessKey
     children: []
@@ -354,8 +351,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.sharedAccessKeyName'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.sharedAccessKeyName'
     name: sharedAccessKeyName
     fullName: sharedAccessKeyName
     children: []
@@ -369,8 +366,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.validate'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.validate'
     name: 'validate(ConnectionConfig, ConnectionConfigOptions)'
     children: []
     type: method
@@ -384,15 +381,15 @@ items:
       parameters:
         - id: config
           type:
-            - '@azure/ms-rest-azure-env.ConnectionConfig'
+            - '@azure/amqp-common.ConnectionConfig'
           description: The connection config to be validated.
         - id: options
           type:
-            - '@azure/ms-rest-azure-env.ConnectionConfigOptions'
+            - '@azure/amqp-common.ConnectionConfigOptions'
           description: ''
           optional: true
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.validate_1'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.validate_1'
     name: validate(EventHubConnectionConfig)
     children: []
     type: method
@@ -404,10 +401,10 @@ items:
       parameters:
         - id: config
           type:
-            - '@azure/ms-rest-azure-env.EventHubConnectionConfig'
+            - '@azure/amqp-common.EventHubConnectionConfig'
           description: The connection config to be validated.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.webSocket'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.webSocket'
     name: webSocket
     fullName: webSocket
     children: []
@@ -429,9 +426,8 @@ items:
         type:
           - WebSocketImpl
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.EventHubConnectionConfig.webSocketConstructorOptions
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.webSocketConstructorOptions'
     name: webSocketConstructorOptions
     fullName: webSocketConstructorOptions
     children: []
@@ -448,8 +444,8 @@ items:
         type:
           - any
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.webSocketEndpointPath'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.webSocketEndpointPath'
     name: webSocketEndpointPath
     fullName: webSocketEndpointPath
     children: []
@@ -468,65 +464,63 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
 references:
-  - uid: '@azure/ms-rest-azure-env.ConnectionConfig'
+  - uid: '@azure/amqp-common.ConnectionConfig'
     name: ConnectionConfig
     spec.typeScript:
       - name: ConnectionConfig
         fullName: ConnectionConfig
-        uid: '@azure/ms-rest-azure-env.ConnectionConfig'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig'
+        uid: '@azure/amqp-common.ConnectionConfig'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig'
     name: EventHubConnectionConfig
     spec.typeScript:
       - name: EventHubConnectionConfig
         fullName: EventHubConnectionConfig
-        uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig'
-  - uid: '@azure/ms-rest-azure-env.ConnectionConfigOptions'
+        uid: '@azure/amqp-common.EventHubConnectionConfig'
+  - uid: '@azure/amqp-common.ConnectionConfigOptions'
     name: ConnectionConfigOptions
     spec.typeScript:
       - name: ConnectionConfigOptions
         fullName: ConnectionConfigOptions
-        uid: '@azure/ms-rest-azure-env.ConnectionConfigOptions'
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.connectionString'
+        uid: '@azure/amqp-common.ConnectionConfigOptions'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.connectionString'
     name: connectionString
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.create'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.create'
     name: create
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.create_1'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.create_1'
     name: create_1
-  - uid: >-
-      @azure/ms-rest-azure-env.EventHubConnectionConfig.createFromConnectionConfig
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.createFromConnectionConfig'
     name: createFromConnectionConfig
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.endpoint'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.endpoint'
     name: endpoint
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.entityPath'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.entityPath'
     name: entityPath
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.getManagementAddress'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.getManagementAddress'
     name: getManagementAddress
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.getManagementAudience'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.getManagementAudience'
     name: getManagementAudience
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.getReceiverAddress'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.getReceiverAddress'
     name: getReceiverAddress
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.getReceiverAudience'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.getReceiverAudience'
     name: getReceiverAudience
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.getSenderAddress'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.getSenderAddress'
     name: getSenderAddress
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.getSenderAudience'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.getSenderAudience'
     name: getSenderAudience
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.host'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.host'
     name: host
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.sharedAccessKey'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.sharedAccessKey'
     name: sharedAccessKey
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.sharedAccessKeyName'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.sharedAccessKeyName'
     name: sharedAccessKeyName
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.validate'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.validate'
     name: validate
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.validate_1'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.validate_1'
     name: validate_1
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.webSocket'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.webSocket'
     name: webSocket
-  - uid: >-
-      @azure/ms-rest-azure-env.EventHubConnectionConfig.webSocketConstructorOptions
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.webSocketConstructorOptions'
     name: webSocketConstructorOptions
-  - uid: '@azure/ms-rest-azure-env.EventHubConnectionConfig.webSocketEndpointPath'
+  - uid: '@azure/amqp-common.EventHubConnectionConfig.webSocketEndpointPath'
     name: webSocketEndpointPath

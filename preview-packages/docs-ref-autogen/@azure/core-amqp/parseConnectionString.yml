@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.parseConnectionString
+  - uid: '@azure/core-amqp.parseConnectionString'
     name: parseConnectionString(string)
     children: []
     type: function
@@ -31,15 +31,15 @@ items:
           description: The connection string to be parsed.
       return:
         type:
-          - tslib.ParsedOutput<T>
+          - '@azure/core-amqp.ParsedOutput<T>'
         description: ParsedOutput<T>.
-    package: tslib
+    package: '@azure/core-amqp'
 references:
-  - uid: tslib.ParsedOutput<T>
+  - uid: '@azure/core-amqp.ParsedOutput<T>'
     name: ParsedOutput<T>
     spec.typeScript:
       - name: ParsedOutput
         fullName: ParsedOutput
-        uid: tslib.ParsedOutput
+        uid: '@azure/core-amqp.ParsedOutput'
       - name: <T>
         fullName: <T>

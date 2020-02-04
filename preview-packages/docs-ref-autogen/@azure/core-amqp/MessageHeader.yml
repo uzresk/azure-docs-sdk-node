@@ -1,23 +1,23 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.MessageHeader
+  - uid: '@azure/core-amqp.MessageHeader'
     name: MessageHeader
     langs:
       - typeScript
     fullName: MessageHeader
     children:
-      - tslib.MessageHeader.deliveryCount
-      - tslib.MessageHeader.durable
-      - tslib.MessageHeader.firstAcquirer
-      - tslib.MessageHeader.fromAmqpMessageHeader
-      - tslib.MessageHeader.priority
-      - tslib.MessageHeader.toAmqpMessageHeader
-      - tslib.MessageHeader.ttl
+      - '@azure/core-amqp.MessageHeader.deliveryCount'
+      - '@azure/core-amqp.MessageHeader.durable'
+      - '@azure/core-amqp.MessageHeader.firstAcquirer'
+      - '@azure/core-amqp.MessageHeader.fromAmqpMessageHeader'
+      - '@azure/core-amqp.MessageHeader.priority'
+      - '@azure/core-amqp.MessageHeader.toAmqpMessageHeader'
+      - '@azure/core-amqp.MessageHeader.ttl'
     type: module
     summary: Describes the operations that can be performed on the message header.
-    package: tslib
+    package: '@azure/core-amqp'
     module: MessageHeader
-  - uid: tslib.MessageHeader.deliveryCount
+  - uid: '@azure/core-amqp.MessageHeader.deliveryCount'
     name: deliveryCount
     fullName: deliveryCount
     children: []
@@ -34,8 +34,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: tslib
-  - uid: tslib.MessageHeader.durable
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessageHeader.durable'
     name: durable
     fullName: durable
     children: []
@@ -50,8 +50,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: tslib
-  - uid: tslib.MessageHeader.firstAcquirer
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessageHeader.firstAcquirer'
     name: firstAcquirer
     fullName: firstAcquirer
     children: []
@@ -73,8 +73,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: tslib
-  - uid: tslib.MessageHeader.fromAmqpMessageHeader
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessageHeader.fromAmqpMessageHeader'
     name: fromAmqpMessageHeader(AmqpMessageHeader)
     children: []
     type: function
@@ -90,10 +90,10 @@ items:
           description: Amqp Message Header
       return:
         type:
-          - tslib.MessageHeader
+          - '@azure/core-amqp.MessageHeader'
         description: MessageHeader.
-    package: tslib
-  - uid: tslib.MessageHeader.priority
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessageHeader.priority'
     name: priority
     fullName: priority
     children: []
@@ -112,8 +112,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: tslib
-  - uid: tslib.MessageHeader.toAmqpMessageHeader
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessageHeader.toAmqpMessageHeader'
     name: toAmqpMessageHeader(MessageHeader)
     children: []
     type: function
@@ -125,14 +125,14 @@ items:
       parameters:
         - id: props
           type:
-            - tslib.MessageHeader
+            - '@azure/core-amqp.MessageHeader'
           description: Message header.
       return:
         type:
           - AmqpMessageHeader
         description: AmqpMessageHeader
-    package: tslib
-  - uid: tslib.MessageHeader.ttl
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.MessageHeader.ttl'
     name: ttl
     fullName: ttl
     children: []
@@ -147,25 +147,25 @@ items:
         type:
           - undefined | number
         description: ''
-    package: tslib
+    package: '@azure/core-amqp'
 references:
-  - uid: tslib.MessageHeader
+  - uid: '@azure/core-amqp.MessageHeader'
     name: MessageHeader
     spec.typeScript:
       - name: MessageHeader
         fullName: MessageHeader
-        uid: tslib.MessageHeader
-  - uid: tslib.MessageHeader.deliveryCount
+        uid: '@azure/core-amqp.MessageHeader'
+  - uid: '@azure/core-amqp.MessageHeader.deliveryCount'
     name: deliveryCount
-  - uid: tslib.MessageHeader.durable
+  - uid: '@azure/core-amqp.MessageHeader.durable'
     name: durable
-  - uid: tslib.MessageHeader.firstAcquirer
+  - uid: '@azure/core-amqp.MessageHeader.firstAcquirer'
     name: firstAcquirer
-  - uid: tslib.MessageHeader.fromAmqpMessageHeader
+  - uid: '@azure/core-amqp.MessageHeader.fromAmqpMessageHeader'
     name: fromAmqpMessageHeader
-  - uid: tslib.MessageHeader.priority
+  - uid: '@azure/core-amqp.MessageHeader.priority'
     name: priority
-  - uid: tslib.MessageHeader.toAmqpMessageHeader
+  - uid: '@azure/core-amqp.MessageHeader.toAmqpMessageHeader'
     name: toAmqpMessageHeader
-  - uid: tslib.MessageHeader.ttl
+  - uid: '@azure/core-amqp.MessageHeader.ttl'
     name: ttl

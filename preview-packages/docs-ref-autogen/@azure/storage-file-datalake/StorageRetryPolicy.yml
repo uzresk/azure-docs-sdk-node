@@ -1,21 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.StorageRetryPolicy'
+  - uid: '@azure/storage-file-datalake.StorageRetryPolicy'
     name: StorageRetryPolicy
     fullName: StorageRetryPolicy
     children:
-      - '@azure/abort-controller.StorageRetryPolicy.log'
-      - '@azure/abort-controller.StorageRetryPolicy.sendRequest'
-      - '@azure/abort-controller.StorageRetryPolicy.shouldLog'
-      - '@azure/abort-controller.StorageRetryPolicy.constructor'
+      - '@azure/storage-file-datalake.StorageRetryPolicy.log'
+      - '@azure/storage-file-datalake.StorageRetryPolicy.sendRequest'
+      - '@azure/storage-file-datalake.StorageRetryPolicy.shouldLog'
+      - '@azure/storage-file-datalake.StorageRetryPolicy.constructor'
     langs:
       - typeScript
     type: class
     summary: Retry policy with exponential retry and linear retry implemented.
     extends:
-      name: '@azure/abort-controller.BaseRequestPolicy'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageRetryPolicy.log'
+      name: BaseRequestPolicy
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageRetryPolicy.log'
     name: 'log(HttpPipelineLogLevel, string)'
     children: []
     type: method
@@ -32,15 +32,15 @@ items:
       parameters:
         - id: logLevel
           type:
-            - '@azure/abort-controller.HttpPipelineLogLevel'
+            - HttpPipelineLogLevel
           description: The log level of this log.
         - id: message
           type:
             - string
           description: |
             The message of this log.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageRetryPolicy.sendRequest'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageRetryPolicy.sendRequest'
     name: sendRequest(WebResource)
     children: []
     type: method
@@ -52,14 +52,14 @@ items:
       parameters:
         - id: request
           type:
-            - '@azure/abort-controller.WebResource'
+            - WebResource
           description: ''
       return:
         type:
-          - Promise<@azure/abort-controller.HttpOperationResponse>
+          - Promise<HttpOperationResponse>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageRetryPolicy.shouldLog'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageRetryPolicy.shouldLog'
     name: shouldLog(HttpPipelineLogLevel)
     children: []
     type: method
@@ -71,14 +71,14 @@ items:
       parameters:
         - id: logLevel
           type:
-            - '@azure/abort-controller.HttpPipelineLogLevel'
+            - HttpPipelineLogLevel
           description: The log level of the log that will be logged.
       return:
         type:
           - boolean
         description: Whether or not a log with the provided log level should be logged.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageRetryPolicy.constructor'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageRetryPolicy.constructor'
     name: >-
       StorageRetryPolicy(RequestPolicy, RequestPolicyOptions,
       StorageRetryOptions)
@@ -94,62 +94,22 @@ items:
       parameters:
         - id: nextPolicy
           type:
-            - '@azure/abort-controller.RequestPolicy'
+            - RequestPolicy
           description: ''
         - id: options
           type:
-            - '@azure/abort-controller.RequestPolicyOptions'
+            - RequestPolicyOptions
           description: ''
         - id: retryOptions
           type:
-            - '@azure/abort-controller.StorageRetryOptions'
+            - '@azure/storage-file-datalake.StorageRetryOptions'
           description: ''
           optional: true
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.BaseRequestPolicy'
-    name: BaseRequestPolicy
-    spec.typeScript:
-      - name: BaseRequestPolicy
-        fullName: BaseRequestPolicy
-        uid: '@azure/abort-controller.BaseRequestPolicy'
-  - uid: '@azure/abort-controller.RequestPolicy'
-    name: RequestPolicy
-    spec.typeScript:
-      - name: RequestPolicy
-        fullName: RequestPolicy
-        uid: '@azure/abort-controller.RequestPolicy'
-  - uid: '@azure/abort-controller.RequestPolicyOptions'
-    name: RequestPolicyOptions
-    spec.typeScript:
-      - name: RequestPolicyOptions
-        fullName: RequestPolicyOptions
-        uid: '@azure/abort-controller.RequestPolicyOptions'
-  - uid: '@azure/abort-controller.StorageRetryOptions'
+  - uid: '@azure/storage-file-datalake.StorageRetryOptions'
     name: StorageRetryOptions
     spec.typeScript:
       - name: StorageRetryOptions
         fullName: StorageRetryOptions
-        uid: '@azure/abort-controller.StorageRetryOptions'
-  - uid: '@azure/abort-controller.HttpPipelineLogLevel'
-    name: HttpPipelineLogLevel
-    spec.typeScript:
-      - name: HttpPipelineLogLevel
-        fullName: HttpPipelineLogLevel
-        uid: '@azure/abort-controller.HttpPipelineLogLevel'
-  - uid: '@azure/abort-controller.WebResource'
-    name: WebResource
-    spec.typeScript:
-      - name: WebResource
-        fullName: WebResource
-        uid: '@azure/abort-controller.WebResource'
-  - uid: Promise<@azure/abort-controller.HttpOperationResponse>
-    name: HttpOperationResponse>
-    spec.typeScript:
-      - name: Promise<
-        fullName: Promise<
-      - name: HttpOperationResponse
-        fullName: HttpOperationResponse
-        uid: '@azure/abort-controller.HttpOperationResponse'
-      - name: '>'
-        fullName: '>'
+        uid: '@azure/storage-file-datalake.StorageRetryOptions'

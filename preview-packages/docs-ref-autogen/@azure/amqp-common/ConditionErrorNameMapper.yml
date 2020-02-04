@@ -1,96 +1,85 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper'
     name: ConditionErrorNameMapper
     fullName: ConditionErrorNameMapper
     children:
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:connection:forced'
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.system:error'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:connection:forced'
+      - '@azure/amqp-common.ConditionErrorNameMapper.system:error'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:connection:redirect'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:decode-error'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:frame-size-too-small'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:illegal-state'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:internal-error'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:invalid-field'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:link:detach-forced'
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:connection:redirect
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:decode-error'
+        @azure/amqp-common.ConditionErrorNameMapper.amqp:link:message-size-exceeded
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:link:redirect'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:link:stolen'
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:frame-size-too-small
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:illegal-state'
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:internal-error'
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:invalid-field'
+        @azure/amqp-common.ConditionErrorNameMapper.amqp:link:transfer-limit-exceeded
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:not-allowed'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:not-found'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:not-implemented'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:operation-timeout'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:precondition-failed'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:resource-deleted'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:resource-limit-exceeded'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:resource-locked'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:session:errant-link'
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:session:handle-in-use'
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:link:detach-forced
+        @azure/amqp-common.ConditionErrorNameMapper.amqp:session:unattached-handle
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:link:message-size-exceeded
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:link:redirect'
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:link:stolen'
+        @azure/amqp-common.ConditionErrorNameMapper.amqp:connection:framing-error
+      - '@azure/amqp-common.ConditionErrorNameMapper.amqp:unauthorized-access'
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:link:transfer-limit-exceeded
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:not-allowed'
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:not-found'
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:not-implemented'
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:operation-timeout'
+        @azure/amqp-common.ConditionErrorNameMapper.client.sender:not-enough-link-credit
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:precondition-failed
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:resource-deleted'
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:address-already-in-use
+      - '@azure/amqp-common.ConditionErrorNameMapper.com.microsoft:argument-error'
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:resource-limit-exceeded
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:resource-locked'
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:argument-out-of-range
+      - '@azure/amqp-common.ConditionErrorNameMapper.com.microsoft:auth-failed'
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:session:errant-link
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:entity-already-exists
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:session:handle-in-use
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:entity-disabled
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:session:unattached-handle
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:message-lock-lost
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:connection:framing-error
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:message-not-found
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:unauthorized-access
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:message-wait-timeout
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.client.sender:not-enough-link-credit
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:no-matching-subscription
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:address-already-in-use
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:operation-cancelled
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:argument-error
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:partition-not-owned
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:argument-out-of-range
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:precondition-failed
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:auth-failed
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:publisher-revoked
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:entity-already-exists
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:relay-not-found
+      - '@azure/amqp-common.ConditionErrorNameMapper.com.microsoft:server-busy'
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:entity-disabled
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:session-cannot-be-locked
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:message-lock-lost
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:session-lock-lost
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:message-not-found
+        @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:store-lock-lost
+      - '@azure/amqp-common.ConditionErrorNameMapper.com.microsoft:timeout'
       - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:message-wait-timeout
-      - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:no-matching-subscription
-      - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:operation-cancelled
-      - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:partition-not-owned
-      - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:precondition-failed
-      - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:publisher-revoked
-      - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:relay-not-found
-      - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:server-busy
-      - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:session-cannot-be-locked
-      - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:session-lock-lost
-      - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:store-lock-lost
-      - '@azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:timeout'
-      - >-
-        @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:session:window-violation
+        @azure/amqp-common.ConditionErrorNameMapper.amqp:session:window-violation
     langs:
       - typeScript
     type: enum
     summary: Maps the amqp error conditions to the Error names.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:connection:forced'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:connection:forced'
     name: 'amqp:connection:forced'
     children: []
     langs:
@@ -100,8 +89,8 @@ items:
       some reason.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.system:error'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.system:error'
     name: 'system:error'
     children: []
     langs:
@@ -112,8 +101,8 @@ items:
       <xref:https%3A%2F%2Fnodejs.org%2Fdist%2Flatest-v8.x%2Fdocs%2Fapi%2Fall.html%23errors_class_system_error>
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:connection:redirect'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:connection:redirect'
     name: 'amqp:connection:redirect'
     children: []
     langs:
@@ -123,8 +112,8 @@ items:
       connection.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:decode-error'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:decode-error'
     name: 'amqp:decode-error'
     children: []
     langs:
@@ -132,9 +121,8 @@ items:
     summary: Error is thrown when data could not be decoded.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:frame-size-too-small
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:frame-size-too-small'
     name: 'amqp:frame-size-too-small'
     children: []
     langs:
@@ -149,8 +137,8 @@ items:
       a frame of the agreed maximum frame size.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:illegal-state'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:illegal-state'
     name: 'amqp:illegal-state'
     children: []
     langs:
@@ -160,8 +148,8 @@ items:
       current state.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:internal-error'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:internal-error'
     name: 'amqp:internal-error'
     children: []
     langs:
@@ -171,8 +159,8 @@ items:
       a bug?
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:invalid-field'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:invalid-field'
     name: 'amqp:invalid-field'
     children: []
     langs:
@@ -182,8 +170,8 @@ items:
       operation could not proceed.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:link:detach-forced'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:link:detach-forced'
     name: 'amqp:link:detach-forced'
     children: []
     langs:
@@ -191,9 +179,9 @@ items:
     summary: Error is thrown when an operator intervened to detach for some reason.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:link:message-size-exceeded
+      @azure/amqp-common.ConditionErrorNameMapper.amqp:link:message-size-exceeded
     name: 'amqp:link:message-size-exceeded'
     children: []
     langs:
@@ -203,8 +191,8 @@ items:
       256Kb.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:link:redirect'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:link:redirect'
     name: 'amqp:link:redirect'
     children: []
     langs:
@@ -214,8 +202,8 @@ items:
       at the current container.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:link:stolen'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:link:stolen'
     name: 'amqp:link:stolen'
     children: []
     langs:
@@ -225,9 +213,9 @@ items:
       with different epoch values.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:link:transfer-limit-exceeded
+      @azure/amqp-common.ConditionErrorNameMapper.amqp:link:transfer-limit-exceeded
     name: 'amqp:link:transfer-limit-exceeded'
     children: []
     langs:
@@ -237,8 +225,8 @@ items:
       allowed on the link.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:not-allowed'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:not-allowed'
     name: 'amqp:not-allowed'
     children: []
     langs:
@@ -246,8 +234,8 @@ items:
     summary: Error is thrown when an operation is attempted but is not allowed.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:not-found'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:not-found'
     name: 'amqp:not-found'
     children: []
     langs:
@@ -257,8 +245,8 @@ items:
       operations.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:not-implemented'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:not-implemented'
     name: 'amqp:not-implemented'
     children: []
     langs:
@@ -268,8 +256,8 @@ items:
       is present.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:operation-timeout'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:operation-timeout'
     name: 'amqp:operation-timeout'
     children: []
     langs:
@@ -277,8 +265,8 @@ items:
     summary: Error is thrown when timeout happens for the said operation.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:precondition-failed'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:precondition-failed'
     name: 'amqp:precondition-failed'
     children: []
     langs:
@@ -288,8 +276,8 @@ items:
       execute an operation was not.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:resource-deleted'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:resource-deleted'
     name: 'amqp:resource-deleted'
     children: []
     langs:
@@ -299,9 +287,8 @@ items:
       deleted.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:resource-limit-exceeded
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:resource-limit-exceeded'
     name: 'amqp:resource-limit-exceeded'
     children: []
     langs:
@@ -320,8 +307,8 @@ items:
       been opened on a per-consumer group level.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:resource-locked'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:resource-locked'
     name: 'amqp:resource-locked'
     children: []
     langs:
@@ -333,8 +320,8 @@ items:
       has no access because another client is working with it.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:session:errant-link'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:session:errant-link'
     name: 'amqp:session:errant-link'
     children: []
     langs:
@@ -344,9 +331,8 @@ items:
       an error.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:session:handle-in-use
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:session:handle-in-use'
     name: 'amqp:session:handle-in-use'
     children: []
     langs:
@@ -356,9 +342,8 @@ items:
       in use for an attached link.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:session:unattached-handle
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:session:unattached-handle'
     name: 'amqp:session:unattached-handle'
     children: []
     langs:
@@ -370,9 +355,8 @@ items:
       currently in use of an attached link.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:connection:framing-error
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:connection:framing-error'
     name: 'amqp:connection:framing-error'
     children: []
     langs:
@@ -382,8 +366,8 @@ items:
       incoming byte stream.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:unauthorized-access'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:unauthorized-access'
     name: 'amqp:unauthorized-access'
     children: []
     langs:
@@ -393,9 +377,9 @@ items:
       refused the connection.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.client.sender:not-enough-link-credit
+      @azure/amqp-common.ConditionErrorNameMapper.client.sender:not-enough-link-credit
     name: 'client.sender:not-enough-link-credit'
     children: []
     langs:
@@ -405,9 +389,9 @@ items:
       to send the message.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:address-already-in-use
+      @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:address-already-in-use
     name: 'com.microsoft:address-already-in-use'
     children: []
     langs:
@@ -415,9 +399,8 @@ items:
     summary: Error is thrown when the address is already in use.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:argument-error
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.com.microsoft:argument-error'
     name: 'com.microsoft:argument-error'
     children: []
     langs:
@@ -425,9 +408,9 @@ items:
     summary: Error is thrown when an incorrect argument was received.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:argument-out-of-range
+      @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:argument-out-of-range
     name: 'com.microsoft:argument-out-of-range'
     children: []
     langs:
@@ -437,9 +420,8 @@ items:
       range.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:auth-failed
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.com.microsoft:auth-failed'
     name: 'com.microsoft:auth-failed'
     children: []
     langs:
@@ -449,9 +431,9 @@ items:
       refused the connection.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:entity-already-exists
+      @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:entity-already-exists
     name: 'com.microsoft:entity-already-exists'
     children: []
     langs:
@@ -461,9 +443,8 @@ items:
       exists.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:entity-disabled
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.com.microsoft:entity-disabled'
     name: 'com.microsoft:entity-disabled'
     children: []
     langs:
@@ -473,9 +454,9 @@ items:
       entity.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:message-lock-lost
+      @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:message-lock-lost
     name: 'com.microsoft:message-lock-lost'
     children: []
     langs:
@@ -483,9 +464,9 @@ items:
     summary: Error is thrown when the lock on the message is lost.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:message-not-found
+      @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:message-not-found
     name: 'com.microsoft:message-not-found'
     children: []
     langs:
@@ -493,9 +474,9 @@ items:
     summary: Error is thrown when the message is not found.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:message-wait-timeout
+      @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:message-wait-timeout
     name: 'com.microsoft:message-wait-timeout'
     children: []
     langs:
@@ -503,9 +484,9 @@ items:
     summary: Error is thrown when no new messages are received for the specified time.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:no-matching-subscription
+      @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:no-matching-subscription
     name: 'com.microsoft:no-matching-subscription'
     children: []
     langs:
@@ -513,9 +494,9 @@ items:
     summary: Error is thrown when a matching subscription is not found.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:operation-cancelled
+      @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:operation-cancelled
     name: 'com.microsoft:operation-cancelled'
     children: []
     langs:
@@ -525,9 +506,9 @@ items:
       issue.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:partition-not-owned
+      @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:partition-not-owned
     name: 'com.microsoft:partition-not-owned'
     children: []
     langs:
@@ -539,9 +520,9 @@ items:
       requesting entity.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:precondition-failed
+      @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:precondition-failed
     name: 'com.microsoft:precondition-failed'
     children: []
     langs:
@@ -551,9 +532,9 @@ items:
       execute an operation was not.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:publisher-revoked
+      @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:publisher-revoked
     name: 'com.microsoft:publisher-revoked'
     children: []
     langs:
@@ -561,9 +542,8 @@ items:
     summary: Error is thrown when access to publisher has been revoked.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:relay-not-found
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.com.microsoft:relay-not-found'
     name: 'com.microsoft:relay-not-found'
     children: []
     langs:
@@ -571,9 +551,8 @@ items:
     summary: Error is thrown when relay is not found.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:server-busy
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.com.microsoft:server-busy'
     name: 'com.microsoft:server-busy'
     children: []
     langs:
@@ -583,9 +562,9 @@ items:
       retry the operation.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:session-cannot-be-locked
+      @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:session-cannot-be-locked
     name: 'com.microsoft:session-cannot-be-locked'
     children: []
     langs:
@@ -593,9 +572,9 @@ items:
     summary: Error is thrown when the Azure ServiceBus session cannot be locked.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:session-lock-lost
+      @azure/amqp-common.ConditionErrorNameMapper.com.microsoft:session-lock-lost
     name: 'com.microsoft:session-lock-lost'
     children: []
     langs:
@@ -603,9 +582,8 @@ items:
     summary: Error is thrown when the lock on the Azure ServiceBus session is lost.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:store-lock-lost
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.com.microsoft:store-lock-lost'
     name: 'com.microsoft:store-lock-lost'
     children: []
     langs:
@@ -613,8 +591,8 @@ items:
     summary: Error is thrown when the store lock is lost.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ConditionErrorNameMapper.com.microsoft:timeout'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.com.microsoft:timeout'
     name: 'com.microsoft:timeout'
     children: []
     langs:
@@ -624,9 +602,8 @@ items:
       retried.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ConditionErrorNameMapper.amqp:session:window-violation
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ConditionErrorNameMapper.amqp:session:window-violation'
     name: 'amqp:session:window-violation'
     children: []
     langs:
@@ -634,4 +611,4 @@ items:
     summary: Error is thrown when the peer violated incoming window for the session.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'

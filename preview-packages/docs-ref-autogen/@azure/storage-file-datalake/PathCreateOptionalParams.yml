@@ -1,39 +1,40 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PathCreateOptionalParams'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams'
     name: PathCreateOptionalParams
     fullName: PathCreateOptionalParams
     children:
-      - '@azure/abort-controller.PathCreateOptionalParams.abortSignal'
-      - '@azure/abort-controller.PathCreateOptionalParams.continuation'
-      - '@azure/abort-controller.PathCreateOptionalParams.customHeaders'
-      - '@azure/abort-controller.PathCreateOptionalParams.leaseAccessConditions'
-      - '@azure/abort-controller.PathCreateOptionalParams.mode'
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.abortSignal'
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.continuation'
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.customHeaders'
       - >-
-        @azure/abort-controller.PathCreateOptionalParams.modifiedAccessConditions
-      - '@azure/abort-controller.PathCreateOptionalParams.onDownloadProgress'
-      - '@azure/abort-controller.PathCreateOptionalParams.onUploadProgress'
-      - '@azure/abort-controller.PathCreateOptionalParams.pathHttpHeaders'
-      - '@azure/abort-controller.PathCreateOptionalParams.permissions'
-      - '@azure/abort-controller.PathCreateOptionalParams.properties'
-      - '@azure/abort-controller.PathCreateOptionalParams.renameSource'
-      - '@azure/abort-controller.PathCreateOptionalParams.requestId'
-      - '@azure/abort-controller.PathCreateOptionalParams.resource'
-      - '@azure/abort-controller.PathCreateOptionalParams.sourceLeaseId'
+        @azure/storage-file-datalake.PathCreateOptionalParams.leaseAccessConditions
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.mode'
       - >-
-        @azure/abort-controller.PathCreateOptionalParams.sourceModifiedAccessConditions
-      - '@azure/abort-controller.PathCreateOptionalParams.spanOptions'
-      - '@azure/abort-controller.PathCreateOptionalParams.timeout'
-      - '@azure/abort-controller.PathCreateOptionalParams.timeoutParameter'
-      - '@azure/abort-controller.PathCreateOptionalParams.umask'
+        @azure/storage-file-datalake.PathCreateOptionalParams.modifiedAccessConditions
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.onDownloadProgress'
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.onUploadProgress'
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.pathHttpHeaders'
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.permissions'
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.properties'
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.renameSource'
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.requestId'
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.resource'
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.sourceLeaseId'
+      - >-
+        @azure/storage-file-datalake.PathCreateOptionalParams.sourceModifiedAccessConditions
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.spanOptions'
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.timeout'
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.timeoutParameter'
+      - '@azure/storage-file-datalake.PathCreateOptionalParams.umask'
     langs:
       - typeScript
     type: interface
     summary: Optional Parameters.
     extends:
-      name: '@azure/abort-controller.RequestOptionsBase'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.abortSignal'
+      name: RequestOptionsBase
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -46,10 +47,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - '@azure/abort-controller.AbortSignalLike'
+          - AbortSignalLike
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.continuation'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.continuation'
     name: continuation
     fullName: continuation
     children: []
@@ -77,8 +78,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.customHeaders'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.customHeaders'
     name: customHeaders
     fullName: customHeaders
     children: []
@@ -95,8 +96,9 @@ items:
         type:
           - 'undefined | [key: string]: string'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.leaseAccessConditions'
+    package: '@azure/storage-file-datalake'
+  - uid: >-
+      @azure/storage-file-datalake.PathCreateOptionalParams.leaseAccessConditions
     name: leaseAccessConditions
     fullName: leaseAccessConditions
     children: []
@@ -109,10 +111,10 @@ items:
       content: 'leaseAccessConditions?: LeaseAccessConditions'
       return:
         type:
-          - '@azure/abort-controller.LeaseAccessConditions'
+          - '@azure/storage-file-datalake.LeaseAccessConditions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.mode'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.mode'
     name: mode
     fullName: mode
     children: []
@@ -132,10 +134,11 @@ items:
       content: 'mode?: PathRenameMode'
       return:
         type:
-          - '@azure/abort-controller.PathRenameMode'
+          - '@azure/storage-file-datalake.PathRenameMode'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.modifiedAccessConditions'
+    package: '@azure/storage-file-datalake'
+  - uid: >-
+      @azure/storage-file-datalake.PathCreateOptionalParams.modifiedAccessConditions
     name: modifiedAccessConditions
     fullName: modifiedAccessConditions
     children: []
@@ -148,10 +151,10 @@ items:
       content: 'modifiedAccessConditions?: ModifiedAccessConditions'
       return:
         type:
-          - '@azure/abort-controller.ModifiedAccessConditions'
+          - '@azure/storage-file-datalake.ModifiedAccessConditions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.onDownloadProgress'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.onDownloadProgress'
     name: onDownloadProgress
     fullName: onDownloadProgress
     children: []
@@ -168,8 +171,8 @@ items:
         type:
           - 'undefined | (progress: TransferProgressEvent) => void'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.onUploadProgress'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.onUploadProgress'
     name: onUploadProgress
     fullName: onUploadProgress
     children: []
@@ -184,8 +187,8 @@ items:
         type:
           - 'undefined | (progress: TransferProgressEvent) => void'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.pathHttpHeaders'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.pathHttpHeaders'
     name: pathHttpHeaders
     fullName: pathHttpHeaders
     children: []
@@ -198,10 +201,10 @@ items:
       content: 'pathHttpHeaders?: PathHttpHeaders'
       return:
         type:
-          - '@azure/abort-controller.PathHttpHeaders'
+          - '@azure/storage-file-datalake.PathHttpHeaders'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.permissions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.permissions'
     name: permissions
     fullName: permissions
     children: []
@@ -226,8 +229,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.properties'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.properties'
     name: properties
     fullName: properties
     children: []
@@ -261,8 +264,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.renameSource'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.renameSource'
     name: renameSource
     fullName: renameSource
     children: []
@@ -290,8 +293,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.requestId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -310,8 +313,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.resource'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.resource'
     name: resource
     fullName: resource
     children: []
@@ -328,10 +331,10 @@ items:
       content: 'resource?: PathResourceType'
       return:
         type:
-          - '@azure/abort-controller.PathResourceType'
+          - '@azure/storage-file-datalake.PathResourceType'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.sourceLeaseId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.sourceLeaseId'
     name: sourceLeaseId
     fullName: sourceLeaseId
     children: []
@@ -350,9 +353,9 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
   - uid: >-
-      @azure/abort-controller.PathCreateOptionalParams.sourceModifiedAccessConditions
+      @azure/storage-file-datalake.PathCreateOptionalParams.sourceModifiedAccessConditions
     name: sourceModifiedAccessConditions
     fullName: sourceModifiedAccessConditions
     children: []
@@ -365,10 +368,10 @@ items:
       content: 'sourceModifiedAccessConditions?: SourceModifiedAccessConditions'
       return:
         type:
-          - '@azure/abort-controller.SourceModifiedAccessConditions'
+          - '@azure/storage-file-datalake.SourceModifiedAccessConditions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.spanOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.spanOptions'
     name: spanOptions
     fullName: spanOptions
     children: []
@@ -381,10 +384,10 @@ items:
       content: 'spanOptions?: SpanOptions'
       return:
         type:
-          - '@azure/abort-controller.SpanOptions'
+          - SpanOptions
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.timeout'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.timeout'
     name: timeout
     fullName: timeout
     children: []
@@ -401,8 +404,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.timeoutParameter'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.timeoutParameter'
     name: timeoutParameter
     fullName: timeoutParameter
     children: []
@@ -423,8 +426,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathCreateOptionalParams.umask'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathCreateOptionalParams.umask'
     name: umask
     fullName: umask
     children: []
@@ -458,59 +461,41 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.RequestOptionsBase'
-    name: RequestOptionsBase
-    spec.typeScript:
-      - name: RequestOptionsBase
-        fullName: RequestOptionsBase
-        uid: '@azure/abort-controller.RequestOptionsBase'
-  - uid: '@azure/abort-controller.AbortSignalLike'
-    name: AbortSignalLike
-    spec.typeScript:
-      - name: AbortSignalLike
-        fullName: AbortSignalLike
-        uid: '@azure/abort-controller.AbortSignalLike'
-  - uid: '@azure/abort-controller.LeaseAccessConditions'
+  - uid: '@azure/storage-file-datalake.LeaseAccessConditions'
     name: LeaseAccessConditions
     spec.typeScript:
       - name: LeaseAccessConditions
         fullName: LeaseAccessConditions
-        uid: '@azure/abort-controller.LeaseAccessConditions'
-  - uid: '@azure/abort-controller.PathRenameMode'
+        uid: '@azure/storage-file-datalake.LeaseAccessConditions'
+  - uid: '@azure/storage-file-datalake.PathRenameMode'
     name: PathRenameMode
     spec.typeScript:
       - name: PathRenameMode
         fullName: PathRenameMode
-        uid: '@azure/abort-controller.PathRenameMode'
-  - uid: '@azure/abort-controller.ModifiedAccessConditions'
+        uid: '@azure/storage-file-datalake.PathRenameMode'
+  - uid: '@azure/storage-file-datalake.ModifiedAccessConditions'
     name: ModifiedAccessConditions
     spec.typeScript:
       - name: ModifiedAccessConditions
         fullName: ModifiedAccessConditions
-        uid: '@azure/abort-controller.ModifiedAccessConditions'
-  - uid: '@azure/abort-controller.PathHttpHeaders'
+        uid: '@azure/storage-file-datalake.ModifiedAccessConditions'
+  - uid: '@azure/storage-file-datalake.PathHttpHeaders'
     name: PathHttpHeaders
     spec.typeScript:
       - name: PathHttpHeaders
         fullName: PathHttpHeaders
-        uid: '@azure/abort-controller.PathHttpHeaders'
-  - uid: '@azure/abort-controller.PathResourceType'
+        uid: '@azure/storage-file-datalake.PathHttpHeaders'
+  - uid: '@azure/storage-file-datalake.PathResourceType'
     name: PathResourceType
     spec.typeScript:
       - name: PathResourceType
         fullName: PathResourceType
-        uid: '@azure/abort-controller.PathResourceType'
-  - uid: '@azure/abort-controller.SourceModifiedAccessConditions'
+        uid: '@azure/storage-file-datalake.PathResourceType'
+  - uid: '@azure/storage-file-datalake.SourceModifiedAccessConditions'
     name: SourceModifiedAccessConditions
     spec.typeScript:
       - name: SourceModifiedAccessConditions
         fullName: SourceModifiedAccessConditions
-        uid: '@azure/abort-controller.SourceModifiedAccessConditions'
-  - uid: '@azure/abort-controller.SpanOptions'
-    name: SpanOptions
-    spec.typeScript:
-      - name: SpanOptions
-        fullName: SpanOptions
-        uid: '@azure/abort-controller.SpanOptions'
+        uid: '@azure/storage-file-datalake.SourceModifiedAccessConditions'

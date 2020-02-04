@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.Metadata'
+  - uid: '@azure/storage-file-datalake.Metadata'
     name: Metadata
     fullName: Metadata
     children: []
@@ -8,4 +8,4 @@ items:
       - typeScript
     type: interface
     summary: /
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

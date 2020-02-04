@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PathGetPropertiesAction'
+  - uid: '@azure/storage-file-datalake.PathGetPropertiesAction'
     name: PathGetPropertiesAction
     fullName: PathGetPropertiesAction
     children:
-      - '@azure/abort-controller.PathGetPropertiesAction.GetAccessControl'
-      - '@azure/abort-controller.PathGetPropertiesAction.GetStatus'
+      - '@azure/storage-file-datalake.PathGetPropertiesAction.GetAccessControl'
+      - '@azure/storage-file-datalake.PathGetPropertiesAction.GetStatus'
     langs:
       - typeScript
     type: enum
     summary: |-
       Defines values for PathGetPropertiesAction.
       Possible values include: 'getAccessControl', 'getStatus'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathGetPropertiesAction.GetAccessControl'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathGetPropertiesAction.GetAccessControl'
     name: GetAccessControl
     children: []
     langs:
@@ -21,8 +21,8 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathGetPropertiesAction.GetStatus'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathGetPropertiesAction.GetStatus'
     name: GetStatus
     children: []
     langs:
@@ -30,4 +30,4 @@ items:
     summary: ''
     type: field
     numericValue: null
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

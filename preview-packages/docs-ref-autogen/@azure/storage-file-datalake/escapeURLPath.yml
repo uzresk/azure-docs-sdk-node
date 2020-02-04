@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.escapeURLPath'
+  - uid: '@azure/storage-file-datalake.escapeURLPath'
     name: escapeURLPath(string)
     children: []
     type: function
@@ -110,4 +110,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

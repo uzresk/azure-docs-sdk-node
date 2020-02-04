@@ -1,33 +1,33 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@opentelemetry/types.TestSpan'
+  - uid: '@azure/core-tracing.TestSpan'
     name: TestSpan
     fullName: TestSpan
     children:
-      - '@opentelemetry/types.TestSpan.addEvent'
-      - '@opentelemetry/types.TestSpan.context'
-      - '@opentelemetry/types.TestSpan.end'
-      - '@opentelemetry/types.TestSpan.endCalled'
-      - '@opentelemetry/types.TestSpan.isRecording'
-      - '@opentelemetry/types.TestSpan.kind'
-      - '@opentelemetry/types.TestSpan.name'
-      - '@opentelemetry/types.TestSpan.parentSpanId'
-      - '@opentelemetry/types.TestSpan.setAttribute'
-      - '@opentelemetry/types.TestSpan.setAttributes'
-      - '@opentelemetry/types.TestSpan.setStatus'
-      - '@opentelemetry/types.TestSpan.startTime'
-      - '@opentelemetry/types.TestSpan.status'
-      - '@opentelemetry/types.TestSpan.constructor'
-      - '@opentelemetry/types.TestSpan.tracer'
-      - '@opentelemetry/types.TestSpan.updateName'
+      - '@azure/core-tracing.TestSpan.addEvent'
+      - '@azure/core-tracing.TestSpan.context'
+      - '@azure/core-tracing.TestSpan.end'
+      - '@azure/core-tracing.TestSpan.endCalled'
+      - '@azure/core-tracing.TestSpan.isRecording'
+      - '@azure/core-tracing.TestSpan.kind'
+      - '@azure/core-tracing.TestSpan.name'
+      - '@azure/core-tracing.TestSpan.parentSpanId'
+      - '@azure/core-tracing.TestSpan.setAttribute'
+      - '@azure/core-tracing.TestSpan.setAttributes'
+      - '@azure/core-tracing.TestSpan.setStatus'
+      - '@azure/core-tracing.TestSpan.startTime'
+      - '@azure/core-tracing.TestSpan.status'
+      - '@azure/core-tracing.TestSpan.constructor'
+      - '@azure/core-tracing.TestSpan.tracer'
+      - '@azure/core-tracing.TestSpan.updateName'
     langs:
       - typeScript
     type: class
     summary: A mock span useful for testing.
     extends:
-      name: '@opentelemetry/types.NoOpSpan'
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.addEvent'
+      name: '@azure/core-tracing.NoOpSpan'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.addEvent'
     name: 'addEvent(string, Attributes)'
     children: []
     type: method
@@ -43,7 +43,7 @@ items:
           description: The name of the event
         - id: _attributes
           type:
-            - '@opentelemetry/types.Attributes'
+            - Attributes
           description: |
             The associated attributes to add for this event
           optional: true
@@ -51,8 +51,8 @@ items:
         type:
           - this
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.context'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.context'
     name: context()
     children: []
     type: method
@@ -64,10 +64,10 @@ items:
       parameters: []
       return:
         type:
-          - '@opentelemetry/types.SpanContext'
+          - SpanContext
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.end'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.end'
     name: end(number)
     children: []
     type: method
@@ -84,8 +84,8 @@ items:
             The time to use as the Span's end time. Defaults to
             the current time.
           optional: true
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.endCalled'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.endCalled'
     name: endCalled
     fullName: endCalled
     children: []
@@ -99,8 +99,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.isRecording'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.isRecording'
     name: isRecording()
     children: []
     type: method
@@ -114,8 +114,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.kind'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.kind'
     name: kind
     fullName: kind
     children: []
@@ -127,10 +127,10 @@ items:
       content: 'kind: SpanKind'
       return:
         type:
-          - '@opentelemetry/types.SpanKind'
+          - SpanKind
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.name'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.name'
     name: name
     fullName: name
     children: []
@@ -144,8 +144,8 @@ items:
         type:
           - string
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.parentSpanId'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.parentSpanId'
     name: parentSpanId
     fullName: parentSpanId
     children: []
@@ -160,8 +160,8 @@ items:
         type:
           - string
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.setAttribute'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.setAttribute'
     name: 'setAttribute(string, unknown)'
     children: []
     type: method
@@ -184,8 +184,8 @@ items:
         type:
           - this
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.setAttributes'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.setAttributes'
     name: setAttributes(Attributes)
     children: []
     type: method
@@ -197,15 +197,15 @@ items:
       parameters:
         - id: _attributes
           type:
-            - '@opentelemetry/types.Attributes'
+            - Attributes
           description: |
             the attributes to add
       return:
         type:
           - this
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.setStatus'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.setStatus'
     name: setStatus(Status)
     children: []
     type: method
@@ -217,15 +217,15 @@ items:
       parameters:
         - id: status
           type:
-            - '@opentelemetry/types.Status'
+            - Status
           description: |
             The status to set.
       return:
         type:
           - this
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.startTime'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.startTime'
     name: startTime
     fullName: startTime
     children: []
@@ -237,10 +237,10 @@ items:
       content: 'startTime: TimeInput'
       return:
         type:
-          - '@opentelemetry/types.TimeInput'
+          - TimeInput
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.status'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.status'
     name: status
     fullName: status
     children: []
@@ -252,10 +252,10 @@ items:
       content: 'status: Status'
       return:
         type:
-          - '@opentelemetry/types.Status'
+          - Status
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.constructor'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.constructor'
     name: 'TestSpan(TestTracer, string, SpanContext, SpanKind, string, TimeInput)'
     children: []
     type: constructor
@@ -270,7 +270,7 @@ items:
       parameters:
         - id: parentTracer
           type:
-            - '@opentelemetry/types.TestTracer'
+            - '@azure/core-tracing.TestTracer'
           description: The tracer that created this Span
         - id: name
           type:
@@ -278,11 +278,11 @@ items:
           description: The name of the span.
         - id: context
           type:
-            - '@opentelemetry/types.SpanContext'
+            - SpanContext
           description: The SpanContext this span belongs to
         - id: kind
           type:
-            - '@opentelemetry/types.SpanKind'
+            - SpanKind
           description: The SpanKind of this Span
         - id: parentSpanId
           type:
@@ -291,12 +291,12 @@ items:
           optional: true
         - id: startTime
           type:
-            - '@opentelemetry/types.TimeInput'
+            - TimeInput
           description: |
             The startTime of the event (defaults to now)
           optional: true
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.tracer'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.tracer'
     name: tracer()
     children: []
     type: method
@@ -308,10 +308,10 @@ items:
       parameters: []
       return:
         type:
-          - '@opentelemetry/types.Tracer'
+          - Tracer
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.TestSpan.updateName'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.TestSpan.updateName'
     name: updateName(string)
     children: []
     type: method
@@ -330,53 +330,17 @@ items:
         type:
           - this
         description: ''
-    package: '@opentelemetry/types'
+    package: '@azure/core-tracing'
 references:
-  - uid: '@opentelemetry/types.NoOpSpan'
+  - uid: '@azure/core-tracing.NoOpSpan'
     name: NoOpSpan
     spec.typeScript:
       - name: NoOpSpan
         fullName: NoOpSpan
-        uid: '@opentelemetry/types.NoOpSpan'
-  - uid: '@opentelemetry/types.TestTracer'
+        uid: '@azure/core-tracing.NoOpSpan'
+  - uid: '@azure/core-tracing.TestTracer'
     name: TestTracer
     spec.typeScript:
       - name: TestTracer
         fullName: TestTracer
-        uid: '@opentelemetry/types.TestTracer'
-  - uid: '@opentelemetry/types.SpanContext'
-    name: SpanContext
-    spec.typeScript:
-      - name: SpanContext
-        fullName: SpanContext
-        uid: '@opentelemetry/types.SpanContext'
-  - uid: '@opentelemetry/types.SpanKind'
-    name: SpanKind
-    spec.typeScript:
-      - name: SpanKind
-        fullName: SpanKind
-        uid: '@opentelemetry/types.SpanKind'
-  - uid: '@opentelemetry/types.TimeInput'
-    name: TimeInput
-    spec.typeScript:
-      - name: TimeInput
-        fullName: TimeInput
-        uid: '@opentelemetry/types.TimeInput'
-  - uid: '@opentelemetry/types.Status'
-    name: Status
-    spec.typeScript:
-      - name: Status
-        fullName: Status
-        uid: '@opentelemetry/types.Status'
-  - uid: '@opentelemetry/types.Attributes'
-    name: Attributes
-    spec.typeScript:
-      - name: Attributes
-        fullName: Attributes
-        uid: '@opentelemetry/types.Attributes'
-  - uid: '@opentelemetry/types.Tracer'
-    name: Tracer
-    spec.typeScript:
-      - name: Tracer
-        fullName: Tracer
-        uid: '@opentelemetry/types.Tracer'
+        uid: '@azure/core-tracing.TestTracer'

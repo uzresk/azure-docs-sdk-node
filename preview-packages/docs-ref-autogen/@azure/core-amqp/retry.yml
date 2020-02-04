@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.retry
+  - uid: '@azure/core-amqp.retry'
     name: retry(RetryConfig<T>)
     children: []
     type: function
@@ -30,20 +30,20 @@ items:
       parameters:
         - id: config
           type:
-            - tslib.RetryConfig<T>
+            - '@azure/core-amqp.RetryConfig<T>'
           description: |
             Parameters to configure retry operation
       return:
         type:
           - Promise<T>
         description: Promise<T>.
-    package: tslib
+    package: '@azure/core-amqp'
 references:
-  - uid: tslib.RetryConfig<T>
+  - uid: '@azure/core-amqp.RetryConfig<T>'
     name: RetryConfig<T>
     spec.typeScript:
       - name: RetryConfig
         fullName: RetryConfig
-        uid: tslib.RetryConfig
+        uid: '@azure/core-amqp.RetryConfig'
       - name: <T>
         fullName: <T>

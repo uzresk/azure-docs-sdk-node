@@ -1,31 +1,31 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.EventHubConnectionConfig
+  - uid: '@azure/core-amqp.EventHubConnectionConfig'
     name: EventHubConnectionConfig
     langs:
       - typeScript
     fullName: EventHubConnectionConfig
     children:
-      - tslib.EventHubConnectionConfig.connectionString
-      - tslib.EventHubConnectionConfig.create
-      - tslib.EventHubConnectionConfig.create_1
-      - tslib.EventHubConnectionConfig.createFromConnectionConfig
-      - tslib.EventHubConnectionConfig.endpoint
-      - tslib.EventHubConnectionConfig.entityPath
-      - tslib.EventHubConnectionConfig.getManagementAddress
-      - tslib.EventHubConnectionConfig.getManagementAudience
-      - tslib.EventHubConnectionConfig.getReceiverAddress
-      - tslib.EventHubConnectionConfig.getReceiverAudience
-      - tslib.EventHubConnectionConfig.getSenderAddress
-      - tslib.EventHubConnectionConfig.getSenderAudience
-      - tslib.EventHubConnectionConfig.host
-      - tslib.EventHubConnectionConfig.sharedAccessKey
-      - tslib.EventHubConnectionConfig.sharedAccessKeyName
-      - tslib.EventHubConnectionConfig.validate
-      - tslib.EventHubConnectionConfig.validate_1
-      - tslib.EventHubConnectionConfig.webSocket
-      - tslib.EventHubConnectionConfig.webSocketConstructorOptions
-      - tslib.EventHubConnectionConfig.webSocketEndpointPath
+      - '@azure/core-amqp.EventHubConnectionConfig.connectionString'
+      - '@azure/core-amqp.EventHubConnectionConfig.create'
+      - '@azure/core-amqp.EventHubConnectionConfig.create_1'
+      - '@azure/core-amqp.EventHubConnectionConfig.createFromConnectionConfig'
+      - '@azure/core-amqp.EventHubConnectionConfig.endpoint'
+      - '@azure/core-amqp.EventHubConnectionConfig.entityPath'
+      - '@azure/core-amqp.EventHubConnectionConfig.getManagementAddress'
+      - '@azure/core-amqp.EventHubConnectionConfig.getManagementAudience'
+      - '@azure/core-amqp.EventHubConnectionConfig.getReceiverAddress'
+      - '@azure/core-amqp.EventHubConnectionConfig.getReceiverAudience'
+      - '@azure/core-amqp.EventHubConnectionConfig.getSenderAddress'
+      - '@azure/core-amqp.EventHubConnectionConfig.getSenderAudience'
+      - '@azure/core-amqp.EventHubConnectionConfig.host'
+      - '@azure/core-amqp.EventHubConnectionConfig.sharedAccessKey'
+      - '@azure/core-amqp.EventHubConnectionConfig.sharedAccessKeyName'
+      - '@azure/core-amqp.EventHubConnectionConfig.validate'
+      - '@azure/core-amqp.EventHubConnectionConfig.validate_1'
+      - '@azure/core-amqp.EventHubConnectionConfig.webSocket'
+      - '@azure/core-amqp.EventHubConnectionConfig.webSocketConstructorOptions'
+      - '@azure/core-amqp.EventHubConnectionConfig.webSocketEndpointPath'
     type: module
     summary: >-
       Describes the connection config object that is created after parsing an
@@ -35,9 +35,9 @@ items:
       and audience for
 
       different entities.
-    package: tslib
+    package: '@azure/core-amqp'
     module: EventHubConnectionConfig
-  - uid: tslib.EventHubConnectionConfig.connectionString
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.connectionString'
     name: connectionString
     fullName: connectionString
     children: []
@@ -51,8 +51,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.create
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.create'
     name: 'create(string, undefined | string)'
     children: []
     type: method
@@ -75,10 +75,10 @@ items:
           optional: true
       return:
         type:
-          - tslib.ConnectionConfig
+          - '@azure/core-amqp.ConnectionConfig'
         description: ConnectionConfig
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.create_1
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.create_1'
     name: 'create(string, undefined | string)'
     children: []
     type: method
@@ -101,10 +101,10 @@ items:
           optional: true
       return:
         type:
-          - tslib.EventHubConnectionConfig
+          - '@azure/core-amqp.EventHubConnectionConfig'
         description: EventHubConnectionConfig
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.createFromConnectionConfig
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.createFromConnectionConfig'
     name: createFromConnectionConfig(ConnectionConfig)
     children: []
     type: function
@@ -118,7 +118,7 @@ items:
       parameters:
         - id: config
           type:
-            - tslib.ConnectionConfig
+            - '@azure/core-amqp.ConnectionConfig'
           description: >-
             The base connection config from which the EventHubConnectionConfig
             needs to be
@@ -126,10 +126,10 @@ items:
             created.
       return:
         type:
-          - tslib.EventHubConnectionConfig
+          - '@azure/core-amqp.EventHubConnectionConfig'
         description: EventHubConnectionConfig
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.endpoint
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.endpoint'
     name: endpoint
     fullName: endpoint
     children: []
@@ -145,8 +145,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.entityPath
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.entityPath'
     name: entityPath
     fullName: entityPath
     children: []
@@ -164,8 +164,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.getManagementAddress
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.getManagementAddress'
     name: getManagementAddress()
     children: []
     type: method
@@ -181,8 +181,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.getManagementAudience
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.getManagementAudience'
     name: getManagementAudience()
     children: []
     type: method
@@ -198,8 +198,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.getReceiverAddress
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.getReceiverAddress'
     name: 'getReceiverAddress(string | number, undefined | string)'
     children: []
     type: method
@@ -232,8 +232,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.getReceiverAudience
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.getReceiverAudience'
     name: 'getReceiverAudience(string | number, undefined | string)'
     children: []
     type: method
@@ -266,8 +266,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.getSenderAddress
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.getSenderAddress'
     name: getSenderAddress(string | number)
     children: []
     type: method
@@ -293,8 +293,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.getSenderAudience
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.getSenderAudience'
     name: getSenderAudience(string | number)
     children: []
     type: method
@@ -321,8 +321,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.host
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.host'
     name: host
     fullName: host
     children: []
@@ -336,8 +336,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.sharedAccessKey
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.sharedAccessKey'
     name: sharedAccessKey
     fullName: sharedAccessKey
     children: []
@@ -351,8 +351,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.sharedAccessKeyName
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.sharedAccessKeyName'
     name: sharedAccessKeyName
     fullName: sharedAccessKeyName
     children: []
@@ -366,8 +366,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.validate
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.validate'
     name: 'validate(ConnectionConfig, ConnectionConfigOptions)'
     children: []
     type: method
@@ -381,15 +381,15 @@ items:
       parameters:
         - id: config
           type:
-            - tslib.ConnectionConfig
+            - '@azure/core-amqp.ConnectionConfig'
           description: The connection config to be validated.
         - id: options
           type:
-            - tslib.ConnectionConfigOptions
+            - '@azure/core-amqp.ConnectionConfigOptions'
           description: ''
           optional: true
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.validate_1
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.validate_1'
     name: validate(EventHubConnectionConfig)
     children: []
     type: method
@@ -401,10 +401,10 @@ items:
       parameters:
         - id: config
           type:
-            - tslib.EventHubConnectionConfig
+            - '@azure/core-amqp.EventHubConnectionConfig'
           description: The connection config to be validated.
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.webSocket
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.webSocket'
     name: webSocket
     fullName: webSocket
     children: []
@@ -426,8 +426,8 @@ items:
         type:
           - WebSocketImpl
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.webSocketConstructorOptions
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.webSocketConstructorOptions'
     name: webSocketConstructorOptions
     fullName: webSocketConstructorOptions
     children: []
@@ -444,8 +444,8 @@ items:
         type:
           - any
         description: ''
-    package: tslib
-  - uid: tslib.EventHubConnectionConfig.webSocketEndpointPath
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.webSocketEndpointPath'
     name: webSocketEndpointPath
     fullName: webSocketEndpointPath
     children: []
@@ -464,63 +464,63 @@ items:
         type:
           - undefined | string
         description: ''
-    package: tslib
+    package: '@azure/core-amqp'
 references:
-  - uid: tslib.ConnectionConfig
+  - uid: '@azure/core-amqp.ConnectionConfig'
     name: ConnectionConfig
     spec.typeScript:
       - name: ConnectionConfig
         fullName: ConnectionConfig
-        uid: tslib.ConnectionConfig
-  - uid: tslib.EventHubConnectionConfig
+        uid: '@azure/core-amqp.ConnectionConfig'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig'
     name: EventHubConnectionConfig
     spec.typeScript:
       - name: EventHubConnectionConfig
         fullName: EventHubConnectionConfig
-        uid: tslib.EventHubConnectionConfig
-  - uid: tslib.ConnectionConfigOptions
+        uid: '@azure/core-amqp.EventHubConnectionConfig'
+  - uid: '@azure/core-amqp.ConnectionConfigOptions'
     name: ConnectionConfigOptions
     spec.typeScript:
       - name: ConnectionConfigOptions
         fullName: ConnectionConfigOptions
-        uid: tslib.ConnectionConfigOptions
-  - uid: tslib.EventHubConnectionConfig.connectionString
+        uid: '@azure/core-amqp.ConnectionConfigOptions'
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.connectionString'
     name: connectionString
-  - uid: tslib.EventHubConnectionConfig.create
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.create'
     name: create
-  - uid: tslib.EventHubConnectionConfig.create_1
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.create_1'
     name: create_1
-  - uid: tslib.EventHubConnectionConfig.createFromConnectionConfig
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.createFromConnectionConfig'
     name: createFromConnectionConfig
-  - uid: tslib.EventHubConnectionConfig.endpoint
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.endpoint'
     name: endpoint
-  - uid: tslib.EventHubConnectionConfig.entityPath
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.entityPath'
     name: entityPath
-  - uid: tslib.EventHubConnectionConfig.getManagementAddress
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.getManagementAddress'
     name: getManagementAddress
-  - uid: tslib.EventHubConnectionConfig.getManagementAudience
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.getManagementAudience'
     name: getManagementAudience
-  - uid: tslib.EventHubConnectionConfig.getReceiverAddress
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.getReceiverAddress'
     name: getReceiverAddress
-  - uid: tslib.EventHubConnectionConfig.getReceiverAudience
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.getReceiverAudience'
     name: getReceiverAudience
-  - uid: tslib.EventHubConnectionConfig.getSenderAddress
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.getSenderAddress'
     name: getSenderAddress
-  - uid: tslib.EventHubConnectionConfig.getSenderAudience
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.getSenderAudience'
     name: getSenderAudience
-  - uid: tslib.EventHubConnectionConfig.host
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.host'
     name: host
-  - uid: tslib.EventHubConnectionConfig.sharedAccessKey
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.sharedAccessKey'
     name: sharedAccessKey
-  - uid: tslib.EventHubConnectionConfig.sharedAccessKeyName
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.sharedAccessKeyName'
     name: sharedAccessKeyName
-  - uid: tslib.EventHubConnectionConfig.validate
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.validate'
     name: validate
-  - uid: tslib.EventHubConnectionConfig.validate_1
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.validate_1'
     name: validate_1
-  - uid: tslib.EventHubConnectionConfig.webSocket
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.webSocket'
     name: webSocket
-  - uid: tslib.EventHubConnectionConfig.webSocketConstructorOptions
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.webSocketConstructorOptions'
     name: webSocketConstructorOptions
-  - uid: tslib.EventHubConnectionConfig.webSocketEndpointPath
+  - uid: '@azure/core-amqp.EventHubConnectionConfig.webSocketEndpointPath'
     name: webSocketEndpointPath

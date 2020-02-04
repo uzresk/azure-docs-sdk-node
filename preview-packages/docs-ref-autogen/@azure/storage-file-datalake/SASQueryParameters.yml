@@ -1,27 +1,27 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.SASQueryParameters'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters'
     name: SASQueryParameters
     fullName: SASQueryParameters
     children:
-      - '@azure/abort-controller.SASQueryParameters.cacheControl'
-      - '@azure/abort-controller.SASQueryParameters.contentDisposition'
-      - '@azure/abort-controller.SASQueryParameters.contentEncoding'
-      - '@azure/abort-controller.SASQueryParameters.contentLanguage'
-      - '@azure/abort-controller.SASQueryParameters.contentType'
-      - '@azure/abort-controller.SASQueryParameters.expiresOn'
-      - '@azure/abort-controller.SASQueryParameters.identifier'
-      - '@azure/abort-controller.SASQueryParameters.ipRange'
-      - '@azure/abort-controller.SASQueryParameters.permissions'
-      - '@azure/abort-controller.SASQueryParameters.protocol'
-      - '@azure/abort-controller.SASQueryParameters.resource'
-      - '@azure/abort-controller.SASQueryParameters.resourceTypes'
-      - '@azure/abort-controller.SASQueryParameters.constructor'
-      - '@azure/abort-controller.SASQueryParameters.services'
-      - '@azure/abort-controller.SASQueryParameters.signature'
-      - '@azure/abort-controller.SASQueryParameters.startsOn'
-      - '@azure/abort-controller.SASQueryParameters.toString'
-      - '@azure/abort-controller.SASQueryParameters.version'
+      - '@azure/storage-file-datalake.SASQueryParameters.cacheControl'
+      - '@azure/storage-file-datalake.SASQueryParameters.contentDisposition'
+      - '@azure/storage-file-datalake.SASQueryParameters.contentEncoding'
+      - '@azure/storage-file-datalake.SASQueryParameters.contentLanguage'
+      - '@azure/storage-file-datalake.SASQueryParameters.contentType'
+      - '@azure/storage-file-datalake.SASQueryParameters.expiresOn'
+      - '@azure/storage-file-datalake.SASQueryParameters.identifier'
+      - '@azure/storage-file-datalake.SASQueryParameters.ipRange'
+      - '@azure/storage-file-datalake.SASQueryParameters.permissions'
+      - '@azure/storage-file-datalake.SASQueryParameters.protocol'
+      - '@azure/storage-file-datalake.SASQueryParameters.resource'
+      - '@azure/storage-file-datalake.SASQueryParameters.resourceTypes'
+      - '@azure/storage-file-datalake.SASQueryParameters.constructor'
+      - '@azure/storage-file-datalake.SASQueryParameters.services'
+      - '@azure/storage-file-datalake.SASQueryParameters.signature'
+      - '@azure/storage-file-datalake.SASQueryParameters.startsOn'
+      - '@azure/storage-file-datalake.SASQueryParameters.toString'
+      - '@azure/storage-file-datalake.SASQueryParameters.version'
     langs:
       - typeScript
     type: class
@@ -41,8 +41,8 @@ items:
       these query parameters).
 
       NOTE: Instances of this class are immutable.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.cacheControl'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.cacheControl'
     name: cacheControl
     fullName: cacheControl
     children: []
@@ -57,8 +57,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.contentDisposition'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.contentDisposition'
     name: contentDisposition
     fullName: contentDisposition
     children: []
@@ -73,8 +73,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.contentEncoding'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.contentEncoding'
     name: contentEncoding
     fullName: contentEncoding
     children: []
@@ -89,8 +89,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.contentLanguage'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.contentLanguage'
     name: contentLanguage
     fullName: contentLanguage
     children: []
@@ -105,8 +105,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.contentType'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.contentType'
     name: contentType
     fullName: contentType
     children: []
@@ -121,8 +121,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.expiresOn'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.expiresOn'
     name: expiresOn
     fullName: expiresOn
     children: []
@@ -137,10 +137,10 @@ items:
       content: 'expiresOn?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.identifier'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.identifier'
     name: identifier
     fullName: identifier
     children: []
@@ -155,8 +155,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.ipRange'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.ipRange'
     name: ipRange
     fullName: ipRange
     children: []
@@ -168,10 +168,10 @@ items:
       content: 'ipRange: SasIPRange | undefined'
       return:
         type:
-          - '@azure/abort-controller.SasIPRange | undefined'
+          - '@azure/storage-file-datalake.SasIPRange | undefined'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.permissions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.permissions'
     name: permissions
     fullName: permissions
     children: []
@@ -192,8 +192,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.protocol'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.protocol'
     name: protocol
     fullName: protocol
     children: []
@@ -206,10 +206,10 @@ items:
       content: 'protocol?: SASProtocol'
       return:
         type:
-          - '@azure/abort-controller.SASProtocol'
+          - '@azure/storage-file-datalake.SASProtocol'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.resource'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.resource'
     name: resource
     fullName: resource
     children: []
@@ -226,8 +226,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.resourceTypes'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.resourceTypes'
     name: resourceTypes
     fullName: resourceTypes
     children: []
@@ -246,8 +246,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.constructor'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.constructor'
     name: >-
       SASQueryParameters(string, string, undefined | string, undefined | string,
       undefined | string, SASProtocol, Date, Date, SasIPRange, undefined |
@@ -295,22 +295,22 @@ items:
           optional: true
         - id: protocol
           type:
-            - '@azure/abort-controller.SASProtocol'
+            - '@azure/storage-file-datalake.SASProtocol'
           description: ''
           optional: true
         - id: startsOn
           type:
-            - '@azure/abort-controller.NodeJS.Global.Date'
+            - Date
           description: ''
           optional: true
         - id: expiresOn
           type:
-            - '@azure/abort-controller.NodeJS.Global.Date'
+            - Date
           description: ''
           optional: true
         - id: ipRange
           type:
-            - '@azure/abort-controller.SasIPRange'
+            - '@azure/storage-file-datalake.SasIPRange'
           description: ''
           optional: true
         - id: identifier
@@ -350,11 +350,11 @@ items:
           optional: true
         - id: userDelegationKey
           type:
-            - '@azure/abort-controller.UserDelegationKey'
+            - '@azure/storage-file-datalake.UserDelegationKey'
           description: ''
           optional: true
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.services'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.services'
     name: services
     fullName: services
     children: []
@@ -373,8 +373,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.signature'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.signature'
     name: signature
     fullName: signature
     children: []
@@ -388,8 +388,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.startsOn'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.startsOn'
     name: startsOn
     fullName: startsOn
     children: []
@@ -402,10 +402,10 @@ items:
       content: 'startsOn?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.toString'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.toString'
     name: toString()
     children: []
     type: method
@@ -421,8 +421,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.SASQueryParameters.version'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.SASQueryParameters.version'
     name: version
     fullName: version
     children: []
@@ -436,37 +436,31 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.SASProtocol'
+  - uid: '@azure/storage-file-datalake.SASProtocol'
     name: SASProtocol
     spec.typeScript:
       - name: SASProtocol
         fullName: SASProtocol
-        uid: '@azure/abort-controller.SASProtocol'
-  - uid: '@azure/abort-controller.NodeJS.Global.Date'
-    name: Date
-    spec.typeScript:
-      - name: Date
-        fullName: Date
-        uid: '@azure/abort-controller.NodeJS.Global.Date'
-  - uid: '@azure/abort-controller.SasIPRange'
+        uid: '@azure/storage-file-datalake.SASProtocol'
+  - uid: '@azure/storage-file-datalake.SasIPRange'
     name: SasIPRange
     spec.typeScript:
       - name: SasIPRange
         fullName: SasIPRange
-        uid: '@azure/abort-controller.SasIPRange'
-  - uid: '@azure/abort-controller.UserDelegationKey'
+        uid: '@azure/storage-file-datalake.SasIPRange'
+  - uid: '@azure/storage-file-datalake.UserDelegationKey'
     name: UserDelegationKey
     spec.typeScript:
       - name: UserDelegationKey
         fullName: UserDelegationKey
-        uid: '@azure/abort-controller.UserDelegationKey'
-  - uid: '@azure/abort-controller.SasIPRange | undefined'
+        uid: '@azure/storage-file-datalake.UserDelegationKey'
+  - uid: '@azure/storage-file-datalake.SasIPRange | undefined'
     name: SasIPRange | undefined
     spec.typeScript:
       - name: SasIPRange
         fullName: SasIPRange
-        uid: '@azure/abort-controller.SasIPRange'
+        uid: '@azure/storage-file-datalake.SasIPRange'
       - name: ' | undefined'
         fullName: ' | undefined'

@@ -1,22 +1,26 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.FileSystemGetAccessPolicyHeaders'
+  - uid: '@azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders'
     name: FileSystemGetAccessPolicyHeaders
     fullName: FileSystemGetAccessPolicyHeaders
     children:
-      - '@azure/abort-controller.FileSystemGetAccessPolicyHeaders.clientRequestId'
-      - '@azure/abort-controller.FileSystemGetAccessPolicyHeaders.date'
-      - '@azure/abort-controller.FileSystemGetAccessPolicyHeaders.etag'
-      - '@azure/abort-controller.FileSystemGetAccessPolicyHeaders.lastModified'
-      - '@azure/abort-controller.FileSystemGetAccessPolicyHeaders.publicAccess'
-      - '@azure/abort-controller.FileSystemGetAccessPolicyHeaders.requestId'
-      - '@azure/abort-controller.FileSystemGetAccessPolicyHeaders.version'
+      - >-
+        @azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders.clientRequestId
+      - '@azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders.date'
+      - '@azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders.etag'
+      - >-
+        @azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders.lastModified
+      - >-
+        @azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders.publicAccess
+      - '@azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders.requestId'
+      - '@azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemGetAccessPolicyHeaders.clientRequestId'
+    package: '@azure/storage-file-datalake'
+  - uid: >-
+      @azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders.clientRequestId
     name: clientRequestId
     fullName: clientRequestId
     children: []
@@ -31,8 +35,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemGetAccessPolicyHeaders.date'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders.date'
     name: date
     fullName: date
     children: []
@@ -45,10 +49,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemGetAccessPolicyHeaders.etag'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders.etag'
     name: etag
     fullName: etag
     children: []
@@ -63,8 +67,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemGetAccessPolicyHeaders.lastModified'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -77,10 +81,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemGetAccessPolicyHeaders.publicAccess'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders.publicAccess'
     name: publicAccess
     fullName: publicAccess
     children: []
@@ -93,10 +97,10 @@ items:
       content: 'publicAccess?: PublicAccessType'
       return:
         type:
-          - '@azure/abort-controller.PublicAccessType'
+          - '@azure/storage-file-datalake.PublicAccessType'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemGetAccessPolicyHeaders.requestId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -111,8 +115,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemGetAccessPolicyHeaders.version'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemGetAccessPolicyHeaders.version'
     name: version
     fullName: version
     children: []
@@ -127,17 +131,11 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.NodeJS.Global.Date'
-    name: Date
-    spec.typeScript:
-      - name: Date
-        fullName: Date
-        uid: '@azure/abort-controller.NodeJS.Global.Date'
-  - uid: '@azure/abort-controller.PublicAccessType'
+  - uid: '@azure/storage-file-datalake.PublicAccessType'
     name: PublicAccessType
     spec.typeScript:
       - name: PublicAccessType
         fullName: PublicAccessType
-        uid: '@azure/abort-controller.PublicAccessType'
+        uid: '@azure/storage-file-datalake.PublicAccessType'

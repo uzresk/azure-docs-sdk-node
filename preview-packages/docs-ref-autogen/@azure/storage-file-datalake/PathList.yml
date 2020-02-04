@@ -1,16 +1,16 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PathList'
+  - uid: '@azure/storage-file-datalake.PathList'
     name: PathList
     fullName: PathList
     children:
-      - '@azure/abort-controller.PathList.pathItems'
+      - '@azure/storage-file-datalake.PathList.pathItems'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathList.pathItems'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathList.pathItems'
     name: pathItems
     fullName: pathItems
     children: []
@@ -23,15 +23,15 @@ items:
       content: 'pathItems?: Path[]'
       return:
         type:
-          - '@azure/abort-controller.Path[]'
+          - '@azure/storage-file-datalake.Path[]'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.Path[]'
+  - uid: '@azure/storage-file-datalake.Path[]'
     name: 'Path[]'
     spec.typeScript:
       - name: Path
         fullName: Path
-        uid: '@azure/abort-controller.Path'
+        uid: '@azure/storage-file-datalake.Path'
       - name: '[]'
         fullName: '[]'

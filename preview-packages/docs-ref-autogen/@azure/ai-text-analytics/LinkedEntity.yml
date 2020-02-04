@@ -1,21 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.LinkedEntity'
+  - uid: '@azure/ai-text-analytics.LinkedEntity'
     name: LinkedEntity
     fullName: LinkedEntity
     children:
-      - '@azure/abort-controller.LinkedEntity.dataSource'
-      - '@azure/abort-controller.LinkedEntity.id'
-      - '@azure/abort-controller.LinkedEntity.language'
-      - '@azure/abort-controller.LinkedEntity.matches'
-      - '@azure/abort-controller.LinkedEntity.name'
-      - '@azure/abort-controller.LinkedEntity.url'
+      - '@azure/ai-text-analytics.LinkedEntity.dataSource'
+      - '@azure/ai-text-analytics.LinkedEntity.id'
+      - '@azure/ai-text-analytics.LinkedEntity.language'
+      - '@azure/ai-text-analytics.LinkedEntity.matches'
+      - '@azure/ai-text-analytics.LinkedEntity.name'
+      - '@azure/ai-text-analytics.LinkedEntity.url'
     langs:
       - typeScript
     type: interface
     summary: An interface representing LinkedEntity.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.LinkedEntity.dataSource'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.LinkedEntity.dataSource'
     name: dataSource
     fullName: dataSource
     children: []
@@ -29,8 +29,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.LinkedEntity.id'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.LinkedEntity.id'
     name: id
     fullName: id
     children: []
@@ -45,8 +45,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.LinkedEntity.language'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.LinkedEntity.language'
     name: language
     fullName: language
     children: []
@@ -60,8 +60,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.LinkedEntity.matches'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.LinkedEntity.matches'
     name: matches
     fullName: matches
     children: []
@@ -73,10 +73,10 @@ items:
       content: 'matches: Match[]'
       return:
         type:
-          - '@azure/abort-controller.Match[]'
+          - '@azure/ai-text-analytics.Match[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.LinkedEntity.name'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.LinkedEntity.name'
     name: name
     fullName: name
     children: []
@@ -90,8 +90,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.LinkedEntity.url'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.LinkedEntity.url'
     name: url
     fullName: url
     children: []
@@ -105,13 +105,13 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'
 references:
-  - uid: '@azure/abort-controller.Match[]'
+  - uid: '@azure/ai-text-analytics.Match[]'
     name: 'Match[]'
     spec.typeScript:
       - name: Match
         fullName: Match
-        uid: '@azure/abort-controller.Match'
+        uid: '@azure/ai-text-analytics.Match'
       - name: '[]'
         fullName: '[]'

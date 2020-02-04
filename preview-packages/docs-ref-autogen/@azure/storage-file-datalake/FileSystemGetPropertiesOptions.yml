@@ -1,20 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.FileSystemGetPropertiesOptions'
+  - uid: '@azure/storage-file-datalake.FileSystemGetPropertiesOptions'
     name: FileSystemGetPropertiesOptions
     fullName: FileSystemGetPropertiesOptions
     children:
-      - '@azure/abort-controller.FileSystemGetPropertiesOptions.abortSignal'
-      - '@azure/abort-controller.FileSystemGetPropertiesOptions.conditions'
-      - '@azure/abort-controller.FileSystemGetPropertiesOptions.tracingOptions'
+      - '@azure/storage-file-datalake.FileSystemGetPropertiesOptions.abortSignal'
+      - '@azure/storage-file-datalake.FileSystemGetPropertiesOptions.conditions'
+      - >-
+        @azure/storage-file-datalake.FileSystemGetPropertiesOptions.tracingOptions
     langs:
       - typeScript
     type: interface
     summary: ''
     extends:
-      name: '@azure/abort-controller.CommonOptions'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemGetPropertiesOptions.abortSignal'
+      name: '@azure/storage-file-datalake.CommonOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemGetPropertiesOptions.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -27,10 +28,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - '@azure/abort-controller.AbortSignalLike'
+          - AbortSignalLike
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemGetPropertiesOptions.conditions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemGetPropertiesOptions.conditions'
     name: conditions
     fullName: conditions
     children: []
@@ -43,10 +44,10 @@ items:
       content: 'conditions?: LeaseAccessConditions'
       return:
         type:
-          - '@azure/abort-controller.LeaseAccessConditions'
+          - '@azure/storage-file-datalake.LeaseAccessConditions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemGetPropertiesOptions.tracingOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemGetPropertiesOptions.tracingOptions'
     name: tracingOptions
     fullName: tracingOptions
     children: []
@@ -59,31 +60,25 @@ items:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         type:
-          - '@azure/abort-controller.OperationTracingOptions'
+          - '@azure/storage-file-datalake.OperationTracingOptions'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/storage-file-datalake.CommonOptions'
     name: CommonOptions
     spec.typeScript:
       - name: CommonOptions
         fullName: CommonOptions
-        uid: '@azure/abort-controller.CommonOptions'
-  - uid: '@azure/abort-controller.AbortSignalLike'
-    name: AbortSignalLike
-    spec.typeScript:
-      - name: AbortSignalLike
-        fullName: AbortSignalLike
-        uid: '@azure/abort-controller.AbortSignalLike'
-  - uid: '@azure/abort-controller.LeaseAccessConditions'
+        uid: '@azure/storage-file-datalake.CommonOptions'
+  - uid: '@azure/storage-file-datalake.LeaseAccessConditions'
     name: LeaseAccessConditions
     spec.typeScript:
       - name: LeaseAccessConditions
         fullName: LeaseAccessConditions
-        uid: '@azure/abort-controller.LeaseAccessConditions'
-  - uid: '@azure/abort-controller.OperationTracingOptions'
+        uid: '@azure/storage-file-datalake.LeaseAccessConditions'
+  - uid: '@azure/storage-file-datalake.OperationTracingOptions'
     name: OperationTracingOptions
     spec.typeScript:
       - name: OperationTracingOptions
         fullName: OperationTracingOptions
-        uid: '@azure/abort-controller.OperationTracingOptions'
+        uid: '@azure/storage-file-datalake.OperationTracingOptions'

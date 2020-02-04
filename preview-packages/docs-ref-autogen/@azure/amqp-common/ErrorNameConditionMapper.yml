@@ -1,75 +1,62 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper'
     name: ErrorNameConditionMapper
     fullName: ErrorNameConditionMapper
     children:
+      - '@azure/amqp-common.ErrorNameConditionMapper.AddressAlreadyInUseError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.UnauthorizedError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.ArgumentOutOfRangeError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.ConnectionForcedError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.ConnectionRedirectError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.DecodeError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.DetachForcedError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.ErrantLinkError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.FrameSizeTooSmallError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.FramingError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.HandleInUseError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.IllegalStateError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.InternalServerError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.InvalidFieldError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.InvalidOperationError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.LinkRedirectError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.MessageLockLostError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.MessageNotFoundError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.MessageTooLargeError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.MessageWaitTimeout'
       - >-
-        @azure/ms-rest-azure-env.ErrorNameConditionMapper.AddressAlreadyInUseError
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.UnauthorizedError'
-      - >-
-        @azure/ms-rest-azure-env.ErrorNameConditionMapper.ArgumentOutOfRangeError
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ConnectionForcedError'
-      - >-
-        @azure/ms-rest-azure-env.ErrorNameConditionMapper.ConnectionRedirectError
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.DecodeError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.DetachForcedError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ErrantLinkError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.FrameSizeTooSmallError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.FramingError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.HandleInUseError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.IllegalStateError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.InternalServerError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.InvalidFieldError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.InvalidOperationError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.LinkRedirectError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.MessageLockLostError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.MessageNotFoundError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.MessageTooLargeError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.MessageWaitTimeout'
-      - >-
-        @azure/ms-rest-azure-env.ErrorNameConditionMapper.MessagingEntityAlreadyExistsError
-      - >-
-        @azure/ms-rest-azure-env.ErrorNameConditionMapper.MessagingEntityDisabledError
-      - >-
-        @azure/ms-rest-azure-env.ErrorNameConditionMapper.NoMatchingSubscriptionError
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ArgumentError'
-      - >-
-        @azure/ms-rest-azure-env.ErrorNameConditionMapper.OperationCancelledError
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.OperationTimeoutError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.PartitionNotOwnedError'
-      - >-
-        @azure/ms-rest-azure-env.ErrorNameConditionMapper.PreconditionFailedError
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.PublisherRevokedError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.QuotaExceededError'
-      - >-
-        @azure/ms-rest-azure-env.ErrorNameConditionMapper.ReceiverDisconnectedError
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.RelayNotFoundError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ResourceDeletedError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ResourceLockedError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.SenderBusyError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ServerBusyError'
-      - >-
-        @azure/ms-rest-azure-env.ErrorNameConditionMapper.ServiceCommunicationError
-      - >-
-        @azure/ms-rest-azure-env.ErrorNameConditionMapper.ServiceUnavailableError
-      - >-
-        @azure/ms-rest-azure-env.ErrorNameConditionMapper.SessionCannotBeLockedError
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.SessionLockLostError'
-      - >-
-        @azure/ms-rest-azure-env.ErrorNameConditionMapper.SessionWindowViolationError
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.StoreLockLostError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.SystemError'
-      - >-
-        @azure/ms-rest-azure-env.ErrorNameConditionMapper.TransferLimitExceededError
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.UnattachedHandleError'
-      - '@azure/ms-rest-azure-env.ErrorNameConditionMapper.NotImplementedError'
+        @azure/amqp-common.ErrorNameConditionMapper.MessagingEntityAlreadyExistsError
+      - '@azure/amqp-common.ErrorNameConditionMapper.MessagingEntityDisabledError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.NoMatchingSubscriptionError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.ArgumentError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.OperationCancelledError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.OperationTimeoutError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.PartitionNotOwnedError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.PreconditionFailedError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.PublisherRevokedError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.QuotaExceededError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.ReceiverDisconnectedError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.RelayNotFoundError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.ResourceDeletedError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.ResourceLockedError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.SenderBusyError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.ServerBusyError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.ServiceCommunicationError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.ServiceUnavailableError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.SessionCannotBeLockedError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.SessionLockLostError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.SessionWindowViolationError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.StoreLockLostError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.SystemError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.TransferLimitExceededError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.UnattachedHandleError'
+      - '@azure/amqp-common.ErrorNameConditionMapper.NotImplementedError'
     langs:
       - typeScript
     type: enum
     summary: Maps the Error names to the amqp error conditions.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.AddressAlreadyInUseError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.AddressAlreadyInUseError'
     name: AddressAlreadyInUseError
     children: []
     langs:
@@ -77,8 +64,8 @@ items:
     summary: Error is thrown when the address is already in use.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.UnauthorizedError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.UnauthorizedError'
     name: UnauthorizedError
     children: []
     langs:
@@ -88,8 +75,8 @@ items:
       refused the connection.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ArgumentOutOfRangeError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.ArgumentOutOfRangeError'
     name: ArgumentOutOfRangeError
     children: []
     langs:
@@ -99,8 +86,8 @@ items:
       range.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ConnectionForcedError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.ConnectionForcedError'
     name: ConnectionForcedError
     children: []
     langs:
@@ -110,8 +97,8 @@ items:
       some reason.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ConnectionRedirectError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.ConnectionRedirectError'
     name: ConnectionRedirectError
     children: []
     langs:
@@ -121,8 +108,8 @@ items:
       connection.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.DecodeError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.DecodeError'
     name: DecodeError
     children: []
     langs:
@@ -130,8 +117,8 @@ items:
     summary: Error is thrown when data could not be decoded.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.DetachForcedError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.DetachForcedError'
     name: DetachForcedError
     children: []
     langs:
@@ -139,8 +126,8 @@ items:
     summary: Error is thrown when an operator intervened to detach for some reason.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ErrantLinkError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.ErrantLinkError'
     name: ErrantLinkError
     children: []
     langs:
@@ -150,8 +137,8 @@ items:
       an error.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.FrameSizeTooSmallError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.FrameSizeTooSmallError'
     name: FrameSizeTooSmallError
     children: []
     langs:
@@ -166,8 +153,8 @@ items:
       a frame of the agreed maximum frame size.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.FramingError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.FramingError'
     name: FramingError
     children: []
     langs:
@@ -177,8 +164,8 @@ items:
       incoming byte stream.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.HandleInUseError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.HandleInUseError'
     name: HandleInUseError
     children: []
     langs:
@@ -188,8 +175,8 @@ items:
       in use for an attached link.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.IllegalStateError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.IllegalStateError'
     name: IllegalStateError
     children: []
     langs:
@@ -199,8 +186,8 @@ items:
       current state.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.InternalServerError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.InternalServerError'
     name: InternalServerError
     children: []
     langs:
@@ -210,8 +197,8 @@ items:
       a bug?
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.InvalidFieldError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.InvalidFieldError'
     name: InvalidFieldError
     children: []
     langs:
@@ -221,8 +208,8 @@ items:
       operation could not proceed.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.InvalidOperationError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.InvalidOperationError'
     name: InvalidOperationError
     children: []
     langs:
@@ -230,8 +217,8 @@ items:
     summary: Error is thrown when an operation is attempted but is not allowed.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.LinkRedirectError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.LinkRedirectError'
     name: LinkRedirectError
     children: []
     langs:
@@ -241,8 +228,8 @@ items:
       at the current container.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.MessageLockLostError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.MessageLockLostError'
     name: MessageLockLostError
     children: []
     langs:
@@ -250,8 +237,8 @@ items:
     summary: Error is thrown when the lock on the message is lost.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.MessageNotFoundError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.MessageNotFoundError'
     name: MessageNotFoundError
     children: []
     langs:
@@ -259,8 +246,8 @@ items:
     summary: Error is thrown when message is not found.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.MessageTooLargeError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.MessageTooLargeError'
     name: MessageTooLargeError
     children: []
     langs:
@@ -270,8 +257,8 @@ items:
       256Kb.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.MessageWaitTimeout'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.MessageWaitTimeout'
     name: MessageWaitTimeout
     children: []
     langs:
@@ -279,9 +266,9 @@ items:
     summary: Error is thrown when no new messages are received for the specified time.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
   - uid: >-
-      @azure/ms-rest-azure-env.ErrorNameConditionMapper.MessagingEntityAlreadyExistsError
+      @azure/amqp-common.ErrorNameConditionMapper.MessagingEntityAlreadyExistsError
     name: MessagingEntityAlreadyExistsError
     children: []
     langs:
@@ -291,9 +278,8 @@ items:
       exists.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ErrorNameConditionMapper.MessagingEntityDisabledError
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.MessagingEntityDisabledError'
     name: MessagingEntityDisabledError
     children: []
     langs:
@@ -303,9 +289,8 @@ items:
       entity.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ErrorNameConditionMapper.NoMatchingSubscriptionError
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.NoMatchingSubscriptionError'
     name: NoMatchingSubscriptionError
     children: []
     langs:
@@ -313,8 +298,8 @@ items:
     summary: Error is thrown when a matching subscription is not found.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ArgumentError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.ArgumentError'
     name: ArgumentError
     children: []
     langs:
@@ -322,8 +307,8 @@ items:
     summary: Error is thrown when an incorrect argument was received.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.OperationCancelledError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.OperationCancelledError'
     name: OperationCancelledError
     children: []
     langs:
@@ -333,8 +318,8 @@ items:
       issue.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.OperationTimeoutError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.OperationTimeoutError'
     name: OperationTimeoutError
     children: []
     langs:
@@ -342,8 +327,8 @@ items:
     summary: Error is thrown when timeout happens for the said operation.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.PartitionNotOwnedError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.PartitionNotOwnedError'
     name: PartitionNotOwnedError
     children: []
     langs:
@@ -355,8 +340,8 @@ items:
       requesting entity.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.PreconditionFailedError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.PreconditionFailedError'
     name: PreconditionFailedError
     children: []
     langs:
@@ -366,8 +351,8 @@ items:
       execute an operation was not.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.PublisherRevokedError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.PublisherRevokedError'
     name: PublisherRevokedError
     children: []
     langs:
@@ -375,8 +360,8 @@ items:
     summary: Error is thrown when access to publisher has been revoked.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.QuotaExceededError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.QuotaExceededError'
     name: QuotaExceededError
     children: []
     langs:
@@ -395,9 +380,8 @@ items:
       been opened on a per-consumer group level.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ErrorNameConditionMapper.ReceiverDisconnectedError
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.ReceiverDisconnectedError'
     name: ReceiverDisconnectedError
     children: []
     langs:
@@ -407,8 +391,8 @@ items:
       with different epoch values.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.RelayNotFoundError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.RelayNotFoundError'
     name: RelayNotFoundError
     children: []
     langs:
@@ -416,8 +400,8 @@ items:
     summary: Error is thrown when relay is not found.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ResourceDeletedError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.ResourceDeletedError'
     name: ResourceDeletedError
     children: []
     langs:
@@ -427,8 +411,8 @@ items:
       deleted.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ResourceLockedError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.ResourceLockedError'
     name: ResourceLockedError
     children: []
     langs:
@@ -440,8 +424,8 @@ items:
       has no access because another client is working with it.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.SenderBusyError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.SenderBusyError'
     name: SenderBusyError
     children: []
     langs:
@@ -451,8 +435,8 @@ items:
       to send the message.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ServerBusyError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.ServerBusyError'
     name: ServerBusyError
     children: []
     langs:
@@ -462,9 +446,8 @@ items:
       retry the operation.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ErrorNameConditionMapper.ServiceCommunicationError
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.ServiceCommunicationError'
     name: ServiceCommunicationError
     children: []
     langs:
@@ -474,8 +457,8 @@ items:
       operations.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.ServiceUnavailableError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.ServiceUnavailableError'
     name: ServiceUnavailableError
     children: []
     langs:
@@ -485,9 +468,8 @@ items:
       retried.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ErrorNameConditionMapper.SessionCannotBeLockedError
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.SessionCannotBeLockedError'
     name: SessionCannotBeLockedError
     children: []
     langs:
@@ -495,8 +477,8 @@ items:
     summary: Error is thrown when the Azure ServiceBus session cannot be locked.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.SessionLockLostError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.SessionLockLostError'
     name: SessionLockLostError
     children: []
     langs:
@@ -504,9 +486,8 @@ items:
     summary: Error is thrown when the lock on the Azure ServiceBus session is lost.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ErrorNameConditionMapper.SessionWindowViolationError
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.SessionWindowViolationError'
     name: SessionWindowViolationError
     children: []
     langs:
@@ -514,8 +495,8 @@ items:
     summary: Error is thrown when the peer violated incoming window for the session.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.StoreLockLostError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.StoreLockLostError'
     name: StoreLockLostError
     children: []
     langs:
@@ -523,8 +504,8 @@ items:
     summary: Error is thrown when the store lock is lost.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.SystemError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.SystemError'
     name: SystemError
     children: []
     langs:
@@ -535,9 +516,8 @@ items:
       <xref:https%3A%2F%2Fnodejs.org%2Fapi%2Ferrors.html%23errors_class_systemerror>
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ErrorNameConditionMapper.TransferLimitExceededError
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.TransferLimitExceededError'
     name: TransferLimitExceededError
     children: []
     langs:
@@ -547,8 +527,8 @@ items:
       allowed on the link.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.UnattachedHandleError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.UnattachedHandleError'
     name: UnattachedHandleError
     children: []
     langs:
@@ -560,8 +540,8 @@ items:
       currently in use of an attached link.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ErrorNameConditionMapper.NotImplementedError'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ErrorNameConditionMapper.NotImplementedError'
     name: NotImplementedError
     children: []
     langs:
@@ -571,4 +551,4 @@ items:
       is present.
     type: field
     numericValue: null
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'

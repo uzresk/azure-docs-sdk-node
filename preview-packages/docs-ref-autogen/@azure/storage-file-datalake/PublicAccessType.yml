@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PublicAccessType'
+  - uid: '@azure/storage-file-datalake.PublicAccessType'
     name: PublicAccessType
     fullName: PublicAccessType
     children: []
@@ -10,4 +10,4 @@ items:
     summary: ''
     syntax:
       content: type PublicAccessType = "filesystem" | "file"
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

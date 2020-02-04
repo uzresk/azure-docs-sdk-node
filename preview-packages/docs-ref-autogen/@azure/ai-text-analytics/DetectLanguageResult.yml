@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.DetectLanguageResult'
+  - uid: '@azure/ai-text-analytics.DetectLanguageResult'
     name: DetectLanguageResult
     fullName: DetectLanguageResult
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type DetectLanguageResult = DetectLanguageSuccessResult |
         DetectLanguageErrorResult
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'

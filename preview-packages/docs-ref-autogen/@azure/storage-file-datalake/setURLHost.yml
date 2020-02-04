@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.setURLHost'
+  - uid: '@azure/storage-file-datalake.setURLHost'
     name: 'setURLHost(string, string)'
     children: []
     type: function
@@ -22,4 +22,4 @@ items:
         type:
           - string
         description: An updated URL string
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

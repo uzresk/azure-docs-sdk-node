@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.ParsedOutput
+  - uid: '@azure/core-amqp.ParsedOutput'
     name: ParsedOutput
     fullName: ParsedOutput<T>
     children: []
@@ -10,4 +10,4 @@ items:
     summary: Defines an object with possible properties defined in T.
     syntax:
       content: type ParsedOutput<T> = Object
-    package: tslib
+    package: '@azure/core-amqp'

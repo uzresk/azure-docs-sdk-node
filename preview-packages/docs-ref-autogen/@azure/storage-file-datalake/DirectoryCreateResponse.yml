@@ -1,25 +1,25 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.DirectoryCreateResponse'
+  - uid: '@azure/storage-file-datalake.DirectoryCreateResponse'
     name: DirectoryCreateResponse
     fullName: DirectoryCreateResponse
     children:
-      - '@azure/abort-controller.DirectoryCreateResponse.contentLength'
-      - '@azure/abort-controller.DirectoryCreateResponse.continuation'
-      - '@azure/abort-controller.DirectoryCreateResponse.date'
-      - '@azure/abort-controller.DirectoryCreateResponse.errorCode'
-      - '@azure/abort-controller.DirectoryCreateResponse.eTag'
-      - '@azure/abort-controller.DirectoryCreateResponse.lastModified'
-      - '@azure/abort-controller.DirectoryCreateResponse.requestId'
-      - '@azure/abort-controller.DirectoryCreateResponse.version'
+      - '@azure/storage-file-datalake.DirectoryCreateResponse.contentLength'
+      - '@azure/storage-file-datalake.DirectoryCreateResponse.continuation'
+      - '@azure/storage-file-datalake.DirectoryCreateResponse.date'
+      - '@azure/storage-file-datalake.DirectoryCreateResponse.errorCode'
+      - '@azure/storage-file-datalake.DirectoryCreateResponse.eTag'
+      - '@azure/storage-file-datalake.DirectoryCreateResponse.lastModified'
+      - '@azure/storage-file-datalake.DirectoryCreateResponse.requestId'
+      - '@azure/storage-file-datalake.DirectoryCreateResponse.version'
     langs:
       - typeScript
     type: interface
     summary: ''
     extends:
-      name: '@azure/abort-controller.PathCreateHeaders & Object'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DirectoryCreateResponse.contentLength'
+      name: '@azure/storage-file-datalake.PathCreateHeaders & Object'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DirectoryCreateResponse.contentLength'
     name: contentLength
     fullName: contentLength
     children: []
@@ -34,8 +34,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DirectoryCreateResponse.continuation'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DirectoryCreateResponse.continuation'
     name: continuation
     fullName: continuation
     children: []
@@ -63,8 +63,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DirectoryCreateResponse.date'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DirectoryCreateResponse.date'
     name: date
     fullName: date
     children: []
@@ -81,10 +81,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DirectoryCreateResponse.errorCode'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DirectoryCreateResponse.errorCode'
     name: errorCode
     fullName: errorCode
     children: []
@@ -99,8 +99,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DirectoryCreateResponse.eTag'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DirectoryCreateResponse.eTag'
     name: eTag
     fullName: eTag
     children: []
@@ -115,8 +115,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DirectoryCreateResponse.lastModified'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DirectoryCreateResponse.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -133,10 +133,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DirectoryCreateResponse.requestId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DirectoryCreateResponse.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -153,8 +153,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DirectoryCreateResponse.version'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DirectoryCreateResponse.version'
     name: version
     fullName: version
     children: []
@@ -169,19 +169,13 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.PathCreateHeaders & Object'
+  - uid: '@azure/storage-file-datalake.PathCreateHeaders & Object'
     name: PathCreateHeaders & Object
     spec.typeScript:
       - name: PathCreateHeaders
         fullName: PathCreateHeaders
-        uid: '@azure/abort-controller.PathCreateHeaders'
+        uid: '@azure/storage-file-datalake.PathCreateHeaders'
       - name: ' & Object'
         fullName: ' & Object'
-  - uid: '@azure/abort-controller.NodeJS.Global.Date'
-    name: Date
-    spec.typeScript:
-      - name: Date
-        fullName: Date
-        uid: '@azure/abort-controller.NodeJS.Global.Date'

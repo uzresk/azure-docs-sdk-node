@@ -1,50 +1,51 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection'
     name: ExtractKeyPhrasesResultCollection
     fullName: ExtractKeyPhrasesResultCollection
     children:
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.Array'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.concat'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.concat_1'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.copyWithin'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.entries'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.every'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.fill'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.filter'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.filter_1'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.find'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.find_1'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.findIndex'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.forEach'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.includes'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.indexOf'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.join'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.keys'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.lastIndexOf'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.length'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.map'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.modelVersion'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.pop'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.push'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.reduce'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.reduce_1'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.reduce_2'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.reduceRight'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.reduceRight_1'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.reduceRight_2'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.reverse'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.shift'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.slice'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.some'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.sort'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.splice'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.splice_1'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.statistics'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.toLocaleString'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.toString'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.unshift'
-      - '@azure/abort-controller.ExtractKeyPhrasesResultCollection.values'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.Array'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.concat'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.concat_1'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.copyWithin'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.entries'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.every'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.fill'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.filter'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.filter_1'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.find'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.find_1'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.findIndex'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.forEach'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.includes'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.indexOf'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.join'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.keys'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.lastIndexOf'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.length'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.map'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.modelVersion'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.pop'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.push'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.reduce'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.reduce_1'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.reduce_2'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.reduceRight'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.reduceRight_1'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.reduceRight_2'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.reverse'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.shift'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.slice'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.some'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.sort'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.splice'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.splice_1'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.statistics'
+      - >-
+        @azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.toLocaleString
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.toString'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.unshift'
+      - '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.values'
     langs:
       - typeScript
     type: interface
@@ -54,9 +55,9 @@ items:
 
       annotated with information about the batch operation.
     extends:
-      name: Array<@azure/abort-controller.ExtractKeyPhrasesResult>
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.Array'
+      name: Array<@azure/ai-text-analytics.ExtractKeyPhrasesResult>
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.Array'
     name: Array
     fullName: Array
     children: []
@@ -70,8 +71,8 @@ items:
         type:
           - ArrayConstructor
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.concat'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.concat'
     name: 'concat(ConcatArray<ExtractKeyPhrasesResult>[])'
     children: []
     type: method
@@ -83,15 +84,15 @@ items:
       parameters:
         - id: items
           type:
-            - 'ConcatArray<@azure/abort-controller.ExtractKeyPhrasesResult>[]'
+            - 'ConcatArray<@azure/ai-text-analytics.ExtractKeyPhrasesResult>[]'
           description: |
             Additional items to add to the end of array1.
       return:
         type:
-          - '@azure/abort-controller.ExtractKeyPhrasesResult[]'
+          - '@azure/ai-text-analytics.ExtractKeyPhrasesResult[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.concat_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.concat_1'
     name: 'concat(T | ConcatArray<T>[])'
     children: []
     type: method
@@ -108,10 +109,10 @@ items:
             Additional items to add to the end of array1.
       return:
         type:
-          - '@azure/abort-controller.ExtractKeyPhrasesResult[]'
+          - '@azure/ai-text-analytics.ExtractKeyPhrasesResult[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.copyWithin'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.copyWithin'
     name: 'copyWithin(number, number, number)'
     children: []
     type: method
@@ -152,8 +153,8 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.entries'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.entries'
     name: entries()
     children: []
     type: method
@@ -167,8 +168,8 @@ items:
         type:
           - IterableIterator<Object>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.every'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.every'
     name: >-
       every((value: ExtractKeyPhrasesResult, index: number, array:
       ExtractKeyPhrasesResult[]) => unknown, any)
@@ -203,8 +204,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.fill'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.fill'
     name: 'fill(ExtractKeyPhrasesResult, number, number)'
     children: []
     type: method
@@ -220,7 +221,7 @@ items:
       parameters:
         - id: value
           type:
-            - '@azure/abort-controller.ExtractKeyPhrasesResult'
+            - '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
           description: value to fill array section with
         - id: start
           type:
@@ -244,8 +245,8 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.filter'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.filter'
     name: >-
       filter((value: ExtractKeyPhrasesResult, index: number, array:
       ExtractKeyPhrasesResult[]) => boolean, any)
@@ -282,8 +283,8 @@ items:
         type:
           - 'S[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.filter_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.filter_1'
     name: >-
       filter((value: ExtractKeyPhrasesResult, index: number, array:
       ExtractKeyPhrasesResult[]) => unknown, any)
@@ -318,10 +319,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/abort-controller.ExtractKeyPhrasesResult[]'
+          - '@azure/ai-text-analytics.ExtractKeyPhrasesResult[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.find'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.find'
     name: >-
       find((this: void, value: ExtractKeyPhrasesResult, index: number, obj:
       ExtractKeyPhrasesResult[]) => boolean, any)
@@ -367,8 +368,8 @@ items:
         type:
           - S | undefined
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.find_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.find_1'
     name: >-
       find((value: ExtractKeyPhrasesResult, index: number, obj:
       ExtractKeyPhrasesResult[]) => unknown, any)
@@ -395,10 +396,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/abort-controller.ExtractKeyPhrasesResult | undefined'
+          - '@azure/ai-text-analytics.ExtractKeyPhrasesResult | undefined'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.findIndex'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.findIndex'
     name: >-
       findIndex((value: ExtractKeyPhrasesResult, index: number, obj:
       ExtractKeyPhrasesResult[]) => unknown, any)
@@ -443,8 +444,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.forEach'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.forEach'
     name: >-
       forEach((value: ExtractKeyPhrasesResult, index: number, array:
       ExtractKeyPhrasesResult[]) => void, any)
@@ -474,8 +475,8 @@ items:
             function. If thisArg is omitted, undefined is used as the this
             value.
           optional: true
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.includes'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.includes'
     name: 'includes(ExtractKeyPhrasesResult, number)'
     children: []
     type: method
@@ -491,7 +492,7 @@ items:
       parameters:
         - id: searchElement
           type:
-            - '@azure/abort-controller.ExtractKeyPhrasesResult'
+            - '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
           description: The element to search for.
         - id: fromIndex
           type:
@@ -504,8 +505,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.indexOf'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.indexOf'
     name: 'indexOf(ExtractKeyPhrasesResult, number)'
     children: []
     type: method
@@ -519,7 +520,7 @@ items:
       parameters:
         - id: searchElement
           type:
-            - '@azure/abort-controller.ExtractKeyPhrasesResult'
+            - '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
           description: The value to locate in the array.
         - id: fromIndex
           type:
@@ -532,8 +533,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.join'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.join'
     name: join(string)
     children: []
     type: method
@@ -557,8 +558,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.keys'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.keys'
     name: keys()
     children: []
     type: method
@@ -572,8 +573,8 @@ items:
         type:
           - IterableIterator<number>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.lastIndexOf'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.lastIndexOf'
     name: 'lastIndexOf(ExtractKeyPhrasesResult, number)'
     children: []
     type: method
@@ -587,7 +588,7 @@ items:
       parameters:
         - id: searchElement
           type:
-            - '@azure/abort-controller.ExtractKeyPhrasesResult'
+            - '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
           description: The value to locate in the array.
         - id: fromIndex
           type:
@@ -600,8 +601,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.length'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.length'
     name: length
     fullName: length
     children: []
@@ -617,8 +618,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.map'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.map'
     name: >-
       map((value: ExtractKeyPhrasesResult, index: number, array:
       ExtractKeyPhrasesResult[]) => U, any)
@@ -654,8 +655,8 @@ items:
         type:
           - 'U[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.modelVersion'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.modelVersion'
     name: modelVersion
     fullName: modelVersion
     children: []
@@ -671,8 +672,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.pop'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.pop'
     name: pop()
     children: []
     type: method
@@ -684,10 +685,10 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/abort-controller.ExtractKeyPhrasesResult | undefined'
+          - '@azure/ai-text-analytics.ExtractKeyPhrasesResult | undefined'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.push'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.push'
     name: 'push(ExtractKeyPhrasesResult[])'
     children: []
     type: method
@@ -699,15 +700,15 @@ items:
       parameters:
         - id: items
           type:
-            - '@azure/abort-controller.ExtractKeyPhrasesResult[]'
+            - '@azure/ai-text-analytics.ExtractKeyPhrasesResult[]'
           description: |
             New elements of the Array.
       return:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.reduce'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.reduce'
     name: >-
       reduce((previousValue: ExtractKeyPhrasesResult, currentValue:
       ExtractKeyPhrasesResult, currentIndex: number, array:
@@ -738,10 +739,10 @@ items:
             array.
       return:
         type:
-          - '@azure/abort-controller.ExtractKeyPhrasesResult'
+          - '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.reduce_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.reduce_1'
     name: >-
       reduce((previousValue: ExtractKeyPhrasesResult, currentValue:
       ExtractKeyPhrasesResult, currentIndex: number, array:
@@ -768,14 +769,14 @@ items:
           description: ''
         - id: initialValue
           type:
-            - '@azure/abort-controller.ExtractKeyPhrasesResult'
+            - '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
           description: ''
       return:
         type:
-          - '@azure/abort-controller.ExtractKeyPhrasesResult'
+          - '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.reduce_2'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.reduce_2'
     name: >-
       reduce((previousValue: U, currentValue: ExtractKeyPhrasesResult,
       currentIndex: number, array: ExtractKeyPhrasesResult[]) => U, U)
@@ -813,8 +814,8 @@ items:
         type:
           - U
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.reduceRight'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.reduceRight'
     name: >-
       reduceRight((previousValue: ExtractKeyPhrasesResult, currentValue:
       ExtractKeyPhrasesResult, currentIndex: number, array:
@@ -847,10 +848,10 @@ items:
             array.
       return:
         type:
-          - '@azure/abort-controller.ExtractKeyPhrasesResult'
+          - '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.reduceRight_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.reduceRight_1'
     name: >-
       reduceRight((previousValue: ExtractKeyPhrasesResult, currentValue:
       ExtractKeyPhrasesResult, currentIndex: number, array:
@@ -877,14 +878,14 @@ items:
           description: ''
         - id: initialValue
           type:
-            - '@azure/abort-controller.ExtractKeyPhrasesResult'
+            - '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
           description: ''
       return:
         type:
-          - '@azure/abort-controller.ExtractKeyPhrasesResult'
+          - '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.reduceRight_2'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.reduceRight_2'
     name: >-
       reduceRight((previousValue: U, currentValue: ExtractKeyPhrasesResult,
       currentIndex: number, array: ExtractKeyPhrasesResult[]) => U, U)
@@ -923,8 +924,8 @@ items:
         type:
           - U
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.reverse'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.reverse'
     name: reverse()
     children: []
     type: method
@@ -936,10 +937,10 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/abort-controller.ExtractKeyPhrasesResult[]'
+          - '@azure/ai-text-analytics.ExtractKeyPhrasesResult[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.shift'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.shift'
     name: shift()
     children: []
     type: method
@@ -951,10 +952,10 @@ items:
       parameters: []
       return:
         type:
-          - '@azure/abort-controller.ExtractKeyPhrasesResult | undefined'
+          - '@azure/ai-text-analytics.ExtractKeyPhrasesResult | undefined'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.slice'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.slice'
     name: 'slice(number, number)'
     children: []
     type: method
@@ -977,10 +978,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/abort-controller.ExtractKeyPhrasesResult[]'
+          - '@azure/ai-text-analytics.ExtractKeyPhrasesResult[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.some'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.some'
     name: >-
       some((value: ExtractKeyPhrasesResult, index: number, array:
       ExtractKeyPhrasesResult[]) => unknown, any)
@@ -1017,8 +1018,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.sort'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.sort'
     name: 'sort((a: ExtractKeyPhrasesResult, b: ExtractKeyPhrasesResult) => number)'
     children: []
     type: method
@@ -1042,8 +1043,8 @@ items:
         type:
           - this
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.splice'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.splice'
     name: 'splice(number, number)'
     children: []
     type: method
@@ -1069,10 +1070,10 @@ items:
           optional: true
       return:
         type:
-          - '@azure/abort-controller.ExtractKeyPhrasesResult[]'
+          - '@azure/ai-text-analytics.ExtractKeyPhrasesResult[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.splice_1'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.splice_1'
     name: 'splice(number, number, ExtractKeyPhrasesResult[])'
     children: []
     type: method
@@ -1098,15 +1099,15 @@ items:
           description: The number of elements to remove.
         - id: items
           type:
-            - '@azure/abort-controller.ExtractKeyPhrasesResult[]'
+            - '@azure/ai-text-analytics.ExtractKeyPhrasesResult[]'
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
         type:
-          - '@azure/abort-controller.ExtractKeyPhrasesResult[]'
+          - '@azure/ai-text-analytics.ExtractKeyPhrasesResult[]'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.statistics'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.statistics'
     name: statistics
     fullName: statistics
     children: []
@@ -1125,10 +1126,10 @@ items:
       content: 'statistics?: TextDocumentBatchStatistics'
       return:
         type:
-          - '@azure/abort-controller.TextDocumentBatchStatistics'
+          - '@azure/ai-text-analytics.TextDocumentBatchStatistics'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.toLocaleString'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.toLocaleString'
     name: toLocaleString()
     children: []
     type: method
@@ -1144,8 +1145,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.toString'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.toString'
     name: toString()
     children: []
     type: method
@@ -1159,8 +1160,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.unshift'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.unshift'
     name: 'unshift(ExtractKeyPhrasesResult[])'
     children: []
     type: method
@@ -1172,15 +1173,15 @@ items:
       parameters:
         - id: items
           type:
-            - '@azure/abort-controller.ExtractKeyPhrasesResult[]'
+            - '@azure/ai-text-analytics.ExtractKeyPhrasesResult[]'
           description: |
             Elements to insert at the start of the Array.
       return:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResultCollection.values'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultCollection.values'
     name: values()
     children: []
     type: method
@@ -1192,65 +1193,65 @@ items:
       parameters: []
       return:
         type:
-          - IterableIterator<@azure/abort-controller.ExtractKeyPhrasesResult>
+          - IterableIterator<@azure/ai-text-analytics.ExtractKeyPhrasesResult>
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'
 references:
-  - uid: Array<@azure/abort-controller.ExtractKeyPhrasesResult>
+  - uid: Array<@azure/ai-text-analytics.ExtractKeyPhrasesResult>
     name: ExtractKeyPhrasesResult>
     spec.typeScript:
       - name: Array<
         fullName: Array<
       - name: ExtractKeyPhrasesResult
         fullName: ExtractKeyPhrasesResult
-        uid: '@azure/abort-controller.ExtractKeyPhrasesResult'
+        uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.TextDocumentBatchStatistics'
+  - uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics'
     name: TextDocumentBatchStatistics
     spec.typeScript:
       - name: TextDocumentBatchStatistics
         fullName: TextDocumentBatchStatistics
-        uid: '@azure/abort-controller.TextDocumentBatchStatistics'
-  - uid: 'ConcatArray<@azure/abort-controller.ExtractKeyPhrasesResult>[]'
+        uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics'
+  - uid: 'ConcatArray<@azure/ai-text-analytics.ExtractKeyPhrasesResult>[]'
     name: 'ExtractKeyPhrasesResult>[]'
     spec.typeScript:
       - name: ConcatArray<
         fullName: ConcatArray<
       - name: ExtractKeyPhrasesResult
         fullName: ExtractKeyPhrasesResult
-        uid: '@azure/abort-controller.ExtractKeyPhrasesResult'
+        uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
       - name: '>[]'
         fullName: '>[]'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResult[]'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResult[]'
     name: 'ExtractKeyPhrasesResult[]'
     spec.typeScript:
       - name: ExtractKeyPhrasesResult
         fullName: ExtractKeyPhrasesResult
-        uid: '@azure/abort-controller.ExtractKeyPhrasesResult'
+        uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
       - name: '[]'
         fullName: '[]'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResult'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
     name: ExtractKeyPhrasesResult
     spec.typeScript:
       - name: ExtractKeyPhrasesResult
         fullName: ExtractKeyPhrasesResult
-        uid: '@azure/abort-controller.ExtractKeyPhrasesResult'
-  - uid: '@azure/abort-controller.ExtractKeyPhrasesResult | undefined'
+        uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
+  - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResult | undefined'
     name: ExtractKeyPhrasesResult | undefined
     spec.typeScript:
       - name: ExtractKeyPhrasesResult
         fullName: ExtractKeyPhrasesResult
-        uid: '@azure/abort-controller.ExtractKeyPhrasesResult'
+        uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
       - name: ' | undefined'
         fullName: ' | undefined'
-  - uid: IterableIterator<@azure/abort-controller.ExtractKeyPhrasesResult>
+  - uid: IterableIterator<@azure/ai-text-analytics.ExtractKeyPhrasesResult>
     name: ExtractKeyPhrasesResult>
     spec.typeScript:
       - name: IterableIterator<
         fullName: IterableIterator<
       - name: ExtractKeyPhrasesResult
         fullName: ExtractKeyPhrasesResult
-        uid: '@azure/abort-controller.ExtractKeyPhrasesResult'
+        uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResult'
       - name: '>'
         fullName: '>'

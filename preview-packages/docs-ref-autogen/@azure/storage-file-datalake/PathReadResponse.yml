@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PathReadResponse'
+  - uid: '@azure/storage-file-datalake.PathReadResponse'
     name: PathReadResponse
     fullName: PathReadResponse
     children: []
@@ -12,4 +12,4 @@ items:
       content: >-
         type PathReadResponse = PathReadHeaders & { _response: Object, blobBody:
         Promise<Blob>, readableStreamBody: NodeJS.ReadableStream }
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.delay
+  - uid: '@azure/core-amqp.delay'
     name: 'delay(number, AbortSignalLike, undefined | string, T)'
     children: []
     type: function
@@ -18,7 +18,7 @@ items:
           description: The number of milliseconds to be delayed.
         - id: abortSignal
           type:
-            - tslib.AbortSignalLike
+            - AbortSignalLike
           description: The abortSignal associated with containing operation.
           optional: true
         - id: abortErrorMsg
@@ -35,11 +35,4 @@ items:
         type:
           - Promise<T>
         description: '- Resolved promise'
-    package: tslib
-references:
-  - uid: tslib.AbortSignalLike
-    name: AbortSignalLike
-    spec.typeScript:
-      - name: AbortSignalLike
-        fullName: AbortSignalLike
-        uid: tslib.AbortSignalLike
+    package: '@azure/core-amqp'

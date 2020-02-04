@@ -39,270 +39,243 @@ items:
     summary: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.Add
-    name: Add(TItem)
+    name: Add
+    fullName: Add
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function Add(item: TItem)'
-      parameters:
-        - id: item
-          type:
-            - TItem
-          description: ''
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.List.All
-    name: 'All((item: TItem) => boolean)'
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: ''
-    syntax:
-      content: 'function All(callback: (item: TItem) => boolean)'
-      parameters:
-        - id: callback
-          type:
-            - '(item: TItem) => boolean'
-          description: ''
+      content: 'Add: (item: TItem) => void'
       return:
         type:
-          - boolean
+          - '(item: TItem) => void'
+        description: ''
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.List.All
+    name: All
+    fullName: All
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'All: (callback: (item: TItem) => boolean) => boolean'
+      return:
+        type:
+          - '(callback: (item: TItem) => boolean) => boolean'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.Any
-    name: 'Any((item: TItem, index: number) => boolean)'
+    name: Any
+    fullName: Any
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function Any(callback?: (item: TItem, index: number) => boolean)'
-      parameters:
-        - id: callback
-          type:
-            - '(item: TItem, index: number) => boolean'
-          description: ''
-          optional: true
+      content: 'Any: (callback?: (item: TItem, index: number) => boolean) => boolean'
       return:
         type:
-          - boolean
+          - '(callback?: (item: TItem, index: number) => boolean) => boolean'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.Clear
-    name: Clear()
+    name: Clear
+    fullName: Clear
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: function Clear()
-      parameters: []
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.List.Clone
-    name: Clone()
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: ''
-    syntax:
-      content: function Clone()
-      parameters: []
+      content: 'Clear: () => void'
       return:
         type:
-          - microsoft-speech-browser-sdk.List<TItem>
+          - () => void
+        description: ''
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.List.Clone
+    name: Clone
+    fullName: Clone
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Clone: () => List<TItem>'
+      return:
+        type:
+          - () => List<TItem>
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.Concat
-    name: Concat(List<TItem>)
+    name: Concat
+    fullName: Concat
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function Concat(list: List<TItem>)'
-      parameters:
-        - id: list
-          type:
-            - microsoft-speech-browser-sdk.List<TItem>
-          description: ''
+      content: 'Concat: (list: List<TItem>) => List<TItem>'
       return:
         type:
-          - microsoft-speech-browser-sdk.List<TItem>
+          - '(list: List<TItem>) => List<TItem>'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.ConcatArray
-    name: 'ConcatArray(TItem[])'
+    name: ConcatArray
+    fullName: ConcatArray
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function ConcatArray(array: TItem[])'
-      parameters:
-        - id: array
-          type:
-            - 'TItem[]'
-          description: ''
+      content: 'ConcatArray: (array: TItem[]) => List<TItem>'
       return:
         type:
-          - microsoft-speech-browser-sdk.List<TItem>
+          - '(array: TItem[]) => List<TItem>'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.Dispose
-    name: Dispose(string)
+    name: Dispose
+    fullName: Dispose
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function Dispose(reason?: string)'
-      parameters:
-        - id: reason
-          type:
-            - string
-          description: ''
-          optional: true
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.List.First
-    name: First()
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: ''
-    syntax:
-      content: function First()
-      parameters: []
+      content: 'Dispose: (reason?: string) => void'
       return:
         type:
-          - TItem
+          - '(reason?: string) => void'
+        description: ''
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.List.First
+    name: First
+    fullName: First
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'First: () => TItem'
+      return:
+        type:
+          - () => TItem
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.ForEach
-    name: 'ForEach((item: TItem, index: number) => void)'
+    name: ForEach
+    fullName: ForEach
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function ForEach(callback: (item: TItem, index: number) => void)'
-      parameters:
-        - id: callback
-          type:
-            - '(item: TItem, index: number) => void'
-          description: ''
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.List.Get
-    name: Get(number)
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: ''
-    syntax:
-      content: 'function Get(itemIndex: number)'
-      parameters:
-        - id: itemIndex
-          type:
-            - number
-          description: ''
+      content: 'ForEach: (callback: (item: TItem, index: number) => void) => void'
       return:
         type:
-          - TItem
+          - '(callback: (item: TItem, index: number) => void) => void'
+        description: ''
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.List.Get
+    name: Get
+    fullName: Get
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Get: (itemIndex: number) => TItem'
+      return:
+        type:
+          - '(itemIndex: number) => TItem'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.InsertAt
-    name: 'InsertAt(number, TItem)'
+    name: InsertAt
+    fullName: InsertAt
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function InsertAt(index: number, item: TItem)'
-      parameters:
-        - id: index
-          type:
-            - number
-          description: ''
-        - id: item
-          type:
-            - TItem
-          description: ''
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.List.IsDisposed
-    name: IsDisposed()
-    children: []
-    type: method
-    langs:
-      - typeScript
-    summary: ''
-    syntax:
-      content: function IsDisposed()
-      parameters: []
+      content: 'InsertAt: (index: number, item: TItem) => void'
       return:
         type:
-          - boolean
+          - '(index: number, item: TItem) => void'
+        description: ''
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.List.IsDisposed
+    name: IsDisposed
+    fullName: IsDisposed
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'IsDisposed: () => boolean'
+      return:
+        type:
+          - () => boolean
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.Join
-    name: Join(string)
+    name: Join
+    fullName: Join
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function Join(seperator?: string)'
-      parameters:
-        - id: seperator
-          type:
-            - string
-          description: ''
-          optional: true
+      content: 'Join: (seperator?: string) => string'
       return:
         type:
-          - string
+          - '(seperator?: string) => string'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.Last
-    name: Last()
+    name: Last
+    fullName: Last
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: function Last()
-      parameters: []
+      content: 'Last: () => TItem'
       return:
         type:
-          - TItem
+          - () => TItem
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.Length
-    name: Length()
+    name: Length
+    fullName: Length
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: function Length()
-      parameters: []
+      content: 'Length: () => number'
       return:
         type:
-          - number
+          - () => number
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.constructor
@@ -322,245 +295,184 @@ items:
           optional: true
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.OnAdded
-    name: OnAdded(() => void)
+    name: OnAdded
+    fullName: OnAdded
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function OnAdded(addedCallback: () => void)'
-      parameters:
-        - id: addedCallback
-          type:
-            - () => void
-          description: ''
+      content: 'OnAdded: (addedCallback: () => void) => IDetachable'
       return:
         type:
-          - microsoft-speech-browser-sdk.IDetachable
+          - '(addedCallback: () => void) => IDetachable'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.OnDisposed
-    name: OnDisposed(() => void)
+    name: OnDisposed
+    fullName: OnDisposed
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function OnDisposed(disposedCallback: () => void)'
-      parameters:
-        - id: disposedCallback
-          type:
-            - () => void
-          description: ''
+      content: 'OnDisposed: (disposedCallback: () => void) => IDetachable'
       return:
         type:
-          - microsoft-speech-browser-sdk.IDetachable
+          - '(disposedCallback: () => void) => IDetachable'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.OnRemoved
-    name: OnRemoved(() => void)
+    name: OnRemoved
+    fullName: OnRemoved
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function OnRemoved(removedCallback: () => void)'
-      parameters:
-        - id: removedCallback
-          type:
-            - () => void
-          description: ''
+      content: 'OnRemoved: (removedCallback: () => void) => IDetachable'
       return:
         type:
-          - microsoft-speech-browser-sdk.IDetachable
+          - '(removedCallback: () => void) => IDetachable'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.OrderBy
-    name: 'OrderBy((a: TItem, b: TItem) => number)'
+    name: OrderBy
+    fullName: OrderBy
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function OrderBy(compareFn: (a: TItem, b: TItem) => number)'
-      parameters:
-        - id: compareFn
-          type:
-            - '(a: TItem, b: TItem) => number'
-          description: ''
+      content: 'OrderBy: (compareFn: (a: TItem, b: TItem) => number) => List<TItem>'
       return:
         type:
-          - microsoft-speech-browser-sdk.List<TItem>
+          - '(compareFn: (a: TItem, b: TItem) => number) => List<TItem>'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.OrderByDesc
-    name: 'OrderByDesc((a: TItem, b: TItem) => number)'
+    name: OrderByDesc
+    fullName: OrderByDesc
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function OrderByDesc(compareFn: (a: TItem, b: TItem) => number)'
-      parameters:
-        - id: compareFn
-          type:
-            - '(a: TItem, b: TItem) => number'
-          description: ''
+      content: 'OrderByDesc: (compareFn: (a: TItem, b: TItem) => number) => List<TItem>'
       return:
         type:
-          - microsoft-speech-browser-sdk.List<TItem>
+          - '(compareFn: (a: TItem, b: TItem) => number) => List<TItem>'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.Remove
-    name: 'Remove(number, number)'
+    name: Remove
+    fullName: Remove
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function Remove(index: number, count: number)'
-      parameters:
-        - id: index
-          type:
-            - number
-          description: ''
-        - id: count
-          type:
-            - number
-          description: ''
+      content: 'Remove: (index: number, count: number) => TItem[]'
       return:
         type:
-          - 'TItem[]'
+          - '(index: number, count: number) => TItem[]'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.RemoveAt
-    name: RemoveAt(number)
+    name: RemoveAt
+    fullName: RemoveAt
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function RemoveAt(index: number)'
-      parameters:
-        - id: index
-          type:
-            - number
-          description: ''
+      content: 'RemoveAt: (index: number) => TItem'
       return:
         type:
-          - TItem
+          - '(index: number) => TItem'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.RemoveFirst
-    name: RemoveFirst()
+    name: RemoveFirst
+    fullName: RemoveFirst
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: function RemoveFirst()
-      parameters: []
+      content: 'RemoveFirst: () => TItem'
       return:
         type:
-          - TItem
+          - () => TItem
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.RemoveLast
-    name: RemoveLast()
+    name: RemoveLast
+    fullName: RemoveLast
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: function RemoveLast()
-      parameters: []
+      content: 'RemoveLast: () => TItem'
       return:
         type:
-          - TItem
+          - () => TItem
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.Select
-    name: 'Select((item: TItem, index: number) => T2)'
+    name: Select
+    fullName: Select
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function Select<T2>(callback: (item: TItem, index: number) => T2)'
-      parameters:
-        - id: callback
-          type:
-            - '(item: TItem, index: number) => T2'
-          description: ''
+      content: 'Select: (callback: (item: TItem, index: number) => T2) => List<T2>'
       return:
         type:
-          - microsoft-speech-browser-sdk.List<T2>
+          - '(callback: (item: TItem, index: number) => T2) => List<T2>'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.ToArray
-    name: ToArray()
+    name: ToArray
+    fullName: ToArray
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: function ToArray()
-      parameters: []
+      content: 'ToArray: () => TItem[]'
       return:
         type:
-          - 'TItem[]'
+          - '() => TItem[]'
         description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.List.Where
-    name: 'Where((item: TItem, index: number) => boolean)'
+    name: Where
+    fullName: Where
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function Where(callback: (item: TItem, index: number) => boolean)'
-      parameters:
-        - id: callback
-          type:
-            - '(item: TItem, index: number) => boolean'
-          description: ''
+      content: >-
+        Where: (callback: (item: TItem, index: number) => boolean) =>
+        List<TItem>
       return:
         type:
-          - microsoft-speech-browser-sdk.List<TItem>
+          - '(callback: (item: TItem, index: number) => boolean) => List<TItem>'
         description: ''
     package: microsoft-speech-browser-sdk
-references:
-  - uid: microsoft-speech-browser-sdk.List<TItem>
-    name: List<TItem>
-    spec.typeScript:
-      - name: List
-        fullName: List
-        uid: microsoft-speech-browser-sdk.List
-      - name: <TItem>
-        fullName: <TItem>
-  - uid: microsoft-speech-browser-sdk.IDetachable
-    name: IDetachable
-    spec.typeScript:
-      - name: IDetachable
-        fullName: IDetachable
-        uid: microsoft-speech-browser-sdk.IDetachable
-  - uid: microsoft-speech-browser-sdk.List<T2>
-    name: List<T2>
-    spec.typeScript:
-      - name: List
-        fullName: List
-        uid: microsoft-speech-browser-sdk.List
-      - name: <T2>
-        fullName: <T2>

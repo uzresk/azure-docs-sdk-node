@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.Service'
+  - uid: '@azure/storage-file-datalake.Service'
     name: Service
     fullName: Service
     children:
-      - '@azure/abort-controller.Service.listFileSystems'
-      - '@azure/abort-controller.Service.listFileSystems_1'
-      - '@azure/abort-controller.Service.listFileSystems_2'
-      - '@azure/abort-controller.Service.constructor'
+      - '@azure/storage-file-datalake.Service.listFileSystems'
+      - '@azure/storage-file-datalake.Service.listFileSystems_1'
+      - '@azure/storage-file-datalake.Service.listFileSystems_2'
+      - '@azure/storage-file-datalake.Service.constructor'
     langs:
       - typeScript
     type: class
     summary: Class representing a Service.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Service.listFileSystems'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Service.listFileSystems'
     name: listFileSystems(Models.ServiceListFileSystemsOptionalParams)
     children: []
     type: method
@@ -34,8 +34,8 @@ items:
         type:
           - Promise<Models.ServiceListFileSystemsResponse>
         description: Promise<Models.ServiceListFileSystemsResponse>
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Service.listFileSystems_1'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Service.listFileSystems_1'
     name: listFileSystems(ServiceCallback<FileSystemList>)
     children: []
     type: method
@@ -47,12 +47,11 @@ items:
       parameters:
         - id: callback
           type:
-            - >-
-              @azure/abort-controller.ServiceCallback<@azure/abort-controller.FileSystemList>
+            - ServiceCallback<@azure/storage-file-datalake.FileSystemList>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Service.listFileSystems_2'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Service.listFileSystems_2'
     name: >-
       listFileSystems(ServiceListFileSystemsOptionalParams,
       ServiceCallback<FileSystemList>)
@@ -68,16 +67,15 @@ items:
       parameters:
         - id: options
           type:
-            - '@azure/abort-controller.ServiceListFileSystemsOptionalParams'
+            - '@azure/storage-file-datalake.ServiceListFileSystemsOptionalParams'
           description: The optional parameters
         - id: callback
           type:
-            - >-
-              @azure/abort-controller.ServiceCallback<@azure/abort-controller.FileSystemList>
+            - ServiceCallback<@azure/storage-file-datalake.FileSystemList>
           description: |
             The callback
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Service.constructor'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Service.constructor'
     name: Service(StorageClientContext)
     children: []
     type: constructor
@@ -89,34 +87,30 @@ items:
       parameters:
         - id: client
           type:
-            - '@azure/abort-controller.StorageClientContext'
+            - '@azure/storage-file-datalake.StorageClientContext'
           description: |
             Reference to the service client.
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.StorageClientContext'
+  - uid: '@azure/storage-file-datalake.StorageClientContext'
     name: StorageClientContext
     spec.typeScript:
       - name: StorageClientContext
         fullName: StorageClientContext
-        uid: '@azure/abort-controller.StorageClientContext'
-  - uid: >-
-      @azure/abort-controller.ServiceCallback<@azure/abort-controller.FileSystemList>
+        uid: '@azure/storage-file-datalake.StorageClientContext'
+  - uid: ServiceCallback<@azure/storage-file-datalake.FileSystemList>
     name: FileSystemList>
     spec.typeScript:
-      - name: ServiceCallback
-        fullName: ServiceCallback
-        uid: '@azure/abort-controller.ServiceCallback'
-      - name: <
-        fullName: <
+      - name: ServiceCallback<
+        fullName: ServiceCallback<
       - name: FileSystemList
         fullName: FileSystemList
-        uid: '@azure/abort-controller.FileSystemList'
+        uid: '@azure/storage-file-datalake.FileSystemList'
       - name: '>'
         fullName: '>'
-  - uid: '@azure/abort-controller.ServiceListFileSystemsOptionalParams'
+  - uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptionalParams'
     name: ServiceListFileSystemsOptionalParams
     spec.typeScript:
       - name: ServiceListFileSystemsOptionalParams
         fullName: ServiceListFileSystemsOptionalParams
-        uid: '@azure/abort-controller.ServiceListFileSystemsOptionalParams'
+        uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptionalParams'

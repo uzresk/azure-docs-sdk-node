@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.randomNumberFromInterval'
+  - uid: '@azure/amqp-common.randomNumberFromInterval'
     name: 'randomNumberFromInterval(number, number)'
     children: []
     type: function
@@ -23,4 +23,4 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'

@@ -1,24 +1,24 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.FileReadOptions'
+  - uid: '@azure/storage-file-datalake.FileReadOptions'
     name: FileReadOptions
     fullName: FileReadOptions
     children:
-      - '@azure/abort-controller.FileReadOptions.abortSignal'
-      - '@azure/abort-controller.FileReadOptions.conditions'
-      - '@azure/abort-controller.FileReadOptions.maxRetryRequests'
-      - '@azure/abort-controller.FileReadOptions.onProgress'
-      - '@azure/abort-controller.FileReadOptions.rangeGetContentCrc64'
-      - '@azure/abort-controller.FileReadOptions.rangeGetContentMD5'
-      - '@azure/abort-controller.FileReadOptions.tracingOptions'
+      - '@azure/storage-file-datalake.FileReadOptions.abortSignal'
+      - '@azure/storage-file-datalake.FileReadOptions.conditions'
+      - '@azure/storage-file-datalake.FileReadOptions.maxRetryRequests'
+      - '@azure/storage-file-datalake.FileReadOptions.onProgress'
+      - '@azure/storage-file-datalake.FileReadOptions.rangeGetContentCrc64'
+      - '@azure/storage-file-datalake.FileReadOptions.rangeGetContentMD5'
+      - '@azure/storage-file-datalake.FileReadOptions.tracingOptions'
     langs:
       - typeScript
     type: interface
     summary: /
     extends:
-      name: '@azure/abort-controller.CommonOptions'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileReadOptions.abortSignal'
+      name: '@azure/storage-file-datalake.CommonOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileReadOptions.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -31,10 +31,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - '@azure/abort-controller.AbortSignalLike'
+          - AbortSignalLike
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileReadOptions.conditions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileReadOptions.conditions'
     name: conditions
     fullName: conditions
     children: []
@@ -47,10 +47,10 @@ items:
       content: 'conditions?: DataLakeRequestConditions'
       return:
         type:
-          - '@azure/abort-controller.DataLakeRequestConditions'
+          - '@azure/storage-file-datalake.DataLakeRequestConditions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileReadOptions.maxRetryRequests'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileReadOptions.maxRetryRequests'
     name: maxRetryRequests
     fullName: maxRetryRequests
     children: []
@@ -65,8 +65,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileReadOptions.onProgress'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileReadOptions.onProgress'
     name: onProgress
     fullName: onProgress
     children: []
@@ -81,8 +81,8 @@ items:
         type:
           - 'undefined | (progress: TransferProgressEvent) => void'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileReadOptions.rangeGetContentCrc64'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileReadOptions.rangeGetContentCrc64'
     name: rangeGetContentCrc64
     fullName: rangeGetContentCrc64
     children: []
@@ -97,8 +97,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileReadOptions.rangeGetContentMD5'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileReadOptions.rangeGetContentMD5'
     name: rangeGetContentMD5
     fullName: rangeGetContentMD5
     children: []
@@ -113,8 +113,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileReadOptions.tracingOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileReadOptions.tracingOptions'
     name: tracingOptions
     fullName: tracingOptions
     children: []
@@ -127,31 +127,25 @@ items:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         type:
-          - '@azure/abort-controller.OperationTracingOptions'
+          - '@azure/storage-file-datalake.OperationTracingOptions'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/storage-file-datalake.CommonOptions'
     name: CommonOptions
     spec.typeScript:
       - name: CommonOptions
         fullName: CommonOptions
-        uid: '@azure/abort-controller.CommonOptions'
-  - uid: '@azure/abort-controller.AbortSignalLike'
-    name: AbortSignalLike
-    spec.typeScript:
-      - name: AbortSignalLike
-        fullName: AbortSignalLike
-        uid: '@azure/abort-controller.AbortSignalLike'
-  - uid: '@azure/abort-controller.DataLakeRequestConditions'
+        uid: '@azure/storage-file-datalake.CommonOptions'
+  - uid: '@azure/storage-file-datalake.DataLakeRequestConditions'
     name: DataLakeRequestConditions
     spec.typeScript:
       - name: DataLakeRequestConditions
         fullName: DataLakeRequestConditions
-        uid: '@azure/abort-controller.DataLakeRequestConditions'
-  - uid: '@azure/abort-controller.OperationTracingOptions'
+        uid: '@azure/storage-file-datalake.DataLakeRequestConditions'
+  - uid: '@azure/storage-file-datalake.OperationTracingOptions'
     name: OperationTracingOptions
     spec.typeScript:
       - name: OperationTracingOptions
         fullName: OperationTracingOptions
-        uid: '@azure/abort-controller.OperationTracingOptions'
+        uid: '@azure/storage-file-datalake.OperationTracingOptions'

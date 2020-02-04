@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.toPublicAccessType'
+  - uid: '@azure/storage-file-datalake.toPublicAccessType'
     name: toPublicAccessType(ContainerPublicAccessType)
     children: []
     type: function
@@ -19,15 +19,15 @@ items:
           optional: true
       return:
         type:
-          - '@azure/abort-controller.PublicAccessType | undefined'
+          - '@azure/storage-file-datalake.PublicAccessType | undefined'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.PublicAccessType | undefined'
+  - uid: '@azure/storage-file-datalake.PublicAccessType | undefined'
     name: PublicAccessType | undefined
     spec.typeScript:
       - name: PublicAccessType
         fullName: PublicAccessType
-        uid: '@azure/abort-controller.PublicAccessType'
+        uid: '@azure/storage-file-datalake.PublicAccessType'
       - name: ' | undefined'
         fullName: ' | undefined'

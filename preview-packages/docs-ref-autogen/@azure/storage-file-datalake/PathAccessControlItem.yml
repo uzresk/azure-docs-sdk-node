@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PathAccessControlItem'
+  - uid: '@azure/storage-file-datalake.PathAccessControlItem'
     name: PathAccessControlItem
     fullName: PathAccessControlItem
     children:
-      - '@azure/abort-controller.PathAccessControlItem.accessControlType'
-      - '@azure/abort-controller.PathAccessControlItem.defaultScope'
-      - '@azure/abort-controller.PathAccessControlItem.entityId'
-      - '@azure/abort-controller.PathAccessControlItem.permissions'
+      - '@azure/storage-file-datalake.PathAccessControlItem.accessControlType'
+      - '@azure/storage-file-datalake.PathAccessControlItem.defaultScope'
+      - '@azure/storage-file-datalake.PathAccessControlItem.entityId'
+      - '@azure/storage-file-datalake.PathAccessControlItem.permissions'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathAccessControlItem.accessControlType'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathAccessControlItem.accessControlType'
     name: accessControlType
     fullName: accessControlType
     children: []
@@ -25,10 +25,10 @@ items:
       content: 'accessControlType: AccessControlType'
       return:
         type:
-          - '@azure/abort-controller.AccessControlType'
+          - '@azure/storage-file-datalake.AccessControlType'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathAccessControlItem.defaultScope'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathAccessControlItem.defaultScope'
     name: defaultScope
     fullName: defaultScope
     children: []
@@ -42,8 +42,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathAccessControlItem.entityId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathAccessControlItem.entityId'
     name: entityId
     fullName: entityId
     children: []
@@ -57,8 +57,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathAccessControlItem.permissions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathAccessControlItem.permissions'
     name: permissions
     fullName: permissions
     children: []
@@ -70,19 +70,19 @@ items:
       content: 'permissions: RolePermissions'
       return:
         type:
-          - '@azure/abort-controller.RolePermissions'
+          - '@azure/storage-file-datalake.RolePermissions'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.AccessControlType'
+  - uid: '@azure/storage-file-datalake.AccessControlType'
     name: AccessControlType
     spec.typeScript:
       - name: AccessControlType
         fullName: AccessControlType
-        uid: '@azure/abort-controller.AccessControlType'
-  - uid: '@azure/abort-controller.RolePermissions'
+        uid: '@azure/storage-file-datalake.AccessControlType'
+  - uid: '@azure/storage-file-datalake.RolePermissions'
     name: RolePermissions
     spec.typeScript:
       - name: RolePermissions
         fullName: RolePermissions
-        uid: '@azure/abort-controller.RolePermissions'
+        uid: '@azure/storage-file-datalake.RolePermissions'

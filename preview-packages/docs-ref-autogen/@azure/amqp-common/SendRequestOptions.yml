@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.SendRequestOptions'
+  - uid: '@azure/amqp-common.SendRequestOptions'
     name: SendRequestOptions
     fullName: SendRequestOptions
     children:
-      - '@azure/ms-rest-azure-env.SendRequestOptions.delayInSeconds'
-      - '@azure/ms-rest-azure-env.SendRequestOptions.timeoutInSeconds'
-      - '@azure/ms-rest-azure-env.SendRequestOptions.times'
+      - '@azure/amqp-common.SendRequestOptions.delayInSeconds'
+      - '@azure/amqp-common.SendRequestOptions.timeoutInSeconds'
+      - '@azure/amqp-common.SendRequestOptions.times'
     langs:
       - typeScript
     type: interface
     summary: Describes the options that can be specified while sending a request.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.SendRequestOptions.delayInSeconds'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.SendRequestOptions.delayInSeconds'
     name: delayInSeconds
     fullName: delayInSeconds
     children: []
@@ -31,8 +31,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.SendRequestOptions.timeoutInSeconds'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.SendRequestOptions.timeoutInSeconds'
     name: timeoutInSeconds
     fullName: timeoutInSeconds
     children: []
@@ -51,8 +51,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.SendRequestOptions.times'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.SendRequestOptions.times'
     name: times
     fullName: times
     children: []
@@ -69,4 +69,4 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'

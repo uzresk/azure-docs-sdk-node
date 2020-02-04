@@ -1,23 +1,26 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.CreateConnectionContextBaseParameters
+  - uid: '@azure/core-amqp.CreateConnectionContextBaseParameters'
     name: CreateConnectionContextBaseParameters
     fullName: CreateConnectionContextBaseParameters
     children:
-      - tslib.CreateConnectionContextBaseParameters.config
-      - tslib.CreateConnectionContextBaseParameters.connectionProperties
-      - tslib.CreateConnectionContextBaseParameters.dataTransformer
-      - tslib.CreateConnectionContextBaseParameters.isEntityPathRequired
-      - tslib.CreateConnectionContextBaseParameters.operationTimeoutInMs
-      - tslib.CreateConnectionContextBaseParameters.tokenCredential
+      - '@azure/core-amqp.CreateConnectionContextBaseParameters.config'
+      - >-
+        @azure/core-amqp.CreateConnectionContextBaseParameters.connectionProperties
+      - '@azure/core-amqp.CreateConnectionContextBaseParameters.dataTransformer'
+      - >-
+        @azure/core-amqp.CreateConnectionContextBaseParameters.isEntityPathRequired
+      - >-
+        @azure/core-amqp.CreateConnectionContextBaseParameters.operationTimeoutInMs
+      - '@azure/core-amqp.CreateConnectionContextBaseParameters.tokenCredential'
     langs:
       - typeScript
     type: interface
     summary: >-
       Describes the parameters that can be provided to create the base
       connection context.
-    package: tslib
-  - uid: tslib.CreateConnectionContextBaseParameters.config
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.CreateConnectionContextBaseParameters.config'
     name: config
     fullName: config
     children: []
@@ -33,10 +36,11 @@ items:
       content: 'config: ConnectionConfig'
       return:
         type:
-          - tslib.ConnectionConfig
+          - '@azure/core-amqp.ConnectionConfig'
         description: ''
-    package: tslib
-  - uid: tslib.CreateConnectionContextBaseParameters.connectionProperties
+    package: '@azure/core-amqp'
+  - uid: >-
+      @azure/core-amqp.CreateConnectionContextBaseParameters.connectionProperties
     name: connectionProperties
     fullName: connectionProperties
     children: []
@@ -52,10 +56,10 @@ items:
       content: 'connectionProperties: ConnectionProperties'
       return:
         type:
-          - tslib.ConnectionProperties
+          - '@azure/core-amqp.ConnectionProperties'
         description: ''
-    package: tslib
-  - uid: tslib.CreateConnectionContextBaseParameters.dataTransformer
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.CreateConnectionContextBaseParameters.dataTransformer'
     name: dataTransformer
     fullName: dataTransformer
     children: []
@@ -72,10 +76,11 @@ items:
       content: 'dataTransformer?: DataTransformer'
       return:
         type:
-          - tslib.DataTransformer
+          - '@azure/core-amqp.DataTransformer'
         description: ''
-    package: tslib
-  - uid: tslib.CreateConnectionContextBaseParameters.isEntityPathRequired
+    package: '@azure/core-amqp'
+  - uid: >-
+      @azure/core-amqp.CreateConnectionContextBaseParameters.isEntityPathRequired
     name: isEntityPathRequired
     fullName: isEntityPathRequired
     children: []
@@ -95,8 +100,9 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: tslib
-  - uid: tslib.CreateConnectionContextBaseParameters.operationTimeoutInMs
+    package: '@azure/core-amqp'
+  - uid: >-
+      @azure/core-amqp.CreateConnectionContextBaseParameters.operationTimeoutInMs
     name: operationTimeoutInMs
     fullName: operationTimeoutInMs
     children: []
@@ -117,8 +123,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: tslib
-  - uid: tslib.CreateConnectionContextBaseParameters.tokenCredential
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.CreateConnectionContextBaseParameters.tokenCredential'
     name: tokenCredential
     fullName: tokenCredential
     children: []
@@ -135,36 +141,33 @@ items:
       content: 'tokenCredential?: SharedKeyCredential | TokenCredential'
       return:
         type:
-          - tslib.SharedKeyCredential | tslib.TokenCredential
+          - '@azure/core-amqp.SharedKeyCredential | TokenCredential'
         description: ''
-    package: tslib
+    package: '@azure/core-amqp'
 references:
-  - uid: tslib.ConnectionConfig
+  - uid: '@azure/core-amqp.ConnectionConfig'
     name: ConnectionConfig
     spec.typeScript:
       - name: ConnectionConfig
         fullName: ConnectionConfig
-        uid: tslib.ConnectionConfig
-  - uid: tslib.ConnectionProperties
+        uid: '@azure/core-amqp.ConnectionConfig'
+  - uid: '@azure/core-amqp.ConnectionProperties'
     name: ConnectionProperties
     spec.typeScript:
       - name: ConnectionProperties
         fullName: ConnectionProperties
-        uid: tslib.ConnectionProperties
-  - uid: tslib.DataTransformer
+        uid: '@azure/core-amqp.ConnectionProperties'
+  - uid: '@azure/core-amqp.DataTransformer'
     name: DataTransformer
     spec.typeScript:
       - name: DataTransformer
         fullName: DataTransformer
-        uid: tslib.DataTransformer
-  - uid: tslib.SharedKeyCredential | tslib.TokenCredential
-    name: TokenCredential
+        uid: '@azure/core-amqp.DataTransformer'
+  - uid: '@azure/core-amqp.SharedKeyCredential | TokenCredential'
+    name: SharedKeyCredential | TokenCredential
     spec.typeScript:
       - name: SharedKeyCredential
         fullName: SharedKeyCredential
-        uid: tslib.SharedKeyCredential
-      - name: ' | '
-        fullName: ' | '
-      - name: TokenCredential
-        fullName: TokenCredential
-        uid: tslib.TokenCredential
+        uid: '@azure/core-amqp.SharedKeyCredential'
+      - name: ' | TokenCredential'
+        fullName: ' | TokenCredential'

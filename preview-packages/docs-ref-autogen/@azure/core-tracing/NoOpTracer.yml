@@ -1,24 +1,24 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@opentelemetry/types.NoOpTracer'
+  - uid: '@azure/core-tracing.NoOpTracer'
     name: NoOpTracer
     fullName: NoOpTracer
     children:
-      - '@opentelemetry/types.NoOpTracer.bind'
-      - '@opentelemetry/types.NoOpTracer.getBinaryFormat'
-      - '@opentelemetry/types.NoOpTracer.getCurrentSpan'
-      - '@opentelemetry/types.NoOpTracer.getHttpTextFormat'
-      - '@opentelemetry/types.NoOpTracer.recordSpanData'
-      - '@opentelemetry/types.NoOpTracer.startSpan'
-      - '@opentelemetry/types.NoOpTracer.withSpan'
+      - '@azure/core-tracing.NoOpTracer.bind'
+      - '@azure/core-tracing.NoOpTracer.getBinaryFormat'
+      - '@azure/core-tracing.NoOpTracer.getCurrentSpan'
+      - '@azure/core-tracing.NoOpTracer.getHttpTextFormat'
+      - '@azure/core-tracing.NoOpTracer.recordSpanData'
+      - '@azure/core-tracing.NoOpTracer.startSpan'
+      - '@azure/core-tracing.NoOpTracer.withSpan'
     langs:
       - typeScript
     type: class
     summary: |-
       A no-op implementation of Tracer that can be used when tracing
       is disabled.
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.NoOpTracer.bind'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.NoOpTracer.bind'
     name: 'bind(T, Span)'
     children: []
     type: method
@@ -34,7 +34,7 @@ items:
           description: An object to bind the scope.
         - id: _span
           type:
-            - '@opentelemetry/types.Span'
+            - Span
           description: |
             A specific Span to use. Otherwise, use the current one.
           optional: true
@@ -42,8 +42,8 @@ items:
         type:
           - T
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.NoOpTracer.getBinaryFormat'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.NoOpTracer.getBinaryFormat'
     name: getBinaryFormat()
     children: []
     type: method
@@ -55,10 +55,10 @@ items:
       parameters: []
       return:
         type:
-          - '@opentelemetry/types.BinaryFormat'
+          - BinaryFormat
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.NoOpTracer.getCurrentSpan'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.NoOpTracer.getCurrentSpan'
     name: getCurrentSpan()
     children: []
     type: method
@@ -70,10 +70,10 @@ items:
       parameters: []
       return:
         type:
-          - '@opentelemetry/types.Span'
+          - Span
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.NoOpTracer.getHttpTextFormat'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.NoOpTracer.getHttpTextFormat'
     name: getHttpTextFormat()
     children: []
     type: method
@@ -85,10 +85,10 @@ items:
       parameters: []
       return:
         type:
-          - '@opentelemetry/types.HttpTextFormat'
+          - HttpTextFormat
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.NoOpTracer.recordSpanData'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.NoOpTracer.recordSpanData'
     name: recordSpanData(Span)
     children: []
     type: method
@@ -100,11 +100,11 @@ items:
       parameters:
         - id: _span
           type:
-            - '@opentelemetry/types.Span'
+            - Span
           description: |
             The span to pass along.
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.NoOpTracer.startSpan'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.NoOpTracer.startSpan'
     name: 'startSpan(string, SpanOptions)'
     children: []
     type: method
@@ -120,16 +120,16 @@ items:
           description: The name of the span.
         - id: _options
           type:
-            - '@opentelemetry/types.SpanOptions'
+            - SpanOptions
           description: |
             The SpanOptions used during Span creation.
           optional: true
       return:
         type:
-          - '@opentelemetry/types.Span'
+          - Span
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.NoOpTracer.withSpan'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.NoOpTracer.withSpan'
     name: 'withSpan(Span, T)'
     children: []
     type: method
@@ -141,7 +141,7 @@ items:
       parameters:
         - id: _span
           type:
-            - '@opentelemetry/types.Span'
+            - Span
           description: The span that provides the context.
         - id: fn
           type:
@@ -152,29 +152,4 @@ items:
         type:
           - ReturnType<T>
         description: ''
-    package: '@opentelemetry/types'
-references:
-  - uid: '@opentelemetry/types.Span'
-    name: Span
-    spec.typeScript:
-      - name: Span
-        fullName: Span
-        uid: '@opentelemetry/types.Span'
-  - uid: '@opentelemetry/types.BinaryFormat'
-    name: BinaryFormat
-    spec.typeScript:
-      - name: BinaryFormat
-        fullName: BinaryFormat
-        uid: '@opentelemetry/types.BinaryFormat'
-  - uid: '@opentelemetry/types.HttpTextFormat'
-    name: HttpTextFormat
-    spec.typeScript:
-      - name: HttpTextFormat
-        fullName: HttpTextFormat
-        uid: '@opentelemetry/types.HttpTextFormat'
-  - uid: '@opentelemetry/types.SpanOptions'
-    name: SpanOptions
-    spec.typeScript:
-      - name: SpanOptions
-        fullName: SpanOptions
-        uid: '@opentelemetry/types.SpanOptions'
+    package: '@azure/core-tracing'

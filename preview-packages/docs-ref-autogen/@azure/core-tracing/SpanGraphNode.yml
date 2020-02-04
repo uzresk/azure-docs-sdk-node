@@ -1,11 +1,11 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@opentelemetry/types.SpanGraphNode'
+  - uid: '@azure/core-tracing.SpanGraphNode'
     name: SpanGraphNode
     fullName: SpanGraphNode
     children:
-      - '@opentelemetry/types.SpanGraphNode.children'
-      - '@opentelemetry/types.SpanGraphNode.name'
+      - '@azure/core-tracing.SpanGraphNode.children'
+      - '@azure/core-tracing.SpanGraphNode.name'
     langs:
       - typeScript
     type: interface
@@ -14,8 +14,8 @@ items:
       relationships.
 
       Children should be arranged in the order they were created.
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.SpanGraphNode.children'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.SpanGraphNode.children'
     name: children
     fullName: children
     children: []
@@ -27,10 +27,10 @@ items:
       content: 'children: SpanGraphNode[]'
       return:
         type:
-          - '@opentelemetry/types.SpanGraphNode[]'
+          - '@azure/core-tracing.SpanGraphNode[]'
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.SpanGraphNode.name'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.SpanGraphNode.name'
     name: name
     fullName: name
     children: []
@@ -44,13 +44,13 @@ items:
         type:
           - string
         description: ''
-    package: '@opentelemetry/types'
+    package: '@azure/core-tracing'
 references:
-  - uid: '@opentelemetry/types.SpanGraphNode[]'
+  - uid: '@azure/core-tracing.SpanGraphNode[]'
     name: 'SpanGraphNode[]'
     spec.typeScript:
       - name: SpanGraphNode
         fullName: SpanGraphNode
-        uid: '@opentelemetry/types.SpanGraphNode'
+        uid: '@azure/core-tracing.SpanGraphNode'
       - name: '[]'
         fullName: '[]'

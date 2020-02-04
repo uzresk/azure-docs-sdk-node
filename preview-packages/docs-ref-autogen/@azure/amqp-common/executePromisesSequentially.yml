@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.executePromisesSequentially'
+  - uid: '@azure/amqp-common.executePromisesSequentially'
     name: 'executePromisesSequentially(Array<any>, any)'
     children: []
     type: function
@@ -25,4 +25,4 @@ items:
         type:
           - Promise<any>
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'

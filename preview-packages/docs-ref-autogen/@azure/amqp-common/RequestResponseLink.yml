@@ -1,27 +1,27 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.RequestResponseLink'
+  - uid: '@azure/amqp-common.RequestResponseLink'
     name: RequestResponseLink
     fullName: RequestResponseLink
     children:
-      - '@azure/ms-rest-azure-env.RequestResponseLink.close'
-      - '@azure/ms-rest-azure-env.RequestResponseLink.connection'
-      - '@azure/ms-rest-azure-env.RequestResponseLink.create'
-      - '@azure/ms-rest-azure-env.RequestResponseLink.isOpen'
-      - '@azure/ms-rest-azure-env.RequestResponseLink.receiver'
-      - '@azure/ms-rest-azure-env.RequestResponseLink.remove'
-      - '@azure/ms-rest-azure-env.RequestResponseLink.constructor'
-      - '@azure/ms-rest-azure-env.RequestResponseLink.sender'
-      - '@azure/ms-rest-azure-env.RequestResponseLink.sendRequest'
-      - '@azure/ms-rest-azure-env.RequestResponseLink.session'
+      - '@azure/amqp-common.RequestResponseLink.close'
+      - '@azure/amqp-common.RequestResponseLink.connection'
+      - '@azure/amqp-common.RequestResponseLink.create'
+      - '@azure/amqp-common.RequestResponseLink.isOpen'
+      - '@azure/amqp-common.RequestResponseLink.receiver'
+      - '@azure/amqp-common.RequestResponseLink.remove'
+      - '@azure/amqp-common.RequestResponseLink.constructor'
+      - '@azure/amqp-common.RequestResponseLink.sender'
+      - '@azure/amqp-common.RequestResponseLink.sendRequest'
+      - '@azure/amqp-common.RequestResponseLink.session'
     langs:
       - typeScript
     type: class
     summary: >-
       Describes an amqp request(sender)-response(receiver) link that is created
       over an amqp session.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.RequestResponseLink.close'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.RequestResponseLink.close'
     name: close()
     children: []
     type: method
@@ -35,8 +35,8 @@ items:
         type:
           - Promise<void>
         description: Promise<void>
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.RequestResponseLink.connection'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.RequestResponseLink.connection'
     name: connection
     fullName: connection
     children: []
@@ -50,8 +50,8 @@ items:
         type:
           - Connection
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.RequestResponseLink.create'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.RequestResponseLink.create'
     name: 'create(Connection, SenderOptions, ReceiverOptions)'
     children: []
     type: method
@@ -77,10 +77,10 @@ items:
           description: Options that must be provided to create the receiver link.
       return:
         type:
-          - Promise<@azure/ms-rest-azure-env.RequestResponseLink>
+          - Promise<@azure/amqp-common.RequestResponseLink>
         description: Promise<RequestResponseLink>
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.RequestResponseLink.isOpen'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.RequestResponseLink.isOpen'
     name: isOpen()
     children: []
     type: method
@@ -96,8 +96,8 @@ items:
         type:
           - boolean
         description: 'boolean - `true` - `open`, `false` - `closed`.'
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.RequestResponseLink.receiver'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.RequestResponseLink.receiver'
     name: receiver
     fullName: receiver
     children: []
@@ -111,8 +111,8 @@ items:
         type:
           - Receiver
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.RequestResponseLink.remove'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.RequestResponseLink.remove'
     name: remove()
     children: []
     type: method
@@ -122,8 +122,8 @@ items:
     syntax:
       content: function remove()
       parameters: []
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.RequestResponseLink.constructor'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.RequestResponseLink.constructor'
     name: 'RequestResponseLink(Session, Sender, Receiver)'
     children: []
     type: constructor
@@ -137,7 +137,7 @@ items:
       parameters:
         - id: session
           type:
-            - '@azure/ms-rest-azure-env.inspector.Session'
+            - Session
           description: The amqp session.
         - id: sender
           type:
@@ -148,8 +148,8 @@ items:
             - Receiver
           description: |
             The amqp receiver link.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.RequestResponseLink.sender'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.RequestResponseLink.sender'
     name: sender
     fullName: sender
     children: []
@@ -163,8 +163,8 @@ items:
         type:
           - Sender
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.RequestResponseLink.sendRequest'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.RequestResponseLink.sendRequest'
     name: 'sendRequest(AmqpMessage, SendRequestOptions)'
     children: []
     type: method
@@ -190,15 +190,15 @@ items:
           description: The AMQP (request) message.
         - id: options
           type:
-            - '@azure/ms-rest-azure-env.SendRequestOptions'
+            - '@azure/amqp-common.SendRequestOptions'
           description: ''
           optional: true
       return:
         type:
           - Promise<AmqpMessage>
         description: Promise<Message> The AMQP (response) message.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.RequestResponseLink.session'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.RequestResponseLink.session'
     name: session
     fullName: session
     children: []
@@ -210,29 +210,23 @@ items:
       content: 'session: Session'
       return:
         type:
-          - '@azure/ms-rest-azure-env.inspector.Session'
+          - Session
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
 references:
-  - uid: '@azure/ms-rest-azure-env.inspector.Session'
-    name: Session
-    spec.typeScript:
-      - name: Session
-        fullName: Session
-        uid: '@azure/ms-rest-azure-env.inspector.Session'
-  - uid: '@azure/ms-rest-azure-env.SendRequestOptions'
+  - uid: '@azure/amqp-common.SendRequestOptions'
     name: SendRequestOptions
     spec.typeScript:
       - name: SendRequestOptions
         fullName: SendRequestOptions
-        uid: '@azure/ms-rest-azure-env.SendRequestOptions'
-  - uid: Promise<@azure/ms-rest-azure-env.RequestResponseLink>
+        uid: '@azure/amqp-common.SendRequestOptions'
+  - uid: Promise<@azure/amqp-common.RequestResponseLink>
     name: RequestResponseLink>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: RequestResponseLink
         fullName: RequestResponseLink
-        uid: '@azure/ms-rest-azure-env.RequestResponseLink'
+        uid: '@azure/amqp-common.RequestResponseLink'
       - name: '>'
         fullName: '>'

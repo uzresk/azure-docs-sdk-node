@@ -1,26 +1,26 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@opentelemetry/types.OpenCensusSpanWrapper'
+  - uid: '@azure/core-tracing.OpenCensusSpanWrapper'
     name: OpenCensusSpanWrapper
     fullName: OpenCensusSpanWrapper
     children:
-      - '@opentelemetry/types.OpenCensusSpanWrapper.addEvent'
-      - '@opentelemetry/types.OpenCensusSpanWrapper.context'
-      - '@opentelemetry/types.OpenCensusSpanWrapper.end'
-      - '@opentelemetry/types.OpenCensusSpanWrapper.getWrappedSpan'
-      - '@opentelemetry/types.OpenCensusSpanWrapper.isRecording'
-      - '@opentelemetry/types.OpenCensusSpanWrapper.constructor'
-      - '@opentelemetry/types.OpenCensusSpanWrapper.constructor_1'
-      - '@opentelemetry/types.OpenCensusSpanWrapper.setAttribute'
-      - '@opentelemetry/types.OpenCensusSpanWrapper.setAttributes'
-      - '@opentelemetry/types.OpenCensusSpanWrapper.setStatus'
-      - '@opentelemetry/types.OpenCensusSpanWrapper.updateName'
+      - '@azure/core-tracing.OpenCensusSpanWrapper.addEvent'
+      - '@azure/core-tracing.OpenCensusSpanWrapper.context'
+      - '@azure/core-tracing.OpenCensusSpanWrapper.end'
+      - '@azure/core-tracing.OpenCensusSpanWrapper.getWrappedSpan'
+      - '@azure/core-tracing.OpenCensusSpanWrapper.isRecording'
+      - '@azure/core-tracing.OpenCensusSpanWrapper.constructor'
+      - '@azure/core-tracing.OpenCensusSpanWrapper.constructor_1'
+      - '@azure/core-tracing.OpenCensusSpanWrapper.setAttribute'
+      - '@azure/core-tracing.OpenCensusSpanWrapper.setAttributes'
+      - '@azure/core-tracing.OpenCensusSpanWrapper.setStatus'
+      - '@azure/core-tracing.OpenCensusSpanWrapper.updateName'
     langs:
       - typeScript
     type: class
     summary: An implementation of OpenTelemetry Span that wraps an OpenCensus Span.
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.OpenCensusSpanWrapper.addEvent'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.OpenCensusSpanWrapper.addEvent'
     name: 'addEvent(string, Attributes)'
     children: []
     type: method
@@ -36,15 +36,15 @@ items:
           description: ''
         - id: _attributes
           type:
-            - '@opentelemetry/types.Attributes'
+            - Attributes
           description: ''
           optional: true
       return:
         type:
           - this
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.OpenCensusSpanWrapper.context'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.OpenCensusSpanWrapper.context'
     name: context()
     children: []
     type: method
@@ -56,10 +56,10 @@ items:
       parameters: []
       return:
         type:
-          - '@opentelemetry/types.SpanContext'
+          - SpanContext
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.OpenCensusSpanWrapper.end'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.OpenCensusSpanWrapper.end'
     name: end(number)
     children: []
     type: method
@@ -74,8 +74,8 @@ items:
             - number
           description: ''
           optional: true
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.OpenCensusSpanWrapper.getWrappedSpan'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.OpenCensusSpanWrapper.getWrappedSpan'
     name: getWrappedSpan()
     children: []
     type: method
@@ -89,8 +89,8 @@ items:
         type:
           - OpenCensusSpan
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.OpenCensusSpanWrapper.isRecording'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.OpenCensusSpanWrapper.isRecording'
     name: isRecording()
     children: []
     type: method
@@ -104,8 +104,8 @@ items:
         type:
           - boolean
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.OpenCensusSpanWrapper.constructor'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.OpenCensusSpanWrapper.constructor'
     name: OpenCensusSpanWrapper(OpenCensusSpan)
     children: []
     type: constructor
@@ -120,8 +120,8 @@ items:
             - OpenCensusSpan
           description: |
             A Span or RootSpan from OpenCensus
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.OpenCensusSpanWrapper.constructor_1'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.OpenCensusSpanWrapper.constructor_1'
     name: 'OpenCensusSpanWrapper(OpenCensusTracerWrapper, string, SpanOptions)'
     children: []
     type: constructor
@@ -135,7 +135,7 @@ items:
       parameters:
         - id: tracer
           type:
-            - '@opentelemetry/types.OpenCensusTracerWrapper'
+            - '@azure/core-tracing.OpenCensusTracerWrapper'
           description: >-
             The OpenCensus tracer that has been wrapped in
             OpenCensusTracerWrapper
@@ -145,12 +145,12 @@ items:
           description: The name of the Span
         - id: options
           type:
-            - '@opentelemetry/types.SpanOptions'
+            - SpanOptions
           description: |
             Options for the Span
           optional: true
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.OpenCensusSpanWrapper.setAttribute'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.OpenCensusSpanWrapper.setAttribute'
     name: 'setAttribute(string, unknown)'
     children: []
     type: method
@@ -173,8 +173,8 @@ items:
         type:
           - this
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.OpenCensusSpanWrapper.setAttributes'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.OpenCensusSpanWrapper.setAttributes'
     name: setAttributes(Attributes)
     children: []
     type: method
@@ -186,15 +186,15 @@ items:
       parameters:
         - id: attributes
           type:
-            - '@opentelemetry/types.Attributes'
+            - Attributes
           description: |
             the attributes to add
       return:
         type:
           - this
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.OpenCensusSpanWrapper.setStatus'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.OpenCensusSpanWrapper.setStatus'
     name: setStatus(Status)
     children: []
     type: method
@@ -206,15 +206,15 @@ items:
       parameters:
         - id: status
           type:
-            - '@opentelemetry/types.Status'
+            - Status
           description: |
             The status to set.
       return:
         type:
           - this
         description: ''
-    package: '@opentelemetry/types'
-  - uid: '@opentelemetry/types.OpenCensusSpanWrapper.updateName'
+    package: '@azure/core-tracing'
+  - uid: '@azure/core-tracing.OpenCensusSpanWrapper.updateName'
     name: updateName(string)
     children: []
     type: method
@@ -233,35 +233,11 @@ items:
         type:
           - this
         description: ''
-    package: '@opentelemetry/types'
+    package: '@azure/core-tracing'
 references:
-  - uid: '@opentelemetry/types.OpenCensusTracerWrapper'
+  - uid: '@azure/core-tracing.OpenCensusTracerWrapper'
     name: OpenCensusTracerWrapper
     spec.typeScript:
       - name: OpenCensusTracerWrapper
         fullName: OpenCensusTracerWrapper
-        uid: '@opentelemetry/types.OpenCensusTracerWrapper'
-  - uid: '@opentelemetry/types.SpanOptions'
-    name: SpanOptions
-    spec.typeScript:
-      - name: SpanOptions
-        fullName: SpanOptions
-        uid: '@opentelemetry/types.SpanOptions'
-  - uid: '@opentelemetry/types.Attributes'
-    name: Attributes
-    spec.typeScript:
-      - name: Attributes
-        fullName: Attributes
-        uid: '@opentelemetry/types.Attributes'
-  - uid: '@opentelemetry/types.SpanContext'
-    name: SpanContext
-    spec.typeScript:
-      - name: SpanContext
-        fullName: SpanContext
-        uid: '@opentelemetry/types.SpanContext'
-  - uid: '@opentelemetry/types.Status'
-    name: Status
-    spec.typeScript:
-      - name: Status
-        fullName: Status
-        uid: '@opentelemetry/types.Status'
+        uid: '@azure/core-tracing.OpenCensusTracerWrapper'

@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.FileSystem'
+  - uid: '@azure/storage-file-datalake.FileSystem'
     name: FileSystem
     fullName: FileSystem
     children:
-      - '@azure/abort-controller.FileSystem.eTag'
-      - '@azure/abort-controller.FileSystem.lastModified'
-      - '@azure/abort-controller.FileSystem.name'
+      - '@azure/storage-file-datalake.FileSystem.eTag'
+      - '@azure/storage-file-datalake.FileSystem.lastModified'
+      - '@azure/storage-file-datalake.FileSystem.name'
     langs:
       - typeScript
     type: interface
     summary: An interface representing FileSystem.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystem.eTag'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystem.eTag'
     name: eTag
     fullName: eTag
     children: []
@@ -27,8 +27,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystem.lastModified'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystem.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -41,10 +41,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystem.name'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystem.name'
     name: name
     fullName: name
     children: []
@@ -59,11 +59,4 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-references:
-  - uid: '@azure/abort-controller.NodeJS.Global.Date'
-    name: Date
-    spec.typeScript:
-      - name: Date
-        fullName: Date
-        uid: '@azure/abort-controller.NodeJS.Global.Date'
+    package: '@azure/storage-file-datalake'

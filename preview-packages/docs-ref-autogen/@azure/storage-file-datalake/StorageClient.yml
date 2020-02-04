@@ -1,26 +1,26 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.StorageClient'
+  - uid: '@azure/storage-file-datalake.StorageClient'
     name: StorageClient
     fullName: StorageClient
     children:
-      - '@azure/abort-controller.StorageClient.fileSystem'
-      - '@azure/abort-controller.StorageClient.path'
-      - '@azure/abort-controller.StorageClient.resource'
-      - '@azure/abort-controller.StorageClient.sendOperationRequest'
-      - '@azure/abort-controller.StorageClient.sendRequest'
-      - '@azure/abort-controller.StorageClient.service'
-      - '@azure/abort-controller.StorageClient.constructor'
-      - '@azure/abort-controller.StorageClient.url'
-      - '@azure/abort-controller.StorageClient.version'
+      - '@azure/storage-file-datalake.StorageClient.fileSystem'
+      - '@azure/storage-file-datalake.StorageClient.path'
+      - '@azure/storage-file-datalake.StorageClient.resource'
+      - '@azure/storage-file-datalake.StorageClient.sendOperationRequest'
+      - '@azure/storage-file-datalake.StorageClient.sendRequest'
+      - '@azure/storage-file-datalake.StorageClient.service'
+      - '@azure/storage-file-datalake.StorageClient.constructor'
+      - '@azure/storage-file-datalake.StorageClient.url'
+      - '@azure/storage-file-datalake.StorageClient.version'
     langs:
       - typeScript
     type: class
     summary: ''
     extends:
-      name: '@azure/abort-controller.StorageClientContext'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageClient.fileSystem'
+      name: '@azure/storage-file-datalake.StorageClientContext'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageClient.fileSystem'
     name: fileSystem
     fullName: fileSystem
     children: []
@@ -32,10 +32,10 @@ items:
       content: 'fileSystem: FileSystemOperations'
       return:
         type:
-          - '@azure/abort-controller.FileSystemOperations'
+          - '@azure/storage-file-datalake.FileSystemOperations'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageClient.path'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageClient.path'
     name: path
     fullName: path
     children: []
@@ -47,10 +47,10 @@ items:
       content: 'path: PathOperations'
       return:
         type:
-          - '@azure/abort-controller.PathOperations'
+          - '@azure/storage-file-datalake.PathOperations'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageClient.resource'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageClient.resource'
     name: resource
     fullName: resource
     children: []
@@ -64,8 +64,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageClient.sendOperationRequest'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageClient.sendOperationRequest'
     name: >-
       sendOperationRequest(OperationArguments, OperationSpec,
       ServiceCallback<any>)
@@ -81,26 +81,26 @@ items:
       parameters:
         - id: operationArguments
           type:
-            - '@azure/abort-controller.OperationArguments'
+            - OperationArguments
           description: >-
             The arguments that the HTTP request's templated values will be
             populated from.
         - id: operationSpec
           type:
-            - '@azure/abort-controller.OperationSpec'
+            - OperationSpec
           description: The OperationSpec to use to populate the httpRequest.
         - id: callback
           type:
-            - '@azure/abort-controller.ServiceCallback<any>'
+            - ServiceCallback<any>
           description: |
             The callback to call when the response is received.
           optional: true
       return:
         type:
-          - Promise<@azure/abort-controller.RestResponse>
+          - Promise<RestResponse>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageClient.sendRequest'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageClient.sendRequest'
     name: sendRequest(RequestPrepareOptions | WebResource)
     children: []
     type: method
@@ -112,16 +112,14 @@ items:
       parameters:
         - id: options
           type:
-            - >-
-              @azure/abort-controller.RequestPrepareOptions |
-              @azure/abort-controller.WebResource
+            - RequestPrepareOptions | WebResource
           description: ''
       return:
         type:
-          - Promise<@azure/abort-controller.HttpOperationResponse>
+          - Promise<HttpOperationResponse>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageClient.service'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageClient.service'
     name: service
     fullName: service
     children: []
@@ -133,10 +131,10 @@ items:
       content: 'service: Service'
       return:
         type:
-          - '@azure/abort-controller.Service'
+          - '@azure/storage-file-datalake.Service'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageClient.constructor'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageClient.constructor'
     name: 'StorageClient(string, coreHttp.ServiceClientOptions)'
     children: []
     type: constructor
@@ -159,8 +157,8 @@ items:
             - coreHttp.ServiceClientOptions
           description: ''
           optional: true
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageClient.url'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageClient.url'
     name: url
     fullName: url
     children: []
@@ -174,8 +172,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.StorageClient.version'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.StorageClient.version'
     name: version
     fullName: version
     children: []
@@ -189,82 +187,29 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.StorageClientContext'
+  - uid: '@azure/storage-file-datalake.StorageClientContext'
     name: StorageClientContext
     spec.typeScript:
       - name: StorageClientContext
         fullName: StorageClientContext
-        uid: '@azure/abort-controller.StorageClientContext'
-  - uid: '@azure/abort-controller.FileSystemOperations'
+        uid: '@azure/storage-file-datalake.StorageClientContext'
+  - uid: '@azure/storage-file-datalake.FileSystemOperations'
     name: FileSystemOperations
     spec.typeScript:
       - name: FileSystemOperations
         fullName: FileSystemOperations
-        uid: '@azure/abort-controller.FileSystemOperations'
-  - uid: '@azure/abort-controller.PathOperations'
+        uid: '@azure/storage-file-datalake.FileSystemOperations'
+  - uid: '@azure/storage-file-datalake.PathOperations'
     name: PathOperations
     spec.typeScript:
       - name: PathOperations
         fullName: PathOperations
-        uid: '@azure/abort-controller.PathOperations'
-  - uid: '@azure/abort-controller.Service'
+        uid: '@azure/storage-file-datalake.PathOperations'
+  - uid: '@azure/storage-file-datalake.Service'
     name: Service
     spec.typeScript:
       - name: Service
         fullName: Service
-        uid: '@azure/abort-controller.Service'
-  - uid: '@azure/abort-controller.OperationArguments'
-    name: OperationArguments
-    spec.typeScript:
-      - name: OperationArguments
-        fullName: OperationArguments
-        uid: '@azure/abort-controller.OperationArguments'
-  - uid: '@azure/abort-controller.OperationSpec'
-    name: OperationSpec
-    spec.typeScript:
-      - name: OperationSpec
-        fullName: OperationSpec
-        uid: '@azure/abort-controller.OperationSpec'
-  - uid: '@azure/abort-controller.ServiceCallback<any>'
-    name: ServiceCallback<any>
-    spec.typeScript:
-      - name: ServiceCallback
-        fullName: ServiceCallback
-        uid: '@azure/abort-controller.ServiceCallback'
-      - name: <any>
-        fullName: <any>
-  - uid: Promise<@azure/abort-controller.RestResponse>
-    name: RestResponse>
-    spec.typeScript:
-      - name: Promise<
-        fullName: Promise<
-      - name: RestResponse
-        fullName: RestResponse
-        uid: '@azure/abort-controller.RestResponse'
-      - name: '>'
-        fullName: '>'
-  - uid: >-
-      @azure/abort-controller.RequestPrepareOptions |
-      @azure/abort-controller.WebResource
-    name: WebResource
-    spec.typeScript:
-      - name: RequestPrepareOptions
-        fullName: RequestPrepareOptions
-        uid: '@azure/abort-controller.RequestPrepareOptions'
-      - name: ' | '
-        fullName: ' | '
-      - name: WebResource
-        fullName: WebResource
-        uid: '@azure/abort-controller.WebResource'
-  - uid: Promise<@azure/abort-controller.HttpOperationResponse>
-    name: HttpOperationResponse>
-    spec.typeScript:
-      - name: Promise<
-        fullName: Promise<
-      - name: HttpOperationResponse
-        fullName: HttpOperationResponse
-        uid: '@azure/abort-controller.HttpOperationResponse'
-      - name: '>'
-        fullName: '>'
+        uid: '@azure/storage-file-datalake.Service'

@@ -1,11 +1,11 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.TextDocumentStatistics'
+  - uid: '@azure/ai-text-analytics.TextDocumentStatistics'
     name: TextDocumentStatistics
     fullName: TextDocumentStatistics
     children:
-      - '@azure/abort-controller.TextDocumentStatistics.characterCount'
-      - '@azure/abort-controller.TextDocumentStatistics.transactionCount'
+      - '@azure/ai-text-analytics.TextDocumentStatistics.characterCount'
+      - '@azure/ai-text-analytics.TextDocumentStatistics.transactionCount'
     langs:
       - typeScript
     type: interface
@@ -14,8 +14,8 @@ items:
       information about the
 
       document payload.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextDocumentStatistics.characterCount'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextDocumentStatistics.characterCount'
     name: characterCount
     fullName: characterCount
     children: []
@@ -29,8 +29,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextDocumentStatistics.transactionCount'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextDocumentStatistics.transactionCount'
     name: transactionCount
     fullName: transactionCount
     children: []
@@ -44,4 +44,4 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'

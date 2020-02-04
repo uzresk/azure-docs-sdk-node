@@ -1,20 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.ServiceBusConnectionStringModel'
+  - uid: '@azure/amqp-common.ServiceBusConnectionStringModel'
     name: ServiceBusConnectionStringModel
     fullName: ServiceBusConnectionStringModel
     children:
-      - '@azure/ms-rest-azure-env.ServiceBusConnectionStringModel.Endpoint'
-      - '@azure/ms-rest-azure-env.ServiceBusConnectionStringModel.EntityPath'
-      - '@azure/ms-rest-azure-env.ServiceBusConnectionStringModel.SharedAccessKey'
-      - >-
-        @azure/ms-rest-azure-env.ServiceBusConnectionStringModel.SharedAccessKeyName
+      - '@azure/amqp-common.ServiceBusConnectionStringModel.Endpoint'
+      - '@azure/amqp-common.ServiceBusConnectionStringModel.EntityPath'
+      - '@azure/amqp-common.ServiceBusConnectionStringModel.SharedAccessKey'
+      - '@azure/amqp-common.ServiceBusConnectionStringModel.SharedAccessKeyName'
     langs:
       - typeScript
     type: interface
     summary: Describes the servicebus connection string model.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ServiceBusConnectionStringModel.Endpoint'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ServiceBusConnectionStringModel.Endpoint'
     name: Endpoint
     fullName: Endpoint
     children: []
@@ -28,8 +27,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ServiceBusConnectionStringModel.EntityPath'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ServiceBusConnectionStringModel.EntityPath'
     name: EntityPath
     fullName: EntityPath
     children: []
@@ -44,8 +43,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.ServiceBusConnectionStringModel.SharedAccessKey'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ServiceBusConnectionStringModel.SharedAccessKey'
     name: SharedAccessKey
     fullName: SharedAccessKey
     children: []
@@ -59,9 +58,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: >-
-      @azure/ms-rest-azure-env.ServiceBusConnectionStringModel.SharedAccessKeyName
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.ServiceBusConnectionStringModel.SharedAccessKeyName'
     name: SharedAccessKeyName
     fullName: SharedAccessKeyName
     children: []
@@ -75,4 +73,4 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'

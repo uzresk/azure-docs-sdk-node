@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.TelemetryPolicyFactory'
+  - uid: '@azure/storage-file-datalake.TelemetryPolicyFactory'
     name: TelemetryPolicyFactory
     fullName: TelemetryPolicyFactory
     children:
-      - '@azure/abort-controller.TelemetryPolicyFactory.create'
-      - '@azure/abort-controller.TelemetryPolicyFactory.constructor'
+      - '@azure/storage-file-datalake.TelemetryPolicyFactory.create'
+      - '@azure/storage-file-datalake.TelemetryPolicyFactory.constructor'
     langs:
       - typeScript
     type: class
     summary: >-
       TelemetryPolicyFactory is a factory class helping generating
       <xref:TelemetryPolicy> objects.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TelemetryPolicyFactory.create'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.TelemetryPolicyFactory.create'
     name: 'create(RequestPolicy, RequestPolicyOptions)'
     children: []
     type: method
@@ -27,18 +27,18 @@ items:
       parameters:
         - id: nextPolicy
           type:
-            - '@azure/abort-controller.RequestPolicy'
+            - RequestPolicy
           description: ''
         - id: options
           type:
-            - '@azure/abort-controller.RequestPolicyOptions'
+            - RequestPolicyOptions
           description: ''
       return:
         type:
-          - '@azure/abort-controller.TelemetryPolicy'
+          - '@azure/storage-file-datalake.TelemetryPolicy'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TelemetryPolicyFactory.constructor'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.TelemetryPolicyFactory.constructor'
     name: TelemetryPolicyFactory(UserAgentOptions)
     children: []
     type: constructor
@@ -50,32 +50,14 @@ items:
       parameters:
         - id: telemetry
           type:
-            - '@azure/abort-controller.UserAgentOptions'
+            - UserAgentOptions
           description: ''
           optional: true
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.UserAgentOptions'
-    name: UserAgentOptions
-    spec.typeScript:
-      - name: UserAgentOptions
-        fullName: UserAgentOptions
-        uid: '@azure/abort-controller.UserAgentOptions'
-  - uid: '@azure/abort-controller.RequestPolicy'
-    name: RequestPolicy
-    spec.typeScript:
-      - name: RequestPolicy
-        fullName: RequestPolicy
-        uid: '@azure/abort-controller.RequestPolicy'
-  - uid: '@azure/abort-controller.RequestPolicyOptions'
-    name: RequestPolicyOptions
-    spec.typeScript:
-      - name: RequestPolicyOptions
-        fullName: RequestPolicyOptions
-        uid: '@azure/abort-controller.RequestPolicyOptions'
-  - uid: '@azure/abort-controller.TelemetryPolicy'
+  - uid: '@azure/storage-file-datalake.TelemetryPolicy'
     name: TelemetryPolicy
     spec.typeScript:
       - name: TelemetryPolicy
         fullName: TelemetryPolicy
-        uid: '@azure/abort-controller.TelemetryPolicy'
+        uid: '@azure/storage-file-datalake.TelemetryPolicy'

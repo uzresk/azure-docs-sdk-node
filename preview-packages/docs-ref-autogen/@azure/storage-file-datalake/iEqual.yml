@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.iEqual'
+  - uid: '@azure/storage-file-datalake.iEqual'
     name: 'iEqual(string, string)'
     children: []
     type: function
@@ -22,4 +22,4 @@ items:
         type:
           - boolean
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

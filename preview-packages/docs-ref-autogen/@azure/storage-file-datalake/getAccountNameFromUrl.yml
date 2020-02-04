@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.getAccountNameFromUrl'
+  - uid: '@azure/storage-file-datalake.getAccountNameFromUrl'
     name: getAccountNameFromUrl(string)
     children: []
     type: function
@@ -18,4 +18,4 @@ items:
         type:
           - string
         description: account name
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'

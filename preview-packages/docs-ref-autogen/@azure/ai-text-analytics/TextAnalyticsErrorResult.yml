@@ -1,11 +1,11 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.TextAnalyticsErrorResult'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsErrorResult'
     name: TextAnalyticsErrorResult
     fullName: TextAnalyticsErrorResult
     children:
-      - '@azure/abort-controller.TextAnalyticsErrorResult.error'
-      - '@azure/abort-controller.TextAnalyticsErrorResult.id'
+      - '@azure/ai-text-analytics.TextAnalyticsErrorResult.error'
+      - '@azure/ai-text-analytics.TextAnalyticsErrorResult.id'
     langs:
       - typeScript
     type: interface
@@ -14,8 +14,8 @@ items:
       a
 
       single document.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsErrorResult.error'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsErrorResult.error'
     name: error
     fullName: error
     children: []
@@ -27,10 +27,10 @@ items:
       content: 'error: TextAnalyticsError'
       return:
         type:
-          - '@azure/abort-controller.TextAnalyticsError'
+          - '@azure/ai-text-analytics.TextAnalyticsError'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsErrorResult.id'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsErrorResult.id'
     name: id
     fullName: id
     children: []
@@ -44,11 +44,11 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/ai-text-analytics'
 references:
-  - uid: '@azure/abort-controller.TextAnalyticsError'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsError'
     name: TextAnalyticsError
     spec.typeScript:
       - name: TextAnalyticsError
         fullName: TextAnalyticsError
-        uid: '@azure/abort-controller.TextAnalyticsError'
+        uid: '@azure/ai-text-analytics.TextAnalyticsError'

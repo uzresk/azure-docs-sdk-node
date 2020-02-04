@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.IotHubConnectionStringModel
+  - uid: '@azure/core-amqp.IotHubConnectionStringModel'
     name: IotHubConnectionStringModel
     fullName: IotHubConnectionStringModel
     children:
-      - tslib.IotHubConnectionStringModel.DeviceId
-      - tslib.IotHubConnectionStringModel.HostName
-      - tslib.IotHubConnectionStringModel.SharedAccessKey
-      - tslib.IotHubConnectionStringModel.SharedAccessKeyName
+      - '@azure/core-amqp.IotHubConnectionStringModel.DeviceId'
+      - '@azure/core-amqp.IotHubConnectionStringModel.HostName'
+      - '@azure/core-amqp.IotHubConnectionStringModel.SharedAccessKey'
+      - '@azure/core-amqp.IotHubConnectionStringModel.SharedAccessKeyName'
     langs:
       - typeScript
     type: interface
     summary: Describes the iothub connection string model.
-    package: tslib
-  - uid: tslib.IotHubConnectionStringModel.DeviceId
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.IotHubConnectionStringModel.DeviceId'
     name: DeviceId
     fullName: DeviceId
     children: []
@@ -28,8 +28,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: tslib
-  - uid: tslib.IotHubConnectionStringModel.HostName
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.IotHubConnectionStringModel.HostName'
     name: HostName
     fullName: HostName
     children: []
@@ -43,8 +43,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.IotHubConnectionStringModel.SharedAccessKey
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.IotHubConnectionStringModel.SharedAccessKey'
     name: SharedAccessKey
     fullName: SharedAccessKey
     children: []
@@ -58,8 +58,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.IotHubConnectionStringModel.SharedAccessKeyName
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.IotHubConnectionStringModel.SharedAccessKeyName'
     name: SharedAccessKeyName
     fullName: SharedAccessKeyName
     children: []
@@ -73,4 +73,4 @@ items:
         type:
           - string
         description: ''
-    package: tslib
+    package: '@azure/core-amqp'

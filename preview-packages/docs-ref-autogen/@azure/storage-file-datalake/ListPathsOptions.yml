@@ -1,22 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.ListPathsOptions'
+  - uid: '@azure/storage-file-datalake.ListPathsOptions'
     name: ListPathsOptions
     fullName: ListPathsOptions
     children:
-      - '@azure/abort-controller.ListPathsOptions.abortSignal'
-      - '@azure/abort-controller.ListPathsOptions.path'
-      - '@azure/abort-controller.ListPathsOptions.recursive'
-      - '@azure/abort-controller.ListPathsOptions.tracingOptions'
-      - '@azure/abort-controller.ListPathsOptions.userPrincipalName'
+      - '@azure/storage-file-datalake.ListPathsOptions.abortSignal'
+      - '@azure/storage-file-datalake.ListPathsOptions.path'
+      - '@azure/storage-file-datalake.ListPathsOptions.recursive'
+      - '@azure/storage-file-datalake.ListPathsOptions.tracingOptions'
+      - '@azure/storage-file-datalake.ListPathsOptions.userPrincipalName'
     langs:
       - typeScript
     type: interface
     summary: ''
     extends:
-      name: '@azure/abort-controller.CommonOptions'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ListPathsOptions.abortSignal'
+      name: '@azure/storage-file-datalake.CommonOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.ListPathsOptions.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -29,10 +29,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - '@azure/abort-controller.AbortSignalLike'
+          - AbortSignalLike
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ListPathsOptions.path'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.ListPathsOptions.path'
     name: path
     fullName: path
     children: []
@@ -47,8 +47,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ListPathsOptions.recursive'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.ListPathsOptions.recursive'
     name: recursive
     fullName: recursive
     children: []
@@ -63,8 +63,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ListPathsOptions.tracingOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.ListPathsOptions.tracingOptions'
     name: tracingOptions
     fullName: tracingOptions
     children: []
@@ -77,10 +77,10 @@ items:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         type:
-          - '@azure/abort-controller.OperationTracingOptions'
+          - '@azure/storage-file-datalake.OperationTracingOptions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ListPathsOptions.userPrincipalName'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.ListPathsOptions.userPrincipalName'
     name: userPrincipalName
     fullName: userPrincipalName
     children: []
@@ -95,23 +95,17 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/storage-file-datalake.CommonOptions'
     name: CommonOptions
     spec.typeScript:
       - name: CommonOptions
         fullName: CommonOptions
-        uid: '@azure/abort-controller.CommonOptions'
-  - uid: '@azure/abort-controller.AbortSignalLike'
-    name: AbortSignalLike
-    spec.typeScript:
-      - name: AbortSignalLike
-        fullName: AbortSignalLike
-        uid: '@azure/abort-controller.AbortSignalLike'
-  - uid: '@azure/abort-controller.OperationTracingOptions'
+        uid: '@azure/storage-file-datalake.CommonOptions'
+  - uid: '@azure/storage-file-datalake.OperationTracingOptions'
     name: OperationTracingOptions
     spec.typeScript:
       - name: OperationTracingOptions
         fullName: OperationTracingOptions
-        uid: '@azure/abort-controller.OperationTracingOptions'
+        uid: '@azure/storage-file-datalake.OperationTracingOptions'

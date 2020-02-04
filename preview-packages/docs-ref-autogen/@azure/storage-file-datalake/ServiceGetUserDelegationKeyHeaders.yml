@@ -1,20 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.ServiceGetUserDelegationKeyHeaders'
+  - uid: '@azure/storage-file-datalake.ServiceGetUserDelegationKeyHeaders'
     name: ServiceGetUserDelegationKeyHeaders
     fullName: ServiceGetUserDelegationKeyHeaders
     children:
       - >-
-        @azure/abort-controller.ServiceGetUserDelegationKeyHeaders.clientRequestId
-      - '@azure/abort-controller.ServiceGetUserDelegationKeyHeaders.date'
-      - '@azure/abort-controller.ServiceGetUserDelegationKeyHeaders.requestId'
-      - '@azure/abort-controller.ServiceGetUserDelegationKeyHeaders.version'
+        @azure/storage-file-datalake.ServiceGetUserDelegationKeyHeaders.clientRequestId
+      - '@azure/storage-file-datalake.ServiceGetUserDelegationKeyHeaders.date'
+      - >-
+        @azure/storage-file-datalake.ServiceGetUserDelegationKeyHeaders.requestId
+      - '@azure/storage-file-datalake.ServiceGetUserDelegationKeyHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ServiceGetUserDelegationKeyHeaders.clientRequestId'
+    package: '@azure/storage-file-datalake'
+  - uid: >-
+      @azure/storage-file-datalake.ServiceGetUserDelegationKeyHeaders.clientRequestId
     name: clientRequestId
     fullName: clientRequestId
     children: []
@@ -29,8 +31,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ServiceGetUserDelegationKeyHeaders.date'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.ServiceGetUserDelegationKeyHeaders.date'
     name: date
     fullName: date
     children: []
@@ -43,10 +45,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ServiceGetUserDelegationKeyHeaders.requestId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.ServiceGetUserDelegationKeyHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -61,8 +63,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.ServiceGetUserDelegationKeyHeaders.version'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.ServiceGetUserDelegationKeyHeaders.version'
     name: version
     fullName: version
     children: []
@@ -77,11 +79,4 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-references:
-  - uid: '@azure/abort-controller.NodeJS.Global.Date'
-    name: Date
-    spec.typeScript:
-      - name: Date
-        fullName: Date
-        uid: '@azure/abort-controller.NodeJS.Global.Date'
+    package: '@azure/storage-file-datalake'

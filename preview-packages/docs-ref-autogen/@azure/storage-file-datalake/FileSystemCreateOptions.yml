@@ -1,21 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.FileSystemCreateOptions'
+  - uid: '@azure/storage-file-datalake.FileSystemCreateOptions'
     name: FileSystemCreateOptions
     fullName: FileSystemCreateOptions
     children:
-      - '@azure/abort-controller.FileSystemCreateOptions.abortSignal'
-      - '@azure/abort-controller.FileSystemCreateOptions.access'
-      - '@azure/abort-controller.FileSystemCreateOptions.metadata'
-      - '@azure/abort-controller.FileSystemCreateOptions.tracingOptions'
+      - '@azure/storage-file-datalake.FileSystemCreateOptions.abortSignal'
+      - '@azure/storage-file-datalake.FileSystemCreateOptions.access'
+      - '@azure/storage-file-datalake.FileSystemCreateOptions.metadata'
+      - '@azure/storage-file-datalake.FileSystemCreateOptions.tracingOptions'
     langs:
       - typeScript
     type: interface
     summary: /
     extends:
-      name: '@azure/abort-controller.CommonOptions'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemCreateOptions.abortSignal'
+      name: '@azure/storage-file-datalake.CommonOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemCreateOptions.abortSignal'
     name: abortSignal
     fullName: abortSignal
     children: []
@@ -28,10 +28,10 @@ items:
       content: 'abortSignal?: AbortSignalLike'
       return:
         type:
-          - '@azure/abort-controller.AbortSignalLike'
+          - AbortSignalLike
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemCreateOptions.access'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemCreateOptions.access'
     name: access
     fullName: access
     children: []
@@ -44,10 +44,10 @@ items:
       content: 'access?: PublicAccessType'
       return:
         type:
-          - '@azure/abort-controller.PublicAccessType'
+          - '@azure/storage-file-datalake.PublicAccessType'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemCreateOptions.metadata'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemCreateOptions.metadata'
     name: metadata
     fullName: metadata
     children: []
@@ -60,10 +60,10 @@ items:
       content: 'metadata?: Metadata'
       return:
         type:
-          - '@azure/abort-controller.Metadata'
+          - '@azure/storage-file-datalake.Metadata'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.FileSystemCreateOptions.tracingOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.FileSystemCreateOptions.tracingOptions'
     name: tracingOptions
     fullName: tracingOptions
     children: []
@@ -76,37 +76,31 @@ items:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         type:
-          - '@azure/abort-controller.OperationTracingOptions'
+          - '@azure/storage-file-datalake.OperationTracingOptions'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/storage-file-datalake.CommonOptions'
     name: CommonOptions
     spec.typeScript:
       - name: CommonOptions
         fullName: CommonOptions
-        uid: '@azure/abort-controller.CommonOptions'
-  - uid: '@azure/abort-controller.AbortSignalLike'
-    name: AbortSignalLike
-    spec.typeScript:
-      - name: AbortSignalLike
-        fullName: AbortSignalLike
-        uid: '@azure/abort-controller.AbortSignalLike'
-  - uid: '@azure/abort-controller.PublicAccessType'
+        uid: '@azure/storage-file-datalake.CommonOptions'
+  - uid: '@azure/storage-file-datalake.PublicAccessType'
     name: PublicAccessType
     spec.typeScript:
       - name: PublicAccessType
         fullName: PublicAccessType
-        uid: '@azure/abort-controller.PublicAccessType'
-  - uid: '@azure/abort-controller.Metadata'
+        uid: '@azure/storage-file-datalake.PublicAccessType'
+  - uid: '@azure/storage-file-datalake.Metadata'
     name: Metadata
     spec.typeScript:
       - name: Metadata
         fullName: Metadata
-        uid: '@azure/abort-controller.Metadata'
-  - uid: '@azure/abort-controller.OperationTracingOptions'
+        uid: '@azure/storage-file-datalake.Metadata'
+  - uid: '@azure/storage-file-datalake.OperationTracingOptions'
     name: OperationTracingOptions
     spec.typeScript:
       - name: OperationTracingOptions
         fullName: OperationTracingOptions
-        uid: '@azure/abort-controller.OperationTracingOptions'
+        uid: '@azure/storage-file-datalake.OperationTracingOptions'

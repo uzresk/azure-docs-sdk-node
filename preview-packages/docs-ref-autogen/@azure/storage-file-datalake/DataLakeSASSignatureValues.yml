@@ -1,24 +1,25 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues'
     name: DataLakeSASSignatureValues
     fullName: DataLakeSASSignatureValues
     children:
-      - '@azure/abort-controller.DataLakeSASSignatureValues.cacheControl'
-      - '@azure/abort-controller.DataLakeSASSignatureValues.contentDisposition'
-      - '@azure/abort-controller.DataLakeSASSignatureValues.contentEncoding'
-      - '@azure/abort-controller.DataLakeSASSignatureValues.contentLanguage'
-      - '@azure/abort-controller.DataLakeSASSignatureValues.contentType'
-      - '@azure/abort-controller.DataLakeSASSignatureValues.expiresOn'
-      - '@azure/abort-controller.DataLakeSASSignatureValues.fileSystemName'
-      - '@azure/abort-controller.DataLakeSASSignatureValues.identifier'
-      - '@azure/abort-controller.DataLakeSASSignatureValues.ipRange'
-      - '@azure/abort-controller.DataLakeSASSignatureValues.pathName'
-      - '@azure/abort-controller.DataLakeSASSignatureValues.permissions'
-      - '@azure/abort-controller.DataLakeSASSignatureValues.protocol'
-      - '@azure/abort-controller.DataLakeSASSignatureValues.snapshotTime'
-      - '@azure/abort-controller.DataLakeSASSignatureValues.startsOn'
-      - '@azure/abort-controller.DataLakeSASSignatureValues.version'
+      - '@azure/storage-file-datalake.DataLakeSASSignatureValues.cacheControl'
+      - >-
+        @azure/storage-file-datalake.DataLakeSASSignatureValues.contentDisposition
+      - '@azure/storage-file-datalake.DataLakeSASSignatureValues.contentEncoding'
+      - '@azure/storage-file-datalake.DataLakeSASSignatureValues.contentLanguage'
+      - '@azure/storage-file-datalake.DataLakeSASSignatureValues.contentType'
+      - '@azure/storage-file-datalake.DataLakeSASSignatureValues.expiresOn'
+      - '@azure/storage-file-datalake.DataLakeSASSignatureValues.fileSystemName'
+      - '@azure/storage-file-datalake.DataLakeSASSignatureValues.identifier'
+      - '@azure/storage-file-datalake.DataLakeSASSignatureValues.ipRange'
+      - '@azure/storage-file-datalake.DataLakeSASSignatureValues.pathName'
+      - '@azure/storage-file-datalake.DataLakeSASSignatureValues.permissions'
+      - '@azure/storage-file-datalake.DataLakeSASSignatureValues.protocol'
+      - '@azure/storage-file-datalake.DataLakeSASSignatureValues.snapshotTime'
+      - '@azure/storage-file-datalake.DataLakeSASSignatureValues.startsOn'
+      - '@azure/storage-file-datalake.DataLakeSASSignatureValues.version'
     langs:
       - typeScript
     type: interface
@@ -28,8 +29,8 @@ items:
       DataLakeSASSignatureValues is used to help generating Blob and DataLake
       service SAS tokens for containers, blobs, filesystem, directories and
       files.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.cacheControl'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.cacheControl'
     name: cacheControl
     fullName: cacheControl
     children: []
@@ -44,8 +45,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.contentDisposition'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.contentDisposition'
     name: contentDisposition
     fullName: contentDisposition
     children: []
@@ -60,8 +61,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.contentEncoding'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.contentEncoding'
     name: contentEncoding
     fullName: contentEncoding
     children: []
@@ -76,8 +77,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.contentLanguage'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.contentLanguage'
     name: contentLanguage
     fullName: contentLanguage
     children: []
@@ -92,8 +93,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.contentType'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.contentType'
     name: contentType
     fullName: contentType
     children: []
@@ -108,8 +109,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.expiresOn'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.expiresOn'
     name: expiresOn
     fullName: expiresOn
     children: []
@@ -124,10 +125,10 @@ items:
       content: 'expiresOn?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.fileSystemName'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.fileSystemName'
     name: fileSystemName
     fullName: fileSystemName
     children: []
@@ -141,8 +142,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.identifier'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.identifier'
     name: identifier
     fullName: identifier
     children: []
@@ -159,8 +160,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.ipRange'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.ipRange'
     name: ipRange
     fullName: ipRange
     children: []
@@ -173,10 +174,10 @@ items:
       content: 'ipRange?: SasIPRange'
       return:
         type:
-          - '@azure/abort-controller.SasIPRange'
+          - '@azure/storage-file-datalake.SasIPRange'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.pathName'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.pathName'
     name: pathName
     fullName: pathName
     children: []
@@ -193,8 +194,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.permissions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.permissions'
     name: permissions
     fullName: permissions
     children: []
@@ -213,10 +214,10 @@ items:
       content: 'permissions?: DataLakeSASPermissions'
       return:
         type:
-          - '@azure/abort-controller.DataLakeSASPermissions'
+          - '@azure/storage-file-datalake.DataLakeSASPermissions'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.protocol'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.protocol'
     name: protocol
     fullName: protocol
     children: []
@@ -229,10 +230,10 @@ items:
       content: 'protocol?: SASProtocol'
       return:
         type:
-          - '@azure/abort-controller.SASProtocol'
+          - '@azure/storage-file-datalake.SASProtocol'
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.snapshotTime'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.snapshotTime'
     name: snapshotTime
     fullName: snapshotTime
     children: []
@@ -249,8 +250,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.startsOn'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.startsOn'
     name: startsOn
     fullName: startsOn
     children: []
@@ -263,10 +264,10 @@ items:
       content: 'startsOn?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.DataLakeSASSignatureValues.version'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues.version'
     name: version
     fullName: version
     children: []
@@ -285,29 +286,23 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.NodeJS.Global.Date'
-    name: Date
-    spec.typeScript:
-      - name: Date
-        fullName: Date
-        uid: '@azure/abort-controller.NodeJS.Global.Date'
-  - uid: '@azure/abort-controller.SasIPRange'
+  - uid: '@azure/storage-file-datalake.SasIPRange'
     name: SasIPRange
     spec.typeScript:
       - name: SasIPRange
         fullName: SasIPRange
-        uid: '@azure/abort-controller.SasIPRange'
-  - uid: '@azure/abort-controller.DataLakeSASPermissions'
+        uid: '@azure/storage-file-datalake.SasIPRange'
+  - uid: '@azure/storage-file-datalake.DataLakeSASPermissions'
     name: DataLakeSASPermissions
     spec.typeScript:
       - name: DataLakeSASPermissions
         fullName: DataLakeSASPermissions
-        uid: '@azure/abort-controller.DataLakeSASPermissions'
-  - uid: '@azure/abort-controller.SASProtocol'
+        uid: '@azure/storage-file-datalake.DataLakeSASPermissions'
+  - uid: '@azure/storage-file-datalake.SASProtocol'
     name: SASProtocol
     spec.typeScript:
       - name: SASProtocol
         fullName: SASProtocol
-        uid: '@azure/abort-controller.SASProtocol'
+        uid: '@azure/storage-file-datalake.SASProtocol'

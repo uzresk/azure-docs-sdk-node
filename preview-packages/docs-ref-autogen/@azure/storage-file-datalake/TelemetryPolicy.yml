@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.TelemetryPolicy'
+  - uid: '@azure/storage-file-datalake.TelemetryPolicy'
     name: TelemetryPolicy
     fullName: TelemetryPolicy
     children:
-      - '@azure/abort-controller.TelemetryPolicy.log'
-      - '@azure/abort-controller.TelemetryPolicy.sendRequest'
-      - '@azure/abort-controller.TelemetryPolicy.shouldLog'
-      - '@azure/abort-controller.TelemetryPolicy.telemetry'
-      - '@azure/abort-controller.TelemetryPolicy.constructor'
+      - '@azure/storage-file-datalake.TelemetryPolicy.log'
+      - '@azure/storage-file-datalake.TelemetryPolicy.sendRequest'
+      - '@azure/storage-file-datalake.TelemetryPolicy.shouldLog'
+      - '@azure/storage-file-datalake.TelemetryPolicy.telemetry'
+      - '@azure/storage-file-datalake.TelemetryPolicy.constructor'
     langs:
       - typeScript
     type: class
@@ -16,9 +16,9 @@ items:
       TelemetryPolicy is a policy used to tag user-agent header for every
       requests.
     extends:
-      name: '@azure/abort-controller.BaseRequestPolicy'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TelemetryPolicy.log'
+      name: BaseRequestPolicy
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.TelemetryPolicy.log'
     name: 'log(HttpPipelineLogLevel, string)'
     children: []
     type: method
@@ -35,15 +35,15 @@ items:
       parameters:
         - id: logLevel
           type:
-            - '@azure/abort-controller.HttpPipelineLogLevel'
+            - HttpPipelineLogLevel
           description: The log level of this log.
         - id: message
           type:
             - string
           description: |
             The message of this log.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TelemetryPolicy.sendRequest'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.TelemetryPolicy.sendRequest'
     name: sendRequest(WebResource)
     children: []
     type: method
@@ -55,14 +55,14 @@ items:
       parameters:
         - id: request
           type:
-            - '@azure/abort-controller.WebResource'
+            - WebResource
           description: ''
       return:
         type:
-          - Promise<@azure/abort-controller.HttpOperationResponse>
+          - Promise<HttpOperationResponse>
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TelemetryPolicy.shouldLog'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.TelemetryPolicy.shouldLog'
     name: shouldLog(HttpPipelineLogLevel)
     children: []
     type: method
@@ -74,14 +74,14 @@ items:
       parameters:
         - id: logLevel
           type:
-            - '@azure/abort-controller.HttpPipelineLogLevel'
+            - HttpPipelineLogLevel
           description: The log level of the log that will be logged.
       return:
         type:
           - boolean
         description: Whether or not a log with the provided log level should be logged.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TelemetryPolicy.telemetry'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.TelemetryPolicy.telemetry'
     name: telemetry
     fullName: telemetry
     children: []
@@ -95,8 +95,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TelemetryPolicy.constructor'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.TelemetryPolicy.constructor'
     name: 'TelemetryPolicy(RequestPolicy, RequestPolicyOptions, string)'
     children: []
     type: constructor
@@ -110,55 +110,14 @@ items:
       parameters:
         - id: nextPolicy
           type:
-            - '@azure/abort-controller.RequestPolicy'
+            - RequestPolicy
           description: ''
         - id: options
           type:
-            - '@azure/abort-controller.RequestPolicyOptions'
+            - RequestPolicyOptions
           description: ''
         - id: telemetry
           type:
             - string
           description: ''
-    package: '@azure/abort-controller'
-references:
-  - uid: '@azure/abort-controller.BaseRequestPolicy'
-    name: BaseRequestPolicy
-    spec.typeScript:
-      - name: BaseRequestPolicy
-        fullName: BaseRequestPolicy
-        uid: '@azure/abort-controller.BaseRequestPolicy'
-  - uid: '@azure/abort-controller.RequestPolicy'
-    name: RequestPolicy
-    spec.typeScript:
-      - name: RequestPolicy
-        fullName: RequestPolicy
-        uid: '@azure/abort-controller.RequestPolicy'
-  - uid: '@azure/abort-controller.RequestPolicyOptions'
-    name: RequestPolicyOptions
-    spec.typeScript:
-      - name: RequestPolicyOptions
-        fullName: RequestPolicyOptions
-        uid: '@azure/abort-controller.RequestPolicyOptions'
-  - uid: '@azure/abort-controller.HttpPipelineLogLevel'
-    name: HttpPipelineLogLevel
-    spec.typeScript:
-      - name: HttpPipelineLogLevel
-        fullName: HttpPipelineLogLevel
-        uid: '@azure/abort-controller.HttpPipelineLogLevel'
-  - uid: '@azure/abort-controller.WebResource'
-    name: WebResource
-    spec.typeScript:
-      - name: WebResource
-        fullName: WebResource
-        uid: '@azure/abort-controller.WebResource'
-  - uid: Promise<@azure/abort-controller.HttpOperationResponse>
-    name: HttpOperationResponse>
-    spec.typeScript:
-      - name: Promise<
-        fullName: Promise<
-      - name: HttpOperationResponse
-        fullName: HttpOperationResponse
-        uid: '@azure/abort-controller.HttpOperationResponse'
-      - name: '>'
-        fullName: '>'
+    package: '@azure/storage-file-datalake'

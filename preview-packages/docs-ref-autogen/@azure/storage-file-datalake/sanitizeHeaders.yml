@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.sanitizeHeaders'
+  - uid: '@azure/storage-file-datalake.sanitizeHeaders'
     name: sanitizeHeaders(HttpHeaders)
     children: []
     type: function
@@ -12,17 +12,10 @@ items:
       parameters:
         - id: originalHeader
           type:
-            - '@azure/abort-controller.HttpHeaders'
+            - HttpHeaders
           description: ''
       return:
         type:
-          - '@azure/abort-controller.HttpHeaders'
+          - HttpHeaders
         description: ''
-    package: '@azure/abort-controller'
-references:
-  - uid: '@azure/abort-controller.HttpHeaders'
-    name: HttpHeaders
-    spec.typeScript:
-      - name: HttpHeaders
-        fullName: HttpHeaders
-        uid: '@azure/abort-controller.HttpHeaders'
+    package: '@azure/storage-file-datalake'

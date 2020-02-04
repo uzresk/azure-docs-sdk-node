@@ -1,21 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.PathSetAccessControlHeaders'
+  - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders'
     name: PathSetAccessControlHeaders
     fullName: PathSetAccessControlHeaders
     children:
-      - '@azure/abort-controller.PathSetAccessControlHeaders.clientRequestId'
-      - '@azure/abort-controller.PathSetAccessControlHeaders.date'
-      - '@azure/abort-controller.PathSetAccessControlHeaders.eTag'
-      - '@azure/abort-controller.PathSetAccessControlHeaders.lastModified'
-      - '@azure/abort-controller.PathSetAccessControlHeaders.requestId'
-      - '@azure/abort-controller.PathSetAccessControlHeaders.version'
+      - '@azure/storage-file-datalake.PathSetAccessControlHeaders.clientRequestId'
+      - '@azure/storage-file-datalake.PathSetAccessControlHeaders.date'
+      - '@azure/storage-file-datalake.PathSetAccessControlHeaders.eTag'
+      - '@azure/storage-file-datalake.PathSetAccessControlHeaders.lastModified'
+      - '@azure/storage-file-datalake.PathSetAccessControlHeaders.requestId'
+      - '@azure/storage-file-datalake.PathSetAccessControlHeaders.version'
     langs:
       - typeScript
     type: interface
     summary: Defines headers for SetAccessControl operation.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathSetAccessControlHeaders.clientRequestId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders.clientRequestId'
     name: clientRequestId
     fullName: clientRequestId
     children: []
@@ -34,8 +34,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathSetAccessControlHeaders.date'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders.date'
     name: date
     fullName: date
     children: []
@@ -52,10 +52,10 @@ items:
       content: 'date?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathSetAccessControlHeaders.eTag'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders.eTag'
     name: eTag
     fullName: eTag
     children: []
@@ -70,8 +70,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathSetAccessControlHeaders.lastModified'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -88,10 +88,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathSetAccessControlHeaders.requestId'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders.requestId'
     name: requestId
     fullName: requestId
     children: []
@@ -108,8 +108,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.PathSetAccessControlHeaders.version'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.PathSetAccessControlHeaders.version'
     name: version
     fullName: version
     children: []
@@ -124,11 +124,4 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-references:
-  - uid: '@azure/abort-controller.NodeJS.Global.Date'
-    name: Date
-    spec.typeScript:
-      - name: Date
-        fullName: Date
-        uid: '@azure/abort-controller.NodeJS.Global.Date'
+    package: '@azure/storage-file-datalake'

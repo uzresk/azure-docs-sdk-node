@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.Timeout
+  - uid: '@azure/core-amqp.Timeout'
     name: Timeout
     fullName: Timeout
     children:
-      - tslib.Timeout.clear
-      - tslib.Timeout.set
-      - tslib.Timeout.set
-      - tslib.Timeout.wrap
-      - tslib.Timeout.wrap
+      - '@azure/core-amqp.Timeout.clear'
+      - '@azure/core-amqp.Timeout.set'
+      - '@azure/core-amqp.Timeout.set'
+      - '@azure/core-amqp.Timeout.wrap'
+      - '@azure/core-amqp.Timeout.wrap'
     langs:
       - typeScript
     type: class
@@ -17,8 +17,8 @@ items:
       and then resolve/reject
 
       the promise with the given value.
-    package: tslib
-  - uid: tslib.Timeout.clear
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.Timeout.clear'
     name: clear()
     children: []
     type: method
@@ -28,8 +28,8 @@ items:
     syntax:
       content: function clear()
       parameters: []
-    package: tslib
-  - uid: tslib.Timeout.set
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.Timeout.set'
     name: 'set(number, T)'
     children: []
     type: method
@@ -52,8 +52,8 @@ items:
         type:
           - Promise<T>
         description: ''
-    package: tslib
-  - uid: tslib.Timeout.set
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.Timeout.set'
     name: 'set(number, T)'
     children: []
     type: method
@@ -76,8 +76,8 @@ items:
         type:
           - Promise<T>
         description: ''
-    package: tslib
-  - uid: tslib.Timeout.wrap
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.Timeout.wrap'
     name: 'wrap(Promise<T>, number, T)'
     children: []
     type: method
@@ -104,8 +104,8 @@ items:
         type:
           - Promise<T>
         description: ''
-    package: tslib
-  - uid: tslib.Timeout.wrap
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.Timeout.wrap'
     name: 'wrap(Promise<T>, number, T)'
     children: []
     type: method
@@ -132,4 +132,4 @@ items:
         type:
           - Promise<T>
         description: ''
-    package: tslib
+    package: '@azure/core-amqp'

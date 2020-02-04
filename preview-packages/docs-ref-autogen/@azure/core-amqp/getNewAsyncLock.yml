@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.getNewAsyncLock
+  - uid: '@azure/core-amqp.getNewAsyncLock'
     name: getNewAsyncLock(AsyncLockOptions)
     children: []
     type: function
@@ -12,24 +12,18 @@ items:
       parameters:
         - id: options
           type:
-            - tslib.AsyncLockOptions
+            - '@azure/core-amqp.AsyncLockOptions'
           description: ''
           optional: true
       return:
         type:
-          - tslib.AsyncLock
+          - AsyncLock
         description: AsyncLock
-    package: tslib
+    package: '@azure/core-amqp'
 references:
-  - uid: tslib.AsyncLockOptions
+  - uid: '@azure/core-amqp.AsyncLockOptions'
     name: AsyncLockOptions
     spec.typeScript:
       - name: AsyncLockOptions
         fullName: AsyncLockOptions
-        uid: tslib.AsyncLockOptions
-  - uid: tslib.AsyncLock
-    name: AsyncLock
-    spec.typeScript:
-      - name: AsyncLock
-        fullName: AsyncLock
-        uid: tslib.AsyncLock
+        uid: '@azure/core-amqp.AsyncLockOptions'

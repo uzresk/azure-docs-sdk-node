@@ -1,6 +1,6 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.streamToBuffer'
+  - uid: '@azure/storage-file-datalake.streamToBuffer'
     name: 'streamToBuffer(ReadableStream, Buffer, number, number, undefined | string)'
     children: []
     type: function
@@ -14,7 +14,7 @@ items:
       parameters:
         - id: stream
           type:
-            - '@azure/abort-controller.NodeJS.ReadableStream'
+            - ReadableStream
           description: A Node.js Readable stream
         - id: buffer
           type:
@@ -37,11 +37,4 @@ items:
         type:
           - Promise<void>
         description: ''
-    package: '@azure/abort-controller'
-references:
-  - uid: '@azure/abort-controller.NodeJS.ReadableStream'
-    name: ReadableStream
-    spec.typeScript:
-      - name: ReadableStream
-        fullName: ReadableStream
-        uid: '@azure/abort-controller.NodeJS.ReadableStream'
+    package: '@azure/storage-file-datalake'

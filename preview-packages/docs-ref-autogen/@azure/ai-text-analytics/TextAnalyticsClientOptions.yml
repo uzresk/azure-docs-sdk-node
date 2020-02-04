@@ -1,25 +1,25 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.TextAnalyticsClientOptions'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions'
     name: TextAnalyticsClientOptions
     fullName: TextAnalyticsClientOptions
     children:
-      - '@azure/abort-controller.TextAnalyticsClientOptions.defaultCountryHint'
-      - '@azure/abort-controller.TextAnalyticsClientOptions.defaultLanguage'
-      - '@azure/abort-controller.TextAnalyticsClientOptions.httpClient'
-      - '@azure/abort-controller.TextAnalyticsClientOptions.keepAliveOptions'
-      - '@azure/abort-controller.TextAnalyticsClientOptions.proxyOptions'
-      - '@azure/abort-controller.TextAnalyticsClientOptions.redirectOptions'
-      - '@azure/abort-controller.TextAnalyticsClientOptions.retryOptions'
-      - '@azure/abort-controller.TextAnalyticsClientOptions.userAgentOptions'
+      - '@azure/ai-text-analytics.TextAnalyticsClientOptions.defaultCountryHint'
+      - '@azure/ai-text-analytics.TextAnalyticsClientOptions.defaultLanguage'
+      - '@azure/ai-text-analytics.TextAnalyticsClientOptions.httpClient'
+      - '@azure/ai-text-analytics.TextAnalyticsClientOptions.keepAliveOptions'
+      - '@azure/ai-text-analytics.TextAnalyticsClientOptions.proxyOptions'
+      - '@azure/ai-text-analytics.TextAnalyticsClientOptions.redirectOptions'
+      - '@azure/ai-text-analytics.TextAnalyticsClientOptions.retryOptions'
+      - '@azure/ai-text-analytics.TextAnalyticsClientOptions.userAgentOptions'
     langs:
       - typeScript
     type: interface
     summary: Client options used to configure TextAnalytics API requests.
     extends:
-      name: '@azure/abort-controller.PipelineOptions'
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClientOptions.defaultCountryHint'
+      name: PipelineOptions
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.defaultCountryHint'
     name: defaultCountryHint
     fullName: defaultCountryHint
     children: []
@@ -34,8 +34,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClientOptions.defaultLanguage'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.defaultLanguage'
     name: defaultLanguage
     fullName: defaultLanguage
     children: []
@@ -50,8 +50,8 @@ items:
         type:
           - string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClientOptions.httpClient'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.httpClient'
     name: httpClient
     fullName: httpClient
     children: []
@@ -66,10 +66,10 @@ items:
       content: 'httpClient?: HttpClient'
       return:
         type:
-          - '@azure/abort-controller.HttpClient'
+          - HttpClient
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClientOptions.keepAliveOptions'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.keepAliveOptions'
     name: keepAliveOptions
     fullName: keepAliveOptions
     children: []
@@ -82,10 +82,10 @@ items:
       content: 'keepAliveOptions?: KeepAliveOptions'
       return:
         type:
-          - '@azure/abort-controller.KeepAliveOptions'
+          - KeepAliveOptions
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClientOptions.proxyOptions'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.proxyOptions'
     name: proxyOptions
     fullName: proxyOptions
     children: []
@@ -98,10 +98,10 @@ items:
       content: 'proxyOptions?: ProxyOptions'
       return:
         type:
-          - '@azure/abort-controller.ProxyOptions'
+          - ProxyOptions
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClientOptions.redirectOptions'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.redirectOptions'
     name: redirectOptions
     fullName: redirectOptions
     children: []
@@ -114,10 +114,10 @@ items:
       content: 'redirectOptions?: RedirectOptions'
       return:
         type:
-          - '@azure/abort-controller.RedirectOptions'
+          - RedirectOptions
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClientOptions.retryOptions'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.retryOptions'
     name: retryOptions
     fullName: retryOptions
     children: []
@@ -130,10 +130,10 @@ items:
       content: 'retryOptions?: RetryOptions'
       return:
         type:
-          - '@azure/abort-controller.RetryOptions'
+          - RetryOptions
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.TextAnalyticsClientOptions.userAgentOptions'
+    package: '@azure/ai-text-analytics'
+  - uid: '@azure/ai-text-analytics.TextAnalyticsClientOptions.userAgentOptions'
     name: userAgentOptions
     fullName: userAgentOptions
     children: []
@@ -146,49 +146,6 @@ items:
       content: 'userAgentOptions?: UserAgentOptions'
       return:
         type:
-          - '@azure/abort-controller.UserAgentOptions'
+          - UserAgentOptions
         description: ''
-    package: '@azure/abort-controller'
-references:
-  - uid: '@azure/abort-controller.PipelineOptions'
-    name: PipelineOptions
-    spec.typeScript:
-      - name: PipelineOptions
-        fullName: PipelineOptions
-        uid: '@azure/abort-controller.PipelineOptions'
-  - uid: '@azure/abort-controller.HttpClient'
-    name: HttpClient
-    spec.typeScript:
-      - name: HttpClient
-        fullName: HttpClient
-        uid: '@azure/abort-controller.HttpClient'
-  - uid: '@azure/abort-controller.KeepAliveOptions'
-    name: KeepAliveOptions
-    spec.typeScript:
-      - name: KeepAliveOptions
-        fullName: KeepAliveOptions
-        uid: '@azure/abort-controller.KeepAliveOptions'
-  - uid: '@azure/abort-controller.ProxyOptions'
-    name: ProxyOptions
-    spec.typeScript:
-      - name: ProxyOptions
-        fullName: ProxyOptions
-        uid: '@azure/abort-controller.ProxyOptions'
-  - uid: '@azure/abort-controller.RedirectOptions'
-    name: RedirectOptions
-    spec.typeScript:
-      - name: RedirectOptions
-        fullName: RedirectOptions
-        uid: '@azure/abort-controller.RedirectOptions'
-  - uid: '@azure/abort-controller.RetryOptions'
-    name: RetryOptions
-    spec.typeScript:
-      - name: RetryOptions
-        fullName: RetryOptions
-        uid: '@azure/abort-controller.RetryOptions'
-  - uid: '@azure/abort-controller.UserAgentOptions'
-    name: UserAgentOptions
-    spec.typeScript:
-      - name: UserAgentOptions
-        fullName: UserAgentOptions
-        uid: '@azure/abort-controller.UserAgentOptions'
+    package: '@azure/ai-text-analytics'

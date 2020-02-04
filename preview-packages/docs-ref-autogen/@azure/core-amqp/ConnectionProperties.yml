@@ -1,20 +1,20 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: tslib.ConnectionProperties
+  - uid: '@azure/core-amqp.ConnectionProperties'
     name: ConnectionProperties
     fullName: ConnectionProperties
     children:
-      - tslib.ConnectionProperties.product
-      - tslib.ConnectionProperties.userAgent
-      - tslib.ConnectionProperties.version
+      - '@azure/core-amqp.ConnectionProperties.product'
+      - '@azure/core-amqp.ConnectionProperties.userAgent'
+      - '@azure/core-amqp.ConnectionProperties.version'
     langs:
       - typeScript
     type: interface
     summary: >-
       Defines the properties that need to be set while establishing the AMQP
       connection.
-    package: tslib
-  - uid: tslib.ConnectionProperties.product
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.ConnectionProperties.product'
     name: product
     fullName: product
     children: []
@@ -32,8 +32,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.ConnectionProperties.userAgent
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.ConnectionProperties.userAgent'
     name: userAgent
     fullName: userAgent
     children: []
@@ -52,8 +52,8 @@ items:
         type:
           - string
         description: ''
-    package: tslib
-  - uid: tslib.ConnectionProperties.version
+    package: '@azure/core-amqp'
+  - uid: '@azure/core-amqp.ConnectionProperties.version'
     name: version
     fullName: version
     children: []
@@ -69,4 +69,4 @@ items:
         type:
           - string
         description: ''
-    package: tslib
+    package: '@azure/core-amqp'

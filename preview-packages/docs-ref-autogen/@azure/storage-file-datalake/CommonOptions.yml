@@ -1,16 +1,16 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.CommonOptions'
+  - uid: '@azure/storage-file-datalake.CommonOptions'
     name: CommonOptions
     fullName: CommonOptions
     children:
-      - '@azure/abort-controller.CommonOptions.tracingOptions'
+      - '@azure/storage-file-datalake.CommonOptions.tracingOptions'
     langs:
       - typeScript
     type: interface
     summary: An interface for options common to every remote operation.
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.CommonOptions.tracingOptions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.CommonOptions.tracingOptions'
     name: tracingOptions
     fullName: tracingOptions
     children: []
@@ -23,13 +23,13 @@ items:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
         type:
-          - '@azure/abort-controller.OperationTracingOptions'
+          - '@azure/storage-file-datalake.OperationTracingOptions'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.OperationTracingOptions'
+  - uid: '@azure/storage-file-datalake.OperationTracingOptions'
     name: OperationTracingOptions
     spec.typeScript:
       - name: OperationTracingOptions
         fullName: OperationTracingOptions
-        uid: '@azure/abort-controller.OperationTracingOptions'
+        uid: '@azure/storage-file-datalake.OperationTracingOptions'

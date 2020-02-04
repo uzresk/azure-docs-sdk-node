@@ -29,51 +29,36 @@ items:
           optional: true
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.OpusRecorder.Record
-    name: 'Record(AudioContext, MediaStream, Stream<ArrayBuffer>)'
+    name: Record
+    fullName: Record
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
       content: >-
-        function Record(context: AudioContext, mediaStream: MediaStream,
-        outputStream: Stream<ArrayBuffer>)
-      parameters:
-        - id: context
-          type:
-            - AudioContext
-          description: ''
-        - id: mediaStream
-          type:
-            - MediaStream
-          description: ''
-        - id: outputStream
-          type:
-            - microsoft-speech-browser-sdk.Stream<ArrayBuffer>
-          description: ''
+        Record: (context: AudioContext, mediaStream: MediaStream, outputStream:
+        Stream<ArrayBuffer>) => void
+      return:
+        type:
+          - >-
+            (context: AudioContext, mediaStream: MediaStream, outputStream:
+            Stream<ArrayBuffer>) => void
+        description: ''
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.OpusRecorder.ReleaseMediaResources
-    name: ReleaseMediaResources(AudioContext)
+    name: ReleaseMediaResources
+    fullName: ReleaseMediaResources
     children: []
-    type: method
     langs:
       - typeScript
+    type: property
     summary: ''
     syntax:
-      content: 'function ReleaseMediaResources(context: AudioContext)'
-      parameters:
-        - id: context
-          type:
-            - AudioContext
-          description: ''
+      content: 'ReleaseMediaResources: (context: AudioContext) => void'
+      return:
+        type:
+          - '(context: AudioContext) => void'
+        description: ''
     package: microsoft-speech-browser-sdk
-references:
-  - uid: microsoft-speech-browser-sdk.Stream<ArrayBuffer>
-    name: Stream<ArrayBuffer>
-    spec.typeScript:
-      - name: Stream
-        fullName: Stream
-        uid: microsoft-speech-browser-sdk.Stream
-      - name: <ArrayBuffer>
-        fullName: <ArrayBuffer>

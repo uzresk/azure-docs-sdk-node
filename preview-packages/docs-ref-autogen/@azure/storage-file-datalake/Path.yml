@@ -1,23 +1,23 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/abort-controller.Path'
+  - uid: '@azure/storage-file-datalake.Path'
     name: Path
     fullName: Path
     children:
-      - '@azure/abort-controller.Path.contentLength'
-      - '@azure/abort-controller.Path.eTag'
-      - '@azure/abort-controller.Path.group'
-      - '@azure/abort-controller.Path.isDirectory'
-      - '@azure/abort-controller.Path.lastModified'
-      - '@azure/abort-controller.Path.name'
-      - '@azure/abort-controller.Path.owner'
-      - '@azure/abort-controller.Path.permissions'
+      - '@azure/storage-file-datalake.Path.contentLength'
+      - '@azure/storage-file-datalake.Path.eTag'
+      - '@azure/storage-file-datalake.Path.group'
+      - '@azure/storage-file-datalake.Path.isDirectory'
+      - '@azure/storage-file-datalake.Path.lastModified'
+      - '@azure/storage-file-datalake.Path.name'
+      - '@azure/storage-file-datalake.Path.owner'
+      - '@azure/storage-file-datalake.Path.permissions'
     langs:
       - typeScript
     type: interface
     summary: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Path.contentLength'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Path.contentLength'
     name: contentLength
     fullName: contentLength
     children: []
@@ -32,8 +32,8 @@ items:
         type:
           - undefined | number
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Path.eTag'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Path.eTag'
     name: eTag
     fullName: eTag
     children: []
@@ -48,8 +48,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Path.group'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Path.group'
     name: group
     fullName: group
     children: []
@@ -64,8 +64,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Path.isDirectory'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Path.isDirectory'
     name: isDirectory
     fullName: isDirectory
     children: []
@@ -80,8 +80,8 @@ items:
         type:
           - undefined | false | true
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Path.lastModified'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Path.lastModified'
     name: lastModified
     fullName: lastModified
     children: []
@@ -94,10 +94,10 @@ items:
       content: 'lastModified?: Date'
       return:
         type:
-          - '@azure/abort-controller.NodeJS.Global.Date'
+          - Date
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Path.name'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Path.name'
     name: name
     fullName: name
     children: []
@@ -112,8 +112,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Path.owner'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Path.owner'
     name: owner
     fullName: owner
     children: []
@@ -128,8 +128,8 @@ items:
         type:
           - undefined | string
         description: ''
-    package: '@azure/abort-controller'
-  - uid: '@azure/abort-controller.Path.permissions'
+    package: '@azure/storage-file-datalake'
+  - uid: '@azure/storage-file-datalake.Path.permissions'
     name: permissions
     fullName: permissions
     children: []
@@ -142,19 +142,13 @@ items:
       content: 'permissions?: PathPermissions'
       return:
         type:
-          - '@azure/abort-controller.PathPermissions'
+          - '@azure/storage-file-datalake.PathPermissions'
         description: ''
-    package: '@azure/abort-controller'
+    package: '@azure/storage-file-datalake'
 references:
-  - uid: '@azure/abort-controller.NodeJS.Global.Date'
-    name: Date
-    spec.typeScript:
-      - name: Date
-        fullName: Date
-        uid: '@azure/abort-controller.NodeJS.Global.Date'
-  - uid: '@azure/abort-controller.PathPermissions'
+  - uid: '@azure/storage-file-datalake.PathPermissions'
     name: PathPermissions
     spec.typeScript:
       - name: PathPermissions
         fullName: PathPermissions
-        uid: '@azure/abort-controller.PathPermissions'
+        uid: '@azure/storage-file-datalake.PathPermissions'

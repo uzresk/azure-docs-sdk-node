@@ -4,6 +4,7 @@ items:
     name: RecognitionCompletionStatus
     fullName: RecognitionCompletionStatus
     children:
+      - microsoft-speech-browser-sdk.RecognitionCompletionStatus.Success
       - >-
         microsoft-speech-browser-sdk.RecognitionCompletionStatus.AudioSourceError
       - >-
@@ -12,17 +13,25 @@ items:
         microsoft-speech-browser-sdk.RecognitionCompletionStatus.AuthTokenFetchError
       - >-
         microsoft-speech-browser-sdk.RecognitionCompletionStatus.AuthTokenFetchTimeout
+      - microsoft-speech-browser-sdk.RecognitionCompletionStatus.UnAuthorized
+      - microsoft-speech-browser-sdk.RecognitionCompletionStatus.ConnectTimeout
+      - microsoft-speech-browser-sdk.RecognitionCompletionStatus.ConnectError
       - >-
         microsoft-speech-browser-sdk.RecognitionCompletionStatus.ClientRecognitionActivityTimeout
-      - microsoft-speech-browser-sdk.RecognitionCompletionStatus.ConnectError
-      - microsoft-speech-browser-sdk.RecognitionCompletionStatus.ConnectTimeout
-      - microsoft-speech-browser-sdk.RecognitionCompletionStatus.Success
-      - microsoft-speech-browser-sdk.RecognitionCompletionStatus.UnAuthorized
       - microsoft-speech-browser-sdk.RecognitionCompletionStatus.UnknownError
     langs:
       - typeScript
     type: enum
     summary: ''
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.RecognitionCompletionStatus.Success
+    name: Success
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 0
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.RecognitionCompletionStatus.AudioSourceError
     name: AudioSourceError
@@ -31,6 +40,7 @@ items:
       - typeScript
     summary: ''
     type: field
+    numericValue: 1
     package: microsoft-speech-browser-sdk
   - uid: >-
       microsoft-speech-browser-sdk.RecognitionCompletionStatus.AudioSourceTimeout
@@ -40,6 +50,7 @@ items:
       - typeScript
     summary: ''
     type: field
+    numericValue: 2
     package: microsoft-speech-browser-sdk
   - uid: >-
       microsoft-speech-browser-sdk.RecognitionCompletionStatus.AuthTokenFetchError
@@ -49,6 +60,7 @@ items:
       - typeScript
     summary: ''
     type: field
+    numericValue: 3
     package: microsoft-speech-browser-sdk
   - uid: >-
       microsoft-speech-browser-sdk.RecognitionCompletionStatus.AuthTokenFetchTimeout
@@ -58,6 +70,34 @@ items:
       - typeScript
     summary: ''
     type: field
+    numericValue: 4
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.RecognitionCompletionStatus.UnAuthorized
+    name: UnAuthorized
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 5
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.RecognitionCompletionStatus.ConnectTimeout
+    name: ConnectTimeout
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 6
+    package: microsoft-speech-browser-sdk
+  - uid: microsoft-speech-browser-sdk.RecognitionCompletionStatus.ConnectError
+    name: ConnectError
+    children: []
+    langs:
+      - typeScript
+    summary: ''
+    type: field
+    numericValue: 7
     package: microsoft-speech-browser-sdk
   - uid: >-
       microsoft-speech-browser-sdk.RecognitionCompletionStatus.ClientRecognitionActivityTimeout
@@ -67,38 +107,7 @@ items:
       - typeScript
     summary: ''
     type: field
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.RecognitionCompletionStatus.ConnectError
-    name: ConnectError
-    children: []
-    langs:
-      - typeScript
-    summary: ''
-    type: field
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.RecognitionCompletionStatus.ConnectTimeout
-    name: ConnectTimeout
-    children: []
-    langs:
-      - typeScript
-    summary: ''
-    type: field
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.RecognitionCompletionStatus.Success
-    name: Success
-    children: []
-    langs:
-      - typeScript
-    summary: ''
-    type: field
-    package: microsoft-speech-browser-sdk
-  - uid: microsoft-speech-browser-sdk.RecognitionCompletionStatus.UnAuthorized
-    name: UnAuthorized
-    children: []
-    langs:
-      - typeScript
-    summary: ''
-    type: field
+    numericValue: 8
     package: microsoft-speech-browser-sdk
   - uid: microsoft-speech-browser-sdk.RecognitionCompletionStatus.UnknownError
     name: UnknownError
@@ -107,4 +116,5 @@ items:
       - typeScript
     summary: ''
     type: field
+    numericValue: 9
     package: microsoft-speech-browser-sdk

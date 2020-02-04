@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-  - uid: '@azure/ms-rest-azure-env.TokenProvider'
+  - uid: '@azure/amqp-common.TokenProvider'
     name: TokenProvider
     fullName: TokenProvider
     children:
-      - '@azure/ms-rest-azure-env.TokenProvider.getToken'
-      - '@azure/ms-rest-azure-env.TokenProvider.tokenRenewalMarginInSeconds'
-      - '@azure/ms-rest-azure-env.TokenProvider.tokenValidTimeInSeconds'
+      - '@azure/amqp-common.TokenProvider.getToken'
+      - '@azure/amqp-common.TokenProvider.tokenRenewalMarginInSeconds'
+      - '@azure/amqp-common.TokenProvider.tokenValidTimeInSeconds'
     langs:
       - typeScript
     type: interface
     summary: Describes the base token provider.
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.TokenProvider.getToken'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.TokenProvider.getToken'
     name: getToken(undefined | string)
     children: []
     type: method
@@ -29,10 +29,10 @@ items:
           optional: true
       return:
         type:
-          - Promise<@azure/ms-rest-azure-env.TokenInfo>
+          - Promise<@azure/amqp-common.TokenInfo>
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.TokenProvider.tokenRenewalMarginInSeconds'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.TokenProvider.tokenRenewalMarginInSeconds'
     name: tokenRenewalMarginInSeconds
     fullName: tokenRenewalMarginInSeconds
     children: []
@@ -48,8 +48,8 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ms-rest-azure-env'
-  - uid: '@azure/ms-rest-azure-env.TokenProvider.tokenValidTimeInSeconds'
+    package: '@azure/amqp-common'
+  - uid: '@azure/amqp-common.TokenProvider.tokenValidTimeInSeconds'
     name: tokenValidTimeInSeconds
     fullName: tokenValidTimeInSeconds
     children: []
@@ -65,15 +65,15 @@ items:
         type:
           - number
         description: ''
-    package: '@azure/ms-rest-azure-env'
+    package: '@azure/amqp-common'
 references:
-  - uid: Promise<@azure/ms-rest-azure-env.TokenInfo>
+  - uid: Promise<@azure/amqp-common.TokenInfo>
     name: TokenInfo>
     spec.typeScript:
       - name: Promise<
         fullName: Promise<
       - name: TokenInfo
         fullName: TokenInfo
-        uid: '@azure/ms-rest-azure-env.TokenInfo'
+        uid: '@azure/amqp-common.TokenInfo'
       - name: '>'
         fullName: '>'
