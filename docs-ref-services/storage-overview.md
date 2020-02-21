@@ -16,7 +16,7 @@ ms.service: storage
 
 [Azure Storage](https://docs.microsoft.com/azure/storage/) is a Microsoft managed service providing cloud storage that is highly available, secure, durable, scalable, and redundant. The following libraries in JavaScript make it easy to consume Azure Storage service.
 
-## Client Packages
+## Client Packages (12.X.X)
 
 |Service| NPM package| Examples|Getting Started Guide|
 |---|---|---|--|
@@ -24,6 +24,11 @@ ms.service: storage
 |**Storage File Share**|[@azure/storage-file-share](https://www.npmjs.com/package/@azure/storage-file-share)|[storage-file-share-typescript-examples](https://docs.microsoft.com/samples/azure/azure-sdk-for-js/storage-file-share-typescript/)<br> [storage-file-share-javascript-examples](https://docs.microsoft.com/samples/azure/azure-sdk-for-js/storage-file-share-javascript/)|[Readme - Azure Storage File Share](https://github.com/Azure/azure-sdk-for-js/blob/master/sdk/storage/storage-file-share/README.md)|
 |**Storage File Datalake**|[@azure/storage-file-datalake](https://www.npmjs.com/package/@azure/storage-file-datalake)|[storage-file-datalake-typescript-examples](https://docs.microsoft.com/samples/azure/azure-sdk-for-js/storage-file-datalake-typescript/)<br> [storage-file-datalake-javascript-examples](https://docs.microsoft.com/samples/azure/azure-sdk-for-js/storage-file-datalake-javascript/)|[Readme - Azure Storage File Datalake](https://github.com/Azure/azure-sdk-for-js/blob/master/sdk/storage/storage-file-datalake/README.md)|
 |**Storage Queue**|[@azure/storage-queue](https://www.npmjs.com/package/@azure/storage-queue)|[storage-queue-typescript-examples](https://docs.microsoft.com/samples/azure/azure-sdk-for-js/storage-queue-typescript/)<br> [storage-queue-javascript-examples](https://docs.microsoft.com/samples/azure/azure-sdk-for-js/storage-queue-javascript/)|Send and receive messages between cloud-connected applications with <br>[Azure Storage Queue](https://docs.microsoft.com/azure/storage/queues/storage-quickstart-queues-nodejs)|
+|||||
+
+## Client Packages (2.X.X)
+|Service| NPM package| Examples|Getting Started Guide|
+|---|---|---|--|
 |**Storage Table**|[azure-storage](https://www.npmjs.com/package/azure-storage)<br>(Legacy)| - |Read and write large structured data with [Azure Storage Table](https://docs.microsoft.com/azure/storage/storage-nodejs-how-to-use-table-storage)|
 |||||
 
